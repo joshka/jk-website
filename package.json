@@ -20,6 +20,11 @@
     "astro": "^6.4.6",
     "tailwindcss": "^4.3.0"
   },
+  "pnpm": {
+    "overrides": {
+      "esbuild": "0.28.1"
+    }
+  },
   "devDependencies": {
     "@shikijs/themes": "^4.2.0"
   }

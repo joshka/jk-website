@@ -55,6 +55,8 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - name: Build site
+        env:
+          ASTRO_BASE_PATH: /jk-website
         run: pnpm build
 
       - name: Check generated media

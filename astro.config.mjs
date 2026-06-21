@@ -5,7 +5,7 @@ import tailwindcss from '@tailwindcss/vite';
 
 import sitemap from '@astrojs/sitemap';
 
-const base = '/jk';
+const base = process.env.ASTRO_BASE_PATH ?? '/jk';
 
 // https://astro.build/config
 export default defineConfig({
