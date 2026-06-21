@@ -37,8 +37,8 @@
 @utility text-gradient {
   background: linear-gradient(
     112deg,
-    var(--color-brand-bright) 0%,
-    #62b6ff 48%,
+    var(--color-fg) 0%,
+    var(--color-brand-bright) 42%,
     var(--color-accent-bright) 100%
   );
   background-size: 150% 100%;

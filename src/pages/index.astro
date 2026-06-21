@@ -1,9 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import Button from '../components/Button.astro';
 import Container from '../components/Container.astro';
 import Glow from '../components/Glow.astro';
-import WindowDots from '../components/WindowDots.astro';
 
 const base = import.meta.env.BASE_URL.endsWith('/')
   ? import.meta.env.BASE_URL
@@ -92,18 +90,10 @@ const media = [
           templates, and colors while adding selection, inline details, and manual refresh.
         </p>
 
-        <div class="mt-6 flex flex-wrap items-center justify-center gap-3">
-          <Button href="#install" size="lg">Install jk</Button>
-          <Button href="#commands" variant="secondary" size="lg">Commands</Button>
-        </div>
-
       </div>
 
       <div class="relative mx-auto mt-8 w-full max-w-full sm:max-w-5xl">
         <div class="glass relative overflow-hidden rounded-xl shadow-2xl shadow-black/50">
-          <div class="flex items-center gap-2 border-b border-line px-4 py-3">
-            <WindowDots />
-          </div>
           <a
             href={asset('jk-homepage.gif')}
             class="block focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-brand"
@@ -117,20 +107,6 @@ const media = [
               loading="eager"
             />
           </a>
-          <div class="grid border-t border-line bg-ink-2/60 sm:grid-cols-3">
-            <div class="border-b border-line px-4 py-3 sm:border-b-0 sm:border-r">
-              <p class="font-mono text-[11px] uppercase tracking-wider text-fg-3">source</p>
-              <p class="mt-1 text-sm font-medium text-fg">rendered <code>jj log</code></p>
-            </div>
-            <div class="border-b border-line px-4 py-3 sm:border-b-0 sm:border-r">
-              <p class="font-mono text-[11px] uppercase tracking-wider text-fg-3">entry</p>
-              <p class="mt-1 text-sm font-medium text-fg">change selection</p>
-            </div>
-            <div class="px-4 py-3">
-              <p class="font-mono text-[11px] uppercase tracking-wider text-fg-3">loop</p>
-              <p class="mt-1 text-sm font-medium text-fg">manual refresh</p>
-            </div>
-          </div>
         </div>
       </div>
     </Container>
