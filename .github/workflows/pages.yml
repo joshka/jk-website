@@ -35,13 +35,13 @@ jobs:
       contents: read
     steps:
       - name: Checkout
-        uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
+        uses: actions/checkout@9f698171ed81b15d1823a05fc7211befd50c8ae0 # v6.0.3
         with:
           lfs: true
           persist-credentials: false
 
       - name: Setup pnpm
-        uses: pnpm/action-setup@9e251bfaa0b777228ae457b7bb279c1f2a6c7c6 # v4.1.0
+        uses: pnpm/action-setup@7088e561eb65bb68695d245aa206f005ef30921d # v4.1.0
         with:
           run_install: false
 
