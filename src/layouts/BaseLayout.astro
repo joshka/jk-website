@@ -11,7 +11,7 @@ interface Props {
 }
 const {
   title,
-  description = 'jk is a log-first terminal UI for Jujutsu that keeps jj output as the source of truth while adding an interactive review loop.',
+  description = "jk is a log-first terminal UI for Jujutsu VCS. It renders Jujutsu log and diff output with change selection, inline descriptions, and manual refresh.",
 } = Astro.props;
 
 const is404 = Astro.url.pathname.replace(/\/$/, '') === '/404';
