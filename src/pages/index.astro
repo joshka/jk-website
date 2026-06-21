@@ -2,11 +2,19 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Button from '../components/Button.astro';
 import Container from '../components/Container.astro';
+import Glow from '../components/Glow.astro';
+import WindowDots from '../components/WindowDots.astro';
 
 const base = import.meta.env.BASE_URL.endsWith('/')
   ? import.meta.env.BASE_URL
   : `${import.meta.env.BASE_URL}/`;
 const asset = (path: string) => `${base}assets/${path}`;
+const inlineParts = (text: string) =>
+  text.split(/(`[^`]+`)/g).map((part) =>
+    part.startsWith('`') && part.endsWith('`')
+      ? { code: true, text: part.slice(1, -1) }
+      : { code: false, text: part }
+  );
 
 const workflowItems = [
   {
@@ -14,8 +22,8 @@ const workflowItems = [
     body: 'Open a full-screen `jj` log with the same graph, revset, templates, wording, and colors that your CLI already uses.',
   },
   {
-    title: 'Inspect without losing context',
-    body: 'Move by change, expand descriptions inline, jump into the selected diff, then return to the same log selection.',
+    title: 'Keep the selected change',
+    body: 'Move by change, expand descriptions inline, and keep selection and scroll position across refresh when the change still exists.',
   },
   {
     title: 'Refresh deliberately',
@@ -46,100 +54,87 @@ const media = [
 ];
 ---
 
-<BaseLayout title="jk - a log-first TUI for Jujutsu">
-  <section class="overflow-hidden border-b border-line bg-page-hero">
-    <Container class="grid min-h-[calc(100vh-4rem)] items-center gap-12 py-16 lg:grid-cols-[0.9fr_1.1fr] lg:py-20">
-      <div class="max-w-2xl">
-        <p class="text-sm font-semibold uppercase tracking-[0.18em] text-accent">
-          Jujutsu review loop
-        </p>
-        <h1 class="mt-5 max-w-[12ch] text-5xl font-semibold leading-[0.95] text-fg sm:text-6xl lg:text-7xl">
-          jk
+<BaseLayout title="jk - a log-first TUI for Jujutsu VCS">
+  <section class="relative overflow-x-clip border-b border-line">
+    <Glow class="left-1/2 top-[-260px] h-[640px] w-[1500px] -translate-x-1/2 sm:w-[1800px]" />
+    <div aria-hidden="true" class="pointer-events-none absolute inset-0 bg-page-hero"></div>
+
+    <Container class="relative pb-20 pt-16 sm:pb-20 sm:pt-24">
+      <div class="hero-copy mx-auto w-full max-w-xs text-center sm:max-w-3xl">
+        <a
+          href="#workflow"
+          class="glass inline-flex items-center gap-2 rounded-full px-3.5 py-1.5 text-[13px] text-fg-2 transition-colors hover:text-fg focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand"
+        >
+          <span class="inline-block h-1.5 w-1.5 rounded-full bg-accent shadow-[0_0_8px_rgb(34_211_238/0.8)]"></span>
+          Jujutsu log TUI
+          <span aria-hidden="true" class="text-fg-3">→</span>
+        </a>
+
+        <h1 class="mx-auto mt-6 max-w-xs text-3xl font-semibold leading-[1.08] tracking-tight text-fg sm:max-w-3xl sm:text-balance sm:text-6xl">
+          <span class="block sm:inline">A log-first TUI</span>{' '}
+          <span class="block sm:inline">for</span>{' '}
+          <span class="block text-gradient sm:inline">Jujutsu VCS</span>
         </h1>
-        <p class="mt-6 max-w-xl text-xl leading-8 text-fg-2">
-          A log-first terminal UI for Jujutsu that keeps `jj` output as the source of truth and
-          adds an interactive review loop around it.
+
+        <p class="mx-auto mt-5 max-w-xs text-pretty text-base leading-relaxed text-fg-2 sm:max-w-xl sm:text-lg">
+          <code>jk</code> opens Jujutsu's rendered log in a TUI. It keeps the graph, revset,
+          templates, and colors from <code>jj</code>, then adds selection, inline description
+          expansion, and manual refresh.
         </p>
-        <div class="mt-8 flex flex-col gap-3 sm:flex-row">
+
+        <div class="mt-7 flex flex-wrap items-center justify-center gap-3">
           <Button href="#install" size="lg">Install jk</Button>
           <Button href="#commands" variant="secondary" size="lg">Commands</Button>
         </div>
-        <div class="mt-6 max-w-xl rounded-lg border border-line bg-panel p-4">
-          <div class="flex items-center justify-between gap-3">
-            <p class="text-xs font-semibold uppercase tracking-[0.16em] text-fg-3">macOS</p>
-            <a href="#install" class="text-xs text-fg-3 underline decoration-line-2 underline-offset-[3px] transition-colors hover:text-fg">
-              install
-            </a>
-          </div>
-          <code class="mt-3 block overflow-x-auto font-mono text-sm text-command">
-            brew install joshka/tap/jk
-          </code>
-        </div>
-        <div class="mt-10 grid max-w-xl grid-cols-3 gap-px overflow-hidden rounded-lg border border-line bg-line">
-          <div class="bg-panel px-4 py-3">
-            <p class="text-2xl font-semibold text-fg">jj</p>
-            <p class="mt-1 text-xs text-fg-3">owns output</p>
-          </div>
-          <div class="bg-panel px-4 py-3">
-            <p class="text-2xl font-semibold text-fg">log</p>
-            <p class="mt-1 text-xs text-fg-3">first view</p>
-          </div>
-          <div class="bg-panel px-4 py-3">
-            <p class="text-2xl font-semibold text-fg">diff</p>
-            <p class="mt-1 text-xs text-fg-3">review loop</p>
-          </div>
-        </div>
+
+        <p class="mt-4 font-mono text-[13px] text-fg-2">
+          <span class="select-none text-fg-3">$</span> brew install joshka/tap/jk
+        </p>
       </div>
 
-      <div class="relative">
-        <a
-          href={asset('jk-log.png')}
-          class="block rounded-lg focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand"
-        >
-          <img
-            src={asset('jk-log.png')}
-            alt="jk log view showing the Jujutsu graph"
-            width="1200"
-            height="720"
-            class="w-full rounded-lg border border-line-2 shadow-terminal"
-            loading="eager"
-          />
-        </a>
-        <div class="mt-4 grid grid-cols-2 gap-4">
+      <div class="relative mx-auto mt-12 w-full max-w-full sm:max-w-5xl">
+        <div class="glass relative overflow-hidden rounded-xl shadow-2xl shadow-black/50">
+          <div class="flex items-center gap-2 border-b border-line px-4 py-3">
+            <WindowDots />
+            <span class="ml-3 font-mono text-xs text-fg-3">jk log</span>
+          </div>
           <a
-            href={asset('jk-diff.png')}
-            class="block rounded-lg focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand"
+            href={asset('jk-log.png')}
+            class="block focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-brand"
           >
             <img
-              src={asset('jk-diff.png')}
-              alt="jk diff view"
+              src={asset('jk-log.png')}
+              alt="jk log view showing the Jujutsu graph"
               width="1200"
               height="720"
-              class="aspect-video w-full rounded-lg border border-line object-cover"
+              class="block w-full max-w-full"
+              loading="eager"
             />
           </a>
-          <a
-            href={asset('jk-log-expanded.png')}
-            class="block rounded-lg focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand"
-          >
-            <img
-              src={asset('jk-log-expanded.png')}
-              alt="jk log row with expanded description"
-              width="1200"
-              height="720"
-              class="aspect-video w-full rounded-lg border border-line object-cover"
-            />
-          </a>
+          <div class="grid border-t border-line bg-ink-2/60 sm:grid-cols-3">
+            <div class="border-b border-line px-4 py-3 sm:border-b-0 sm:border-r">
+              <p class="font-mono text-[11px] uppercase tracking-wider text-fg-3">source</p>
+              <p class="mt-1 text-sm font-medium text-fg">rendered <code>jj log</code></p>
+            </div>
+            <div class="border-b border-line px-4 py-3 sm:border-b-0 sm:border-r">
+              <p class="font-mono text-[11px] uppercase tracking-wider text-fg-3">entry</p>
+              <p class="mt-1 text-sm font-medium text-fg">change selection</p>
+            </div>
+            <div class="px-4 py-3">
+              <p class="font-mono text-[11px] uppercase tracking-wider text-fg-3">loop</p>
+              <p class="mt-1 text-sm font-medium text-fg">manual refresh</p>
+            </div>
+          </div>
         </div>
       </div>
     </Container>
   </section>
 
-  <section id="install" class="border-b border-line bg-ink py-20">
+  <section id="install" class="border-b border-line bg-ink py-16 sm:py-24">
     <Container>
       <div class="max-w-3xl">
-        <p class="text-sm font-semibold uppercase tracking-[0.18em] text-accent">Install</p>
-        <h2 class="mt-4 text-3xl font-semibold text-fg sm:text-4xl">Install it fast.</h2>
+        <p class="font-mono text-[13px] uppercase tracking-widest text-fg-3">Install</p>
+        <h2 class="mt-3 text-3xl font-semibold tracking-tight text-fg sm:text-4xl">Install</h2>
         <p class="mt-4 text-lg leading-8 text-fg-2">
           Install from Josh's Homebrew tap on macOS, or use cargo-binstall for prebuilt Rust
           release archives on macOS and Linux.
@@ -190,7 +185,7 @@ brew install joshka/tap/jk</code></pre>
             <code class="block overflow-x-auto px-3 py-3 font-mono text-[13px] text-command">cargo binstall jk</code>
           </div>
           <p class="mt-4 text-sm leading-6 text-fg-2">
-            Uses the published `jk` binary archive when your platform is supported.
+            Uses the published <code>jk</code> binary archive when your platform is supported.
           </p>
         </article>
         <article class="rounded-lg border border-line bg-panel p-6">
@@ -232,14 +227,16 @@ brew install joshka/tap/jk</code></pre>
     });
   </script>
 
-  <section id="workflow" class="border-b border-line bg-ink py-20">
+  <section id="workflow" class="border-b border-line bg-ink py-16 sm:py-24">
     <Container>
       <div class="max-w-3xl">
-        <p class="text-sm font-semibold uppercase tracking-[0.18em] text-accent">Workflow</p>
-        <h2 class="mt-4 text-3xl font-semibold text-fg sm:text-4xl">Keep the graph open.</h2>
+        <p class="font-mono text-[13px] uppercase tracking-widest text-fg-3">Workflow</p>
+        <h2 class="mt-3 text-3xl font-semibold tracking-tight text-fg sm:text-4xl">
+          Log, details, refresh.
+        </h2>
         <p class="mt-4 text-lg leading-8 text-fg-2">
-          `jk` is built for the inspection loop: log, details, diff, back, refresh. It is useful
-          when your repository keeps changing while you review, edit, or let an agent work.
+          <code>jk</code> starts in the log. Move by change, expand the selected description, and
+          refresh after editor or agent writes.
         </p>
       </div>
 
@@ -248,7 +245,13 @@ brew install joshka/tap/jk</code></pre>
           workflowItems.map(({ title, body }) => (
             <article class="rounded-lg border border-line bg-panel p-6">
               <h3 class="text-lg font-semibold text-fg">{title}</h3>
-              <p class="mt-3 text-sm leading-6 text-fg-2">{body}</p>
+              <p class="mt-3 text-sm leading-6 text-fg-2">
+                {
+                  inlineParts(body).map((part) =>
+                    part.code ? <code>{part.text}</code> : <>{part.text}</>
+                  )
+                }
+              </p>
             </article>
           ))
         }
@@ -256,14 +259,16 @@ brew install joshka/tap/jk</code></pre>
     </Container>
   </section>
 
-  <section class="border-b border-line bg-ink-2 py-20">
+  <section class="border-b border-line bg-ink-2 py-16 sm:py-24">
     <Container class="grid gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
       <div>
-        <p class="text-sm font-semibold uppercase tracking-[0.18em] text-accent">Diff review</p>
-        <h2 class="mt-4 text-3xl font-semibold text-fg sm:text-4xl">Preserve `jj diff`. Add review controls.</h2>
+        <p class="font-mono text-[13px] uppercase tracking-widest text-fg-3">Diff review</p>
+        <h2 class="mt-3 text-3xl font-semibold tracking-tight text-fg sm:text-4xl">
+          Render <code>jj diff</code>.
+        </h2>
         <p class="mt-4 text-lg leading-8 text-fg-2">
-          The diff view keeps the rendered `jj diff` output and layers navigation, folding, sticky
-          file context, search, and help over it.
+          <code>jk diff</code> opens rendered <code>jj diff</code> output for the current change or
+          a named revision. The diff view uses the same rendered output as the command line.
         </p>
       </div>
       <img
@@ -277,15 +282,17 @@ brew install joshka/tap/jk</code></pre>
     </Container>
   </section>
 
-  <section id="commands" class="border-b border-line bg-ink py-20">
+  <section id="commands" class="border-b border-line bg-ink py-16 sm:py-24">
     <Container class="grid gap-10 lg:grid-cols-[0.75fr_1.25fr]">
       <div>
-        <p class="text-sm font-semibold uppercase tracking-[0.18em] text-accent">Commands</p>
-        <h2 class="mt-4 text-3xl font-semibold text-fg sm:text-4xl">Small CLI surface.</h2>
+        <p class="font-mono text-[13px] uppercase tracking-widest text-fg-3">Commands</p>
+        <h2 class="mt-3 text-3xl font-semibold tracking-tight text-fg sm:text-4xl">
+          Small CLI surface.
+        </h2>
         <p class="mt-4 text-lg leading-8 text-fg-2">
-          `jk` aims to stay generally compatible with the `jj` commands it wraps, so you can
-          eventually swap it into the commands you already type. Today, bare `jk` follows `jj`'s
-          configured default command when it is log-like enough for semantic navigation.
+          Bare <code>jk</code> follows <code>jj</code>'s configured default command when it is
+          log-like enough for semantic navigation. Explicit <code>jk log</code> and
+          <code>jk diff</code> commands keep the same command boundary visible.
         </p>
       </div>
       <div class="overflow-hidden rounded-lg border border-line bg-panel">
@@ -293,7 +300,13 @@ brew install joshka/tap/jk</code></pre>
           commandRows.map(([command, description]) => (
             <div class="grid gap-3 border-b border-line p-4 last:border-b-0 sm:grid-cols-[15rem_1fr]">
               <code class="font-mono text-sm text-command">{command}</code>
-              <p class="text-sm leading-6 text-fg-2">{description}</p>
+              <p class="text-sm leading-6 text-fg-2">
+                {
+                  inlineParts(description).map((part) =>
+                    part.code ? <code>{part.text}</code> : <>{part.text}</>
+                  )
+                }
+              </p>
             </div>
           ))
         }
@@ -301,13 +314,15 @@ brew install joshka/tap/jk</code></pre>
     </Container>
   </section>
 
-  <section id="media" class="bg-ink-2 py-20">
+  <section id="media" class="bg-ink-2 py-16 sm:py-24">
     <Container>
       <div class="max-w-3xl">
-        <p class="text-sm font-semibold uppercase tracking-[0.18em] text-accent">Media</p>
-        <h2 class="mt-4 text-3xl font-semibold text-fg sm:text-4xl">Screenshots</h2>
+        <p class="font-mono text-[13px] uppercase tracking-widest text-fg-3">Media</p>
+        <h2 class="mt-3 text-3xl font-semibold tracking-tight text-fg sm:text-4xl">
+          Screenshots
+        </h2>
         <p class="mt-4 text-lg leading-8 text-fg-2">
-          See the current log and diff review states that shape `jk`'s interaction model.
+          Current log and diff renders from <code>jk</code> development.
         </p>
       </div>
 

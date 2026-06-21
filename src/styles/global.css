@@ -2,26 +2,26 @@
 
 @theme {
   /* Surfaces */
-  --color-ink: #070b0a;
-  --color-ink-2: #0d1110;
-  --color-panel: #151a18;
-  --color-panel-2: #1c2320;
+  --color-ink: #0a0a0f;
+  --color-ink-2: #0e0e16;
+  --color-panel: #13131d;
+  --color-panel-2: #181826;
 
   /* Hairlines */
   --color-line: rgb(255 255 255 / 0.08);
   --color-line-2: rgb(255 255 255 / 0.14);
 
   /* Text */
-  --color-fg: #f3f5ee;
-  --color-fg-2: #b8c0b3;
-  --color-fg-3: #849084;
+  --color-fg: #f5f5f8;
+  --color-fg-2: #a0a0b4;
+  --color-fg-3: #82829a;
 
   /* Brand */
-  --color-brand: #7dd46f;
-  --color-brand-bright: #b8e986;
-  --color-accent: #f0b35a;
-  --color-accent-bright: #ffd27d;
-  --color-command: #f2c879;
+  --color-brand: #7c5cff;
+  --color-brand-bright: #a995ff;
+  --color-accent: #2bb8e8;
+  --color-accent-bright: #72d7ff;
+  --color-command: #72d7ff;
 
   /* Type */
   --font-sans: 'Inter Variable', ui-sans-serif, system-ui, sans-serif;
@@ -35,10 +35,24 @@
 }
 
 @utility text-gradient {
-  background: linear-gradient(100deg, var(--color-brand-bright) 0%, var(--color-accent) 100%);
+  background: linear-gradient(
+    112deg,
+    var(--color-brand-bright) 0%,
+    #74a8ff 44%,
+    var(--color-accent-bright) 100%
+  );
+  background-size: 150% 100%;
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+}
+
+@utility btn-primary {
+  background:
+    linear-gradient(rgb(255 255 255 / 0.05), rgb(255 255 255 / 0.01)),
+    #192033;
+  border: 1px solid rgb(114 215 255 / 0.28);
+  color: var(--color-fg);
 }
 
 @utility glass {
@@ -54,8 +68,8 @@
 
 @utility shadow-glow {
   box-shadow:
-    0 0 24px rgb(125 212 111 / 0.22),
-    0 0 64px rgb(240 179 90 / 0.14);
+    0 0 0 1px rgb(124 92 255 / 0.08),
+    0 14px 42px rgb(43 184 232 / 0.10);
 }
 
 @utility shadow-terminal {
@@ -66,8 +80,10 @@
 
 @utility bg-page-hero {
   background:
-    radial-gradient(circle at 30% 20%, rgb(125 212 111 / 0.16), transparent 32rem),
-    linear-gradient(140deg, var(--color-ink) 0%, #101510 58%, #19140d 100%);
+    linear-gradient(rgb(255 255 255 / 0.025) 1px, transparent 1px),
+    linear-gradient(90deg, rgb(255 255 255 / 0.025) 1px, transparent 1px);
+  background-size: 56px 56px;
+  mask-image: radial-gradient(ellipse at top, black 30%, transparent 75%);
 }
 
 html {
@@ -89,7 +105,7 @@ body {
 }
 
 ::selection {
-  background: rgb(125 212 111 / 0.35);
+  background: rgb(139 92 246 / 0.4);
 }
 
 /* Shiki code blocks: let panels own the background */
@@ -97,4 +113,18 @@ body {
   background-color: transparent !important;
   font-size: 0.8125rem;
   line-height: 1.7;
+}
+
+.hero-copy {
+  overflow-wrap: anywhere;
+}
+
+:not(pre) > code {
+  border: 1px solid var(--color-line);
+  border-radius: 0.375rem;
+  background: rgb(255 255 255 / 0.045);
+  padding: 0.08rem 0.28rem;
+  color: var(--color-fg);
+  font-family: var(--font-mono);
+  font-size: 0.88em;
 }
