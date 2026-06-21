@@ -53,27 +53,37 @@ Enter
 Sleep 900ms
 Type "r"
 Sleep 700ms
+Type "k"
+Sleep 250ms
+Type "k"
+Sleep 250ms
 Type "d"
 Wait+Screen "jk jj diff"
 Sleep 1000ms
-Type "?"
+Type "h"
+Sleep 900ms
+Type "l"
+Sleep 700ms
+Type "-"
+Sleep 900ms
+Type "+"
 Sleep 700ms
 Type "?"
+Sleep 4s
+Type "?"
 Sleep 300ms
-Type "/"
-Sleep 250ms
-Type "refresh"
-Enter
-Sleep 800ms
+Type "]"
+Sleep 700ms
+Type "]"
+Sleep 700ms
 Type "}"
 Sleep 650ms
 Type "-"
 Sleep 900ms
 Type "+"
 Sleep 550ms
-Type "H"
-Wait+Screen "jk jj"
-Sleep 900ms
-Type "L"
-Wait+Screen "jk jj log"
-Sleep 700ms
+Type "/"
+Sleep 250ms
+Type "refresh"
+Enter
+Sleep 800ms
