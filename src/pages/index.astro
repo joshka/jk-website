@@ -136,8 +136,8 @@ const media = [
   </section>
 
   <section id="install" class="border-b border-line bg-ink py-20">
-    <Container class="grid gap-10 lg:grid-cols-[0.75fr_1.25fr]">
-      <div>
+    <Container>
+      <div class="max-w-3xl">
         <p class="text-sm font-semibold uppercase tracking-[0.18em] text-accent">Install</p>
         <h2 class="mt-4 text-3xl font-semibold text-fg sm:text-4xl">Install it fast.</h2>
         <p class="mt-4 text-lg leading-8 text-fg-2">
@@ -145,11 +145,24 @@ const media = [
           release archives on macOS and Linux.
         </p>
       </div>
-      <div class="grid gap-4 lg:grid-cols-3">
+      <div class="mt-10 grid gap-4 lg:grid-cols-3">
         <article class="rounded-lg border border-line bg-panel p-6">
-          <p class="text-sm font-semibold text-fg">Homebrew on macOS</p>
-          <pre class="mt-4 overflow-x-auto rounded-md bg-ink px-4 py-3 font-mono text-sm leading-6 text-command"><code>brew trust --formula joshka/tap/jk
+          <div class="flex items-center justify-between gap-4">
+            <p class="text-sm font-semibold text-fg">Homebrew on macOS</p>
+            <button
+              type="button"
+              class="copy-command shrink-0 rounded border border-line px-2.5 py-1 text-xs font-semibold text-fg-2 transition-colors hover:border-brand hover:text-fg focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand"
+              data-command={`brew trust --formula joshka/tap/jk
+brew install joshka/tap/jk`}
+              aria-label="Copy Homebrew install commands"
+            >
+              Copy
+            </button>
+          </div>
+          <div class="mt-4 rounded-md bg-ink">
+            <pre class="overflow-x-auto px-3 py-3 font-mono text-[13px] leading-6 text-command"><code>brew trust --formula joshka/tap/jk
 brew install joshka/tap/jk</code></pre>
+          </div>
           <p class="mt-4 text-sm leading-6 text-fg-2">
             The trust step follows the
             <a
@@ -162,19 +175,39 @@ brew install joshka/tap/jk</code></pre>
           </p>
         </article>
         <article class="rounded-lg border border-line bg-panel p-6">
-          <p class="text-sm font-semibold text-fg">cargo-binstall</p>
-          <code class="mt-4 block overflow-x-auto rounded-md bg-ink px-4 py-3 font-mono text-sm text-command">
-            cargo binstall jk
-          </code>
+          <div class="flex items-center justify-between gap-4">
+            <p class="text-sm font-semibold text-fg">cargo-binstall</p>
+            <button
+              type="button"
+              class="copy-command shrink-0 rounded border border-line px-2.5 py-1 text-xs font-semibold text-fg-2 transition-colors hover:border-brand hover:text-fg focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand"
+              data-command="cargo binstall jk"
+              aria-label="Copy cargo-binstall command"
+            >
+              Copy
+            </button>
+          </div>
+          <div class="mt-4 rounded-md bg-ink">
+            <code class="block overflow-x-auto px-3 py-3 font-mono text-[13px] text-command">cargo binstall jk</code>
+          </div>
           <p class="mt-4 text-sm leading-6 text-fg-2">
             Uses the published `jk` binary archive when your platform is supported.
           </p>
         </article>
         <article class="rounded-lg border border-line bg-panel p-6">
-          <p class="text-sm font-semibold text-fg">From source</p>
-          <code class="mt-4 block overflow-x-auto rounded-md bg-ink px-4 py-3 font-mono text-sm text-command">
-            cargo install jk
-          </code>
+          <div class="flex items-center justify-between gap-4">
+            <p class="text-sm font-semibold text-fg">From source</p>
+            <button
+              type="button"
+              class="copy-command shrink-0 rounded border border-line px-2.5 py-1 text-xs font-semibold text-fg-2 transition-colors hover:border-brand hover:text-fg focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand"
+              data-command="cargo install jk --locked"
+              aria-label="Copy source install command"
+            >
+              Copy
+            </button>
+          </div>
+          <div class="mt-4 rounded-md bg-ink">
+            <code class="block overflow-x-auto px-3 py-3 font-mono text-[13px] text-command">cargo install jk --locked</code>
+          </div>
           <p class="mt-4 text-sm leading-6 text-fg-2">
             Falls back to a normal crates.io build when you want Cargo to compile locally.
           </p>
@@ -182,6 +215,22 @@ brew install joshka/tap/jk</code></pre>
       </div>
     </Container>
   </section>
+
+  <script>
+    document.querySelectorAll<HTMLButtonElement>('.copy-command').forEach((button) => {
+      const label = button.textContent?.trim() ?? 'Copy';
+      button.addEventListener('click', async () => {
+        const command = button.dataset.command;
+        if (!command) return;
+
+        await navigator.clipboard.writeText(command);
+        button.textContent = 'Copied';
+        window.setTimeout(() => {
+          button.textContent = label;
+        }, 1600);
+      });
+    });
+  </script>
 
   <section id="workflow" class="border-b border-line bg-ink py-20">
     <Container>
