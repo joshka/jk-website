@@ -80,9 +80,55 @@ jj file track .github/workflows/release.yml >/dev/null
 jj bookmark set release/v0.3 -r @ >/dev/null
 
 jj new --message "Document refresh workflow" >/dev/null
-cat >> docs/keys.md <<'EOF'
+cat > docs/keys.md <<'EOF'
+# Keys
+
+The log view keeps common navigation close to the home row.
+
+## Log navigation
+
+- `j` and `k` move between changes
+- `g` jumps to the top of the rendered log
+- `G` jumps to the bottom of the rendered log
+- `Space` and `b` move by page
+- `Enter` expands the selected change
+- `d` opens the selected diff
+- `r` refreshes the repository view
+
+## Diff review
+
+- `j` and `k` move between rendered lines
+- `[` and `]` move between files
+- `{` and `}` move between hunks
+- `-` folds the current hunk
+- `h` folds the current file
+
+## Overlays
+
 - `?` opens contextual help
 - `/` searches within the rendered view
+- `H` returns to the configured home command
+- `L` switches to an explicit `jj log`
 EOF
+cat >> README.md <<'EOF'
+
+## Daily Workflow
+
+Keep the log open beside an editor, make a change, then press `r` to refresh the view without
+losing the selected change.
+EOF
+perl -0pi -e 's/let commands = \["deploy", "rollback", "status"\];/let commands = [\n        "deploy",\n        "rollback",\n        "status",\n        "refresh",\n    ];/' src/main.rs
+cat >> docs/release.md <<'EOF'
+- refresh the homepage capture after UI changes
+- confirm generated media is not an LFS pointer
+EOF
+mkdir -p examples
+cat > examples/refresh-session.txt <<'EOF'
+$ jk
+select Document refresh workflow
+press d to inspect the current change
+press r after the editor writes files
+EOF
+jj file track examples/refresh-session.txt >/dev/null
 
 jj log -r 'all()' --no-graph -T 'change_id.short() ++ " " ++ description.first_line() ++ "\n"' >/dev/null
