@@ -17,11 +17,11 @@
   --color-fg-3: #82829a;
 
   /* Brand */
-  --color-brand: #7c5cff;
-  --color-brand-bright: #a995ff;
-  --color-accent: #2bb8e8;
-  --color-accent-bright: #72d7ff;
-  --color-command: #72d7ff;
+  --color-brand: #4f7dff;
+  --color-brand-bright: #7fa6ff;
+  --color-accent: #25afe6;
+  --color-accent-bright: #79d9ff;
+  --color-command: #79d9ff;
 
   /* Type */
   --font-sans: 'Inter Variable', ui-sans-serif, system-ui, sans-serif;
@@ -38,7 +38,7 @@
   background: linear-gradient(
     112deg,
     var(--color-brand-bright) 0%,
-    #74a8ff 44%,
+    #62b6ff 48%,
     var(--color-accent-bright) 100%
   );
   background-size: 150% 100%;
@@ -51,7 +51,7 @@
   background:
     linear-gradient(rgb(255 255 255 / 0.05), rgb(255 255 255 / 0.01)),
     #192033;
-  border: 1px solid rgb(114 215 255 / 0.28);
+  border: 1px solid rgb(121 217 255 / 0.30);
   color: var(--color-fg);
 }
 
@@ -68,8 +68,8 @@
 
 @utility shadow-glow {
   box-shadow:
-    0 0 0 1px rgb(124 92 255 / 0.08),
-    0 14px 42px rgb(43 184 232 / 0.10);
+    0 0 0 1px rgb(79 125 255 / 0.10),
+    0 14px 42px rgb(37 175 230 / 0.11);
 }
 
 @utility shadow-terminal {
@@ -105,7 +105,7 @@ body {
 }
 
 ::selection {
-  background: rgb(139 92 246 / 0.4);
+  background: rgb(79 125 255 / 0.35);
 }
 
 /* Shiki code blocks: let panels own the background */
