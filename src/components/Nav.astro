@@ -3,8 +3,15 @@ import Button from './Button.astro';
 import Container from './Container.astro';
 import Logo from './Logo.astro';
 
-const links = [{ label: 'Blog', href: '/blog/' }];
-const current = Astro.url.pathname;
+const base = import.meta.env.BASE_URL.endsWith('/')
+  ? import.meta.env.BASE_URL
+  : `${import.meta.env.BASE_URL}/`;
+const links = [
+  { label: 'Install', href: '#install' },
+  { label: 'Workflow', href: '#workflow' },
+  { label: 'Commands', href: '#commands' },
+  { label: 'Media', href: '#media' },
+];
 ---
 
 <header class="sticky top-0 z-50 border-b border-line bg-ink/70 backdrop-blur-xl" data-nav>
@@ -17,12 +24,8 @@ const current = Astro.url.pathname;
             links.map(({ label, href }) => (
               <li>
                 <a
-                  href={href}
-                  aria-current={current.startsWith(href) ? 'page' : undefined}
-                  class:list={[
-                    'text-sm transition-colors focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand',
-                    current.startsWith(href) ? 'text-fg' : 'text-fg-2 hover:text-fg',
-                  ]}
+                  href={`${base}${href}`}
+                  class="text-sm text-fg-2 transition-colors hover:text-fg focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand"
                 >
                   {label}
                 </a>
@@ -34,7 +37,7 @@ const current = Astro.url.pathname;
 
       <div class="flex items-center gap-3">
         <a
-          href="https://github.com/cbetz/pulsar-lite"
+          href="https://github.com/joshka/jk"
           class="hidden text-fg-2 transition-colors hover:text-fg focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand sm:block"
           aria-label="GitHub"
         >
@@ -44,8 +47,8 @@ const current = Astro.url.pathname;
             ></path>
           </svg>
         </a>
-        <Button href="/blog/vega-2-0-edge-caching-ga/" variant="primary" size="sm">
-          Get started
+        <Button href="https://github.com/joshka/jk" variant="primary" size="sm">
+          GitHub
         </Button>
         <button
           type="button"
@@ -97,12 +100,8 @@ const current = Astro.url.pathname;
           links.map(({ label, href }) => (
             <li>
               <a
-                href={href}
-                aria-current={current.startsWith(href) ? 'page' : undefined}
-                class:list={[
-                  'flex min-h-11 items-center rounded-lg px-2 text-sm transition-colors focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-brand',
-                  current.startsWith(href) ? 'text-fg' : 'text-fg-2 hover:text-fg',
-                ]}
+                href={`${base}${href}`}
+                class="flex min-h-11 items-center rounded-lg px-2 text-sm text-fg-2 transition-colors hover:text-fg focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-brand"
               >
                 {label}
               </a>
@@ -112,7 +111,7 @@ const current = Astro.url.pathname;
       </ul>
       <div class="mt-2 border-t border-line pt-2">
         <a
-          href="https://github.com/cbetz/pulsar-lite"
+          href="https://github.com/joshka/jk"
           class="flex min-h-11 items-center rounded-lg px-2 text-sm text-fg-2 transition-colors hover:text-fg focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-brand"
         >
           GitHub

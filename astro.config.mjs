@@ -5,9 +5,12 @@ import tailwindcss from '@tailwindcss/vite';
 
 import sitemap from '@astrojs/sitemap';
 
+const base = '/jk';
+
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://pulsar-lite.cometthemes.com',
+  site: 'https://www.joshka.net',
+  base,
 
   vite: {
     plugins: [tailwindcss()],

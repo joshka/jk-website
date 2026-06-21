@@ -1,31 +1,27 @@
 @import 'tailwindcss';
 
-/* ─────────────────────────────────────────────────────────────
-   Pulsar design tokens — "dark glow"
-   Near-black base, violet→cyan accents, glassy panels.
-   ───────────────────────────────────────────────────────────── */
-
 @theme {
   /* Surfaces */
-  --color-ink: #0a0a0f;
-  --color-ink-2: #0e0e16;
-  --color-panel: #13131d;
-  --color-panel-2: #181826;
+  --color-ink: #070b0a;
+  --color-ink-2: #0d1110;
+  --color-panel: #151a18;
+  --color-panel-2: #1c2320;
 
   /* Hairlines */
   --color-line: rgb(255 255 255 / 0.08);
   --color-line-2: rgb(255 255 255 / 0.14);
 
   /* Text */
-  --color-fg: #f5f5f8;
-  --color-fg-2: #a0a0b4;
-  --color-fg-3: #82829a;
+  --color-fg: #f3f5ee;
+  --color-fg-2: #b8c0b3;
+  --color-fg-3: #849084;
 
   /* Brand */
-  --color-brand: #8b5cf6;
-  --color-brand-bright: #a78bfa;
-  --color-accent: #22d3ee;
-  --color-accent-bright: #67e8f9;
+  --color-brand: #7dd46f;
+  --color-brand-bright: #b8e986;
+  --color-accent: #f0b35a;
+  --color-accent-bright: #ffd27d;
+  --color-command: #f2c879;
 
   /* Type */
   --font-sans: 'Inter Variable', ui-sans-serif, system-ui, sans-serif;
@@ -38,7 +34,6 @@
   --default-transition-timing-function: var(--ease-out-soft);
 }
 
-/* Brand gradient text */
 @utility text-gradient {
   background: linear-gradient(100deg, var(--color-brand-bright) 0%, var(--color-accent) 100%);
   -webkit-background-clip: text;
@@ -46,7 +41,6 @@
   color: transparent;
 }
 
-/* Glassy panel */
 @utility glass {
   background: rgb(255 255 255 / 0.03);
   border: 1px solid var(--color-line);
@@ -54,16 +48,26 @@
   -webkit-backdrop-filter: blur(12px);
 }
 
-/* Hairline ring used on cards/inputs */
 @utility ring-line {
   box-shadow: inset 0 0 0 1px var(--color-line);
 }
 
-/* Soft glow shadow behind primary CTAs */
 @utility shadow-glow {
   box-shadow:
-    0 0 24px rgb(139 92 246 / 0.35),
-    0 0 64px rgb(34 211 238 / 0.12);
+    0 0 24px rgb(125 212 111 / 0.22),
+    0 0 64px rgb(240 179 90 / 0.14);
+}
+
+@utility shadow-terminal {
+  box-shadow:
+    0 24px 80px rgb(0 0 0 / 0.45),
+    0 0 0 1px rgb(255 255 255 / 0.06);
+}
+
+@utility bg-page-hero {
+  background:
+    radial-gradient(circle at 30% 20%, rgb(125 212 111 / 0.16), transparent 32rem),
+    linear-gradient(140deg, var(--color-ink) 0%, #101510 58%, #19140d 100%);
 }
 
 html {
@@ -85,7 +89,7 @@ body {
 }
 
 ::selection {
-  background: rgb(139 92 246 / 0.4);
+  background: rgb(125 212 111 / 0.35);
 }
 
 /* Shiki code blocks: let panels own the background */

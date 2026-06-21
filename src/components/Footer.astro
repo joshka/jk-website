@@ -2,22 +2,24 @@
 import Container from './Container.astro';
 import Logo from './Logo.astro';
 
+const base = import.meta.env.BASE_URL.endsWith('/')
+  ? import.meta.env.BASE_URL
+  : `${import.meta.env.BASE_URL}/`;
 const columns = [
   {
-    title: 'Product',
+    title: 'Site',
     links: [
-      { label: 'Features', href: '/#features' },
-      { label: 'Blog', href: '/blog/' },
+      { label: 'Install', href: `${base}#install` },
+      { label: 'Workflow', href: `${base}#workflow` },
+      { label: 'Commands', href: `${base}#commands` },
+      { label: 'Media assets', href: `${base}#media` },
     ],
   },
   {
     title: 'Resources',
     links: [
-      { label: 'GitHub', href: 'https://github.com/cbetz/pulsar-lite' },
-      {
-        label: 'Pulsar (paid)',
-        href: 'https://buy.cometthemes.com',
-      },
+      { label: 'jk repository', href: 'https://github.com/joshka/jk' },
+      { label: 'Jujutsu', href: 'https://github.com/jj-vcs/jj' },
     ],
   },
 ];
@@ -29,8 +31,7 @@ const columns = [
       <div>
         <Logo />
         <p class="mt-3 max-w-xs text-sm leading-relaxed text-fg-3">
-          The API platform for teams that ship. Build, deploy, and observe — without the
-          infrastructure tax.
+          A log-first terminal UI for Jujutsu that preserves the `jj` output you already trust.
         </p>
       </div>
       {
@@ -52,9 +53,9 @@ const columns = [
     </div>
 
     <div class="mt-12 flex flex-col items-start justify-between gap-4 border-t border-line pt-6 sm:flex-row sm:items-center">
-      <p class="text-[13px] text-fg-3">© {new Date().getFullYear()} Vega Labs, Inc. All rights reserved.</p>
+      <p class="text-[13px] text-fg-3">© {new Date().getFullYear()} Josh McKinney.</p>
       <p class="text-[13px] text-fg-3">
-        Built with Pulsar Lite — <a href="https://buy.cometthemes.com" class="text-fg-2 underline decoration-line-2 underline-offset-[3px] transition-colors hover:text-fg focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand">upgrade to Pulsar</a>
+        Screenshots are served from this Git LFS-backed site.
       </p>
     </div>
   </Container>
