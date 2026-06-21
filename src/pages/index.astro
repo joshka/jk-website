@@ -39,6 +39,25 @@ const commandRows = [
   ['jk -R /path/to/repo -n 20', 'Open another repository with a limited log.'],
 ];
 
+const roadmapItems = [
+  {
+    title: 'Navigate history',
+    body: 'Keep the rendered `jj` graph central while making changes, bookmarks, branches, and revsets easy to move through.',
+  },
+  {
+    title: 'Review with context',
+    body: 'Bring diffs, search, folded files, folded hunks, and help into the same terminal surface as the selected change.',
+  },
+  {
+    title: 'Act on changes',
+    body: 'Grow toward the common `jj` operations needed while reviewing: describe, split, squash, bookmark, rebase, and abandon.',
+  },
+  {
+    title: 'Stay in sync',
+    body: 'Support editor and agent workflows with deliberate refresh now, then stronger repository-state awareness as the UI matures.',
+  },
+];
+
 const media = [
   { file: 'jk-homepage.gif', label: 'Homepage workflow animation', preview: 'jk-homepage.gif' },
   { file: 'jk-log.gif', label: 'Log workflow animation', preview: 'jk-log.png' },
@@ -60,44 +79,30 @@ const media = [
     <Glow class="left-1/2 top-[-260px] h-[640px] w-[1500px] -translate-x-1/2 sm:w-[1800px]" />
     <div aria-hidden="true" class="pointer-events-none absolute inset-0 bg-page-hero"></div>
 
-    <Container class="relative pb-20 pt-16 sm:pb-20 sm:pt-24">
+    <Container class="relative pb-16 pt-10 sm:pb-16 sm:pt-12">
       <div class="hero-copy mx-auto w-full max-w-xs text-center sm:max-w-3xl">
-        <a
-          href="#workflow"
-          class="glass inline-flex items-center gap-2 rounded-full px-3.5 py-1.5 text-[13px] text-fg-2 transition-colors hover:text-fg focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand"
-        >
-          <span class="inline-block h-1.5 w-1.5 rounded-full bg-accent shadow-[0_0_8px_rgb(34_211_238/0.8)]"></span>
-          Jujutsu log TUI
-          <span aria-hidden="true" class="text-fg-3">→</span>
-        </a>
-
-        <h1 class="mx-auto mt-6 max-w-xs text-3xl font-semibold leading-[1.08] tracking-tight text-fg sm:max-w-3xl sm:text-balance sm:text-6xl">
+        <h1 class="mx-auto max-w-xs text-3xl font-semibold leading-[1.08] tracking-tight text-fg sm:max-w-3xl sm:text-balance sm:text-6xl">
           <span class="block sm:inline">A log-first TUI</span>{' '}
           <span class="block sm:inline">for</span>{' '}
           <span class="block text-gradient sm:inline">Jujutsu VCS</span>
         </h1>
 
-        <p class="mx-auto mt-5 max-w-xs text-pretty text-base leading-relaxed text-fg-2 sm:max-w-xl sm:text-lg">
-          <code>jk</code> opens Jujutsu's rendered log in a TUI. It keeps the graph, revset,
-          templates, and colors from <code>jj</code>, then adds selection, inline description
-          expansion, and manual refresh.
+        <p class="mx-auto mt-4 max-w-xs text-pretty text-base leading-relaxed text-fg-2 sm:max-w-2xl sm:text-lg">
+          <code>jk</code> keeps Jujutsu's rendered log in a TUI, preserving graph, revset,
+          templates, and colors while adding selection, inline details, and manual refresh.
         </p>
 
-        <div class="mt-7 flex flex-wrap items-center justify-center gap-3">
+        <div class="mt-6 flex flex-wrap items-center justify-center gap-3">
           <Button href="#install" size="lg">Install jk</Button>
           <Button href="#commands" variant="secondary" size="lg">Commands</Button>
         </div>
 
-        <p class="mt-4 font-mono text-[13px] text-fg-2">
-          <span class="select-none text-fg-3">$</span> brew install joshka/tap/jk
-        </p>
       </div>
 
-      <div class="relative mx-auto mt-12 w-full max-w-full sm:max-w-5xl">
+      <div class="relative mx-auto mt-8 w-full max-w-full sm:max-w-5xl">
         <div class="glass relative overflow-hidden rounded-xl shadow-2xl shadow-black/50">
           <div class="flex items-center gap-2 border-b border-line px-4 py-3">
             <WindowDots />
-            <span class="ml-3 font-mono text-xs text-fg-3">jk log</span>
           </div>
           <a
             href={asset('jk-homepage.gif')}
@@ -183,7 +188,7 @@ brew install joshka/tap/jk</code></pre>
             </button>
           </div>
           <div class="mt-4 rounded-md bg-ink">
-            <code class="block overflow-x-auto px-3 py-3 font-mono text-[13px] text-command">cargo binstall jk</code>
+            <pre class="overflow-x-auto px-3 py-3 font-mono text-[13px] leading-6 text-command"><code>cargo binstall jk</code></pre>
           </div>
           <p class="mt-4 text-sm leading-6 text-fg-2">
             Uses the published <code>jk</code> binary archive when your platform is supported.
@@ -202,7 +207,7 @@ brew install joshka/tap/jk</code></pre>
             </button>
           </div>
           <div class="mt-4 rounded-md bg-ink">
-            <code class="block overflow-x-auto px-3 py-3 font-mono text-[13px] text-command">cargo install jk --locked</code>
+            <pre class="overflow-x-auto px-3 py-3 font-mono text-[13px] leading-6 text-command"><code>cargo install jk --locked</code></pre>
           </div>
           <p class="mt-4 text-sm leading-6 text-fg-2">
             Falls back to a normal crates.io build when you want Cargo to compile locally.
@@ -283,7 +288,39 @@ brew install joshka/tap/jk</code></pre>
     </Container>
   </section>
 
-  <section id="commands" class="border-b border-line bg-ink py-16 sm:py-24">
+  <section id="roadmap" class="border-b border-line bg-ink py-16 sm:py-24">
+    <Container class="grid gap-10 lg:grid-cols-[0.75fr_1.25fr]">
+      <div>
+        <p class="font-mono text-[13px] uppercase tracking-widest text-fg-3">Roadmap</p>
+        <h2 class="mt-3 text-3xl font-semibold tracking-tight text-fg sm:text-4xl">
+          More than log and diff.
+        </h2>
+        <p class="mt-4 text-lg leading-8 text-fg-2">
+          <code>jk</code> is starting with the views you need first, but the goal is a focused
+          terminal workspace for reading, navigating, and operating on Jujutsu repositories.
+        </p>
+      </div>
+
+      <div class="grid gap-4 sm:grid-cols-2">
+        {
+          roadmapItems.map(({ title, body }) => (
+            <article class="rounded-lg border border-line bg-panel p-6">
+              <h3 class="text-lg font-semibold text-fg">{title}</h3>
+              <p class="mt-3 text-sm leading-6 text-fg-2">
+                {
+                  inlineParts(body).map((part) =>
+                    part.code ? <code>{part.text}</code> : <>{part.text}</>
+                  )
+                }
+              </p>
+            </article>
+          ))
+        }
+      </div>
+    </Container>
+  </section>
+
+  <section id="commands" class="border-b border-line bg-ink-2 py-16 sm:py-24">
     <Container class="grid gap-10 lg:grid-cols-[0.75fr_1.25fr]">
       <div>
         <p class="font-mono text-[13px] uppercase tracking-widest text-fg-3">Commands</p>
@@ -315,7 +352,7 @@ brew install joshka/tap/jk</code></pre>
     </Container>
   </section>
 
-  <section id="media" class="bg-ink-2 py-16 sm:py-24">
+  <section id="media" class="bg-ink py-16 sm:py-24">
     <Container>
       <div class="max-w-3xl">
         <p class="font-mono text-[13px] uppercase tracking-widest text-fg-3">Media</p>
