@@ -60,10 +60,10 @@ Sleep 250ms
 Type "d"
 Wait+Screen "jk jj diff"
 Sleep 1000ms
-Type "h"
+Ctrl+Left
+Sleep 1000ms
+Ctrl+Right
 Sleep 900ms
-Type "l"
-Sleep 700ms
 Type "-"
 Sleep 900ms
 Type "+"
