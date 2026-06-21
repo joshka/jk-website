@@ -40,6 +40,7 @@ const commandRows = [
 ];
 
 const media = [
+  { file: 'jk-homepage.gif', label: 'Homepage workflow animation', preview: 'jk-homepage.gif' },
   { file: 'jk-log.gif', label: 'Log workflow animation', preview: 'jk-log.png' },
   { file: 'jk-log.png', label: 'Log view' },
   { file: 'jk-log-selection.png', label: 'Selected change' },
@@ -99,12 +100,12 @@ const media = [
             <span class="ml-3 font-mono text-xs text-fg-3">jk log</span>
           </div>
           <a
-            href={asset('jk-log.png')}
+            href={asset('jk-homepage.gif')}
             class="block focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-brand"
           >
             <img
-              src={asset('jk-log.png')}
-              alt="jk log view showing the Jujutsu graph"
+              src={asset('jk-homepage.gif')}
+              alt="jk workflow animation showing log navigation, expanded details, diff review, help, search, folding, and refresh"
               width="1200"
               height="720"
               class="block w-full max-w-full"
