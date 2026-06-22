@@ -39,20 +39,24 @@ const commandRows = [
 
 const roadmapItems = [
   {
-    title: 'Navigate history',
-    body: 'Keep the rendered `jj` graph central while making changes, bookmarks, branches, and revsets easy to move through.',
+    title: 'Inspect with jj fidelity',
+    body: 'Keep the rendered `jj` graph central while adding `show`, `status`, richer diff navigation, and two-revision comparisons.',
   },
   {
-    title: 'Review with context',
-    body: 'Bring diffs, search, folded files, folded hunks, and help into the same terminal surface as the selected change.',
+    title: 'Find actions faster',
+    body: 'Turn help, hotbar text, command mode, command history, and searchable action discovery into one self-teaching surface.',
   },
   {
-    title: 'Act on changes',
-    body: 'Grow toward the common `jj` operations needed while reviewing: describe, split, squash, bookmark, rebase, and abandon.',
+    title: 'Work across workspaces',
+    body: 'Make `jj` workspaces, stale-workspace checks, and workspace-scoped status and diff part of the early daily workflow.',
   },
   {
-    title: 'Stay in sync',
-    body: 'Support editor and agent workflows with deliberate refresh now, then stronger repository-state awareness as the UI matures.',
+    title: 'Preview before mutating',
+    body: 'Grow describe, new, rebase, squash, split, abandon, undo, and op-log recovery behind visible `jj` command previews.',
+  },
+  {
+    title: 'Stay responsive',
+    body: 'Use cancellable previews, config-fidelity tests, and Betamax tapes so large repos and large diffs stay reviewable.',
   },
 ];
 
@@ -72,7 +76,7 @@ const media = [
 ];
 ---
 
-<BaseLayout title="jk - a log-first TUI for Jujutsu VCS">
+<BaseLayout title="jk - a jj-native TUI for Jujutsu VCS">
   <section class="relative overflow-x-clip border-b border-line">
     <Glow class="left-1/2 top-[-260px] h-[640px] w-[1500px] -translate-x-1/2 sm:w-[1800px]" />
     <div aria-hidden="true" class="pointer-events-none absolute inset-0 bg-page-hero"></div>
@@ -80,13 +84,13 @@ const media = [
     <Container class="relative pb-16 pt-10 sm:pb-16 sm:pt-12">
       <div class="hero-copy mx-auto w-full max-w-xs text-center sm:max-w-3xl">
         <h1 class="mx-auto max-w-xs text-3xl font-semibold leading-[1.08] tracking-tight text-fg sm:max-w-3xl sm:text-balance sm:text-6xl">
-          <span class="block sm:inline">A log-first TUI</span>{' '}
+          <span class="block sm:inline">A jj-native TUI</span>{' '}
           <span class="block sm:inline">for</span>{' '}
           <span class="block text-gradient sm:inline">Jujutsu VCS</span>
         </h1>
 
         <p class="mx-auto mt-4 max-w-xs text-pretty text-base leading-relaxed text-fg-2 sm:max-w-2xl sm:text-lg">
-          <code>jk</code> keeps Jujutsu's rendered log in a TUI, preserving graph, revset,
+          <code>jk</code> keeps Jujutsu's rendered output in a TUI, preserving graph, revset,
           templates, and colors while adding selection, inline details, and manual refresh.
         </p>
 
@@ -275,6 +279,20 @@ brew install joshka/tap/jk</code></pre>
           <code>jk</code> is starting with the views you need first, but the goal is a focused
           terminal workspace for reading, navigating, and operating on Jujutsu repositories.
         </p>
+        <div class="mt-6 flex flex-wrap gap-3">
+          <a
+            href="https://github.com/joshka/jk/blob/main/docs/product-plan.md"
+            class="rounded border border-line px-3 py-2 text-sm font-semibold text-fg-2 transition-colors hover:border-brand hover:text-fg focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand"
+          >
+            Product plan
+          </a>
+          <a
+            href="https://github.com/joshka/jk/blob/main/docs/roadmap.md"
+            class="rounded border border-line px-3 py-2 text-sm font-semibold text-fg-2 transition-colors hover:border-brand hover:text-fg focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand"
+          >
+            Roadmap doc
+          </a>
+        </div>
       </div>
 
       <div class="grid gap-4 sm:grid-cols-2">
