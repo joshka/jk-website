@@ -16,16 +16,16 @@ const inlineParts = (text: string) =>
 
 const workflowItems = [
   {
-    title: 'Start with jj output',
-    body: 'Keep a compact `jj log`-like view open with the graph, revset, templates, wording, and colors your CLI already uses.',
+    title: 'Inspect without losing place',
+    body: 'Move from log to `show`, `diff`, `status`, or `evolog`, then return to the same selected change.',
   },
   {
-    title: 'Refresh without restarting',
-    body: 'Refresh after editor, IDE, or agent writes without quitting the TUI and re-running `jj log` every time.',
+    title: 'Preview before writing',
+    body: 'Describe, abandon, new, edit, undo, and redo show the exact `jj` command before confirmation.',
   },
   {
-    title: 'Stay out of the way',
-    body: 'Open details, diffs, prompts, and previews only when you ask for them, instead of keeping every pane visible.',
+    title: 'Recover from operations',
+    body: 'Command History and Operation Log keep command output, operation ids, undo, redo, and `jj op` views close by.',
   },
 ];
 
@@ -37,53 +37,61 @@ const commandRows = [
   ['jk diff --from A --to B', 'Compare two revisions from marks, cursor context, or explicit CLI arguments.'],
   ['jk show <revision>', 'Inspect selected-change details with `jj show` output.'],
   ['jk status', 'Inspect repository status without leaving the focused TUI flow.'],
+  ['jk workspaces', 'List sibling jj workspaces and open workspace-scoped log, status, and diff views.'],
   ['jk -R /path/to/repo -n 20', 'Carry repository and limit context through generated `jj` commands.'],
 ];
 
 const principleItems = [
   {
     title: 'Command fidelity',
-    body: 'The long-term model is that `jj` commands become interactive `jk` commands, with confirmation and context by default.',
+    body: '`jk` keeps rendered `jj` output as the source of truth, then adds navigation, previews, and recovery around it.',
   },
   {
     title: 'Presentation fidelity',
-    body: '`jk` should honor `jj` configuration for default commands, revsets, templates, graph style, colors, diff formats, and operation semantics.',
+    body: '`jk` honors `jj` configuration for default commands, revsets, templates, graph style, colors, diff formats, and operation semantics.',
   },
   {
     title: 'Focused screens',
-    body: 'The default stays compact: one refreshable view, with separate screens or overlays for details, diffs, prompts, and previews.',
+    body: 'The default stays compact: one primary view, with separate screens or overlays for details, diffs, prompts, and previews.',
   },
   {
     title: 'Safe recovery',
-    body: 'The planned mutation loop puts command history, operation log, undo, redo, and recovery beside every write.',
+    body: 'The mutation loop keeps command history, operation log, undo, redo, and operation details beside every write.',
   },
 ];
 
-const roadmapItems = [
+const usageItems = [
   {
-    title: '0.3 Foundation',
-    body: 'Normalize `JjCommandSpec`, generated help and hotbar data, view stacks, ordered marks, `V` View Options, and cancellable tasks.',
+    title: 'Inspection',
+    body: '`Enter`, `d`, `s`, and `v` open show, diff, status, and evolog views for the selected change.',
   },
   {
-    title: '0.4 jj-shaped inspection',
-    body: 'Add canonical diff forms, selected-change `show`, `status`, `evolog`, reusable display options, file navigation, and diff search.',
+    title: 'Diff review',
+    body: 'Move by line, page, file, and hunk; search; fold hunks and files; jump with the file list; switch diff formats with `V`.',
   },
   {
-    title: '0.5 command mode and workspaces',
-    body: 'Add `:` jj command mode, `!` external commands, searchable discovery, command history, and a `W` workspace screen.',
+    title: 'Command mode',
+    body: '`:` runs direct `jj` commands, captures stdout/stderr, keeps failures inspectable, and records the command in history.',
   },
   {
-    title: '0.6 safe mutation core',
-    body: 'Introduce Run Options, describe, new, commit, edit, rebase, abandon, command previews, command history, and operation recovery.',
+    title: 'Safe previews',
+    body: '`m`, `a`, `n`, `e`, `u`, and `U` open command previews for describe, abandon, new, edit, undo, and redo.',
   },
   {
-    title: '0.7 content workflows',
-    body: 'Use shared selector models for filesets, operations, refs, remotes, and workspaces before adding squash, split, restore, diffedit, and absorb.',
+    title: 'Recovery',
+    body: '`C` opens Command History and `o` opens Operation Log or the operation created by a confirmed command.',
   },
   {
-    title: '0.8 to 1.0 release readiness',
-    body: 'Harden refs, remotes, hybrid rendering, config-fidelity tests, Betamax recordings, docs, and install paths before recommending it broadly.',
+    title: 'Workspaces',
+    body: '`W` lists sibling jj workspaces, refreshes stale workspaces, and opens selected-workspace log/status/diff views.',
   },
+];
+
+const limitationItems = [
+  'Command History is in-memory for the active `jk` session.',
+  'Rebase, squash, split, restore, bookmarks, fetch, and push remain planned workflows.',
+  'Direct `a`, `n`, and `e` mutation keys are dogfood shortcuts until the broader action menu lands.',
+  'Public media is generated from Betamax tapes so release images can be refreshed independently of source code.',
 ];
 
 const media = [
@@ -116,9 +124,9 @@ const media = [
         </h1>
 
         <p class="mx-auto mt-4 max-w-xs text-pretty text-base leading-relaxed text-fg-2 sm:max-w-2xl sm:text-lg">
-          <code>jk</code> is an early jj-native TUI experiment that keeps Jujutsu's configured
-          <code>log</code> output open and refreshable beside your editor, IDE, or coding agent,
-          then threads focused navigation and inspection through it.
+          <code>jk</code> is a jj-native terminal UI for inspecting changes, previewing
+          local mutations, capturing command output, and recovering through Jujutsu's operation log
+          without losing terminal context.
         </p>
 
       </div>
@@ -153,8 +161,9 @@ const media = [
           release archives on macOS and Linux.
         </p>
         <p class="mt-4 text-sm leading-6 text-fg-3">
-          This is still early project work. Try it if the direction is interesting, but expect
-          rough edges and missing workflow coverage.
+          This release snapshot focuses on inspection, diff review, command previews, command
+          history, operation recovery, and workspaces. Rebase, refs, remotes, and persistent
+          history remain planned follow-up work.
         </p>
       </div>
       <div class="mt-10 grid gap-4 lg:grid-cols-3">
@@ -249,13 +258,13 @@ brew install joshka/tap/jk</code></pre>
       <div class="max-w-3xl">
         <p class="font-mono text-[13px] uppercase tracking-widest text-fg-3">Workflow</p>
         <h2 class="mt-3 text-3xl font-semibold tracking-tight text-fg sm:text-4xl">
-          Refresh jj log in place.
+          Keep the jj TUI in place.
         </h2>
         <p class="mt-4 text-lg leading-8 text-fg-2">
           The first screen is the view you would reach for with <code>jj log</code>, kept open in a
-          terminal you can refresh after your editor, IDE, or agent changes the repository. The
-          point is to avoid quitting and re-running commands without taking over the terminal with a
-          permanent pane layout.
+          terminal you can refresh after another tool changes the repository. From there,
+          <code>jk</code> opens focused views, prompts, and previews only when the workflow asks for
+          them.
         </p>
       </div>
 
@@ -283,7 +292,7 @@ brew install joshka/tap/jk</code></pre>
       <div class="max-w-3xl">
         <p class="font-mono text-[13px] uppercase tracking-widest text-fg-3">Design constraints</p>
         <h2 class="mt-3 text-3xl font-semibold tracking-tight text-fg sm:text-4xl">
-          A refreshable jj view first.
+          jj output first, interaction around it.
         </h2>
         <p class="mt-4 text-lg leading-8 text-fg-2">
           <code>jk</code> follows Jujutsu's command model and configuration first. It starts from
@@ -292,9 +301,9 @@ brew install joshka/tap/jk</code></pre>
           from.
         </p>
         <p class="mt-4 text-lg leading-8 text-fg-2">
-          A core tenet is that <code>jj</code> commands should have an interactive
-          <code>jk</code> shape: resolve the objects from the current view, show the command and
-          consequences, confirm before mutating, then refresh and leave a recovery path.
+          Current mutating workflows follow the same shape: resolve the object from the selected
+          row, show the exact command, confirm before mutating, refresh after completion, and leave
+          a recovery route through Command History and Operation Log.
         </p>
       </div>
 
@@ -322,13 +331,13 @@ brew install joshka/tap/jk</code></pre>
       <div>
         <p class="font-mono text-[13px] uppercase tracking-widest text-fg-3">Diff review</p>
         <h2 class="mt-3 text-3xl font-semibold tracking-tight text-fg sm:text-4xl">
-          Inspect with jj-shaped commands.
+          Review diffs without leaving jj output.
         </h2>
         <p class="mt-4 text-lg leading-8 text-fg-2">
           <code>jk diff</code> opens rendered <code>jj diff</code> output for the current change,
-          one revision, or a future marked range. The same inspection model grows to
-          <code>show</code>, <code>status</code>, <code>evolog</code>, file navigation, and
-          two-revision comparisons.
+          one revision, or an explicit from/to range. The release snapshot adds hunk and file
+          movement, folding, search, current-file status, a file-list overlay, and diff View
+          Options for summary, stat, name-only, git, and color-words output.
         </p>
       </div>
       <img
@@ -342,24 +351,24 @@ brew install joshka/tap/jk</code></pre>
     </Container>
   </section>
 
-  <section id="roadmap" class="border-b border-line bg-ink py-16 sm:py-24">
+  <section id="usage" class="border-b border-line bg-ink py-16 sm:py-24">
     <Container class="grid gap-10 lg:grid-cols-[0.75fr_1.25fr]">
       <div>
-        <p class="font-mono text-[13px] uppercase tracking-widest text-fg-3">Roadmap</p>
+        <p class="font-mono text-[13px] uppercase tracking-widest text-fg-3">Usage</p>
         <h2 class="mt-3 text-3xl font-semibold tracking-tight text-fg sm:text-4xl">
-          Planned command coverage.
+          Current release surface.
         </h2>
         <p class="mt-4 text-lg leading-8 text-fg-2">
-          The roadmap groups work by reusable command parts: global options, view options, run
-          options, selectors, command mode, workspaces, mutation previews, operation recovery, refs,
-          remotes, and recorded terminal fixtures.
+          This release is a useful snapshot before rebase-specific workflows. It concentrates on
+          the loop that makes day-to-day jj work safer: inspect, preview, run, record, refresh, and
+          recover.
         </p>
         <div class="mt-6 flex flex-wrap gap-3">
           <a
-            href="https://github.com/joshka/jk/blob/main/docs/product-plan.md"
+            href="https://github.com/joshka/jk/blob/main/docs/usage.md"
             class="rounded border border-line px-3 py-2 text-sm font-semibold text-fg-2 transition-colors hover:border-brand hover:text-fg focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand"
           >
-            Product plan
+            Usage guide
           </a>
           <a
             href="https://github.com/joshka/jk/blob/main/docs/roadmap.md"
@@ -372,7 +381,7 @@ brew install joshka/tap/jk</code></pre>
 
       <div class="grid gap-4 sm:grid-cols-2">
         {
-          roadmapItems.map(({ title, body }) => (
+          usageItems.map(({ title, body }) => (
             <article class="rounded-lg border border-line bg-panel p-6">
               <h3 class="text-lg font-semibold text-fg">{title}</h3>
               <p class="mt-3 text-sm leading-6 text-fg-2">
@@ -403,9 +412,9 @@ brew install joshka/tap/jk</code></pre>
           can all talk about the same command.
         </p>
         <p class="mt-4 text-sm leading-6 text-fg-3">
-          These are the command shapes the product plan is standardizing around. The goal is not a
-          separate command language; it is <code>jj</code> commands with selection, prompts,
-          confirmation, output, refresh, and recovery built into the TUI.
+          In the TUI, <code>:</code> runs direct <code>jj</code> commands and keeps output in
+          Command History. Mutating shortcuts remain behind command previews so the release keeps a
+          visible confirmation and recovery path.
         </p>
       </div>
       <div class="overflow-hidden rounded-lg border border-line bg-panel">
@@ -427,6 +436,62 @@ brew install joshka/tap/jk</code></pre>
     </Container>
   </section>
 
+  <section id="docs" class="border-b border-line bg-ink py-16 sm:py-24">
+    <Container class="grid gap-10 lg:grid-cols-[0.75fr_1.25fr]">
+      <div>
+        <p class="font-mono text-[13px] uppercase tracking-widest text-fg-3">Docs</p>
+        <h2 class="mt-3 text-3xl font-semibold tracking-tight text-fg sm:text-4xl">
+          Learn the current jk TUI.
+        </h2>
+        <p class="mt-4 text-lg leading-8 text-fg-2">
+          The repository docs describe the shipped behavior directly. The README stays short; the
+          usage guide carries task flows for inspection, diff review, command previews, command
+          mode, command history, operation recovery, and workspaces.
+        </p>
+        <div class="mt-6 flex flex-wrap gap-3">
+          <a
+            href="https://github.com/joshka/jk/blob/main/README.md"
+            class="rounded border border-line px-3 py-2 text-sm font-semibold text-fg-2 transition-colors hover:border-brand hover:text-fg focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand"
+          >
+            README
+          </a>
+          <a
+            href="https://github.com/joshka/jk/blob/main/docs/usage.md"
+            class="rounded border border-line px-3 py-2 text-sm font-semibold text-fg-2 transition-colors hover:border-brand hover:text-fg focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand"
+          >
+            Usage guide
+          </a>
+          <a
+            href="https://github.com/joshka/jk/blob/main/CHANGELOG.md"
+            class="rounded border border-line px-3 py-2 text-sm font-semibold text-fg-2 transition-colors hover:border-brand hover:text-fg focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand"
+          >
+            Changelog
+          </a>
+        </div>
+      </div>
+
+      <div class="rounded-lg border border-line bg-panel p-6">
+        <h3 class="text-lg font-semibold text-fg">Release boundaries</h3>
+        <ul class="mt-4 space-y-3 text-sm leading-6 text-fg-2">
+          {
+            limitationItems.map((item) => (
+              <li class="flex gap-3">
+                <span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-accent"></span>
+                <span>
+                  {
+                    inlineParts(item).map((part) =>
+                      part.code ? <code>{part.text}</code> : <>{part.text}</>
+                    )
+                  }
+                </span>
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+    </Container>
+  </section>
+
   <section id="motivation" class="border-b border-line bg-ink py-16 sm:py-24">
     <Container class="grid gap-10 lg:grid-cols-[0.72fr_1.28fr]">
       <div>
@@ -439,9 +504,8 @@ brew install joshka/tap/jk</code></pre>
       <div class="space-y-6 text-lg leading-8 text-fg-2">
         <p>
           <code>jk</code> starts from a common <code>jj</code> workflow: keep
-          <code>jj log</code> visible while the repository changes somewhere else. The other writer
-          might be an editor, a split terminal, an IDE, or a coding agent. Without a refreshable
-          view, you quit the log, rerun it, and find your place again.
+          <code>jj log</code> visible while the repository changes somewhere else. Without a
+          refreshable view, you quit the log, rerun it, and find your place again.
         </p>
         <p>
           The TUI should still feel like <code>jj</code>. It should use your revsets, colors,
@@ -456,11 +520,10 @@ brew install joshka/tap/jk</code></pre>
           focus, pane resizing, or scanning several regions just to keep up with repository state.
         </p>
         <p>
-          Command coverage should grow from the same rule. A <code>jj</code> command should have
-          some <code>jk</code> path: direct action, menu item, prompt, command mode, or dedicated
-          view. The TUI adds interaction around the command: selected objects, the exact command to
-          run, confirmation for risky changes, refresh after completion, and a route to operation
-          recovery.
+          The release snapshot proves that command-shaped model for inspection, command mode,
+          command history, operation recovery, workspaces, and the first safe mutation previews.
+          Larger workflows such as rebase, refs, remotes, and persistent history come after this
+          baseline is shipped.
         </p>
       </div>
     </Container>
@@ -471,11 +534,12 @@ brew install joshka/tap/jk</code></pre>
       <div class="max-w-3xl">
         <p class="font-mono text-[13px] uppercase tracking-widest text-fg-3">Media</p>
         <h2 class="mt-3 text-3xl font-semibold tracking-tight text-fg sm:text-4xl">
-          Work-in-progress screenshots
+          Release media
         </h2>
         <p class="mt-4 text-lg leading-8 text-fg-2">
-          These are development captures, not a finished product tour. They show current log and
-          diff rendering; keys, labels, command coverage, and layout may change.
+          These captures show the current release surface. Final public GIFs are generated from
+          Betamax tapes so the README, crates.io, website, and release notes can reuse the same
+          evidence.
         </p>
       </div>
 

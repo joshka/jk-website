@@ -15,7 +15,7 @@ mkdir -p src docs .github/workflows
 cat > README.md <<'EOF'
 # Acme CLI
 
-Small command line tool used to demonstrate jk's log-first workflow.
+Small command line tool used to demonstrate jk's jj-native workflow.
 EOF
 cat > src/main.rs <<'EOF'
 fn main() {

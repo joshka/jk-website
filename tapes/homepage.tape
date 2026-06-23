@@ -7,11 +7,11 @@ Require jj
 Set Shell "bash"
 Set Theme "Aardvark Ink"
 Set Width 1200
-Set Height 690
+Set Height 720
 Set Padding 0
-Set Margin 0
+Set Margin 20
 Set WindowBar Colorful
-Set BorderRadius 0
+Set BorderRadius 8
 Set CursorBlink false
 Set TypingSpeed 24ms
 Set WaitTimeout 30s
@@ -50,13 +50,11 @@ Sleep 450ms
 Type "j"
 Sleep 650ms
 Enter
+Wait+Screen "jk jj show"
 Sleep 900ms
-Type "r"
+Type "H"
+Wait+Screen "jk jj"
 Sleep 700ms
-Type "k"
-Sleep 250ms
-Type "k"
-Sleep 250ms
 Type "d"
 Wait+Screen "jk jj diff"
 Sleep 1000ms
