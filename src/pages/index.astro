@@ -87,6 +87,25 @@ const usageItems = [
   },
 ];
 
+const recentItems = [
+  {
+    title: 'Container startup',
+    body: 'Starting `jk` from a no-working-copy jj container now resolves to the `default` child workspace when one is available.',
+  },
+  {
+    title: 'Stale workspace reads',
+    body: 'Read-only log startup uses jj\'s stale-working-copy escape hatch so inspection can still open before mutation paths touch working-copy state.',
+  },
+  {
+    title: 'Graph drill-in',
+    body: 'Elided `~` rows drill into the graph lane they belong to, keep selection when returning, and keep inline expansion connected to the surrounding graph.',
+  },
+  {
+    title: 'Short command targets',
+    body: 'Navigation commands use shortened revision IDs while keeping full change IDs for selection and mark identity.',
+  },
+];
+
 const limitationItems = [
   'Command History is in-memory for the active `jk` session.',
   'Rebase, squash, split, restore, bookmarks, fetch, and push remain planned workflows.',
@@ -107,6 +126,7 @@ const media = [
   { file: 'jk-diff-search.png', label: 'Diff search' },
   { file: 'jk-diff-folded-hunk.png', label: 'Folded hunk' },
   { file: 'jk-diff-folded-file.png', label: 'Folded file' },
+  { file: 'jk-recent-features.gif', label: 'Recent graph and workspace polish', preview: 'jk-recent-features.gif' },
 ];
 ---
 
@@ -348,6 +368,54 @@ brew install joshka/tap/jk</code></pre>
         class="w-full rounded-lg border border-line-2 shadow-terminal"
         loading="lazy"
       />
+    </Container>
+  </section>
+
+  <section id="recent" class="border-b border-line bg-ink-2 py-16 sm:py-24">
+    <Container class="grid gap-10 lg:grid-cols-[0.75fr_1.25fr] lg:items-center">
+      <div>
+        <p class="font-mono text-[13px] uppercase tracking-widest text-fg-3">Recent polish</p>
+        <h2 class="mt-3 text-3xl font-semibold tracking-tight text-fg sm:text-4xl">
+          Smoother log navigation in real jj workspaces.
+        </h2>
+        <p class="mt-4 text-lg leading-8 text-fg-2">
+          Recent updates tighten the rough edges that show up in daily dogfooding: nested
+          no-working-copy containers, stale workspace metadata, elided graph lanes, inline
+          expansion placement, and long revision IDs in follow-up commands.
+        </p>
+      </div>
+      <div class="glass overflow-hidden rounded-xl shadow-2xl shadow-black/40">
+        <a
+          href={asset('jk-recent-features.gif')}
+          class="block focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-brand"
+        >
+          <img
+            src={asset('jk-recent-features.gif')}
+            alt="jk recent feature animation showing graph elision drill-in, expansion, short revision commands, and workspace help"
+            width="1200"
+            height="720"
+            class="block w-full"
+            loading="lazy"
+          />
+        </a>
+      </div>
+
+      <div class="lg:col-span-2 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+        {
+          recentItems.map(({ title, body }) => (
+            <article class="rounded-lg border border-line bg-panel p-6">
+              <h3 class="text-lg font-semibold text-fg">{title}</h3>
+              <p class="mt-3 text-sm leading-6 text-fg-2">
+                {
+                  inlineParts(body).map((part) =>
+                    part.code ? <code>{part.text}</code> : <>{part.text}</>
+                  )
+                }
+              </p>
+            </article>
+          ))
+        }
+      </div>
     </Container>
   </section>
 
