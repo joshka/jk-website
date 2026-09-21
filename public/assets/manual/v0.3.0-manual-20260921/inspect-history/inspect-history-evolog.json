@@ -1,0 +1,283 @@
+{
+  "size": [
+    104,
+    36
+  ],
+  "total_rows": 36,
+  "scrollback_rows": 0,
+  "cursor": {
+    "x": 103,
+    "y": 35,
+    "visible": false
+  },
+  "default_style": {
+    "fg": "#b4bcca",
+    "bg": "#0f141f"
+  },
+  "styles": [
+    {
+      "bold": true
+    },
+    {
+      "fg": "#52aa60",
+      "bold": true
+    },
+    {
+      "fg": "#d58bf0",
+      "bold": true
+    },
+    {
+      "fg": "#3a4152",
+      "bold": true
+    },
+    {
+      "fg": "#ad9b49",
+      "bold": true
+    },
+    {
+      "fg": "#52c4c0",
+      "bold": true
+    },
+    {
+      "fg": "#76a8f2",
+      "bold": true
+    },
+    {
+      "fg": "#3a4152"
+    },
+    {
+      "fg": "#487fd4"
+    },
+    {
+      "fg": "#ad9b49"
+    },
+    {
+      "fg": "#269d9a"
+    },
+    {
+      "fg": "#af5bd1",
+      "bold": true
+    },
+    {
+      "fg": "#52aa60"
+    }
+  ],
+  "viewport_text": "jk jj evolog -r nlswzynm\n@  nlswzynm alex@example.invalid 2026-01-01 12:00:00 candidate 068eab96\n│  Experiment with forecast caching\n│  -- operation 5216441925dc describe commit a813809c0659d1c90d76cd7b9826228c21e467c3\n○  nlswzynm/1 alex@example.invalid 2026-01-01 12:00:00 a813809c (hidden)\n│  Try a longer cache window\n│  -- operation cfd7f6a7c3a4 snapshot working copy\n○  nlswzynm/2 alex@example.invalid 2026-01-01 12:00:00 85246d38 (hidden)\n   (empty) Try a longer cache window\n   -- operation 166a01bbf3f9 new empty commit\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n? help  V options  r refresh  j/k line  space page  q quit\n",
+  "scrollback_text": "",
+  "viewport": [
+    [
+      "jk ",
+      [
+        "jj evolog -r nlswzynm",
+        0
+      ]
+    ],
+    [
+      [
+        "@",
+        1
+      ],
+      "  ",
+      [
+        "n",
+        2
+      ],
+      [
+        "lswzynm",
+        3
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "alex@example.invalid",
+        4
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "2026-01-01 12:00:00",
+        5
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "candidate",
+        2
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "06",
+        6
+      ],
+      [
+        "8eab96",
+        3
+      ]
+    ],
+    [
+      "│  ",
+      [
+        "Experiment with forecast caching",
+        0
+      ]
+    ],
+    [
+      "│  ",
+      [
+        "--",
+        7
+      ],
+      " operation ",
+      [
+        "5216441925dc",
+        8
+      ],
+      " describe commit a813809c0659d1c90d76cd7b9826228c21e467c3"
+    ],
+    [
+      "○  ",
+      [
+        "n",
+        0
+      ],
+      [
+        "lswzynm",
+        7
+      ],
+      [
+        "/1",
+        0
+      ],
+      " ",
+      [
+        "alex@example.invalid",
+        9
+      ],
+      " ",
+      [
+        "2026-01-01 12:00:00",
+        10
+      ],
+      " ",
+      [
+        "a",
+        11
+      ],
+      [
+        "813809c",
+        7
+      ],
+      " (hidden)"
+    ],
+    [
+      "│  Try a longer cache window"
+    ],
+    [
+      "│  ",
+      [
+        "--",
+        7
+      ],
+      " operation ",
+      [
+        "cfd7f6a7c3a4",
+        8
+      ],
+      " snapshot working copy"
+    ],
+    [
+      "○  ",
+      [
+        "n",
+        0
+      ],
+      [
+        "lswzynm",
+        7
+      ],
+      [
+        "/2",
+        0
+      ],
+      " ",
+      [
+        "alex@example.invalid",
+        9
+      ],
+      " ",
+      [
+        "2026-01-01 12:00:00",
+        10
+      ],
+      " ",
+      [
+        "8",
+        11
+      ],
+      [
+        "5246d38",
+        7
+      ],
+      " (hidden)"
+    ],
+    [
+      "   ",
+      [
+        "(empty)",
+        12
+      ],
+      " Try a longer cache window"
+    ],
+    [
+      "   ",
+      [
+        "--",
+        7
+      ],
+      " operation ",
+      [
+        "166a01bbf3f9",
+        8
+      ],
+      " new empty commit"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "? help  V options  r refresh  j/k line  space page  q quit"
+    ]
+  ],
+  "scrollback": []
+}

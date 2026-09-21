@@ -1,0 +1,20 @@
+{
+  "scenario": "inspect-log-options",
+  "stage": "inspection",
+  "status": "passed",
+  "repository": "/home/runner/work/jk/jk/target/manual-fixtures/inspection.h3s2TG/repo",
+  "assertions": [
+    {
+      "name": "working-copy commit unchanged",
+      "passed": true,
+      "actual": "4872f01519cf703d92a0188af3c7ac5061f85f2d",
+      "expected": "4872f01519cf703d92a0188af3c7ac5061f85f2d"
+    },
+    {
+      "name": "visible repository graph unchanged",
+      "passed": true,
+      "actual": "0000000000000000000000000000000000000000\n4872f01519cf703d92a0188af3c7ac5061f85f2d\n5d3a68d85d6f832847fa3c6225c645185d119798\n9876d39dea7b29c47b7a3ad2d3b0a0f438956d5d\nca8162b81740b46dccf414de83699936dac4f599",
+      "expected": "0000000000000000000000000000000000000000\n4872f01519cf703d92a0188af3c7ac5061f85f2d\n5d3a68d85d6f832847fa3c6225c645185d119798\n9876d39dea7b29c47b7a3ad2d3b0a0f438956d5d\nca8162b81740b46dccf414de83699936dac4f599"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "size": [
+    98,
+    43
+  ],
+  "total_rows": 43,
+  "scrollback_rows": 0,
+  "cursor": {
+    "x": 89,
+    "y": 42,
+    "visible": false
+  },
+  "default_style": {
+    "fg": "#b4bcca",
+    "bg": "#0f141f"
+  },
+  "styles": [
+    {
+      "bold": true
+    },
+    {
+      "fg": "#269d9a",
+      "bold": true
+    }
+  ],
+  "viewport_text": "jk jj workspace list\n›  * default  /home/runner/work/jk/jk/target/manual-fixtures/container.C0elno/container/default  c\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n? help  r refresh  l log  s status  d diff  j/k move  u update-stale  V options  Esc back  q quit\n",
+  "scrollback_text": "",
+  "viewport": [
+    [
+      "jk ",
+      [
+        "jj workspace list",
+        0
+      ]
+    ],
+    [
+      [
+        "›",
+        0
+      ],
+      "  ",
+      [
+        "*",
+        1
+      ],
+      " ",
+      [
+        "default",
+        0
+      ],
+      "  /home/runner/work/jk/jk/target/manual-fixtures/container.C0elno/container/default  c"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "? help  r refresh  l log  s status  d diff  j/k move  u update-stale  V options  Esc back  q quit"
+    ]
+  ],
+  "scrollback": []
+}

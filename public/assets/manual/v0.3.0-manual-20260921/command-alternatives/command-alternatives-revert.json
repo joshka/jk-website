@@ -1,0 +1,157 @@
+{
+  "size": [
+    104,
+    39
+  ],
+  "total_rows": 39,
+  "scrollback_rows": 0,
+  "cursor": {
+    "x": 58,
+    "y": 38,
+    "visible": false
+  },
+  "default_style": {
+    "fg": "#b4bcca",
+    "bg": "#0f141f"
+  },
+  "styles": [
+    {
+      "bold": true
+    },
+    {
+      "fg": "#dfe5ee",
+      "bg": "#3a485a"
+    },
+    {
+      "fg": "#dfe5ee",
+      "bg": "#215b53"
+    },
+    {
+      "fg": "#dfe5ee",
+      "bg": "#282d37"
+    },
+    {
+      "fg": "#dfe5ee",
+      "bg": "#1e232f"
+    },
+    {
+      "fg": "#487fd4",
+      "bg": "#1e232f",
+      "bold": true
+    },
+    {
+      "fg": "#3a4152"
+    },
+    {
+      "fg": "#af5bd1",
+      "bold": true
+    }
+  ],
+  "viewport_text": "jk jj --no-pager --color always --repository /home/runner/work/jk/jk/target/forecast-demo.bVeJwf revert\nCommand: jj --no-pager --color always --repository /home/runner/work/jk/jk/target/forecast-demo.bVeJwf r\nStatus: success\n\nStdout:\n<empty>\n\nStderr:\nReverted 1 commits as follows:\n  qkrppyln 8617efc1 Revert \"Experiment with forecast caching\"\n\nActions: e edit/retry command   : run another jj command\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n? help  V options  r refresh  j/k line  space page  q quit\n",
+  "scrollback_text": "",
+  "viewport": [
+    [
+      "jk ",
+      [
+        "jj --no-pager --color always --repository /home/runner/work/jk/jk/target/forecast-demo.bVeJwf revert",
+        0
+      ]
+    ],
+    [
+      [
+        "Command: jj --no-pager --color always --repository /home/runner/work/jk/jk/target/forecast-demo.bVeJwf r",
+        1
+      ]
+    ],
+    [
+      [
+        "Status: success",
+        2
+      ]
+    ],
+    [],
+    [
+      [
+        "Stdout:",
+        3
+      ]
+    ],
+    [
+      [
+        "<empty>",
+        4
+      ]
+    ],
+    [],
+    [
+      [
+        "Stderr:",
+        3
+      ]
+    ],
+    [
+      [
+        "Reverted 1 commits as follows:",
+        4
+      ]
+    ],
+    [
+      [
+        "  ",
+        4
+      ],
+      [
+        "q",
+        5
+      ],
+      [
+        "krppyln",
+        6
+      ],
+      " ",
+      [
+        "8",
+        7
+      ],
+      [
+        "617efc1",
+        6
+      ],
+      " Revert \"Experiment with forecast caching\""
+    ],
+    [],
+    [
+      "Actions: e edit/retry command   : run another jj command"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "? help  V options  r refresh  j/k line  space page  q quit"
+    ]
+  ],
+  "scrollback": []
+}

@@ -1,0 +1,8 @@
+{
+  "repository": "/home/runner/work/jk/jk/target/manual-fixtures/container.C0elno/container/default",
+  "kind": "container",
+  "initial_commit": "4368eb95a703717fc750f902043bc25d8a0993ae",
+  "initial_operation": "83e17b7f8b9eda0ba30d8994381457d91184bf25c2234a7a08426fadd1180c320b619d3fbe77d9e68891f87faa3d8b7eaf580adb6dcaa94b40e350ffa37aff7c",
+  "binary": "/home/runner/work/jk/jk/target/manual-build/jk",
+  "isolated_jj_config": "/dev/null"
+}

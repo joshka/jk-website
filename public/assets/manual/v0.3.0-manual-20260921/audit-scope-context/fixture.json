@@ -1,0 +1,8 @@
+{
+  "repository": "/home/runner/work/jk/jk/target/manual-fixtures/workspaces.MvkFJr/workflows.8HgG9l/workspaces/repo",
+  "kind": "workspaces",
+  "initial_commit": "5416e289bcca973928cd130207ad37c255d67518",
+  "initial_operation": "60ec6bb3a8de5537c4d542dffff7bc1b26c57981607a66598be715fbb4507d809b72b8c218cf1aaecefdf4baa03381ac4a9b421ff46ba0807522d7e0307494cd",
+  "binary": "/home/runner/work/jk/jk/target/manual-build/jk",
+  "isolated_jj_config": "/dev/null"
+}

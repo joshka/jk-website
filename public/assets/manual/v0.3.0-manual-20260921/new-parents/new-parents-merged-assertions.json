@@ -1,0 +1,26 @@
+{
+  "scenario": "new-parents",
+  "stage": "new-parents-merged",
+  "status": "passed",
+  "repository": "/home/runner/work/jk/jk/target/forecast-demo.fprKjT",
+  "assertions": [
+    {
+      "name": "new merge is empty",
+      "passed": true,
+      "actual": "true",
+      "expected": "true"
+    },
+    {
+      "name": "parent selection order preserved",
+      "passed": true,
+      "actual": "Experiment with forecast caching\nDocument cache policy",
+      "expected": "Experiment with forecast caching\nDocument cache policy"
+    },
+    {
+      "name": "both parent trees retained",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    }
+  ]
+}

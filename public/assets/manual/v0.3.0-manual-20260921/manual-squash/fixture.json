@@ -1,0 +1,8 @@
+{
+  "repository": "/home/runner/work/jk/jk/target/manual-fixtures/squash.wp39hi/workflows.kibeyN/squash",
+  "kind": "squash",
+  "initial_commit": "ebc4b7e488c694a26159973b9d802467e883cdee",
+  "initial_operation": "6430d490195c8795c43bdcfcc2e9c597d9604645dc19b9ebb34e651b4942457cfbd4dfce478baa9f56aeabfde86998e1936350494ef277b5f88e542750d9f22e",
+  "binary": "/home/runner/work/jk/jk/target/manual-build/jk",
+  "isolated_jj_config": "/dev/null"
+}

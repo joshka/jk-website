@@ -1,0 +1,179 @@
+{
+  "schema_version": 1,
+  "source_index": "manual/v0.3.0-manual-20260921/review-index.json",
+  "source_index_sha256": "17efd1f5f9a9c80791c6764f7972f466b4b29257831f2719b0c66b74b784fc16",
+  "review": {
+    "id": "manual-rebase-branch-after",
+    "title": "Insert a branch after a destination",
+    "status": "ready",
+    "source_tape": "tapes/manual/rewrite/manual-rebase-branch-after.tape",
+    "source_tape_sha256": "9366c5b6f27cca605357ee516cbcadcfcb8cc63fb8917d0cedb5b2d31a08b65a",
+    "website": {
+      "path": "assets/manual/v0.3.0-manual-20260921/manual-rebase-branch-after"
+    },
+    "problems": [],
+    "checkpoints": [
+      {
+        "id": "manual-rebase-branch-after-selector",
+        "png": "manual-rebase-branch-after-selector.png",
+        "state": "manual-rebase-branch-after-selector.json",
+        "png_sha256": "112609517208f7dc758d307f3f2dce3cb295fb68a655431ca7b4fe98c7a3848e",
+        "state_sha256": "edb14629b972f14555fc41f28eb9b0a545e7ad0418135cf478cb23350fde2280",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "mutation evidence reviewer",
+          "reviewed_at": "2026-09-21T03:38:44.540947+00:00",
+          "summary": "The original inline PNG shows an opaque destination selector over a populated three-change graph. Branch scope, insert after (-A), active destination search and the single named match are legible. The graph retains its active cursor behind the modal.",
+          "findings": [
+            "UX-06"
+          ]
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "mutation evidence reviewer",
+          "reviewed_at": "2026-09-21T03:38:44.540947+00:00",
+          "summary": "The 104x39 viewport and spans show branch (-b), insert after (-A), and Rebase destination. Fifteen styles distinguish the #65d4cf title/search/keys, #e0e6ee values and #a1aebe supporting controls on #242c3a.",
+          "findings": [
+            "UX-06"
+          ]
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/branch-rebase.json",
+        "text_style_review_source": "target/manual-recordings/reviews/branch-rebase.json"
+      },
+      {
+        "id": "manual-rebase-branch-after-preview",
+        "png": "manual-rebase-branch-after-preview.png",
+        "state": "manual-rebase-branch-after-preview.json",
+        "png_sha256": "a3fed4c18d533ae6952bb97a6cbec0417313770bed018e8ca27f496d397a9939",
+        "state_sha256": "4da006e805de21171a0ecda01cd346108695e73941e0f1cdead6e231a33a8632",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "mutation evidence reviewer",
+          "reviewed_at": "2026-09-21T03:38:44.540947+00:00",
+          "summary": "The filled preview keeps source/destination/base graph context visible above it. Branch scope, placement explanation, risk, wrapped command and controls fit. Full commit hashes require comparison with the graph; the background cursor remains active.",
+          "findings": [
+            "UX-04",
+            "UX-06"
+          ]
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "mutation evidence reviewer",
+          "reviewed_at": "2026-09-21T03:38:44.540947+00:00",
+          "summary": "Sixteen styles preserve the graph palette, white dialog copy, yellow warning and teal keys. The exact command uses -b with -A and explicitly warns that existing descendants, including other workspaces, are rewritten.",
+          "findings": [
+            "UX-04",
+            "UX-06"
+          ]
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/branch-rebase.json",
+        "text_style_review_source": "target/manual-recordings/reviews/branch-rebase.json"
+      },
+      {
+        "id": "manual-rebase-branch-after-success",
+        "png": "manual-rebase-branch-after-success.png",
+        "state": "manual-rebase-branch-after-success.json",
+        "png_sha256": "cf656a61157a964070219a7b96fa1dee7fc4ccd2c39689e4cc2a0e1ec2d5e3d2",
+        "state_sha256": "fa61d33f8b6e0cbe57b8bd0144c5ebd5464dc0b02dd2d2d05afdcc004b47d2f6",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "mutation evidence reviewer",
+          "reviewed_at": "2026-09-21T03:38:44.540947+00:00",
+          "summary": "The refreshed source is above the destination, which is above the base. The full Rebased revisions toast exposes Undo, History and Operations. The fixture log intentionally omits descendant rows, so this image alone does not establish their parent edges.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "mutation evidence reviewer",
+          "reviewed_at": "2026-09-21T03:38:44.540947+00:00",
+          "summary": "Thirteen styles preserve jj metadata and a readable success toast. Source content and both descendants remain according to passing repository assertions. The source parent is the selected destination, its descendant retains its source parent, and the old destination descendant moves beneath Verify source.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/branch-rebase.json",
+        "text_style_review_source": "target/manual-recordings/reviews/branch-rebase.json"
+      },
+      {
+        "id": "manual-rebase-branch-after-history",
+        "png": "manual-rebase-branch-after-history.png",
+        "state": "manual-rebase-branch-after-history.json",
+        "png_sha256": "a6bed00cdf03f4a2d823815b3137221acd308ba5affb3e963de30a9dfe7d453a",
+        "state_sha256": "e487927a0dcf0bb41786c294f950364452c2d4835a7e30325db32d18fadaef02",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "mutation evidence reviewer",
+          "reviewed_at": "2026-09-21T03:38:44.540947+00:00",
+          "summary": "The top Command History row is selected and reports successful rebase of two commits. Both load rows and the navigation footer are legible; no modal or setup text obscures the result.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "mutation evidence reviewer",
+          "reviewed_at": "2026-09-21T03:38:44.540947+00:00",
+          "summary": "The viewport and three styles agree: green ok statuses, teal log rebase/load categories and bold selected operation. The selected rebase row includes stderr: Rebased 2 commits to destination.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/branch-rebase.json",
+        "text_style_review_source": "target/manual-recordings/reviews/branch-rebase.json"
+      }
+    ],
+    "metadata_path": "target/manual-recordings/ci-35557653700/manual-evidence-manual-rebase-branch-after/capture-metadata.json",
+    "metadata_sha256": "82abf90addec0476e6478dd5ddeb4fa53b058f7094fba6d94a1af38e117191c8",
+    "evidence_directory": "target/manual-recordings/ci-35557653700/manual-evidence-manual-rebase-branch-after",
+    "evidence_status": "passed",
+    "source_commit": "7fcb4fa9af1bb624fcdc7ac14a64184a43c4e829",
+    "pr_head_commit": "d5200f713edc476fd446616ad46fec573f861baf",
+    "source_manifest_sha256": "42c0d25b424a807906eb4e0ba7ca72b4c0488685e9f57b3bcf62d3f01c6c6915",
+    "source_matches_checkout": true,
+    "binary": {
+      "invoked_path": "/home/runner/work/jk/jk/target/manual-build/jk",
+      "path": "/home/runner/work/jk/jk/target/manual-build/jk",
+      "sha256": "cb41f94b63ec85100829bd2b1e9ced84f37cae912996a48e93b56b8776c9c5ed",
+      "version": "jk 0.3.0",
+      "version_exit_code": 0
+    },
+    "jj": {
+      "invoked_path": "/home/runner/.cargo/bin/jj",
+      "path": "/home/runner/.cargo/bin/jj",
+      "sha256": "cd5efc3eb281d606bf9b5523167f79661da0f8c76a5aa32d61c07c7a351b6b44",
+      "version": "jj 0.45.1-7c41cdeb16b6b321c64e789a966b6adf723816a5",
+      "version_exit_code": 0
+    },
+    "betamax": {
+      "invoked_path": "/home/runner/work/_temp/betamax-1M0Lcz/bin/betamax",
+      "path": "/home/runner/work/_temp/betamax-1M0Lcz/bin/betamax",
+      "sha256": "db55fa6e7ff98e1df3c91921b5b3fb504b3cc8fdaf6b07e3da952f8757053490",
+      "version": "betamax 0.1.21",
+      "version_exit_code": 0
+    },
+    "ci_run": {
+      "id": "35557653700",
+      "attempt": "1",
+      "url": "https://github.com/joshka/jk/actions/runs/35557653700"
+    },
+    "assertions": [
+      {
+        "path": "manual-rebase-branch-after-assertions.json",
+        "sha256": "7e8d96abf487840861b62f9fe733e00fe08b6c53cbf713b7991b4a9839a991c9",
+        "bytes": 1124
+      }
+    ],
+    "video": {
+      "path": "manual-rebase-branch-after.mp4",
+      "sha256": "7582af95087450a6d195b23e561a4f48061e6c2541df44987e9693c58d5fdab7",
+      "bytes": 192133
+    },
+    "video_review": {
+      "status": "reviewed",
+      "reviewer": "mutation evidence reviewer",
+      "reviewed_at": "2026-09-21T03:38:44.540947+00:00",
+      "summary": "Reviewed all four original checkpoint PNGs, viewport text and styled spans, the captured source tape, ffprobe metadata (16.066667 seconds, 1400x900, 15fps), and actual MP4 frames at 4, 10 and 16 seconds. Samples confirm destination selection, successful graph refresh and final Command History. The tape uses 80ms typing, a two-second initial hold and three-second holds at each checkpoint; captions and controls remain readable and setup is hidden. This is sampled pacing review, not continuous realtime playback. Descendant graph edges are verified by repository assertions because those rows are outside the configured log view.",
+      "findings": [],
+      "sha256": "7582af95087450a6d195b23e561a4f48061e6c2541df44987e9693c58d5fdab7"
+    },
+    "source_snapshot_status": "preserved",
+    "video_review_source": "target/manual-recordings/reviews/branch-rebase.json",
+    "pixel_review_complete": true,
+    "text_style_review_complete": true,
+    "video_review_complete": true
+  }
+}

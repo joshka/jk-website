@@ -1,0 +1,20 @@
+{
+  "scenario": "manual-squash-multiple",
+  "stage": "manual-squash-multiple-cancelled",
+  "status": "passed",
+  "repository": "/home/runner/work/jk/jk/target/manual-fixtures/squash-multiple.7PW1Z9/workflows.pl823U/squash",
+  "assertions": [
+    {
+      "name": "working-copy commit unchanged",
+      "passed": true,
+      "actual": "009f2ef4df11a52d27e4bfe389a215e964b9988e",
+      "expected": "009f2ef4df11a52d27e4bfe389a215e964b9988e"
+    },
+    {
+      "name": "visible repository graph unchanged",
+      "passed": true,
+      "actual": "0000000000000000000000000000000000000000\n009f2ef4df11a52d27e4bfe389a215e964b9988e\n9854924186b049144f7b767ee5d0ad6ac018eed9\nee6cccab815b86ef822a0e58accb16fadcec07d1",
+      "expected": "0000000000000000000000000000000000000000\n009f2ef4df11a52d27e4bfe389a215e964b9988e\n9854924186b049144f7b767ee5d0ad6ac018eed9\nee6cccab815b86ef822a0e58accb16fadcec07d1"
+    }
+  ]
+}

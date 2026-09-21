@@ -1,0 +1,26 @@
+{
+  "scenario": "command-filesets",
+  "stage": "command-filesets-split",
+  "status": "passed",
+  "repository": "/home/runner/work/jk/jk/target/forecast-demo.BM4h8p",
+  "assertions": [
+    {
+      "name": "split selected only config changes",
+      "passed": true,
+      "actual": "M config.json",
+      "expected": "M config.json"
+    },
+    {
+      "name": "split retains remaining file addition",
+      "passed": true,
+      "actual": "A src/cache.js",
+      "expected": "A src/cache.js"
+    },
+    {
+      "name": "split preserves combined working tree",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    }
+  ]
+}

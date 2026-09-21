@@ -1,0 +1,8 @@
+{
+  "repository": "/home/runner/work/jk/jk/target/manual-fixtures/rebase.wGl0wt/workflows.lB1gGM/rebase",
+  "kind": "rebase",
+  "initial_commit": "06ddb1e11a883eeff4465fbb125ecad70f0bec3c",
+  "initial_operation": "55c4334a9150752d178affafad96175b1c503cd03a9f6a46b108f7d642da677b8652b2d9ac15d0bbc598371c71d14427e75238ed1d4a9556a28ec43c2f08d9b4",
+  "binary": "/home/runner/work/jk/jk/target/manual-build/jk",
+  "isolated_jj_config": "/dev/null"
+}

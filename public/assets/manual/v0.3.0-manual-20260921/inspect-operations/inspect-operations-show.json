@@ -1,0 +1,192 @@
+{
+  "size": [
+    104,
+    36
+  ],
+  "total_rows": 36,
+  "scrollback_rows": 0,
+  "cursor": {
+    "x": 77,
+    "y": 35,
+    "visible": false
+  },
+  "default_style": {
+    "fg": "#b4bcca",
+    "bg": "#0f141f"
+  },
+  "styles": [
+    {
+      "bold": true
+    },
+    {
+      "fg": "#76a8f2",
+      "bold": true
+    },
+    {
+      "fg": "#ad9b49",
+      "bold": true
+    },
+    {
+      "fg": "#52aa60",
+      "bold": true
+    },
+    {
+      "fg": "#52c4c0",
+      "bold": true
+    },
+    {
+      "fg": "#d58bf0",
+      "bold": true
+    },
+    {
+      "fg": "#52aa60"
+    },
+    {
+      "fg": "#3a4152",
+      "bold": true
+    },
+    {
+      "fg": "#c26265"
+    }
+  ],
+  "viewport_text": "jk jj op show 9c2455ad07e9\n9c2455ad07e9 runner@runnervmlun5p default@ 8 months ago, lasted less than a microsecond\ncreate bookmark candidate pointing to commit 9c809e2d630cc3a4c67ab8beefd04674f164132d\nargs: jj -R /home/runner/work/jk/jk/target/manual-fixtures/inspection.wbQAkX/repo bookmark create candid\n\nChanged local bookmarks:\ncandidate:\n+ voqnmprv 9c809e2d candidate | Experiment with forecast caching\n- (absent)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n? help  V options  r refresh  j/k line  space page  q quit\n",
+  "scrollback_text": "",
+  "viewport": [
+    [
+      "jk ",
+      [
+        "jj op show 9c2455ad07e9",
+        0
+      ]
+    ],
+    [
+      [
+        "9c2455ad07e9",
+        1
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "runner@runnervmlun5p",
+        2
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "default@",
+        3
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "8 months ago, lasted less than a microsecond",
+        4
+      ]
+    ],
+    [
+      [
+        "create bookmark candidate pointing to commit 9c809e2d630cc3a4c67ab8beefd04674f164132d",
+        0
+      ]
+    ],
+    [
+      [
+        "args: jj -R /home/runner/work/jk/jk/target/manual-fixtures/inspection.wbQAkX/repo bookmark create candid",
+        5
+      ]
+    ],
+    [],
+    [
+      "Changed local bookmarks:"
+    ],
+    [
+      "candidate:"
+    ],
+    [
+      [
+        "+",
+        6
+      ],
+      " ",
+      [
+        "v",
+        5
+      ],
+      [
+        "oqnmprv",
+        7
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "9",
+        1
+      ],
+      [
+        "c809e2d",
+        7
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "candidate",
+        5
+      ],
+      [
+        " | ",
+        7
+      ],
+      [
+        "Experiment with forecast caching",
+        0
+      ]
+    ],
+    [
+      [
+        "-",
+        8
+      ],
+      " (absent)"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "? help  V options  r refresh  j/k line  space page  q quit"
+    ]
+  ],
+  "scrollback": []
+}

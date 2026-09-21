@@ -1,0 +1,76 @@
+[
+  {
+    "checkpoint": "change-edit-failure-error",
+    "viewport_text": "jk jj\n   @  koyvzlsk demo@example.invalid 2026-01-01 12:00:00 68d8fc6f\n   \u2502  Experiment with forecast caching\n   \u25cb  kkxzvplo demo@example.invalid 2026-01-01 12:00:00 a418b882\n   \u2502  Configure request timeouts\n   \u25cb  zovumuvm demo@example.invalid 2026-01-01 12:00:00 854f9909\n   \u2502  Add the forecast endpoint\n   \u25cb  ttwyvpty alex@example.com 2026-01-01 12:00:00 719f7a39\n   \u2502  Document the forecast service\n\u203a  \u25c6  zzzzzzzz root() 00000000\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\njj edit failed: Error: The \u2026  ? help  H home  L log  r refresh  enter open  d diff  ...  q quit\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#52aa60",
+        "bold": true
+      },
+      {
+        "fg": "#d58bf0",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152",
+        "bold": true
+      },
+      {
+        "fg": "#ad9b49",
+        "bold": true
+      },
+      {
+        "fg": "#52c4c0",
+        "bold": true
+      },
+      {
+        "fg": "#76a8f2",
+        "bold": true
+      },
+      {
+        "fg": "#487fd4",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152"
+      },
+      {
+        "fg": "#ad9b49"
+      },
+      {
+        "fg": "#269d9a"
+      },
+      {
+        "fg": "#af5bd1",
+        "bold": true
+      },
+      {
+        "fg": "#52aa60"
+      }
+    ],
+    "size": [
+      104,
+      39
+    ]
+  },
+  {
+    "checkpoint": "change-edit-failure-history",
+    "viewport_text": "jk Command 3\nCommand: jj --no-pager --color always --repository /home/runner/work/jk/jk/target/forecast-demo.K8Ua30 e\nSource: log unknown\nStatus: exit 1\nDuration: 20 ms\nOperation: none\nSummary: exit 1: Error: The root commit 000000000000 is immutable\n\nStdout:\n  bytes: 0\n  lines: 0\n  truncated: no\n  redacted: no\n  <empty>\n\nStderr:\n  bytes: 71\n  lines: 1\n  truncated: no\n  redacted: no\n\nError: The root commit 000000000000 is immutable\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n? help  V options  r refresh  j/k line  space page  q quit\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#c26265",
+        "bold": true
+      }
+    ],
+    "size": [
+      104,
+      39
+    ]
+  }
+]

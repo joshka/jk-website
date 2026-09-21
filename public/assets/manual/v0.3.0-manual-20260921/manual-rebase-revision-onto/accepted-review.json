@@ -1,0 +1,194 @@
+{
+  "schema_version": 1,
+  "source_index": "manual/v0.3.0-manual-20260921/review-index.json",
+  "source_index_sha256": "17efd1f5f9a9c80791c6764f7972f466b4b29257831f2719b0c66b74b784fc16",
+  "review": {
+    "id": "manual-rebase-revision-onto",
+    "title": "Move one change onto a destination",
+    "status": "ready",
+    "source_tape": "tapes/manual/rewrite/manual-rebase-revision-onto.tape",
+    "source_tape_sha256": "28aa22b043e04dc3a31be03c3fa22509648f68511c31febb6b13f8e08692b104",
+    "website": {
+      "path": "assets/manual/v0.3.0-manual-20260921/manual-rebase-revision-onto"
+    },
+    "problems": [],
+    "checkpoints": [
+      {
+        "id": "manual-rebase-revision-onto-selector",
+        "png": "manual-rebase-revision-onto-selector.png",
+        "state": "manual-rebase-revision-onto-selector.json",
+        "png_sha256": "bd92e6fec3b88ad69f7a3c99f40b786a8370bb717bfe0f18669f8bbd52b5056b",
+        "state_sha256": "8f69dc75ae42a072b9cd1669e64c46dc7905aa59752215eff7756919b7048102",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "changes scenario agent",
+          "reviewed_at": "2026-09-21T03:43:06.947897+00:00",
+          "summary": "The opaque destination selector shows revision-only scope and onto (-o), with the searched Rebase destination candidate and readable navigation hints. The real source/destination/base graph remains visible above. Source is identified only by a short hash and the background source cursor still looks active.",
+          "findings": [
+            "UX-04",
+            "UX-06"
+          ]
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "changes scenario agent",
+          "reviewed_at": "2026-09-21T03:43:06.947897+00:00",
+          "summary": "State matches revision only (-r), onto (-o), /Rebase destination and the selected described candidate. The panel uses #242c3a, bold teal #65d4cf controls and #e0e6ee text. The source hash must be matched to the still-emphasized background graph.",
+          "findings": [
+            "UX-04",
+            "UX-06"
+          ]
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/revision-rebase.json",
+        "text_style_review_source": "target/manual-recordings/reviews/revision-rebase.json"
+      },
+      {
+        "id": "manual-rebase-revision-onto-preview",
+        "png": "manual-rebase-revision-onto-preview.png",
+        "state": "manual-rebase-revision-onto-preview.json",
+        "png_sha256": "097d6bf2ddc0923613f20bcc3bf388692c25bce6be9b2289bdb8e3581d5fb459",
+        "state_sha256": "b6efbe81b44bbb778288101e52e56a19980043bed7cabdebfbc182591d0303be",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "changes scenario agent",
+          "reviewed_at": "2026-09-21T03:43:06.947897+00:00",
+          "summary": "The opaque preview keeps the real graph visible and fits the revision-only explanation, placement effect, amber history warning, exact command and all four controls. Full operand hashes lack descriptions. The repository path wraps mid-component without clipping; the background selection stays emphasized.",
+          "findings": [
+            "UX-04",
+            "UX-06"
+          ]
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "changes scenario agent",
+          "reviewed_at": "2026-09-21T03:43:06.947897+00:00",
+          "summary": "State confirms full source/destination IDs, revision only (-r), and the placement explanation: Makes this revision the new parent (-o). The command has the matching placement flag and complete operands. Amber #eab855 marks the history warning; teal controls contrast with the slate panel. The description-free IDs and active background selection remain UX-04/06.",
+          "findings": [
+            "UX-04",
+            "UX-06"
+          ]
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/revision-rebase.json",
+        "text_style_review_source": "target/manual-recordings/reviews/revision-rebase.json"
+      },
+      {
+        "id": "manual-rebase-revision-onto-success",
+        "png": "manual-rebase-revision-onto-success.png",
+        "state": "manual-rebase-revision-onto-success.json",
+        "png_sha256": "f1b3a7de2fb0a93009d1beedbbccb4dae74d161ede9aa01e125099b0d48162f1",
+        "state_sha256": "8cec7486c2b089ea789c59b3eec44a690a5fb88e6a95205f0df14e1c9fd07a4d",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "changes scenario agent",
+          "reviewed_at": "2026-09-21T03:43:06.947897+00:00",
+          "summary": "The refreshed graph visibly places the selected Rebase source above Rebase destination and Rebase base. Its source commit changes while the change ID is retained. The success toast and undo/history/operations affordances are readable. This configured log omits descendants; their resulting relationships are established by the passed repository assertions.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "changes scenario agent",
+          "reviewed_at": "2026-09-21T03:43:06.947897+00:00",
+          "summary": "Viewport text confirms the source/destination/base chain, rewritten source commit, retained change ID and Rebased revisions. Native jj colors and bold working-copy selection remain intact. Passed repository assertions separately establish source content, both descendant groups and source-descendant reconnection to the old parent.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/revision-rebase.json",
+        "text_style_review_source": "target/manual-recordings/reviews/revision-rebase.json"
+      },
+      {
+        "id": "manual-rebase-revision-onto-history",
+        "png": "manual-rebase-revision-onto-history.png",
+        "state": "manual-rebase-revision-onto-history.json",
+        "png_sha256": "3661a84b1ccf5861e2a45cd88edceed2ad477d061ea8e2f20adf67cb5262cb8f",
+        "state_sha256": "2a3fba97e5d8f79a98445d116b646cc3f637b466f9ba51c99422371a28669af2",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "changes scenario agent",
+          "reviewed_at": "2026-09-21T03:43:06.947897+00:00",
+          "summary": "Command History clearly marks Rebase revisions as successful and fits the complete \u201cRebased 1 commits to destination.\u201d summary. The selected row and details/operation/copy controls are readable.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "changes scenario agent",
+          "reviewed_at": "2026-09-21T03:43:06.947897+00:00",
+          "summary": "State confirms ok, log rebase, Rebase revisions and the complete stderr summary. Green #52aa60 status and teal #269d9a command source distinguish the successful action; its selected title is bold and the footer is unobscured.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/revision-rebase.json",
+        "text_style_review_source": "target/manual-recordings/reviews/revision-rebase.json"
+      }
+    ],
+    "metadata_path": "target/manual-recordings/ci-35557653700/manual-evidence-manual-rebase-revision-onto/capture-metadata.json",
+    "metadata_sha256": "547ef4ad91c36287dd2e57b7791cf1dc725d3ee1ec81e98c213134924fa45b2a",
+    "evidence_directory": "target/manual-recordings/ci-35557653700/manual-evidence-manual-rebase-revision-onto",
+    "evidence_status": "passed",
+    "source_commit": "7fcb4fa9af1bb624fcdc7ac14a64184a43c4e829",
+    "pr_head_commit": "d5200f713edc476fd446616ad46fec573f861baf",
+    "source_manifest_sha256": "42c0d25b424a807906eb4e0ba7ca72b4c0488685e9f57b3bcf62d3f01c6c6915",
+    "source_matches_checkout": true,
+    "binary": {
+      "invoked_path": "/home/runner/work/jk/jk/target/manual-build/jk",
+      "path": "/home/runner/work/jk/jk/target/manual-build/jk",
+      "sha256": "cb41f94b63ec85100829bd2b1e9ced84f37cae912996a48e93b56b8776c9c5ed",
+      "version": "jk 0.3.0",
+      "version_exit_code": 0
+    },
+    "jj": {
+      "invoked_path": "/home/runner/.cargo/bin/jj",
+      "path": "/home/runner/.cargo/bin/jj",
+      "sha256": "cd5efc3eb281d606bf9b5523167f79661da0f8c76a5aa32d61c07c7a351b6b44",
+      "version": "jj 0.45.1-7c41cdeb16b6b321c64e789a966b6adf723816a5",
+      "version_exit_code": 0
+    },
+    "betamax": {
+      "invoked_path": "/home/runner/work/_temp/betamax-IJvTd9/bin/betamax",
+      "path": "/home/runner/work/_temp/betamax-IJvTd9/bin/betamax",
+      "sha256": "db55fa6e7ff98e1df3c91921b5b3fb504b3cc8fdaf6b07e3da952f8757053490",
+      "version": "betamax 0.1.21",
+      "version_exit_code": 0
+    },
+    "ci_run": {
+      "id": "35557653700",
+      "attempt": "1",
+      "url": "https://github.com/joshka/jk/actions/runs/35557653700"
+    },
+    "assertions": [
+      {
+        "path": "manual-rebase-revision-onto-assertions.json",
+        "sha256": "d96de855d9474bc5651a9b69a80a0f8617a06ed5728f8f6e0bfc7acafd423074",
+        "bytes": 967
+      },
+      {
+        "path": "manual-rebase-revision-onto-cancelled-assertions.json",
+        "sha256": "5b9090602522a96df61ae7f2190183366ff959f3bb863ce878334568d7ba4a9f",
+        "bytes": 1079
+      },
+      {
+        "path": "manual-rebase-revision-onto-undone-assertions.json",
+        "sha256": "3c8f3f7b7194e7015e8673620a8ef535e1c7df158bab2da503e2e7e074446447",
+        "bytes": 1076
+      }
+    ],
+    "video": {
+      "path": "manual-rebase-revision-onto.mp4",
+      "sha256": "03f40a2c95e6addfa9ed9f6dfcd8008dd5e5130fd0580f7bd76365d9bb81d181",
+      "bytes": 361314
+    },
+    "video_review": {
+      "status": "reviewed",
+      "reviewer": "changes scenario agent",
+      "reviewed_at": "2026-09-21T03:43:06.947897+00:00",
+      "summary": "Review method: inspected all four PNG checkpoints inline, matching viewport text/styled spans, captured source tape, ffprobe duration 29.133333s at 1400x900/15fps, and actual MP4 samples at 4.37, 14.57 and 24.76s. The samples show the searched selector, reopened selector after cancellation, and updated graph before undo; the dedicated checkpoints supply the preview and history detail. The source uses 80ms typing and 2\u20133s semantic holds with setup hidden. Both cancellation and undo assertion files pass exact working-copy commit and repository-graph restoration checks; the mutation assertion file verifies source content and descendant behavior. Descendants are omitted by the configured displayed log, so their behavior is assertion evidence rather than visible proof.",
+      "findings": [
+        "UX-04",
+        "UX-06"
+      ],
+      "sha256": "03f40a2c95e6addfa9ed9f6dfcd8008dd5e5130fd0580f7bd76365d9bb81d181"
+    },
+    "source_snapshot_status": "preserved",
+    "video_review_source": "target/manual-recordings/reviews/revision-rebase.json",
+    "pixel_review_complete": true,
+    "text_style_review_complete": true,
+    "video_review_complete": true
+  }
+}

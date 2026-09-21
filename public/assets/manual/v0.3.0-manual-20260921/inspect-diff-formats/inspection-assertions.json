@@ -1,0 +1,20 @@
+{
+  "scenario": "inspect-diff-formats",
+  "stage": "inspection",
+  "status": "passed",
+  "repository": "/home/runner/work/jk/jk/target/manual-fixtures/inspection.K7NteH/repo",
+  "assertions": [
+    {
+      "name": "working-copy commit unchanged",
+      "passed": true,
+      "actual": "af41f147654162115595716f8320d7aa6abd8d13",
+      "expected": "af41f147654162115595716f8320d7aa6abd8d13"
+    },
+    {
+      "name": "visible repository graph unchanged",
+      "passed": true,
+      "actual": "0000000000000000000000000000000000000000\n1c327abf9afe554d50d1502df97c9662f028eec3\n507f26ef34bcb950df549829903ac80fb2a2ae0b\naa11a042ad3c4a34d9158e06b56eed2d3f0bc15f\naf41f147654162115595716f8320d7aa6abd8d13",
+      "expected": "0000000000000000000000000000000000000000\n1c327abf9afe554d50d1502df97c9662f028eec3\n507f26ef34bcb950df549829903ac80fb2a2ae0b\naa11a042ad3c4a34d9158e06b56eed2d3f0bc15f\naf41f147654162115595716f8320d7aa6abd8d13"
+    }
+  ]
+}

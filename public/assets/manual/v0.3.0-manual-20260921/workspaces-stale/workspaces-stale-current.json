@@ -1,0 +1,110 @@
+{
+  "size": [
+    98,
+    43
+  ],
+  "total_rows": 43,
+  "scrollback_rows": 0,
+  "cursor": {
+    "x": 97,
+    "y": 42,
+    "visible": false
+  },
+  "default_style": {
+    "fg": "#b4bcca",
+    "bg": "#0f141f"
+  },
+  "styles": [
+    {
+      "bold": true
+    },
+    {
+      "fg": "#269d9a",
+      "bold": true
+    }
+  ],
+  "viewport_text": "jk jj workspace list\n   * default  /home/runner/work/jk/jk/target/manual-fixtures/workspaces-stale.SYq8aL/workflows.vbU\n›    scratch  /home/runner/work/jk/jk/target/manual-fixtures/workspaces-stale.SYq8aL/workflows.vbU\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nupdated scratch via workspace update-stale: Attempted recovery, but the working copy is not stale.\n",
+  "scrollback_text": "",
+  "viewport": [
+    [
+      "jk ",
+      [
+        "jj workspace list",
+        0
+      ]
+    ],
+    [
+      "   ",
+      [
+        "*",
+        1
+      ],
+      " ",
+      [
+        "default",
+        0
+      ],
+      "  /home/runner/work/jk/jk/target/manual-fixtures/workspaces-stale.SYq8aL/workflows.vbU"
+    ],
+    [
+      [
+        "›",
+        0
+      ],
+      "  ",
+      [
+        " ",
+        1
+      ],
+      " ",
+      [
+        "scratch",
+        0
+      ],
+      "  /home/runner/work/jk/jk/target/manual-fixtures/workspaces-stale.SYq8aL/workflows.vbU"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "updated scratch via workspace update-stale: Attempted recovery, but the working copy is not stale."
+    ]
+  ],
+  "scrollback": []
+}

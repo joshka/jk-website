@@ -1,0 +1,184 @@
+[
+  {
+    "checkpoint": "workspaces-inspect-status",
+    "viewport_text": "jk jj -R /home/runner/work/jk/jk/target/manual-fixtures/workspaces.CSSzGn/workflows.RLxDb7/workspa\nWorking copy changes:\nA ../scratch/KEEP-ME.txt\nWorking copy  (@) : psukwknu c0b49187 (no description set)\nParent commit (@-): zrqnkqsw 9f6af6b1 Add workspace demo files\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n? help  V options  r refresh  j/k line  space page  q quit\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#52aa60"
+      },
+      {
+        "fg": "#d58bf0",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152",
+        "bold": true
+      },
+      {
+        "fg": "#76a8f2",
+        "bold": true
+      },
+      {
+        "fg": "#ad9b49",
+        "bold": true
+      },
+      {
+        "fg": "#487fd4",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152"
+      },
+      {
+        "fg": "#af5bd1",
+        "bold": true
+      }
+    ],
+    "size": [
+      98,
+      43
+    ]
+  },
+  {
+    "checkpoint": "workspaces-inspect-diff",
+    "viewport_text": "jk jj -R /home/runner/work/jk/jk/target/manual-fixtures/workspaces.CSSzGn/workflows.RLxDb7/workspa\nAdded regular file ../scratch/KEEP-ME.txt:\n        1: workspace files remain after metadata changes\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n? help  V options  r refresh  j/k line  space page  q quit\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#ad9b49"
+      },
+      {
+        "fg": "#52aa60"
+      },
+      {
+        "fg": "#52aa60",
+        "underline": "single"
+      }
+    ],
+    "size": [
+      98,
+      43
+    ]
+  },
+  {
+    "checkpoint": "workspaces-inspect-show",
+    "viewport_text": "jk jj --no-pager --color always --repository /home/runner/work/jk/jk/target/manual-fixtures/worksp\nCommand: jj --no-pager --color always --repository /home/runner/work/jk/jk/target/manual-fixtures/\nStatus: success\n\nStdout:\nCommit ID: c0b49187b780fcb257a9de838ca57114b9e59454\nChange ID: psukwknupoqyrlkywwkwxqmqqpxlsokx\nAuthor   :<redacted> Author <demo@example.invalid> (2026-01-01 12:00:00)\nCommitter: Alex Developer <alex@example.invalid> (2026-01-01 12:00:00)\n\n    (no description set)\n\nAdded regular file KEEP-ME.txt:\n        1: workspace files remain after metadata changes\n\nStderr:\n<empty>\n\nActions: e edit/retry command   : run another jj command\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n? help  V options  r refresh  j/k line  space page  q quit\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#dfe5ee",
+        "bg": "#3a485a"
+      },
+      {
+        "fg": "#dfe5ee",
+        "bg": "#215b53"
+      },
+      {
+        "fg": "#dfe5ee",
+        "bg": "#282d37"
+      },
+      {
+        "fg": "#dfe5ee",
+        "bg": "#1e232f"
+      },
+      {
+        "fg": "#af5bd1",
+        "bg": "#1e232f"
+      },
+      {
+        "bg": "#1e232f"
+      },
+      {
+        "fg": "#487fd4",
+        "bg": "#1e232f"
+      },
+      {
+        "fg": "#ad9b49",
+        "bg": "#1e232f"
+      },
+      {
+        "fg": "#269d9a",
+        "bg": "#1e232f"
+      },
+      {
+        "fg": "#52aa60",
+        "bg": "#1e232f"
+      },
+      {
+        "fg": "#52aa60",
+        "bg": "#1e232f",
+        "underline": "single"
+      },
+      {
+        "bg": "#282d37"
+      },
+      {
+        "bg": "#52c4c0"
+      }
+    ],
+    "size": [
+      98,
+      43
+    ]
+  },
+  {
+    "checkpoint": "workspaces-inspect-evolog",
+    "viewport_text": "jk jj --no-pager --color always --repository /home/runner/work/jk/jk/target/manual-fixtures/worksp\nCommand: jj --no-pager --color always --repository /home/runner/work/jk/jk/target/manual-fixtures/\nStatus: success\n\nStdout:\n\u25cb  psukwknu demo@example.invalid 2026-01-01 12:00:00 scratch@ c0b49187\n\u2502  (no description set)\n\u2502  -- operation c7dc37b64b56 snapshot working copy\n\u25cb  psukwknu/1 demo@example.invalid 2026-01-01 12:00:00 986385ef (hidden)\n   (empty) (no description set)\n   -- operation 88af11740632 create initial working-copy commit in workspace scratch\n\nStderr:\n<empty>\n\nActions: e edit/retry command   : run another jj command\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n? help  V options  r refresh  j/k line  space page  q quit\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#dfe5ee",
+        "bg": "#3a485a"
+      },
+      {
+        "fg": "#dfe5ee",
+        "bg": "#215b53"
+      },
+      {
+        "fg": "#dfe5ee",
+        "bg": "#282d37"
+      },
+      {
+        "fg": "#dfe5ee",
+        "bg": "#1e232f"
+      },
+      {
+        "fg": "#487fd4",
+        "bg": "#1e232f",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152"
+      },
+      {
+        "fg": "#ad9b49"
+      },
+      {
+        "fg": "#269d9a"
+      },
+      {
+        "fg": "#52aa60"
+      },
+      {
+        "fg": "#af5bd1",
+        "bold": true
+      },
+      {
+        "fg": "#487fd4"
+      }
+    ],
+    "size": [
+      98,
+      43
+    ]
+  }
+]

@@ -1,0 +1,172 @@
+{
+  "size": [
+    104,
+    39
+  ],
+  "total_rows": 39,
+  "scrollback_rows": 0,
+  "cursor": {
+    "x": 93,
+    "y": 38,
+    "visible": false
+  },
+  "default_style": {
+    "fg": "#b4bcca",
+    "bg": "#0f141f"
+  },
+  "styles": [
+    {
+      "bold": true
+    },
+    {
+      "fg": "#c26265"
+    },
+    {
+      "fg": "#269d9a"
+    },
+    {
+      "fg": "#52aa60"
+    }
+  ],
+  "viewport_text": "jk Command History\n›  fail external command mode external command sh -c 'printf \"cache check failed\\n\" >&2; exit 7'  exit 7\n   ok   external command mode external command printf '%s\\n' 'Cache verification complete'  Cache verifi\n   ok   command mode command   : jj status  Working copy changes:\n   ok   log load               jj  stderr: Hint: Use `jj -h` for a list of available commands.\n   ok   log load               jj  stderr: Hint: Use `jj -h` for a list of available commands.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n? help  enter details  j/k move  space page  r refresh  o operation  y copy  Esc back  q quit\n",
+  "scrollback_text": "",
+  "viewport": [
+    [
+      "jk ",
+      [
+        "Command History",
+        0
+      ]
+    ],
+    [
+      [
+        "›",
+        0
+      ],
+      "  ",
+      [
+        "fail",
+        1
+      ],
+      " ",
+      [
+        "external command mode external command",
+        2
+      ],
+      " ",
+      [
+        "sh -c 'printf \"cache check failed\\n\" >&2; exit 7'",
+        0
+      ],
+      "  exit 7"
+    ],
+    [
+      "   ",
+      [
+        "ok  ",
+        3
+      ],
+      " ",
+      [
+        "external command mode external command",
+        2
+      ],
+      " ",
+      [
+        "printf '%s\\n' 'Cache verification complete'",
+        0
+      ],
+      "  Cache verifi"
+    ],
+    [
+      "   ",
+      [
+        "ok  ",
+        3
+      ],
+      " ",
+      [
+        "command mode command  ",
+        2
+      ],
+      " ",
+      [
+        ": jj status",
+        0
+      ],
+      "  Working copy changes:"
+    ],
+    [
+      "   ",
+      [
+        "ok  ",
+        3
+      ],
+      " ",
+      [
+        "log load              ",
+        2
+      ],
+      " ",
+      [
+        "jj",
+        0
+      ],
+      "  stderr: Hint: Use `jj -h` for a list of available commands."
+    ],
+    [
+      "   ",
+      [
+        "ok  ",
+        3
+      ],
+      " ",
+      [
+        "log load              ",
+        2
+      ],
+      " ",
+      [
+        "jj",
+        0
+      ],
+      "  stderr: Hint: Use `jj -h` for a list of available commands."
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "? help  enter details  j/k move  space page  r refresh  o operation  y copy  Esc back  q quit"
+    ]
+  ],
+  "scrollback": []
+}

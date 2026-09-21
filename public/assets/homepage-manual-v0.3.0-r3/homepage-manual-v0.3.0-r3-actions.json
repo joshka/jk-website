@@ -1,0 +1,368 @@
+{
+  "size": [
+    82,
+    29
+  ],
+  "total_rows": 29,
+  "scrollback_rows": 0,
+  "cursor": {
+    "x": 75,
+    "y": 28,
+    "visible": false
+  },
+  "default_style": {
+    "fg": "#b4bcca",
+    "bg": "#0f141f"
+  },
+  "styles": [
+    {
+      "bold": true
+    },
+    {
+      "fg": "#52aa60",
+      "bold": true
+    },
+    {
+      "fg": "#d58bf0",
+      "bold": true
+    },
+    {
+      "fg": "#3a4152",
+      "bold": true
+    },
+    {
+      "fg": "#ad9b49",
+      "bold": true
+    },
+    {
+      "fg": "#52c4c0",
+      "bold": true
+    },
+    {
+      "fg": "#76a8f2",
+      "bold": true
+    },
+    {
+      "fg": "#af5bd1",
+      "bold": true
+    },
+    {
+      "fg": "#3a4152"
+    },
+    {
+      "fg": "#ad9b49"
+    },
+    {
+      "fg": "#269d9a"
+    },
+    {
+      "fg": "#af5bd1"
+    },
+    {
+      "fg": "#487fd4",
+      "bold": true
+    },
+    {
+      "fg": "#e0e6ee",
+      "bg": "#242c3a"
+    },
+    {
+      "fg": "#65d4cf",
+      "bg": "#242c3a",
+      "bold": true
+    },
+    {
+      "fg": "#e0e6ee",
+      "bg": "#242c3a",
+      "bold": true
+    }
+  ],
+  "viewport_text": "jk jj\n›  @  zotrmmyl manual@example.invalid 2026-09-20 20:25:02 ba1429eb\n·  │  Document refresh workflow\n   ○  kyxwzpmz manual@example.invalid 2026-09-20 20:25:02 release/v0.3 972c825c\n   │  Prepare v0.3 release\n  Actions\n\n  Change actions:\n  > m  Describe revision  local rewrite · enter saves\n    n  New change         local rewrite · runs now\n    e  Edit change        local rewrite · runs now\n    s  Squash revisions   local rewrite · preview\n    a  Abandon revision   destructive · checks first\n    r  Restore all paths  destructive · preview\n\n  History and recovery:\n    u  Undo               local rewrite · runs now\n    U  Redo               local rewrite · runs now\n\n  Safety cues show whether actions preview, save, or run now; inspection views\n  stay read-only.\n  j/k or arrows move   enter open   action key select   esc close\n",
+  "scrollback_text": "",
+  "viewport": [
+    [
+      "jk ",
+      [
+        "jj",
+        0
+      ]
+    ],
+    [
+      [
+        "›",
+        0
+      ],
+      "  ",
+      [
+        "@",
+        1
+      ],
+      "  ",
+      [
+        "zo",
+        2
+      ],
+      [
+        "trmmyl",
+        3
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "manual@example.invalid",
+        4
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "2026-09-20 20:25:02",
+        5
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "ba",
+        6
+      ],
+      [
+        "1429eb",
+        3
+      ]
+    ],
+    [
+      [
+        "·",
+        0
+      ],
+      "  │  ",
+      [
+        "Document refresh workflow",
+        0
+      ]
+    ],
+    [
+      "   ○  ",
+      [
+        "k",
+        7
+      ],
+      [
+        "yxwzpmz",
+        8
+      ],
+      " ",
+      [
+        "manual@example.invalid",
+        9
+      ],
+      " ",
+      [
+        "2026-09-20 20:25:02",
+        10
+      ],
+      " ",
+      [
+        "release/v0.3",
+        11
+      ],
+      " ",
+      [
+        "9",
+        12
+      ],
+      [
+        "72c825c",
+        8
+      ]
+    ],
+    [
+      "   │  Prepare v0.3 release"
+    ],
+    [
+      [
+        "  ",
+        13
+      ],
+      [
+        "Actions",
+        14
+      ]
+    ],
+    [],
+    [
+      [
+        "  ",
+        13
+      ],
+      [
+        "Change actions:",
+        15
+      ]
+    ],
+    [
+      [
+        "  ",
+        13
+      ],
+      [
+        ">",
+        14
+      ],
+      [
+        " m  Describe revision  local rewrite · enter saves",
+        13
+      ]
+    ],
+    [
+      [
+        "    ",
+        13
+      ],
+      [
+        "n",
+        14
+      ],
+      [
+        "  New change         local rewrite · runs now",
+        13
+      ]
+    ],
+    [
+      [
+        "    ",
+        13
+      ],
+      [
+        "e",
+        14
+      ],
+      [
+        "  Edit change        local rewrite · runs now",
+        13
+      ]
+    ],
+    [
+      [
+        "    ",
+        13
+      ],
+      [
+        "s",
+        14
+      ],
+      [
+        "  Squash revisions   local rewrite · preview",
+        13
+      ]
+    ],
+    [
+      [
+        "    ",
+        13
+      ],
+      [
+        "a",
+        14
+      ],
+      [
+        "  Abandon revision   destructive · checks first",
+        13
+      ]
+    ],
+    [
+      [
+        "    ",
+        13
+      ],
+      [
+        "r",
+        14
+      ],
+      [
+        "  Restore all paths  destructive · preview",
+        13
+      ]
+    ],
+    [],
+    [
+      [
+        "  ",
+        13
+      ],
+      [
+        "History and recovery:",
+        15
+      ]
+    ],
+    [
+      [
+        "    ",
+        13
+      ],
+      [
+        "u",
+        14
+      ],
+      [
+        "  Undo               local rewrite · runs now",
+        13
+      ]
+    ],
+    [
+      [
+        "    ",
+        13
+      ],
+      [
+        "U",
+        14
+      ],
+      [
+        "  Redo               local rewrite · runs now",
+        13
+      ]
+    ],
+    [],
+    [
+      [
+        "  Safety cues show whether actions preview, save, or run now; inspection views",
+        13
+      ]
+    ],
+    [
+      [
+        "  stay read-only.",
+        13
+      ]
+    ],
+    [
+      [
+        "  ",
+        13
+      ],
+      [
+        "j/k or arrows move",
+        14
+      ],
+      [
+        "   enter open   ",
+        13
+      ],
+      [
+        "action key select",
+        14
+      ],
+      [
+        "   esc close",
+        13
+      ]
+    ]
+  ],
+  "scrollback": []
+}

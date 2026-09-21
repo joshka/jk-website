@@ -1,0 +1,189 @@
+{
+  "size": [
+    104,
+    39
+  ],
+  "total_rows": 39,
+  "scrollback_rows": 0,
+  "cursor": {
+    "x": 93,
+    "y": 38,
+    "visible": false
+  },
+  "default_style": {
+    "fg": "#b4bcca",
+    "bg": "#0f141f"
+  },
+  "styles": [
+    {
+      "bold": true
+    },
+    {
+      "fg": "#c26265",
+      "bold": true
+    },
+    {
+      "fg": "#269d9a",
+      "bold": true
+    },
+    {
+      "fg": "#d58bf0",
+      "bold": true
+    },
+    {
+      "fg": "#3a4152",
+      "bold": true
+    },
+    {
+      "fg": "#76a8f2",
+      "bold": true
+    }
+  ],
+  "viewport_text": "jk Command 3\nCommand: jj --no-pager --color always --repository /home/runner/work/jk/jk/target/manual-fixtures/run-op\nSource: log rebase\nStatus: exit 1\nDuration: 10 ms\nOperation: none\nSummary: exit 1: Error: Commit 1ea1c096ef2e is immutable\n\nStdout:\n  bytes: 0\n  lines: 0\n  truncated: no\n  redacted: no\n  <empty>\n\nStderr:\n  bytes: 591\n  lines: 7\n  truncated: no\n  redacted: no\n\nError: Commit 1ea1c096ef2e is immutable\nHint: Could not modify commit: zmuwpmrz 1ea1c096 Rebase source\nHint: Immutable commits are used to protect shared history.\nHint: For more information, see:\n      - https://docs.jj-vcs.dev/latest/config/#set-of-immutable-commits\n      - `jj help -k config`, \"Set of immutable commits\"\nHint: This operation would rewrite 1 immutable commits.\n\n\n\n\n\n\n\n\n\n\n? help  V options  r refresh  j/k line  space page  q quit\n",
+  "scrollback_text": "",
+  "viewport": [
+    [
+      "jk ",
+      [
+        "Command 3",
+        0
+      ]
+    ],
+    [
+      "Command: jj --no-pager --color always --repository /home/runner/work/jk/jk/target/manual-fixtures/run-op"
+    ],
+    [
+      "Source: log rebase"
+    ],
+    [
+      "Status: exit 1"
+    ],
+    [
+      "Duration: 10 ms"
+    ],
+    [
+      "Operation: none"
+    ],
+    [
+      "Summary: exit 1: Error: Commit 1ea1c096ef2e is immutable"
+    ],
+    [],
+    [
+      "Stdout:"
+    ],
+    [
+      "  bytes: 0"
+    ],
+    [
+      "  lines: 0"
+    ],
+    [
+      "  truncated: no"
+    ],
+    [
+      "  redacted: no"
+    ],
+    [
+      "  <empty>"
+    ],
+    [],
+    [
+      "Stderr:"
+    ],
+    [
+      "  bytes: 591"
+    ],
+    [
+      "  lines: 7"
+    ],
+    [
+      "  truncated: no"
+    ],
+    [
+      "  redacted: no"
+    ],
+    [],
+    [
+      [
+        "Error: ",
+        1
+      ],
+      [
+        "Commit 1ea1c096ef2e is immutable",
+        0
+      ]
+    ],
+    [
+      [
+        "Hint: ",
+        2
+      ],
+      "Could not modify commit: ",
+      [
+        "zm",
+        3
+      ],
+      [
+        "uwpmrz",
+        4
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "1",
+        5
+      ],
+      [
+        "ea1c096",
+        4
+      ],
+      [
+        " Rebase source",
+        0
+      ]
+    ],
+    [
+      [
+        "Hint: ",
+        2
+      ],
+      "Immutable commits are used to protect shared history."
+    ],
+    [
+      [
+        "Hint: ",
+        2
+      ],
+      "For more information, see:"
+    ],
+    [
+      "      - https://docs.jj-vcs.dev/latest/config/#set-of-immutable-commits"
+    ],
+    [
+      "      - `jj help -k config`, \"Set of immutable commits\""
+    ],
+    [
+      [
+        "Hint: ",
+        2
+      ],
+      "This operation would rewrite 1 immutable commits."
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "? help  V options  r refresh  j/k line  space page  q quit"
+    ]
+  ],
+  "scrollback": []
+}

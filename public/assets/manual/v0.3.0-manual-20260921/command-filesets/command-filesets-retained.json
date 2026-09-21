@@ -1,0 +1,151 @@
+{
+  "size": [
+    104,
+    39
+  ],
+  "total_rows": 39,
+  "scrollback_rows": 0,
+  "cursor": {
+    "x": 103,
+    "y": 38,
+    "visible": false
+  },
+  "default_style": {
+    "fg": "#b4bcca",
+    "bg": "#0f141f"
+  },
+  "styles": [
+    {
+      "bold": true
+    },
+    {
+      "fg": "#ad9b49"
+    },
+    {
+      "fg": "#52aa60"
+    },
+    {
+      "fg": "#52aa60",
+      "underline": "single"
+    }
+  ],
+  "viewport_text": "jk jj diff -r yokznrqw\n›  Added regular file src/cache.js: | 5 +++++  [file 1/1]\n           1: const forecasts = new Map();\n           2:\n           3: export function remember(city, forecast) {\n           4:   forecasts.set(city, forecast);\n           5: }\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nfile 1/1 src/cache.js  f files  [/] file  { } hunk  ? help\n",
+  "scrollback_text": "",
+  "viewport": [
+    [
+      "jk ",
+      [
+        "jj diff -r yokznrqw",
+        0
+      ]
+    ],
+    [
+      [
+        "›",
+        0
+      ],
+      "  ",
+      [
+        "Added regular file src/cache.js:",
+        1
+      ],
+      " | 5 ",
+      [
+        "+++++",
+        2
+      ],
+      "  [file 1/1]"
+    ],
+    [
+      "        ",
+      [
+        "   1",
+        2
+      ],
+      ": ",
+      [
+        "const forecasts = new Map();",
+        3
+      ]
+    ],
+    [
+      "        ",
+      [
+        "   2",
+        2
+      ],
+      ":"
+    ],
+    [
+      "        ",
+      [
+        "   3",
+        2
+      ],
+      ": ",
+      [
+        "export function remember(city, forecast) {",
+        3
+      ]
+    ],
+    [
+      "        ",
+      [
+        "   4",
+        2
+      ],
+      ": ",
+      [
+        "  forecasts.set(city, forecast);",
+        3
+      ]
+    ],
+    [
+      "        ",
+      [
+        "   5",
+        2
+      ],
+      ": ",
+      [
+        "}",
+        3
+      ]
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "file 1/1 src/cache.js  f files  [/] file  { } hunk  ? help"
+    ]
+  ],
+  "scrollback": []
+}

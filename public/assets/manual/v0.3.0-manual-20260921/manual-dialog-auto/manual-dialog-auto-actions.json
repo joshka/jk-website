@@ -1,0 +1,467 @@
+{
+  "size": [
+    104,
+    39
+  ],
+  "total_rows": 39,
+  "scrollback_rows": 0,
+  "cursor": {
+    "x": 103,
+    "y": 38,
+    "visible": false
+  },
+  "default_style": {
+    "fg": "#b4bcca",
+    "bg": "#0f141f"
+  },
+  "styles": [
+    {
+      "bold": true
+    },
+    {
+      "fg": "#52aa60",
+      "bold": true
+    },
+    {
+      "fg": "#d58bf0",
+      "bold": true
+    },
+    {
+      "fg": "#3a4152",
+      "bold": true
+    },
+    {
+      "fg": "#ad9b49",
+      "bold": true
+    },
+    {
+      "fg": "#52c4c0",
+      "bold": true
+    },
+    {
+      "fg": "#76a8f2",
+      "bold": true
+    },
+    {
+      "fg": "#487fd4",
+      "bold": true
+    },
+    {
+      "fg": "#3a4152"
+    },
+    {
+      "fg": "#ad9b49"
+    },
+    {
+      "fg": "#269d9a"
+    },
+    {
+      "fg": "#af5bd1",
+      "bold": true
+    },
+    {
+      "fg": "#52aa60"
+    },
+    {
+      "fg": "#e0e6ee",
+      "bg": "#242c3a"
+    },
+    {
+      "fg": "#65d4cf",
+      "bg": "#242c3a",
+      "bold": true
+    },
+    {
+      "fg": "#e0e6ee",
+      "bg": "#242c3a",
+      "bold": true
+    }
+  ],
+  "viewport_text": "jk jj\n›  @  vlqyxpyt demo@example.invalid 2026-01-01 12:00:00 c2ac394f\n·  │  Experiment with forecast caching\n   ○  nmkrkywu demo@example.invalid 2026-01-01 12:00:00 81561008\n   │  Configure request timeouts\n   ○  pqxqoyrn demo@example.invalid 2026-01-01 12:00:00 92b85053\n   │  Add the forecast endpoint\n   ○  srwxsxuk alex@example.com 2026-01-01 12:00:00 aabc569e\n   │  Document the forecast service\n   ◆  zzzzzzzz root() 00000000\n\n      Actions\n\n      Change actions:\n      > m  Describe revision  local rewrite · enter saves\n        n  New change         local rewrite · runs now\n        e  Edit change        local rewrite · runs now\n        s  Squash revisions   local rewrite · preview\n        a  Abandon revision   destructive · checks first\n        r  Restore all paths  destructive · preview\n\n      History and recovery:\n        u  Undo               local rewrite · runs now\n        U  Redo               local rewrite · runs now\n\n      Safety cues show whether actions preview, save, or run now; inspection views stay read-only.\n      j/k or arrows move   enter open   action key select   esc close\n",
+  "scrollback_text": "",
+  "viewport": [
+    [
+      "jk ",
+      [
+        "jj",
+        0
+      ]
+    ],
+    [
+      [
+        "›",
+        0
+      ],
+      "  ",
+      [
+        "@",
+        1
+      ],
+      "  ",
+      [
+        "v",
+        2
+      ],
+      [
+        "lqyxpyt",
+        3
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "demo@example.invalid",
+        4
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "2026-01-01 12:00:00",
+        5
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "c",
+        6
+      ],
+      [
+        "2ac394f",
+        3
+      ]
+    ],
+    [
+      [
+        "·",
+        0
+      ],
+      "  │  ",
+      [
+        "Experiment with forecast caching",
+        0
+      ]
+    ],
+    [
+      "   ○  ",
+      [
+        "n",
+        7
+      ],
+      [
+        "mkrkywu",
+        8
+      ],
+      " ",
+      [
+        "demo@example.invalid",
+        9
+      ],
+      " ",
+      [
+        "2026-01-01 12:00:00",
+        10
+      ],
+      " ",
+      [
+        "8",
+        11
+      ],
+      [
+        "1561008",
+        8
+      ]
+    ],
+    [
+      "   │  Configure request timeouts"
+    ],
+    [
+      "   ○  ",
+      [
+        "p",
+        7
+      ],
+      [
+        "qxqoyrn",
+        8
+      ],
+      " ",
+      [
+        "demo@example.invalid",
+        9
+      ],
+      " ",
+      [
+        "2026-01-01 12:00:00",
+        10
+      ],
+      " ",
+      [
+        "9",
+        11
+      ],
+      [
+        "2b85053",
+        8
+      ]
+    ],
+    [
+      "   │  Add the forecast endpoint"
+    ],
+    [
+      "   ○  ",
+      [
+        "s",
+        7
+      ],
+      [
+        "rwxsxuk",
+        8
+      ],
+      " ",
+      [
+        "alex@example.com",
+        9
+      ],
+      " ",
+      [
+        "2026-01-01 12:00:00",
+        10
+      ],
+      " ",
+      [
+        "a",
+        11
+      ],
+      [
+        "abc569e",
+        8
+      ]
+    ],
+    [
+      "   │  Document the forecast service"
+    ],
+    [
+      "   ",
+      [
+        "◆",
+        5
+      ],
+      "  ",
+      [
+        "z",
+        7
+      ],
+      [
+        "zzzzzzz",
+        8
+      ],
+      " ",
+      [
+        "root()",
+        12
+      ],
+      " ",
+      [
+        "0",
+        11
+      ],
+      [
+        "0000000",
+        8
+      ]
+    ],
+    [],
+    [
+      "    ",
+      [
+        "  ",
+        13
+      ],
+      [
+        "Actions",
+        14
+      ]
+    ],
+    [],
+    [
+      "    ",
+      [
+        "  ",
+        13
+      ],
+      [
+        "Change actions:",
+        15
+      ]
+    ],
+    [
+      "    ",
+      [
+        "  ",
+        13
+      ],
+      [
+        ">",
+        14
+      ],
+      [
+        " m  Describe revision  local rewrite · enter saves",
+        13
+      ]
+    ],
+    [
+      "    ",
+      [
+        "    ",
+        13
+      ],
+      [
+        "n",
+        14
+      ],
+      [
+        "  New change         local rewrite · runs now",
+        13
+      ]
+    ],
+    [
+      "    ",
+      [
+        "    ",
+        13
+      ],
+      [
+        "e",
+        14
+      ],
+      [
+        "  Edit change        local rewrite · runs now",
+        13
+      ]
+    ],
+    [
+      "    ",
+      [
+        "    ",
+        13
+      ],
+      [
+        "s",
+        14
+      ],
+      [
+        "  Squash revisions   local rewrite · preview",
+        13
+      ]
+    ],
+    [
+      "    ",
+      [
+        "    ",
+        13
+      ],
+      [
+        "a",
+        14
+      ],
+      [
+        "  Abandon revision   destructive · checks first",
+        13
+      ]
+    ],
+    [
+      "    ",
+      [
+        "    ",
+        13
+      ],
+      [
+        "r",
+        14
+      ],
+      [
+        "  Restore all paths  destructive · preview",
+        13
+      ]
+    ],
+    [],
+    [
+      "    ",
+      [
+        "  ",
+        13
+      ],
+      [
+        "History and recovery:",
+        15
+      ]
+    ],
+    [
+      "    ",
+      [
+        "    ",
+        13
+      ],
+      [
+        "u",
+        14
+      ],
+      [
+        "  Undo               local rewrite · runs now",
+        13
+      ]
+    ],
+    [
+      "    ",
+      [
+        "    ",
+        13
+      ],
+      [
+        "U",
+        14
+      ],
+      [
+        "  Redo               local rewrite · runs now",
+        13
+      ]
+    ],
+    [],
+    [
+      "    ",
+      [
+        "  Safety cues show whether actions preview, save, or run now; inspection views stay read-only.",
+        13
+      ]
+    ],
+    [
+      "    ",
+      [
+        "  ",
+        13
+      ],
+      [
+        "j/k or arrows move",
+        14
+      ],
+      [
+        "   enter open   ",
+        13
+      ],
+      [
+        "action key select",
+        14
+      ],
+      [
+        "   esc close",
+        13
+      ]
+    ]
+  ],
+  "scrollback": []
+}

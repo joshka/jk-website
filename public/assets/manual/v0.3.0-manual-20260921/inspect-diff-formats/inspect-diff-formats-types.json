@@ -1,0 +1,92 @@
+{
+  "size": [
+    104,
+    36
+  ],
+  "total_rows": 36,
+  "scrollback_rows": 0,
+  "cursor": {
+    "x": 67,
+    "y": 35,
+    "visible": false
+  },
+  "default_style": {
+    "fg": "#b4bcca",
+    "bg": "#0f141f"
+  },
+  "styles": [
+    {
+      "bold": true
+    },
+    {
+      "fg": "#269d9a"
+    }
+  ],
+  "viewport_text": "jk jj diff -r @ --types\n   FF README.md\n   FF config.json\n   FF src/cache.js\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n? help  V options  r refresh  j/k line  f files  space page  q quit\n",
+  "scrollback_text": "",
+  "viewport": [
+    [
+      "jk ",
+      [
+        "jj diff -r @ --types",
+        0
+      ]
+    ],
+    [
+      "   ",
+      [
+        "FF README.md",
+        1
+      ]
+    ],
+    [
+      "   ",
+      [
+        "FF config.json",
+        1
+      ]
+    ],
+    [
+      "   ",
+      [
+        "FF src/cache.js",
+        1
+      ]
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "? help  V options  r refresh  j/k line  f files  space page  q quit"
+    ]
+  ],
+  "scrollback": []
+}

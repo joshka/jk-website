@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "source_index": "manual/v0.3.0-manual-20260921/review-index.json",
+  "source_index_sha256": "17efd1f5f9a9c80791c6764f7972f466b4b29257831f2719b0c66b74b784fc16",
+  "review": {
+    "id": "manual-run-options-ignore",
+    "title": "Rebase history while leaving working-copy files unchanged",
+    "status": "ready",
+    "source_tape": "tapes/manual/rewrite/manual-run-options-ignore.tape",
+    "source_tape_sha256": "eed046b7e759fdad05c3c680d1e9a73f89ac9ea13b1bd10839a1de81d38f4fe1",
+    "website": {
+      "path": "assets/manual/v0.3.0-manual-20260921/manual-run-options-ignore"
+    },
+    "problems": [],
+    "checkpoints": [
+      {
+        "id": "manual-run-options-ignore-operation",
+        "png": "manual-run-options-ignore-operation.png",
+        "state": "manual-run-options-ignore-operation.json",
+        "png_sha256": "4af90096142a5272af8c7ce8f111328b9c03a34d5caf79f72501bdaed390df8c",
+        "state_sha256": "396a53fa4af6b3cdb1acbe216375cdc9b7807d65368035ebade3ac4cb74e28db",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "root",
+          "reviewed_at": "2026-09-21T03:54:58.869603+00:00",
+          "summary": "Reviewed all four full-size PNGs. Working-copy ignore setting and exact serialized flag are readable in opaque drawer/preview; success graph shows rebased source and completion without disk updates. Final history transcript shows Source log rebase, success and complete stderr. Long command header clips as UX15; Operation none remains visible as the current UX08 limitation.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "root",
+          "reviewed_at": "2026-09-21T03:54:58.869605+00:00",
+          "summary": "Read all four State JSON texts and styles. Teal controls, muted explanatory text, yellow ignore warning and colored graph match pixels. Four passed repository assertions independently prove source file unchanged, no destination file written, recorded source parent changed and rebase recorded.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/root-ci35558741399.json",
+        "text_style_review_source": "target/manual-recordings/reviews/root-ci35558741399.json"
+      },
+      {
+        "id": "manual-run-options-ignore-preview",
+        "png": "manual-run-options-ignore-preview.png",
+        "state": "manual-run-options-ignore-preview.json",
+        "png_sha256": "5ceb6497a25da258559f6f03c98611f59394f27e07a9abd68c641f4ea1a67f7f",
+        "state_sha256": "28e9609c1ae79a4f15632de6666034b3474b0cfff30eeeb83bc5bbf40c394a62",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "root",
+          "reviewed_at": "2026-09-21T03:54:58.869738+00:00",
+          "summary": "Reviewed all four full-size PNGs. Working-copy ignore setting and exact serialized flag are readable in opaque drawer/preview; success graph shows rebased source and completion without disk updates. Final history transcript shows Source log rebase, success and complete stderr. Long command header clips as UX15; Operation none remains visible as the current UX08 limitation.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "root",
+          "reviewed_at": "2026-09-21T03:54:58.869739+00:00",
+          "summary": "Read all four State JSON texts and styles. Teal controls, muted explanatory text, yellow ignore warning and colored graph match pixels. Four passed repository assertions independently prove source file unchanged, no destination file written, recorded source parent changed and rebase recorded.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/root-ci35558741399.json",
+        "text_style_review_source": "target/manual-recordings/reviews/root-ci35558741399.json"
+      },
+      {
+        "id": "manual-run-options-ignore-completed",
+        "png": "manual-run-options-ignore-completed.png",
+        "state": "manual-run-options-ignore-completed.json",
+        "png_sha256": "6e11ebe305e9e6707c90ec15c7cd9b709437550f7661207c5ddc28dc328d18ec",
+        "state_sha256": "fedf090d0812b306598b73de753d45465faa7f7cd2d8ec8c937e3dfa9766bc15",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "root",
+          "reviewed_at": "2026-09-21T03:54:58.869825+00:00",
+          "summary": "Reviewed all four full-size PNGs. Working-copy ignore setting and exact serialized flag are readable in opaque drawer/preview; success graph shows rebased source and completion without disk updates. Final history transcript shows Source log rebase, success and complete stderr. Long command header clips as UX15; Operation none remains visible as the current UX08 limitation.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "root",
+          "reviewed_at": "2026-09-21T03:54:58.869827+00:00",
+          "summary": "Read all four State JSON texts and styles. Teal controls, muted explanatory text, yellow ignore warning and colored graph match pixels. Four passed repository assertions independently prove source file unchanged, no destination file written, recorded source parent changed and rebase recorded.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/root-ci35558741399.json",
+        "text_style_review_source": "target/manual-recordings/reviews/root-ci35558741399.json"
+      },
+      {
+        "id": "manual-run-options-ignore-operation-result",
+        "png": "manual-run-options-ignore-operation-result.png",
+        "state": "manual-run-options-ignore-operation-result.json",
+        "png_sha256": "eeaf436b83485c5e0569c18d312efa2ce5286beb247624338d2c64ec07b617ef",
+        "state_sha256": "e5d79bd844734383542cec7f9d55cf1423a6a976a2e8e12d0d16c81afb165504",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "root",
+          "reviewed_at": "2026-09-21T03:54:58.869924+00:00",
+          "summary": "Reviewed all four full-size PNGs. Working-copy ignore setting and exact serialized flag are readable in opaque drawer/preview; success graph shows rebased source and completion without disk updates. Final history transcript shows Source log rebase, success and complete stderr. Long command header clips as UX15; Operation none remains visible as the current UX08 limitation.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "root",
+          "reviewed_at": "2026-09-21T03:54:58.869925+00:00",
+          "summary": "Read all four State JSON texts and styles. Teal controls, muted explanatory text, yellow ignore warning and colored graph match pixels. Four passed repository assertions independently prove source file unchanged, no destination file written, recorded source parent changed and rebase recorded.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/root-ci35558741399.json",
+        "text_style_review_source": "target/manual-recordings/reviews/root-ci35558741399.json"
+      }
+    ],
+    "metadata_path": "target/manual-recordings/ci-35558741399/manual-evidence-manual-run-options-ignore/capture-metadata.json",
+    "metadata_sha256": "66cfd1f2c258fcbcd1be1d6d1dabae3f0049aa32998a498212ef55d8f2d33dda",
+    "evidence_directory": "target/manual-recordings/ci-35558741399/manual-evidence-manual-run-options-ignore",
+    "evidence_status": "passed",
+    "source_commit": "47b3b0985cd561831d70afa5b192bc95e4c0fec8",
+    "pr_head_commit": "ec94b2b269e8a1fe8da28cdc3409e57adb6bc6aa",
+    "source_manifest_sha256": "42c0d25b424a807906eb4e0ba7ca72b4c0488685e9f57b3bcf62d3f01c6c6915",
+    "source_matches_checkout": true,
+    "binary": {
+      "invoked_path": "/home/runner/work/jk/jk/target/manual-build/jk",
+      "path": "/home/runner/work/jk/jk/target/manual-build/jk",
+      "sha256": "cb41f94b63ec85100829bd2b1e9ced84f37cae912996a48e93b56b8776c9c5ed",
+      "version": "jk 0.3.0",
+      "version_exit_code": 0
+    },
+    "jj": {
+      "invoked_path": "/home/runner/.cargo/bin/jj",
+      "path": "/home/runner/.cargo/bin/jj",
+      "sha256": "cd5efc3eb281d606bf9b5523167f79661da0f8c76a5aa32d61c07c7a351b6b44",
+      "version": "jj 0.45.1-7c41cdeb16b6b321c64e789a966b6adf723816a5",
+      "version_exit_code": 0
+    },
+    "betamax": {
+      "invoked_path": "/home/runner/work/_temp/betamax-vs3w3a/bin/betamax",
+      "path": "/home/runner/work/_temp/betamax-vs3w3a/bin/betamax",
+      "sha256": "db55fa6e7ff98e1df3c91921b5b3fb504b3cc8fdaf6b07e3da952f8757053490",
+      "version": "betamax 0.1.21",
+      "version_exit_code": 0
+    },
+    "ci_run": {
+      "id": "35558741399",
+      "attempt": "1",
+      "url": "https://github.com/joshka/jk/actions/runs/35558741399"
+    },
+    "assertions": [
+      {
+        "path": "manual-run-options-ignore-assertions.json",
+        "sha256": "d5e7d6a94d3122f5300814563df30589800c3720d6f21ad795924e4ef847ffdb",
+        "bytes": 837
+      }
+    ],
+    "video": {
+      "path": "manual-run-options-ignore.mp4",
+      "sha256": "db05f1d2ac9c6f79f1edef6698a31f21f955ba2c17f87db3c51341945e3ad790",
+      "bytes": 302369
+    },
+    "video_review": {
+      "status": "reviewed",
+      "reviewer": "root",
+      "reviewed_at": "2026-09-21T03:54:58.869927+00:00",
+      "summary": "Reviewed 16.60-second MP4 with decoded three-second samples plus final frame and source-tape timing. Ignore selection, Apply, separate execution confirmation, completion and history transition are clear; each checkpoint holds three seconds and the final transcript remains visible before hidden cleanup.",
+      "findings": [],
+      "sha256": "db05f1d2ac9c6f79f1edef6698a31f21f955ba2c17f87db3c51341945e3ad790"
+    },
+    "source_snapshot_status": "preserved",
+    "video_review_source": "target/manual-recordings/reviews/root-ci35558741399.json",
+    "pixel_review_complete": true,
+    "text_style_review_complete": true,
+    "video_review_complete": true
+  }
+}

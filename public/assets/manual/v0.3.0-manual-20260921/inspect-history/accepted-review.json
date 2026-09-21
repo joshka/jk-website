@@ -1,0 +1,179 @@
+{
+  "schema_version": 1,
+  "source_index": "manual/v0.3.0-manual-20260921/review-index.json",
+  "source_index_sha256": "17efd1f5f9a9c80791c6764f7972f466b4b29257831f2719b0c66b74b784fc16",
+  "review": {
+    "id": "inspect-history",
+    "title": "Compare versions of a change",
+    "status": "ready",
+    "source_tape": "tapes/manual/inspect/inspect-history.tape",
+    "source_tape_sha256": "4f01bf7873f11f562a9b2f3237c60b8fa5272ead631d27d56dddb1787fa90566",
+    "website": {
+      "path": "assets/manual/v0.3.0-manual-20260921/inspect-history"
+    },
+    "problems": [],
+    "checkpoints": [
+      {
+        "id": "inspect-history-evolog",
+        "png": "inspect-history-evolog.png",
+        "state": "inspect-history-evolog.json",
+        "png_sha256": "d17288fcd22926fd81bdf3453eeadae92179effeed18ec90d0b5107bad244fd4",
+        "state_sha256": "13130f67cbe625d4c41d8e0a07e08af61ed46ea3dc3d15af08244f12e4cb5ec4",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "inspection agent",
+          "reviewed_at": "2026-09-21T03:24:03.545759+00:00",
+          "summary": "Native evolution history shows the current description and earlier hidden versions with legible operation identities and graph structure.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "inspection agent",
+          "reviewed_at": "2026-09-21T03:24:03.545759+00:00",
+          "summary": "State contains current Experiment with forecast caching and prior Try a longer cache window versions, with differentiated IDs, hidden markers and operation text.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/inspection.json",
+        "text_style_review_source": "target/manual-recordings/reviews/inspection.json"
+      },
+      {
+        "id": "inspect-history-failure",
+        "png": "inspect-history-failure.png",
+        "state": "inspect-history-failure.json",
+        "png_sha256": "bded29a6aed39336c376f28d25201e034edc932d88977eb8fd24596e5d5dd4b9",
+        "state_sha256": "71bb35310875b8a9d7fa195daf12f74103d5b68e5804246c671a8c8617ab6842",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "inspection agent",
+          "reviewed_at": "2026-09-21T03:24:03.545759+00:00",
+          "summary": "A burgundy exit-1 banner and readable missing-review error make failure clear. Long repository arguments clip the command metadata before the actual interdiff operands; this faithfully exposes UX-15.",
+          "findings": [
+            "UX-15"
+          ]
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "inspection agent",
+          "reviewed_at": "2026-09-21T03:24:03.545759+00:00",
+          "summary": "State preserves exit 1, empty stdout and the explicit missing-review error, with red error and failure styling. Both metadata command lines are clipped by the long repository prefix (UX-15).",
+          "findings": [
+            "UX-15"
+          ]
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/inspection.json",
+        "text_style_review_source": "target/manual-recordings/reviews/inspection.json"
+      },
+      {
+        "id": "inspect-history-interdiff",
+        "png": "inspect-history-interdiff.png",
+        "state": "inspect-history-interdiff.json",
+        "png_sha256": "6caf883a592d6263844cdd775df5bd599fba176037718261e8213b278dea70ec",
+        "state_sha256": "d6b234ba094f0780817213a758482e3e56c7afb121caeae971905f3714ee38b6",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "inspection agent",
+          "reviewed_at": "2026-09-21T03:24:03.545759+00:00",
+          "summary": "Retry succeeds with a green status band and a readable description/file patch. Red/green underline distinguishes changes. Command operands remain hidden by long metadata prefixes (UX-15).",
+          "findings": [
+            "UX-15"
+          ]
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "inspection agent",
+          "reviewed_at": "2026-09-21T03:24:03.545759+00:00",
+          "summary": "Success status, modified commit description and all three file headers match the retry. Structured red/green runs disambiguate inline replacements; clipped command metadata is the same UX-15 issue.",
+          "findings": [
+            "UX-15"
+          ]
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/inspection.json",
+        "text_style_review_source": "target/manual-recordings/reviews/inspection.json"
+      },
+      {
+        "id": "inspect-history-history",
+        "png": "inspect-history-history.png",
+        "state": "inspect-history-history.json",
+        "png_sha256": "7f649ff6ebbd367c11adbfde49b5071f7c34868d0501f8bdc5179aef87c967db",
+        "state_sha256": "e143e032d8a803312e4daa6de898df2de173f35b00a76a9d901ebd9e5c129c1a",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "inspection agent",
+          "reviewed_at": "2026-09-21T03:24:03.545759+00:00",
+          "summary": "Command History clearly shows both the failed misspelled command and the successful corrected interdiff, including their operands and outcomes.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "inspection agent",
+          "reviewed_at": "2026-09-21T03:24:03.545759+00:00",
+          "summary": "State retains both exact command inputs with their outcomes. Unlike the prefixed output header, the history makes from/to operands visible; selection and status styles match the PNG.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/inspection.json",
+        "text_style_review_source": "target/manual-recordings/reviews/inspection.json"
+      }
+    ],
+    "metadata_path": "target/manual-recordings/ci-35556462468/manual-evidence-inspect-history/capture-metadata.json",
+    "metadata_sha256": "1e0386aed79ecb5ab01e555a6ba2baf0fe748d57a5f033c4a132cc28d2d73f35",
+    "evidence_directory": "target/manual-recordings/ci-35556462468/manual-evidence-inspect-history",
+    "evidence_status": "passed",
+    "source_commit": "770b8802a4fe3ef42e3b80160985bcbddc76b049",
+    "pr_head_commit": "088d04dbc19b5a2b81b674e8986f59e190128de1",
+    "source_manifest_sha256": "42c0d25b424a807906eb4e0ba7ca72b4c0488685e9f57b3bcf62d3f01c6c6915",
+    "source_matches_checkout": true,
+    "binary": {
+      "invoked_path": "/home/runner/work/jk/jk/target/manual-build/jk",
+      "path": "/home/runner/work/jk/jk/target/manual-build/jk",
+      "sha256": "cb41f94b63ec85100829bd2b1e9ced84f37cae912996a48e93b56b8776c9c5ed",
+      "version": "jk 0.3.0",
+      "version_exit_code": 0
+    },
+    "jj": {
+      "invoked_path": "/home/runner/.cargo/bin/jj",
+      "path": "/home/runner/.cargo/bin/jj",
+      "sha256": "cd5efc3eb281d606bf9b5523167f79661da0f8c76a5aa32d61c07c7a351b6b44",
+      "version": "jj 0.45.1-7c41cdeb16b6b321c64e789a966b6adf723816a5",
+      "version_exit_code": 0
+    },
+    "betamax": {
+      "invoked_path": "/home/runner/work/_temp/betamax-QZgEAH/bin/betamax",
+      "path": "/home/runner/work/_temp/betamax-QZgEAH/bin/betamax",
+      "sha256": "db55fa6e7ff98e1df3c91921b5b3fb504b3cc8fdaf6b07e3da952f8757053490",
+      "version": "betamax 0.1.21",
+      "version_exit_code": 0
+    },
+    "ci_run": {
+      "id": "35556462468",
+      "attempt": "1",
+      "url": "https://github.com/joshka/jk/actions/runs/35556462468"
+    },
+    "assertions": [
+      {
+        "path": "inspection-assertions.json",
+        "sha256": "8d30d731f7bf8767ebe2ac8629f50f583a5fd694e0d1c7c714ea2713d7972a7f",
+        "bytes": 941
+      }
+    ],
+    "video": {
+      "path": "inspect-history.mp4",
+      "sha256": "4dfe9b99090a1328fbc02176b2345006697da9a06201388673f182a07008e03f",
+      "bytes": 432142
+    },
+    "video_review": {
+      "status": "reviewed",
+      "reviewer": "inspection agent",
+      "reviewed_at": "2026-09-21T03:24:03.545759+00:00",
+      "summary": "Review method: checked the captured source tape, ffprobe duration (19.400000s, 1400x840 at 15fps), all four checkpoint PNG/state pairs and actual MP4 frame samples at 5s, 10s, 16s. Source uses 2.5-second checkpoint holds, 2-second intermediate holds and 70ms typing. Samples confirm evolog command output, visible failed interdiff and successful edited retry. Pacing exposes the error and corrected patch. Clipped command metadata is a product finding (UX-15), while the final history shows exact operands.",
+      "findings": [
+        "UX-15"
+      ],
+      "sha256": "4dfe9b99090a1328fbc02176b2345006697da9a06201388673f182a07008e03f"
+    },
+    "source_snapshot_status": "preserved",
+    "video_review_source": "target/manual-recordings/reviews/inspection.json",
+    "pixel_review_complete": true,
+    "text_style_review_complete": true,
+    "video_review_complete": true
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "repository": "/home/runner/work/jk/jk/target/manual-fixtures/run-options.rewGGK/workflows.2YHjgO/rebase",
+  "kind": "run-options",
+  "initial_commit": "82854cfadccf82d86df63a035362d6057bbddca8",
+  "initial_operation": "844cd0328e09a3fa729680e7091c0b7ddd6b489ced36211c13c062452b0890e027cf64171d8df80e89cfb17f312895f09810b139bacdc18267a6589ae0877898",
+  "binary": "/home/runner/work/jk/jk/target/manual-build/jk",
+  "isolated_jj_config": "/dev/null"
+}

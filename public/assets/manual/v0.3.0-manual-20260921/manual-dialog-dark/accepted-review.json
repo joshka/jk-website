@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "source_index": "manual/v0.3.0-manual-20260921/review-index.json",
+  "source_index_sha256": "17efd1f5f9a9c80791c6764f7972f466b4b29257831f2719b0c66b74b784fc16",
+  "review": {
+    "id": "manual-dialog-dark",
+    "title": "Review a preview with dark dialogs",
+    "status": "ready",
+    "source_tape": "tapes/manual/execution/manual-dialog-dark.tape",
+    "source_tape_sha256": "27cee80e6a184bb71de535012649461cf0c1cd986339db6d02b36df6bd3f7653",
+    "website": {
+      "path": "assets/manual/v0.3.0-manual-20260921/manual-dialog-dark"
+    },
+    "problems": [],
+    "checkpoints": [
+      {
+        "id": "manual-dialog-dark-actions",
+        "png": "manual-dialog-dark-actions.png",
+        "state": "manual-dialog-dark-actions.json",
+        "png_sha256": "8bf0b9a7ac474f979475a2a19d99a9cf9f433b4a1434e31376b947b3e8e67e51",
+        "state_sha256": "2c418343b508dbe6807b5ba9d4d9c3e987a51a43f364a0194659fc923e77612f",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "root",
+          "reviewed_at": "2026-09-21T03:34:05.420908+00:00",
+          "summary": "Inspected all three full-size PNGs. Opaque action, description and help dialogs retain populated graph; controls and shortened captions readable. Narrow help intentionally scrolls with visible more-below indicator.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "root",
+          "reviewed_at": "2026-09-21T03:34:05.421111+00:00",
+          "summary": "Read each viewport and style table: #242c3a surfaces, #e0e6ee text, #65d4cf focused hints, muted #a1aebe supporting text; correct selected revision retained.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/root-ci35557653700.json",
+        "text_style_review_source": "target/manual-recordings/reviews/root-ci35557653700.json"
+      },
+      {
+        "id": "manual-dialog-dark-description",
+        "png": "manual-dialog-dark-description.png",
+        "state": "manual-dialog-dark-description.json",
+        "png_sha256": "853914ea59265074cfc55c84f839e048ca4ad2ace39ea355fef8a92926746af7",
+        "state_sha256": "dcc81ab6c73724db174c5a08e5aebcf2546614b7a610bf62202c7519c590d954",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "root",
+          "reviewed_at": "2026-09-21T03:34:05.421316+00:00",
+          "summary": "Inspected all three full-size PNGs. Opaque action, description and help dialogs retain populated graph; controls and shortened captions readable. Narrow help intentionally scrolls with visible more-below indicator.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "root",
+          "reviewed_at": "2026-09-21T03:34:05.421320+00:00",
+          "summary": "Read each viewport and style table: #242c3a surfaces, #e0e6ee text, #65d4cf focused hints, muted #a1aebe supporting text; correct selected revision retained.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/root-ci35557653700.json",
+        "text_style_review_source": "target/manual-recordings/reviews/root-ci35557653700.json"
+      },
+      {
+        "id": "manual-dialog-dark-help",
+        "png": "manual-dialog-dark-help.png",
+        "state": "manual-dialog-dark-help.json",
+        "png_sha256": "285e3a0f0c6c271e7a7d828ce53c04f458144271f492036c26d61a0fd88482f7",
+        "state_sha256": "928ce5eea7f2ca89149065669a5881251c194b17d1c7f87c76b6e2b9a81d7ed0",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "root",
+          "reviewed_at": "2026-09-21T03:34:05.421685+00:00",
+          "summary": "Inspected all three full-size PNGs. Opaque action, description and help dialogs retain populated graph; controls and shortened captions readable. Narrow help intentionally scrolls with visible more-below indicator.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "root",
+          "reviewed_at": "2026-09-21T03:34:05.421688+00:00",
+          "summary": "Read each viewport and style table: #242c3a surfaces, #e0e6ee text, #65d4cf focused hints, muted #a1aebe supporting text; correct selected revision retained.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/root-ci35557653700.json",
+        "text_style_review_source": "target/manual-recordings/reviews/root-ci35557653700.json"
+      }
+    ],
+    "metadata_path": "target/manual-recordings/ci-35557653700/manual-evidence-manual-dialog-dark/capture-metadata.json",
+    "metadata_sha256": "98fde2b89f12d2ff316c13aa4ebebeca1573a4232bfe3b39ca629347150515c4",
+    "evidence_directory": "target/manual-recordings/ci-35557653700/manual-evidence-manual-dialog-dark",
+    "evidence_status": "passed",
+    "source_commit": "7fcb4fa9af1bb624fcdc7ac14a64184a43c4e829",
+    "pr_head_commit": "d5200f713edc476fd446616ad46fec573f861baf",
+    "source_manifest_sha256": "42c0d25b424a807906eb4e0ba7ca72b4c0488685e9f57b3bcf62d3f01c6c6915",
+    "source_matches_checkout": true,
+    "binary": {
+      "invoked_path": "/home/runner/work/jk/jk/target/manual-build/jk",
+      "path": "/home/runner/work/jk/jk/target/manual-build/jk",
+      "sha256": "cb41f94b63ec85100829bd2b1e9ced84f37cae912996a48e93b56b8776c9c5ed",
+      "version": "jk 0.3.0",
+      "version_exit_code": 0
+    },
+    "jj": {
+      "invoked_path": "/home/runner/.cargo/bin/jj",
+      "path": "/home/runner/.cargo/bin/jj",
+      "sha256": "cd5efc3eb281d606bf9b5523167f79661da0f8c76a5aa32d61c07c7a351b6b44",
+      "version": "jj 0.45.1-7c41cdeb16b6b321c64e789a966b6adf723816a5",
+      "version_exit_code": 0
+    },
+    "betamax": {
+      "invoked_path": "/home/runner/work/_temp/betamax-LWWEUy/bin/betamax",
+      "path": "/home/runner/work/_temp/betamax-LWWEUy/bin/betamax",
+      "sha256": "db55fa6e7ff98e1df3c91921b5b3fb504b3cc8fdaf6b07e3da952f8757053490",
+      "version": "betamax 0.1.21",
+      "version_exit_code": 0
+    },
+    "ci_run": {
+      "id": "35557653700",
+      "attempt": "1",
+      "url": "https://github.com/joshka/jk/actions/runs/35557653700"
+    },
+    "assertions": [
+      {
+        "path": "manual-dialog-dark-assertions.json",
+        "sha256": "98e163232e4beb00cb703f6ac844831c94acb43d415d57a40cd18adccb9ef86d",
+        "bytes": 934
+      }
+    ],
+    "video": {
+      "path": "manual-dialog-dark.mp4",
+      "sha256": "867542ce1e0244273534a28665a5383173aafc7c5e62f843b9d36e0b233ae766",
+      "bytes": 112352
+    },
+    "video_review": {
+      "status": "reviewed",
+      "reviewer": "root",
+      "reviewed_at": "2026-09-21T03:34:05.421690+00:00",
+      "summary": "Decoded frames every3s, checked authored holds and ffprobe11.8s: graph\u2192actions\u2192description\u2192help with3s modal holds and legible captions/key overlay.",
+      "findings": [],
+      "sha256": "867542ce1e0244273534a28665a5383173aafc7c5e62f843b9d36e0b233ae766"
+    },
+    "source_snapshot_status": "preserved",
+    "video_review_source": "target/manual-recordings/reviews/root-ci35557653700.json",
+    "pixel_review_complete": true,
+    "text_style_review_complete": true,
+    "video_review_complete": true
+  }
+}

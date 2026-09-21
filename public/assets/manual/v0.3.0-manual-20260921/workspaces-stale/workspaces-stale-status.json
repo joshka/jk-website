@@ -1,0 +1,165 @@
+{
+  "size": [
+    98,
+    43
+  ],
+  "total_rows": 43,
+  "scrollback_rows": 0,
+  "cursor": {
+    "x": 97,
+    "y": 42,
+    "visible": false
+  },
+  "default_style": {
+    "fg": "#b4bcca",
+    "bg": "#0f141f"
+  },
+  "styles": [
+    {
+      "bold": true
+    },
+    {
+      "fg": "#52aa60"
+    },
+    {
+      "fg": "#c26265"
+    },
+    {
+      "fg": "#d58bf0",
+      "bold": true
+    },
+    {
+      "fg": "#3a4152",
+      "bold": true
+    },
+    {
+      "fg": "#76a8f2",
+      "bold": true
+    },
+    {
+      "fg": "#487fd4",
+      "bold": true
+    },
+    {
+      "fg": "#3a4152"
+    },
+    {
+      "fg": "#af5bd1",
+      "bold": true
+    }
+  ],
+  "viewport_text": "jk jj -R /home/runner/work/jk/jk/target/manual-fixtures/workspaces-stale.SYq8aL/workflows.vbUrW6/w\nWorking copy changes:\nA ../scratch/KEEP-ME.txt\nD ../scratch/README.md\nWorking copy  (@) : lkpsvqkm 4b6fda98 Refresh scratch description\nParent commit (@-): lypuszsr 575ac4b4 Add workspace demo files\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n? help  V options  r refresh  j/k line  space page  q quit\n",
+  "scrollback_text": "",
+  "viewport": [
+    [
+      "jk ",
+      [
+        "jj -R /home/runner/work/jk/jk/target/manual-fixtures/workspaces-stale.SYq8aL/workflows.vbUrW6/w",
+        0
+      ]
+    ],
+    [
+      "Working copy changes:"
+    ],
+    [
+      [
+        "A ../scratch/KEEP-ME.txt",
+        1
+      ]
+    ],
+    [
+      [
+        "D ../scratch/README.md",
+        2
+      ]
+    ],
+    [
+      "Working copy  (@) : ",
+      [
+        "lk",
+        3
+      ],
+      [
+        "psvqkm",
+        4
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "4",
+        5
+      ],
+      [
+        "b6fda98",
+        4
+      ],
+      [
+        " Refresh scratch description",
+        0
+      ]
+    ],
+    [
+      "Parent commit (@-): ",
+      [
+        "ly",
+        6
+      ],
+      [
+        "puszsr",
+        7
+      ],
+      " ",
+      [
+        "5",
+        8
+      ],
+      [
+        "75ac4b4",
+        7
+      ],
+      " Add workspace demo files"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "? help  V options  r refresh  j/k line  space page  q quit"
+    ]
+  ],
+  "scrollback": []
+}

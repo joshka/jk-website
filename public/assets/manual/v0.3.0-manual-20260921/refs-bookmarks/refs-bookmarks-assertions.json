@@ -1,0 +1,44 @@
+{
+  "scenario": "refs-bookmarks",
+  "stage": "refs-bookmarks",
+  "status": "passed",
+  "repository": "/home/runner/work/jk/jk/target/dogfood-artifacts/fixtures/refs.kdPe31/client",
+  "assertions": [
+    {
+      "name": "literal wildcard bookmark recreated at current change",
+      "passed": true,
+      "actual": "kzvurklkmwsyuyuwrvxqrokpkorpqslo",
+      "expected": "kzvurklkmwsyuyuwrvxqrokpkorpqslo"
+    },
+    {
+      "name": "similarly named bookmark untouched",
+      "passed": true,
+      "actual": "poyrpmpzuqxslnowmtnlrxsyrsvkzzxs",
+      "expected": "poyrpmpzuqxslnowmtnlrxsyrsvkzzxs"
+    },
+    {
+      "name": "other bookmarks retained",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "literal bookmark created twice",
+      "passed": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "name": "literal bookmark moved exactly once",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "name": "literal bookmark deleted exactly once",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    }
+  ]
+}

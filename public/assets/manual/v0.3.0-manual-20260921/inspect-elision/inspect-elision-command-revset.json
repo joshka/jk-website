@@ -1,0 +1,324 @@
+{
+  "size": [
+    104,
+    36
+  ],
+  "total_rows": 36,
+  "scrollback_rows": 0,
+  "cursor": {
+    "x": 58,
+    "y": 35,
+    "visible": false
+  },
+  "default_style": {
+    "fg": "#b4bcca",
+    "bg": "#0f141f"
+  },
+  "styles": [
+    {
+      "bold": true
+    },
+    {
+      "fg": "#dfe5ee",
+      "bg": "#3a485a"
+    },
+    {
+      "fg": "#dfe5ee",
+      "bg": "#215b53"
+    },
+    {
+      "fg": "#dfe5ee",
+      "bg": "#282d37"
+    },
+    {
+      "fg": "#d58bf0",
+      "bg": "#1e232f",
+      "bold": true
+    },
+    {
+      "fg": "#3a4152",
+      "bg": "#1e232f",
+      "bold": true
+    },
+    {
+      "bg": "#1e232f",
+      "bold": true
+    },
+    {
+      "fg": "#ad9b49",
+      "bg": "#1e232f",
+      "bold": true
+    },
+    {
+      "fg": "#52c4c0",
+      "bg": "#1e232f",
+      "bold": true
+    },
+    {
+      "fg": "#76a8f2",
+      "bg": "#1e232f",
+      "bold": true
+    },
+    {
+      "fg": "#487fd4",
+      "bold": true
+    },
+    {
+      "fg": "#3a4152"
+    },
+    {
+      "fg": "#ad9b49"
+    },
+    {
+      "fg": "#269d9a"
+    },
+    {
+      "fg": "#af5bd1",
+      "bold": true
+    },
+    {
+      "fg": "#af5bd1"
+    },
+    {
+      "fg": "#52aa60"
+    }
+  ],
+  "viewport_text": "jk jj --no-pager --color always --repository /home/runner/work/jk/jk/target/manual-fixtures/inspection.y\nCommand: jj --no-pager --color always --repository /home/runner/work/jk/jk/target/manual-fixtures/inspec\nStatus: success\n\nStdout:\nooknonrr alex@example.invalid 2026-01-01 12:00:00 candidate 9fe71062\nExperiment with forecast caching\nynpyvuzw alex@example.invalid 2026-01-01 12:00:00 33b70592\nConfigure request timeouts\nlmmoyqqv alex@example.invalid 2026-01-01 12:00:00 fdd411e7\nAdd the forecast endpoint\nvkyykrls alex@example.invalid 2026-01-01 12:00:00 main 1c7678be\nDocument the forecast service\nzzzzzzzz root() 00000000\n\nStderr:\n<empty>\n\nActions: e edit/retry command   : run another jj command\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n? help  V options  r refresh  j/k line  space page  q quit\n",
+  "scrollback_text": "",
+  "viewport": [
+    [
+      "jk ",
+      [
+        "jj --no-pager --color always --repository /home/runner/work/jk/jk/target/manual-fixtures/inspection.y",
+        0
+      ]
+    ],
+    [
+      [
+        "Command: jj --no-pager --color always --repository /home/runner/work/jk/jk/target/manual-fixtures/inspec",
+        1
+      ]
+    ],
+    [
+      [
+        "Status: success",
+        2
+      ]
+    ],
+    [],
+    [
+      [
+        "Stdout:",
+        3
+      ]
+    ],
+    [
+      [
+        "o",
+        4
+      ],
+      [
+        "oknonrr",
+        5
+      ],
+      [
+        " ",
+        6
+      ],
+      [
+        "alex@example.invalid",
+        7
+      ],
+      [
+        " ",
+        6
+      ],
+      [
+        "2026-01-01 12:00:00",
+        8
+      ],
+      [
+        " ",
+        6
+      ],
+      [
+        "candidate",
+        4
+      ],
+      [
+        " ",
+        6
+      ],
+      [
+        "9",
+        9
+      ],
+      [
+        "fe71062",
+        5
+      ]
+    ],
+    [
+      [
+        "Experiment with forecast caching",
+        0
+      ]
+    ],
+    [
+      [
+        "y",
+        10
+      ],
+      [
+        "npyvuzw",
+        11
+      ],
+      " ",
+      [
+        "alex@example.invalid",
+        12
+      ],
+      " ",
+      [
+        "2026-01-01 12:00:00",
+        13
+      ],
+      " ",
+      [
+        "3",
+        14
+      ],
+      [
+        "3b70592",
+        11
+      ]
+    ],
+    [
+      "Configure request timeouts"
+    ],
+    [
+      [
+        "l",
+        10
+      ],
+      [
+        "mmoyqqv",
+        11
+      ],
+      " ",
+      [
+        "alex@example.invalid",
+        12
+      ],
+      " ",
+      [
+        "2026-01-01 12:00:00",
+        13
+      ],
+      " ",
+      [
+        "fd",
+        14
+      ],
+      [
+        "d411e7",
+        11
+      ]
+    ],
+    [
+      "Add the forecast endpoint"
+    ],
+    [
+      [
+        "v",
+        10
+      ],
+      [
+        "kyykrls",
+        11
+      ],
+      " ",
+      [
+        "alex@example.invalid",
+        12
+      ],
+      " ",
+      [
+        "2026-01-01 12:00:00",
+        13
+      ],
+      " ",
+      [
+        "main",
+        15
+      ],
+      " ",
+      [
+        "1",
+        14
+      ],
+      [
+        "c7678be",
+        11
+      ]
+    ],
+    [
+      "Document the forecast service"
+    ],
+    [
+      [
+        "z",
+        10
+      ],
+      [
+        "zzzzzzz",
+        11
+      ],
+      " ",
+      [
+        "root()",
+        16
+      ],
+      " ",
+      [
+        "00",
+        14
+      ],
+      [
+        "000000",
+        11
+      ]
+    ],
+    [],
+    [
+      "Stderr:"
+    ],
+    [
+      "<empty>"
+    ],
+    [],
+    [
+      "Actions: e edit/retry command   : run another jj command"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "? help  V options  r refresh  j/k line  space page  q quit"
+    ]
+  ],
+  "scrollback": []
+}

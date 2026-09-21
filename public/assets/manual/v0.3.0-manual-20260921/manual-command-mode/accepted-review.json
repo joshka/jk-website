@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "source_index": "manual/v0.3.0-manual-20260921/review-index.json",
+  "source_index_sha256": "17efd1f5f9a9c80791c6764f7972f466b4b29257831f2719b0c66b74b784fc16",
+  "review": {
+    "id": "manual-command-mode",
+    "title": "Correct command input and inspect failures",
+    "status": "ready",
+    "source_tape": "tapes/manual/execution/manual-command-mode.tape",
+    "source_tape_sha256": "d72f0e0ee3f5d6d8eeee6e63f6c81fc07ebcc5563d8da2afd50459c17a8dfdbf",
+    "website": {
+      "path": "assets/manual/v0.3.0-manual-20260921/manual-command-mode"
+    },
+    "problems": [],
+    "checkpoints": [
+      {
+        "id": "manual-command-mode-parse-error",
+        "png": "manual-command-mode-parse-error.png",
+        "state": "manual-command-mode-parse-error.json",
+        "png_sha256": "0fb3226b167d0c67f905e9e75dd162005ca07b665c7c41d598ab919e1c44832d",
+        "state_sha256": "eb0b466dcbd476e934aa0cc84a4f30521632e38268e9b226899b484fe08fca94",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "root",
+          "reviewed_at": "2026-09-21T03:40:18.866648+00:00",
+          "summary": "Reviewed all four full-resolution PNGs: parse error remains correctable over a populated graph; successful jj output, external exit-7 failure and command history are legible. Opaque prompt and output panels keep command/result association. Long captured command clips as documented UX15.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "root",
+          "reviewed_at": "2026-09-21T03:40:18.866853+00:00",
+          "summary": "Read all four State JSONs including color spans. Red parse/failure diagnostics, green success status, jj working-copy colors and opaque dark prompt match pixels. Captured output refresh wording retains documented UX09 limitation.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/root-ci35557653700.json",
+        "text_style_review_source": "target/manual-recordings/reviews/root-ci35557653700.json"
+      },
+      {
+        "id": "manual-command-mode-jj-success",
+        "png": "manual-command-mode-jj-success.png",
+        "state": "manual-command-mode-jj-success.json",
+        "png_sha256": "c3e1d2510713bf081e1a6b84d5326981c9bedec8399a95f6b72a15ac313338aa",
+        "state_sha256": "f2926a13cec88dfa59c92cd9f45b47c89569f969ae8e46d333382e40b0726626",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "root",
+          "reviewed_at": "2026-09-21T03:40:18.867006+00:00",
+          "summary": "Reviewed all four full-resolution PNGs: parse error remains correctable over a populated graph; successful jj output, external exit-7 failure and command history are legible. Opaque prompt and output panels keep command/result association. Long captured command clips as documented UX15.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "root",
+          "reviewed_at": "2026-09-21T03:40:18.867008+00:00",
+          "summary": "Read all four State JSONs including color spans. Red parse/failure diagnostics, green success status, jj working-copy colors and opaque dark prompt match pixels. Captured output refresh wording retains documented UX09 limitation.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/root-ci35557653700.json",
+        "text_style_review_source": "target/manual-recordings/reviews/root-ci35557653700.json"
+      },
+      {
+        "id": "manual-command-mode-failure",
+        "png": "manual-command-mode-failure.png",
+        "state": "manual-command-mode-failure.json",
+        "png_sha256": "bc44d3b965faecfb2b7edb96ccd237c680a923be4efa9bd7201d071ea221a02e",
+        "state_sha256": "43d406447099675c684e6883bdea87ceb0f19445876df279997ffb9402545992",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "root",
+          "reviewed_at": "2026-09-21T03:40:18.867102+00:00",
+          "summary": "Reviewed all four full-resolution PNGs: parse error remains correctable over a populated graph; successful jj output, external exit-7 failure and command history are legible. Opaque prompt and output panels keep command/result association. Long captured command clips as documented UX15.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "root",
+          "reviewed_at": "2026-09-21T03:40:18.867104+00:00",
+          "summary": "Read all four State JSONs including color spans. Red parse/failure diagnostics, green success status, jj working-copy colors and opaque dark prompt match pixels. Captured output refresh wording retains documented UX09 limitation.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/root-ci35557653700.json",
+        "text_style_review_source": "target/manual-recordings/reviews/root-ci35557653700.json"
+      },
+      {
+        "id": "manual-command-mode-history",
+        "png": "manual-command-mode-history.png",
+        "state": "manual-command-mode-history.json",
+        "png_sha256": "9e51b85f9fc96f6215af1a7e2b7c27e28f8914c6e35bf206f12202a2db5d770f",
+        "state_sha256": "5906b70d7dfc074ebffa8370b115c0e4635e3dbcae9db9d880a5482015fa0912",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "root",
+          "reviewed_at": "2026-09-21T03:40:18.867233+00:00",
+          "summary": "Reviewed all four full-resolution PNGs: parse error remains correctable over a populated graph; successful jj output, external exit-7 failure and command history are legible. Opaque prompt and output panels keep command/result association. Long captured command clips as documented UX15.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "root",
+          "reviewed_at": "2026-09-21T03:40:18.867236+00:00",
+          "summary": "Read all four State JSONs including color spans. Red parse/failure diagnostics, green success status, jj working-copy colors and opaque dark prompt match pixels. Captured output refresh wording retains documented UX09 limitation.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/root-ci35557653700.json",
+        "text_style_review_source": "target/manual-recordings/reviews/root-ci35557653700.json"
+      }
+    ],
+    "metadata_path": "target/manual-recordings/ci-35557653700/manual-evidence-manual-command-mode/capture-metadata.json",
+    "metadata_sha256": "e38931b4dc396d8ec9a533833712260c878e5e1d5450690c4099d6e6236e80c9",
+    "evidence_directory": "target/manual-recordings/ci-35557653700/manual-evidence-manual-command-mode",
+    "evidence_status": "passed",
+    "source_commit": "7fcb4fa9af1bb624fcdc7ac14a64184a43c4e829",
+    "pr_head_commit": "d5200f713edc476fd446616ad46fec573f861baf",
+    "source_manifest_sha256": "42c0d25b424a807906eb4e0ba7ca72b4c0488685e9f57b3bcf62d3f01c6c6915",
+    "source_matches_checkout": true,
+    "binary": {
+      "invoked_path": "/home/runner/work/jk/jk/target/manual-build/jk",
+      "path": "/home/runner/work/jk/jk/target/manual-build/jk",
+      "sha256": "cb41f94b63ec85100829bd2b1e9ced84f37cae912996a48e93b56b8776c9c5ed",
+      "version": "jk 0.3.0",
+      "version_exit_code": 0
+    },
+    "jj": {
+      "invoked_path": "/home/runner/.cargo/bin/jj",
+      "path": "/home/runner/.cargo/bin/jj",
+      "sha256": "cd5efc3eb281d606bf9b5523167f79661da0f8c76a5aa32d61c07c7a351b6b44",
+      "version": "jj 0.45.1-7c41cdeb16b6b321c64e789a966b6adf723816a5",
+      "version_exit_code": 0
+    },
+    "betamax": {
+      "invoked_path": "/home/runner/work/_temp/betamax-BE2BqL/bin/betamax",
+      "path": "/home/runner/work/_temp/betamax-BE2BqL/bin/betamax",
+      "sha256": "db55fa6e7ff98e1df3c91921b5b3fb504b3cc8fdaf6b07e3da952f8757053490",
+      "version": "betamax 0.1.21",
+      "version_exit_code": 0
+    },
+    "ci_run": {
+      "id": "35557653700",
+      "attempt": "1",
+      "url": "https://github.com/joshka/jk/actions/runs/35557653700"
+    },
+    "assertions": [
+      {
+        "path": "manual-command-mode-assertions.json",
+        "sha256": "2e166f13748876bfebc60f79581604b1a1632704f9bbdccc39d32fcd3ce15199",
+        "bytes": 936
+      }
+    ],
+    "video": {
+      "path": "manual-command-mode.mp4",
+      "sha256": "45656e9cd9cb7756b523aec9f9dca2fe6ebe166001b48bf72dfe1938249cbb66",
+      "bytes": 342467
+    },
+    "video_review": {
+      "status": "reviewed",
+      "reviewer": "root",
+      "reviewed_at": "2026-09-21T03:40:18.867238+00:00",
+      "summary": "Reviewed 29.4-second MP4 using decoded four-second frame samples and separate final frame, alongside source tape. Human typing and three-second semantic holds show parse correction, successful command, discarded draft, external failure and final history. Backspace returns from static output; history and failure remain readable.",
+      "findings": [],
+      "sha256": "45656e9cd9cb7756b523aec9f9dca2fe6ebe166001b48bf72dfe1938249cbb66"
+    },
+    "source_snapshot_status": "preserved",
+    "video_review_source": "target/manual-recordings/reviews/root-ci35557653700.json",
+    "pixel_review_complete": true,
+    "text_style_review_complete": true,
+    "video_review_complete": true
+  }
+}

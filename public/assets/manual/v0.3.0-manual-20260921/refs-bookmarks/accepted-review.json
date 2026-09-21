@@ -1,0 +1,229 @@
+{
+  "schema_version": 1,
+  "source_index": "manual/v0.3.0-manual-20260921/review-index.json",
+  "source_index_sha256": "17efd1f5f9a9c80791c6764f7972f466b4b29257831f2719b0c66b74b784fc16",
+  "review": {
+    "id": "refs-bookmarks",
+    "title": "Keep a bookmark on the intended change",
+    "status": "ready",
+    "source_tape": "tapes/manual/refs/refs-bookmarks.tape",
+    "source_tape_sha256": "39e6b92b0f3c75b37afc550d33ccc5695f63ab35f979a86830de9b9360cc7574",
+    "website": {
+      "path": "assets/manual/v0.3.0-manual-20260921/refs-bookmarks"
+    },
+    "problems": [],
+    "checkpoints": [
+      {
+        "id": "refs-bookmarks-create",
+        "png": "refs-bookmarks-create.png",
+        "state": "refs-bookmarks-create.json",
+        "png_sha256": "455adaec5e3a190cbccbc339b7cd4a6c94010c9b47bfbc57cdeb793a39deeaf7",
+        "state_sha256": "3e9e0c1516a5082cb2f9e58b6fa180cf7ffe9cb0fcae1b3f04c3603b0f8a2f21",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/scenarios/refs_workspaces; original PNGs opened in Firefox and inspected directly with paired JSON",
+          "reviewed_at": "2026-09-21T03:35:18.277887+00:00",
+          "summary": "Filled slate create preview is clearly separated from five real bookmark rows above it. Name review-* and @- revision are complete in the wrapped command; title and footer are teal and the metadata warning amber. No setup noise or clipped operands. Background row cursor remains visible while the modal is active.",
+          "findings": [
+            "UX-06"
+          ]
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/scenarios/refs_workspaces; original PNGs opened in Firefox and inspected directly with paired JSON",
+          "reviewed_at": "2026-09-21T03:35:18.277887+00:00",
+          "summary": "98x43 state agrees with pixels; modal background #242c3a, text #e0e6ee, teal #65d4cf controls and amber #eab855 warning are explicit styles. Command creates one literal review-* at @-. All existing bookmarks remain visible above the dialog.",
+          "findings": [
+            "UX-06"
+          ]
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/refs-workspaces-ci35557653700.json",
+        "text_style_review_source": "target/manual-recordings/reviews/refs-workspaces-ci35557653700.json"
+      },
+      {
+        "id": "refs-bookmarks-move",
+        "png": "refs-bookmarks-move.png",
+        "state": "refs-bookmarks-move.json",
+        "png_sha256": "abf465d6284f379b6de2499c0c516b398cfe83f087f562b4d0f5a4d906cc8c24",
+        "state_sha256": "2a0d8872d99be925ac4b050163eb26633e482bed00db573ddba87d06e2afaf4a",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/scenarios/refs_workspaces; original PNGs opened in Firefox and inspected directly with paired JSON",
+          "reviewed_at": "2026-09-21T03:35:18.277887+00:00",
+          "summary": "Move preview keeps selected review-* and neighboring review-keep visible. The full exact-name operand and --to @ are legible, with a solid filled surface and unobstructed keyboard controls. Background cursor remains visually present.",
+          "findings": [
+            "UX-06"
+          ]
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/scenarios/refs_workspaces; original PNGs opened in Firefox and inspected directly with paired JSON",
+          "reviewed_at": "2026-09-21T03:35:18.277887+00:00",
+          "summary": "State shows review-* initially sharing review-keep target 20f45f72fcc2, and exact:\"review-*\" in the command. Five styles preserve the same filled surface, teal controls and amber metadata warning as create.",
+          "findings": [
+            "UX-06"
+          ]
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/refs-workspaces-ci35557653700.json",
+        "text_style_review_source": "target/manual-recordings/reviews/refs-workspaces-ci35557653700.json"
+      },
+      {
+        "id": "refs-bookmarks-delete",
+        "png": "refs-bookmarks-delete.png",
+        "state": "refs-bookmarks-delete.json",
+        "png_sha256": "713384b1faf1dc608e743ccf8eee2320ca488de13616482b2324b65b7dddd5e9",
+        "state_sha256": "79d3549d311eb1c70918bcc381d3eb60efee669e79a7cdabf02aad02f6a42dd2",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/scenarios/refs_workspaces; original PNGs opened in Firefox and inspected directly with paired JSON",
+          "reviewed_at": "2026-09-21T03:35:18.277887+00:00",
+          "summary": "Delete preview targets only review-*; review-keep remains separately visible. The filled slate panel and controls are readable. Warning says Changes local files or history, which is broader than this bookmark deletion; this is product wording preserved faithfully.",
+          "findings": [
+            "UX-06"
+          ]
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/scenarios/refs_workspaces; original PNGs opened in Firefox and inspected directly with paired JSON",
+          "reviewed_at": "2026-09-21T03:35:18.277887+00:00",
+          "summary": "State records exact:\"review-*\" with current target 15960d8a8268 while review-keep remains 20f45f72fcc2. Opaque #242c3a spans cover the dialog; warning stays amber, not a dedicated burgundy destructive treatment. Preview is captured before cancellation.",
+          "findings": [
+            "UX-06"
+          ]
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/refs-workspaces-ci35557653700.json",
+        "text_style_review_source": "target/manual-recordings/reviews/refs-workspaces-ci35557653700.json"
+      },
+      {
+        "id": "refs-bookmarks-recovered",
+        "png": "refs-bookmarks-recovered.png",
+        "state": "refs-bookmarks-recovered.json",
+        "png_sha256": "8a548759fdfa3eed99a2c43477801b135c5c5caf1a0d92c9ecae5c5e316c41dc",
+        "state_sha256": "c5852a1e7827cf0b8702993761aacfc9f00612d24cc56de6909c5f7bb5af84aa",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/scenarios/refs_workspaces; original PNGs opened in Firefox and inspected directly with paired JSON",
+          "reviewed_at": "2026-09-21T03:35:18.277887+00:00",
+          "summary": "Recovered list clearly contains review-* at demo target and unchanged review-keep, with the cursor still on review-keep. There is no success acknowledgement or focus move to the newly created bookmark, confirming result-feedback friction. Caption accurately describes recreation.",
+          "findings": [
+            "UX-14"
+          ]
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/scenarios/refs_workspaces; original PNGs opened in Firefox and inspected directly with paired JSON",
+          "reviewed_at": "2026-09-21T03:35:18.277887+00:00",
+          "summary": "State lists six local names; review-* and demo target 15960d8a8268, review-keep and stable-a/b/c retain 20f45f72fcc2. Only bold style is added to terminal defaults. Six repository assertions prove two literal creates, one move, one delete, keeper safety and final target.",
+          "findings": [
+            "UX-14"
+          ]
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/refs-workspaces-ci35557653700.json",
+        "text_style_review_source": "target/manual-recordings/reviews/refs-workspaces-ci35557653700.json"
+      }
+    ],
+    "metadata_path": "target/manual-recordings/ci-35557653700/manual-evidence-refs-bookmarks/capture-metadata.json",
+    "metadata_sha256": "ec6049c2adb06f52058cb7ebab4ef9cbe30a378c1fefc51afc2a7c44871f0200",
+    "evidence_directory": "target/manual-recordings/ci-35557653700/manual-evidence-refs-bookmarks",
+    "evidence_status": "passed",
+    "source_commit": "7fcb4fa9af1bb624fcdc7ac14a64184a43c4e829",
+    "pr_head_commit": "d5200f713edc476fd446616ad46fec573f861baf",
+    "source_manifest_sha256": "42c0d25b424a807906eb4e0ba7ca72b4c0488685e9f57b3bcf62d3f01c6c6915",
+    "source_matches_checkout": true,
+    "binary": {
+      "invoked_path": "/home/runner/work/jk/jk/target/manual-build/jk",
+      "path": "/home/runner/work/jk/jk/target/manual-build/jk",
+      "sha256": "cb41f94b63ec85100829bd2b1e9ced84f37cae912996a48e93b56b8776c9c5ed",
+      "version": "jk 0.3.0",
+      "version_exit_code": 0
+    },
+    "jj": {
+      "invoked_path": "/home/runner/.cargo/bin/jj",
+      "path": "/home/runner/.cargo/bin/jj",
+      "sha256": "cd5efc3eb281d606bf9b5523167f79661da0f8c76a5aa32d61c07c7a351b6b44",
+      "version": "jj 0.45.1-7c41cdeb16b6b321c64e789a966b6adf723816a5",
+      "version_exit_code": 0
+    },
+    "betamax": {
+      "invoked_path": "/home/runner/work/_temp/betamax-dYftqu/bin/betamax",
+      "path": "/home/runner/work/_temp/betamax-dYftqu/bin/betamax",
+      "sha256": "db55fa6e7ff98e1df3c91921b5b3fb504b3cc8fdaf6b07e3da952f8757053490",
+      "version": "betamax 0.1.21",
+      "version_exit_code": 0
+    },
+    "ci_run": {
+      "id": "35557653700",
+      "attempt": "1",
+      "url": "https://github.com/joshka/jk/actions/runs/35557653700"
+    },
+    "assertions": [
+      {
+        "path": "refs-bookmarks-assertions.json",
+        "sha256": "4783f27be9c9b22076b8c1b4d4e3612f896acbc1f613bc51f79c5fadc1323413",
+        "bytes": 1107
+      }
+    ],
+    "video": {
+      "path": "refs-bookmarks.mp4",
+      "sha256": "8ba84c16d6b8c8bc36cc6642ff9f585e34abf2e4278cfa75e07064ec97effd9e",
+      "bytes": 430273
+    },
+    "video_review": {
+      "status": "reviewed",
+      "reviewer": "Codex /root/scenarios/refs_workspaces; original PNGs opened in Firefox and inspected directly with paired JSON",
+      "reviewed_at": "2026-09-21T03:35:18.277887+00:00",
+      "summary": "Sampled review, not a real-time watch: inspected 16 evenly spaced actual MP4 frames including first/last, all four full PNG/state pairs, ffprobe metadata and source tape. 40.2 seconds at 15fps with 80ms typing and 2\u20133-second teaching holds shows list, field editing, create review, target inspection, forward move, cancelled delete, confirmed delete and recreation. Captions and keyboard overlays remain below terminal content; setup/assertions are hidden. Exact-name effects and cancellation/recovery match six repository assertions.",
+      "findings": [
+        "UX-06",
+        "UX-14"
+      ],
+      "duration_seconds": 40.2,
+      "width": 1280,
+      "height": 900,
+      "fps": 15.0,
+      "sample_frame_numbers": [
+        0,
+        40,
+        80,
+        120,
+        161,
+        201,
+        241,
+        281,
+        321,
+        361,
+        401,
+        441,
+        482,
+        522,
+        562,
+        602
+      ],
+      "sample_seconds": [
+        0.0,
+        2.667,
+        5.333,
+        8.0,
+        10.733,
+        13.4,
+        16.067,
+        18.733,
+        21.4,
+        24.067,
+        26.733,
+        29.4,
+        32.133,
+        34.8,
+        37.467,
+        40.133
+      ],
+      "contact_sheet": "target/manual-recordings/reviews/refs-workspaces-video-ci35557653700/refs-bookmarks-samples.png",
+      "sha256": "8ba84c16d6b8c8bc36cc6642ff9f585e34abf2e4278cfa75e07064ec97effd9e"
+    },
+    "source_snapshot_status": "preserved",
+    "video_review_source": "target/manual-recordings/reviews/refs-workspaces-ci35557653700.json",
+    "pixel_review_complete": true,
+    "text_style_review_complete": true,
+    "video_review_complete": true
+  }
+}

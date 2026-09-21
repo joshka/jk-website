@@ -1,0 +1,37 @@
+{
+  "schema": 1,
+  "results": [
+    {
+      "tape": "manual-command-mode.tape",
+      "status": "passed"
+    }
+  ],
+  "problems": [],
+  "media": [
+    {
+      "name": "betamax-betamax-execution-manual-command-mode-r1-m1.manual-command-mode.mp4",
+      "label": "manual-command-mode.tape (mp4)",
+      "type": "video/mp4"
+    },
+    {
+      "name": "betamax-betamax-execution-manual-command-mode-r1-m2.manual-command-mode-failure.png",
+      "label": "manual-command-mode-failure.png",
+      "type": "image/png"
+    },
+    {
+      "name": "betamax-betamax-execution-manual-command-mode-r1-m3.manual-command-mode-history.png",
+      "label": "manual-command-mode-history.png",
+      "type": "image/png"
+    },
+    {
+      "name": "betamax-betamax-execution-manual-command-mode-r1-m4.manual-command-mode-jj-success.png",
+      "label": "manual-command-mode-jj-success.png",
+      "type": "image/png"
+    },
+    {
+      "name": "betamax-betamax-execution-manual-command-mode-r1-m5.manual-command-mode-parse-error.png",
+      "label": "manual-command-mode-parse-error.png",
+      "type": "image/png"
+    }
+  ]
+}

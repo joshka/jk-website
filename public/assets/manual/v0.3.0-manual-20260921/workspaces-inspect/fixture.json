@@ -1,0 +1,8 @@
+{
+  "repository": "/home/runner/work/jk/jk/target/manual-fixtures/workspaces.CSSzGn/workflows.RLxDb7/workspaces/repo",
+  "kind": "workspaces",
+  "initial_commit": "f0c9a198d1322c57d9de4ac71dd98e8ef7c8e02c",
+  "initial_operation": "88af1174063287f740a0abfdb12904c2ea72ba04c7b495e8aa621e04abd767d72ba0ddfb1c1f0e4abc346ca31f29766a5e92b7c191c2875e078bf87ac6755a36",
+  "binary": "/home/runner/work/jk/jk/target/manual-build/jk",
+  "isolated_jj_config": "/dev/null"
+}

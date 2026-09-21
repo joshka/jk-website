@@ -1,0 +1,20 @@
+{
+  "scenario": "manual-run-options-immutable",
+  "stage": "manual-run-options-immutable-cancelled",
+  "status": "passed",
+  "repository": "/home/runner/work/jk/jk/target/manual-fixtures/run-options-immutable.KPN6EG/workflows.0ENLtJ/rebase",
+  "assertions": [
+    {
+      "name": "working-copy commit unchanged",
+      "passed": true,
+      "actual": "1ea1c096ef2e40d47137fbdbf4659f75345d2487",
+      "expected": "1ea1c096ef2e40d47137fbdbf4659f75345d2487"
+    },
+    {
+      "name": "visible repository graph unchanged",
+      "passed": true,
+      "actual": "0000000000000000000000000000000000000000\n1ea1c096ef2e40d47137fbdbf4659f75345d2487\neea84fa905dbb889a872ada7075e4840b495d34f\nf6e9ae2aa14aac8ce10a11e75fbc6625e8690768",
+      "expected": "0000000000000000000000000000000000000000\n1ea1c096ef2e40d47137fbdbf4659f75345d2487\neea84fa905dbb889a872ada7075e4840b495d34f\nf6e9ae2aa14aac8ce10a11e75fbc6625e8690768"
+    }
+  ]
+}

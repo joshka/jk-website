@@ -1,0 +1,229 @@
+{
+  "schema_version": 1,
+  "source_index": "manual/v0.3.0-manual-20260921/review-index.json",
+  "source_index_sha256": "17efd1f5f9a9c80791c6764f7972f466b4b29257831f2719b0c66b74b784fc16",
+  "review": {
+    "id": "refs-remotes",
+    "title": "Fetch and preview publication to a chosen remote",
+    "status": "ready",
+    "source_tape": "tapes/manual/refs/refs-remotes.tape",
+    "source_tape_sha256": "813a1dd089e1b5f7e29dc7cb913465293368abb73a90ce549912b94e6f6e43d2",
+    "website": {
+      "path": "assets/manual/v0.3.0-manual-20260921/refs-remotes"
+    },
+    "problems": [],
+    "checkpoints": [
+      {
+        "id": "refs-remotes-choose",
+        "png": "refs-remotes-choose.png",
+        "state": "refs-remotes-choose.json",
+        "png_sha256": "1ef3b9ed6666d52a951c09ce621d96c2e47d6df0d5bf1cff1dd1b04d549c123c",
+        "state_sha256": "03e289f1cd10f749bdae270b5285c5bcd1cfa5fdcc6243b255c5c1cdf349441e",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/scenarios/refs_workspaces; inline full PNGs, paired terminal JSON and sampled MP4 contact sheet",
+          "reviewed_at": "2026-09-21T03:41:59.308167+00:00",
+          "summary": "Remote chooser is centered and clearly readable over the populated bookmark list. Teal selection and control hints distinguish the slate modal; underlying bookmark cursor remains visible.",
+          "findings": [
+            "UX-06"
+          ]
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/scenarios/refs_workspaces; inline full PNGs, paired terminal JSON and sampled MP4 contact sheet",
+          "reviewed_at": "2026-09-21T03:41:59.308167+00:00",
+          "summary": "Paired state names the fixture remote and preserves teal bold #65d4cf foreground over #242c3a modal background, with plain bookmark text outside. Selection context remains visible behind the dialog.",
+          "findings": [
+            "UX-06"
+          ]
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/refs-workspaces-ci35557653700.json",
+        "text_style_review_source": "target/manual-recordings/reviews/refs-workspaces-ci35557653700.json"
+      },
+      {
+        "id": "refs-remotes-fetch-preview",
+        "png": "refs-remotes-fetch-preview.png",
+        "state": "refs-remotes-fetch-preview.json",
+        "png_sha256": "80b8e637e89d9bbc03020608c1e11f6b107535cce0368b3251d0249798429b99",
+        "state_sha256": "e1a13911e2839e8f22bec5b53e05f0ec48c3958c61bada0553aa72ad003769f5",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/scenarios/refs_workspaces; inline full PNGs, paired terminal JSON and sampled MP4 contact sheet",
+          "reviewed_at": "2026-09-21T03:41:59.308167+00:00",
+          "summary": "Fetch preview wraps the complete command and exact fixture operand within the modal. Run, copy and cancel keys remain visible with adequate spacing; underlying list cursor is still present.",
+          "findings": [
+            "UX-06"
+          ]
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/scenarios/refs_workspaces; inline full PNGs, paired terminal JSON and sampled MP4 contact sheet",
+          "reviewed_at": "2026-09-21T03:41:59.308167+00:00",
+          "summary": "State retains jj git fetch with --remote exact:\"fixture\", color never, repository scope and all controls. Modal body #e0e6ee and teal controls #65d4cf contrast against #242c3a.",
+          "findings": [
+            "UX-06"
+          ]
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/refs-workspaces-ci35557653700.json",
+        "text_style_review_source": "target/manual-recordings/reviews/refs-workspaces-ci35557653700.json"
+      },
+      {
+        "id": "refs-remotes-fetched",
+        "png": "refs-remotes-fetched.png",
+        "state": "refs-remotes-fetched.json",
+        "png_sha256": "663caa7060fb297159785aaeae852094087314bf9fe726c3c15d80f3bfd98bca",
+        "state_sha256": "b606dd26a82072d692be5daf975fc6b3dae382fc6b312581983c58114f764d5e",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/scenarios/refs_workspaces; inline full PNGs, paired terminal JSON and sampled MP4 contact sheet",
+          "reviewed_at": "2026-09-21T03:41:59.308167+00:00",
+          "summary": "Successful fetch output visibly reports incoming@fixture as new and untracked. The long command header and metadata line run off the right edge before the useful command arguments; output and success state are clear.",
+          "findings": [
+            "UX-15"
+          ]
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/scenarios/refs_workspaces; inline full PNGs, paired terminal JSON and sampled MP4 contact sheet",
+          "reviewed_at": "2026-09-21T03:41:59.308167+00:00",
+          "summary": "State reports Status: success and bookmark: incoming@fixture [new] untracked. Monochrome native output matches color never; clipped command metadata cannot independently reveal the trailing fetch operand.",
+          "findings": [
+            "UX-15"
+          ]
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/refs-workspaces-ci35557653700.json",
+        "text_style_review_source": "target/manual-recordings/reviews/refs-workspaces-ci35557653700.json"
+      },
+      {
+        "id": "refs-remotes-push-result",
+        "png": "refs-remotes-push-result.png",
+        "state": "refs-remotes-push-result.json",
+        "png_sha256": "46e2c21b7d68251d6fb9a0eca1e0055eab99bf2690466c113b629970b517bea7",
+        "state_sha256": "ab08c8216486ae9439e2a3b450cad6bd50bd243152fa7f080cda6e5d748bdd77",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/scenarios/refs_workspaces; inline full PNGs, paired terminal JSON and sampled MP4 contact sheet",
+          "reviewed_at": "2026-09-21T03:41:59.308167+00:00",
+          "summary": "Successful dry-run explicitly shows the proposed demo bookmark addition and Dry-run requested, not pushing. Result body is readable, while command metadata is clipped at the right edge.",
+          "findings": [
+            "UX-15"
+          ]
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/scenarios/refs_workspaces; inline full PNGs, paired terminal JSON and sampled MP4 contact sheet",
+          "reviewed_at": "2026-09-21T03:41:59.308167+00:00",
+          "summary": "State preserves demo [add to 02f7c7e40588] and Dry-run requested, not pushing, with Status: success. Plain output styling is expected for this native remote path; clipped metadata reproduces output visibility issue.",
+          "findings": [
+            "UX-15"
+          ]
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/refs-workspaces-ci35557653700.json",
+        "text_style_review_source": "target/manual-recordings/reviews/refs-workspaces-ci35557653700.json"
+      }
+    ],
+    "metadata_path": "target/manual-recordings/ci-35557653700/manual-evidence-refs-remotes/capture-metadata.json",
+    "metadata_sha256": "52ff915d7291152192ac38aed8519a3688e35f71bdf5ffe6dc394d53652b5d36",
+    "evidence_directory": "target/manual-recordings/ci-35557653700/manual-evidence-refs-remotes",
+    "evidence_status": "passed",
+    "source_commit": "7fcb4fa9af1bb624fcdc7ac14a64184a43c4e829",
+    "pr_head_commit": "d5200f713edc476fd446616ad46fec573f861baf",
+    "source_manifest_sha256": "42c0d25b424a807906eb4e0ba7ca72b4c0488685e9f57b3bcf62d3f01c6c6915",
+    "source_matches_checkout": true,
+    "binary": {
+      "invoked_path": "/home/runner/work/jk/jk/target/manual-build/jk",
+      "path": "/home/runner/work/jk/jk/target/manual-build/jk",
+      "sha256": "cb41f94b63ec85100829bd2b1e9ced84f37cae912996a48e93b56b8776c9c5ed",
+      "version": "jk 0.3.0",
+      "version_exit_code": 0
+    },
+    "jj": {
+      "invoked_path": "/home/runner/.cargo/bin/jj",
+      "path": "/home/runner/.cargo/bin/jj",
+      "sha256": "cd5efc3eb281d606bf9b5523167f79661da0f8c76a5aa32d61c07c7a351b6b44",
+      "version": "jj 0.45.1-7c41cdeb16b6b321c64e789a966b6adf723816a5",
+      "version_exit_code": 0
+    },
+    "betamax": {
+      "invoked_path": "/home/runner/work/_temp/betamax-McfVqB/bin/betamax",
+      "path": "/home/runner/work/_temp/betamax-McfVqB/bin/betamax",
+      "sha256": "db55fa6e7ff98e1df3c91921b5b3fb504b3cc8fdaf6b07e3da952f8757053490",
+      "version": "betamax 0.1.21",
+      "version_exit_code": 0
+    },
+    "ci_run": {
+      "id": "35557653700",
+      "attempt": "1",
+      "url": "https://github.com/joshka/jk/actions/runs/35557653700"
+    },
+    "assertions": [
+      {
+        "path": "refs-remotes-assertions.json",
+        "sha256": "3900acaf588c0186310cd14b6e85213cfccee2e3b9470dc17bb7de7015e9395b",
+        "bytes": 770
+      }
+    ],
+    "video": {
+      "path": "refs-remotes.mp4",
+      "sha256": "2f098ed97eb346a72471ebc1598248e8325a6e61a1ea2be738fa7a1f06abce5b",
+      "bytes": 297174
+    },
+    "video_review": {
+      "status": "reviewed",
+      "reviewer": "Codex /root/scenarios/refs_workspaces; inline full PNGs, paired terminal JSON and sampled MP4 contact sheet",
+      "reviewed_at": "2026-09-21T03:41:59.308167+00:00",
+      "summary": "Sampled review, not a real-time watch: 16 evenly spaced frames across 30 seconds show populated refs, remote selection, held fetch preview, cancellation and reopening, fetched incoming ref, explicit demo dry-run preview and sustained no-push result. Captions and key overlay match the sequence; no fixture setup appears. Paired assertions prove incoming was fetched and remote graph/demo remained unchanged.",
+      "findings": [
+        "UX-06",
+        "UX-15"
+      ],
+      "duration_seconds": 30.0,
+      "width": 1280,
+      "height": 900,
+      "fps": 15.0,
+      "sample_frame_numbers": [
+        0,
+        30,
+        60,
+        90,
+        120,
+        150,
+        180,
+        210,
+        239,
+        269,
+        299,
+        329,
+        359,
+        389,
+        419,
+        449
+      ],
+      "sample_seconds": [
+        0.0,
+        2.0,
+        4.0,
+        6.0,
+        8.0,
+        10.0,
+        12.0,
+        14.0,
+        15.933,
+        17.933,
+        19.933,
+        21.933,
+        23.933,
+        25.933,
+        27.933,
+        29.933
+      ],
+      "contact_sheet": "target/manual-recordings/reviews/refs-workspaces-video-ci35557653700/refs-remotes-samples.png",
+      "sha256": "2f098ed97eb346a72471ebc1598248e8325a6e61a1ea2be738fa7a1f06abce5b"
+    },
+    "source_snapshot_status": "preserved",
+    "video_review_source": "target/manual-recordings/reviews/refs-workspaces-ci35557653700.json",
+    "pixel_review_complete": true,
+    "text_style_review_complete": true,
+    "video_review_complete": true
+  }
+}

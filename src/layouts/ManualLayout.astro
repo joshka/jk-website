@@ -1,0 +1,82 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import { chapters, manualLink } from '../lib/manual';
+import '../styles/manual.css';
+
+interface Props {
+  title: string;
+  description: string;
+  slug?: string;
+  headings?: { depth: number; slug: string; text: string }[];
+  eyebrow?: string;
+}
+const { title, description, slug = '', headings = [], eyebrow = 'jk manual' } = Astro.props;
+const navigation = [
+  { slug: '', title: 'Overview' },
+  ...chapters,
+  { slug: 'reference', title: 'Command reference' },
+  { slug: 'recordings', title: 'Recorded workflows' },
+  { slug: 'coverage', title: 'Coverage map' },
+  { slug: 'audit', title: 'UX findings' },
+];
+const currentIndex = chapters.findIndex((chapter) => chapter.slug === slug);
+const previous = chapters[currentIndex - 1];
+const next = currentIndex >= 0 ? chapters[currentIndex + 1] : undefined;
+---
+
+<BaseLayout title={`${title} · jk manual`} description={description} skipToId="manual-content">
+  <div class="manual-shell">
+    <aside class="manual-sidebar">
+      <a class="manual-wordmark" href={manualLink()}><span>jk</span> / manual</a>
+      <p class="manual-version">0.3.0 source manual</p>
+      <details class="manual-nav-disclosure" open>
+        <summary>Contents <span aria-hidden="true">⌄</span></summary>
+        <nav aria-label="Manual chapters">
+          <ol>
+            {navigation.map((chapter) => (
+              <li>
+                <a href={manualLink(chapter.slug)} aria-current={slug === chapter.slug ? 'page' : undefined}>
+                  {chapter.title}
+                </a>
+              </li>
+            ))}
+          </ol>
+        </nav>
+      </details>
+      <a class="manual-source" href="https://github.com/joshka/jk">Source on GitHub <span aria-hidden="true">↗</span></a>
+    </aside>
+    <article class="manual-article">
+      <header class="manual-header">
+        <p class="manual-eyebrow">{eyebrow}</p>
+        <h1 id="manual-content" tabindex="-1">{title}</h1>
+        <p class="manual-lead">{description}</p>
+      </header>
+      <div class="manual-prose"><slot /></div>
+      {(previous || next) && (
+        <nav class="manual-pagination" aria-label="Adjacent chapters">
+          {previous ? <a href={manualLink(previous.slug)}><small>Previous</small>← {previous.title}</a> : <span />}
+          {next && <a href={manualLink(next.slug)}><small>Next</small>{next.title} →</a>}
+        </nav>
+      )}
+    </article>
+    <aside class="manual-toc">
+      {headings.length > 0 && (
+        <nav aria-label="On this page">
+          <p>On this page</p>
+          <ol>{headings.filter((heading) => heading.depth === 2).map((heading) => (
+            <li><a href={`#${heading.slug}`}>{heading.text}</a></li>
+          ))}</ol>
+        </nav>
+      )}
+    </aside>
+  </div>
+</BaseLayout>
+
+<script>
+  const contents = document.querySelector<HTMLDetailsElement>('.manual-nav-disclosure');
+  const narrow = window.matchMedia('(max-width: 800px)');
+  if (contents) {
+    contents.open = !narrow.matches;
+    narrow.addEventListener('change', (event) => { contents.open = !event.matches; });
+  }
+</script>

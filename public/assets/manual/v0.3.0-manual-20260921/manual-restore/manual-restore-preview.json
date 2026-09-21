@@ -1,0 +1,343 @@
+{
+  "size": [
+    104,
+    39
+  ],
+  "total_rows": 39,
+  "scrollback_rows": 0,
+  "cursor": {
+    "x": 100,
+    "y": 27,
+    "visible": false
+  },
+  "default_style": {
+    "fg": "#b4bcca",
+    "bg": "#0f141f"
+  },
+  "styles": [
+    {
+      "bold": true
+    },
+    {
+      "fg": "#52aa60",
+      "bold": true
+    },
+    {
+      "fg": "#d58bf0",
+      "bold": true
+    },
+    {
+      "fg": "#3a4152",
+      "bold": true
+    },
+    {
+      "fg": "#ad9b49",
+      "bold": true
+    },
+    {
+      "fg": "#52c4c0",
+      "bold": true
+    },
+    {
+      "fg": "#76a8f2",
+      "bold": true
+    },
+    {
+      "fg": "#487fd4",
+      "bold": true
+    },
+    {
+      "fg": "#3a4152"
+    },
+    {
+      "fg": "#ad9b49"
+    },
+    {
+      "fg": "#269d9a"
+    },
+    {
+      "fg": "#af5bd1",
+      "bold": true
+    },
+    {
+      "fg": "#52aa60"
+    },
+    {
+      "fg": "#e0e6ee",
+      "bg": "#242c3a"
+    },
+    {
+      "fg": "#65d4cf",
+      "bg": "#242c3a",
+      "bold": true
+    },
+    {
+      "fg": "#eab855",
+      "bg": "#242c3a"
+    },
+    {
+      "fg": "#e0e6ee",
+      "bg": "#242c3a",
+      "bold": true
+    }
+  ],
+  "viewport_text": "jk jj\n   @  rqwnnsru demo@example.invalid 2026-01-01 12:00:00 1e36af2a\n   │  Restore working content\n›  ○  utrtrmnp demo@example.invalid 2026-01-01 12:00:00 1b5a0b97\n·  │  Restore base\n   ◆  zzzzzzzz root() 00000000\n\n\n\n\n\n\n              Restore all paths\n\n              Source: 1b5a0b97f2521ed2b27ad7ffbf4c8f89dc2c3255\n              Destination: @ (working copy)\n              Affected content: all paths\n\n              ! Changes local files or history.\n\n              Command\n              jj --no-pager --color always --repository\n              /home/runner/work/jk/jk/target/manual-fixtures/restore.RifzV3/workflows.KjyL\n              LA/restore restore --from 1b5a0b97f2521ed2b27ad7ffbf4c8f89dc2c3255 --into @\n\n\n              enter run  y copy  esc cancel  o options\n",
+  "scrollback_text": "",
+  "viewport": [
+    [
+      "jk ",
+      [
+        "jj",
+        0
+      ]
+    ],
+    [
+      "   ",
+      [
+        "@",
+        1
+      ],
+      "  ",
+      [
+        "r",
+        2
+      ],
+      [
+        "qwnnsru",
+        3
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "demo@example.invalid",
+        4
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "2026-01-01 12:00:00",
+        5
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "1e",
+        6
+      ],
+      [
+        "36af2a",
+        3
+      ]
+    ],
+    [
+      "   │  ",
+      [
+        "Restore working content",
+        0
+      ]
+    ],
+    [
+      [
+        "›",
+        0
+      ],
+      "  ○  ",
+      [
+        "u",
+        7
+      ],
+      [
+        "trtrmnp",
+        8
+      ],
+      " ",
+      [
+        "demo@example.invalid",
+        9
+      ],
+      " ",
+      [
+        "2026-01-01 12:00:00",
+        10
+      ],
+      " ",
+      [
+        "1b",
+        11
+      ],
+      [
+        "5a0b97",
+        8
+      ]
+    ],
+    [
+      [
+        "·",
+        0
+      ],
+      "  │  Restore base"
+    ],
+    [
+      "   ",
+      [
+        "◆",
+        5
+      ],
+      "  ",
+      [
+        "z",
+        7
+      ],
+      [
+        "zzzzzzz",
+        8
+      ],
+      " ",
+      [
+        "root()",
+        12
+      ],
+      " ",
+      [
+        "0",
+        11
+      ],
+      [
+        "0000000",
+        8
+      ]
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "             ",
+      [
+        " ",
+        13
+      ],
+      [
+        "Restore all paths",
+        14
+      ]
+    ],
+    [],
+    [
+      "             ",
+      [
+        " Source: 1b5a0b97f2521ed2b27ad7ffbf4c8f89dc2c3255",
+        13
+      ]
+    ],
+    [
+      "             ",
+      [
+        " Destination: @ (working copy)",
+        13
+      ]
+    ],
+    [
+      "             ",
+      [
+        " Affected content: all paths",
+        13
+      ]
+    ],
+    [],
+    [
+      "             ",
+      [
+        " ",
+        13
+      ],
+      [
+        "! Changes local files or history.",
+        15
+      ]
+    ],
+    [],
+    [
+      "             ",
+      [
+        " ",
+        13
+      ],
+      [
+        "Command",
+        16
+      ]
+    ],
+    [
+      "             ",
+      [
+        " jj --no-pager --color always --repository",
+        13
+      ]
+    ],
+    [
+      "             ",
+      [
+        " /home/runner/work/jk/jk/target/manual-fixtures/restore.RifzV3/workflows.KjyL",
+        13
+      ]
+    ],
+    [
+      "             ",
+      [
+        " LA/restore restore --from 1b5a0b97f2521ed2b27ad7ffbf4c8f89dc2c3255 --into @",
+        13
+      ]
+    ],
+    [],
+    [],
+    [
+      "             ",
+      [
+        " ",
+        13
+      ],
+      [
+        "enter",
+        14
+      ],
+      [
+        " run  ",
+        13
+      ],
+      [
+        "y",
+        14
+      ],
+      [
+        " copy  ",
+        13
+      ],
+      [
+        "esc",
+        14
+      ],
+      [
+        " cancel  ",
+        13
+      ],
+      [
+        "o",
+        14
+      ],
+      [
+        " options",
+        13
+      ]
+    ]
+  ],
+  "scrollback": []
+}

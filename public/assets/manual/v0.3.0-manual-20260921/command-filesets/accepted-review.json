@@ -1,0 +1,186 @@
+{
+  "schema_version": 1,
+  "source_index": "manual/v0.3.0-manual-20260921/review-index.json",
+  "source_index_sha256": "17efd1f5f9a9c80791c6764f7972f466b4b29257831f2719b0c66b74b784fc16",
+  "review": {
+    "id": "command-filesets",
+    "title": "Split and restore selected files",
+    "status": "ready",
+    "source_tape": "tapes/manual/changes/command-filesets.tape",
+    "source_tape_sha256": "ac336f838b37bcf387401558e1c1e9255eb5ab9195e0932b682af9103105d433",
+    "website": {
+      "path": "assets/manual/v0.3.0-manual-20260921/command-filesets"
+    },
+    "problems": [],
+    "checkpoints": [
+      {
+        "id": "command-filesets-split-output",
+        "png": "command-filesets-split-output.png",
+        "state": "command-filesets-split-output.json",
+        "png_sha256": "e19229f4ae09acd5535b11179fea6fa71266e6d33cc7866f37a01bee410f70f2",
+        "state_sha256": "5077be7523a6c58651df4d5d97a02d972ba7798b31b525ea411407f6e2e2caca",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "changes scenario agent",
+          "reviewed_at": "2026-09-21T03:37:41.312555+00:00",
+          "summary": "Selected and remaining changes are separately labeled, and the remaining change is explicitly the working copy. The path/message argv is clipped from the heading.",
+          "findings": [
+            "UX-15"
+          ]
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "changes scenario agent",
+          "reviewed_at": "2026-09-21T03:37:41.312555+00:00",
+          "summary": "State gives distinct selected/remaining change identities and parent relation. Status uses the green success band and jj revision colors; full fileset input is not visible here.",
+          "findings": [
+            "UX-15"
+          ]
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/changes-ci35557653700.json",
+        "text_style_review_source": "target/manual-recordings/reviews/changes-ci35557653700.json"
+      },
+      {
+        "id": "command-filesets-split-graph",
+        "png": "command-filesets-split-graph.png",
+        "state": "command-filesets-split-graph.json",
+        "png_sha256": "9df71a88df04916d45ae1f7e2a4910ee79360710a5f27b1cdfd72dcd98713684",
+        "state_sha256": "82f84b653b4ca1744c01dc1c294ec960c2a3b712f43252d0ee1c9047cc2822c2",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "changes scenario agent",
+          "reviewed_at": "2026-09-21T03:37:41.312555+00:00",
+          "summary": "The refreshed graph shows Separate cache policy between the remaining cache implementation and the timeout ancestor. Cursor and @ correctly refer to different rows.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "changes scenario agent",
+          "reviewed_at": "2026-09-21T03:37:41.312555+00:00",
+          "summary": "State keeps @ on the remaining work and the cursor on the selected original change, exposing the source-identity distinction after split; colors preserve jj rendering.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/changes-ci35557653700.json",
+        "text_style_review_source": "target/manual-recordings/reviews/changes-ci35557653700.json"
+      },
+      {
+        "id": "command-filesets-restore-output",
+        "png": "command-filesets-restore-output.png",
+        "state": "command-filesets-restore-output.json",
+        "png_sha256": "fd1d6045336c2d7c1d0ebad26c6638d10e3e56b25375030c4d559132f9d71f21",
+        "state_sha256": "e889d1f6146c3ba60a319ea6fa791eff46c2a7dc09e1d580b4c544183f136051",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "changes scenario agent",
+          "reviewed_at": "2026-09-21T03:37:41.312555+00:00",
+          "summary": "Restore succeeds and reports exactly one modified file. The selected fileset is clipped from the execution command, though the caption identifies config.json.",
+          "findings": [
+            "UX-15"
+          ]
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "changes scenario agent",
+          "reviewed_at": "2026-09-21T03:37:41.312555+00:00",
+          "summary": "State has success, zero added/removed and one modified file, plus unchanged change description. The source/path argv is absent from visible command text.",
+          "findings": [
+            "UX-15"
+          ]
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/changes-ci35557653700.json",
+        "text_style_review_source": "target/manual-recordings/reviews/changes-ci35557653700.json"
+      },
+      {
+        "id": "command-filesets-retained",
+        "png": "command-filesets-retained.png",
+        "state": "command-filesets-retained.json",
+        "png_sha256": "8d88eb59580c770dd2ec30f7b7bcadfc70351101e5c3a4f20d238cdc5b6d2027",
+        "state_sha256": "4fd5a10600c1ef84265872e065c1c6338d746ac3bada0985ca11d29d2a698327",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "changes scenario agent",
+          "reviewed_at": "2026-09-21T03:37:41.312555+00:00",
+          "summary": "The remaining diff contains only the five-line new cache implementation. File 1/1 and path context are visible, with additions green and underlined.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "changes scenario agent",
+          "reviewed_at": "2026-09-21T03:37:41.312555+00:00",
+          "summary": "State lists only src/cache.js, five added lines, and the file 1/1 footer. Added text uses #52aa60 with single underline, matching the PNG.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/changes-ci35557653700.json",
+        "text_style_review_source": "target/manual-recordings/reviews/changes-ci35557653700.json"
+      }
+    ],
+    "metadata_path": "target/manual-recordings/ci-35557653700/manual-evidence-command-filesets/capture-metadata.json",
+    "metadata_sha256": "6a1bdbf5e6012d1a0a86ed90b82bb0e03d1226498ac66d9805e5a6fb527de6bc",
+    "evidence_directory": "target/manual-recordings/ci-35557653700/manual-evidence-command-filesets",
+    "evidence_status": "passed",
+    "source_commit": "7fcb4fa9af1bb624fcdc7ac14a64184a43c4e829",
+    "pr_head_commit": "d5200f713edc476fd446616ad46fec573f861baf",
+    "source_manifest_sha256": "42c0d25b424a807906eb4e0ba7ca72b4c0488685e9f57b3bcf62d3f01c6c6915",
+    "source_matches_checkout": true,
+    "binary": {
+      "invoked_path": "/home/runner/work/jk/jk/target/manual-build/jk",
+      "path": "/home/runner/work/jk/jk/target/manual-build/jk",
+      "sha256": "cb41f94b63ec85100829bd2b1e9ced84f37cae912996a48e93b56b8776c9c5ed",
+      "version": "jk 0.3.0",
+      "version_exit_code": 0
+    },
+    "jj": {
+      "invoked_path": "/home/runner/.cargo/bin/jj",
+      "path": "/home/runner/.cargo/bin/jj",
+      "sha256": "cd5efc3eb281d606bf9b5523167f79661da0f8c76a5aa32d61c07c7a351b6b44",
+      "version": "jj 0.45.1-7c41cdeb16b6b321c64e789a966b6adf723816a5",
+      "version_exit_code": 0
+    },
+    "betamax": {
+      "invoked_path": "/home/runner/work/_temp/betamax-r3mrqS/bin/betamax",
+      "path": "/home/runner/work/_temp/betamax-r3mrqS/bin/betamax",
+      "sha256": "db55fa6e7ff98e1df3c91921b5b3fb504b3cc8fdaf6b07e3da952f8757053490",
+      "version": "betamax 0.1.21",
+      "version_exit_code": 0
+    },
+    "ci_run": {
+      "id": "35557653700",
+      "attempt": "1",
+      "url": "https://github.com/joshka/jk/actions/runs/35557653700"
+    },
+    "assertions": [
+      {
+        "path": "command-filesets-restored-assertions.json",
+        "sha256": "8018c4a603906103d4b829c29e8ffd71b9b3eeeeae13dd172b04dc996c63a80a",
+        "bytes": 620
+      },
+      {
+        "path": "command-filesets-split-assertions.json",
+        "sha256": "4f09f992164020e04eda90a2779cc30113bd8fc7cd5c84c85d670b68b4360bf7",
+        "bytes": 637
+      }
+    ],
+    "video": {
+      "path": "command-filesets.mp4",
+      "sha256": "5a6705ccbbeb3406e508b5df8d985baa43bba65ec16f791dd71a2d968517f1cc",
+      "bytes": 433659
+    },
+    "video_review": {
+      "status": "reviewed",
+      "reviewer": "changes scenario agent",
+      "reviewed_at": "2026-09-21T03:37:41.312555+00:00",
+      "summary": "Review method: inspected all checkpoint PNGs inline and matching viewport text/styled spans, source tape, ffprobe duration 37.6s at 1400x900/15fps, and actual MP4 frames sampled at 5.64, 18.8, 31.96s. Tape uses 80ms typing and 2\u20133s semantic holds. Samples show the typed path-specific split, the action menu used for undo, and successful path restore output. Command entry and decision pauses remain readable.",
+      "findings": [
+        "UX-09",
+        "UX-15",
+        "UX-16"
+      ],
+      "sha256": "5a6705ccbbeb3406e508b5df8d985baa43bba65ec16f791dd71a2d968517f1cc"
+    },
+    "source_snapshot_status": "preserved",
+    "video_review_source": "target/manual-recordings/reviews/changes-ci35557653700.json",
+    "pixel_review_complete": true,
+    "text_style_review_complete": true,
+    "video_review_complete": true
+  }
+}

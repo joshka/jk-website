@@ -1,0 +1,171 @@
+{
+  "size": [
+    104,
+    36
+  ],
+  "total_rows": 36,
+  "scrollback_rows": 0,
+  "cursor": {
+    "x": 77,
+    "y": 35,
+    "visible": false
+  },
+  "default_style": {
+    "fg": "#b4bcca",
+    "bg": "#0f141f"
+  },
+  "styles": [
+    {
+      "bold": true
+    },
+    {
+      "fg": "#487fd4"
+    },
+    {
+      "fg": "#269d9a"
+    },
+    {
+      "fg": "#52aa60"
+    },
+    {
+      "fg": "#d58bf0",
+      "bold": true
+    },
+    {
+      "fg": "#3a4152",
+      "bold": true
+    },
+    {
+      "fg": "#76a8f2",
+      "bold": true
+    },
+    {
+      "fg": "#c26265"
+    }
+  ],
+  "viewport_text": "jk jj op diff --operation 9c2455ad07e9\nFrom operation: fbf8d8e74b18 (2026-01-01 12:00:00) describe commit 9d3afcda1ec673e24631ff6183feb27641c66\n  To operation: 9c2455ad07e9 (2026-01-01 12:00:00) create bookmark candidate pointing to commit 9c809e2d\n\nChanged local bookmarks:\ncandidate:\n+ voqnmprv 9c809e2d candidate | Experiment with forecast caching\n- (absent)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n? help  V options  r refresh  j/k line  space page  q quit\n",
+  "scrollback_text": "",
+  "viewport": [
+    [
+      "jk ",
+      [
+        "jj op diff --operation 9c2455ad07e9",
+        0
+      ]
+    ],
+    [
+      "From operation: ",
+      [
+        "fbf8d8e74b18",
+        1
+      ],
+      " (",
+      [
+        "2026-01-01 12:00:00",
+        2
+      ],
+      ") describe commit 9d3afcda1ec673e24631ff6183feb27641c66"
+    ],
+    [
+      "  To operation: ",
+      [
+        "9c2455ad07e9",
+        1
+      ],
+      " (",
+      [
+        "2026-01-01 12:00:00",
+        2
+      ],
+      ") create bookmark candidate pointing to commit 9c809e2d"
+    ],
+    [],
+    [
+      "Changed local bookmarks:"
+    ],
+    [
+      "candidate:"
+    ],
+    [
+      [
+        "+",
+        3
+      ],
+      " ",
+      [
+        "v",
+        4
+      ],
+      [
+        "oqnmprv",
+        5
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "9",
+        6
+      ],
+      [
+        "c809e2d",
+        5
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "candidate",
+        4
+      ],
+      [
+        " | ",
+        5
+      ],
+      [
+        "Experiment with forecast caching",
+        0
+      ]
+    ],
+    [
+      [
+        "-",
+        7
+      ],
+      " (absent)"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "? help  V options  r refresh  j/k line  space page  q quit"
+    ]
+  ],
+  "scrollback": []
+}

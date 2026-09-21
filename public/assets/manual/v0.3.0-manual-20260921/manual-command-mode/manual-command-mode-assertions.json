@@ -1,0 +1,20 @@
+{
+  "scenario": "manual-command-mode",
+  "stage": "manual-command-mode",
+  "status": "passed",
+  "repository": "/home/runner/work/jk/jk/target/forecast-demo.CDlVkR",
+  "assertions": [
+    {
+      "name": "working-copy commit unchanged",
+      "passed": true,
+      "actual": "45990678d41d3fb0d89effd199efc6abb5293e2d",
+      "expected": "45990678d41d3fb0d89effd199efc6abb5293e2d"
+    },
+    {
+      "name": "visible repository graph unchanged",
+      "passed": true,
+      "actual": "0000000000000000000000000000000000000000\n1ebd9136f2accf2d503ac795745d4a2ca9d54786\n27c2afb21a0954d910fa2cbfb9fe38f6be859985\n3835991c918d73050c5f5c06d656537f372e78d5\n45990678d41d3fb0d89effd199efc6abb5293e2d",
+      "expected": "0000000000000000000000000000000000000000\n1ebd9136f2accf2d503ac795745d4a2ca9d54786\n27c2afb21a0954d910fa2cbfb9fe38f6be859985\n3835991c918d73050c5f5c06d656537f372e78d5\n45990678d41d3fb0d89effd199efc6abb5293e2d"
+    }
+  ]
+}

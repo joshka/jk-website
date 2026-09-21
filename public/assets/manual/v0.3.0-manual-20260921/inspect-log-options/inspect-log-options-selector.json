@@ -1,0 +1,418 @@
+{
+  "size": [
+    104,
+    36
+  ],
+  "total_rows": 36,
+  "scrollback_rows": 0,
+  "cursor": {
+    "x": 82,
+    "y": 23,
+    "visible": false
+  },
+  "default_style": {
+    "fg": "#b4bcca",
+    "bg": "#0f141f"
+  },
+  "styles": [
+    {
+      "bold": true
+    },
+    {
+      "fg": "#52aa60",
+      "bold": true
+    },
+    {
+      "fg": "#d58bf0",
+      "bold": true
+    },
+    {
+      "fg": "#3a4152",
+      "bold": true
+    },
+    {
+      "fg": "#ad9b49",
+      "bold": true
+    },
+    {
+      "fg": "#52c4c0",
+      "bold": true
+    },
+    {
+      "fg": "#76a8f2",
+      "bold": true
+    },
+    {
+      "fg": "#487fd4",
+      "bold": true
+    },
+    {
+      "fg": "#3a4152"
+    },
+    {
+      "fg": "#ad9b49"
+    },
+    {
+      "fg": "#269d9a"
+    },
+    {
+      "fg": "#af5bd1",
+      "bold": true
+    },
+    {
+      "fg": "#af5bd1"
+    },
+    {
+      "fg": "#52aa60"
+    },
+    {
+      "fg": "#e0e6ee",
+      "bg": "#242c3a"
+    },
+    {
+      "fg": "#65d4cf",
+      "bg": "#242c3a",
+      "bold": true
+    }
+  ],
+  "viewport_text": "jk jj log\n›  @  vwyvytzl alex@example.invalid 2026-01-01 12:00:00 candidate 4872f015\n·  │  Experiment with forecast caching\n   ○  xylrswsk alex@example.invalid 2026-01-01 12:00:00 9876d39d\n   │  Configure request timeouts\n   ○  mtulkpvs alex@example.invalid 2026-01-01 12:00:00 ca8162b8\n   │  Add the forecast endpoint\n   ○  mvpwrorx alex@example.invalid 2026-01-01 12:00:00 main 5d3a68d8\n   │  Document the forecast service\n   ◆  zzzzzzzz root() 00000000\n\n\n                       Log template\n\n                       > configured         jj configured template\n                         comfortable        builtin_log_comfortable\n                         compact            builtin_log_compact\n                         full description   builtin_log_compact_full_description\n                         detailed           builtin_log_detailed\n                         oneline            builtin_log_oneline\n                         redacted           builtin_log_redacted\n\n                       j/k or arrows move   enter apply   esc cancel\n",
+  "scrollback_text": "",
+  "viewport": [
+    [
+      "jk ",
+      [
+        "jj log",
+        0
+      ]
+    ],
+    [
+      "›  ",
+      [
+        "@",
+        1
+      ],
+      "  ",
+      [
+        "v",
+        2
+      ],
+      [
+        "wyvytzl",
+        3
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "alex@example.invalid",
+        4
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "2026-01-01 12:00:00",
+        5
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "candidate",
+        2
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "4",
+        6
+      ],
+      [
+        "872f015",
+        3
+      ]
+    ],
+    [
+      "·  │  ",
+      [
+        "Experiment with forecast caching",
+        0
+      ]
+    ],
+    [
+      "   ○  ",
+      [
+        "x",
+        7
+      ],
+      [
+        "ylrswsk",
+        8
+      ],
+      " ",
+      [
+        "alex@example.invalid",
+        9
+      ],
+      " ",
+      [
+        "2026-01-01 12:00:00",
+        10
+      ],
+      " ",
+      [
+        "9",
+        11
+      ],
+      [
+        "876d39d",
+        8
+      ]
+    ],
+    [
+      "   │  Configure request timeouts"
+    ],
+    [
+      "   ○  ",
+      [
+        "mt",
+        7
+      ],
+      [
+        "ulkpvs",
+        8
+      ],
+      " ",
+      [
+        "alex@example.invalid",
+        9
+      ],
+      " ",
+      [
+        "2026-01-01 12:00:00",
+        10
+      ],
+      " ",
+      [
+        "c",
+        11
+      ],
+      [
+        "a8162b8",
+        8
+      ]
+    ],
+    [
+      "   │  Add the forecast endpoint"
+    ],
+    [
+      "   ○  ",
+      [
+        "mv",
+        7
+      ],
+      [
+        "pwrorx",
+        8
+      ],
+      " ",
+      [
+        "alex@example.invalid",
+        9
+      ],
+      " ",
+      [
+        "2026-01-01 12:00:00",
+        10
+      ],
+      " ",
+      [
+        "main",
+        12
+      ],
+      " ",
+      [
+        "5",
+        11
+      ],
+      [
+        "d3a68d8",
+        8
+      ]
+    ],
+    [
+      "   │  Document the forecast service"
+    ],
+    [
+      "   ",
+      [
+        "◆",
+        5
+      ],
+      "  ",
+      [
+        "z",
+        7
+      ],
+      [
+        "zzzzzzz",
+        8
+      ],
+      " ",
+      [
+        "root()",
+        13
+      ],
+      " ",
+      [
+        "0",
+        11
+      ],
+      [
+        "0000000",
+        8
+      ]
+    ],
+    [],
+    [],
+    [
+      "                     ",
+      [
+        "  ",
+        14
+      ],
+      [
+        "Log template",
+        15
+      ]
+    ],
+    [],
+    [
+      "                     ",
+      [
+        "  ",
+        14
+      ],
+      [
+        ">",
+        15
+      ],
+      [
+        " configured         jj configured template",
+        14
+      ]
+    ],
+    [
+      "                     ",
+      [
+        "    ",
+        14
+      ],
+      [
+        "comfortable",
+        15
+      ],
+      [
+        "        builtin_log_comfortable",
+        14
+      ]
+    ],
+    [
+      "                     ",
+      [
+        "    ",
+        14
+      ],
+      [
+        "compact",
+        15
+      ],
+      [
+        "            builtin_log_compact",
+        14
+      ]
+    ],
+    [
+      "                     ",
+      [
+        "    ",
+        14
+      ],
+      [
+        "full description",
+        15
+      ],
+      [
+        "   builtin_log_compact_full_description",
+        14
+      ]
+    ],
+    [
+      "                     ",
+      [
+        "    ",
+        14
+      ],
+      [
+        "detailed",
+        15
+      ],
+      [
+        "           builtin_log_detailed",
+        14
+      ]
+    ],
+    [
+      "                     ",
+      [
+        "    ",
+        14
+      ],
+      [
+        "oneline",
+        15
+      ],
+      [
+        "            builtin_log_oneline",
+        14
+      ]
+    ],
+    [
+      "                     ",
+      [
+        "    ",
+        14
+      ],
+      [
+        "redacted",
+        15
+      ],
+      [
+        "           builtin_log_redacted",
+        14
+      ]
+    ],
+    [],
+    [
+      "                     ",
+      [
+        "  ",
+        14
+      ],
+      [
+        "j/k or arrows move",
+        15
+      ],
+      [
+        "   enter apply   esc cancel",
+        14
+      ]
+    ]
+  ],
+  "scrollback": []
+}

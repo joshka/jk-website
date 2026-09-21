@@ -1,0 +1,687 @@
+{
+  "size": [
+    104,
+    39
+  ],
+  "total_rows": 39,
+  "scrollback_rows": 0,
+  "cursor": {
+    "x": 103,
+    "y": 38,
+    "visible": false
+  },
+  "default_style": {
+    "fg": "#b4bcca",
+    "bg": "#0f141f"
+  },
+  "styles": [
+    {
+      "bold": true
+    },
+    {
+      "fg": "#52aa60",
+      "bold": true
+    },
+    {
+      "fg": "#d58bf0",
+      "bold": true
+    },
+    {
+      "fg": "#3a4152",
+      "bold": true
+    },
+    {
+      "fg": "#ad9b49",
+      "bold": true
+    },
+    {
+      "fg": "#52c4c0",
+      "bold": true
+    },
+    {
+      "fg": "#76a8f2",
+      "bold": true
+    },
+    {
+      "fg": "#487fd4",
+      "bold": true
+    },
+    {
+      "fg": "#3a4152"
+    },
+    {
+      "fg": "#ad9b49"
+    },
+    {
+      "fg": "#269d9a"
+    },
+    {
+      "fg": "#af5bd1",
+      "bold": true
+    },
+    {
+      "fg": "#e0e6ee",
+      "bg": "#242c3a"
+    },
+    {
+      "fg": "#65d4cf",
+      "bg": "#242c3a",
+      "bold": true
+    },
+    {
+      "fg": "#e0e6ee",
+      "bg": "#242c3a",
+      "bold": true
+    }
+  ],
+  "viewport_text": "jk jj\n›  @  vlqyxpyt demo@example.invalid 2026-01-01 12:00:00 c2ac394f\n·  │  Experiment with forecast caching\n   ○  nmkrkywu demo@example.invalid 2026-01-01 12:00:00 81561008\n   │  Configure request timeouts\n   ○  pqxqoyrn demo@example.invalid 2026-01-01 12:00:00 92b85053\n   │  Add the forecast endpoint\n   ○  srwxs  Help\n   │  Docum\n   ◆  zzzzz  Open and inspect:\n               enter         jj show                     d             jj diff\n               v             jj evolog                   s             jj status\n               V             View options                H / L         jj log\n             Move and find:\n               ↑/↓, j/k      Move selection              Ctrl-j/k      Scroll line\n               PgDn, Ctrl-f  Page down                   PgUp, Ctrl-b  Page up\n               Home, g       Jump to top                 End, G        Jump to bottom\n               →, l          Expand change               ←, h          Collapse change\n             Change actions:\n               a             Open action menu            a m           jj describe\n               a n           jj new                      a e           jj edit\n               R             jj rebase                   a s           jj squash\n               a a           jj abandon                  a r           jj restore\n               space         Mark revision               c             Clear marks\n             History and recovery:\n               o             jj op log                   a u           jj undo\n               a U           jj redo                     C             Open command history\n             Session:\n               :             jj command                  !             Run external command\n               r             Refresh                     ?, Esc        Close help\n               q             Quit / exit\n",
+  "scrollback_text": "",
+  "viewport": [
+    [
+      "jk ",
+      [
+        "jj",
+        0
+      ]
+    ],
+    [
+      [
+        "›",
+        0
+      ],
+      "  ",
+      [
+        "@",
+        1
+      ],
+      "  ",
+      [
+        "v",
+        2
+      ],
+      [
+        "lqyxpyt",
+        3
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "demo@example.invalid",
+        4
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "2026-01-01 12:00:00",
+        5
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "c",
+        6
+      ],
+      [
+        "2ac394f",
+        3
+      ]
+    ],
+    [
+      [
+        "·",
+        0
+      ],
+      "  │  ",
+      [
+        "Experiment with forecast caching",
+        0
+      ]
+    ],
+    [
+      "   ○  ",
+      [
+        "n",
+        7
+      ],
+      [
+        "mkrkywu",
+        8
+      ],
+      " ",
+      [
+        "demo@example.invalid",
+        9
+      ],
+      " ",
+      [
+        "2026-01-01 12:00:00",
+        10
+      ],
+      " ",
+      [
+        "8",
+        11
+      ],
+      [
+        "1561008",
+        8
+      ]
+    ],
+    [
+      "   │  Configure request timeouts"
+    ],
+    [
+      "   ○  ",
+      [
+        "p",
+        7
+      ],
+      [
+        "qxqoyrn",
+        8
+      ],
+      " ",
+      [
+        "demo@example.invalid",
+        9
+      ],
+      " ",
+      [
+        "2026-01-01 12:00:00",
+        10
+      ],
+      " ",
+      [
+        "9",
+        11
+      ],
+      [
+        "2b85053",
+        8
+      ]
+    ],
+    [
+      "   │  Add the forecast endpoint"
+    ],
+    [
+      "   ○  ",
+      [
+        "s",
+        7
+      ],
+      [
+        "rwxs",
+        8
+      ],
+      [
+        "  ",
+        12
+      ],
+      [
+        "Help",
+        13
+      ]
+    ],
+    [
+      "   │  Docum"
+    ],
+    [
+      "   ",
+      [
+        "◆",
+        5
+      ],
+      "  ",
+      [
+        "z",
+        7
+      ],
+      [
+        "zzzz",
+        8
+      ],
+      [
+        "  ",
+        12
+      ],
+      [
+        "Open and inspect:",
+        14
+      ]
+    ],
+    [
+      "           ",
+      [
+        "    ",
+        12
+      ],
+      [
+        "enter",
+        13
+      ],
+      [
+        "         jj show                     ",
+        12
+      ],
+      [
+        "d",
+        13
+      ],
+      [
+        "             jj diff",
+        12
+      ]
+    ],
+    [
+      "           ",
+      [
+        "    ",
+        12
+      ],
+      [
+        "v",
+        13
+      ],
+      [
+        "             jj evolog                   ",
+        12
+      ],
+      [
+        "s",
+        13
+      ],
+      [
+        "             jj status",
+        12
+      ]
+    ],
+    [
+      "           ",
+      [
+        "    ",
+        12
+      ],
+      [
+        "V",
+        13
+      ],
+      [
+        "             View options                ",
+        12
+      ],
+      [
+        "H / L",
+        13
+      ],
+      [
+        "         jj log",
+        12
+      ]
+    ],
+    [
+      "           ",
+      [
+        "  ",
+        12
+      ],
+      [
+        "Move and find:",
+        14
+      ]
+    ],
+    [
+      "           ",
+      [
+        "    ",
+        12
+      ],
+      [
+        "↑/↓, j/k",
+        13
+      ],
+      [
+        "      Move selection              ",
+        12
+      ],
+      [
+        "Ctrl-j/k",
+        13
+      ],
+      [
+        "      Scroll line",
+        12
+      ]
+    ],
+    [
+      "           ",
+      [
+        "    ",
+        12
+      ],
+      [
+        "PgDn, Ctrl-f",
+        13
+      ],
+      [
+        "  Page down                   ",
+        12
+      ],
+      [
+        "PgUp, Ctrl-b",
+        13
+      ],
+      [
+        "  Page up",
+        12
+      ]
+    ],
+    [
+      "           ",
+      [
+        "    ",
+        12
+      ],
+      [
+        "Home, g",
+        13
+      ],
+      [
+        "       Jump to top                 ",
+        12
+      ],
+      [
+        "End, G",
+        13
+      ],
+      [
+        "        Jump to bottom",
+        12
+      ]
+    ],
+    [
+      "           ",
+      [
+        "    ",
+        12
+      ],
+      [
+        "→, l",
+        13
+      ],
+      [
+        "          Expand change               ",
+        12
+      ],
+      [
+        "←, h",
+        13
+      ],
+      [
+        "          Collapse change",
+        12
+      ]
+    ],
+    [
+      "           ",
+      [
+        "  ",
+        12
+      ],
+      [
+        "Change actions:",
+        14
+      ]
+    ],
+    [
+      "           ",
+      [
+        "    ",
+        12
+      ],
+      [
+        "a",
+        13
+      ],
+      [
+        "             Open action menu            ",
+        12
+      ],
+      [
+        "a m",
+        13
+      ],
+      [
+        "           jj describe",
+        12
+      ]
+    ],
+    [
+      "           ",
+      [
+        "    ",
+        12
+      ],
+      [
+        "a n",
+        13
+      ],
+      [
+        "           jj new                      ",
+        12
+      ],
+      [
+        "a e",
+        13
+      ],
+      [
+        "           jj edit",
+        12
+      ]
+    ],
+    [
+      "           ",
+      [
+        "    ",
+        12
+      ],
+      [
+        "R",
+        13
+      ],
+      [
+        "             jj rebase                   ",
+        12
+      ],
+      [
+        "a s",
+        13
+      ],
+      [
+        "           jj squash",
+        12
+      ]
+    ],
+    [
+      "           ",
+      [
+        "    ",
+        12
+      ],
+      [
+        "a a",
+        13
+      ],
+      [
+        "           jj abandon                  ",
+        12
+      ],
+      [
+        "a r",
+        13
+      ],
+      [
+        "           jj restore",
+        12
+      ]
+    ],
+    [
+      "           ",
+      [
+        "    ",
+        12
+      ],
+      [
+        "space",
+        13
+      ],
+      [
+        "         Mark revision               ",
+        12
+      ],
+      [
+        "c",
+        13
+      ],
+      [
+        "             Clear marks",
+        12
+      ]
+    ],
+    [
+      "           ",
+      [
+        "  ",
+        12
+      ],
+      [
+        "History and recovery:",
+        14
+      ]
+    ],
+    [
+      "           ",
+      [
+        "    ",
+        12
+      ],
+      [
+        "o",
+        13
+      ],
+      [
+        "             jj op log                   ",
+        12
+      ],
+      [
+        "a u",
+        13
+      ],
+      [
+        "           jj undo",
+        12
+      ]
+    ],
+    [
+      "           ",
+      [
+        "    ",
+        12
+      ],
+      [
+        "a U",
+        13
+      ],
+      [
+        "           jj redo                     ",
+        12
+      ],
+      [
+        "C",
+        13
+      ],
+      [
+        "             Open command history",
+        12
+      ]
+    ],
+    [
+      "           ",
+      [
+        "  ",
+        12
+      ],
+      [
+        "Session:",
+        14
+      ]
+    ],
+    [
+      "           ",
+      [
+        "    ",
+        12
+      ],
+      [
+        ":",
+        13
+      ],
+      [
+        "             jj command                  ",
+        12
+      ],
+      [
+        "!",
+        13
+      ],
+      [
+        "             Run external command",
+        12
+      ]
+    ],
+    [
+      "           ",
+      [
+        "    ",
+        12
+      ],
+      [
+        "r",
+        13
+      ],
+      [
+        "             Refresh                     ",
+        12
+      ],
+      [
+        "?, Esc",
+        13
+      ],
+      [
+        "        Close help",
+        12
+      ]
+    ],
+    [
+      "           ",
+      [
+        "    ",
+        12
+      ],
+      [
+        "q",
+        13
+      ],
+      [
+        "             Quit / exit",
+        12
+      ]
+    ]
+  ],
+  "scrollback": []
+}

@@ -1,0 +1,8 @@
+{
+  "repository": "/home/runner/work/jk/jk/target/manual-fixtures/inspection.ERXHwH/repo",
+  "kind": "inspection",
+  "initial_commit": "3eef93cfc508736e53720b35ef2a32e3a208afba",
+  "initial_operation": "f981e4f9a0bcc20dfe0fcded05fe956deb8a42f851c6f7ec78f2ce78668576eb3ce2084dd2f68e029f9a64d3b8bbcd2d54fa5067b010d0f7adbd1ed55f8015ac",
+  "binary": "/home/runner/work/jk/jk/target/manual-build/jk",
+  "isolated_jj_config": "/dev/null"
+}

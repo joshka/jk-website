@@ -1,0 +1,20 @@
+{
+  "scenario": "manual-invalid-operands",
+  "stage": "manual-invalid-operands",
+  "status": "passed",
+  "repository": "/home/runner/work/jk/jk/target/manual-fixtures/run-options.kyYvkw/workflows.catLj0/rebase",
+  "assertions": [
+    {
+      "name": "working-copy commit unchanged",
+      "passed": true,
+      "actual": "5531bbe8558ec56a53a091d4f1aa5041a1012ca7",
+      "expected": "5531bbe8558ec56a53a091d4f1aa5041a1012ca7"
+    },
+    {
+      "name": "visible repository graph unchanged",
+      "passed": true,
+      "actual": "0000000000000000000000000000000000000000\n3f7e45c7c1ba7f1a35a32ccb11f2aa4eb9ba5edc\n5531bbe8558ec56a53a091d4f1aa5041a1012ca7\n59bb7820607ac7f4b74efe165d8db87244716d81",
+      "expected": "0000000000000000000000000000000000000000\n3f7e45c7c1ba7f1a35a32ccb11f2aa4eb9ba5edc\n5531bbe8558ec56a53a091d4f1aa5041a1012ca7\n59bb7820607ac7f4b74efe165d8db87244716d81"
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "schema_version": 1,
+  "source_index": "manual/v0.3.0-manual-20260921/review-index.json",
+  "source_index_sha256": "17efd1f5f9a9c80791c6764f7972f466b4b29257831f2719b0c66b74b784fc16",
+  "review": {
+    "id": "manual-rebase-revision-after",
+    "title": "Insert one change after a destination",
+    "status": "ready",
+    "source_tape": "tapes/manual/rewrite/manual-rebase-revision-after.tape",
+    "source_tape_sha256": "e78403bc043b53bee047abe9f435fc1be757b25a8fb507e636621313c7b8f98f",
+    "website": {
+      "path": "assets/manual/v0.3.0-manual-20260921/manual-rebase-revision-after"
+    },
+    "problems": [],
+    "checkpoints": [
+      {
+        "id": "manual-rebase-revision-after-selector",
+        "png": "manual-rebase-revision-after-selector.png",
+        "state": "manual-rebase-revision-after-selector.json",
+        "png_sha256": "8fe2f5a034f22b21b7c521349a0a3ee36dcd0bbed6318d3dd02aac2a76a7aea0",
+        "state_sha256": "bd31d6cbd9b9f63a93be791b3584b4bffaac8639407eff10a8eddd5714a5e873",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "changes scenario agent",
+          "reviewed_at": "2026-09-21T03:43:06.947897+00:00",
+          "summary": "The opaque destination selector shows revision-only scope and insert after (-A), with the searched Rebase destination candidate and readable navigation hints. The real source/destination/base graph remains visible above. Source is identified only by a short hash and the background source cursor still looks active.",
+          "findings": [
+            "UX-04",
+            "UX-06"
+          ]
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "changes scenario agent",
+          "reviewed_at": "2026-09-21T03:43:06.947897+00:00",
+          "summary": "State matches revision only (-r), insert after (-A), /Rebase destination and the selected described candidate. The panel uses #242c3a, bold teal #65d4cf controls and #e0e6ee text. The source hash must be matched to the still-emphasized background graph.",
+          "findings": [
+            "UX-04",
+            "UX-06"
+          ]
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/revision-rebase.json",
+        "text_style_review_source": "target/manual-recordings/reviews/revision-rebase.json"
+      },
+      {
+        "id": "manual-rebase-revision-after-preview",
+        "png": "manual-rebase-revision-after-preview.png",
+        "state": "manual-rebase-revision-after-preview.json",
+        "png_sha256": "6a2e5599b8cb9858bc2e9c0cc4d339d8bacb19b2a7257f7d035b248063ba0198",
+        "state_sha256": "9d8d697a30cc766ece67b7dcf820b2731e41fcb2e27f2323b954e4db2ca94a9c",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "changes scenario agent",
+          "reviewed_at": "2026-09-21T03:43:06.947897+00:00",
+          "summary": "The opaque preview keeps the real graph visible and fits the revision-only explanation, placement effect, amber history warning, exact command and all four controls. Full operand hashes lack descriptions. The repository path wraps mid-component without clipping; the background selection stays emphasized.",
+          "findings": [
+            "UX-04",
+            "UX-06"
+          ]
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "changes scenario agent",
+          "reviewed_at": "2026-09-21T03:43:06.947897+00:00",
+          "summary": "State confirms full source/destination IDs, revision only (-r), and the placement explanation: Inserts after (-A), rewriting existing descendants, including other workspaces. The command has the matching placement flag and complete operands. Amber #eab855 marks the history warning; teal controls contrast with the slate panel. The description-free IDs and active background selection remain UX-04/06.",
+          "findings": [
+            "UX-04",
+            "UX-06"
+          ]
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/revision-rebase.json",
+        "text_style_review_source": "target/manual-recordings/reviews/revision-rebase.json"
+      },
+      {
+        "id": "manual-rebase-revision-after-success",
+        "png": "manual-rebase-revision-after-success.png",
+        "state": "manual-rebase-revision-after-success.json",
+        "png_sha256": "56c4abb8048fb683c74637fbe52c162a43529b37e3f3ae9b779d031d2c2d4b20",
+        "state_sha256": "71d97be0108c9bf5ab476700814bf988ead3c7d09f93e6743e504824e8c4c7f7",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "changes scenario agent",
+          "reviewed_at": "2026-09-21T03:43:06.947897+00:00",
+          "summary": "The refreshed graph visibly places the selected Rebase source above Rebase destination and Rebase base. Its source commit changes while the change ID is retained. The success toast and undo/history/operations affordances are readable. This configured log omits descendants; their resulting relationships are established by the passed repository assertions.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "changes scenario agent",
+          "reviewed_at": "2026-09-21T03:43:06.947897+00:00",
+          "summary": "Viewport text confirms the source/destination/base chain, rewritten source commit, retained change ID and Rebased revisions. Native jj colors and bold working-copy selection remain intact. Passed repository assertions separately establish source content, both descendant groups and source-descendant reconnection to the old parent. The insert-after assertion also establishes relocation of the old destination descendant under the source.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/revision-rebase.json",
+        "text_style_review_source": "target/manual-recordings/reviews/revision-rebase.json"
+      },
+      {
+        "id": "manual-rebase-revision-after-history",
+        "png": "manual-rebase-revision-after-history.png",
+        "state": "manual-rebase-revision-after-history.json",
+        "png_sha256": "3661a84b1ccf5861e2a45cd88edceed2ad477d061ea8e2f20adf67cb5262cb8f",
+        "state_sha256": "2a3fba97e5d8f79a98445d116b646cc3f637b466f9ba51c99422371a28669af2",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "changes scenario agent",
+          "reviewed_at": "2026-09-21T03:43:06.947897+00:00",
+          "summary": "Command History clearly marks Rebase revisions as successful and fits the complete \u201cRebased 1 commits to destination.\u201d summary. The selected row and details/operation/copy controls are readable.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "changes scenario agent",
+          "reviewed_at": "2026-09-21T03:43:06.947897+00:00",
+          "summary": "State confirms ok, log rebase, Rebase revisions and the complete stderr summary. Green #52aa60 status and teal #269d9a command source distinguish the successful action; its selected title is bold and the footer is unobscured.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/revision-rebase.json",
+        "text_style_review_source": "target/manual-recordings/reviews/revision-rebase.json"
+      }
+    ],
+    "metadata_path": "target/manual-recordings/ci-35557653700/manual-evidence-manual-rebase-revision-after/capture-metadata.json",
+    "metadata_sha256": "4f89fdc552eea186dd9e5ecca3a4cea23b7b918f921a8e8e51301e875b74764f",
+    "evidence_directory": "target/manual-recordings/ci-35557653700/manual-evidence-manual-rebase-revision-after",
+    "evidence_status": "passed",
+    "source_commit": "7fcb4fa9af1bb624fcdc7ac14a64184a43c4e829",
+    "pr_head_commit": "d5200f713edc476fd446616ad46fec573f861baf",
+    "source_manifest_sha256": "42c0d25b424a807906eb4e0ba7ca72b4c0488685e9f57b3bcf62d3f01c6c6915",
+    "source_matches_checkout": true,
+    "binary": {
+      "invoked_path": "/home/runner/work/jk/jk/target/manual-build/jk",
+      "path": "/home/runner/work/jk/jk/target/manual-build/jk",
+      "sha256": "cb41f94b63ec85100829bd2b1e9ced84f37cae912996a48e93b56b8776c9c5ed",
+      "version": "jk 0.3.0",
+      "version_exit_code": 0
+    },
+    "jj": {
+      "invoked_path": "/home/runner/.cargo/bin/jj",
+      "path": "/home/runner/.cargo/bin/jj",
+      "sha256": "cd5efc3eb281d606bf9b5523167f79661da0f8c76a5aa32d61c07c7a351b6b44",
+      "version": "jj 0.45.1-7c41cdeb16b6b321c64e789a966b6adf723816a5",
+      "version_exit_code": 0
+    },
+    "betamax": {
+      "invoked_path": "/home/runner/work/_temp/betamax-dgsMo0/bin/betamax",
+      "path": "/home/runner/work/_temp/betamax-dgsMo0/bin/betamax",
+      "sha256": "db55fa6e7ff98e1df3c91921b5b3fb504b3cc8fdaf6b07e3da952f8757053490",
+      "version": "betamax 0.1.21",
+      "version_exit_code": 0
+    },
+    "ci_run": {
+      "id": "35557653700",
+      "attempt": "1",
+      "url": "https://github.com/joshka/jk/actions/runs/35557653700"
+    },
+    "assertions": [
+      {
+        "path": "manual-rebase-revision-after-assertions.json",
+        "sha256": "64cbaf284004eb4e4ad3d047c716695c3a30cb84b8466ed5fb96ee50b7444cdb",
+        "bytes": 1138
+      }
+    ],
+    "video": {
+      "path": "manual-rebase-revision-after.mp4",
+      "sha256": "a013f2a8514b28763db72447d8ada6751ee28396ad553cdc351de0ddb0487911",
+      "bytes": 189196
+    },
+    "video_review": {
+      "status": "reviewed",
+      "reviewer": "changes scenario agent",
+      "reviewed_at": "2026-09-21T03:43:06.947897+00:00",
+      "summary": "Review method: inspected all four PNG checkpoints inline, matching viewport text/styled spans, captured source tape, ffprobe duration 16.066667s at 1400x900/15fps, and actual MP4 samples at 2.41, 8.03 and 13.66s. Samples show the insert after (-A) selector/input, complete preview, and successful command-history row. The source uses 80ms typing and 2\u20133s semantic holds with setup hidden. The configured log shows source/destination/base only; passed repository assertions establish the omitted descendant outcomes.",
+      "findings": [
+        "UX-04",
+        "UX-06"
+      ],
+      "sha256": "a013f2a8514b28763db72447d8ada6751ee28396ad553cdc351de0ddb0487911"
+    },
+    "source_snapshot_status": "preserved",
+    "video_review_source": "target/manual-recordings/reviews/revision-rebase.json",
+    "pixel_review_complete": true,
+    "text_style_review_complete": true,
+    "video_review_complete": true
+  }
+}

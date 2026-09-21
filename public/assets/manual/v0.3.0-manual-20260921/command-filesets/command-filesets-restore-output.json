@@ -1,0 +1,198 @@
+{
+  "size": [
+    104,
+    39
+  ],
+  "total_rows": 39,
+  "scrollback_rows": 0,
+  "cursor": {
+    "x": 58,
+    "y": 38,
+    "visible": false
+  },
+  "default_style": {
+    "fg": "#b4bcca",
+    "bg": "#0f141f"
+  },
+  "styles": [
+    {
+      "bold": true
+    },
+    {
+      "fg": "#dfe5ee",
+      "bg": "#3a485a"
+    },
+    {
+      "fg": "#dfe5ee",
+      "bg": "#215b53"
+    },
+    {
+      "fg": "#dfe5ee",
+      "bg": "#282d37"
+    },
+    {
+      "fg": "#dfe5ee",
+      "bg": "#1e232f"
+    },
+    {
+      "fg": "#d58bf0",
+      "bg": "#1e232f",
+      "bold": true
+    },
+    {
+      "fg": "#3a4152",
+      "bg": "#1e232f",
+      "bold": true
+    },
+    {
+      "bg": "#1e232f",
+      "bold": true
+    },
+    {
+      "fg": "#76a8f2",
+      "bg": "#1e232f",
+      "bold": true
+    },
+    {
+      "fg": "#487fd4",
+      "bold": true
+    },
+    {
+      "fg": "#3a4152"
+    },
+    {
+      "fg": "#af5bd1",
+      "bold": true
+    }
+  ],
+  "viewport_text": "jk jj --no-pager --color always --repository /home/runner/work/jk/jk/target/forecast-demo.BM4h8p restore\nCommand: jj --no-pager --color always --repository /home/runner/work/jk/jk/target/forecast-demo.BM4h8p r\nStatus: success\n\nStdout:\n<empty>\n\nStderr:\nWorking copy  (@) now at: yokznrqw ad06aa30 Experiment with forecast caching\nParent commit (@-)      : oqysmzlr b34d7568 Configure request timeouts\nAdded 0 files, modified 1 files, removed 0 files\n\nActions: e edit/retry command   : run another jj command\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n? help  V options  r refresh  j/k line  space page  q quit\n",
+  "scrollback_text": "",
+  "viewport": [
+    [
+      "jk ",
+      [
+        "jj --no-pager --color always --repository /home/runner/work/jk/jk/target/forecast-demo.BM4h8p restore",
+        0
+      ]
+    ],
+    [
+      [
+        "Command: jj --no-pager --color always --repository /home/runner/work/jk/jk/target/forecast-demo.BM4h8p r",
+        1
+      ]
+    ],
+    [
+      [
+        "Status: success",
+        2
+      ]
+    ],
+    [],
+    [
+      [
+        "Stdout:",
+        3
+      ]
+    ],
+    [
+      [
+        "<empty>",
+        4
+      ]
+    ],
+    [],
+    [
+      [
+        "Stderr:",
+        3
+      ]
+    ],
+    [
+      [
+        "Working copy  (@) now at: ",
+        4
+      ],
+      [
+        "y",
+        5
+      ],
+      [
+        "okznrqw",
+        6
+      ],
+      [
+        " ",
+        7
+      ],
+      [
+        "a",
+        8
+      ],
+      [
+        "d06aa30",
+        6
+      ],
+      [
+        " Experiment with forecast caching",
+        7
+      ]
+    ],
+    [
+      "Parent commit (@-)      : ",
+      [
+        "o",
+        9
+      ],
+      [
+        "qysmzlr",
+        10
+      ],
+      " ",
+      [
+        "b3",
+        11
+      ],
+      [
+        "4d7568",
+        10
+      ],
+      " Configure request timeouts"
+    ],
+    [
+      "Added 0 files, modified 1 files, removed 0 files"
+    ],
+    [],
+    [
+      "Actions: e edit/retry command   : run another jj command"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "? help  V options  r refresh  j/k line  space page  q quit"
+    ]
+  ],
+  "scrollback": []
+}

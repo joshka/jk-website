@@ -1,0 +1,26 @@
+{
+  "scenario": "command-alternatives",
+  "stage": "command-alternatives-committed",
+  "status": "passed",
+  "repository": "/home/runner/work/jk/jk/target/forecast-demo.bVeJwf",
+  "assertions": [
+    {
+      "name": "commit opens an empty working copy",
+      "passed": true,
+      "actual": "true",
+      "expected": "true"
+    },
+    {
+      "name": "commit names finalized parent",
+      "passed": true,
+      "actual": "Finalize forecast caching",
+      "expected": "Finalize forecast caching"
+    },
+    {
+      "name": "commit retains cache file and policy",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    }
+  ]
+}

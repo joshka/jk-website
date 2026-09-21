@@ -1,0 +1,212 @@
+{
+  "schema_version": 1,
+  "source_index": "manual/v0.3.0-manual-20260921/review-index.json",
+  "source_index_sha256": "17efd1f5f9a9c80791c6764f7972f466b4b29257831f2719b0c66b74b784fc16",
+  "review": {
+    "id": "manual-run-options-immutable",
+    "title": "Review immutable protection before overriding it",
+    "status": "ready",
+    "source_tape": "tapes/manual/rewrite/manual-run-options-immutable.tape",
+    "source_tape_sha256": "07eee3cc6c0084287708b3a28f116de038b73856efb072e272198d9c1f35dc90",
+    "website": {
+      "path": "assets/manual/v0.3.0-manual-20260921/manual-run-options-immutable"
+    },
+    "problems": [],
+    "checkpoints": [
+      {
+        "id": "manual-run-options-immutable-selector",
+        "png": "manual-run-options-immutable-selector.png",
+        "state": "manual-run-options-immutable-selector.json",
+        "png_sha256": "87e3fc6d7d6736cb89c5a8a05704c9be75d26f600adb4b1ad3aba0dff08d98f7",
+        "state_sha256": "5d374c81ab5335e8801712e9f2dad42a325ee05a02cd4561ee988eb55dfac14a",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/coverage; direct PNG inspection and terminal state/style review",
+          "reviewed_at": "2026-09-21T03:42:17.419870+00:00",
+          "summary": "Opaque slate destination selector is fully inside the viewport with the actual source, destination and base graph visible above it. Source hash, revision scope, onto placement and matching destination description are readable.",
+          "findings": [
+            "UX-04"
+          ]
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/coverage; direct PNG inspection and terminal state/style review",
+          "reviewed_at": "2026-09-21T03:42:17.419870+00:00",
+          "summary": "104x39 state retains the source hash and destination search/result. Fifteen styles distinguish graph colors from #242c3a dialog fill, #e0e6ee text and #65d4cf title/search keys; source is identified by hash rather than description.",
+          "findings": [
+            "UX-04"
+          ]
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/coverage-ci35557653700.json",
+        "text_style_review_source": "target/manual-recordings/reviews/coverage-ci35557653700.json"
+      },
+      {
+        "id": "manual-run-options-immutable-preview",
+        "png": "manual-run-options-immutable-preview.png",
+        "state": "manual-run-options-immutable-preview.json",
+        "png_sha256": "d3ca440a09096feb5d1a16be11e2a9c59569be676377d068b2f5d760dd619ac9",
+        "state_sha256": "28d48602180a335af9c4675712fccec4b6280d11dfbafb682d94985fb24b7ad3",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/coverage; direct PNG inspection and terminal state/style review",
+          "reviewed_at": "2026-09-21T03:42:17.419870+00:00",
+          "summary": "Opaque preview shows full source and destination IDs, revision-only scope, onto placement, amber history warning and complete wrapped command. Controls fit and graph remains visible around the panel.",
+          "findings": [
+            "UX-04"
+          ]
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/coverage; direct PNG inspection and terminal state/style review",
+          "reviewed_at": "2026-09-21T03:42:17.419870+00:00",
+          "summary": "Sixteen styles preserve #242c3a fill and #e0e6ee content, with bold teal keys and #eab855 warning. The argv contains rebase -r SOURCE -o DESTINATION without an immutable override.",
+          "findings": [
+            "UX-04"
+          ]
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/coverage-ci35557653700.json",
+        "text_style_review_source": "target/manual-recordings/reviews/coverage-ci35557653700.json"
+      },
+      {
+        "id": "manual-run-options-immutable-rejected",
+        "png": "manual-run-options-immutable-rejected.png",
+        "state": "manual-run-options-immutable-rejected.json",
+        "png_sha256": "707d95eb936021bf8f4ad50a97f289066f3b92b53e7f81f170b8559d3c947ca6",
+        "state_sha256": "14b4913ae501ac02405cdba0f9eefc2832cc91ca5d031933b7056b5cc4565857",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/coverage; direct PNG inspection and terminal state/style review",
+          "reviewed_at": "2026-09-21T03:42:17.419870+00:00",
+          "summary": "Command details show exit 1, no resulting operation and the complete immutable-commit diagnostic. The long Command header clips at the right edge; the error and all seven stderr lines remain readable.",
+          "findings": [
+            "UX-15"
+          ]
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/coverage; direct PNG inspection and terminal state/style review",
+          "reviewed_at": "2026-09-21T03:42:17.419870+00:00",
+          "summary": "Six styles preserve red bold Error, teal bold Hint and colored change/commit IDs. State includes the immutable rejection, protection explanation, help link and rewrite count; the long command header is clipped in terminal state too.",
+          "findings": [
+            "UX-15"
+          ]
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/coverage-ci35557653700.json",
+        "text_style_review_source": "target/manual-recordings/reviews/coverage-ci35557653700.json"
+      },
+      {
+        "id": "manual-run-options-immutable-override",
+        "png": "manual-run-options-immutable-override.png",
+        "state": "manual-run-options-immutable-override.json",
+        "png_sha256": "65f217652f65b1425bf73ea76423b99860a7b875d45c1c7f54f6936286541ff0",
+        "state_sha256": "053acbf0984ba3edca2bb1a561f8c1e25f8dde504f93442c409f9d56a26fb6c3",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/coverage; direct PNG inspection and terminal state/style review",
+          "reviewed_at": "2026-09-21T03:42:17.419870+00:00",
+          "summary": "Opaque preview visibly adds the amber immutable warning and --ignore-immutable before rebase. Both exact operands and the wrapped command fit; no graph text bleeds through the panel.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/coverage; direct PNG inspection and terminal state/style review",
+          "reviewed_at": "2026-09-21T03:42:17.419870+00:00",
+          "summary": "Sixteen styles retain the warning span as #eab855 on #242c3a, teal controls and full source/destination IDs. Styled argv includes --ignore-immutable and the same revision-only/onto operands as the rejected attempt.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/coverage-ci35557653700.json",
+        "text_style_review_source": "target/manual-recordings/reviews/coverage-ci35557653700.json"
+      },
+      {
+        "id": "manual-run-options-immutable-success",
+        "png": "manual-run-options-immutable-success.png",
+        "state": "manual-run-options-immutable-success.json",
+        "png_sha256": "adc13c3c8bfcfc5197f53579b747c1dc50702fcb6adb011ec92c7a3ad85fee47",
+        "state_sha256": "c61f0ad48ca9a3c440839620b20f7eafe69d2c2b141fcc70554a57f10be512fb",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/coverage; direct PNG inspection and terminal state/style review",
+          "reviewed_at": "2026-09-21T03:42:17.419870+00:00",
+          "summary": "The rewritten source keeps its change ID and description, receives a new commit ID, and shows the Rebased revisions toast with undo/history actions. The configured graph hides its new parent behind an elision; the repository assertion establishes that parent.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/coverage; direct PNG inspection and terminal state/style review",
+          "reviewed_at": "2026-09-21T03:42:17.419870+00:00",
+          "summary": "Eleven styles retain colored source IDs and the filled success-toast span. The state shows commit e5e4584f and the success message. Separate passed assertions confirm parent Rebase destination and unchanged source contents.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/coverage-ci35557653700.json",
+        "text_style_review_source": "target/manual-recordings/reviews/coverage-ci35557653700.json"
+      }
+    ],
+    "metadata_path": "target/manual-recordings/ci-35557653700/manual-evidence-manual-run-options-immutable/capture-metadata.json",
+    "metadata_sha256": "6bce51c2ce9ddf06a07bcf8554bdeb137670a57de6f9394d501221bf1f37c3f6",
+    "evidence_directory": "target/manual-recordings/ci-35557653700/manual-evidence-manual-run-options-immutable",
+    "evidence_status": "passed",
+    "source_commit": "7fcb4fa9af1bb624fcdc7ac14a64184a43c4e829",
+    "pr_head_commit": "d5200f713edc476fd446616ad46fec573f861baf",
+    "source_manifest_sha256": "42c0d25b424a807906eb4e0ba7ca72b4c0488685e9f57b3bcf62d3f01c6c6915",
+    "source_matches_checkout": true,
+    "binary": {
+      "invoked_path": "/home/runner/work/jk/jk/target/manual-build/jk",
+      "path": "/home/runner/work/jk/jk/target/manual-build/jk",
+      "sha256": "cb41f94b63ec85100829bd2b1e9ced84f37cae912996a48e93b56b8776c9c5ed",
+      "version": "jk 0.3.0",
+      "version_exit_code": 0
+    },
+    "jj": {
+      "invoked_path": "/home/runner/.cargo/bin/jj",
+      "path": "/home/runner/.cargo/bin/jj",
+      "sha256": "cd5efc3eb281d606bf9b5523167f79661da0f8c76a5aa32d61c07c7a351b6b44",
+      "version": "jj 0.45.1-7c41cdeb16b6b321c64e789a966b6adf723816a5",
+      "version_exit_code": 0
+    },
+    "betamax": {
+      "invoked_path": "/home/runner/work/_temp/betamax-jsSMbW/bin/betamax",
+      "path": "/home/runner/work/_temp/betamax-jsSMbW/bin/betamax",
+      "sha256": "db55fa6e7ff98e1df3c91921b5b3fb504b3cc8fdaf6b07e3da952f8757053490",
+      "version": "betamax 0.1.21",
+      "version_exit_code": 0
+    },
+    "ci_run": {
+      "id": "35557653700",
+      "attempt": "1",
+      "url": "https://github.com/joshka/jk/actions/runs/35557653700"
+    },
+    "assertions": [
+      {
+        "path": "manual-run-options-immutable-cancelled-assertions.json",
+        "sha256": "538e31b72153b11a28899a32c1aa8505b271b57873009128ef6793ec0aacdf8c",
+        "bytes": 928
+      },
+      {
+        "path": "manual-run-options-immutable-success-assertions.json",
+        "sha256": "f693d131523b2fcaddd21186eb42d3e22f52d7cf60e6bd87057fca9c532410ca",
+        "bytes": 604
+      }
+    ],
+    "video": {
+      "path": "manual-run-options-immutable.mp4",
+      "sha256": "f80826279baff4e87be73b37986ac371e0e435181636399ca944256a7360f8da",
+      "bytes": 567587
+    },
+    "video_review": {
+      "status": "reviewed",
+      "reviewer": "Codex /root/coverage; direct PNG inspection and terminal state/style review",
+      "reviewed_at": "2026-09-21T03:42:17.419870+00:00",
+      "summary": "ffprobe reports 29.866667 seconds, 448 frames, 1400x900 at 15 fps. Inspected 15 decoded samples at two-second intervals and the final frame, alongside the exact source tape. The tape gives selector/preview/error/override/success one second before each checkpoint plus two seconds afterward. Samples show preview cancellation, reopened rejection, full diagnostic, Backspace return, explicit override, and success; captions and key overlays remain readable. The final frame is the rewritten source graph after the success toast expires. This was sampled inspection, not full real-time playback.",
+      "findings": [
+        "UX-15",
+        "UX-16"
+      ],
+      "sha256": "f80826279baff4e87be73b37986ac371e0e435181636399ca944256a7360f8da"
+    },
+    "source_snapshot_status": "preserved",
+    "video_review_source": "target/manual-recordings/reviews/coverage-ci35557653700.json",
+    "pixel_review_complete": true,
+    "text_style_review_complete": true,
+    "video_review_complete": true
+  }
+}

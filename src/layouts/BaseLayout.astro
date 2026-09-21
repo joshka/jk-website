@@ -8,10 +8,12 @@ import Nav from '../components/Nav.astro';
 interface Props {
   title: string;
   description?: string;
+  skipToId?: string;
 }
 const {
   title,
   description = "jk is a jj-native terminal UI for Jujutsu VCS. It renders Jujutsu log and diff output with change selection, inline descriptions, and manual refresh.",
+  skipToId = 'main',
 } = Astro.props;
 
 const is404 = Astro.url.pathname.replace(/\/$/, '') === '/404';
@@ -45,7 +47,7 @@ const canonicalBasePathScript = `if (location.pathname === '${baseWithoutSlash}'
   </head>
   <body>
     <a
-      href="#main"
+      href={`#${skipToId}`}
       class="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-[60] focus:rounded-md focus:bg-panel focus:px-3 focus:py-2 focus:text-sm"
     >
       Skip to content

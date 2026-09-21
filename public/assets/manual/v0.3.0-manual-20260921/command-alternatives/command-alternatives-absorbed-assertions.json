@@ -1,0 +1,20 @@
+{
+  "scenario": "command-alternatives",
+  "stage": "command-alternatives-absorbed",
+  "status": "passed",
+  "repository": "/home/runner/work/jk/jk/target/forecast-demo.bVeJwf",
+  "assertions": [
+    {
+      "name": "absorb leaves new file in current change",
+      "passed": true,
+      "actual": "A src/cache.js",
+      "expected": "A src/cache.js"
+    },
+    {
+      "name": "absorb moves config edit into parent",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "size": [
+    98,
+    43
+  ],
+  "total_rows": 43,
+  "scrollback_rows": 0,
+  "cursor": {
+    "x": 88,
+    "y": 27,
+    "visible": false
+  },
+  "default_style": {
+    "fg": "#b4bcca",
+    "bg": "#0f141f"
+  },
+  "styles": [
+    {
+      "bold": true
+    },
+    {
+      "fg": "#e0e6ee",
+      "bg": "#242c3a"
+    },
+    {
+      "fg": "#65d4cf",
+      "bg": "#242c3a",
+      "bold": true
+    },
+    {
+      "fg": "#eab855",
+      "bg": "#242c3a"
+    },
+    {
+      "fg": "#e0e6ee",
+      "bg": "#242c3a",
+      "bold": true
+    }
+  ],
+  "viewport_text": "jk jj bookmark list\n›  demo: 15960d8a8268 (local)\n   review-keep: 20f45f72fcc2 (local)\n   stable-a: 20f45f72fcc2 (local)\n   stable-b: 20f45f72fcc2 (local)\n   stable-c: 20f45f72fcc2 (local)\n\n\n\n\n\n\n\n\n\n\n           jj bookmark create\n\n           ! Changes local repository metadata.\n\n           Command\n           jj --no-pager --color always --repository\n           /home/runner/work/jk/jk/target/dogfood-artifacts/fixtures/refs.kdPe31/client\n           bookmark create --revision @- -- 'review-*'\n\n\n           enter run  y copy  esc cancel\n",
+  "scrollback_text": "",
+  "viewport": [
+    [
+      "jk ",
+      [
+        "jj bookmark list",
+        0
+      ]
+    ],
+    [
+      [
+        "›",
+        0
+      ],
+      "  demo: 15960d8a8268 (local)"
+    ],
+    [
+      "   review-keep: 20f45f72fcc2 (local)"
+    ],
+    [
+      "   stable-a: 20f45f72fcc2 (local)"
+    ],
+    [
+      "   stable-b: 20f45f72fcc2 (local)"
+    ],
+    [
+      "   stable-c: 20f45f72fcc2 (local)"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "          ",
+      [
+        " ",
+        1
+      ],
+      [
+        "jj bookmark create",
+        2
+      ]
+    ],
+    [],
+    [
+      "          ",
+      [
+        " ",
+        1
+      ],
+      [
+        "! Changes local repository metadata.",
+        3
+      ]
+    ],
+    [],
+    [
+      "          ",
+      [
+        " ",
+        1
+      ],
+      [
+        "Command",
+        4
+      ]
+    ],
+    [
+      "          ",
+      [
+        " jj --no-pager --color always --repository",
+        1
+      ]
+    ],
+    [
+      "          ",
+      [
+        " /home/runner/work/jk/jk/target/dogfood-artifacts/fixtures/refs.kdPe31/client",
+        1
+      ]
+    ],
+    [
+      "          ",
+      [
+        " bookmark create --revision @- -- 'review-*'",
+        1
+      ]
+    ],
+    [],
+    [],
+    [
+      "          ",
+      [
+        " ",
+        1
+      ],
+      [
+        "enter",
+        2
+      ],
+      [
+        " run  ",
+        1
+      ],
+      [
+        "y",
+        2
+      ],
+      [
+        " copy  ",
+        1
+      ],
+      [
+        "esc",
+        2
+      ],
+      [
+        " cancel",
+        1
+      ]
+    ]
+  ],
+  "scrollback": []
+}

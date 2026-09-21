@@ -1,0 +1,26 @@
+{
+  "scenario": "refs-remotes",
+  "stage": "refs-remotes",
+  "status": "passed",
+  "repository": "/home/runner/work/jk/jk/target/dogfood-artifacts/fixtures/refs.D38HFS/client",
+  "assertions": [
+    {
+      "name": "fetch imports incoming remote bookmark",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "push dry-run leaves remote graph unchanged",
+      "passed": true,
+      "actual": "0000000000000000000000000000000000000000\n889721ab132157c81f64a4398844a9ab3c6bffc0",
+      "expected": "0000000000000000000000000000000000000000\n889721ab132157c81f64a4398844a9ab3c6bffc0"
+    },
+    {
+      "name": "push dry-run does not create remote demo",
+      "passed": true,
+      "actual": "",
+      "expected": ""
+    }
+  ]
+}

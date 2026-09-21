@@ -1,0 +1,153 @@
+{
+  "size": [
+    104,
+    39
+  ],
+  "total_rows": 39,
+  "scrollback_rows": 0,
+  "cursor": {
+    "x": 91,
+    "y": 24,
+    "visible": false
+  },
+  "default_style": {
+    "fg": "#b4bcca",
+    "bg": "#0f141f"
+  },
+  "styles": [
+    {
+      "bold": true
+    },
+    {
+      "fg": "#e0e6ee",
+      "bg": "#242c3a"
+    },
+    {
+      "fg": "#65d4cf",
+      "bg": "#242c3a",
+      "bold": true
+    },
+    {
+      "fg": "#e0e6ee",
+      "bg": "#242c3a",
+      "bold": true
+    }
+  ],
+  "viewport_text": "jk jj bookmark list\n›  demo: 1d7f5db52643 (local)\n   review-keep: 7084ee8c29aa (local)\n   stable-a: 7084ee8c29aa (local)\n   stable-b: 7084ee8c29aa (local)\n   stable-c: 7084ee8c29aa (local)\n\n\n\n\n\n\n\n\n\n              jj git fetch\n\n              Command\n              jj --no-pager --color never --repository\n              /home/runner/work/jk/jk/target/dogfood-artifacts/fixtures/refs.kCTcqM/client\n              git fetch --remote 'exact:\"fixture\"'\n\n\n              enter run  y copy  esc cancel\n",
+  "scrollback_text": "",
+  "viewport": [
+    [
+      "jk ",
+      [
+        "jj bookmark list",
+        0
+      ]
+    ],
+    [
+      [
+        "›",
+        0
+      ],
+      "  demo: 1d7f5db52643 (local)"
+    ],
+    [
+      "   review-keep: 7084ee8c29aa (local)"
+    ],
+    [
+      "   stable-a: 7084ee8c29aa (local)"
+    ],
+    [
+      "   stable-b: 7084ee8c29aa (local)"
+    ],
+    [
+      "   stable-c: 7084ee8c29aa (local)"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "             ",
+      [
+        " ",
+        1
+      ],
+      [
+        "jj git fetch",
+        2
+      ]
+    ],
+    [],
+    [
+      "             ",
+      [
+        " ",
+        1
+      ],
+      [
+        "Command",
+        3
+      ]
+    ],
+    [
+      "             ",
+      [
+        " jj --no-pager --color never --repository",
+        1
+      ]
+    ],
+    [
+      "             ",
+      [
+        " /home/runner/work/jk/jk/target/dogfood-artifacts/fixtures/refs.kCTcqM/client",
+        1
+      ]
+    ],
+    [
+      "             ",
+      [
+        " git fetch --remote 'exact:\"fixture\"'",
+        1
+      ]
+    ],
+    [],
+    [],
+    [
+      "             ",
+      [
+        " ",
+        1
+      ],
+      [
+        "enter",
+        2
+      ],
+      [
+        " run  ",
+        1
+      ],
+      [
+        "y",
+        2
+      ],
+      [
+        " copy  ",
+        1
+      ],
+      [
+        "esc",
+        2
+      ],
+      [
+        " cancel",
+        1
+      ]
+    ]
+  ],
+  "scrollback": []
+}

@@ -1,0 +1,20 @@
+{
+  "scenario": "command-alternatives",
+  "stage": "command-alternatives-duplicated",
+  "status": "passed",
+  "repository": "/home/runner/work/jk/jk/target/forecast-demo.bVeJwf",
+  "assertions": [
+    {
+      "name": "duplicate creates another change identity",
+      "passed": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "name": "duplicate tree equals original",
+      "passed": true,
+      "actual": "",
+      "expected": ""
+    }
+  ]
+}

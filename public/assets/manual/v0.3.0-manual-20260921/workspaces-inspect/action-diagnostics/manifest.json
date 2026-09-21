@@ -1,0 +1,37 @@
+{
+  "schema": 1,
+  "results": [
+    {
+      "tape": "workspaces-inspect.tape",
+      "status": "passed"
+    }
+  ],
+  "problems": [],
+  "media": [
+    {
+      "name": "betamax-betamax-workspaces-inspect-r1-m1.workspaces-inspect.mp4",
+      "label": "workspaces-inspect.tape (mp4)",
+      "type": "video/mp4"
+    },
+    {
+      "name": "betamax-betamax-workspaces-inspect-r1-m2.workspaces-inspect-diff.png",
+      "label": "workspaces-inspect-diff.png",
+      "type": "image/png"
+    },
+    {
+      "name": "betamax-betamax-workspaces-inspect-r1-m3.workspaces-inspect-evolog.png",
+      "label": "workspaces-inspect-evolog.png",
+      "type": "image/png"
+    },
+    {
+      "name": "betamax-betamax-workspaces-inspect-r1-m4.workspaces-inspect-show.png",
+      "label": "workspaces-inspect-show.png",
+      "type": "image/png"
+    },
+    {
+      "name": "betamax-betamax-workspaces-inspect-r1-m5.workspaces-inspect-status.png",
+      "label": "workspaces-inspect-status.png",
+      "type": "image/png"
+    }
+  ]
+}

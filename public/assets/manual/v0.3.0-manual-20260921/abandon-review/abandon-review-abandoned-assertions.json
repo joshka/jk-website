@@ -1,0 +1,38 @@
+{
+  "scenario": "abandon-review",
+  "stage": "abandon-review-abandoned",
+  "status": "passed",
+  "repository": "/home/runner/work/jk/jk/target/forecast-demo.fL32Fl",
+  "assertions": [
+    {
+      "name": "selected populated revision abandoned",
+      "passed": true,
+      "actual": [],
+      "expected": []
+    },
+    {
+      "name": "descendants remain",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "abandoned cache addition removed",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "abandoned config modification removed",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "abandoned README deletion removed",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    }
+  ]
+}

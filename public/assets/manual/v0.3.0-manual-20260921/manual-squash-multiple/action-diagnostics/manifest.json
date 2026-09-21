@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "results": [
+    {
+      "tape": "manual-squash-multiple.tape",
+      "status": "passed"
+    }
+  ],
+  "problems": [],
+  "media": [
+    {
+      "name": "betamax-betamax-rewrite-manual-squash-multiple-r1-m1.manual-squash-multiple.mp4",
+      "label": "manual-squash-multiple.tape (mp4)",
+      "type": "video/mp4"
+    },
+    {
+      "name": "betamax-betamax-rewrite-manual-squash-multiple-r1-m2.manual-squash-multiple-preview.png",
+      "label": "manual-squash-multiple-preview.png",
+      "type": "image/png"
+    },
+    {
+      "name": "betamax-betamax-rewrite-manual-squash-multiple-r1-m3.manual-squash-multiple-recovered.png",
+      "label": "manual-squash-multiple-recovered.png",
+      "type": "image/png"
+    },
+    {
+      "name": "betamax-betamax-rewrite-manual-squash-multiple-r1-m4.manual-squash-multiple-success.png",
+      "label": "manual-squash-multiple-success.png",
+      "type": "image/png"
+    }
+  ]
+}

@@ -1,0 +1,347 @@
+{
+  "size": [
+    104,
+    39
+  ],
+  "total_rows": 39,
+  "scrollback_rows": 0,
+  "cursor": {
+    "x": 81,
+    "y": 22,
+    "visible": false
+  },
+  "default_style": {
+    "fg": "#b4bcca",
+    "bg": "#0f141f"
+  },
+  "styles": [
+    {
+      "bold": true
+    },
+    {
+      "fg": "#52aa60",
+      "bold": true
+    },
+    {
+      "fg": "#d58bf0",
+      "bold": true
+    },
+    {
+      "fg": "#3a4152",
+      "bold": true
+    },
+    {
+      "fg": "#ad9b49",
+      "bold": true
+    },
+    {
+      "fg": "#52c4c0",
+      "bold": true
+    },
+    {
+      "fg": "#76a8f2",
+      "bold": true
+    },
+    {
+      "fg": "#487fd4",
+      "bold": true
+    },
+    {
+      "fg": "#3a4152"
+    },
+    {
+      "fg": "#ad9b49"
+    },
+    {
+      "fg": "#269d9a"
+    },
+    {
+      "fg": "#af5bd1",
+      "bold": true
+    },
+    {
+      "fg": "#52aa60"
+    },
+    {
+      "fg": "#e0e6ee",
+      "bg": "#242c3a"
+    },
+    {
+      "fg": "#65d4cf",
+      "bg": "#242c3a",
+      "bold": true
+    },
+    {
+      "fg": "#ff8782",
+      "bg": "#242c3a"
+    }
+  ],
+  "viewport_text": "jk jj\n›  @  smqluxkn demo@example.invalid 2026-01-01 12:00:00 45990678\n·  │  Experiment with forecast caching\n   ○  kvosxvnu demo@example.invalid 2026-01-01 12:00:00 3835991c\n   │  Configure request timeouts\n   ○  nytvmxtw demo@example.invalid 2026-01-01 12:00:00 1ebd9136\n   │  Add the forecast endpoint\n   ○  lkurnryx alex@example.com 2026-01-01 12:00:00 27c2afb2\n   │  Document the forecast service\n   ◆  zzzzzzzz root() 00000000\n\n\n\n\n\n\n                         jj command\n\n                         : status '\n                         error: unterminated single quote\n\n                         enter run   Ctrl-u clear   backspace edit   esc cancel\n",
+  "scrollback_text": "",
+  "viewport": [
+    [
+      "jk ",
+      [
+        "jj",
+        0
+      ]
+    ],
+    [
+      [
+        "›",
+        0
+      ],
+      "  ",
+      [
+        "@",
+        1
+      ],
+      "  ",
+      [
+        "s",
+        2
+      ],
+      [
+        "mqluxkn",
+        3
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "demo@example.invalid",
+        4
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "2026-01-01 12:00:00",
+        5
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "4",
+        6
+      ],
+      [
+        "5990678",
+        3
+      ]
+    ],
+    [
+      [
+        "·",
+        0
+      ],
+      "  │  ",
+      [
+        "Experiment with forecast caching",
+        0
+      ]
+    ],
+    [
+      "   ○  ",
+      [
+        "k",
+        7
+      ],
+      [
+        "vosxvnu",
+        8
+      ],
+      " ",
+      [
+        "demo@example.invalid",
+        9
+      ],
+      " ",
+      [
+        "2026-01-01 12:00:00",
+        10
+      ],
+      " ",
+      [
+        "3",
+        11
+      ],
+      [
+        "835991c",
+        8
+      ]
+    ],
+    [
+      "   │  Configure request timeouts"
+    ],
+    [
+      "   ○  ",
+      [
+        "n",
+        7
+      ],
+      [
+        "ytvmxtw",
+        8
+      ],
+      " ",
+      [
+        "demo@example.invalid",
+        9
+      ],
+      " ",
+      [
+        "2026-01-01 12:00:00",
+        10
+      ],
+      " ",
+      [
+        "1",
+        11
+      ],
+      [
+        "ebd9136",
+        8
+      ]
+    ],
+    [
+      "   │  Add the forecast endpoint"
+    ],
+    [
+      "   ○  ",
+      [
+        "l",
+        7
+      ],
+      [
+        "kurnryx",
+        8
+      ],
+      " ",
+      [
+        "alex@example.com",
+        9
+      ],
+      " ",
+      [
+        "2026-01-01 12:00:00",
+        10
+      ],
+      " ",
+      [
+        "2",
+        11
+      ],
+      [
+        "7c2afb2",
+        8
+      ]
+    ],
+    [
+      "   │  Document the forecast service"
+    ],
+    [
+      "   ",
+      [
+        "◆",
+        5
+      ],
+      "  ",
+      [
+        "z",
+        7
+      ],
+      [
+        "zzzzzzz",
+        8
+      ],
+      " ",
+      [
+        "root()",
+        12
+      ],
+      " ",
+      [
+        "0",
+        11
+      ],
+      [
+        "0000000",
+        8
+      ]
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "                       ",
+      [
+        "  ",
+        13
+      ],
+      [
+        "jj command",
+        14
+      ]
+    ],
+    [],
+    [
+      "                       ",
+      [
+        "  ",
+        13
+      ],
+      [
+        ":",
+        14
+      ],
+      [
+        " status '",
+        13
+      ]
+    ],
+    [
+      "                       ",
+      [
+        "  ",
+        13
+      ],
+      [
+        "error: unterminated single quote",
+        15
+      ]
+    ],
+    [],
+    [
+      "                       ",
+      [
+        "  ",
+        13
+      ],
+      [
+        "enter run",
+        14
+      ],
+      [
+        "   Ctrl-u clear   ",
+        13
+      ],
+      [
+        "backspace edit",
+        14
+      ],
+      [
+        "   esc cancel",
+        13
+      ]
+    ]
+  ],
+  "scrollback": []
+}

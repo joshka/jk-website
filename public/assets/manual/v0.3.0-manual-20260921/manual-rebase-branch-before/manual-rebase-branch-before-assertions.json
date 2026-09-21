@@ -1,0 +1,44 @@
+{
+  "scenario": "manual-rebase-branch-before",
+  "stage": "manual-rebase-branch-before",
+  "status": "passed",
+  "repository": "/home/runner/work/jk/jk/target/manual-fixtures/rebase.wTKGIv/workflows.0GMV8r/rebase",
+  "assertions": [
+    {
+      "name": "source content retained",
+      "passed": true,
+      "actual": "source contents\n",
+      "expected": "source contents\n"
+    },
+    {
+      "name": "source descendants remain",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "name": "destination descendants remain",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "name": "insert-before destination follows the moved source tip",
+      "passed": true,
+      "actual": "Verify source",
+      "expected": "Verify source"
+    },
+    {
+      "name": "insert-before source parent is base",
+      "passed": true,
+      "actual": "Rebase base",
+      "expected": "Rebase base"
+    },
+    {
+      "name": "source or branch retains source descendant",
+      "passed": true,
+      "actual": "Rebase source",
+      "expected": "Rebase source"
+    }
+  ]
+}

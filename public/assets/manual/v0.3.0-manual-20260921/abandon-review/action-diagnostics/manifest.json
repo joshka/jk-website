@@ -1,0 +1,37 @@
+{
+  "schema": 1,
+  "results": [
+    {
+      "tape": "abandon-review.tape",
+      "status": "passed"
+    }
+  ],
+  "problems": [],
+  "media": [
+    {
+      "name": "betamax-betamax-changes-abandon-review-r1-m1.abandon-review.mp4",
+      "label": "abandon-review.tape (mp4)",
+      "type": "video/mp4"
+    },
+    {
+      "name": "betamax-betamax-changes-abandon-review-r1-m2.abandon-review-abandoned.png",
+      "label": "abandon-review-abandoned.png",
+      "type": "image/png"
+    },
+    {
+      "name": "betamax-betamax-changes-abandon-review-r1-m3.abandon-review-decision.png",
+      "label": "abandon-review-decision.png",
+      "type": "image/png"
+    },
+    {
+      "name": "betamax-betamax-changes-abandon-review-r1-m4.abandon-review-diff.png",
+      "label": "abandon-review-diff.png",
+      "type": "image/png"
+    },
+    {
+      "name": "betamax-betamax-changes-abandon-review-r1-m5.abandon-review-restored.png",
+      "label": "abandon-review-restored.png",
+      "type": "image/png"
+    }
+  ]
+}

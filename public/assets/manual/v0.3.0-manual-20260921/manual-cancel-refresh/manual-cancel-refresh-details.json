@@ -1,0 +1,110 @@
+{
+  "size": [
+    104,
+    39
+  ],
+  "total_rows": 39,
+  "scrollback_rows": 0,
+  "cursor": {
+    "x": 93,
+    "y": 38,
+    "visible": false
+  },
+  "default_style": {
+    "fg": "#b4bcca",
+    "bg": "#0f141f"
+  },
+  "styles": [
+    {
+      "bold": true
+    }
+  ],
+  "viewport_text": "jk Command 6\nCommand: jj --no-pager --color always --repository /home/runner/work/jk/jk/target/forecast-demo.LTdbpS -\nSource: log refresh\nStatus: exit 1\nDuration: 10 ms\nOperation: none\nSummary: exit 1: fixture refresh failed\n\nStdout:\n  bytes: 0\n  lines: 0\n  truncated: no\n  redacted: no\n  <empty>\n\nStderr:\n  bytes: 23\n  lines: 1\n  truncated: no\n  redacted: no\n\nfixture refresh failed\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n? help  V options  r refresh  j/k line  space page  q quit\n",
+  "scrollback_text": "",
+  "viewport": [
+    [
+      "jk ",
+      [
+        "Command 6",
+        0
+      ]
+    ],
+    [
+      "Command: jj --no-pager --color always --repository /home/runner/work/jk/jk/target/forecast-demo.LTdbpS -"
+    ],
+    [
+      "Source: log refresh"
+    ],
+    [
+      "Status: exit 1"
+    ],
+    [
+      "Duration: 10 ms"
+    ],
+    [
+      "Operation: none"
+    ],
+    [
+      "Summary: exit 1: fixture refresh failed"
+    ],
+    [],
+    [
+      "Stdout:"
+    ],
+    [
+      "  bytes: 0"
+    ],
+    [
+      "  lines: 0"
+    ],
+    [
+      "  truncated: no"
+    ],
+    [
+      "  redacted: no"
+    ],
+    [
+      "  <empty>"
+    ],
+    [],
+    [
+      "Stderr:"
+    ],
+    [
+      "  bytes: 23"
+    ],
+    [
+      "  lines: 1"
+    ],
+    [
+      "  truncated: no"
+    ],
+    [
+      "  redacted: no"
+    ],
+    [],
+    [
+      "fixture refresh failed"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "? help  V options  r refresh  j/k line  space page  q quit"
+    ]
+  ],
+  "scrollback": []
+}

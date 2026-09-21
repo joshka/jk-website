@@ -1,0 +1,504 @@
+{
+  "size": [
+    104,
+    36
+  ],
+  "total_rows": 36,
+  "scrollback_rows": 0,
+  "cursor": {
+    "x": 59,
+    "y": 13,
+    "visible": false
+  },
+  "default_style": {
+    "fg": "#b4bcca",
+    "bg": "#0f141f"
+  },
+  "styles": [
+    {
+      "bold": true
+    },
+    {
+      "fg": "#ad9b49"
+    },
+    {
+      "fg": "#c26265",
+      "faint": true
+    },
+    {
+      "fg": "#52aa60",
+      "faint": true
+    },
+    {
+      "fg": "#52aa60"
+    },
+    {
+      "fg": "#52aa60",
+      "underline": "single"
+    },
+    {
+      "fg": "#c26265"
+    },
+    {
+      "fg": "#c26265",
+      "underline": "single"
+    }
+  ],
+  "viewport_text": "jk jj diff -r @ --color-words\n   Modified regular file README.md:\n       ...\n      3    3: Reliable forecasts for every city.\n      4    4:\n      5    5: Requests time out after three seconds.\n           6:\n           7: Cache forecasts for two minutes.\n   Modified regular file config.json:\n      1    1: {\n      2    2:   \"requestTimeoutMs\": 3000,\n      3    3:   \"cacheTtlSeconds\": 60120\n      4    4: }\n›  Modified regular file src/cache.js: | 4 ++--  [file 3/3]\n      1    1: export const cacheWindow1 = 1;\n      2    2: export const cacheWindow2 = 2;\n      3    3: export const cacheWindow3 = 3;\n      4     : export const cacheWindow4 = 4;\n           4: export const cacheTtlSeconds = 120; // Keep forecasts fresh.\n      5    5: export const cacheWindow5 = 5;\n      6    6: export const cacheWindow6 = 6;\n      7    7: export const cacheWindow7 = 7;\n       ...\n     27   27: export const cacheWindow27 = 27;\n     28   28: export const cacheWindow28 = 28;\n     29   29: export const cacheWindow29 = 29;\n     30     : export const cacheWindow30 = 30;\n          30: export const cacheLimit = 256; // Bound memory usage.\n     31   31: export const cacheWindow31 = 31;\n     32   32: export const cacheWindow32 = 32;\n     33   33: export const cacheWindow33 = 33;\n       ...\n\n\n\n/cache  1/19  n next  N previous\n",
+  "scrollback_text": "",
+  "viewport": [
+    [
+      "jk ",
+      [
+        "jj diff -r @ --color-words",
+        0
+      ]
+    ],
+    [
+      "   ",
+      [
+        "Modified regular file README.md:",
+        1
+      ]
+    ],
+    [
+      "       ..."
+    ],
+    [
+      "   ",
+      [
+        "   3",
+        2
+      ],
+      " ",
+      [
+        "   3",
+        3
+      ],
+      ": Reliable forecasts for every city."
+    ],
+    [
+      "   ",
+      [
+        "   4",
+        2
+      ],
+      " ",
+      [
+        "   4",
+        3
+      ],
+      ":"
+    ],
+    [
+      "   ",
+      [
+        "   5",
+        2
+      ],
+      " ",
+      [
+        "   5",
+        3
+      ],
+      ": Requests time out after three seconds."
+    ],
+    [
+      "        ",
+      [
+        "   6",
+        4
+      ],
+      ":"
+    ],
+    [
+      "        ",
+      [
+        "   7",
+        4
+      ],
+      ": ",
+      [
+        "Cache forecasts for two minutes.",
+        5
+      ]
+    ],
+    [
+      "   ",
+      [
+        "Modified regular file config.json:",
+        1
+      ]
+    ],
+    [
+      "   ",
+      [
+        "   1",
+        2
+      ],
+      " ",
+      [
+        "   1",
+        3
+      ],
+      ": {"
+    ],
+    [
+      "   ",
+      [
+        "   2",
+        2
+      ],
+      " ",
+      [
+        "   2",
+        3
+      ],
+      ":   \"requestTimeoutMs\": 3000,"
+    ],
+    [
+      "   ",
+      [
+        "   3",
+        6
+      ],
+      " ",
+      [
+        "   3",
+        4
+      ],
+      ":   \"cacheTtlSeconds\": ",
+      [
+        "60",
+        7
+      ],
+      [
+        "120",
+        5
+      ]
+    ],
+    [
+      "   ",
+      [
+        "   4",
+        2
+      ],
+      " ",
+      [
+        "   4",
+        3
+      ],
+      ": }"
+    ],
+    [
+      [
+        "›",
+        0
+      ],
+      "  ",
+      [
+        "Modified regular file src/cache.js:",
+        1
+      ],
+      " | 4 ",
+      [
+        "++",
+        4
+      ],
+      [
+        "--",
+        6
+      ],
+      "  [file 3/3]"
+    ],
+    [
+      "   ",
+      [
+        "   1",
+        2
+      ],
+      " ",
+      [
+        "   1",
+        3
+      ],
+      ": export const cacheWindow1 = 1;"
+    ],
+    [
+      "   ",
+      [
+        "   2",
+        2
+      ],
+      " ",
+      [
+        "   2",
+        3
+      ],
+      ": export const cacheWindow2 = 2;"
+    ],
+    [
+      "   ",
+      [
+        "   3",
+        2
+      ],
+      " ",
+      [
+        "   3",
+        3
+      ],
+      ": export const cacheWindow3 = 3;"
+    ],
+    [
+      "   ",
+      [
+        "   4",
+        6
+      ],
+      "     : ",
+      [
+        "export const ",
+        6
+      ],
+      [
+        "cacheWindow4",
+        7
+      ],
+      [
+        " = ",
+        6
+      ],
+      [
+        "4",
+        7
+      ],
+      [
+        ";",
+        6
+      ]
+    ],
+    [
+      "        ",
+      [
+        "   4",
+        4
+      ],
+      ": ",
+      [
+        "export const ",
+        4
+      ],
+      [
+        "cacheTtlSeconds",
+        5
+      ],
+      [
+        " = ",
+        4
+      ],
+      [
+        "120",
+        5
+      ],
+      [
+        ";",
+        4
+      ],
+      [
+        " // Keep forecasts fresh.",
+        5
+      ]
+    ],
+    [
+      "   ",
+      [
+        "   5",
+        2
+      ],
+      " ",
+      [
+        "   5",
+        3
+      ],
+      ": export const cacheWindow5 = 5;"
+    ],
+    [
+      "   ",
+      [
+        "   6",
+        2
+      ],
+      " ",
+      [
+        "   6",
+        3
+      ],
+      ": export const cacheWindow6 = 6;"
+    ],
+    [
+      "   ",
+      [
+        "   7",
+        2
+      ],
+      " ",
+      [
+        "   7",
+        3
+      ],
+      ": export const cacheWindow7 = 7;"
+    ],
+    [
+      "       ..."
+    ],
+    [
+      "   ",
+      [
+        "  27",
+        2
+      ],
+      " ",
+      [
+        "  27",
+        3
+      ],
+      ": export const cacheWindow27 = 27;"
+    ],
+    [
+      "   ",
+      [
+        "  28",
+        2
+      ],
+      " ",
+      [
+        "  28",
+        3
+      ],
+      ": export const cacheWindow28 = 28;"
+    ],
+    [
+      "   ",
+      [
+        "  29",
+        2
+      ],
+      " ",
+      [
+        "  29",
+        3
+      ],
+      ": export const cacheWindow29 = 29;"
+    ],
+    [
+      "   ",
+      [
+        "  30",
+        6
+      ],
+      "     : ",
+      [
+        "export const ",
+        6
+      ],
+      [
+        "cacheWindow30",
+        7
+      ],
+      [
+        " = ",
+        6
+      ],
+      [
+        "30",
+        7
+      ],
+      [
+        ";",
+        6
+      ]
+    ],
+    [
+      "        ",
+      [
+        "  30",
+        4
+      ],
+      ": ",
+      [
+        "export const ",
+        4
+      ],
+      [
+        "cacheLimit",
+        5
+      ],
+      [
+        " = ",
+        4
+      ],
+      [
+        "256",
+        5
+      ],
+      [
+        ";",
+        4
+      ],
+      [
+        " // Bound memory usage.",
+        5
+      ]
+    ],
+    [
+      "   ",
+      [
+        "  31",
+        2
+      ],
+      " ",
+      [
+        "  31",
+        3
+      ],
+      ": export const cacheWindow31 = 31;"
+    ],
+    [
+      "   ",
+      [
+        "  32",
+        2
+      ],
+      " ",
+      [
+        "  32",
+        3
+      ],
+      ": export const cacheWindow32 = 32;"
+    ],
+    [
+      "   ",
+      [
+        "  33",
+        2
+      ],
+      " ",
+      [
+        "  33",
+        3
+      ],
+      ": export const cacheWindow33 = 33;"
+    ],
+    [
+      "       ..."
+    ],
+    [],
+    [],
+    [],
+    [
+      "/cache  1/19  n next  N previous"
+    ]
+  ],
+  "scrollback": []
+}

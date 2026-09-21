@@ -1,0 +1,175 @@
+[
+  {
+    "checkpoint": "manual-command-restrictions-bookmark-blocked",
+    "viewport_text": "jk jj\n\u203a  @  xuxnqppm alex@example.invalid 2026-01-01 12:00:00 demo 1d7f5db5\n\u00b7  \u2502  Review cache publication\n   \u25cb  kspsvwkk demo@example.invalid 2026-01-01 12:00:00 review-keep stable-a stable-b stable-c 7084ee8c\n   \u2502  Prepare remote workflow\n   \u25c6  zzzzzzzz root() 00000000\n\n\n\n\n\n\n\n\n\n\n       jj command\n\n       : bookmark create review-topic\n       error: bookmark changes are unavailable in command mode; use the bookmark view's B action\n\n       enter run   Ctrl-u clear   backspace edit   esc cancel\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#52aa60",
+        "bold": true
+      },
+      {
+        "fg": "#d58bf0",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152",
+        "bold": true
+      },
+      {
+        "fg": "#ad9b49",
+        "bold": true
+      },
+      {
+        "fg": "#52c4c0",
+        "bold": true
+      },
+      {
+        "fg": "#76a8f2",
+        "bold": true
+      },
+      {
+        "fg": "#487fd4",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152"
+      },
+      {
+        "fg": "#ad9b49"
+      },
+      {
+        "fg": "#269d9a"
+      },
+      {
+        "fg": "#af5bd1"
+      },
+      {
+        "fg": "#af5bd1",
+        "bold": true
+      },
+      {
+        "fg": "#52aa60"
+      },
+      {
+        "fg": "#e0e6ee",
+        "bg": "#242c3a"
+      },
+      {
+        "fg": "#65d4cf",
+        "bg": "#242c3a",
+        "bold": true
+      },
+      {
+        "fg": "#ff8782",
+        "bg": "#242c3a"
+      }
+    ],
+    "size": [
+      104,
+      39
+    ]
+  },
+  {
+    "checkpoint": "manual-command-restrictions-push-blocked",
+    "viewport_text": "jk jj\n\u203a  @  xuxnqppm alex@example.invalid 2026-01-01 12:00:00 demo 1d7f5db5\n\u00b7  \u2502  Review cache publication\n   \u25cb  kspsvwkk demo@example.invalid 2026-01-01 12:00:00 review-keep stable-a stable-b stable-c 7084ee8c\n   \u2502  Prepare remote workflow\n   \u25c6  zzzzzzzz root() 00000000\n\n\n\n\n\n\n\n\n\n  jj command\n\n  : git push --dry-run\n  error: git push is unavailable in command mode, including --dry-run; use the bookmark view's P\n  action\n\n  enter run   Ctrl-u clear   backspace edit   esc cancel\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#52aa60",
+        "bold": true
+      },
+      {
+        "fg": "#d58bf0",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152",
+        "bold": true
+      },
+      {
+        "fg": "#ad9b49",
+        "bold": true
+      },
+      {
+        "fg": "#52c4c0",
+        "bold": true
+      },
+      {
+        "fg": "#76a8f2",
+        "bold": true
+      },
+      {
+        "fg": "#487fd4",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152"
+      },
+      {
+        "fg": "#ad9b49"
+      },
+      {
+        "fg": "#269d9a"
+      },
+      {
+        "fg": "#af5bd1"
+      },
+      {
+        "fg": "#af5bd1",
+        "bold": true
+      },
+      {
+        "fg": "#52aa60"
+      },
+      {
+        "fg": "#e0e6ee",
+        "bg": "#242c3a"
+      },
+      {
+        "fg": "#65d4cf",
+        "bg": "#242c3a",
+        "bold": true
+      },
+      {
+        "fg": "#ff8782",
+        "bg": "#242c3a"
+      }
+    ],
+    "size": [
+      104,
+      39
+    ]
+  },
+  {
+    "checkpoint": "manual-command-restrictions-native-path",
+    "viewport_text": "jk jj bookmark list\n\u203a  demo: 1d7f5db52643 (local)\n   review-keep: 7084ee8c29aa (local)\n   stable-a: 7084ee8c29aa (local)\n   stable-b: 7084ee8c29aa (local)\n   stable-c: 7084ee8c29aa (local)\n\n\n\n\n\n\n\n\n\n              jj git fetch\n\n              Command\n              jj --no-pager --color never --repository\n              /home/runner/work/jk/jk/target/dogfood-artifacts/fixtures/refs.kCTcqM/client\n              git fetch --remote 'exact:\"fixture\"'\n\n\n              enter run  y copy  esc cancel\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#e0e6ee",
+        "bg": "#242c3a"
+      },
+      {
+        "fg": "#65d4cf",
+        "bg": "#242c3a",
+        "bold": true
+      },
+      {
+        "fg": "#e0e6ee",
+        "bg": "#242c3a",
+        "bold": true
+      }
+    ],
+    "size": [
+      104,
+      39
+    ]
+  }
+]

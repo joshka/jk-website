@@ -1,0 +1,20 @@
+{
+  "scenario": "manual-dialog-light",
+  "stage": "manual-dialog-light",
+  "status": "passed",
+  "repository": "/home/runner/work/jk/jk/target/forecast-demo.fy8ZWx",
+  "assertions": [
+    {
+      "name": "working-copy commit unchanged",
+      "passed": true,
+      "actual": "1e82dd4731242e178bef442edfc41c3d28554e22",
+      "expected": "1e82dd4731242e178bef442edfc41c3d28554e22"
+    },
+    {
+      "name": "visible repository graph unchanged",
+      "passed": true,
+      "actual": "0000000000000000000000000000000000000000\n1e82dd4731242e178bef442edfc41c3d28554e22\n30c8b116c10116b027b343080f470eca3e32e19e\n618b7d66137476282cbdddf2dd26efffe486d567\n94d947b3276f301739e38c951ac728d6bf36ca21",
+      "expected": "0000000000000000000000000000000000000000\n1e82dd4731242e178bef442edfc41c3d28554e22\n30c8b116c10116b027b343080f470eca3e32e19e\n618b7d66137476282cbdddf2dd26efffe486d567\n94d947b3276f301739e38c951ac728d6bf36ca21"
+    }
+  ]
+}

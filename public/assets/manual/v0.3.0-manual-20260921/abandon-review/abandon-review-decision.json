@@ -1,0 +1,510 @@
+{
+  "size": [
+    104,
+    39
+  ],
+  "total_rows": 39,
+  "scrollback_rows": 0,
+  "cursor": {
+    "x": 86,
+    "y": 29,
+    "visible": false
+  },
+  "default_style": {
+    "fg": "#b4bcca",
+    "bg": "#0f141f"
+  },
+  "styles": [
+    {
+      "bold": true
+    },
+    {
+      "fg": "#52aa60",
+      "bold": true
+    },
+    {
+      "fg": "#d58bf0",
+      "bold": true
+    },
+    {
+      "fg": "#3a4152",
+      "bold": true
+    },
+    {
+      "fg": "#ad9b49",
+      "bold": true
+    },
+    {
+      "fg": "#52c4c0",
+      "bold": true
+    },
+    {
+      "fg": "#76a8f2",
+      "bold": true
+    },
+    {
+      "fg": "#487fd4",
+      "bold": true
+    },
+    {
+      "fg": "#3a4152"
+    },
+    {
+      "fg": "#ad9b49"
+    },
+    {
+      "fg": "#269d9a"
+    },
+    {
+      "fg": "#af5bd1",
+      "bold": true
+    },
+    {
+      "fg": "#e0e6ee",
+      "bg": "#242c3a"
+    },
+    {
+      "fg": "#65d4cf",
+      "bg": "#242c3a",
+      "bold": true
+    },
+    {
+      "fg": "#e0e6ee",
+      "bg": "#242c3a",
+      "bold": true
+    },
+    {
+      "fg": "#52aa60"
+    },
+    {
+      "fg": "#c26265",
+      "bg": "#242c3a"
+    },
+    {
+      "fg": "#52aa60",
+      "bg": "#242c3a"
+    },
+    {
+      "fg": "#eab855",
+      "bg": "#242c3a"
+    },
+    {
+      "fg": "#a1aebe",
+      "bg": "#242c3a"
+    },
+    {
+      "fg": "#e0e6ee",
+      "bg": "#3a485a"
+    },
+    {
+      "fg": "#0f1d23",
+      "bg": "#52c4c0",
+      "bold": true
+    },
+    {
+      "fg": "#ffebeb",
+      "bg": "#782d32"
+    }
+  ],
+  "viewport_text": "jk jj\n   @  wnpknrpx demo@example.invalid 2026-01-01 12:00:00 3a3ef9e7\n   │  Document cache metrics\n   ○  kuyrlyoz demo@example.invalid 2026-01-01 12:00:00 f5422ec2\n   │  Add cache metrics\n›  ○  qsnqxlpq demo@example.invalid 2026-01-01 12:00:00 67e96905\n·  │  Tune forecast caching\n   ○  wsvsvmyk demo@example.invalid 2026-01-01 12:00:00 59c895e3\n   │  Configure re   Abandon this change?\n   ○  wtuuzyss dem\n   │  Add the fore   qsnqxlpq  Tune forecast caching\n   ○  ynzzxuyy ale\n   │  Document the   Changes to abandon (3 files):\n   ◆  zzzzzzzz roo\n                     D  README.md                                           +0 −3\n                     M  config.json                                         +1 −1\n                     A  src/cache.js                                        +5 −0\n\n                     Abandon removes this change and its edits from history.\n                     2 descendant changes will be rebased onto its parents.\n                     Recover with Undo in the action menu.\n\n\n                         View diff        > Cancel <        Abandon change\n\n\n                     Tab/←/→ choose · Enter/Space select\n                     y abandon · n/Esc cancel\n",
+  "scrollback_text": "",
+  "viewport": [
+    [
+      "jk ",
+      [
+        "jj",
+        0
+      ]
+    ],
+    [
+      "   ",
+      [
+        "@",
+        1
+      ],
+      "  ",
+      [
+        "wn",
+        2
+      ],
+      [
+        "pknrpx",
+        3
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "demo@example.invalid",
+        4
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "2026-01-01 12:00:00",
+        5
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "3",
+        6
+      ],
+      [
+        "a3ef9e7",
+        3
+      ]
+    ],
+    [
+      "   │  ",
+      [
+        "Document cache metrics",
+        0
+      ]
+    ],
+    [
+      "   ○  ",
+      [
+        "k",
+        7
+      ],
+      [
+        "uyrlyoz",
+        8
+      ],
+      " ",
+      [
+        "demo@example.invalid",
+        9
+      ],
+      " ",
+      [
+        "2026-01-01 12:00:00",
+        10
+      ],
+      " ",
+      [
+        "f",
+        11
+      ],
+      [
+        "5422ec2",
+        8
+      ]
+    ],
+    [
+      "   │  Add cache metrics"
+    ],
+    [
+      [
+        "›",
+        0
+      ],
+      "  ○  ",
+      [
+        "q",
+        7
+      ],
+      [
+        "snqxlpq",
+        8
+      ],
+      " ",
+      [
+        "demo@example.invalid",
+        9
+      ],
+      " ",
+      [
+        "2026-01-01 12:00:00",
+        10
+      ],
+      " ",
+      [
+        "6",
+        11
+      ],
+      [
+        "7e96905",
+        8
+      ]
+    ],
+    [
+      [
+        "·",
+        0
+      ],
+      "  │  Tune forecast caching"
+    ],
+    [
+      "   ○  ",
+      [
+        "ws",
+        7
+      ],
+      [
+        "vsvmyk",
+        8
+      ],
+      " ",
+      [
+        "demo@example.invalid",
+        9
+      ],
+      " ",
+      [
+        "2026-01-01 12:00:00",
+        10
+      ],
+      " ",
+      [
+        "5",
+        11
+      ],
+      [
+        "9c895e3",
+        8
+      ]
+    ],
+    [
+      "   │  Configure re",
+      [
+        "   ",
+        12
+      ],
+      [
+        "Abandon this change?",
+        13
+      ]
+    ],
+    [
+      "   ○  ",
+      [
+        "wt",
+        7
+      ],
+      [
+        "uuzyss",
+        8
+      ],
+      " ",
+      [
+        "dem",
+        9
+      ]
+    ],
+    [
+      "   │  Add the fore",
+      [
+        "   ",
+        12
+      ],
+      [
+        "qsnqxlpq  Tune forecast caching",
+        14
+      ]
+    ],
+    [
+      "   ○  ",
+      [
+        "y",
+        7
+      ],
+      [
+        "nzzxuyy",
+        8
+      ],
+      " ",
+      [
+        "ale",
+        9
+      ]
+    ],
+    [
+      "   │  Document the",
+      [
+        "   ",
+        12
+      ],
+      [
+        "Changes to abandon (3 files):",
+        14
+      ]
+    ],
+    [
+      "   ",
+      [
+        "◆",
+        5
+      ],
+      "  ",
+      [
+        "z",
+        7
+      ],
+      [
+        "zzzzzzz",
+        8
+      ],
+      " ",
+      [
+        "roo",
+        15
+      ]
+    ],
+    [
+      "                  ",
+      [
+        "   ",
+        12
+      ],
+      [
+        "D  ",
+        16
+      ],
+      [
+        "README.md                                           ",
+        12
+      ],
+      [
+        "+0",
+        17
+      ],
+      [
+        " −3",
+        16
+      ]
+    ],
+    [
+      "                  ",
+      [
+        "   ",
+        12
+      ],
+      [
+        "M  ",
+        18
+      ],
+      [
+        "config.json                                         ",
+        12
+      ],
+      [
+        "+1",
+        17
+      ],
+      [
+        " −1",
+        16
+      ]
+    ],
+    [
+      "                  ",
+      [
+        "   ",
+        12
+      ],
+      [
+        "A  ",
+        17
+      ],
+      [
+        "src/cache.js                                        ",
+        12
+      ],
+      [
+        "+5",
+        17
+      ],
+      [
+        " −0",
+        16
+      ]
+    ],
+    [],
+    [
+      "                  ",
+      [
+        "   Abandon removes this change and its edits from history.",
+        12
+      ]
+    ],
+    [
+      "                  ",
+      [
+        "   2 descendant changes will be rebased onto its parents.",
+        12
+      ]
+    ],
+    [
+      "                  ",
+      [
+        "   ",
+        12
+      ],
+      [
+        "Recover with Undo in the action menu.",
+        19
+      ]
+    ],
+    [],
+    [],
+    [
+      "                  ",
+      [
+        "   ",
+        12
+      ],
+      [
+        "    View diff    ",
+        20
+      ],
+      [
+        "  ",
+        12
+      ],
+      [
+        "  > Cancel <  ",
+        21
+      ],
+      [
+        "  ",
+        12
+      ],
+      [
+        "    Abandon change",
+        22
+      ]
+    ],
+    [],
+    [],
+    [
+      "                  ",
+      [
+        "   ",
+        12
+      ],
+      [
+        "Tab/←/→ choose · Enter/Space select",
+        19
+      ]
+    ],
+    [
+      "                  ",
+      [
+        "   ",
+        12
+      ],
+      [
+        "y abandon · n/Esc cancel",
+        19
+      ]
+    ]
+  ],
+  "scrollback": []
+}

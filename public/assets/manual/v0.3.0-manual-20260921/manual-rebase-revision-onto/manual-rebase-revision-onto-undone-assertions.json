@@ -1,0 +1,20 @@
+{
+  "scenario": "manual-rebase-revision-onto",
+  "stage": "manual-rebase-revision-onto-undone",
+  "status": "passed",
+  "repository": "/home/runner/work/jk/jk/target/manual-fixtures/rebase.rTd6aZ/workflows.8iwzQO/rebase",
+  "assertions": [
+    {
+      "name": "working-copy commit unchanged",
+      "passed": true,
+      "actual": "18d93b55b315788ab5ab40af25bb4794e518980d",
+      "expected": "18d93b55b315788ab5ab40af25bb4794e518980d"
+    },
+    {
+      "name": "visible repository graph unchanged",
+      "passed": true,
+      "actual": "0000000000000000000000000000000000000000\n0dfcc0b52bbe94c5eb2f3ccb22f97c8400a3aae5\n18d93b55b315788ab5ab40af25bb4794e518980d\n6fad114d7626e9678f38cb2157d805097ac8417d\n81f605621079f589548ef65ad9d7894f942f86fe\ndbc4d8076e868582a06a523b59c94b28c98638c6",
+      "expected": "0000000000000000000000000000000000000000\n0dfcc0b52bbe94c5eb2f3ccb22f97c8400a3aae5\n18d93b55b315788ab5ab40af25bb4794e518980d\n6fad114d7626e9678f38cb2157d805097ac8417d\n81f605621079f589548ef65ad9d7894f942f86fe\ndbc4d8076e868582a06a523b59c94b28c98638c6"
+    }
+  ]
+}

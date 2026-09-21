@@ -1,0 +1,20 @@
+{
+  "scenario": "inspect-history",
+  "stage": "inspection",
+  "status": "passed",
+  "repository": "/home/runner/work/jk/jk/target/manual-fixtures/inspection.bFTcm2/repo",
+  "assertions": [
+    {
+      "name": "working-copy commit unchanged",
+      "passed": true,
+      "actual": "068eab961d8c7975a5523e60869e99f89f489ed9",
+      "expected": "068eab961d8c7975a5523e60869e99f89f489ed9"
+    },
+    {
+      "name": "visible repository graph unchanged",
+      "passed": true,
+      "actual": "0000000000000000000000000000000000000000\n068eab961d8c7975a5523e60869e99f89f489ed9\nc6fbc51f88ccdbc2cf54d5dfdec83d88b4d37418\ne1e0c0de1342c631a0f86e059735015be76e60ec\nf621f4363bc91b32111c5763536556bddfdb4fac",
+      "expected": "0000000000000000000000000000000000000000\n068eab961d8c7975a5523e60869e99f89f489ed9\nc6fbc51f88ccdbc2cf54d5dfdec83d88b4d37418\ne1e0c0de1342c631a0f86e059735015be76e60ec\nf621f4363bc91b32111c5763536556bddfdb4fac"
+    }
+  ]
+}

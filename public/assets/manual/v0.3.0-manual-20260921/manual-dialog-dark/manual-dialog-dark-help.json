@@ -1,0 +1,487 @@
+{
+  "size": [
+    67,
+    39
+  ],
+  "total_rows": 39,
+  "scrollback_rows": 0,
+  "cursor": {
+    "x": 65,
+    "y": 38,
+    "visible": false
+  },
+  "default_style": {
+    "fg": "#b4bcca",
+    "bg": "#0f141f"
+  },
+  "styles": [
+    {
+      "bold": true
+    },
+    {
+      "fg": "#52aa60",
+      "bold": true
+    },
+    {
+      "fg": "#d58bf0",
+      "bold": true
+    },
+    {
+      "fg": "#3a4152",
+      "bold": true
+    },
+    {
+      "fg": "#ad9b49",
+      "bold": true
+    },
+    {
+      "fg": "#52c4c0",
+      "bold": true
+    },
+    {
+      "fg": "#76a8f2",
+      "bold": true
+    },
+    {
+      "fg": "#487fd4",
+      "bold": true
+    },
+    {
+      "fg": "#3a4152"
+    },
+    {
+      "fg": "#ad9b49"
+    },
+    {
+      "fg": "#269d9a"
+    },
+    {
+      "fg": "#af5bd1",
+      "bold": true
+    },
+    {
+      "fg": "#52aa60"
+    },
+    {
+      "fg": "#e0e6ee",
+      "bg": "#242c3a"
+    },
+    {
+      "fg": "#65d4cf",
+      "bg": "#242c3a",
+      "bold": true
+    },
+    {
+      "fg": "#e0e6ee",
+      "bg": "#242c3a",
+      "bold": true
+    }
+  ],
+  "viewport_text": "jk jj\n›  @  nzrrquty demo@example.invalid 2026-01-01 12:00:00 22340ee9\n·  │  Experiment with forecast caching\n   ○  mmqyqqtq demo@example.invalid 2026-01-01 12:00:00 f67b5b78\n   │  Configure request timeouts\n   ○  oxmzsxts demo@example.invalid 2026-01-01 12:00:00 92b946db\n   │  Add the forecast endpoint\n   ○  xswpoqkn alex@example.com 2026-01-01 12:00:00 3de7c15b\n   │  Document the forecast service\n   ◆  zzzzzzzz root() 00000000\n\n               Help\n\n               Open and inspect:\n                 enter         jj show\n                 d             jj diff\n                 v             jj evolog\n                 s             jj status\n                 V             View options\n                 H / L         jj log\n               Move and find:\n                 ↑/↓, j/k      Move selection\n                 Ctrl-j/k      Scroll line\n                 PgDn, Ctrl-f  Page down\n                 PgUp, Ctrl-b  Page up\n               showing lines 1-12 of 38  more below\n                 j/k scroll\n",
+  "scrollback_text": "",
+  "viewport": [
+    [
+      "jk ",
+      [
+        "jj",
+        0
+      ]
+    ],
+    [
+      [
+        "›",
+        0
+      ],
+      "  ",
+      [
+        "@",
+        1
+      ],
+      "  ",
+      [
+        "n",
+        2
+      ],
+      [
+        "zrrquty",
+        3
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "demo@example.invalid",
+        4
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "2026-01-01 12:00:00",
+        5
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "2",
+        6
+      ],
+      [
+        "2340ee9",
+        3
+      ]
+    ],
+    [
+      [
+        "·",
+        0
+      ],
+      "  │  ",
+      [
+        "Experiment with forecast caching",
+        0
+      ]
+    ],
+    [
+      "   ○  ",
+      [
+        "m",
+        7
+      ],
+      [
+        "mqyqqtq",
+        8
+      ],
+      " ",
+      [
+        "demo@example.invalid",
+        9
+      ],
+      " ",
+      [
+        "2026-01-01 12:00:00",
+        10
+      ],
+      " ",
+      [
+        "f",
+        11
+      ],
+      [
+        "67b5b78",
+        8
+      ]
+    ],
+    [
+      "   │  Configure request timeouts"
+    ],
+    [
+      "   ○  ",
+      [
+        "o",
+        7
+      ],
+      [
+        "xmzsxts",
+        8
+      ],
+      " ",
+      [
+        "demo@example.invalid",
+        9
+      ],
+      " ",
+      [
+        "2026-01-01 12:00:00",
+        10
+      ],
+      " ",
+      [
+        "9",
+        11
+      ],
+      [
+        "2b946db",
+        8
+      ]
+    ],
+    [
+      "   │  Add the forecast endpoint"
+    ],
+    [
+      "   ○  ",
+      [
+        "x",
+        7
+      ],
+      [
+        "swpoqkn",
+        8
+      ],
+      " ",
+      [
+        "alex@example.com",
+        9
+      ],
+      " ",
+      [
+        "2026-01-01 12:00:00",
+        10
+      ],
+      " ",
+      [
+        "3",
+        11
+      ],
+      [
+        "de7c15b",
+        8
+      ]
+    ],
+    [
+      "   │  Document the forecast service"
+    ],
+    [
+      "   ",
+      [
+        "◆",
+        5
+      ],
+      "  ",
+      [
+        "z",
+        7
+      ],
+      [
+        "zzzzzzz",
+        8
+      ],
+      " ",
+      [
+        "root()",
+        12
+      ],
+      " ",
+      [
+        "0",
+        11
+      ],
+      [
+        "0000000",
+        8
+      ]
+    ],
+    [],
+    [
+      "             ",
+      [
+        "  ",
+        13
+      ],
+      [
+        "Help",
+        14
+      ]
+    ],
+    [],
+    [
+      "             ",
+      [
+        "  ",
+        13
+      ],
+      [
+        "Open and inspect:",
+        15
+      ]
+    ],
+    [
+      "             ",
+      [
+        "    ",
+        13
+      ],
+      [
+        "enter",
+        14
+      ],
+      [
+        "         jj show",
+        13
+      ]
+    ],
+    [
+      "             ",
+      [
+        "    ",
+        13
+      ],
+      [
+        "d",
+        14
+      ],
+      [
+        "             jj diff",
+        13
+      ]
+    ],
+    [
+      "             ",
+      [
+        "    ",
+        13
+      ],
+      [
+        "v",
+        14
+      ],
+      [
+        "             jj evolog",
+        13
+      ]
+    ],
+    [
+      "             ",
+      [
+        "    ",
+        13
+      ],
+      [
+        "s",
+        14
+      ],
+      [
+        "             jj status",
+        13
+      ]
+    ],
+    [
+      "             ",
+      [
+        "    ",
+        13
+      ],
+      [
+        "V",
+        14
+      ],
+      [
+        "             View options",
+        13
+      ]
+    ],
+    [
+      "             ",
+      [
+        "    ",
+        13
+      ],
+      [
+        "H / L",
+        14
+      ],
+      [
+        "         jj log",
+        13
+      ]
+    ],
+    [
+      "             ",
+      [
+        "  ",
+        13
+      ],
+      [
+        "Move and find:",
+        15
+      ]
+    ],
+    [
+      "             ",
+      [
+        "    ",
+        13
+      ],
+      [
+        "↑/↓, j/k",
+        14
+      ],
+      [
+        "      Move selection",
+        13
+      ]
+    ],
+    [
+      "             ",
+      [
+        "    ",
+        13
+      ],
+      [
+        "Ctrl-j/k",
+        14
+      ],
+      [
+        "      Scroll line",
+        13
+      ]
+    ],
+    [
+      "             ",
+      [
+        "    ",
+        13
+      ],
+      [
+        "PgDn, Ctrl-f",
+        14
+      ],
+      [
+        "  Page down",
+        13
+      ]
+    ],
+    [
+      "             ",
+      [
+        "    ",
+        13
+      ],
+      [
+        "PgUp, Ctrl-b",
+        14
+      ],
+      [
+        "  Page up",
+        13
+      ]
+    ],
+    [
+      "             ",
+      [
+        "  ",
+        13
+      ],
+      [
+        "showing lines 1-12 of 38",
+        14
+      ],
+      [
+        "  more below",
+        13
+      ]
+    ],
+    [
+      "             ",
+      [
+        "    j/k scroll",
+        13
+      ]
+    ]
+  ],
+  "scrollback": []
+}

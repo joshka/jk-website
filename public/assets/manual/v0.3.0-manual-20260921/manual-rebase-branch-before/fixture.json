@@ -1,0 +1,8 @@
+{
+  "repository": "/home/runner/work/jk/jk/target/manual-fixtures/rebase.wTKGIv/workflows.0GMV8r/rebase",
+  "kind": "rebase",
+  "initial_commit": "377ef32b46a16591bb4fac524b1971477f9f0a6a",
+  "initial_operation": "77999315087ae29a93f4158426117d9208fe9f0da8060f940f9973ce5f87239cf996aa119bad33ff0ee323475b4b250f20e517813b70d3195f5b19c0b8243227",
+  "binary": "/home/runner/work/jk/jk/target/manual-build/jk",
+  "isolated_jj_config": "/dev/null"
+}

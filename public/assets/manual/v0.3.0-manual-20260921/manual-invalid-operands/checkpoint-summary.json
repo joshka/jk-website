@@ -1,0 +1,173 @@
+[
+  {
+    "checkpoint": "manual-invalid-operands-rebase",
+    "viewport_text": "jk jj\n * @  vumxryqq demo@example.invalid 2026-01-01 12:00:00 5531bbe8\n   \u2502  Rebase source\n\u203a* \u2502 \u25cb  ttwltuyw demo@example.invalid 2026-01-01 12:00:00 59bb7820\n   \u251c\u2500\u256f  Rebase destination\n   \u25cb  qqwoxool demo@example.invalid 2026-01-01 12:00:00 3f7e45c7\n   \u2502  Rebase base\n   \u25c6  zzzzzzzz root() 00000000\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmark 2/2  Rebase source is ambiguous:\u2026  ? help  H home  L log  r refresh  enter open  d diff  ...  q qu\u2026\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#52aa60",
+        "bold": true
+      },
+      {
+        "fg": "#d58bf0",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152",
+        "bold": true
+      },
+      {
+        "fg": "#ad9b49",
+        "bold": true
+      },
+      {
+        "fg": "#52c4c0",
+        "bold": true
+      },
+      {
+        "fg": "#76a8f2",
+        "bold": true
+      },
+      {
+        "fg": "#487fd4",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152"
+      },
+      {
+        "fg": "#ad9b49"
+      },
+      {
+        "fg": "#269d9a"
+      },
+      {
+        "fg": "#af5bd1",
+        "bold": true
+      },
+      {
+        "fg": "#52aa60"
+      }
+    ],
+    "size": [
+      104,
+      39
+    ]
+  },
+  {
+    "checkpoint": "manual-invalid-operands-restore",
+    "viewport_text": "jk jj\n * @  vumxryqq demo@example.invalid 2026-01-01 12:00:00 5531bbe8\n   \u2502  Rebase source\n\u203a* \u2502 \u25cb  ttwltuyw demo@example.invalid 2026-01-01 12:00:00 59bb7820\n   \u251c\u2500\u256f  Rebase destination\n   \u25cb  qqwoxool demo@example.invalid 2026-01-01 12:00:00 3f7e45c7\n   \u2502  Rebase base\n   \u25c6  zzzzzzzz root() 00000000\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmark 2/2  Restore needs one source re\u2026  ? help  H home  L log  r refresh  enter open  d diff  ...  q qu\u2026\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#52aa60",
+        "bold": true
+      },
+      {
+        "fg": "#d58bf0",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152",
+        "bold": true
+      },
+      {
+        "fg": "#ad9b49",
+        "bold": true
+      },
+      {
+        "fg": "#52c4c0",
+        "bold": true
+      },
+      {
+        "fg": "#76a8f2",
+        "bold": true
+      },
+      {
+        "fg": "#487fd4",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152"
+      },
+      {
+        "fg": "#ad9b49"
+      },
+      {
+        "fg": "#269d9a"
+      },
+      {
+        "fg": "#af5bd1",
+        "bold": true
+      },
+      {
+        "fg": "#52aa60"
+      }
+    ],
+    "size": [
+      104,
+      39
+    ]
+  },
+  {
+    "checkpoint": "manual-invalid-operands-squash",
+    "viewport_text": "jk jj\n   @  vumxryqq demo@example.invalid 2026-01-01 12:00:00 5531bbe8\n   \u2502  Rebase source\n\u203a  \u2502 \u25cb  ttwltuyw demo@example.invalid 2026-01-01 12:00:00 59bb7820\n   \u251c\u2500\u256f  Rebase destination\n   \u25cb  qqwoxool demo@example.invalid 2026-01-01 12:00:00 3f7e45c7\n   \u2502  Rebase base\n   \u25c6  zzzzzzzz root() 00000000\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMark at least one source re\u2026  ? help  H home  L log  r refresh  enter open  d diff  ...  q quit\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#52aa60",
+        "bold": true
+      },
+      {
+        "fg": "#d58bf0",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152",
+        "bold": true
+      },
+      {
+        "fg": "#ad9b49",
+        "bold": true
+      },
+      {
+        "fg": "#52c4c0",
+        "bold": true
+      },
+      {
+        "fg": "#76a8f2",
+        "bold": true
+      },
+      {
+        "fg": "#487fd4",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152"
+      },
+      {
+        "fg": "#ad9b49"
+      },
+      {
+        "fg": "#269d9a"
+      },
+      {
+        "fg": "#af5bd1",
+        "bold": true
+      },
+      {
+        "fg": "#52aa60"
+      }
+    ],
+    "size": [
+      104,
+      39
+    ]
+  }
+]

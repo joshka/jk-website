@@ -1,0 +1,8 @@
+{
+  "repository": "/home/runner/work/jk/jk/target/manual-fixtures/workspaces.zmNul7/workflows.4NDboK/workspaces/repo",
+  "kind": "workspaces",
+  "initial_commit": "9dc5e73064cb0d142f6fb5c81778f66c101a3c83",
+  "initial_operation": "7a262f73704d1bddd5bfe7824f5ef0f2eb2d17c65a8009f032e47e9bc0564cae3121a85bfa7111234a6a2d3e3b7e128e772148f831d6cd9da76e60af322e3336",
+  "binary": "/home/runner/work/jk/jk/target/manual-build/jk",
+  "isolated_jj_config": "/dev/null"
+}

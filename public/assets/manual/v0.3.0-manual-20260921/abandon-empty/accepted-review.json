@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "source_index": "manual/v0.3.0-manual-20260921/review-index.json",
+  "source_index_sha256": "17efd1f5f9a9c80791c6764f7972f466b4b29257831f2719b0c66b74b784fc16",
+  "review": {
+    "id": "abandon-empty",
+    "title": "Remove an empty change and recover it",
+    "status": "ready",
+    "source_tape": "tapes/manual/changes/abandon-empty.tape",
+    "source_tape_sha256": "6a741b10ab5e8f820283d36707ebcf8cd8a6d8e808cb30804d344475f2b830d7",
+    "website": {
+      "path": "assets/manual/v0.3.0-manual-20260921/abandon-empty"
+    },
+    "problems": [],
+    "checkpoints": [
+      {
+        "id": "abandon-empty-action",
+        "png": "abandon-empty-action.png",
+        "state": "abandon-empty-action.json",
+        "png_sha256": "cc78594a9c6a273d5c31571da76b1bf56c0acd91fb860a43b2ef42486b44d2b6",
+        "state_sha256": "67108dc7c08a6a82df08abac2ff2251e502b1fce887e1513cf8390f940405c73",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "ux_audit",
+          "reviewed_at": "2026-09-21T03:18:48.159157+00:00",
+          "summary": "Opaque action menu on populated graph names checks-first abandon and immediate new/edit/recovery actions. Caption accurately says empty abandon runs immediately.",
+          "findings": [
+            "UX-06"
+          ]
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "ux_audit",
+          "reviewed_at": "2026-09-21T03:18:48.159157+00:00",
+          "summary": "16 styles; #242c3a panel/#65d4cf key accents, empty working copy distinction and full action safety text retained.",
+          "findings": [
+            "UX-06"
+          ]
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/ux-audit-ci35556462468.json",
+        "text_style_review_source": "target/manual-recordings/reviews/ux-audit-ci35556462468.json"
+      },
+      {
+        "id": "abandon-empty-replacement",
+        "png": "abandon-empty-replacement.png",
+        "state": "abandon-empty-replacement.json",
+        "png_sha256": "119a56019849063f8876bf98c73d1c33ad938ba6bf856839fd8a59662d35caba",
+        "state_sha256": "c543813e36e2bbfdbfafe40584d7c9e33564c385e82795dbf76a155ac3c56f3f",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "ux_audit",
+          "reviewed_at": "2026-09-21T03:18:48.159157+00:00",
+          "summary": "New empty working copy replaces named empty checkpoint; parent graph remains readable and caption explains replacement.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "ux_audit",
+          "reviewed_at": "2026-09-21T03:18:48.159157+00:00",
+          "summary": "14 styles; replacement ID differs while parent IDs remain; emptiness green and no-description text retained.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/ux-audit-ci35556462468.json",
+        "text_style_review_source": "target/manual-recordings/reviews/ux-audit-ci35556462468.json"
+      },
+      {
+        "id": "abandon-empty-undone",
+        "png": "abandon-empty-undone.png",
+        "state": "abandon-empty-undone.json",
+        "png_sha256": "0da1b457879102d9863df7afd67a5c5670ea80884b733ebd3d64c9183f863d66",
+        "state_sha256": "1612970bc033292fcb04644b835422823f8bf39ed9fc51082bcb61fb58b6cd12",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "ux_audit",
+          "reviewed_at": "2026-09-21T03:18:48.159157+00:00",
+          "summary": "Undo restores original named empty checkpoint and commit; complete graph and final caption visible.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "ux_audit",
+          "reviewed_at": "2026-09-21T03:18:48.159157+00:00",
+          "summary": "14 styles; original identity and description match assertions; jj green empty label preserved.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/ux-audit-ci35556462468.json",
+        "text_style_review_source": "target/manual-recordings/reviews/ux-audit-ci35556462468.json"
+      }
+    ],
+    "metadata_path": "target/manual-recordings/ci-35556462468/manual-evidence-abandon-empty/capture-metadata.json",
+    "metadata_sha256": "2a81aef968b61a32d366db1668b84cf6fa54df233a4a745d2824faedc61808c6",
+    "evidence_directory": "target/manual-recordings/ci-35556462468/manual-evidence-abandon-empty",
+    "evidence_status": "passed",
+    "source_commit": "770b8802a4fe3ef42e3b80160985bcbddc76b049",
+    "pr_head_commit": "088d04dbc19b5a2b81b674e8986f59e190128de1",
+    "source_manifest_sha256": "42c0d25b424a807906eb4e0ba7ca72b4c0488685e9f57b3bcf62d3f01c6c6915",
+    "source_matches_checkout": true,
+    "binary": {
+      "invoked_path": "/home/runner/work/jk/jk/target/manual-build/jk",
+      "path": "/home/runner/work/jk/jk/target/manual-build/jk",
+      "sha256": "cb41f94b63ec85100829bd2b1e9ced84f37cae912996a48e93b56b8776c9c5ed",
+      "version": "jk 0.3.0",
+      "version_exit_code": 0
+    },
+    "jj": {
+      "invoked_path": "/home/runner/.cargo/bin/jj",
+      "path": "/home/runner/.cargo/bin/jj",
+      "sha256": "cd5efc3eb281d606bf9b5523167f79661da0f8c76a5aa32d61c07c7a351b6b44",
+      "version": "jj 0.45.1-7c41cdeb16b6b321c64e789a966b6adf723816a5",
+      "version_exit_code": 0
+    },
+    "betamax": {
+      "invoked_path": "/home/runner/work/_temp/betamax-9xofIl/bin/betamax",
+      "path": "/home/runner/work/_temp/betamax-9xofIl/bin/betamax",
+      "sha256": "db55fa6e7ff98e1df3c91921b5b3fb504b3cc8fdaf6b07e3da952f8757053490",
+      "version": "betamax 0.1.21",
+      "version_exit_code": 0
+    },
+    "ci_run": {
+      "id": "35556462468",
+      "attempt": "1",
+      "url": "https://github.com/joshka/jk/actions/runs/35556462468"
+    },
+    "assertions": [
+      {
+        "path": "abandon-empty-replaced-assertions.json",
+        "sha256": "89008402327b4db1964092e1d40f405bd2edac72a8c7534e0e4c78f4539d82b7",
+        "bytes": 581
+      },
+      {
+        "path": "abandon-empty-undone-assertions.json",
+        "sha256": "bed98d12868df04774224e4eba9f33754f999368bd1560702c305f940e500cd2",
+        "bytes": 1015
+      }
+    ],
+    "video": {
+      "path": "abandon-empty.mp4",
+      "sha256": "7e46e03809665d3cf8fcecc326140cd3a797b6c9a618da895e68fe2700c496ec",
+      "bytes": 240173
+    },
+    "video_review": {
+      "status": "reviewed",
+      "reviewer": "ux_audit",
+      "reviewed_at": "2026-09-21T03:18:48.159157+00:00",
+      "sha256": "7e46e03809665d3cf8fcecc326140cd3a797b6c9a618da895e68fe2700c496ec",
+      "summary": "Inspected a 12-frame evenly spaced filmstrip spanning beginning and final hold, full-resolution checkpoint PNGs, ffprobe duration 19.733s, and source-tape 80ms typing with 2\u20133s teaching holds. Sampled frames show the actual decision, cancellation/success, and final recovery in sequence without exposed setup. This was sampled pacing review, not a continuous realtime watch.",
+      "findings": []
+    },
+    "source_snapshot_status": "preserved",
+    "video_review_source": "target/manual-recordings/reviews/ux-audit-ci35556462468.json",
+    "pixel_review_complete": true,
+    "text_style_review_complete": true,
+    "video_review_complete": true
+  }
+}

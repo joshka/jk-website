@@ -1,0 +1,8 @@
+{
+  "repository": "/home/runner/work/jk/jk/target/manual-fixtures/squash-multiple.7PW1Z9/workflows.pl823U/squash",
+  "kind": "squash-multiple",
+  "initial_commit": "009f2ef4df11a52d27e4bfe389a215e964b9988e",
+  "initial_operation": "19d8c134a589271e07542e02581d1ef2bec78eec8802ea5d5b0f3e6171eb064d8081955cbf295f9b0c942f2492cfdfae8a5d229c85153c67dd42dbdf8c1a5376",
+  "binary": "/home/runner/work/jk/jk/target/manual-build/jk",
+  "isolated_jj_config": "/dev/null"
+}

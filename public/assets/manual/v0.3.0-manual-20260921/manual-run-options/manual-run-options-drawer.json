@@ -1,0 +1,424 @@
+{
+  "size": [
+    104,
+    39
+  ],
+  "total_rows": 39,
+  "scrollback_rows": 0,
+  "cursor": {
+    "x": 93,
+    "y": 29,
+    "visible": false
+  },
+  "default_style": {
+    "fg": "#b4bcca",
+    "bg": "#0f141f"
+  },
+  "styles": [
+    {
+      "bold": true
+    },
+    {
+      "fg": "#52aa60",
+      "bold": true
+    },
+    {
+      "fg": "#d58bf0",
+      "bold": true
+    },
+    {
+      "fg": "#3a4152",
+      "bold": true
+    },
+    {
+      "fg": "#ad9b49",
+      "bold": true
+    },
+    {
+      "fg": "#52c4c0",
+      "bold": true
+    },
+    {
+      "fg": "#76a8f2",
+      "bold": true
+    },
+    {
+      "fg": "#487fd4",
+      "bold": true
+    },
+    {
+      "fg": "#3a4152"
+    },
+    {
+      "fg": "#ad9b49"
+    },
+    {
+      "fg": "#269d9a"
+    },
+    {
+      "fg": "#af5bd1",
+      "bold": true
+    },
+    {
+      "fg": "#52aa60"
+    },
+    {
+      "fg": "#e0e6ee",
+      "bg": "#242c3a"
+    },
+    {
+      "fg": "#65d4cf",
+      "bg": "#242c3a",
+      "bold": true
+    },
+    {
+      "fg": "#a1aebe",
+      "bg": "#242c3a"
+    }
+  ],
+  "viewport_text": "jk jj\n * @  ntlmwnry demo@example.invalid 2026-01-01 12:00:00 9d92e920\n   │  Rebase source\n›  │ ○  wltpzlrz demo@example.invalid 2026-01-01 12:00:00 f62c75b7\n   ├─╯  Rebase destination\n   ○  zlqwtkol demo@example.invalid 2026-01-01 12:00:00 22e435b3\n   │  Rebase base\n   ◆  zzzzzzzz root() 00000000\n            Run options · this command only\n\n            › Working copy      snapshot/update\n              Operation         latest\n              Immutable commits protected\n\n            Ignore skips both snapshotting and updating working-copy files.\n\n            Repository:\n            /home/runner/work/jk/jk/target/manual-fixtures/run-options.meOf38/workflows.TbAz\n            6t/rebase\n            Fixed to the repository that supplied these operands.\n            Options affect this command only. Normal operation integration stays enabled.\n\n            jj --no-pager --color always --repository\n            /home/runner/work/jk/jk/target/manual-fixtures/run-options.meOf38/workflows.TbAz\n            6t/rebase rebase -r 9d92e920fe8fce97760af20ef82e0ebf4857d0da -o\n            f62c75b7b89fea4d0a319ea1d8751bca79f78539\n\n\n            ↑↓ select  Enter edit\n            a apply to preview  Esc cancel\n",
+  "scrollback_text": "",
+  "viewport": [
+    [
+      "jk ",
+      [
+        "jj",
+        0
+      ]
+    ],
+    [
+      " * ",
+      [
+        "@",
+        1
+      ],
+      "  ",
+      [
+        "n",
+        2
+      ],
+      [
+        "tlmwnry",
+        3
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "demo@example.invalid",
+        4
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "2026-01-01 12:00:00",
+        5
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "9",
+        6
+      ],
+      [
+        "d92e920",
+        3
+      ]
+    ],
+    [
+      "   │  ",
+      [
+        "Rebase source",
+        0
+      ]
+    ],
+    [
+      [
+        "›",
+        0
+      ],
+      "  │ ○  ",
+      [
+        "w",
+        7
+      ],
+      [
+        "ltpzlrz",
+        8
+      ],
+      " ",
+      [
+        "demo@example.invalid",
+        9
+      ],
+      " ",
+      [
+        "2026-01-01 12:00:00",
+        10
+      ],
+      " ",
+      [
+        "f",
+        11
+      ],
+      [
+        "62c75b7",
+        8
+      ]
+    ],
+    [
+      "   ├─╯  Rebase destination"
+    ],
+    [
+      "   ○  ",
+      [
+        "zl",
+        7
+      ],
+      [
+        "qwtkol",
+        8
+      ],
+      " ",
+      [
+        "demo@example.invalid",
+        9
+      ],
+      " ",
+      [
+        "2026-01-01 12:00:00",
+        10
+      ],
+      " ",
+      [
+        "2",
+        11
+      ],
+      [
+        "2e435b3",
+        8
+      ]
+    ],
+    [
+      "   │  Rebase base"
+    ],
+    [
+      "   ",
+      [
+        "◆",
+        5
+      ],
+      "  ",
+      [
+        "zz",
+        7
+      ],
+      [
+        "zzzzzz",
+        8
+      ],
+      " ",
+      [
+        "root()",
+        12
+      ],
+      " ",
+      [
+        "0",
+        11
+      ],
+      [
+        "0000000",
+        8
+      ]
+    ],
+    [
+      "           ",
+      [
+        " ",
+        13
+      ],
+      [
+        "Run options",
+        14
+      ],
+      [
+        " · this command only",
+        15
+      ]
+    ],
+    [],
+    [
+      "           ",
+      [
+        " ",
+        13
+      ],
+      [
+        "› ",
+        14
+      ],
+      [
+        "Working copy      snapshot/update",
+        13
+      ]
+    ],
+    [
+      "           ",
+      [
+        " ",
+        13
+      ],
+      [
+        "  ",
+        15
+      ],
+      [
+        "Operation         latest",
+        13
+      ]
+    ],
+    [
+      "           ",
+      [
+        " ",
+        13
+      ],
+      [
+        "  ",
+        15
+      ],
+      [
+        "Immutable commits protected",
+        13
+      ]
+    ],
+    [],
+    [
+      "           ",
+      [
+        " Ignore skips both snapshotting and updating working-copy files.",
+        13
+      ]
+    ],
+    [],
+    [
+      "           ",
+      [
+        " Repository:",
+        13
+      ]
+    ],
+    [
+      "           ",
+      [
+        " /home/runner/work/jk/jk/target/manual-fixtures/run-options.meOf38/workflows.TbAz",
+        13
+      ]
+    ],
+    [
+      "           ",
+      [
+        " 6t/rebase",
+        13
+      ]
+    ],
+    [
+      "           ",
+      [
+        " Fixed to the repository that supplied these operands.",
+        13
+      ]
+    ],
+    [
+      "           ",
+      [
+        " Options affect this command only. Normal operation integration stays enabled.",
+        13
+      ]
+    ],
+    [],
+    [
+      "           ",
+      [
+        " jj --no-pager --color always --repository",
+        13
+      ]
+    ],
+    [
+      "           ",
+      [
+        " /home/runner/work/jk/jk/target/manual-fixtures/run-options.meOf38/workflows.TbAz",
+        13
+      ]
+    ],
+    [
+      "           ",
+      [
+        " 6t/rebase rebase -r 9d92e920fe8fce97760af20ef82e0ebf4857d0da -o",
+        13
+      ]
+    ],
+    [
+      "           ",
+      [
+        " f62c75b7b89fea4d0a319ea1d8751bca79f78539",
+        13
+      ]
+    ],
+    [],
+    [],
+    [
+      "           ",
+      [
+        " ",
+        13
+      ],
+      [
+        "↑↓",
+        14
+      ],
+      [
+        " select  ",
+        15
+      ],
+      [
+        "Enter",
+        14
+      ],
+      [
+        " edit",
+        15
+      ]
+    ],
+    [
+      "           ",
+      [
+        " ",
+        13
+      ],
+      [
+        "a",
+        14
+      ],
+      [
+        " apply to preview  ",
+        15
+      ],
+      [
+        "Esc",
+        14
+      ],
+      [
+        " cancel",
+        15
+      ]
+    ]
+  ],
+  "scrollback": []
+}

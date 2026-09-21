@@ -1,0 +1,301 @@
+{
+  "size": [
+    104,
+    39
+  ],
+  "total_rows": 39,
+  "scrollback_rows": 0,
+  "cursor": {
+    "x": 98,
+    "y": 22,
+    "visible": false
+  },
+  "default_style": {
+    "fg": "#b4bcca",
+    "bg": "#0f141f"
+  },
+  "styles": [
+    {
+      "bold": true
+    },
+    {
+      "fg": "#52aa60",
+      "bold": true
+    },
+    {
+      "fg": "#d58bf0",
+      "bold": true
+    },
+    {
+      "fg": "#3a4152",
+      "bold": true
+    },
+    {
+      "fg": "#ad9b49",
+      "bold": true
+    },
+    {
+      "fg": "#52c4c0",
+      "bold": true
+    },
+    {
+      "fg": "#76a8f2",
+      "bold": true
+    },
+    {
+      "fg": "#487fd4",
+      "bold": true
+    },
+    {
+      "fg": "#3a4152"
+    },
+    {
+      "fg": "#ad9b49"
+    },
+    {
+      "fg": "#269d9a"
+    },
+    {
+      "fg": "#af5bd1"
+    },
+    {
+      "fg": "#af5bd1",
+      "bold": true
+    },
+    {
+      "fg": "#52aa60"
+    },
+    {
+      "fg": "#e0e6ee",
+      "bg": "#242c3a"
+    },
+    {
+      "fg": "#65d4cf",
+      "bg": "#242c3a",
+      "bold": true
+    },
+    {
+      "fg": "#ff8782",
+      "bg": "#242c3a"
+    }
+  ],
+  "viewport_text": "jk jj\n›  @  xuxnqppm alex@example.invalid 2026-01-01 12:00:00 demo 1d7f5db5\n·  │  Review cache publication\n   ○  kspsvwkk demo@example.invalid 2026-01-01 12:00:00 review-keep stable-a stable-b stable-c 7084ee8c\n   │  Prepare remote workflow\n   ◆  zzzzzzzz root() 00000000\n\n\n\n\n\n\n\n\n\n\n       jj command\n\n       : bookmark create review-topic\n       error: bookmark changes are unavailable in command mode; use the bookmark view's B action\n\n       enter run   Ctrl-u clear   backspace edit   esc cancel\n",
+  "scrollback_text": "",
+  "viewport": [
+    [
+      "jk ",
+      [
+        "jj",
+        0
+      ]
+    ],
+    [
+      [
+        "›",
+        0
+      ],
+      "  ",
+      [
+        "@",
+        1
+      ],
+      "  ",
+      [
+        "x",
+        2
+      ],
+      [
+        "uxnqppm",
+        3
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "alex@example.invalid",
+        4
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "2026-01-01 12:00:00",
+        5
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "demo",
+        2
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "1",
+        6
+      ],
+      [
+        "d7f5db5",
+        3
+      ]
+    ],
+    [
+      [
+        "·",
+        0
+      ],
+      "  │  ",
+      [
+        "Review cache publication",
+        0
+      ]
+    ],
+    [
+      "   ○  ",
+      [
+        "k",
+        7
+      ],
+      [
+        "spsvwkk",
+        8
+      ],
+      " ",
+      [
+        "demo@example.invalid",
+        9
+      ],
+      " ",
+      [
+        "2026-01-01 12:00:00",
+        10
+      ],
+      " ",
+      [
+        "review-keep stable-a stable-b stable-c",
+        11
+      ],
+      " ",
+      [
+        "7",
+        12
+      ],
+      [
+        "084ee8c",
+        8
+      ]
+    ],
+    [
+      "   │  Prepare remote workflow"
+    ],
+    [
+      "   ",
+      [
+        "◆",
+        5
+      ],
+      "  ",
+      [
+        "z",
+        7
+      ],
+      [
+        "zzzzzzz",
+        8
+      ],
+      " ",
+      [
+        "root()",
+        13
+      ],
+      " ",
+      [
+        "0",
+        12
+      ],
+      [
+        "0000000",
+        8
+      ]
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "     ",
+      [
+        "  ",
+        14
+      ],
+      [
+        "jj command",
+        15
+      ]
+    ],
+    [],
+    [
+      "     ",
+      [
+        "  ",
+        14
+      ],
+      [
+        ":",
+        15
+      ],
+      [
+        " bookmark create review-topic",
+        14
+      ]
+    ],
+    [
+      "     ",
+      [
+        "  ",
+        14
+      ],
+      [
+        "error: bookmark changes are unavailable in command mode; use the bookmark view's B action",
+        16
+      ]
+    ],
+    [],
+    [
+      "     ",
+      [
+        "  ",
+        14
+      ],
+      [
+        "enter run",
+        15
+      ],
+      [
+        "   Ctrl-u clear   ",
+        14
+      ],
+      [
+        "backspace edit",
+        15
+      ],
+      [
+        "   esc cancel",
+        14
+      ]
+    ]
+  ],
+  "scrollback": []
+}

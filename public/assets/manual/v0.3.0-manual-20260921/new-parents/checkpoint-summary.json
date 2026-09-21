@@ -1,0 +1,177 @@
+[
+  {
+    "checkpoint": "new-parents-ordered",
+    "viewport_text": "jk jj\n * @  umvnknwz demo@example.invalid 2026-01-01 12:00:00 ef07ed51\n   \u2502  Experiment with forecast caching\n\u203a* \u2502 \u25cb  lmznruqt alex@example.invalid 2026-01-01 12:00:00 32f7a649\n   \u251c\u2500\u256f  Document cache policy\n   \u25cb  pwnyxvux demo@example.invalid 2026-01-01 12:00:00 8effc773\n   \u2502  Configure request timeouts\n   \u25cb  stowqwrl demo@example.invalid 2026-01-01 12:00:00 1ce5202d\n   \u2502  Add the forecast endpoint\n   \u25cb  urlssylt alex@example.com 2026-01-01 12:00:00 dee57915\n   \u2502  Document the forecast service\n   \u25c6  zzzzzzzz root() 00000000\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmark 2/2  ? help  H home  L log  r refresh  enter open  d diff  v evolog  s status  space mark  o ops  \u2026\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#52aa60",
+        "bold": true
+      },
+      {
+        "fg": "#d58bf0",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152",
+        "bold": true
+      },
+      {
+        "fg": "#ad9b49",
+        "bold": true
+      },
+      {
+        "fg": "#52c4c0",
+        "bold": true
+      },
+      {
+        "fg": "#76a8f2",
+        "bold": true
+      },
+      {
+        "fg": "#487fd4",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152"
+      },
+      {
+        "fg": "#ad9b49"
+      },
+      {
+        "fg": "#269d9a"
+      },
+      {
+        "fg": "#af5bd1",
+        "bold": true
+      },
+      {
+        "fg": "#52aa60"
+      }
+    ],
+    "size": [
+      104,
+      39
+    ]
+  },
+  {
+    "checkpoint": "new-parents-merged",
+    "viewport_text": "jk jj\n\u203a  @    txqlxlql alex@example.invalid 2026-01-01 12:00:00 a5d9e99d\n   \u251c\u2500\u256e  (empty) (no description set)\n * \u2502 \u25cb  lmznruqt alex@example.invalid 2026-01-01 12:00:00 32f7a649\n   \u2502 \u2502  Document cache policy\n * \u25cb \u2502  umvnknwz demo@example.invalid 2026-01-01 12:00:00 ef07ed51\n   \u251c\u2500\u256f  Experiment with forecast caching\n   \u25cb  pwnyxvux demo@example.invalid 2026-01-01 12:00:00 8effc773\n   \u2502  Configure request timeouts\n   \u25cb  stowqwrl demo@example.invalid 2026-01-01 12:00:00 1ce5202d\n   \u2502  Add the forecast endpoint\n   \u25cb  urlssylt alex@example.com 2026-01-01 12:00:00 dee57915\n   \u2502  Document the forecast service\n   \u25c6  zzzzzzzz root() 00000000\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n2 marked  ? help  H home  L log  r refresh  enter open  d diff  v evolog  s status  space mark  o ops  \u2026\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#52aa60",
+        "bold": true
+      },
+      {
+        "fg": "#d58bf0",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152",
+        "bold": true
+      },
+      {
+        "fg": "#ad9b49",
+        "bold": true
+      },
+      {
+        "fg": "#52c4c0",
+        "bold": true
+      },
+      {
+        "fg": "#76a8f2",
+        "bold": true
+      },
+      {
+        "fg": "#75cf84",
+        "bold": true
+      },
+      {
+        "fg": "#487fd4",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152"
+      },
+      {
+        "fg": "#ad9b49"
+      },
+      {
+        "fg": "#269d9a"
+      },
+      {
+        "fg": "#af5bd1",
+        "bold": true
+      },
+      {
+        "fg": "#52aa60"
+      }
+    ],
+    "size": [
+      104,
+      39
+    ]
+  },
+  {
+    "checkpoint": "new-parents-undone",
+    "viewport_text": "jk jj\n\u203a  @  umvnknwz demo@example.invalid 2026-01-01 12:00:00 ef07ed51\n\u00b7  \u2502  Experiment with forecast caching\n   \u2502 \u25cb  lmznruqt alex@example.invalid 2026-01-01 12:00:00 32f7a649\n   \u251c\u2500\u256f  Document cache policy\n   \u25cb  pwnyxvux demo@example.invalid 2026-01-01 12:00:00 8effc773\n   \u2502  Configure request timeouts\n   \u25cb  stowqwrl demo@example.invalid 2026-01-01 12:00:00 1ce5202d\n   \u2502  Add the forecast endpoint\n   \u25cb  urlssylt alex@example.com 2026-01-01 12:00:00 dee57915\n   \u2502  Document the forecast service\n   \u25c6  zzzzzzzz root() 00000000\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n? help  H home  L log  r refresh  enter open  d diff  v evolog  s status  space mark  o ops  ...  q quit\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#52aa60",
+        "bold": true
+      },
+      {
+        "fg": "#d58bf0",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152",
+        "bold": true
+      },
+      {
+        "fg": "#ad9b49",
+        "bold": true
+      },
+      {
+        "fg": "#52c4c0",
+        "bold": true
+      },
+      {
+        "fg": "#76a8f2",
+        "bold": true
+      },
+      {
+        "fg": "#487fd4",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152"
+      },
+      {
+        "fg": "#ad9b49"
+      },
+      {
+        "fg": "#269d9a"
+      },
+      {
+        "fg": "#af5bd1",
+        "bold": true
+      },
+      {
+        "fg": "#52aa60"
+      }
+    ],
+    "size": [
+      104,
+      39
+    ]
+  }
+]

@@ -1,0 +1,317 @@
+{
+  "size": [
+    104,
+    39
+  ],
+  "total_rows": 39,
+  "scrollback_rows": 0,
+  "cursor": {
+    "x": 38,
+    "y": 19,
+    "visible": false
+  },
+  "default_style": {
+    "fg": "#b4bcca",
+    "bg": "#0f141f"
+  },
+  "styles": [
+    {
+      "bold": true
+    },
+    {
+      "fg": "#52aa60",
+      "bold": true
+    },
+    {
+      "fg": "#d58bf0",
+      "bold": true
+    },
+    {
+      "fg": "#3a4152",
+      "bold": true
+    },
+    {
+      "fg": "#ad9b49",
+      "bold": true
+    },
+    {
+      "fg": "#52c4c0",
+      "bold": true
+    },
+    {
+      "fg": "#76a8f2",
+      "bold": true
+    },
+    {
+      "fg": "#487fd4",
+      "bold": true
+    },
+    {
+      "fg": "#3a4152"
+    },
+    {
+      "fg": "#ad9b49"
+    },
+    {
+      "fg": "#269d9a"
+    },
+    {
+      "fg": "#af5bd1",
+      "bold": true
+    },
+    {
+      "fg": "#65d4cf",
+      "bg": "#242c3a",
+      "bold": true
+    },
+    {
+      "fg": "#e0e6ee",
+      "bg": "#242c3a"
+    },
+    {
+      "fg": "#a1aebe",
+      "bg": "#242c3a"
+    }
+  ],
+  "viewport_text": "jk jj\n›  @  nuxnqtox demo@example.invalid 2026-01-01 12:00:00 18d93b55\n·  │  Rebase source\n   │ ○  ukqorzxr demo@example.invalid 2026-01-01 12:00:00 0dfcc0b5\n   ├─╯  Rebase destination\n   ○  mnwylsos demo@example.invalid 2026-01-01 12:00:00 6fad114d\n   │  Rebase base\n   ~\n\n\n\n\n\n\n           Choose rebase destination\n\n           Source: 18d93b55b315\n           Scope: revision only (-r)   r revision  b branch  s descendants\n           Place: onto (-o)   o onto  A after  B before\n           Search: /Rebase destination\n           › 0dfcc0b52bbe  Rebase destination\n\n           / search   ↑/↓ choose   Enter preview   Esc cancel\n",
+  "scrollback_text": "",
+  "viewport": [
+    [
+      "jk ",
+      [
+        "jj",
+        0
+      ]
+    ],
+    [
+      [
+        "›",
+        0
+      ],
+      "  ",
+      [
+        "@",
+        1
+      ],
+      "  ",
+      [
+        "n",
+        2
+      ],
+      [
+        "uxnqtox",
+        3
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "demo@example.invalid",
+        4
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "2026-01-01 12:00:00",
+        5
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "1",
+        6
+      ],
+      [
+        "8d93b55",
+        3
+      ]
+    ],
+    [
+      [
+        "·",
+        0
+      ],
+      "  │  ",
+      [
+        "Rebase source",
+        0
+      ]
+    ],
+    [
+      "   │ ○  ",
+      [
+        "u",
+        7
+      ],
+      [
+        "kqorzxr",
+        8
+      ],
+      " ",
+      [
+        "demo@example.invalid",
+        9
+      ],
+      " ",
+      [
+        "2026-01-01 12:00:00",
+        10
+      ],
+      " ",
+      [
+        "0",
+        11
+      ],
+      [
+        "dfcc0b5",
+        8
+      ]
+    ],
+    [
+      "   ├─╯  Rebase destination"
+    ],
+    [
+      "   ○  ",
+      [
+        "m",
+        7
+      ],
+      [
+        "nwylsos",
+        8
+      ],
+      " ",
+      [
+        "demo@example.invalid",
+        9
+      ],
+      " ",
+      [
+        "2026-01-01 12:00:00",
+        10
+      ],
+      " ",
+      [
+        "6",
+        11
+      ],
+      [
+        "fad114d",
+        8
+      ]
+    ],
+    [
+      "   │  Rebase base"
+    ],
+    [
+      "   ~"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "         ",
+      [
+        "  Choose rebase destination",
+        12
+      ]
+    ],
+    [],
+    [
+      "         ",
+      [
+        "  Source: 18d93b55b315",
+        13
+      ]
+    ],
+    [
+      "         ",
+      [
+        "  Scope: revision only (-r)   r revision  b branch  s descendants",
+        13
+      ]
+    ],
+    [
+      "         ",
+      [
+        "  Place: onto (-o)   o onto  A after  B before",
+        13
+      ]
+    ],
+    [
+      "         ",
+      [
+        "  ",
+        13
+      ],
+      [
+        "Search: /Rebase destination",
+        12
+      ]
+    ],
+    [
+      "         ",
+      [
+        "  ",
+        13
+      ],
+      [
+        "› ",
+        14
+      ],
+      [
+        "0dfcc0b52bbe  Rebase destination",
+        13
+      ]
+    ],
+    [],
+    [
+      "         ",
+      [
+        "  ",
+        13
+      ],
+      [
+        "/",
+        12
+      ],
+      [
+        " search   ",
+        14
+      ],
+      [
+        "↑/↓",
+        12
+      ],
+      [
+        " choose   ",
+        14
+      ],
+      [
+        "Enter",
+        12
+      ],
+      [
+        " preview   ",
+        14
+      ],
+      [
+        "Esc",
+        12
+      ],
+      [
+        " cancel",
+        14
+      ]
+    ]
+  ],
+  "scrollback": []
+}

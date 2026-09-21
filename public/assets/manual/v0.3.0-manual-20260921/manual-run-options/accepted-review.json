@@ -1,0 +1,215 @@
+{
+  "schema_version": 1,
+  "source_index": "manual/v0.3.0-manual-20260921/review-index.json",
+  "source_index_sha256": "17efd1f5f9a9c80791c6764f7972f466b4b29257831f2719b0c66b74b784fc16",
+  "review": {
+    "id": "manual-run-options",
+    "title": "Review execution options before running",
+    "status": "ready",
+    "source_tape": "tapes/manual/rewrite/manual-run-options.tape",
+    "source_tape_sha256": "9bba8da45ba8b949f7d4be263738e58c7d4a0b5c0727ad7566a419474f128ff2",
+    "website": {
+      "path": "assets/manual/v0.3.0-manual-20260921/manual-run-options"
+    },
+    "problems": [],
+    "checkpoints": [
+      {
+        "id": "manual-run-options-initial-preview",
+        "png": "manual-run-options-initial-preview.png",
+        "state": "manual-run-options-initial-preview.json",
+        "png_sha256": "0a7874466c20328ad9f98ead80ae3c537e979af58d3bbbb05c16f1aa61984985",
+        "state_sha256": "7fcd4c704b661f43972014b0d794703975c07ffbbd72c14343c5a9c71e6f9ac5",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "root",
+          "reviewed_at": "2026-09-21T03:40:53.076866+00:00",
+          "summary": "Reviewed all six PNGs. Initial and cancelled previews match; drawer shows fixed repository and three controls. Apply adds the ignore-working-copy flag, invalid operation stays editable, and final preview contains historical operation and immutable override warnings. All modal surfaces opaque and all command operands readable. Duplicated validation message is visible in the captured UI.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "root",
+          "reviewed_at": "2026-09-21T03:40:53.077116+00:00",
+          "summary": "Read all six styled State JSONs. Teal controls, yellow history/working-copy warnings and red invalid-operation text match screenshots; dark opaque modal backgrounds preserve contrast. Background graph keeps the marked source and destination context.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/root-ci35557653700.json",
+        "text_style_review_source": "target/manual-recordings/reviews/root-ci35557653700.json"
+      },
+      {
+        "id": "manual-run-options-drawer",
+        "png": "manual-run-options-drawer.png",
+        "state": "manual-run-options-drawer.json",
+        "png_sha256": "8eccfa0a89fedbbcbcf620db599cd7ee987cbfc467c760df1f5cf3d053f68862",
+        "state_sha256": "fc67a2e821bb77fade9ecbcbced94afa8715ac20f01741d11e32f0e09ef7adb8",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "root",
+          "reviewed_at": "2026-09-21T03:40:53.077269+00:00",
+          "summary": "Reviewed all six PNGs. Initial and cancelled previews match; drawer shows fixed repository and three controls. Apply adds the ignore-working-copy flag, invalid operation stays editable, and final preview contains historical operation and immutable override warnings. All modal surfaces opaque and all command operands readable. Duplicated validation message is visible in the captured UI.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "root",
+          "reviewed_at": "2026-09-21T03:40:53.077272+00:00",
+          "summary": "Read all six styled State JSONs. Teal controls, yellow history/working-copy warnings and red invalid-operation text match screenshots; dark opaque modal backgrounds preserve contrast. Background graph keeps the marked source and destination context.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/root-ci35557653700.json",
+        "text_style_review_source": "target/manual-recordings/reviews/root-ci35557653700.json"
+      },
+      {
+        "id": "manual-run-options-cancelled-preview",
+        "png": "manual-run-options-cancelled-preview.png",
+        "state": "manual-run-options-cancelled-preview.json",
+        "png_sha256": "09242c38c9476a2c26025ed150421a49769f6321620819dcef0babc46eb76156",
+        "state_sha256": "441ab3ec59dc224beace063ec269fa6d7cfa0f5694398626385cb072391cdc45",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "root",
+          "reviewed_at": "2026-09-21T03:40:53.077386+00:00",
+          "summary": "Reviewed all six PNGs. Initial and cancelled previews match; drawer shows fixed repository and three controls. Apply adds the ignore-working-copy flag, invalid operation stays editable, and final preview contains historical operation and immutable override warnings. All modal surfaces opaque and all command operands readable. Duplicated validation message is visible in the captured UI.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "root",
+          "reviewed_at": "2026-09-21T03:40:53.077388+00:00",
+          "summary": "Read all six styled State JSONs. Teal controls, yellow history/working-copy warnings and red invalid-operation text match screenshots; dark opaque modal backgrounds preserve contrast. Background graph keeps the marked source and destination context.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/root-ci35557653700.json",
+        "text_style_review_source": "target/manual-recordings/reviews/root-ci35557653700.json"
+      },
+      {
+        "id": "manual-run-options-applied-preview",
+        "png": "manual-run-options-applied-preview.png",
+        "state": "manual-run-options-applied-preview.json",
+        "png_sha256": "ddcea5495994dc0d59946566f2544be5e58d73eb98aebd93ddadbb1f9b78bbaf",
+        "state_sha256": "6fb6fb19170d17fcd448381d06318b346c4d09636f114d340783eafad6ef6c32",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "root",
+          "reviewed_at": "2026-09-21T03:40:53.077501+00:00",
+          "summary": "Reviewed all six PNGs. Initial and cancelled previews match; drawer shows fixed repository and three controls. Apply adds the ignore-working-copy flag, invalid operation stays editable, and final preview contains historical operation and immutable override warnings. All modal surfaces opaque and all command operands readable. Duplicated validation message is visible in the captured UI.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "root",
+          "reviewed_at": "2026-09-21T03:40:53.077503+00:00",
+          "summary": "Read all six styled State JSONs. Teal controls, yellow history/working-copy warnings and red invalid-operation text match screenshots; dark opaque modal backgrounds preserve contrast. Background graph keeps the marked source and destination context.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/root-ci35557653700.json",
+        "text_style_review_source": "target/manual-recordings/reviews/root-ci35557653700.json"
+      },
+      {
+        "id": "manual-run-options-invalid-operation",
+        "png": "manual-run-options-invalid-operation.png",
+        "state": "manual-run-options-invalid-operation.json",
+        "png_sha256": "609a20019e044d92256ddbfcd0215e64c5163ba5b308f568b0f927f65fb7ace8",
+        "state_sha256": "ce8a6220f9e8a5bc6e91d985a70ae9bc2566d9e0dc4ff8d39b50802473dcc80c",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "root",
+          "reviewed_at": "2026-09-21T03:40:53.077614+00:00",
+          "summary": "Reviewed all six PNGs. Initial and cancelled previews match; drawer shows fixed repository and three controls. Apply adds the ignore-working-copy flag, invalid operation stays editable, and final preview contains historical operation and immutable override warnings. All modal surfaces opaque and all command operands readable. Duplicated validation message is visible in the captured UI.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "root",
+          "reviewed_at": "2026-09-21T03:40:53.077616+00:00",
+          "summary": "Read all six styled State JSONs. Teal controls, yellow history/working-copy warnings and red invalid-operation text match screenshots; dark opaque modal backgrounds preserve contrast. Background graph keeps the marked source and destination context.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/root-ci35557653700.json",
+        "text_style_review_source": "target/manual-recordings/reviews/root-ci35557653700.json"
+      },
+      {
+        "id": "manual-run-options-historical-preview",
+        "png": "manual-run-options-historical-preview.png",
+        "state": "manual-run-options-historical-preview.json",
+        "png_sha256": "26a47d83378393e4f64798f985b0e105e78d923afc7f134efbcc541423c9d15b",
+        "state_sha256": "964b1a13b9aa4eba7e04fddf4aeeeea13879cd1a825f3d2ea21a5a3c8a0e969d",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "root",
+          "reviewed_at": "2026-09-21T03:40:53.077726+00:00",
+          "summary": "Reviewed all six PNGs. Initial and cancelled previews match; drawer shows fixed repository and three controls. Apply adds the ignore-working-copy flag, invalid operation stays editable, and final preview contains historical operation and immutable override warnings. All modal surfaces opaque and all command operands readable. Duplicated validation message is visible in the captured UI.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "root",
+          "reviewed_at": "2026-09-21T03:40:53.077728+00:00",
+          "summary": "Read all six styled State JSONs. Teal controls, yellow history/working-copy warnings and red invalid-operation text match screenshots; dark opaque modal backgrounds preserve contrast. Background graph keeps the marked source and destination context.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/root-ci35557653700.json",
+        "text_style_review_source": "target/manual-recordings/reviews/root-ci35557653700.json"
+      }
+    ],
+    "metadata_path": "target/manual-recordings/ci-35557653700/manual-evidence-manual-run-options/capture-metadata.json",
+    "metadata_sha256": "1a97818a233eccf850686aef895b466a464491acb00029e1135ec681acad2501",
+    "evidence_directory": "target/manual-recordings/ci-35557653700/manual-evidence-manual-run-options",
+    "evidence_status": "passed",
+    "source_commit": "7fcb4fa9af1bb624fcdc7ac14a64184a43c4e829",
+    "pr_head_commit": "d5200f713edc476fd446616ad46fec573f861baf",
+    "source_manifest_sha256": "42c0d25b424a807906eb4e0ba7ca72b4c0488685e9f57b3bcf62d3f01c6c6915",
+    "source_matches_checkout": true,
+    "binary": {
+      "invoked_path": "/home/runner/work/jk/jk/target/manual-build/jk",
+      "path": "/home/runner/work/jk/jk/target/manual-build/jk",
+      "sha256": "cb41f94b63ec85100829bd2b1e9ced84f37cae912996a48e93b56b8776c9c5ed",
+      "version": "jk 0.3.0",
+      "version_exit_code": 0
+    },
+    "jj": {
+      "invoked_path": "/home/runner/.cargo/bin/jj",
+      "path": "/home/runner/.cargo/bin/jj",
+      "sha256": "cd5efc3eb281d606bf9b5523167f79661da0f8c76a5aa32d61c07c7a351b6b44",
+      "version": "jj 0.45.1-7c41cdeb16b6b321c64e789a966b6adf723816a5",
+      "version_exit_code": 0
+    },
+    "betamax": {
+      "invoked_path": "/home/runner/work/_temp/betamax-vjiRXT/bin/betamax",
+      "path": "/home/runner/work/_temp/betamax-vjiRXT/bin/betamax",
+      "sha256": "db55fa6e7ff98e1df3c91921b5b3fb504b3cc8fdaf6b07e3da952f8757053490",
+      "version": "betamax 0.1.21",
+      "version_exit_code": 0
+    },
+    "ci_run": {
+      "id": "35557653700",
+      "attempt": "1",
+      "url": "https://github.com/joshka/jk/actions/runs/35557653700"
+    },
+    "assertions": [
+      {
+        "path": "manual-run-options-assertions.json",
+        "sha256": "5f9117f61b156cf9e34a8c4f61cbad4e9ddf450f94ee283d260d21dd3642c5cf",
+        "bytes": 888
+      }
+    ],
+    "video": {
+      "path": "manual-run-options.mp4",
+      "sha256": "d0587b8dc3e6030f4c3728128abdc0ab494291e538b1f45bbf9b0636fa704c45",
+      "bytes": 529617
+    },
+    "video_review": {
+      "status": "reviewed",
+      "reviewer": "root",
+      "reviewed_at": "2026-09-21T03:40:53.077730+00:00",
+      "summary": "Reviewed 21.27-second MP4 in decoded three-second samples and final frame alongside tape. Six checkpoints each have three seconds of reading time; cancellation restores original preview and Apply returns without executing. Final synthetic operation ID is a preview example only; hidden assertions verify repository and working-copy commit remain unchanged.",
+      "findings": [],
+      "sha256": "d0587b8dc3e6030f4c3728128abdc0ab494291e538b1f45bbf9b0636fa704c45"
+    },
+    "source_snapshot_status": "preserved",
+    "video_review_source": "target/manual-recordings/reviews/root-ci35557653700.json",
+    "pixel_review_complete": true,
+    "text_style_review_complete": true,
+    "video_review_complete": true
+  }
+}

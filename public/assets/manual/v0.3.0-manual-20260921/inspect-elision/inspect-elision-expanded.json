@@ -1,0 +1,310 @@
+{
+  "size": [
+    104,
+    36
+  ],
+  "total_rows": 36,
+  "scrollback_rows": 0,
+  "cursor": {
+    "x": 30,
+    "y": 9,
+    "visible": false
+  },
+  "default_style": {
+    "fg": "#b4bcca",
+    "bg": "#0f141f"
+  },
+  "styles": [
+    {
+      "bold": true
+    },
+    {
+      "fg": "#52aa60",
+      "bold": true
+    },
+    {
+      "fg": "#d58bf0",
+      "bold": true
+    },
+    {
+      "fg": "#3a4152",
+      "bold": true
+    },
+    {
+      "fg": "#ad9b49",
+      "bold": true
+    },
+    {
+      "fg": "#52c4c0",
+      "bold": true
+    },
+    {
+      "fg": "#76a8f2",
+      "bold": true
+    },
+    {
+      "fg": "#487fd4",
+      "bold": true
+    },
+    {
+      "fg": "#3a4152"
+    },
+    {
+      "fg": "#ad9b49"
+    },
+    {
+      "fg": "#269d9a"
+    },
+    {
+      "fg": "#af5bd1",
+      "bold": true
+    },
+    {
+      "fg": "#af5bd1"
+    },
+    {
+      "fg": "#52aa60"
+    }
+  ],
+  "viewport_text": "jk jj log -r (::9fe71062) | 9fe71062\n   @  ooknonrr alex@example.invalid 2026-01-01 12:00:00 candidate 9fe71062\n   │  Experiment with forecast caching\n›  ○  ynpyvuzw alex@example.invalid 2026-01-01 12:00:00 33b70592\n·  │  Configure request timeouts\n   ○  lmmoyqqv alex@example.invalid 2026-01-01 12:00:00 fdd411e7\n   │  Add the forecast endpoint\n   ○  vkyykrls alex@example.invalid 2026-01-01 12:00:00 main 1c7678be\n   │  Document the forecast service\n   ◆  zzzzzzzz root() 00000000\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n? help  H home  L log  r refresh  enter open  d diff  v evolog  s status  space mark  o ops  ...  q quit\n",
+  "scrollback_text": "",
+  "viewport": [
+    [
+      "jk ",
+      [
+        "jj log -r (::9fe71062) | 9fe71062",
+        0
+      ]
+    ],
+    [
+      "   ",
+      [
+        "@",
+        1
+      ],
+      "  ",
+      [
+        "o",
+        2
+      ],
+      [
+        "oknonrr",
+        3
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "alex@example.invalid",
+        4
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "2026-01-01 12:00:00",
+        5
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "candidate",
+        2
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "9",
+        6
+      ],
+      [
+        "fe71062",
+        3
+      ]
+    ],
+    [
+      "   │  ",
+      [
+        "Experiment with forecast caching",
+        0
+      ]
+    ],
+    [
+      [
+        "›",
+        0
+      ],
+      "  ○  ",
+      [
+        "y",
+        7
+      ],
+      [
+        "npyvuzw",
+        8
+      ],
+      " ",
+      [
+        "alex@example.invalid",
+        9
+      ],
+      " ",
+      [
+        "2026-01-01 12:00:00",
+        10
+      ],
+      " ",
+      [
+        "3",
+        11
+      ],
+      [
+        "3b70592",
+        8
+      ]
+    ],
+    [
+      [
+        "·",
+        0
+      ],
+      "  │  Configure request timeouts"
+    ],
+    [
+      "   ○  ",
+      [
+        "l",
+        7
+      ],
+      [
+        "mmoyqqv",
+        8
+      ],
+      " ",
+      [
+        "alex@example.invalid",
+        9
+      ],
+      " ",
+      [
+        "2026-01-01 12:00:00",
+        10
+      ],
+      " ",
+      [
+        "fd",
+        11
+      ],
+      [
+        "d411e7",
+        8
+      ]
+    ],
+    [
+      "   │  Add the forecast endpoint"
+    ],
+    [
+      "   ○  ",
+      [
+        "v",
+        7
+      ],
+      [
+        "kyykrls",
+        8
+      ],
+      " ",
+      [
+        "alex@example.invalid",
+        9
+      ],
+      " ",
+      [
+        "2026-01-01 12:00:00",
+        10
+      ],
+      " ",
+      [
+        "main",
+        12
+      ],
+      " ",
+      [
+        "1",
+        11
+      ],
+      [
+        "c7678be",
+        8
+      ]
+    ],
+    [
+      "   │  Document the forecast service"
+    ],
+    [
+      "   ",
+      [
+        "◆",
+        5
+      ],
+      "  ",
+      [
+        "z",
+        7
+      ],
+      [
+        "zzzzzzz",
+        8
+      ],
+      " ",
+      [
+        "root()",
+        13
+      ],
+      " ",
+      [
+        "00",
+        11
+      ],
+      [
+        "000000",
+        8
+      ]
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "? help  H home  L log  r refresh  enter open  d diff  v evolog  s status  space mark  o ops  ...  q quit"
+    ]
+  ],
+  "scrollback": []
+}

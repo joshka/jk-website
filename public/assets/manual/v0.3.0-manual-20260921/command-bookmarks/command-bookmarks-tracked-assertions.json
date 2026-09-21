@@ -1,0 +1,32 @@
+{
+  "scenario": "command-bookmarks",
+  "stage": "command-bookmarks-tracked",
+  "status": "passed",
+  "repository": "/home/runner/work/jk/jk/target/dogfood-artifacts/fixtures/refs.IiQHHo/client",
+  "assertions": [
+    {
+      "name": "remote incoming bookmark remains",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "tracking state matches requested operation",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "local bookmark target preserved",
+      "passed": true,
+      "actual": "wtzsyzxvuqssqprkokroukpwomsykrlz",
+      "expected": "wtzsyzxvuqssqprkokroukpwomsykrlz"
+    },
+    {
+      "name": "local tracking operations leave remote repository unchanged",
+      "passed": true,
+      "actual": "0000000000000000000000000000000000000000\n8389e947292af4b259d953cce730694a76ea8b14",
+      "expected": "0000000000000000000000000000000000000000\n8389e947292af4b259d953cce730694a76ea8b14"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "size": [
+    98,
+    43
+  ],
+  "total_rows": 43,
+  "scrollback_rows": 0,
+  "cursor": {
+    "x": 79,
+    "y": 42,
+    "visible": false
+  },
+  "default_style": {
+    "fg": "#b4bcca",
+    "bg": "#0f141f"
+  },
+  "styles": [
+    {
+      "bold": true
+    }
+  ],
+  "viewport_text": "jk jj bookmark list\n   demo: 15960d8a8268 (local)\n   review-*: 15960d8a8268 (local)\n›  review-keep: 20f45f72fcc2 (local)\n   stable-a: 20f45f72fcc2 (local)\n   stable-b: 20f45f72fcc2 (local)\n   stable-c: 20f45f72fcc2 (local)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEnter inspect  c create  m move  x delete  F fetch  P dry-run  ? help  Esc back\n",
+  "scrollback_text": "",
+  "viewport": [
+    [
+      "jk ",
+      [
+        "jj bookmark list",
+        0
+      ]
+    ],
+    [
+      "   demo: 15960d8a8268 (local)"
+    ],
+    [
+      "   review-*: 15960d8a8268 (local)"
+    ],
+    [
+      [
+        "›",
+        0
+      ],
+      "  review-keep: 20f45f72fcc2 (local)"
+    ],
+    [
+      "   stable-a: 20f45f72fcc2 (local)"
+    ],
+    [
+      "   stable-b: 20f45f72fcc2 (local)"
+    ],
+    [
+      "   stable-c: 20f45f72fcc2 (local)"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "Enter inspect  c create  m move  x delete  F fetch  P dry-run  ? help  Esc back"
+    ]
+  ],
+  "scrollback": []
+}

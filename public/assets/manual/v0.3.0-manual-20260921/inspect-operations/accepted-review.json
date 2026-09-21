@@ -1,0 +1,218 @@
+{
+  "schema_version": 1,
+  "source_index": "manual/v0.3.0-manual-20260921/review-index.json",
+  "source_index_sha256": "17efd1f5f9a9c80791c6764f7972f466b4b29257831f2719b0c66b74b784fc16",
+  "review": {
+    "id": "inspect-operations",
+    "title": "Inspect an operation and its repository diff",
+    "status": "ready",
+    "source_tape": "tapes/manual/inspect/inspect-operations.tape",
+    "source_tape_sha256": "dacfc13dde36583e660e94729f453c21f83311d2854d6bda3984ae6e6c362dee",
+    "website": {
+      "path": "assets/manual/v0.3.0-manual-20260921/inspect-operations"
+    },
+    "problems": [],
+    "checkpoints": [
+      {
+        "id": "inspect-operations-log",
+        "png": "inspect-operations-log.png",
+        "state": "inspect-operations-log.json",
+        "png_sha256": "9410e68b9de08be1e955016044a81200296cf1b892961c924f74d16bab261139",
+        "state_sha256": "57db982bd5ac7c15e85a1d8484aad5ece992a212ddedbdc67bad2b0f3f6f5d5a",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/ux_audit/audit_recovery; direct PNG view_image and paired terminal JSON; no Firefox",
+          "reviewed_at": "2026-09-21T03:15:25.168991+00:00",
+          "findings": [],
+          "summary": "Readable operation graph with distinct selected current-operation row, complete operation IDs and action summaries. Long captured setup argv lines clip at the right edge of the 104-column viewport; this is faithfully recorded product content, not a capture defect. Footer and caption remain separate and legible."
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/ux_audit/audit_recovery; direct PNG view_image and paired terminal JSON; no Firefox",
+          "reviewed_at": "2026-09-21T03:15:25.168991+00:00",
+          "findings": [],
+          "summary": "Paired 104x36 state matches the PNG. Eleven styles distinguish blue operation IDs, green workspace/current marker, yellow identity, teal time and magenta argv. The selected ID is 9c2455ad07e9; candidate bookmark creation is visible. Long argv strings are clipped in the terminal state too. This successful log capture does not test UX-08 failure."
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/audit-recovery-ci35556462468.json",
+        "text_style_review_source": "target/manual-recordings/reviews/audit-recovery-ci35556462468.json"
+      },
+      {
+        "id": "inspect-operations-show",
+        "png": "inspect-operations-show.png",
+        "state": "inspect-operations-show.json",
+        "png_sha256": "abff237151d072262a183a41eb8c58841bd5886843f1c6001e5a4fa02e06730a",
+        "state_sha256": "6ad509b02da9afaafd2b4f6edae28142a85d1f82e419df242c01823ff2df18cd",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/ux_audit/audit_recovery; direct PNG view_image and paired terminal JSON; no Firefox",
+          "reviewed_at": "2026-09-21T03:15:25.168991+00:00",
+          "findings": [
+            "UX-15"
+          ],
+          "summary": "Selected operation identity and candidate bookmark addition are legible, with green plus and red absent-state marker. The long argv line clips at the right edge while the action summary and bookmark result remain readable. No setup shell noise or overlay obstruction."
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/ux_audit/audit_recovery; direct PNG view_image and paired terminal JSON; no Firefox",
+          "reviewed_at": "2026-09-21T03:15:25.168991+00:00",
+          "findings": [
+            "UX-15"
+          ],
+          "summary": "Paired 104x36 state has nine styles and agrees with the PNG: op show 9c2455ad07e9, candidate added at 9c809e2d with the forecast-caching description, prior state absent. Blue operation ID, magenta bookmark, green addition and red absence remain distinct. Captured argv ends at candid because of viewport clipping."
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/audit-recovery-ci35556462468.json",
+        "text_style_review_source": "target/manual-recordings/reviews/audit-recovery-ci35556462468.json"
+      },
+      {
+        "id": "inspect-operations-diff",
+        "png": "inspect-operations-diff.png",
+        "state": "inspect-operations-diff.json",
+        "png_sha256": "e9bf08cef6f90cc4c2b41c2ad32f4b3074daec5d72b0704bbf518977bb1f460c",
+        "state_sha256": "8341e680e7c572856b74cac4e7525a38635fba89072d631a84b7e73b587cd138",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/ux_audit/audit_recovery; direct PNG view_image and paired terminal JSON; no Firefox",
+          "reviewed_at": "2026-09-21T03:15:25.168991+00:00",
+          "findings": [
+            "UX-15"
+          ],
+          "summary": "From/To operation rows and candidate bookmark delta are readable. Long operation descriptions clip horizontally, but both operation IDs and the actual added-bookmark result remain visible. Footer and caption are unobstructed."
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/ux_audit/audit_recovery; direct PNG view_image and paired terminal JSON; no Firefox",
+          "reviewed_at": "2026-09-21T03:15:25.168991+00:00",
+          "findings": [
+            "UX-15"
+          ],
+          "summary": "Paired 104x36 state uses eight styles and names fbf8d8e74b18 as From and 9c2455ad07e9 as To. It preserves blue IDs, teal timestamps, green plus, magenta candidate and red absent-state marker. The same candidate transition is shown as operation show; this is success-path inspection, not a failure-recovery capture."
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/audit-recovery-ci35556462468.json",
+        "text_style_review_source": "target/manual-recordings/reviews/audit-recovery-ci35556462468.json"
+      },
+      {
+        "id": "inspect-operations-returned",
+        "png": "inspect-operations-returned.png",
+        "state": "inspect-operations-returned.json",
+        "png_sha256": "9c214f5977e9260f1a7e89c958e652fe153ab185bddf5af829fc8d2567c12116",
+        "state_sha256": "3db9578b1ac35c75b845bb65828a1eee7663eb218933a6ebb3c9d558fe9fada8",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/ux_audit/audit_recovery; direct PNG view_image and paired terminal JSON; no Firefox",
+          "reviewed_at": "2026-09-21T03:15:25.168991+00:00",
+          "findings": [],
+          "summary": "Returns to a clean repository graph with candidate working copy, four change descriptions and root visible. Selected-row marker is distinct; caption accurately says return without undo. No modal or clipped operative graph identity."
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/ux_audit/audit_recovery; direct PNG view_image and paired terminal JSON; no Firefox",
+          "reviewed_at": "2026-09-21T03:15:25.168991+00:00",
+          "findings": [],
+          "summary": "Paired 104x36 state has fourteen styles and preserves candidate 9c809e2d, Experiment with forecast caching and the main ancestor. The retained inspection assertions report unchanged working-copy commit and unchanged visible repository graph. This verifies return without mutation, not Undo/Redo."
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/audit-recovery-ci35556462468.json",
+        "text_style_review_source": "target/manual-recordings/reviews/audit-recovery-ci35556462468.json"
+      }
+    ],
+    "metadata_path": "target/manual-recordings/ci-35556462468/manual-evidence-inspect-operations/capture-metadata.json",
+    "metadata_sha256": "01ff67ea7c407512fc2c7fc0e785f443407a2c1e19d28dddcf7c8de79ab6c861",
+    "evidence_directory": "target/manual-recordings/ci-35556462468/manual-evidence-inspect-operations",
+    "evidence_status": "passed",
+    "source_commit": "770b8802a4fe3ef42e3b80160985bcbddc76b049",
+    "pr_head_commit": "088d04dbc19b5a2b81b674e8986f59e190128de1",
+    "source_manifest_sha256": "42c0d25b424a807906eb4e0ba7ca72b4c0488685e9f57b3bcf62d3f01c6c6915",
+    "source_matches_checkout": true,
+    "binary": {
+      "invoked_path": "/home/runner/work/jk/jk/target/manual-build/jk",
+      "path": "/home/runner/work/jk/jk/target/manual-build/jk",
+      "sha256": "cb41f94b63ec85100829bd2b1e9ced84f37cae912996a48e93b56b8776c9c5ed",
+      "version": "jk 0.3.0",
+      "version_exit_code": 0
+    },
+    "jj": {
+      "invoked_path": "/home/runner/.cargo/bin/jj",
+      "path": "/home/runner/.cargo/bin/jj",
+      "sha256": "cd5efc3eb281d606bf9b5523167f79661da0f8c76a5aa32d61c07c7a351b6b44",
+      "version": "jj 0.45.1-7c41cdeb16b6b321c64e789a966b6adf723816a5",
+      "version_exit_code": 0
+    },
+    "betamax": {
+      "invoked_path": "/home/runner/work/_temp/betamax-D6wh8i/bin/betamax",
+      "path": "/home/runner/work/_temp/betamax-D6wh8i/bin/betamax",
+      "sha256": "db55fa6e7ff98e1df3c91921b5b3fb504b3cc8fdaf6b07e3da952f8757053490",
+      "version": "betamax 0.1.21",
+      "version_exit_code": 0
+    },
+    "ci_run": {
+      "id": "35556462468",
+      "attempt": "1",
+      "url": "https://github.com/joshka/jk/actions/runs/35556462468"
+    },
+    "assertions": [
+      {
+        "path": "inspection-assertions.json",
+        "sha256": "04a70f73633e9d688dcf87aafa0e0a7e5da4888ed2f7c9d7cec0bb5560daebb3",
+        "bytes": 944
+      }
+    ],
+    "video": {
+      "path": "inspect-operations.mp4",
+      "sha256": "a7d2883e01644282628fd0a41f4ed2013431fac3ade6659ce1080167dc129056",
+      "bytes": 947792
+    },
+    "video_review": {
+      "status": "reviewed",
+      "video_sha256": "a7d2883e01644282628fd0a41f4ed2013431fac3ade6659ce1080167dc129056",
+      "reviewer": "Codex /root/ux_audit/audit_recovery; ffprobe, source tape timing, and sampled ffmpeg contact sheet",
+      "reviewed_at": "2026-09-21T03:17:25.682903+00:00",
+      "summary": "Sampled review, not a real-time watch: ffprobe reports 15.866667 seconds, 238 frames at 15 fps. Inspected a 16-frame contact sheet including exact first/last frames, evenly spaced by frame number, against source.tape. The 14 seconds of explicit visible holds (four 2.5-second checkpoints plus two 2-second waits), 70ms typing and transitions agree with the duration. Samples show clean graph opening, operation log, show, candidate search, diff, refreshed log, then an uninterrupted final graph hold; no visible fixture setup or cleanup. Captions remain outside content and the sequence has readable 2\u20132.5-second holds. Operation output clips long metadata lines as UX-15; the video faithfully records that product limitation.",
+      "findings": [
+        "UX-15"
+      ],
+      "duration_seconds": 15.866667,
+      "sample_frame_numbers": [
+        0,
+        16,
+        32,
+        47,
+        63,
+        79,
+        95,
+        111,
+        126,
+        142,
+        158,
+        174,
+        190,
+        205,
+        221,
+        237
+      ],
+      "sample_seconds": [
+        0.0,
+        1.067,
+        2.133,
+        3.133,
+        4.2,
+        5.267,
+        6.333,
+        7.4,
+        8.4,
+        9.467,
+        10.533,
+        11.6,
+        12.667,
+        13.667,
+        14.733,
+        15.8
+      ],
+      "contact_sheet": "target/manual-recordings/reviews/video-samples-audit-recovery-ci35556462468/inspect-operations-contact-sheet.png",
+      "sha256": "a7d2883e01644282628fd0a41f4ed2013431fac3ade6659ce1080167dc129056"
+    },
+    "source_snapshot_status": "preserved",
+    "video_review_source": "target/manual-recordings/reviews/audit-recovery-ci35556462468.json",
+    "pixel_review_complete": true,
+    "text_style_review_complete": true,
+    "video_review_complete": true
+  }
+}

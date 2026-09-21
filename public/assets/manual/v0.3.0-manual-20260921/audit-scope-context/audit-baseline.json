@@ -1,0 +1,10 @@
+{
+  "default": {
+    "description": "Workspace lifecycle demo",
+    "commit": "5416e289bcca973928cd130207ad37c255d67518"
+  },
+  "scratch": {
+    "description": "",
+    "commit": "6ada6fb246788c56c597b6e70031e14ba45d1fcc"
+  }
+}

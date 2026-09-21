@@ -1,0 +1,218 @@
+[
+  {
+    "checkpoint": "manual-rebase-source-after-selector",
+    "viewport_text": "jk jj\n\u203a  @  qwxpuqxy demo@example.invalid 2026-01-01 12:00:00 6ab46272\n\u00b7  \u2502  Rebase source\n   \u2502 \u25cb  psmsqlmk demo@example.invalid 2026-01-01 12:00:00 a5483faf\n   \u251c\u2500\u256f  Rebase destination\n   \u25cb  vwzvwmkt demo@example.invalid 2026-01-01 12:00:00 d9922dd6\n   \u2502  Rebase base\n   ~\n\n\n\n\n\n\n           Choose rebase destination\n\n           Source: 6ab462722ae8\n           Scope: source + descendants (-s)   r revision  b branch  s descendants\n           Place: insert after (-A)   o onto  A after  B before\n           Search: /Rebase destination\n           \u203a a5483faf4c06  Rebase destination\n\n           / search   \u2191/\u2193 choose   Enter preview   Esc cancel\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#52aa60",
+        "bold": true
+      },
+      {
+        "fg": "#d58bf0",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152",
+        "bold": true
+      },
+      {
+        "fg": "#ad9b49",
+        "bold": true
+      },
+      {
+        "fg": "#52c4c0",
+        "bold": true
+      },
+      {
+        "fg": "#76a8f2",
+        "bold": true
+      },
+      {
+        "fg": "#487fd4",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152"
+      },
+      {
+        "fg": "#ad9b49"
+      },
+      {
+        "fg": "#269d9a"
+      },
+      {
+        "fg": "#af5bd1",
+        "bold": true
+      },
+      {
+        "fg": "#65d4cf",
+        "bg": "#242c3a",
+        "bold": true
+      },
+      {
+        "fg": "#e0e6ee",
+        "bg": "#242c3a"
+      },
+      {
+        "fg": "#a1aebe",
+        "bg": "#242c3a"
+      }
+    ],
+    "size": [
+      104,
+      39
+    ]
+  },
+  {
+    "checkpoint": "manual-rebase-source-after-preview",
+    "viewport_text": "jk jj\n\u203a  @  qwxpuqxy demo@example.invalid 2026-01-01 12:00:00 6ab46272\n\u00b7  \u2502  Rebase source\n   \u2502 \u25cb  psmsqlmk demo@example.invalid 2026-01-01 12:00:00 a5483faf\n   \u251c\u2500\u256f  Rebase destination\n   \u25cb  vwzvwmkt demo@example.invalid 2026-01-01 12:00:00 d9922dd6\n   \u2502  Rebase base\n   ~\n\n              Rebase revisions\n\n              Source: 6ab462722ae82a0fefc9a4fe76f6274001674cea\n              Source role: source + descendants\n              Moves the source and all descendants (-s).\n              Destination: a5483faf4c065e42f51ccc925b14d8d33b6e1f1e\n              Placement: insert after\n              Inserts after (-A), rewriting existing descendants, including other\n              workspaces.\n\n              ! Rewrites local history.\n\n              Command\n              jj --no-pager --color always --repository\n              /home/runner/work/jk/jk/target/manual-fixtures/rebase.HE0hm1/workflows.eSLzb\n              0/rebase rebase -s 6ab462722ae82a0fefc9a4fe76f6274001674cea -A\n              a5483faf4c065e42f51ccc925b14d8d33b6e1f1e\n\n\n              enter run  y copy  esc cancel  o options\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#52aa60",
+        "bold": true
+      },
+      {
+        "fg": "#d58bf0",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152",
+        "bold": true
+      },
+      {
+        "fg": "#ad9b49",
+        "bold": true
+      },
+      {
+        "fg": "#52c4c0",
+        "bold": true
+      },
+      {
+        "fg": "#76a8f2",
+        "bold": true
+      },
+      {
+        "fg": "#487fd4",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152"
+      },
+      {
+        "fg": "#ad9b49"
+      },
+      {
+        "fg": "#269d9a"
+      },
+      {
+        "fg": "#af5bd1",
+        "bold": true
+      },
+      {
+        "fg": "#e0e6ee",
+        "bg": "#242c3a"
+      },
+      {
+        "fg": "#65d4cf",
+        "bg": "#242c3a",
+        "bold": true
+      },
+      {
+        "fg": "#eab855",
+        "bg": "#242c3a"
+      },
+      {
+        "fg": "#e0e6ee",
+        "bg": "#242c3a",
+        "bold": true
+      }
+    ],
+    "size": [
+      104,
+      39
+    ]
+  },
+  {
+    "checkpoint": "manual-rebase-source-after-success",
+    "viewport_text": "jk jj\n\u203a  @  qwxpuqxy demo@example.invalid 2026-01-01 12:00:00 1d1fdae2\n\u00b7  \u2502  Rebase source\n   \u25cb  psmsqlmk demo@example.invalid 2026-01-01 12:00:00 a5483faf\n   \u2502  Rebase destination\n   \u25cb  vwzvwmkt demo@example.invalid 2026-01-01 12:00:00 d9922dd6\n   \u2502  Rebase base\n   ~\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                                             \u2713 Rebased revisions \u00b7 a u undo \u00b7 C history \u00b7 o operations\n? help  H home  L log  r refresh  enter open  d diff  v evolog  s status  space mark  o ops  ...  q quit\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#52aa60",
+        "bold": true
+      },
+      {
+        "fg": "#d58bf0",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152",
+        "bold": true
+      },
+      {
+        "fg": "#ad9b49",
+        "bold": true
+      },
+      {
+        "fg": "#52c4c0",
+        "bold": true
+      },
+      {
+        "fg": "#76a8f2",
+        "bold": true
+      },
+      {
+        "fg": "#487fd4",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152"
+      },
+      {
+        "fg": "#ad9b49"
+      },
+      {
+        "fg": "#269d9a"
+      },
+      {
+        "fg": "#af5bd1",
+        "bold": true
+      },
+      {
+        "fg": "#e0e6ee",
+        "bg": "#242c3a"
+      }
+    ],
+    "size": [
+      104,
+      39
+    ]
+  },
+  {
+    "checkpoint": "manual-rebase-source-after-history",
+    "viewport_text": "jk Command History\n\u203a  ok   log rebase             Rebase revisions  stderr: Rebased 2 commits to destination.\n   ok   log load               jj  stderr: Hint: Use `jj -h` for a list of available commands.\n   ok   log load               jj  stderr: Hint: Use `jj -h` for a list of available commands.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n? help  enter details  j/k move  space page  r refresh  o operation  y copy  Esc back  q quit\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#52aa60"
+      },
+      {
+        "fg": "#269d9a"
+      }
+    ],
+    "size": [
+      104,
+      39
+    ]
+  }
+]

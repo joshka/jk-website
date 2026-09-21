@@ -1,0 +1,20 @@
+{
+  "scenario": "manual-command-restrictions",
+  "stage": "inspection",
+  "status": "passed",
+  "repository": "/home/runner/work/jk/jk/target/dogfood-artifacts/fixtures/refs.kCTcqM/client",
+  "assertions": [
+    {
+      "name": "working-copy commit unchanged",
+      "passed": true,
+      "actual": "1d7f5db52643b41ee33d8bcb1ccb3813d5ae4b04",
+      "expected": "1d7f5db52643b41ee33d8bcb1ccb3813d5ae4b04"
+    },
+    {
+      "name": "visible repository graph unchanged",
+      "passed": true,
+      "actual": "0000000000000000000000000000000000000000\n1d7f5db52643b41ee33d8bcb1ccb3813d5ae4b04\n7084ee8c29aa84690d3f70db2fc36b13c86dd174",
+      "expected": "0000000000000000000000000000000000000000\n1d7f5db52643b41ee33d8bcb1ccb3813d5ae4b04\n7084ee8c29aa84690d3f70db2fc36b13c86dd174"
+    }
+  ]
+}

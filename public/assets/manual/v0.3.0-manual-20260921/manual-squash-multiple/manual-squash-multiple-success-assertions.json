@@ -1,0 +1,32 @@
+{
+  "scenario": "manual-squash-multiple",
+  "stage": "manual-squash-multiple-success",
+  "status": "passed",
+  "repository": "/home/runner/work/jk/jk/target/manual-fixtures/squash-multiple.7PW1Z9/workflows.pl823U/squash",
+  "assertions": [
+    {
+      "name": "source patch moved into destination",
+      "passed": true,
+      "actual": "source contents",
+      "expected": "source contents"
+    },
+    {
+      "name": "source revision removed",
+      "passed": true,
+      "actual": [],
+      "expected": []
+    },
+    {
+      "name": "second source patch moved into destination",
+      "passed": true,
+      "actual": "second source contents",
+      "expected": "second source contents"
+    },
+    {
+      "name": "second source revision removed",
+      "passed": true,
+      "actual": [],
+      "expected": []
+    }
+  ]
+}

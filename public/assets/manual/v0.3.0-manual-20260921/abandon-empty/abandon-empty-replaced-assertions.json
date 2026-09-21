@@ -1,0 +1,26 @@
+{
+  "scenario": "abandon-empty",
+  "stage": "abandon-empty-replaced",
+  "status": "passed",
+  "repository": "/home/runner/work/jk/jk/target/forecast-demo.jJUr4y",
+  "assertions": [
+    {
+      "name": "empty abandoned working copy replaced",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "replacement working copy empty",
+      "passed": true,
+      "actual": "true",
+      "expected": "true"
+    },
+    {
+      "name": "abandoned empty description absent",
+      "passed": true,
+      "actual": [],
+      "expected": []
+    }
+  ]
+}

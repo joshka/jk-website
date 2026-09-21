@@ -1,0 +1,110 @@
+{
+  "size": [
+    98,
+    43
+  ],
+  "total_rows": 43,
+  "scrollback_rows": 0,
+  "cursor": {
+    "x": 62,
+    "y": 42,
+    "visible": false
+  },
+  "default_style": {
+    "fg": "#b4bcca",
+    "bg": "#0f141f"
+  },
+  "styles": [
+    {
+      "bold": true
+    },
+    {
+      "fg": "#269d9a",
+      "bold": true
+    }
+  ],
+  "viewport_text": "jk jj workspace list\n›  * default  /home/runner/work/jk/jk/target/manual-fixtures/workspaces.zmNul7/workflows.4NDboK/wo\n     scratch  /home/runner/work/jk/jk/target/manual-fixtures/workspaces.zmNul7/workflows.4NDboK/wo\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nForget workspace metadata succeeded · C history · o operations\n",
+  "scrollback_text": "",
+  "viewport": [
+    [
+      "jk ",
+      [
+        "jj workspace list",
+        0
+      ]
+    ],
+    [
+      [
+        "›",
+        0
+      ],
+      "  ",
+      [
+        "*",
+        1
+      ],
+      " ",
+      [
+        "default",
+        0
+      ],
+      "  /home/runner/work/jk/jk/target/manual-fixtures/workspaces.zmNul7/workflows.4NDboK/wo"
+    ],
+    [
+      "   ",
+      [
+        " ",
+        1
+      ],
+      " ",
+      [
+        "scratch",
+        0
+      ],
+      "  /home/runner/work/jk/jk/target/manual-fixtures/workspaces.zmNul7/workflows.4NDboK/wo"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "Forget workspace metadata succeeded · C history · o operations"
+    ]
+  ],
+  "scrollback": []
+}

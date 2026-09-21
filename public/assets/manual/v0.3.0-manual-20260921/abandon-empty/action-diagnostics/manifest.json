@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "results": [
+    {
+      "tape": "abandon-empty.tape",
+      "status": "passed"
+    }
+  ],
+  "problems": [],
+  "media": [
+    {
+      "name": "betamax-betamax-changes-abandon-empty-r1-m1.abandon-empty.mp4",
+      "label": "abandon-empty.tape (mp4)",
+      "type": "video/mp4"
+    },
+    {
+      "name": "betamax-betamax-changes-abandon-empty-r1-m2.abandon-empty-action.png",
+      "label": "abandon-empty-action.png",
+      "type": "image/png"
+    },
+    {
+      "name": "betamax-betamax-changes-abandon-empty-r1-m3.abandon-empty-replacement.png",
+      "label": "abandon-empty-replacement.png",
+      "type": "image/png"
+    },
+    {
+      "name": "betamax-betamax-changes-abandon-empty-r1-m4.abandon-empty-undone.png",
+      "label": "abandon-empty-undone.png",
+      "type": "image/png"
+    }
+  ]
+}

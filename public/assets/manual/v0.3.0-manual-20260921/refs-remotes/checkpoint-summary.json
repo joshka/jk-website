@@ -1,0 +1,77 @@
+[
+  {
+    "checkpoint": "refs-remotes-choose",
+    "viewport_text": "jk jj bookmark list\n\u203a  demo: 02f7c7e40588 (local)\n   review-keep: 5bf1d2530712 (local)\n   stable-a: 5bf1d2530712 (local)\n   stable-b: 5bf1d2530712 (local)\n   stable-c: 5bf1d2530712 (local)\n\n\n\n\n\n\n\n\n\n\n\n\n                              Fetch from remote\n\n                              > fixture\n\n                              \u2191/\u2193 choose  Enter preview  Esc cancel\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#e0e6ee",
+        "bg": "#242c3a"
+      },
+      {
+        "fg": "#65d4cf",
+        "bg": "#242c3a",
+        "bold": true
+      }
+    ],
+    "size": [
+      98,
+      43
+    ]
+  },
+  {
+    "checkpoint": "refs-remotes-fetch-preview",
+    "viewport_text": "jk jj bookmark list\n\u203a  demo: 02f7c7e40588 (local)\n   review-keep: 5bf1d2530712 (local)\n   stable-a: 5bf1d2530712 (local)\n   stable-b: 5bf1d2530712 (local)\n   stable-c: 5bf1d2530712 (local)\n\n\n\n\n\n\n\n\n\n\n\n           jj git fetch\n\n           Command\n           jj --no-pager --color never --repository\n           /home/runner/work/jk/jk/target/dogfood-artifacts/fixtures/refs.D38HFS/client\n           git fetch --remote 'exact:\"fixture\"'\n\n\n           enter run  y copy  esc cancel\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#e0e6ee",
+        "bg": "#242c3a"
+      },
+      {
+        "fg": "#65d4cf",
+        "bg": "#242c3a",
+        "bold": true
+      },
+      {
+        "fg": "#e0e6ee",
+        "bg": "#242c3a",
+        "bold": true
+      }
+    ],
+    "size": [
+      98,
+      43
+    ]
+  },
+  {
+    "checkpoint": "refs-remotes-fetched",
+    "viewport_text": "jk jj --no-pager --color never --repository /home/runner/work/jk/jk/target/dogfood-artifacts/fixtu\nCommand: jj --no-pager --color never --repository /home/runner/work/jk/jk/target/dogfood-artifacts\nStatus: success\n\nStdout:\n<empty>\n\nStderr:\nbookmark: incoming@fixture [new] untracked\n\nActions: e edit/retry command   : run another jj command\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n? help  V options  r refresh  j/k line  space page  q quit\n",
+    "styles": [
+      {
+        "bold": true
+      }
+    ],
+    "size": [
+      98,
+      43
+    ]
+  },
+  {
+    "checkpoint": "refs-remotes-push-result",
+    "viewport_text": "jk jj --no-pager --color never --repository /home/runner/work/jk/jk/target/dogfood-artifacts/fixtu\nCommand: jj --no-pager --color never --repository /home/runner/work/jk/jk/target/dogfood-artifacts\nStatus: success\n\nStdout:\n<empty>\n\nStderr:\nChanges to push to fixture:\n  bookmark: demo [add to 02f7c7e40588]\nDry-run requested, not pushing.\n\nActions: e edit/retry command   : run another jj command\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n? help  V options  r refresh  j/k line  space page  q quit\n",
+    "styles": [
+      {
+        "bold": true
+      }
+    ],
+    "size": [
+      98,
+      43
+    ]
+  }
+]

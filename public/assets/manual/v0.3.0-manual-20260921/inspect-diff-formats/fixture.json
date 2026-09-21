@@ -1,0 +1,8 @@
+{
+  "repository": "/home/runner/work/jk/jk/target/manual-fixtures/inspection.K7NteH/repo",
+  "kind": "inspection",
+  "initial_commit": "af41f147654162115595716f8320d7aa6abd8d13",
+  "initial_operation": "d79d523d5031d671cbbd4d7ebbe08a343e07848899c570fd58e5a0d237ede610cab60a86ed7f33a243c26958ea7da0a917a4d0e25b735ff5bfad98fdf7dbb7b8",
+  "binary": "/home/runner/work/jk/jk/target/manual-build/jk",
+  "isolated_jj_config": "/dev/null"
+}

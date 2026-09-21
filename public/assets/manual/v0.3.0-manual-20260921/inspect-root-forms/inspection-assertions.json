@@ -1,0 +1,20 @@
+{
+  "scenario": "inspect-root-forms",
+  "stage": "inspection",
+  "status": "passed",
+  "repository": "/home/runner/work/jk/jk/target/manual-fixtures/inspection.g1uiUb/repo",
+  "assertions": [
+    {
+      "name": "working-copy commit unchanged",
+      "passed": true,
+      "actual": "bdca6a22123e432816f52792315428136370f619",
+      "expected": "bdca6a22123e432816f52792315428136370f619"
+    },
+    {
+      "name": "visible repository graph unchanged",
+      "passed": true,
+      "actual": "0000000000000000000000000000000000000000\n2dcd2df5aa91e637946edf6eef0e6591033457b4\n552d4ed767f527e5807e8b0f235d0fd669ee3809\nbdca6a22123e432816f52792315428136370f619\nf6eb8a86680301b983843619d8baa1ea2931abed",
+      "expected": "0000000000000000000000000000000000000000\n2dcd2df5aa91e637946edf6eef0e6591033457b4\n552d4ed767f527e5807e8b0f235d0fd669ee3809\nbdca6a22123e432816f52792315428136370f619\nf6eb8a86680301b983843619d8baa1ea2931abed"
+    }
+  ]
+}

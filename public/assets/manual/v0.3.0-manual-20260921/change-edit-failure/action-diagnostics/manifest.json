@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "results": [
+    {
+      "tape": "change-edit-failure.tape",
+      "status": "passed"
+    }
+  ],
+  "problems": [],
+  "media": [
+    {
+      "name": "betamax-betamax-changes-change-edit-failure-r1-m1.change-edit-failure.mp4",
+      "label": "change-edit-failure.tape (mp4)",
+      "type": "video/mp4"
+    },
+    {
+      "name": "betamax-betamax-changes-change-edit-failure-r1-m2.change-edit-failure-error.png",
+      "label": "change-edit-failure-error.png",
+      "type": "image/png"
+    },
+    {
+      "name": "betamax-betamax-changes-change-edit-failure-r1-m3.change-edit-failure-history.png",
+      "label": "change-edit-failure-history.png",
+      "type": "image/png"
+    }
+  ]
+}

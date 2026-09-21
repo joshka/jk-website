@@ -1,0 +1,20 @@
+{
+  "scenario": "manual-run-options",
+  "stage": "manual-run-options",
+  "status": "passed",
+  "repository": "/home/runner/work/jk/jk/target/manual-fixtures/run-options.meOf38/workflows.TbAz6t/rebase",
+  "assertions": [
+    {
+      "name": "working-copy commit unchanged",
+      "passed": true,
+      "actual": "9d92e920fe8fce97760af20ef82e0ebf4857d0da",
+      "expected": "9d92e920fe8fce97760af20ef82e0ebf4857d0da"
+    },
+    {
+      "name": "visible repository graph unchanged",
+      "passed": true,
+      "actual": "0000000000000000000000000000000000000000\n22e435b3352b3e765ca2870030afd7f6c81a9770\n9d92e920fe8fce97760af20ef82e0ebf4857d0da\nf62c75b7b89fea4d0a319ea1d8751bca79f78539",
+      "expected": "0000000000000000000000000000000000000000\n22e435b3352b3e765ca2870030afd7f6c81a9770\n9d92e920fe8fce97760af20ef82e0ebf4857d0da\nf62c75b7b89fea4d0a319ea1d8751bca79f78539"
+    }
+  ]
+}

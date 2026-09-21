@@ -1,0 +1,8 @@
+{
+  "repository": "/home/runner/work/jk/jk/target/manual-fixtures/run-options.meOf38/workflows.TbAz6t/rebase",
+  "kind": "run-options",
+  "initial_commit": "9d92e920fe8fce97760af20ef82e0ebf4857d0da",
+  "initial_operation": "c0d63ff40082fd9c5caa4e62fded66dff7f83c393fd706a8362c88e81868f556ccfaf5b515a8f9e75ef1cb56bda8a9113643a00f044cbcd7ed551d5707bd8013",
+  "binary": "/home/runner/work/jk/jk/target/manual-build/jk",
+  "isolated_jj_config": "/dev/null"
+}

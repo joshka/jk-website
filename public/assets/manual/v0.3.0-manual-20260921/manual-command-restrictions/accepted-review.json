@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "source_index": "manual/v0.3.0-manual-20260921/review-index.json",
+  "source_index_sha256": "17efd1f5f9a9c80791c6764f7972f466b4b29257831f2719b0c66b74b784fc16",
+  "review": {
+    "id": "manual-command-restrictions",
+    "title": "Use the native confirmation for bookmarks and remotes",
+    "status": "ready",
+    "source_tape": "tapes/manual/execution/manual-command-restrictions.tape",
+    "source_tape_sha256": "ec1cd19886c7bd11b5ecc90c0ac45f1484804b216337acca32e90bd93946ace7",
+    "website": {
+      "path": "assets/manual/v0.3.0-manual-20260921/manual-command-restrictions"
+    },
+    "problems": [],
+    "checkpoints": [
+      {
+        "id": "manual-command-restrictions-bookmark-blocked",
+        "png": "manual-command-restrictions-bookmark-blocked.png",
+        "state": "manual-command-restrictions-bookmark-blocked.json",
+        "png_sha256": "c7fcfdc6e50a984c38aded6ad8788f350aaa7564333c5de547b94a8c975cdb17",
+        "state_sha256": "7d997cde5a21805929e6d1de48fba560f9eccd6d66b38a9566a187cd889c7b78",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "root",
+          "reviewed_at": "2026-09-21T03:40:18.868233+00:00",
+          "summary": "Reviewed all three full-resolution PNGs: blocked bookmark and push prompts display wrapped guard messages with native-key alternatives. Final native fetch confirmation shows the exact remote and full repository argument above the bookmarks list.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "root",
+          "reviewed_at": "2026-09-21T03:40:18.868238+00:00",
+          "summary": "Read all three State JSONs and foreground/background spans. Red guard messages on opaque dark prompt, teal actions and readable neutral preview text match PNGs; background bookmark rows remain visible without bleeding through.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/root-ci35557653700.json",
+        "text_style_review_source": "target/manual-recordings/reviews/root-ci35557653700.json"
+      },
+      {
+        "id": "manual-command-restrictions-push-blocked",
+        "png": "manual-command-restrictions-push-blocked.png",
+        "state": "manual-command-restrictions-push-blocked.json",
+        "png_sha256": "6737cfecc1fce74b7b77b666b44b977330ae2051f28636c1fa67e017b44aeace",
+        "state_sha256": "1669cd1c8ce3a95e0da3e307e3633917d3277ec0948fead7ec4ce58f471c435f",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "root",
+          "reviewed_at": "2026-09-21T03:40:18.868347+00:00",
+          "summary": "Reviewed all three full-resolution PNGs: blocked bookmark and push prompts display wrapped guard messages with native-key alternatives. Final native fetch confirmation shows the exact remote and full repository argument above the bookmarks list.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "root",
+          "reviewed_at": "2026-09-21T03:40:18.868349+00:00",
+          "summary": "Read all three State JSONs and foreground/background spans. Red guard messages on opaque dark prompt, teal actions and readable neutral preview text match PNGs; background bookmark rows remain visible without bleeding through.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/root-ci35557653700.json",
+        "text_style_review_source": "target/manual-recordings/reviews/root-ci35557653700.json"
+      },
+      {
+        "id": "manual-command-restrictions-native-path",
+        "png": "manual-command-restrictions-native-path.png",
+        "state": "manual-command-restrictions-native-path.json",
+        "png_sha256": "d61c5203e7273af69f54df5e6f43fd2e2b6146985f9a2c1d53a5d5ec7c84b752",
+        "state_sha256": "269ffb9a5850d4569b31579d0c236ce79a9082f39032139de9f63acd8308b7e0",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "root",
+          "reviewed_at": "2026-09-21T03:40:18.868460+00:00",
+          "summary": "Reviewed all three full-resolution PNGs: blocked bookmark and push prompts display wrapped guard messages with native-key alternatives. Final native fetch confirmation shows the exact remote and full repository argument above the bookmarks list.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "root",
+          "reviewed_at": "2026-09-21T03:40:18.868462+00:00",
+          "summary": "Read all three State JSONs and foreground/background spans. Red guard messages on opaque dark prompt, teal actions and readable neutral preview text match PNGs; background bookmark rows remain visible without bleeding through.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/root-ci35557653700.json",
+        "text_style_review_source": "target/manual-recordings/reviews/root-ci35557653700.json"
+      }
+    ],
+    "metadata_path": "target/manual-recordings/ci-35557653700/manual-evidence-manual-command-restrictions/capture-metadata.json",
+    "metadata_sha256": "7aab15cd514f2bb077631f321c111cd6553cf6696676d29d9902bf2e06a795dd",
+    "evidence_directory": "target/manual-recordings/ci-35557653700/manual-evidence-manual-command-restrictions",
+    "evidence_status": "passed",
+    "source_commit": "7fcb4fa9af1bb624fcdc7ac14a64184a43c4e829",
+    "pr_head_commit": "d5200f713edc476fd446616ad46fec573f861baf",
+    "source_manifest_sha256": "42c0d25b424a807906eb4e0ba7ca72b4c0488685e9f57b3bcf62d3f01c6c6915",
+    "source_matches_checkout": true,
+    "binary": {
+      "invoked_path": "/home/runner/work/jk/jk/target/manual-build/jk",
+      "path": "/home/runner/work/jk/jk/target/manual-build/jk",
+      "sha256": "cb41f94b63ec85100829bd2b1e9ced84f37cae912996a48e93b56b8776c9c5ed",
+      "version": "jk 0.3.0",
+      "version_exit_code": 0
+    },
+    "jj": {
+      "invoked_path": "/home/runner/.cargo/bin/jj",
+      "path": "/home/runner/.cargo/bin/jj",
+      "sha256": "cd5efc3eb281d606bf9b5523167f79661da0f8c76a5aa32d61c07c7a351b6b44",
+      "version": "jj 0.45.1-7c41cdeb16b6b321c64e789a966b6adf723816a5",
+      "version_exit_code": 0
+    },
+    "betamax": {
+      "invoked_path": "/home/runner/work/_temp/betamax-6x9ID1/bin/betamax",
+      "path": "/home/runner/work/_temp/betamax-6x9ID1/bin/betamax",
+      "sha256": "db55fa6e7ff98e1df3c91921b5b3fb504b3cc8fdaf6b07e3da952f8757053490",
+      "version": "betamax 0.1.21",
+      "version_exit_code": 0
+    },
+    "ci_run": {
+      "id": "35557653700",
+      "attempt": "1",
+      "url": "https://github.com/joshka/jk/actions/runs/35557653700"
+    },
+    "assertions": [
+      {
+        "path": "inspection-assertions.json",
+        "sha256": "65c0b0236336086092f7cad9ae3c52422a15186324a9ad2f416bd45ee5bdda89",
+        "bytes": 792
+      }
+    ],
+    "video": {
+      "path": "manual-command-restrictions.mp4",
+      "sha256": "c823b1941f76bfa7ab46ea9fde13c9860badabaeb4f2dff478af3408330b7349",
+      "bytes": 346250
+    },
+    "video_review": {
+      "status": "reviewed",
+      "reviewer": "root",
+      "reviewed_at": "2026-09-21T03:40:18.868463+00:00",
+      "summary": "Reviewed 29.8-second MP4 from three-second decoded samples plus final half-second frame and all source-tape holds. Create/move/delete and fetch/push/push-dry-run rejections each pause; final B then F path ends on readable fetch confirmation with a three-second hold.",
+      "findings": [],
+      "sha256": "c823b1941f76bfa7ab46ea9fde13c9860badabaeb4f2dff478af3408330b7349"
+    },
+    "source_snapshot_status": "preserved",
+    "video_review_source": "target/manual-recordings/reviews/root-ci35557653700.json",
+    "pixel_review_complete": true,
+    "text_style_review_complete": true,
+    "video_review_complete": true
+  }
+}

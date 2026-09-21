@@ -1,0 +1,36 @@
+---
+import ManualLayout from '../../layouts/ManualLayout.astro';
+import { commands, coverage, supportLabel } from '../../lib/manual-data';
+import { media } from '../../lib/manual-media';
+import { manualLink } from '../../lib/manual';
+const recorded = new Set(media.scenarios.map((scenario) => scenario.id));
+---
+
+<ManualLayout title="Coverage map" slug="coverage"
+  description="Trace each implemented form from its manual chapter to recorded scenarios, repository checks, and UX findings.">
+  <p>The inventory is checked against jk's command builders, CLI arguments, and interaction routes.
+    Native support, explicit command-mode alternatives, and unavailable forms are separate.
+    Each recording includes checks of the resulting repository.</p>
+  <p>{commands.length} command, option, and interaction entries · {coverage.scenarios.length} scenarios ·
+    {' '}{recorded.size} permanent recordings.</p>
+  <p>Command mode forwards explicit jj commands. Illustrative forwarded forms without a scenario link
+    have not been exercised by this collection; the manual does not claim full jj CLI coverage.</p>
+  <div class="manual-table-scroll" role="region" aria-label="Command coverage" tabindex="0">
+  <table>
+    <caption class="sr-only">Command forms, support, workflow guides, scenarios, and UX findings</caption>
+    <thead><tr><th scope="col">Form</th><th scope="col">Support and guide</th><th scope="col">Scenarios</th><th scope="col">Findings</th></tr></thead>
+    <tbody>{commands.map((command) => (
+      <tr>
+        <td><a href={`${manualLink('reference')}#${command.id}`}>{command.title}</a><br /><code>{command.jj_form}</code></td>
+        <td><span class="manual-badge" data-support={command.support}>{supportLabel[command.support]}</span><br /><a href={manualLink(command.manual_slug)}>{command.manual_slug.replaceAll('-', ' ')}</a></td>
+        <td>{command.scenario_ids.length > 0
+          ? command.scenario_ids.map((id) => <p><a href={`${manualLink('recordings')}#${id}`}>{id}</a></p>)
+          : command.support === 'unavailable' ? 'Outside the native workflow' : 'Forwarded example; no exact-form recording'}</td>
+        <td>{command.finding_ids.length > 0
+          ? command.finding_ids.map((id) => <p><a href={`${manualLink('audit')}#${id.toLowerCase()}`}>{id}</a></p>)
+          : 'No finding linked'}</td>
+      </tr>
+    ))}</tbody>
+  </table>
+  </div>
+</ManualLayout>

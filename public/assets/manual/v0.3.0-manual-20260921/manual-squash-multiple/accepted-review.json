@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "source_index": "manual/v0.3.0-manual-20260921/review-index.json",
+  "source_index_sha256": "17efd1f5f9a9c80791c6764f7972f466b4b29257831f2719b0c66b74b784fc16",
+  "review": {
+    "id": "manual-squash-multiple",
+    "title": "Combine several sources into one change",
+    "status": "ready",
+    "source_tape": "tapes/manual/rewrite/manual-squash-multiple.tape",
+    "source_tape_sha256": "df14ae2d87ecc14654ecdefe168632ea1ca190d924b86c47e4c34fee0c075709",
+    "website": {
+      "path": "assets/manual/v0.3.0-manual-20260921/manual-squash-multiple"
+    },
+    "problems": [],
+    "checkpoints": [
+      {
+        "id": "manual-squash-multiple-preview",
+        "png": "manual-squash-multiple-preview.png",
+        "state": "manual-squash-multiple-preview.json",
+        "png_sha256": "47057c343db53d1b2aac865ade65f88274ea50c99c6fe36ee79e8a5471973814",
+        "state_sha256": "f51c440cfec9e3a66e3200c258966d0d10bcf3750e6b26a568aa955c059626d9",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "ux_audit",
+          "reviewed_at": "2026-09-21T03:18:48.159157+00:00",
+          "summary": "Opaque preview keeps real marked graph visible. Two source hashes and destination hash need graph matching; whole-change scope, destination message and all controls fit.",
+          "findings": [
+            "UX-03",
+            "UX-04",
+            "UX-06"
+          ]
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "ux_audit",
+          "reviewed_at": "2026-09-21T03:18:48.159157+00:00",
+          "summary": "17 styles; #242c3a surface/#e0e6ee content, #65d4cf keys, #eab855 risk; source order and exact wrapped argv retained.",
+          "findings": [
+            "UX-03",
+            "UX-04",
+            "UX-06"
+          ]
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/ux-audit-ci35556462468.json",
+        "text_style_review_source": "target/manual-recordings/reviews/ux-audit-ci35556462468.json"
+      },
+      {
+        "id": "manual-squash-multiple-success",
+        "png": "manual-squash-multiple-success.png",
+        "state": "manual-squash-multiple-success.json",
+        "png_sha256": "230c4fec60d32e6f1e7b1ca3b5c09f9c246e87c67930539a347dfd0ed8b6d86d",
+        "state_sha256": "67147df9ffe3ee92f4c1f064d7675afe8ce11f49de24d92529a2559c4a0e2e3b",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "ux_audit",
+          "reviewed_at": "2026-09-21T03:18:48.159157+00:00",
+          "summary": "Both sources disappear, destination remains and success toast includes Undo/History; graph and footer legible.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "ux_audit",
+          "reviewed_at": "2026-09-21T03:18:48.159157+00:00",
+          "summary": "15 styles preserve jj graph colors and readable success text; new empty working copy and destination commit visible.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/ux-audit-ci35556462468.json",
+        "text_style_review_source": "target/manual-recordings/reviews/ux-audit-ci35556462468.json"
+      },
+      {
+        "id": "manual-squash-multiple-recovered",
+        "png": "manual-squash-multiple-recovered.png",
+        "state": "manual-squash-multiple-recovered.json",
+        "png_sha256": "7d10065bef9b03412c1e72fe2a883754a10f4d67b8dcf398f661abad073bdd65",
+        "state_sha256": "b0e2f368f03cb22b91452466b2355c1e3f9d1bf241c9b0103c045b2319060832",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "ux_audit",
+          "reviewed_at": "2026-09-21T03:18:48.159157+00:00",
+          "summary": "Undo restores both original source rows and destination; outcome toast visible.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "ux_audit",
+          "reviewed_at": "2026-09-21T03:18:48.159157+00:00",
+          "summary": "14 styles; original three commit identities and descriptions restored; exact repository assertions confirm baseline.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/ux-audit-ci35556462468.json",
+        "text_style_review_source": "target/manual-recordings/reviews/ux-audit-ci35556462468.json"
+      }
+    ],
+    "metadata_path": "target/manual-recordings/ci-35556462468/manual-evidence-manual-squash-multiple/capture-metadata.json",
+    "metadata_sha256": "f2eb0d173e3949ebda9b541d2e22213487aaa6699c0e1ff7d1dae11e8f323aa0",
+    "evidence_directory": "target/manual-recordings/ci-35556462468/manual-evidence-manual-squash-multiple",
+    "evidence_status": "passed",
+    "source_commit": "770b8802a4fe3ef42e3b80160985bcbddc76b049",
+    "pr_head_commit": "088d04dbc19b5a2b81b674e8986f59e190128de1",
+    "source_manifest_sha256": "42c0d25b424a807906eb4e0ba7ca72b4c0488685e9f57b3bcf62d3f01c6c6915",
+    "source_matches_checkout": true,
+    "binary": {
+      "invoked_path": "/home/runner/work/jk/jk/target/manual-build/jk",
+      "path": "/home/runner/work/jk/jk/target/manual-build/jk",
+      "sha256": "cb41f94b63ec85100829bd2b1e9ced84f37cae912996a48e93b56b8776c9c5ed",
+      "version": "jk 0.3.0",
+      "version_exit_code": 0
+    },
+    "jj": {
+      "invoked_path": "/home/runner/.cargo/bin/jj",
+      "path": "/home/runner/.cargo/bin/jj",
+      "sha256": "cd5efc3eb281d606bf9b5523167f79661da0f8c76a5aa32d61c07c7a351b6b44",
+      "version": "jj 0.45.1-7c41cdeb16b6b321c64e789a966b6adf723816a5",
+      "version_exit_code": 0
+    },
+    "betamax": {
+      "invoked_path": "/home/runner/work/_temp/betamax-WQhMOw/bin/betamax",
+      "path": "/home/runner/work/_temp/betamax-WQhMOw/bin/betamax",
+      "sha256": "db55fa6e7ff98e1df3c91921b5b3fb504b3cc8fdaf6b07e3da952f8757053490",
+      "version": "betamax 0.1.21",
+      "version_exit_code": 0
+    },
+    "ci_run": {
+      "id": "35556462468",
+      "attempt": "1",
+      "url": "https://github.com/joshka/jk/actions/runs/35556462468"
+    },
+    "assertions": [
+      {
+        "path": "manual-squash-multiple-cancelled-assertions.json",
+        "sha256": "d72ae00918b07641b472b2166614ef13b72efb777992fea8d9b0c75a71873bca",
+        "bytes": 910
+      },
+      {
+        "path": "manual-squash-multiple-success-assertions.json",
+        "sha256": "970210962231346a0d81b07a37dd664438f5ee660ec33695368864a28299e7c6",
+        "bytes": 825
+      },
+      {
+        "path": "manual-squash-multiple-undone-assertions.json",
+        "sha256": "9e6e559f64ed3775f1cb4d71a9481f7994ab0a0b13bc600f84ca4fa39d24c308",
+        "bytes": 907
+      }
+    ],
+    "video": {
+      "path": "manual-squash-multiple.mp4",
+      "sha256": "c3fa81032170feb01073255f35e980c008ade014a451a9fa8cc0721cb37da397",
+      "bytes": 329725
+    },
+    "video_review": {
+      "status": "reviewed",
+      "reviewer": "ux_audit",
+      "reviewed_at": "2026-09-21T03:18:48.159157+00:00",
+      "sha256": "c3fa81032170feb01073255f35e980c008ade014a451a9fa8cc0721cb37da397",
+      "summary": "Inspected a 12-frame evenly spaced filmstrip spanning beginning and final hold, full-resolution checkpoint PNGs, ffprobe duration 20.733s, and source-tape 80ms typing with 2\u20133s teaching holds. Sampled frames show the actual decision, cancellation/success, and final recovery in sequence without exposed setup. This was sampled pacing review, not a continuous realtime watch.",
+      "findings": []
+    },
+    "source_snapshot_status": "preserved",
+    "video_review_source": "target/manual-recordings/reviews/ux-audit-ci35556462468.json",
+    "pixel_review_complete": true,
+    "text_style_review_complete": true,
+    "video_review_complete": true
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "results": [
+    {
+      "tape": "manual-dialog-auto.tape",
+      "status": "passed"
+    }
+  ],
+  "problems": [],
+  "media": [
+    {
+      "name": "betamax-betamax-execution-manual-dialog-auto-r1-m1.manual-dialog-auto.mp4",
+      "label": "manual-dialog-auto.tape (mp4)",
+      "type": "video/mp4"
+    },
+    {
+      "name": "betamax-betamax-execution-manual-dialog-auto-r1-m2.manual-dialog-auto-actions.png",
+      "label": "manual-dialog-auto-actions.png",
+      "type": "image/png"
+    },
+    {
+      "name": "betamax-betamax-execution-manual-dialog-auto-r1-m3.manual-dialog-auto-description.png",
+      "label": "manual-dialog-auto-description.png",
+      "type": "image/png"
+    },
+    {
+      "name": "betamax-betamax-execution-manual-dialog-auto-r1-m4.manual-dialog-auto-help.png",
+      "label": "manual-dialog-auto-help.png",
+      "type": "image/png"
+    }
+  ]
+}

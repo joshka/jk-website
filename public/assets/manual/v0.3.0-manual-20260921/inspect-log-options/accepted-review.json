@@ -1,0 +1,180 @@
+{
+  "schema_version": 1,
+  "source_index": "manual/v0.3.0-manual-20260921/review-index.json",
+  "source_index_sha256": "17efd1f5f9a9c80791c6764f7972f466b4b29257831f2719b0c66b74b784fc16",
+  "review": {
+    "id": "inspect-log-options",
+    "title": "Choose the right amount of log detail",
+    "status": "ready",
+    "source_tape": "tapes/manual/inspect/inspect-log-options.tape",
+    "source_tape_sha256": "8e21db0b82026689070a71c82f7ce42c4bc40faaea50d9b337e18b02e5797f99",
+    "website": {
+      "path": "assets/manual/v0.3.0-manual-20260921/inspect-log-options"
+    },
+    "problems": [],
+    "checkpoints": [
+      {
+        "id": "inspect-log-options-selector",
+        "png": "inspect-log-options-selector.png",
+        "state": "inspect-log-options-selector.json",
+        "png_sha256": "ff3fec9d95d0366ee53d073e401b0d99fe278ac89a920c0c3029ddd5c9fb9305",
+        "state_sha256": "77703121b6709669a8846555ee5ae011e279cd7c2112e8c31144f91cb03a04d3",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "inspection agent",
+          "reviewed_at": "2026-09-21T03:36:03.847223+00:00",
+          "summary": "The centered Log template dialog has an opaque filled surface, readable choices and keyboard hints, with the populated graph visible around it. Configured is selected.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "inspection agent",
+          "reviewed_at": "2026-09-21T03:36:03.847223+00:00",
+          "summary": "State contains all seven template choices. Dialog background differs from the graph and teal labels/selection marker contrast with normal descriptive text; the selection is configured.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/inspection-ci35557653700.json",
+        "text_style_review_source": "target/manual-recordings/reviews/inspection-ci35557653700.json"
+      },
+      {
+        "id": "inspect-log-options-full-description",
+        "png": "inspect-log-options-full-description.png",
+        "state": "inspect-log-options-full-description.json",
+        "png_sha256": "be6e543a5ad8c1f1900690e3b3c4f2a3fcf0d49a817142056653e6376cc1142c",
+        "state_sha256": "18ddd957da2783ad80df6e48d1c05270aabd0b6809d0d6f13d8a602f9d14e70b",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "inspection agent",
+          "reviewed_at": "2026-09-21T03:36:03.847223+00:00",
+          "summary": "The full-description compact graph is readable and the command title identifies the chosen builtin. Descriptions stay adjacent to their revision metadata.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "inspection agent",
+          "reviewed_at": "2026-09-21T03:36:03.847223+00:00",
+          "summary": "Title is builtin_log_compact_full_description, all expected revisions remain, and the state preserves differentiated IDs, identity, timestamps and bookmarks.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/inspection-ci35557653700.json",
+        "text_style_review_source": "target/manual-recordings/reviews/inspection-ci35557653700.json"
+      },
+      {
+        "id": "inspect-log-options-oneline",
+        "png": "inspect-log-options-oneline.png",
+        "state": "inspect-log-options-oneline.json",
+        "png_sha256": "42e732d4e8796a96a8d713524afa486d740014d3d726c1c312e04356a620ffbb",
+        "state_sha256": "c64a6bb569b452967fbbd85370465d05fdddcdafe5b5fe9002d4325852dee015",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "inspection agent",
+          "reviewed_at": "2026-09-21T03:36:03.847223+00:00",
+          "summary": "The oneline template compresses each revision into one readable graph row without losing descriptions or bookmarks.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "inspection agent",
+          "reviewed_at": "2026-09-21T03:36:03.847223+00:00",
+          "summary": "Title is builtin_log_oneline. Expected revision descriptions and bookmark labels remain on their compact rows with normal jj color distinctions.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/inspection-ci35557653700.json",
+        "text_style_review_source": "target/manual-recordings/reviews/inspection-ci35557653700.json"
+      },
+      {
+        "id": "inspect-log-options-configured",
+        "png": "inspect-log-options-configured.png",
+        "state": "inspect-log-options-configured.json",
+        "png_sha256": "d631414a5ca14982734e8899822fe0adc777f541e13217c2165eb9a82b28bb58",
+        "state_sha256": "1219268be55c0986b18ecba603d875bf34bc8c0580b8870c5032f42e9ab3147c",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "inspection agent",
+          "reviewed_at": "2026-09-21T03:36:03.847223+00:00",
+          "summary": "The configured template is restored with the original populated graph and selected working copy. Caption correctly explains that presentation changes do not rewrite changes.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "inspection agent",
+          "reviewed_at": "2026-09-21T03:36:03.847223+00:00",
+          "summary": "Title returns to jk jj log without a template override. The state matches the original described history and preserves all revision styles.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/inspection-ci35557653700.json",
+        "text_style_review_source": "target/manual-recordings/reviews/inspection-ci35557653700.json"
+      }
+    ],
+    "metadata_path": "target/manual-recordings/ci-35557653700/manual-evidence-inspect-log-options/capture-metadata.json",
+    "metadata_sha256": "c0a6af1ecb2a9d4b9420a3b39acf3ddf6132e0b9b5704f13f5575a79cde0f1f2",
+    "evidence_directory": "target/manual-recordings/ci-35557653700/manual-evidence-inspect-log-options",
+    "evidence_status": "passed",
+    "source_commit": "7fcb4fa9af1bb624fcdc7ac14a64184a43c4e829",
+    "pr_head_commit": "d5200f713edc476fd446616ad46fec573f861baf",
+    "source_manifest_sha256": "42c0d25b424a807906eb4e0ba7ca72b4c0488685e9f57b3bcf62d3f01c6c6915",
+    "source_matches_checkout": true,
+    "binary": {
+      "invoked_path": "/home/runner/work/jk/jk/target/manual-build/jk",
+      "path": "/home/runner/work/jk/jk/target/manual-build/jk",
+      "sha256": "cb41f94b63ec85100829bd2b1e9ced84f37cae912996a48e93b56b8776c9c5ed",
+      "version": "jk 0.3.0",
+      "version_exit_code": 0
+    },
+    "jj": {
+      "invoked_path": "/home/runner/.cargo/bin/jj",
+      "path": "/home/runner/.cargo/bin/jj",
+      "sha256": "cd5efc3eb281d606bf9b5523167f79661da0f8c76a5aa32d61c07c7a351b6b44",
+      "version": "jj 0.45.1-7c41cdeb16b6b321c64e789a966b6adf723816a5",
+      "version_exit_code": 0
+    },
+    "betamax": {
+      "invoked_path": "/home/runner/work/_temp/betamax-7JM3ut/bin/betamax",
+      "path": "/home/runner/work/_temp/betamax-7JM3ut/bin/betamax",
+      "sha256": "db55fa6e7ff98e1df3c91921b5b3fb504b3cc8fdaf6b07e3da952f8757053490",
+      "version": "betamax 0.1.21",
+      "version_exit_code": 0
+    },
+    "ci_run": {
+      "id": "35557653700",
+      "attempt": "1",
+      "url": "https://github.com/joshka/jk/actions/runs/35557653700"
+    },
+    "assertions": [
+      {
+        "path": "inspection-assertions.json",
+        "sha256": "bf1186d219b5d65bb7c98a6f3e3a8724d78e76c5cd58d53ed6c78d0a20e7b1e1",
+        "bytes": 945
+      }
+    ],
+    "video": {
+      "path": "inspect-log-options.mp4",
+      "sha256": "359106a8906f0fd4e11355f61ef87e36e5859f1c29285cdfe77e2a9e494881ad",
+      "bytes": 627143
+    },
+    "video_review": {
+      "status": "reviewed",
+      "reviewer": "inspection agent",
+      "reviewed_at": "2026-09-21T03:36:03.847223+00:00",
+      "summary": "Sampled review, not a real-time watch: inspected all four full-resolution PNGs and styled terminal states, captured source tape, ffprobe metadata (27.4s, 411 frames at 15fps, 1400x840), and actual MP4 frames at 0, 5, 10, 13, 17, 20, 24 and 27 seconds. The 2\u20132.5-second source holds and 70ms typing give readable pacing. Samples show clean configured opening, selector cancellation, comfortable and compact layouts, detailed selection, oneline and redacted, then configured restoration. Corrected comfortable/compact/detailed/redacted captions now match each demonstration; the earlier stale-caption problem is resolved. Opaque selectors retain surrounding real graph content and no setup or cleanup appears.",
+      "findings": [],
+      "sha256": "359106a8906f0fd4e11355f61ef87e36e5859f1c29285cdfe77e2a9e494881ad",
+      "duration_seconds": 27.4,
+      "sample_seconds": [
+        0,
+        5,
+        10,
+        13,
+        17,
+        20,
+        24,
+        27
+      ]
+    },
+    "source_snapshot_status": "preserved",
+    "video_review_source": "target/manual-recordings/reviews/inspection-ci35557653700.json",
+    "pixel_review_complete": true,
+    "text_style_review_complete": true,
+    "video_review_complete": true
+  }
+}

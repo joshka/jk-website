@@ -1,0 +1,400 @@
+{
+  "size": [
+    104,
+    39
+  ],
+  "total_rows": 39,
+  "scrollback_rows": 0,
+  "cursor": {
+    "x": 91,
+    "y": 29,
+    "visible": false
+  },
+  "default_style": {
+    "fg": "#b4bcca",
+    "bg": "#0f141f"
+  },
+  "styles": [
+    {
+      "bold": true
+    },
+    {
+      "fg": "#52aa60",
+      "bold": true
+    },
+    {
+      "fg": "#d58bf0",
+      "bold": true
+    },
+    {
+      "fg": "#3a4152",
+      "bold": true
+    },
+    {
+      "fg": "#ad9b49",
+      "bold": true
+    },
+    {
+      "fg": "#52c4c0",
+      "bold": true
+    },
+    {
+      "fg": "#76a8f2",
+      "bold": true
+    },
+    {
+      "fg": "#487fd4",
+      "bold": true
+    },
+    {
+      "fg": "#3a4152"
+    },
+    {
+      "fg": "#ad9b49"
+    },
+    {
+      "fg": "#269d9a"
+    },
+    {
+      "fg": "#af5bd1",
+      "bold": true
+    },
+    {
+      "fg": "#52aa60"
+    },
+    {
+      "fg": "#e0e6ee",
+      "bg": "#242c3a"
+    },
+    {
+      "fg": "#65d4cf",
+      "bg": "#242c3a",
+      "bold": true
+    },
+    {
+      "fg": "#eab855",
+      "bg": "#242c3a"
+    },
+    {
+      "fg": "#e0e6ee",
+      "bg": "#242c3a",
+      "bold": true
+    }
+  ],
+  "viewport_text": "jk jj\n * @  wrxwmpnk alex@example.invalid 2026-01-01 12:00:00 009f2ef4\n   │  Squash second source\n * ○  qspvuztq demo@example.invalid 2026-01-01 12:00:00 98549241\n   │  Squash source\n›  ○  qzokrkon demo@example.invalid 2026-01-01 12:00:00 ee6cccab\n·  │  Squash destination\n   ◆  zzzzzzzz root() 00000000\n\n\n              jj squash into ee6cccab815b86ef822a0e58accb16fadcec07d1\n\n              Source 1: 009f2ef4df11a52d27e4bfe389a215e964b9988e\n              Source 2: 9854924186b049144f7b767ee5d0ad6ac018eed9\n              Destination: ee6cccab815b86ef822a0e58accb16fadcec07d1\n              Scope: whole changes\n              Message: keep destination description\n\n              ! Rewrites local history.\n\n              Command\n              jj --no-pager --color always --repository\n              /home/runner/work/jk/jk/target/manual-fixtures/squash-multiple.7PW1Z9/workfl\n              ows.pl823U/squash squash --from 009f2ef4df11a52d27e4bfe389a215e964b9988e\n              --from 9854924186b049144f7b767ee5d0ad6ac018eed9 --into\n              ee6cccab815b86ef822a0e58accb16fadcec07d1 --use-destination-message\n\n\n              enter run  y copy  esc cancel  o options\n",
+  "scrollback_text": "",
+  "viewport": [
+    [
+      "jk ",
+      [
+        "jj",
+        0
+      ]
+    ],
+    [
+      " * ",
+      [
+        "@",
+        1
+      ],
+      "  ",
+      [
+        "w",
+        2
+      ],
+      [
+        "rxwmpnk",
+        3
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "alex@example.invalid",
+        4
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "2026-01-01 12:00:00",
+        5
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "009",
+        6
+      ],
+      [
+        "f2ef4",
+        3
+      ]
+    ],
+    [
+      "   │  ",
+      [
+        "Squash second source",
+        0
+      ]
+    ],
+    [
+      " * ○  ",
+      [
+        "qs",
+        7
+      ],
+      [
+        "pvuztq",
+        8
+      ],
+      " ",
+      [
+        "demo@example.invalid",
+        9
+      ],
+      " ",
+      [
+        "2026-01-01 12:00:00",
+        10
+      ],
+      " ",
+      [
+        "9",
+        11
+      ],
+      [
+        "8549241",
+        8
+      ]
+    ],
+    [
+      "   │  Squash source"
+    ],
+    [
+      [
+        "›",
+        0
+      ],
+      "  ○  ",
+      [
+        "qz",
+        7
+      ],
+      [
+        "okrkon",
+        8
+      ],
+      " ",
+      [
+        "demo@example.invalid",
+        9
+      ],
+      " ",
+      [
+        "2026-01-01 12:00:00",
+        10
+      ],
+      " ",
+      [
+        "e",
+        11
+      ],
+      [
+        "e6cccab",
+        8
+      ]
+    ],
+    [
+      [
+        "·",
+        0
+      ],
+      "  │  Squash destination"
+    ],
+    [
+      "   ",
+      [
+        "◆",
+        5
+      ],
+      "  ",
+      [
+        "z",
+        7
+      ],
+      [
+        "zzzzzzz",
+        8
+      ],
+      " ",
+      [
+        "root()",
+        12
+      ],
+      " ",
+      [
+        "000",
+        11
+      ],
+      [
+        "00000",
+        8
+      ]
+    ],
+    [],
+    [],
+    [
+      "             ",
+      [
+        " ",
+        13
+      ],
+      [
+        "jj squash into ee6cccab815b86ef822a0e58accb16fadcec07d1",
+        14
+      ]
+    ],
+    [],
+    [
+      "             ",
+      [
+        " Source 1: 009f2ef4df11a52d27e4bfe389a215e964b9988e",
+        13
+      ]
+    ],
+    [
+      "             ",
+      [
+        " Source 2: 9854924186b049144f7b767ee5d0ad6ac018eed9",
+        13
+      ]
+    ],
+    [
+      "             ",
+      [
+        " Destination: ee6cccab815b86ef822a0e58accb16fadcec07d1",
+        13
+      ]
+    ],
+    [
+      "             ",
+      [
+        " Scope: whole changes",
+        13
+      ]
+    ],
+    [
+      "             ",
+      [
+        " Message: keep destination description",
+        13
+      ]
+    ],
+    [],
+    [
+      "             ",
+      [
+        " ",
+        13
+      ],
+      [
+        "! Rewrites local history.",
+        15
+      ]
+    ],
+    [],
+    [
+      "             ",
+      [
+        " ",
+        13
+      ],
+      [
+        "Command",
+        16
+      ]
+    ],
+    [
+      "             ",
+      [
+        " jj --no-pager --color always --repository",
+        13
+      ]
+    ],
+    [
+      "             ",
+      [
+        " /home/runner/work/jk/jk/target/manual-fixtures/squash-multiple.7PW1Z9/workfl",
+        13
+      ]
+    ],
+    [
+      "             ",
+      [
+        " ows.pl823U/squash squash --from 009f2ef4df11a52d27e4bfe389a215e964b9988e",
+        13
+      ]
+    ],
+    [
+      "             ",
+      [
+        " --from 9854924186b049144f7b767ee5d0ad6ac018eed9 --into",
+        13
+      ]
+    ],
+    [
+      "             ",
+      [
+        " ee6cccab815b86ef822a0e58accb16fadcec07d1 --use-destination-message",
+        13
+      ]
+    ],
+    [],
+    [],
+    [
+      "             ",
+      [
+        " ",
+        13
+      ],
+      [
+        "enter",
+        14
+      ],
+      [
+        " run  ",
+        13
+      ],
+      [
+        "y",
+        14
+      ],
+      [
+        " copy  ",
+        13
+      ],
+      [
+        "esc",
+        14
+      ],
+      [
+        " cancel  ",
+        13
+      ],
+      [
+        "o",
+        14
+      ],
+      [
+        " options",
+        13
+      ]
+    ]
+  ],
+  "scrollback": []
+}

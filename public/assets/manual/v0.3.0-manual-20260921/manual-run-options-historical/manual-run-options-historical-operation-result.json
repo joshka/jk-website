@@ -1,0 +1,110 @@
+{
+  "size": [
+    104,
+    39
+  ],
+  "total_rows": 39,
+  "scrollback_rows": 0,
+  "cursor": {
+    "x": 93,
+    "y": 38,
+    "visible": false
+  },
+  "default_style": {
+    "fg": "#b4bcca",
+    "bg": "#0f141f"
+  },
+  "styles": [
+    {
+      "bold": true
+    }
+  ],
+  "viewport_text": "jk Command 3\nCommand: jj --no-pager --color always --repository /home/runner/work/jk/jk/target/manual-fixtures/run-op\nSource: log rebase\nStatus: success\nDuration: 20 ms\nOperation: none\nSummary: stderr: Rebased 1 commits to destination.\n\nStdout:\n  bytes: 0\n  lines: 0\n  truncated: no\n  redacted: no\n  <empty>\n\nStderr:\n  bytes: 34\n  lines: 1\n  truncated: no\n  redacted: no\n\nRebased 1 commits to destination.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n? help  V options  r refresh  j/k line  space page  q quit\n",
+  "scrollback_text": "",
+  "viewport": [
+    [
+      "jk ",
+      [
+        "Command 3",
+        0
+      ]
+    ],
+    [
+      "Command: jj --no-pager --color always --repository /home/runner/work/jk/jk/target/manual-fixtures/run-op"
+    ],
+    [
+      "Source: log rebase"
+    ],
+    [
+      "Status: success"
+    ],
+    [
+      "Duration: 20 ms"
+    ],
+    [
+      "Operation: none"
+    ],
+    [
+      "Summary: stderr: Rebased 1 commits to destination."
+    ],
+    [],
+    [
+      "Stdout:"
+    ],
+    [
+      "  bytes: 0"
+    ],
+    [
+      "  lines: 0"
+    ],
+    [
+      "  truncated: no"
+    ],
+    [
+      "  redacted: no"
+    ],
+    [
+      "  <empty>"
+    ],
+    [],
+    [
+      "Stderr:"
+    ],
+    [
+      "  bytes: 34"
+    ],
+    [
+      "  lines: 1"
+    ],
+    [
+      "  truncated: no"
+    ],
+    [
+      "  redacted: no"
+    ],
+    [],
+    [
+      "Rebased 1 commits to destination."
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "? help  V options  r refresh  j/k line  space page  q quit"
+    ]
+  ],
+  "scrollback": []
+}

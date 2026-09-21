@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "source_index": "manual/v0.3.0-manual-20260921/review-index.json",
+  "source_index_sha256": "17efd1f5f9a9c80791c6764f7972f466b4b29257831f2719b0c66b74b784fc16",
+  "review": {
+    "id": "abandon-probe-failure",
+    "title": "Cancel when the empty-change check fails",
+    "status": "ready",
+    "source_tape": "tapes/manual/changes/abandon-probe-failure.tape",
+    "source_tape_sha256": "e9e31d48e9437371baefc7bd768cfb9ca7171bdaa511324b2c16a6918d933076",
+    "website": {
+      "path": "assets/manual/v0.3.0-manual-20260921/abandon-probe-failure"
+    },
+    "problems": [],
+    "checkpoints": [
+      {
+        "id": "abandon-probe-failure-warning",
+        "png": "abandon-probe-failure-warning.png",
+        "state": "abandon-probe-failure-warning.json",
+        "png_sha256": "9c4795bd47948f370cad27d019ae1c2f9d6f93fedc411d91bc8874362986d211",
+        "state_sha256": "74b056a2ac7a62b5702ed211707bb9557d3ead205020f6d088d63b0cbee14766",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "ux_audit",
+          "reviewed_at": "2026-09-21T03:18:48.159157+00:00",
+          "summary": "Opaque warning names failed emptiness check and consequences, defaults to Cancel, with all controls visible over populated graph.",
+          "findings": [
+            "UX-06"
+          ]
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "ux_audit",
+          "reviewed_at": "2026-09-21T03:18:48.159157+00:00",
+          "summary": "22 styles; #eab855 warning, #52c4c0 Cancel, #782d32 destructive action, #a1aebe recovery copy on #242c3a; no dropped warning text.",
+          "findings": [
+            "UX-06"
+          ]
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/ux-audit-ci35556462468.json",
+        "text_style_review_source": "target/manual-recordings/reviews/ux-audit-ci35556462468.json"
+      },
+      {
+        "id": "abandon-probe-failure-cancelled",
+        "png": "abandon-probe-failure-cancelled.png",
+        "state": "abandon-probe-failure-cancelled.json",
+        "png_sha256": "42bee8ff8e171d3e45e70d8b946f0e78b2130912caccf14aad4600a5af3d0e5d",
+        "state_sha256": "5ab40177c03d1127d6cafac422fe19f6d9a7a7acad9d5f5339701ae1076c50b1",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "ux_audit",
+          "reviewed_at": "2026-09-21T03:18:48.159157+00:00",
+          "summary": "Cancel returns to unchanged original graph; caption correctly says no repository mutation.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "ux_audit",
+          "reviewed_at": "2026-09-21T03:18:48.159157+00:00",
+          "summary": "14 styles; exact selected commit and baseline graph remain; cancellation assertions passed.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/ux-audit-ci35556462468.json",
+        "text_style_review_source": "target/manual-recordings/reviews/ux-audit-ci35556462468.json"
+      }
+    ],
+    "metadata_path": "target/manual-recordings/ci-35556462468/manual-evidence-abandon-probe-failure/capture-metadata.json",
+    "metadata_sha256": "9867c4f18b9680ba9a2d871655914681972f36b2914cdd2ee7911c7aa4b050bb",
+    "evidence_directory": "target/manual-recordings/ci-35556462468/manual-evidence-abandon-probe-failure",
+    "evidence_status": "passed",
+    "source_commit": "770b8802a4fe3ef42e3b80160985bcbddc76b049",
+    "pr_head_commit": "088d04dbc19b5a2b81b674e8986f59e190128de1",
+    "source_manifest_sha256": "42c0d25b424a807906eb4e0ba7ca72b4c0488685e9f57b3bcf62d3f01c6c6915",
+    "source_matches_checkout": true,
+    "binary": {
+      "invoked_path": "/home/runner/work/jk/jk/target/manual-build/jk",
+      "path": "/home/runner/work/jk/jk/target/manual-build/jk",
+      "sha256": "cb41f94b63ec85100829bd2b1e9ced84f37cae912996a48e93b56b8776c9c5ed",
+      "version": "jk 0.3.0",
+      "version_exit_code": 0
+    },
+    "jj": {
+      "invoked_path": "/home/runner/.cargo/bin/jj",
+      "path": "/home/runner/.cargo/bin/jj",
+      "sha256": "cd5efc3eb281d606bf9b5523167f79661da0f8c76a5aa32d61c07c7a351b6b44",
+      "version": "jj 0.45.1-7c41cdeb16b6b321c64e789a966b6adf723816a5",
+      "version_exit_code": 0
+    },
+    "betamax": {
+      "invoked_path": "/home/runner/work/_temp/betamax-1Ptd0y/bin/betamax",
+      "path": "/home/runner/work/_temp/betamax-1Ptd0y/bin/betamax",
+      "sha256": "db55fa6e7ff98e1df3c91921b5b3fb504b3cc8fdaf6b07e3da952f8757053490",
+      "version": "betamax 0.1.21",
+      "version_exit_code": 0
+    },
+    "ci_run": {
+      "id": "35556462468",
+      "attempt": "1",
+      "url": "https://github.com/joshka/jk/actions/runs/35556462468"
+    },
+    "assertions": [
+      {
+        "path": "abandon-probe-failure-assertions.json",
+        "sha256": "1097f9149f4bdc6e4a866b2b2d8b2c60319d036561d575b95bb1d262654756bb",
+        "bytes": 1024
+      }
+    ],
+    "video": {
+      "path": "abandon-probe-failure.mp4",
+      "sha256": "439941512b3f3d26f82d89f6c9959c2f051c937621d34f2adbb14461e8736c39",
+      "bytes": 154699
+    },
+    "video_review": {
+      "status": "reviewed",
+      "reviewer": "ux_audit",
+      "reviewed_at": "2026-09-21T03:18:48.159157+00:00",
+      "sha256": "439941512b3f3d26f82d89f6c9959c2f051c937621d34f2adbb14461e8736c39",
+      "summary": "Inspected a 12-frame evenly spaced filmstrip spanning beginning and final hold, full-resolution checkpoint PNGs, ffprobe duration 11.467s, and source-tape 80ms typing with 2\u20133s teaching holds. Sampled frames show the actual decision, cancellation/success, and final recovery in sequence without exposed setup. This was sampled pacing review, not a continuous realtime watch.",
+      "findings": []
+    },
+    "source_snapshot_status": "preserved",
+    "video_review_source": "target/manual-recordings/reviews/ux-audit-ci35556462468.json",
+    "pixel_review_complete": true,
+    "text_style_review_complete": true,
+    "video_review_complete": true
+  }
+}

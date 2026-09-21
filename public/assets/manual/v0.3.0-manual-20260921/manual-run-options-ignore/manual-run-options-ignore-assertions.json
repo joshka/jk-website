@@ -1,0 +1,32 @@
+{
+  "scenario": "manual-run-options-ignore",
+  "stage": "manual-run-options-ignore",
+  "status": "passed",
+  "repository": "/home/runner/work/jk/jk/target/manual-fixtures/run-options.uIxGSF/workflows.NyXSQU/rebase",
+  "assertions": [
+    {
+      "name": "ignore leaves source file unchanged",
+      "passed": true,
+      "actual": "source contents\n",
+      "expected": "source contents\n"
+    },
+    {
+      "name": "ignore does not write destination file",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "ignore still rebases the recorded source",
+      "passed": true,
+      "actual": "Rebase destination",
+      "expected": "Rebase destination"
+    },
+    {
+      "name": "ignore still records the rebase",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "scenario": "manual-rebase-source-after",
+  "stage": "manual-rebase-source-after",
+  "status": "passed",
+  "repository": "/home/runner/work/jk/jk/target/manual-fixtures/rebase.HE0hm1/workflows.eSLzb0/rebase",
+  "assertions": [
+    {
+      "name": "source content retained",
+      "passed": true,
+      "actual": "source contents\n",
+      "expected": "source contents\n"
+    },
+    {
+      "name": "source descendants remain",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "name": "destination descendants remain",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "name": "source parent is selected destination",
+      "passed": true,
+      "actual": "Rebase destination",
+      "expected": "Rebase destination"
+    },
+    {
+      "name": "source or branch retains source descendant",
+      "passed": true,
+      "actual": "Rebase source",
+      "expected": "Rebase source"
+    },
+    {
+      "name": "insert-after relocates old destination descendant",
+      "passed": true,
+      "actual": "Verify source",
+      "expected": "Verify source"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "scenario": "manual-restore",
+  "stage": "manual-restore-cancelled",
+  "status": "passed",
+  "repository": "/home/runner/work/jk/jk/target/manual-fixtures/restore.RifzV3/workflows.KjyLLA/restore",
+  "assertions": [
+    {
+      "name": "working-copy commit unchanged",
+      "passed": true,
+      "actual": "1e36af2a5364ba1e7a730768691a540a9a3856fd",
+      "expected": "1e36af2a5364ba1e7a730768691a540a9a3856fd"
+    },
+    {
+      "name": "visible repository graph unchanged",
+      "passed": true,
+      "actual": "0000000000000000000000000000000000000000\n1b5a0b97f2521ed2b27ad7ffbf4c8f89dc2c3255\n1e36af2a5364ba1e7a730768691a540a9a3856fd",
+      "expected": "0000000000000000000000000000000000000000\n1b5a0b97f2521ed2b27ad7ffbf4c8f89dc2c3255\n1e36af2a5364ba1e7a730768691a540a9a3856fd"
+    }
+  ]
+}

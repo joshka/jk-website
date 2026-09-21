@@ -1,0 +1,208 @@
+{
+  "schema_version": 1,
+  "source_index": "manual/v0.3.0-manual-20260921/review-index.json",
+  "source_index_sha256": "17efd1f5f9a9c80791c6764f7972f466b4b29257831f2719b0c66b74b784fc16",
+  "review": {
+    "id": "inspect-diff-compare",
+    "title": "Compare two revisions in every diff format",
+    "status": "ready",
+    "source_tape": "tapes/manual/inspect/inspect-diff-compare.tape",
+    "source_tape_sha256": "8bb02c118cf2785bebf1b22f4310858dcc203162bd4cdb3fc92173e2640d9083",
+    "website": {
+      "path": "assets/manual/v0.3.0-manual-20260921/inspect-diff-compare"
+    },
+    "problems": [],
+    "checkpoints": [
+      {
+        "id": "inspect-diff-compare-range",
+        "png": "inspect-diff-compare-range.png",
+        "state": "inspect-diff-compare-range.json",
+        "png_sha256": "2d9f03c8569abf298731d2ea8d2b0672360ffcc81b6386802bc57e593f82d1bc",
+        "state_sha256": "fef6104c6f2bc813e1f60e5196bdce60af7006959d92e37b1e8be4e6e9773920",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/ux_audit/audit_recovery; direct PNG view_image and paired terminal JSON; no Firefox",
+          "reviewed_at": "2026-09-21T03:15:25.168991+00:00",
+          "findings": [],
+          "summary": "Header clearly identifies main to candidate in Git format. README additions, timeout replacement and first cache hunk remain legible. Red/green patch lines and teal hunk headers are clear; lower content continues beyond the viewport as expected for this first-page checkpoint."
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/ux_audit/audit_recovery; direct PNG view_image and paired terminal JSON; no Firefox",
+          "reviewed_at": "2026-09-21T03:15:25.168991+00:00",
+          "findings": [],
+          "summary": "Paired 104x36 state has six styles. Header preserves --from main --to candidate --git. Green additions and red removals, including 60 to 120, retain single underline on changed tokens; hunk headings are teal. No plain-text-only inference was used for styling. Repository assertions pass with unchanged working-copy commit and graph."
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/audit-recovery-ci35556462468.json",
+        "text_style_review_source": "target/manual-recordings/reviews/audit-recovery-ci35556462468.json"
+      },
+      {
+        "id": "inspect-diff-compare-color-words",
+        "png": "inspect-diff-compare-color-words.png",
+        "state": "inspect-diff-compare-color-words.json",
+        "png_sha256": "d4f90aab5ddc08d300a04b2014dfcab4a23946577ea7c601dbe2e060a384b940",
+        "state_sha256": "8b53dcbe5be606c6240f1c9b70d741a8e7f5b2b642b69f0dd8e4b65aa4bc5fc3",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/ux_audit/audit_recovery; direct PNG view_image and paired terminal JSON; no Firefox",
+          "reviewed_at": "2026-09-21T03:15:25.168991+00:00",
+          "findings": [],
+          "summary": "Same main-to-candidate comparison is rendered in color-words with all four file headings visible. Line numbers, changed tokens and selected README header are readable. Adjacent red 60 and green 120 visually distinguish the inline replacement; the caption agrees with the displayed operands."
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/ux_audit/audit_recovery; direct PNG view_image and paired terminal JSON; no Firefox",
+          "reviewed_at": "2026-09-21T03:15:25.168991+00:00",
+          "findings": [],
+          "summary": "Paired 104x36 state has eight styles and retains --from main --to candidate --color-words. Inspected styled span pair encodes 60 as red #c26265 with single underline and 120 as green #52aa60 with single underline, despite viewport_text joining them as 60120. File 1/4 and added src/forecast.js establish tree-range scope."
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/audit-recovery-ci35556462468.json",
+        "text_style_review_source": "target/manual-recordings/reviews/audit-recovery-ci35556462468.json"
+      },
+      {
+        "id": "inspect-diff-compare-revision",
+        "png": "inspect-diff-compare-revision.png",
+        "state": "inspect-diff-compare-revision.json",
+        "png_sha256": "4a9318cb5d5da5a1d619d51185b252cb7fcfdb009aa74c9f81c1b245f34cb794",
+        "state_sha256": "f8fa79343477d880f5467b26c7c6f3143cfa420566d971aef5d0538c7d3a9272",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/ux_audit/audit_recovery; direct PNG view_image and paired terminal JSON; no Firefox",
+          "reviewed_at": "2026-09-21T03:15:25.168991+00:00",
+          "findings": [],
+          "summary": "Header identifies diff -r @, and the screenshot displays the three files changed by the current revision rather than the four-file range. Line numbers, two separated cache edits and footer remain legible. Caption correctly distinguishes revision-to-parent content from the prior tree comparison."
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/ux_audit/audit_recovery; direct PNG view_image and paired terminal JSON; no Firefox",
+          "reviewed_at": "2026-09-21T03:15:25.168991+00:00",
+          "findings": [],
+          "summary": "Paired 104x36 state uses eight styles and shows jj diff -r @, file 1/3, README/config/cache content and no added forecast.js. Red/green inline replacement and faint old/new line-number styles remain present. The state and PNG agree; repository assertions report no mutation."
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/audit-recovery-ci35556462468.json",
+        "text_style_review_source": "target/manual-recordings/reviews/audit-recovery-ci35556462468.json"
+      },
+      {
+        "id": "inspect-diff-compare-root-color-words",
+        "png": "inspect-diff-compare-root-color-words.png",
+        "state": "inspect-diff-compare-root-color-words.json",
+        "png_sha256": "1a4ac9d7abf7b79d0abcc0d981e8e5046e9d68fd0c6ee4e8dc838426c852ae6a",
+        "state_sha256": "e7ab42bf202a6caf8444b75e720085a12ca3d2ee3f6061a713eb629e348bb741",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/ux_audit/audit_recovery; direct PNG view_image and paired terminal JSON; no Firefox",
+          "reviewed_at": "2026-09-21T03:15:25.168991+00:00",
+          "findings": [],
+          "summary": "Explicit startup --color-words appears in the header with the same readable three-file revision patch. Current file cue, hunk gaps and footer remain clear, and the caption matches the root-command demonstration."
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/ux_audit/audit_recovery; direct PNG view_image and paired terminal JSON; no Firefox",
+          "reviewed_at": "2026-09-21T03:15:25.168991+00:00",
+          "findings": [],
+          "summary": "Paired 104x36 state retains jj diff -r @ --color-words, file 1/3 and the same eight-style patch as the preceding configured-format view. Red deletion and green addition spans with underline remain intact, including the adjacent 60/120 replacement. No mutation is reported by repository assertions."
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/audit-recovery-ci35556462468.json",
+        "text_style_review_source": "target/manual-recordings/reviews/audit-recovery-ci35556462468.json"
+      }
+    ],
+    "metadata_path": "target/manual-recordings/ci-35556462468/manual-evidence-inspect-diff-compare/capture-metadata.json",
+    "metadata_sha256": "22d536159dbf3ee88fcc3513a7c89d8e5f1c25157decc7233c6e65a8210d0154",
+    "evidence_directory": "target/manual-recordings/ci-35556462468/manual-evidence-inspect-diff-compare",
+    "evidence_status": "passed",
+    "source_commit": "770b8802a4fe3ef42e3b80160985bcbddc76b049",
+    "pr_head_commit": "088d04dbc19b5a2b81b674e8986f59e190128de1",
+    "source_manifest_sha256": "42c0d25b424a807906eb4e0ba7ca72b4c0488685e9f57b3bcf62d3f01c6c6915",
+    "source_matches_checkout": true,
+    "binary": {
+      "invoked_path": "/home/runner/work/jk/jk/target/manual-build/jk",
+      "path": "/home/runner/work/jk/jk/target/manual-build/jk",
+      "sha256": "cb41f94b63ec85100829bd2b1e9ced84f37cae912996a48e93b56b8776c9c5ed",
+      "version": "jk 0.3.0",
+      "version_exit_code": 0
+    },
+    "jj": {
+      "invoked_path": "/home/runner/.cargo/bin/jj",
+      "path": "/home/runner/.cargo/bin/jj",
+      "sha256": "cd5efc3eb281d606bf9b5523167f79661da0f8c76a5aa32d61c07c7a351b6b44",
+      "version": "jj 0.45.1-7c41cdeb16b6b321c64e789a966b6adf723816a5",
+      "version_exit_code": 0
+    },
+    "betamax": {
+      "invoked_path": "/home/runner/work/_temp/betamax-LGVi6e/bin/betamax",
+      "path": "/home/runner/work/_temp/betamax-LGVi6e/bin/betamax",
+      "sha256": "db55fa6e7ff98e1df3c91921b5b3fb504b3cc8fdaf6b07e3da952f8757053490",
+      "version": "betamax 0.1.21",
+      "version_exit_code": 0
+    },
+    "ci_run": {
+      "id": "35556462468",
+      "attempt": "1",
+      "url": "https://github.com/joshka/jk/actions/runs/35556462468"
+    },
+    "assertions": [
+      {
+        "path": "inspection-assertions.json",
+        "sha256": "dfce7b75533c0db2e3160082e2dc42b3329915774e0c650554c69bc040a846bb",
+        "bytes": 946
+      }
+    ],
+    "video": {
+      "path": "inspect-diff-compare.mp4",
+      "sha256": "b1ff56ba4843317f91bf323bd26c7b8a917f8c565047d00d6222728a1397117e",
+      "bytes": 742664
+    },
+    "video_review": {
+      "status": "reviewed",
+      "video_sha256": "b1ff56ba4843317f91bf323bd26c7b8a917f8c565047d00d6222728a1397117e",
+      "reviewer": "Codex /root/ux_audit/audit_recovery; ffprobe, source tape timing, and sampled ffmpeg contact sheet",
+      "reviewed_at": "2026-09-21T03:17:25.682903+00:00",
+      "summary": "Sampled review, not a real-time watch: ffprobe reports 28.4 seconds, 426 frames at 15 fps. Inspected a 16-frame contact sheet including exact first/last frames, evenly spaced by frame number, against source.tape. The tape provides 22 seconds of visible holds (four 2.5-second checkpoints and six 2-second format waits), two 300ms returns and 70ms typing/transitions, consistent with duration. Samples cover Git range, configured patch, summary, stat, types, name-only, Git again, filled View Options over actual patch content, color-words range, revision patch, deliberate short root-command typing, and final explicit color-words hold. Opening/closing are clean app views, captions track the demonstrated operands, and setup/cleanup is hidden.",
+      "findings": [],
+      "duration_seconds": 28.4,
+      "sample_frame_numbers": [
+        0,
+        28,
+        57,
+        85,
+        113,
+        142,
+        170,
+        198,
+        227,
+        255,
+        283,
+        312,
+        340,
+        368,
+        397,
+        425
+      ],
+      "sample_seconds": [
+        0.0,
+        1.867,
+        3.8,
+        5.667,
+        7.533,
+        9.467,
+        11.333,
+        13.2,
+        15.133,
+        17.0,
+        18.867,
+        20.8,
+        22.667,
+        24.533,
+        26.467,
+        28.333
+      ],
+      "contact_sheet": "target/manual-recordings/reviews/video-samples-audit-recovery-ci35556462468/inspect-diff-compare-contact-sheet.png",
+      "sha256": "b1ff56ba4843317f91bf323bd26c7b8a917f8c565047d00d6222728a1397117e"
+    },
+    "source_snapshot_status": "preserved",
+    "video_review_source": "target/manual-recordings/reviews/audit-recovery-ci35556462468.json",
+    "pixel_review_complete": true,
+    "text_style_review_complete": true,
+    "video_review_complete": true
+  }
+}

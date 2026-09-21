@@ -1,0 +1,186 @@
+[
+  {
+    "checkpoint": "manual-cancel-refresh-loading",
+    "viewport_text": "jk jj\n\u203a  @  wxuwosmn demo@example.invalid 2026-01-01 12:00:00 405044d7\n\u00b7  \u2502  Experiment with forecast caching\n   \u25cb  yxnvknzt demo@example.invalid 2026-01-01 12:00:00 fd58c910\n   \u2502  Configure request timeouts\n   \u25cb  nsrywxuo demo@example.invalid 2026-01-01 12:00:00 d0fba287\n   \u2502  Add the forecast endpoint\n   \u25cb  qzyownww alex@example.com 2026-01-01 12:00:00 44448bc2\n   \u2502  Document the forecast service\n   \u25c6  zzzzzzzz root() 00000000\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRefreshing\u2026  ? help  H home  L log  r refresh  enter open  d diff  v evolog  s status  ...  q quit\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#52aa60",
+        "bold": true
+      },
+      {
+        "fg": "#d58bf0",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152",
+        "bold": true
+      },
+      {
+        "fg": "#ad9b49",
+        "bold": true
+      },
+      {
+        "fg": "#52c4c0",
+        "bold": true
+      },
+      {
+        "fg": "#76a8f2",
+        "bold": true
+      },
+      {
+        "fg": "#487fd4",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152"
+      },
+      {
+        "fg": "#ad9b49"
+      },
+      {
+        "fg": "#269d9a"
+      },
+      {
+        "fg": "#af5bd1",
+        "bold": true
+      },
+      {
+        "fg": "#52aa60"
+      }
+    ],
+    "size": [
+      104,
+      39
+    ]
+  },
+  {
+    "checkpoint": "manual-cancel-refresh-replaced",
+    "viewport_text": "jk jj\n   @  wxuwosmn demo@example.invalid 2026-01-01 12:00:00 405044d7\n   \u2502  Experiment with forecast caching\n\u203a  \u25cb  yxnvknzt demo@example.invalid 2026-01-01 12:00:00 fd58c910\n\u00b7  \u2502  Configure request timeouts\n   \u25cb  nsrywxuo demo@example.invalid 2026-01-01 12:00:00 d0fba287\n   \u2502  Add the forecast endpoint\n   \u25cb  qzyownww alex@example.com 2026-01-01 12:00:00 44448bc2\n   \u2502  Document the forecast service\n   \u25c6  zzzzzzzz root() 00000000\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n? help  H home  L log  r refresh  enter open  d diff  v evolog  s status  space mark  o ops  ...  q quit\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#52aa60",
+        "bold": true
+      },
+      {
+        "fg": "#d58bf0",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152",
+        "bold": true
+      },
+      {
+        "fg": "#ad9b49",
+        "bold": true
+      },
+      {
+        "fg": "#52c4c0",
+        "bold": true
+      },
+      {
+        "fg": "#76a8f2",
+        "bold": true
+      },
+      {
+        "fg": "#487fd4",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152"
+      },
+      {
+        "fg": "#ad9b49"
+      },
+      {
+        "fg": "#269d9a"
+      },
+      {
+        "fg": "#af5bd1",
+        "bold": true
+      },
+      {
+        "fg": "#52aa60"
+      }
+    ],
+    "size": [
+      104,
+      39
+    ]
+  },
+  {
+    "checkpoint": "manual-cancel-refresh-failure",
+    "viewport_text": "jk jj\n   @  wxuwosmn demo@example.invalid 2026-01-01 12:00:00 405044d7\n   \u2502  Experiment with forecast caching\n\u203a  \u25cb  yxnvknzt demo@example.invalid 2026-01-01 12:00:00 fd58c910\n\u00b7  \u2502  Configure request timeouts\n   \u25cb  nsrywxuo demo@example.invalid 2026-01-01 12:00:00 d0fba287\n   \u2502  Add the forecast endpoint\n   \u25cb  qzyownww alex@example.com 2026-01-01 12:00:00 44448bc2\n   \u2502  Document the forecast service\n   \u25c6  zzzzzzzz root() 00000000\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRefresh failed: jj failed: \u2026  ? help  H home  L log  r refresh  enter open  d diff  ...  q quit\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#52aa60",
+        "bold": true
+      },
+      {
+        "fg": "#d58bf0",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152",
+        "bold": true
+      },
+      {
+        "fg": "#ad9b49",
+        "bold": true
+      },
+      {
+        "fg": "#52c4c0",
+        "bold": true
+      },
+      {
+        "fg": "#76a8f2",
+        "bold": true
+      },
+      {
+        "fg": "#487fd4",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152"
+      },
+      {
+        "fg": "#ad9b49"
+      },
+      {
+        "fg": "#269d9a"
+      },
+      {
+        "fg": "#af5bd1",
+        "bold": true
+      },
+      {
+        "fg": "#52aa60"
+      }
+    ],
+    "size": [
+      104,
+      39
+    ]
+  },
+  {
+    "checkpoint": "manual-cancel-refresh-details",
+    "viewport_text": "jk Command 6\nCommand: jj --no-pager --color always --repository /home/runner/work/jk/jk/target/forecast-demo.LTdbpS -\nSource: log refresh\nStatus: exit 1\nDuration: 10 ms\nOperation: none\nSummary: exit 1: fixture refresh failed\n\nStdout:\n  bytes: 0\n  lines: 0\n  truncated: no\n  redacted: no\n  <empty>\n\nStderr:\n  bytes: 23\n  lines: 1\n  truncated: no\n  redacted: no\n\nfixture refresh failed\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n? help  V options  r refresh  j/k line  space page  q quit\n",
+    "styles": [
+      {
+        "bold": true
+      }
+    ],
+    "size": [
+      104,
+      39
+    ]
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "scenario": "change-edit-failure",
+  "stage": "change-edit-failure",
+  "status": "passed",
+  "repository": "/home/runner/work/jk/jk/target/forecast-demo.K8Ua30",
+  "assertions": [
+    {
+      "name": "working-copy commit unchanged",
+      "passed": true,
+      "actual": "68d8fc6f47f4f03d5108b37ea0aed845d7e7d6d3",
+      "expected": "68d8fc6f47f4f03d5108b37ea0aed845d7e7d6d3"
+    },
+    {
+      "name": "visible repository graph unchanged",
+      "passed": true,
+      "actual": "0000000000000000000000000000000000000000\n68d8fc6f47f4f03d5108b37ea0aed845d7e7d6d3\n719f7a393769d3123db983e9aa45e263d58bab54\n854f99096f754a89108a879c6304baabf80b15a0\na418b8827762c324e7da7c03607a745f467b7334",
+      "expected": "0000000000000000000000000000000000000000\n68d8fc6f47f4f03d5108b37ea0aed845d7e7d6d3\n719f7a393769d3123db983e9aa45e263d58bab54\n854f99096f754a89108a879c6304baabf80b15a0\na418b8827762c324e7da7c03607a745f467b7334"
+    }
+  ]
+}

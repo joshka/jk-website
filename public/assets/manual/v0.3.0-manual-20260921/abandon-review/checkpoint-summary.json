@@ -1,0 +1,293 @@
+[
+  {
+    "checkpoint": "abandon-review-decision",
+    "viewport_text": "jk jj\n   @  wnpknrpx demo@example.invalid 2026-01-01 12:00:00 3a3ef9e7\n   \u2502  Document cache metrics\n   \u25cb  kuyrlyoz demo@example.invalid 2026-01-01 12:00:00 f5422ec2\n   \u2502  Add cache metrics\n\u203a  \u25cb  qsnqxlpq demo@example.invalid 2026-01-01 12:00:00 67e96905\n\u00b7  \u2502  Tune forecast caching\n   \u25cb  wsvsvmyk demo@example.invalid 2026-01-01 12:00:00 59c895e3\n   \u2502  Configure re   Abandon this change?\n   \u25cb  wtuuzyss dem\n   \u2502  Add the fore   qsnqxlpq  Tune forecast caching\n   \u25cb  ynzzxuyy ale\n   \u2502  Document the   Changes to abandon (3 files):\n   \u25c6  zzzzzzzz roo\n                     D  README.md                                           +0 \u22123\n                     M  config.json                                         +1 \u22121\n                     A  src/cache.js                                        +5 \u22120\n\n                     Abandon removes this change and its edits from history.\n                     2 descendant changes will be rebased onto its parents.\n                     Recover with Undo in the action menu.\n\n\n                         View diff        > Cancel <        Abandon change\n\n\n                     Tab/\u2190/\u2192 choose \u00b7 Enter/Space select\n                     y abandon \u00b7 n/Esc cancel\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#52aa60",
+        "bold": true
+      },
+      {
+        "fg": "#d58bf0",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152",
+        "bold": true
+      },
+      {
+        "fg": "#ad9b49",
+        "bold": true
+      },
+      {
+        "fg": "#52c4c0",
+        "bold": true
+      },
+      {
+        "fg": "#76a8f2",
+        "bold": true
+      },
+      {
+        "fg": "#487fd4",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152"
+      },
+      {
+        "fg": "#ad9b49"
+      },
+      {
+        "fg": "#269d9a"
+      },
+      {
+        "fg": "#af5bd1",
+        "bold": true
+      },
+      {
+        "fg": "#e0e6ee",
+        "bg": "#242c3a"
+      },
+      {
+        "fg": "#65d4cf",
+        "bg": "#242c3a",
+        "bold": true
+      },
+      {
+        "fg": "#e0e6ee",
+        "bg": "#242c3a",
+        "bold": true
+      },
+      {
+        "fg": "#52aa60"
+      },
+      {
+        "fg": "#c26265",
+        "bg": "#242c3a"
+      },
+      {
+        "fg": "#52aa60",
+        "bg": "#242c3a"
+      },
+      {
+        "fg": "#eab855",
+        "bg": "#242c3a"
+      },
+      {
+        "fg": "#a1aebe",
+        "bg": "#242c3a"
+      },
+      {
+        "fg": "#e0e6ee",
+        "bg": "#3a485a"
+      },
+      {
+        "fg": "#0f1d23",
+        "bg": "#52c4c0",
+        "bold": true
+      },
+      {
+        "fg": "#ffebeb",
+        "bg": "#782d32"
+      }
+    ],
+    "size": [
+      104,
+      39
+    ]
+  },
+  {
+    "checkpoint": "abandon-review-diff",
+    "viewport_text": "jk jj\n   @  wnpknrpx dem   Changes to abandon\n   \u2502  Document cac\n   \u25cb  kuyrlyoz dem   qsnqxlpq  Tune forecast caching\n   \u2502  Add cache me\n\u203a  \u25cb  qsnqxlpq dem   diff --git a/README.md b/README.md                             \u25b2\n\u00b7  \u2502  Tune forecas   deleted file mode 100644                                       \u2588\n   \u25cb  wsvsvmyk dem   index 7ff332c830..0000000000                                   \u2588\n   \u2502  Configure re   --- a/README.md                                                \u2588\n   \u25cb  wtuuzyss dem   +++ /dev/null                                                  \u2588\n   \u2502  Add the fore   @@ -1,3 +0,0 @@                                                \u2588\n   \u25cb  ynzzxuyy ale   -# Forecast service                                            \u2588\n   \u2502  Document the   -                                                              \u2588\n   \u25c6  zzzzzzzz roo   -A small service for local weather forecasts.                  \u2588\n                     diff --git a/config.json b/config.json                         \u2588\n                     index f8aed8a9c3..ce5492e67d 100644                            \u2588\n                     --- a/config.json                                              \u2588\n                     +++ b/config.json                                              \u2551\n                     @@ -1,4 +1,4 @@                                                \u2551\n                      {                                                             \u2551\n                        \"requestTimeoutMs\": 3000,                                   \u2551\n                     -  \"cacheTtlSeconds\": 60                                       \u2551\n                     +  \"cacheTtlSeconds\": 120                                      \u2551\n                      }                                                             \u2551\n                     diff --git a/src/cache.js b/src/cache.js                       \u2551\n                     new file mode 100644                                           \u2551\n                     index 0000000000..af2729bede                                   \u2551\n                     --- /dev/null                                                  \u2551\n                     +++ b/src/cache.js                                             \u2551\n                     @@ -0,0 +1,5 @@                                                \u25bc\n\n\n\n                        > Back <\n\n                     \u2191/\u2193 PgUp/PgDn scroll \u00b7 Esc/Enter back\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#52aa60",
+        "bold": true
+      },
+      {
+        "fg": "#d58bf0",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152",
+        "bold": true
+      },
+      {
+        "fg": "#ad9b49",
+        "bold": true
+      },
+      {
+        "fg": "#e0e6ee",
+        "bg": "#242c3a"
+      },
+      {
+        "fg": "#65d4cf",
+        "bg": "#242c3a",
+        "bold": true
+      },
+      {
+        "fg": "#487fd4",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152"
+      },
+      {
+        "fg": "#ad9b49"
+      },
+      {
+        "fg": "#e0e6ee",
+        "bg": "#242c3a",
+        "bold": true
+      },
+      {
+        "fg": "#c26265",
+        "bg": "#242c3a"
+      },
+      {
+        "fg": "#52aa60",
+        "bg": "#242c3a"
+      },
+      {
+        "fg": "#52c4c0",
+        "bold": true
+      },
+      {
+        "fg": "#52aa60"
+      },
+      {
+        "fg": "#0f1d23",
+        "bg": "#52c4c0",
+        "bold": true
+      },
+      {
+        "fg": "#a1aebe",
+        "bg": "#242c3a"
+      }
+    ],
+    "size": [
+      104,
+      39
+    ]
+  },
+  {
+    "checkpoint": "abandon-review-abandoned",
+    "viewport_text": "jk jj\n\u203a  @  wnpknrpx demo@example.invalid 2026-01-01 12:00:00 1b815f1f\n\u00b7  \u2502  Document cache metrics\n   \u25cb  kuyrlyoz demo@example.invalid 2026-01-01 12:00:00 e91ecd68\n   \u2502  Add cache metrics\n   \u25cb  wsvsvmyk demo@example.invalid 2026-01-01 12:00:00 59c895e3\n   \u2502  Configure request timeouts\n   \u25cb  wtuuzyss demo@example.invalid 2026-01-01 12:00:00 19027ff4\n   \u2502  Add the forecast endpoint\n   \u25cb  ynzzxuyy alex@example.com 2026-01-01 12:00:00 75117cf1\n   \u2502  Document the forecast service\n   \u25c6  zzzzzzzz root() 00000000\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n? help  H home  L log  r refresh  enter open  d diff  v evolog  s status  space mark  o ops  ...  q quit\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#52aa60",
+        "bold": true
+      },
+      {
+        "fg": "#d58bf0",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152",
+        "bold": true
+      },
+      {
+        "fg": "#ad9b49",
+        "bold": true
+      },
+      {
+        "fg": "#52c4c0",
+        "bold": true
+      },
+      {
+        "fg": "#76a8f2",
+        "bold": true
+      },
+      {
+        "fg": "#487fd4",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152"
+      },
+      {
+        "fg": "#ad9b49"
+      },
+      {
+        "fg": "#269d9a"
+      },
+      {
+        "fg": "#af5bd1",
+        "bold": true
+      },
+      {
+        "fg": "#52aa60"
+      }
+    ],
+    "size": [
+      104,
+      39
+    ]
+  },
+  {
+    "checkpoint": "abandon-review-restored",
+    "viewport_text": "jk jj\n\u203a  @  wnpknrpx demo@example.invalid 2026-01-01 12:00:00 3a3ef9e7\n\u00b7  \u2502  Document cache metrics\n   \u25cb  kuyrlyoz demo@example.invalid 2026-01-01 12:00:00 f5422ec2\n   \u2502  Add cache metrics\n   \u25cb  qsnqxlpq demo@example.invalid 2026-01-01 12:00:00 67e96905\n   \u2502  Tune forecast caching\n   \u25cb  wsvsvmyk demo@example.invalid 2026-01-01 12:00:00 59c895e3\n   \u2502  Configure request timeouts\n   \u25cb  wtuuzyss demo@example.invalid 2026-01-01 12:00:00 19027ff4\n   \u2502  Add the forecast endpoint\n   \u25cb  ynzzxuyy alex@example.com 2026-01-01 12:00:00 75117cf1\n   \u2502  Document the forecast service\n   \u25c6  zzzzzzzz root() 00000000\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n? help  H home  L log  r refresh  enter open  d diff  v evolog  s status  space mark  o ops  ...  q quit\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#52aa60",
+        "bold": true
+      },
+      {
+        "fg": "#d58bf0",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152",
+        "bold": true
+      },
+      {
+        "fg": "#ad9b49",
+        "bold": true
+      },
+      {
+        "fg": "#52c4c0",
+        "bold": true
+      },
+      {
+        "fg": "#76a8f2",
+        "bold": true
+      },
+      {
+        "fg": "#487fd4",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152"
+      },
+      {
+        "fg": "#ad9b49"
+      },
+      {
+        "fg": "#269d9a"
+      },
+      {
+        "fg": "#af5bd1",
+        "bold": true
+      },
+      {
+        "fg": "#52aa60"
+      }
+    ],
+    "size": [
+      104,
+      39
+    ]
+  }
+]

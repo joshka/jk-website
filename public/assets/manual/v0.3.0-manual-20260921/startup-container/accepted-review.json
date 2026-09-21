@@ -1,0 +1,225 @@
+{
+  "schema_version": 1,
+  "source_index": "manual/v0.3.0-manual-20260921/review-index.json",
+  "source_index_sha256": "17efd1f5f9a9c80791c6764f7972f466b4b29257831f2719b0c66b74b784fc16",
+  "review": {
+    "id": "startup-container",
+    "title": "Recover startup from a repository container",
+    "status": "ready",
+    "source_tape": "tapes/manual/workspaces/startup-container.tape",
+    "source_tape_sha256": "8821321f675bd97c206d06a2c0021e21ee6bce1919da9a699a8da89170a5d4d0",
+    "website": {
+      "path": "assets/manual/v0.3.0-manual-20260921/startup-container"
+    },
+    "problems": [],
+    "checkpoints": [
+      {
+        "id": "startup-container-missing",
+        "png": "startup-container-missing.png",
+        "state": "startup-container-missing.json",
+        "png_sha256": "8a7abb087224fc9fbe268946cd81b7fb71fb73db4576e00a9362b3baec6d7588",
+        "state_sha256": "b3a9722774c0b6968f4b096f64db4d703d33042e62ee26e930faf6ecb3b35f9e",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/scenarios/refs_workspaces; inline full PNGs, paired terminal JSON and sampled MP4 contact sheet",
+          "reviewed_at": "2026-09-21T03:37:38.554354+00:00",
+          "summary": "Sparse status clearly says No working copy. The caption asks which workspace was selected; it does not claim automatic success. Footer is unobstructed and no fixture setup is visible.",
+          "findings": [
+            "UX-18"
+          ]
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/scenarios/refs_workspaces; inline full PNGs, paired terminal JSON and sampled MP4 contact sheet",
+          "reviewed_at": "2026-09-21T03:37:38.554354+00:00",
+          "summary": "98x43 state contains the exact period-terminated No working copy. output and only the normal bold/default styles. This is the recorded automatic-resolution failure, not a missing capture.",
+          "findings": [
+            "UX-18"
+          ]
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/refs-workspaces-ci35557653700.json",
+        "text_style_review_source": "target/manual-recordings/reviews/refs-workspaces-ci35557653700.json"
+      },
+      {
+        "id": "startup-container-recovered-log",
+        "png": "startup-container-recovered-log.png",
+        "state": "startup-container-recovered-log.json",
+        "png_sha256": "e8be1256ebf8a689610da7fb44d684b224c1dfac2116100c8d998f848927c2bc",
+        "state_sha256": "b6b5db0bb76699b5c4146c4aca57a5b6a753db43938068f011ab37b6feb28631",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/scenarios/refs_workspaces; inline full PNGs, paired terminal JSON and sampled MP4 contact sheet",
+          "reviewed_at": "2026-09-21T03:37:38.554354+00:00",
+          "summary": "After explicit repository selection, the populated graph now has a green @ marker on the empty default child and the described parent below. jj identity, timestamp and revision colors remain distinct.",
+          "findings": [
+            "UX-18"
+          ]
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/scenarios/refs_workspaces; inline full PNGs, paired terminal JSON and sampled MP4 contact sheet",
+          "reviewed_at": "2026-09-21T03:37:38.554354+00:00",
+          "summary": "State gives working-copy kpqulpyk/4368eb95 and parent torsvxyv/38b8941b, with 14 style variants including green @, colored shortest IDs, yellow identity and teal timestamps. Unlike the failing automatic graph, this frame has a real working-copy marker.",
+          "findings": [
+            "UX-18"
+          ]
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/refs-workspaces-ci35557653700.json",
+        "text_style_review_source": "target/manual-recordings/reviews/refs-workspaces-ci35557653700.json"
+      },
+      {
+        "id": "startup-container-status",
+        "png": "startup-container-status.png",
+        "state": "startup-container-status.json",
+        "png_sha256": "0e29d07c76a420a6127451c8fbb1c217ff6415f644576314297a25a6c7b2a59b",
+        "state_sha256": "fbcb39cc328161e08acd923937cac8b91d05888e7222daac5417de7a1362b8d2",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/scenarios/refs_workspaces; inline full PNGs, paired terminal JSON and sampled MP4 contact sheet",
+          "reviewed_at": "2026-09-21T03:37:38.554354+00:00",
+          "summary": "Status confirms an unchanged working copy plus the parent Container workspace review. Current/parent lines and the green empty marker are readable; caption accurately describes the recovered scope.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/scenarios/refs_workspaces; inline full PNGs, paired terminal JSON and sampled MP4 contact sheet",
+          "reviewed_at": "2026-09-21T03:37:38.554354+00:00",
+          "summary": "State contains Working copy (@) 4368eb95 and Parent commit (@-) 38b8941b. Eight style variants preserve jj colors. The two repository assertions prove working-copy commit and complete visible graph unchanged.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/refs-workspaces-ci35557653700.json",
+        "text_style_review_source": "target/manual-recordings/reviews/refs-workspaces-ci35557653700.json"
+      },
+      {
+        "id": "startup-container-workspace",
+        "png": "startup-container-workspace.png",
+        "state": "startup-container-workspace.json",
+        "png_sha256": "8dbde238af18df9bc215fd3940f5bf43440acf2d18f9342be35f3d8a26710e54",
+        "state_sha256": "d352e3b26b4e8cfd9c751fb818084e49ec1d808170775ee570094897489ae5c8",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/scenarios/refs_workspaces; inline full PNGs, paired terminal JSON and sampled MP4 contact sheet",
+          "reviewed_at": "2026-09-21T03:37:38.554354+00:00",
+          "summary": "Workspace list selects default and marks it current with a teal star. The complete default directory is visible, but the trailing change/commit summary clips at the right edge.",
+          "findings": [
+            "UX-15"
+          ]
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/scenarios/refs_workspaces; inline full PNGs, paired terminal JSON and sampled MP4 contact sheet",
+          "reviewed_at": "2026-09-21T03:37:38.554354+00:00",
+          "summary": "State has exactly the selected current default row and teal current marker. Its trailing summary ends after the first c, documenting right-edge clipping while the current workspace name remains clear.",
+          "findings": [
+            "UX-15"
+          ]
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/refs-workspaces-ci35557653700.json",
+        "text_style_review_source": "target/manual-recordings/reviews/refs-workspaces-ci35557653700.json"
+      }
+    ],
+    "metadata_path": "target/manual-recordings/ci-35557653700/manual-evidence-startup-container/capture-metadata.json",
+    "metadata_sha256": "8e33fb77ecc359f9beaf47c054afb8ef88658e1fcfbc26e3ad5af823d9d12477",
+    "evidence_directory": "target/manual-recordings/ci-35557653700/manual-evidence-startup-container",
+    "evidence_status": "passed",
+    "source_commit": "7fcb4fa9af1bb624fcdc7ac14a64184a43c4e829",
+    "pr_head_commit": "d5200f713edc476fd446616ad46fec573f861baf",
+    "source_manifest_sha256": "42c0d25b424a807906eb4e0ba7ca72b4c0488685e9f57b3bcf62d3f01c6c6915",
+    "source_matches_checkout": true,
+    "binary": {
+      "invoked_path": "/home/runner/work/jk/jk/target/manual-build/jk",
+      "path": "/home/runner/work/jk/jk/target/manual-build/jk",
+      "sha256": "cb41f94b63ec85100829bd2b1e9ced84f37cae912996a48e93b56b8776c9c5ed",
+      "version": "jk 0.3.0",
+      "version_exit_code": 0
+    },
+    "jj": {
+      "invoked_path": "/home/runner/.cargo/bin/jj",
+      "path": "/home/runner/.cargo/bin/jj",
+      "sha256": "cd5efc3eb281d606bf9b5523167f79661da0f8c76a5aa32d61c07c7a351b6b44",
+      "version": "jj 0.45.1-7c41cdeb16b6b321c64e789a966b6adf723816a5",
+      "version_exit_code": 0
+    },
+    "betamax": {
+      "invoked_path": "/home/runner/work/_temp/betamax-gruLPk/bin/betamax",
+      "path": "/home/runner/work/_temp/betamax-gruLPk/bin/betamax",
+      "sha256": "db55fa6e7ff98e1df3c91921b5b3fb504b3cc8fdaf6b07e3da952f8757053490",
+      "version": "betamax 0.1.21",
+      "version_exit_code": 0
+    },
+    "ci_run": {
+      "id": "35557653700",
+      "attempt": "1",
+      "url": "https://github.com/joshka/jk/actions/runs/35557653700"
+    },
+    "assertions": [
+      {
+        "path": "startup-container-assertions.json",
+        "sha256": "0f7d428099a0db808beab9caa5e9b79f2e275e2105fbc6a108eeabcae3e74b8b",
+        "bytes": 794
+      }
+    ],
+    "video": {
+      "path": "startup-container.mp4",
+      "sha256": "21559e3f34632102768a19cf03aaceac782e37d68945429fba525cb09bb971df",
+      "bytes": 180903
+    },
+    "video_review": {
+      "status": "reviewed",
+      "reviewer": "Codex /root/scenarios/refs_workspaces; inline full PNGs, paired terminal JSON and sampled MP4 contact sheet",
+      "reviewed_at": "2026-09-21T03:37:38.554354+00:00",
+      "summary": "Sampled review, not a real-time watch: inspected 16 evenly spaced frames including first/last, all four full PNG/state pairs, ffprobe metadata and the source tape. The 19.866667-second video visibly types bare jk, shows No working copy, quits, types jk -R default, and verifies recovered log/status/workspace identity. Two-to-three-second holds make both the failure and workaround readable. Setup and assertions are hidden; brief clean shell prompts are intentional command entry, not setup leakage. The narrative preserves the failure and does not disguise it as working automatic resolution.",
+      "findings": [
+        "UX-18",
+        "UX-15"
+      ],
+      "duration_seconds": 19.866667,
+      "width": 1280,
+      "height": 900,
+      "fps": 15.0,
+      "sample_frame_numbers": [
+        0,
+        20,
+        40,
+        59,
+        79,
+        99,
+        119,
+        139,
+        158,
+        178,
+        198,
+        218,
+        238,
+        257,
+        277,
+        297
+      ],
+      "sample_seconds": [
+        0.0,
+        1.333,
+        2.667,
+        3.933,
+        5.267,
+        6.6,
+        7.933,
+        9.267,
+        10.533,
+        11.867,
+        13.2,
+        14.533,
+        15.867,
+        17.133,
+        18.467,
+        19.8
+      ],
+      "contact_sheet": "target/manual-recordings/reviews/refs-workspaces-video-ci35557653700/startup-container-samples.png",
+      "sha256": "21559e3f34632102768a19cf03aaceac782e37d68945429fba525cb09bb971df"
+    },
+    "source_snapshot_status": "preserved",
+    "video_review_source": "target/manual-recordings/reviews/refs-workspaces-ci35557653700.json",
+    "pixel_review_complete": true,
+    "text_style_review_complete": true,
+    "video_review_complete": true
+  }
+}
