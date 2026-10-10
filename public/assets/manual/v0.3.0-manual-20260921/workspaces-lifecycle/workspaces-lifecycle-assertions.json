@@ -1,0 +1,44 @@
+{
+  "scenario": "workspaces-lifecycle",
+  "stage": "workspaces-lifecycle",
+  "status": "passed",
+  "repository": "/home/runner/work/jk/jk/target/manual-fixtures/workspaces.zmNul7/workflows.4NDboK/workspaces/repo",
+  "assertions": [
+    {
+      "name": "only original workspace registrations remain",
+      "passed": true,
+      "actual": [
+        "default",
+        "scratch"
+      ],
+      "expected": [
+        "default",
+        "scratch"
+      ]
+    },
+    {
+      "name": "scratch work retained",
+      "passed": true,
+      "actual": "workspace files remain after metadata changes\n",
+      "expected": "workspace files remain after metadata changes\n"
+    },
+    {
+      "name": "default tracked files retained",
+      "passed": true,
+      "actual": "Workspace lifecycle demo files\n",
+      "expected": "Workspace lifecycle demo files\n"
+    },
+    {
+      "name": "forget retains added workspace directory and files",
+      "passed": true,
+      "actual": "Workspace lifecycle demo files\n",
+      "expected": "Workspace lifecycle demo files\n"
+    },
+    {
+      "name": "rename does not rename filesystem directories",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    }
+  ]
+}

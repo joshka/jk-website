@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "results": [
+    {
+      "tape": "manual-restore.tape",
+      "status": "passed"
+    }
+  ],
+  "problems": [],
+  "media": [
+    {
+      "name": "betamax-betamax-rewrite-manual-restore-r1-m1.manual-restore.mp4",
+      "label": "manual-restore.tape (mp4)",
+      "type": "video/mp4"
+    },
+    {
+      "name": "betamax-betamax-rewrite-manual-restore-r1-m2.manual-restore-preview.png",
+      "label": "manual-restore-preview.png",
+      "type": "image/png"
+    },
+    {
+      "name": "betamax-betamax-rewrite-manual-restore-r1-m3.manual-restore-recovered.png",
+      "label": "manual-restore-recovered.png",
+      "type": "image/png"
+    },
+    {
+      "name": "betamax-betamax-rewrite-manual-restore-r1-m4.manual-restore-success.png",
+      "label": "manual-restore-success.png",
+      "type": "image/png"
+    }
+  ]
+}

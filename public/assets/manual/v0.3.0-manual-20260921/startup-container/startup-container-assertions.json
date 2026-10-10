@@ -1,0 +1,20 @@
+{
+  "scenario": "startup-container",
+  "stage": "startup-container",
+  "status": "passed",
+  "repository": "/home/runner/work/jk/jk/target/manual-fixtures/container.C0elno/container/default",
+  "assertions": [
+    {
+      "name": "working-copy commit unchanged",
+      "passed": true,
+      "actual": "4368eb95a703717fc750f902043bc25d8a0993ae",
+      "expected": "4368eb95a703717fc750f902043bc25d8a0993ae"
+    },
+    {
+      "name": "visible repository graph unchanged",
+      "passed": true,
+      "actual": "0000000000000000000000000000000000000000\n38b8941b082d14ded831d28caa259e6a0c580d3e\n4368eb95a703717fc750f902043bc25d8a0993ae",
+      "expected": "0000000000000000000000000000000000000000\n38b8941b082d14ded831d28caa259e6a0c580d3e\n4368eb95a703717fc750f902043bc25d8a0993ae"
+    }
+  ]
+}

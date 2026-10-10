@@ -1,0 +1,104 @@
+{
+  "size": [
+    98,
+    43
+  ],
+  "total_rows": 43,
+  "scrollback_rows": 0,
+  "cursor": {
+    "x": 97,
+    "y": 42,
+    "visible": false
+  },
+  "default_style": {
+    "fg": "#b4bcca",
+    "bg": "#0f141f"
+  },
+  "styles": [
+    {
+      "bold": true
+    },
+    {
+      "fg": "#ad9b49"
+    },
+    {
+      "fg": "#52aa60"
+    },
+    {
+      "fg": "#52aa60",
+      "underline": "single"
+    }
+  ],
+  "viewport_text": "jk jj -R /home/runner/work/jk/jk/target/manual-fixtures/workspaces.CSSzGn/workflows.RLxDb7/workspa\nAdded regular file ../scratch/KEEP-ME.txt:\n        1: workspace files remain after metadata changes\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n? help  V options  r refresh  j/k line  space page  q quit\n",
+  "scrollback_text": "",
+  "viewport": [
+    [
+      "jk ",
+      [
+        "jj -R /home/runner/work/jk/jk/target/manual-fixtures/workspaces.CSSzGn/workflows.RLxDb7/workspa",
+        0
+      ]
+    ],
+    [
+      [
+        "Added regular file ../scratch/KEEP-ME.txt:",
+        1
+      ]
+    ],
+    [
+      "     ",
+      [
+        "   1",
+        2
+      ],
+      ": ",
+      [
+        "workspace files remain after metadata changes",
+        3
+      ]
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "? help  V options  r refresh  j/k line  space page  q quit"
+    ]
+  ],
+  "scrollback": []
+}

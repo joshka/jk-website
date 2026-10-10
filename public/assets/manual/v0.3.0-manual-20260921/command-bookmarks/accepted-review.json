@@ -1,0 +1,228 @@
+{
+  "schema_version": 1,
+  "source_index": "manual/v0.3.0-manual-20260921/review-index.json",
+  "source_index_sha256": "17efd1f5f9a9c80791c6764f7972f466b4b29257831f2719b0c66b74b784fc16",
+  "review": {
+    "id": "command-bookmarks",
+    "title": "Manage remote bookmark tracking",
+    "status": "ready",
+    "source_tape": "tapes/manual/refs/command-bookmarks.tape",
+    "source_tape_sha256": "4520f5a67729419e091c8c92677c2b463a41a2d5e09a6e8c25fb0a280c7cc6d9",
+    "website": {
+      "path": "assets/manual/v0.3.0-manual-20260921/command-bookmarks"
+    },
+    "problems": [],
+    "checkpoints": [
+      {
+        "id": "command-bookmarks-tracked",
+        "png": "command-bookmarks-tracked.png",
+        "state": "command-bookmarks-tracked.json",
+        "png_sha256": "77981cccb10ad725773306d7f081766671bc3e3d2bcb0e01fccdfc98ba21e3cc",
+        "state_sha256": "930110408061a48643da218662bfe0b2040a0d9718a4c57845cd8858418861f6",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/scenarios/refs_workspaces; inline full PNGs, paired terminal JSON and sampled MP4 contact sheet",
+          "reviewed_at": "2026-09-21T03:42:33.184505+00:00",
+          "summary": "Populated bookmark list clearly displays local incoming and incoming@fixture tracked, synced at the same target. Complete names and status labels fit; native footer and teaching caption are visible.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/scenarios/refs_workspaces; inline full PNGs, paired terminal JSON and sampled MP4 contact sheet",
+          "reviewed_at": "2026-09-21T03:42:33.184505+00:00",
+          "summary": "Paired state shows incoming and incoming@fixture both at 8389e947292a, remote tracked/synced, and unchanged demo/review-keep/stable names. Default list foreground with bold chrome matches pixels.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/refs-workspaces-ci35557653700.json",
+        "text_style_review_source": "target/manual-recordings/reviews/refs-workspaces-ci35557653700.json"
+      },
+      {
+        "id": "command-bookmarks-untracked",
+        "png": "command-bookmarks-untracked.png",
+        "state": "command-bookmarks-untracked.json",
+        "png_sha256": "8b53c6753f34f7e1f1d66202b0ae7cc8054b1115f4b65b700458c413d0d4ae47",
+        "state_sha256": "569464cb88da10be55c3cca23a72ce45d4be9b45076df6607c2c3c5e2d4fc100",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/scenarios/refs_workspaces; inline full PNGs, paired terminal JSON and sampled MP4 contact sheet",
+          "reviewed_at": "2026-09-21T03:42:33.184505+00:00",
+          "summary": "Remote status changes to untracked while the separate local incoming row remains. Labels and targets are readable without clipping.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/scenarios/refs_workspaces; inline full PNGs, paired terminal JSON and sampled MP4 contact sheet",
+          "reviewed_at": "2026-09-21T03:42:33.184505+00:00",
+          "summary": "State retains local incoming 8389e947292a and incoming@fixture 8389e947292a (untracked). Default styling and bold chrome remain consistent; no modal or stale target shown.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/refs-workspaces-ci35557653700.json",
+        "text_style_review_source": "target/manual-recordings/reviews/refs-workspaces-ci35557653700.json"
+      },
+      {
+        "id": "command-bookmarks-renamed",
+        "png": "command-bookmarks-renamed.png",
+        "state": "command-bookmarks-renamed.json",
+        "png_sha256": "48e38d3cdc569a2c3e32f0fa057e0a1f3c926659fc84ee6b5d4943ce9b70b3c2",
+        "state_sha256": "b9845fb6b144707c7961cbf5e636080f43f057fbe5127eda8d6ca6eb8a785aac",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/scenarios/refs_workspaces; inline full PNGs, paired terminal JSON and sampled MP4 contact sheet",
+          "reviewed_at": "2026-09-21T03:42:33.184505+00:00",
+          "summary": "local-review replaces the incoming local row and keeps its target. incoming@fixture remains visibly untracked with its original remote name.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/scenarios/refs_workspaces; inline full PNGs, paired terminal JSON and sampled MP4 contact sheet",
+          "reviewed_at": "2026-09-21T03:42:33.184505+00:00",
+          "summary": "State shows local-review and incoming@fixture at 8389e947292a, with incoming local absent and the unrelated rows unchanged. Native list styling remains simple and readable.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/refs-workspaces-ci35557653700.json",
+        "text_style_review_source": "target/manual-recordings/reviews/refs-workspaces-ci35557653700.json"
+      },
+      {
+        "id": "command-bookmarks-forgotten",
+        "png": "command-bookmarks-forgotten.png",
+        "state": "command-bookmarks-forgotten.json",
+        "png_sha256": "8b8c3b87132625f3a90924591d092c9361a37d3b6074b22a99d9a14597dc8427",
+        "state_sha256": "c71f8d9aff47fd81be0ddb61f68b7a03db9e20552ae9e6789fe73fd883de42fb",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/scenarios/refs_workspaces; inline full PNGs, paired terminal JSON and sampled MP4 contact sheet",
+          "reviewed_at": "2026-09-21T03:42:33.184505+00:00",
+          "summary": "Final list visibly lacks local-review and keeps incoming@fixture untracked. Caption explains local forgetting while the remote bookmark survives.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/scenarios/refs_workspaces; inline full PNGs, paired terminal JSON and sampled MP4 contact sheet",
+          "reviewed_at": "2026-09-21T03:42:33.184505+00:00",
+          "summary": "State preserves incoming@fixture at 8389e947292a and unrelated bookmarks, with no local incoming or local-review. All expected rows and full footer fit in the viewport.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/refs-workspaces-ci35557653700.json",
+        "text_style_review_source": "target/manual-recordings/reviews/refs-workspaces-ci35557653700.json"
+      }
+    ],
+    "metadata_path": "target/manual-recordings/ci-35557653700/manual-evidence-command-bookmarks/capture-metadata.json",
+    "metadata_sha256": "4d759cce714590a07761fb3b432cb3379d12dd5d92fec3e6d061b1508589026d",
+    "evidence_directory": "target/manual-recordings/ci-35557653700/manual-evidence-command-bookmarks",
+    "evidence_status": "passed",
+    "source_commit": "7fcb4fa9af1bb624fcdc7ac14a64184a43c4e829",
+    "pr_head_commit": "d5200f713edc476fd446616ad46fec573f861baf",
+    "source_manifest_sha256": "42c0d25b424a807906eb4e0ba7ca72b4c0488685e9f57b3bcf62d3f01c6c6915",
+    "source_matches_checkout": true,
+    "binary": {
+      "invoked_path": "/home/runner/work/jk/jk/target/manual-build/jk",
+      "path": "/home/runner/work/jk/jk/target/manual-build/jk",
+      "sha256": "cb41f94b63ec85100829bd2b1e9ced84f37cae912996a48e93b56b8776c9c5ed",
+      "version": "jk 0.3.0",
+      "version_exit_code": 0
+    },
+    "jj": {
+      "invoked_path": "/home/runner/.cargo/bin/jj",
+      "path": "/home/runner/.cargo/bin/jj",
+      "sha256": "cd5efc3eb281d606bf9b5523167f79661da0f8c76a5aa32d61c07c7a351b6b44",
+      "version": "jj 0.45.1-7c41cdeb16b6b321c64e789a966b6adf723816a5",
+      "version_exit_code": 0
+    },
+    "betamax": {
+      "invoked_path": "/home/runner/work/_temp/betamax-6BaVV7/bin/betamax",
+      "path": "/home/runner/work/_temp/betamax-6BaVV7/bin/betamax",
+      "sha256": "db55fa6e7ff98e1df3c91921b5b3fb504b3cc8fdaf6b07e3da952f8757053490",
+      "version": "betamax 0.1.21",
+      "version_exit_code": 0
+    },
+    "ci_run": {
+      "id": "35557653700",
+      "attempt": "1",
+      "url": "https://github.com/joshka/jk/actions/runs/35557653700"
+    },
+    "assertions": [
+      {
+        "path": "command-bookmarks-forgotten-assertions.json",
+        "sha256": "ae9ef885bebf775d429882e2362e75d58de3d09295837199f7a0eb3a276e32c3",
+        "bytes": 1053
+      },
+      {
+        "path": "command-bookmarks-renamed-assertions.json",
+        "sha256": "d0640203d087192a66c93913fa7679ad49bfacd7fd0cc0ef37ead83d6908390e",
+        "bytes": 1123
+      },
+      {
+        "path": "command-bookmarks-tracked-assertions.json",
+        "sha256": "da8f0ec7245e72c8275605eaea5a9ffcf4120f7923a012bf80d3fb59726b8c57",
+        "bytes": 994
+      },
+      {
+        "path": "command-bookmarks-untracked-assertions.json",
+        "sha256": "254d027d57b7d67366bdc74d9b28c759bb8023f471c0a52393eb7eab5136bbfb",
+        "bytes": 998
+      }
+    ],
+    "video": {
+      "path": "command-bookmarks.mp4",
+      "sha256": "1d0f736e6e08c115dc36d7ffaee2ae92e257ce0b174681646be3e0e63b99dfc1",
+      "bytes": 476608
+    },
+    "video_review": {
+      "status": "reviewed",
+      "reviewer": "Codex /root/scenarios/refs_workspaces; inline full PNGs, paired terminal JSON and sampled MP4 contact sheet",
+      "reviewed_at": "2026-09-21T03:42:33.184505+00:00",
+      "summary": "Sampled review, not a real-time watch: 16 frames across 51.67 seconds show paced command entry for track, untrack, rename and forget; captured success outputs; Backspace and explicit refresh; four stable result lists. Command-entry text has sustained visible typing and each outcome has a teaching hold. Hidden intermediate assertions do not appear. Stage assertions verify local and remote tracking/targets, preserved unrelated names and unchanged remote graph. Returning from commands requires the demonstrated refresh; long captured command metadata clips at the right edge.",
+      "findings": [
+        "UX-09",
+        "UX-15"
+      ],
+      "duration_seconds": 51.666667,
+      "width": 1280,
+      "height": 900,
+      "fps": 15.0,
+      "sample_frame_numbers": [
+        0,
+        52,
+        103,
+        155,
+        206,
+        258,
+        310,
+        361,
+        413,
+        464,
+        516,
+        568,
+        619,
+        671,
+        722,
+        774
+      ],
+      "sample_seconds": [
+        0.0,
+        3.467,
+        6.867,
+        10.333,
+        13.733,
+        17.2,
+        20.667,
+        24.067,
+        27.533,
+        30.933,
+        34.4,
+        37.867,
+        41.267,
+        44.733,
+        48.133,
+        51.6
+      ],
+      "contact_sheet": "target/manual-recordings/reviews/refs-workspaces-video-ci35557653700/command-bookmarks-samples.png",
+      "sha256": "1d0f736e6e08c115dc36d7ffaee2ae92e257ce0b174681646be3e0e63b99dfc1"
+    },
+    "source_snapshot_status": "preserved",
+    "video_review_source": "target/manual-recordings/reviews/refs-workspaces-ci35557653700.json",
+    "pixel_review_complete": true,
+    "text_style_review_complete": true,
+    "video_review_complete": true
+  }
+}

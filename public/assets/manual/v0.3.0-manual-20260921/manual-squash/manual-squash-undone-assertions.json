@@ -1,0 +1,20 @@
+{
+  "scenario": "manual-squash",
+  "stage": "manual-squash-undone",
+  "status": "passed",
+  "repository": "/home/runner/work/jk/jk/target/manual-fixtures/squash.wp39hi/workflows.kibeyN/squash",
+  "assertions": [
+    {
+      "name": "working-copy commit unchanged",
+      "passed": true,
+      "actual": "ebc4b7e488c694a26159973b9d802467e883cdee",
+      "expected": "ebc4b7e488c694a26159973b9d802467e883cdee"
+    },
+    {
+      "name": "visible repository graph unchanged",
+      "passed": true,
+      "actual": "0000000000000000000000000000000000000000\n7be6b114f42f77b7ea48930f480f931168734843\nebc4b7e488c694a26159973b9d802467e883cdee",
+      "expected": "0000000000000000000000000000000000000000\n7be6b114f42f77b7ea48930f480f931168734843\nebc4b7e488c694a26159973b9d802467e883cdee"
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "size": [
+    98,
+    43
+  ],
+  "total_rows": 43,
+  "scrollback_rows": 0,
+  "cursor": {
+    "x": 97,
+    "y": 42,
+    "visible": false
+  },
+  "default_style": {
+    "fg": "#b4bcca",
+    "bg": "#0f141f"
+  },
+  "styles": [
+    {
+      "bold": true
+    },
+    {
+      "fg": "#269d9a",
+      "bold": true
+    },
+    {
+      "fg": "#65d4cf",
+      "bg": "#242c3a",
+      "bold": true
+    },
+    {
+      "fg": "#e0e6ee",
+      "bg": "#242c3a"
+    },
+    {
+      "fg": "#a1aebe",
+      "bg": "#242c3a"
+    },
+    {
+      "fg": "#e0e6ee",
+      "bg": "#242c3a",
+      "bold": true
+    }
+  ],
+  "viewport_text": "jk jj workspace list\n   * default  /home/runner/work/jk/jk/target/manual-fixtures/workspaces-stale.SYq8aL/workflows.vbU\n›    scratch  /home/runner/work/jk/jk/target/manual-fixtures/workspaces-stale.SYq8aL/workflows.vbU\n\n\n\n\n\n\n\n\n            Update stale workspace?\n\n\n            Workspace  scratch\n            Path\n            /home/runner/work/jk/jk/target/manual-fixtures/workspaces-stale.SYq8aL/wor\n            kflows.vbUrW6/workspaces/scratch\n\n            Exact command\n            jj --no-pager --color never --repository /home/runner/work/jk/jk/target/ma\n            nual-fixtures/workspaces-stale.SYq8aL/workflows.vbUrW6/workspaces/scratch\n            workspace update-stale\n\n\n\n\n\n\n\n              ↑/↓ Review    Enter / y Confirm    Esc / n Cancel\n",
+  "scrollback_text": "",
+  "viewport": [
+    [
+      "jk ",
+      [
+        "jj workspace list",
+        0
+      ]
+    ],
+    [
+      "   ",
+      [
+        "*",
+        1
+      ],
+      " ",
+      [
+        "default",
+        0
+      ],
+      "  /home/runner/work/jk/jk/target/manual-fixtures/workspaces-stale.SYq8aL/workflows.vbU"
+    ],
+    [
+      [
+        "›",
+        0
+      ],
+      "  ",
+      [
+        " ",
+        1
+      ],
+      " ",
+      [
+        "scratch",
+        0
+      ],
+      "  /home/runner/work/jk/jk/target/manual-fixtures/workspaces-stale.SYq8aL/workflows.vbU"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "          ",
+      [
+        "  Update stale workspace?",
+        2
+      ]
+    ],
+    [],
+    [],
+    [
+      "          ",
+      [
+        "  ",
+        3
+      ],
+      [
+        "Workspace  ",
+        4
+      ],
+      [
+        "scratch",
+        3
+      ]
+    ],
+    [
+      "          ",
+      [
+        "  ",
+        3
+      ],
+      [
+        "Path",
+        4
+      ]
+    ],
+    [
+      "          ",
+      [
+        "  /home/runner/work/jk/jk/target/manual-fixtures/workspaces-stale.SYq8aL/wor",
+        3
+      ]
+    ],
+    [
+      "          ",
+      [
+        "  kflows.vbUrW6/workspaces/scratch",
+        3
+      ]
+    ],
+    [],
+    [
+      "          ",
+      [
+        "  ",
+        3
+      ],
+      [
+        "Exact command",
+        4
+      ]
+    ],
+    [
+      "          ",
+      [
+        "  ",
+        3
+      ],
+      [
+        "jj --no-pager --color never --repository /home/runner/work/jk/jk/target/ma",
+        5
+      ]
+    ],
+    [
+      "          ",
+      [
+        "  ",
+        3
+      ],
+      [
+        "nual-fixtures/workspaces-stale.SYq8aL/workflows.vbUrW6/workspaces/scratch",
+        5
+      ]
+    ],
+    [
+      "          ",
+      [
+        "  ",
+        3
+      ],
+      [
+        "workspace update-stale",
+        5
+      ]
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "          ",
+      [
+        "    ",
+        3
+      ],
+      [
+        "↑/↓",
+        2
+      ],
+      [
+        " Review    ",
+        3
+      ],
+      [
+        "Enter / y",
+        2
+      ],
+      [
+        " Confirm    ",
+        3
+      ],
+      [
+        "Esc / n",
+        2
+      ],
+      [
+        " Cancel",
+        3
+      ]
+    ]
+  ],
+  "scrollback": []
+}

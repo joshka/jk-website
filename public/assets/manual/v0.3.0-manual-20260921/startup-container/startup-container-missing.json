@@ -1,0 +1,80 @@
+{
+  "size": [
+    98,
+    43
+  ],
+  "total_rows": 43,
+  "scrollback_rows": 0,
+  "cursor": {
+    "x": 97,
+    "y": 42,
+    "visible": false
+  },
+  "default_style": {
+    "fg": "#b4bcca",
+    "bg": "#0f141f"
+  },
+  "styles": [
+    {
+      "bold": true
+    }
+  ],
+  "viewport_text": "jk jj status\nNo working copy.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n? help  V options  r refresh  j/k line  space page  q quit\n",
+  "scrollback_text": "",
+  "viewport": [
+    [
+      "jk ",
+      [
+        "jj status",
+        0
+      ]
+    ],
+    [
+      "No working copy."
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "? help  V options  r refresh  j/k line  space page  q quit"
+    ]
+  ],
+  "scrollback": []
+}

@@ -1,0 +1,37 @@
+{
+  "schema": 1,
+  "results": [
+    {
+      "tape": "inspect-history.tape",
+      "status": "passed"
+    }
+  ],
+  "problems": [],
+  "media": [
+    {
+      "name": "betamax-betamax-inspect-history-r1-m1.inspect-history.mp4",
+      "label": "inspect-history.tape (mp4)",
+      "type": "video/mp4"
+    },
+    {
+      "name": "betamax-betamax-inspect-history-r1-m2.inspect-history-evolog.png",
+      "label": "inspect-history-evolog.png",
+      "type": "image/png"
+    },
+    {
+      "name": "betamax-betamax-inspect-history-r1-m3.inspect-history-failure.png",
+      "label": "inspect-history-failure.png",
+      "type": "image/png"
+    },
+    {
+      "name": "betamax-betamax-inspect-history-r1-m4.inspect-history-history.png",
+      "label": "inspect-history-history.png",
+      "type": "image/png"
+    },
+    {
+      "name": "betamax-betamax-inspect-history-r1-m5.inspect-history-interdiff.png",
+      "label": "inspect-history-interdiff.png",
+      "type": "image/png"
+    }
+  ]
+}

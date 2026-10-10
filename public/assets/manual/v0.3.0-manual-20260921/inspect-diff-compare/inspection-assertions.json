@@ -1,0 +1,20 @@
+{
+  "scenario": "inspect-diff-compare",
+  "stage": "inspection",
+  "status": "passed",
+  "repository": "/home/runner/work/jk/jk/target/manual-fixtures/inspection.4OrPNZ/repo",
+  "assertions": [
+    {
+      "name": "working-copy commit unchanged",
+      "passed": true,
+      "actual": "37775da45e6e23f16c1a2d53b17bf1575faf3f04",
+      "expected": "37775da45e6e23f16c1a2d53b17bf1575faf3f04"
+    },
+    {
+      "name": "visible repository graph unchanged",
+      "passed": true,
+      "actual": "0000000000000000000000000000000000000000\n00a11fff07b3375b6289249601ef2fa7a88f739b\n37775da45e6e23f16c1a2d53b17bf1575faf3f04\n5209fca677a1e27bf7efc815aafac89b986299ff\nf00d23f15b5d9f192999902e68e7b0d90269cc40",
+      "expected": "0000000000000000000000000000000000000000\n00a11fff07b3375b6289249601ef2fa7a88f739b\n37775da45e6e23f16c1a2d53b17bf1575faf3f04\n5209fca677a1e27bf7efc815aafac89b986299ff\nf00d23f15b5d9f192999902e68e7b0d90269cc40"
+    }
+  ]
+}

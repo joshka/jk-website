@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "results": [
+    {
+      "tape": "manual-invalid-operands.tape",
+      "status": "passed"
+    }
+  ],
+  "problems": [],
+  "media": [
+    {
+      "name": "betamax-betamax-execution-manual-invalid-operands-r1-m1.manual-invalid-operands.mp4",
+      "label": "manual-invalid-operands.tape (mp4)",
+      "type": "video/mp4"
+    },
+    {
+      "name": "betamax-betamax-execution-manual-invalid-operands-r1-m2.manual-invalid-operands-rebase.png",
+      "label": "manual-invalid-operands-rebase.png",
+      "type": "image/png"
+    },
+    {
+      "name": "betamax-betamax-execution-manual-invalid-operands-r1-m3.manual-invalid-operands-restore.png",
+      "label": "manual-invalid-operands-restore.png",
+      "type": "image/png"
+    },
+    {
+      "name": "betamax-betamax-execution-manual-invalid-operands-r1-m4.manual-invalid-operands-squash.png",
+      "label": "manual-invalid-operands-squash.png",
+      "type": "image/png"
+    }
+  ]
+}

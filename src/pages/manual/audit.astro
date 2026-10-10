@@ -1,0 +1,50 @@
+---
+import ManualLayout from '../../layouts/ManualLayout.astro';
+import audit from '../../data/manual-ux-audit.json';
+import { manualLink } from '../../lib/manual';
+import { checkpointAnchor, media } from '../../lib/manual-media';
+const headings = audit.findings.map((finding) => ({ depth: 2, slug: finding.anchor, text: `${finding.id}: ${finding.title}` }));
+function recordingEvidenceLink(scenarioId?: string, checkpointId?: string) {
+  const recording = media.scenarios.find((scenario) => scenario.id === scenarioId);
+  if (!recording) return undefined;
+  const checkpoint = recording.checkpoints.find((item) => item.id === checkpointId);
+  return `${manualLink('recordings')}#${checkpoint ? checkpointAnchor(recording, checkpoint.id) : recording.id}`;
+}
+---
+
+<ManualLayout title="UX findings" slug="audit" headings={headings}
+  description="Known limitations and proposed changes for jk 0.3.0.">
+  <p>These findings describe the 0.3.0 source with jj 0.45.1. Each includes the observed behavior,
+    available recovery, and a proposed change with acceptance criteria. Evidence identifies code
+    inspection and recorded reproductions separately.</p>
+  <p>The proposed changes have not been implemented.</p>
+  <ol class="manual-findings-list">
+    {audit.findings.map((finding) => <li><a href={`#${finding.anchor}`}>{finding.id} · {finding.title}</a></li>)}
+  </ol>
+  {audit.findings.map((finding) => (
+    <section class="manual-finding" id={finding.id.toLowerCase()}>
+      <h2 id={finding.anchor}>{finding.title}</h2>
+      <p class="manual-finding-status"><span class="manual-badge">{finding.id} · {finding.severity}</span>{' '}{finding.status.replaceAll('-', ' ')}</p>
+      <p><strong>User concern:</strong> {finding.concern}</p>
+      <dl>
+        <dt>Operation</dt><dd>{finding.operation}</dd>
+        <dt>Interaction</dt><dd>{finding.interaction}</dd>
+        <dt>Observed result</dt><dd>{finding.observed_result}</dd>
+        <dt>Current recovery</dt><dd>{finding.recovery}</dd>
+      </dl>
+      <div class="manual-callout"><strong>Proposed improvement</strong><p>{finding.proposal}</p></div>
+      <h3>Acceptance criteria</h3>
+      <ul>{finding.acceptance_criteria.map((criterion) => <li>{criterion}</li>)}</ul>
+      <details class="manual-media-details"><summary>Evidence and review status</summary>
+        <ul>{finding.evidence.map((evidence) => (
+          <li>{evidence.kind === 'source'
+            ? <a href={evidence.url}>{evidence.path}:{evidence.line}</a>
+            : <>{recordingEvidenceLink(evidence.scenario_id, evidence.checkpoint_id)
+              ? <a href={recordingEvidenceLink(evidence.scenario_id, evidence.checkpoint_id)}>{evidence.scenario_id}</a>
+              : evidence.scenario_id} · {evidence.checkpoint_id} · {evidence.review_status}</>}
+          </li>
+        ))}</ul>
+      </details>
+    </section>
+  ))}
+</ManualLayout>

@@ -1,0 +1,50 @@
+{
+  "scenario": "workspaces-stale",
+  "stage": "workspaces-stale",
+  "status": "passed",
+  "repository": "/home/runner/work/jk/jk/target/manual-fixtures/workspaces-stale.SYq8aL/workflows.vbUrW6/workspaces/repo",
+  "assertions": [
+    {
+      "name": "only original workspace registrations remain",
+      "passed": true,
+      "actual": [
+        "default",
+        "scratch"
+      ],
+      "expected": [
+        "default",
+        "scratch"
+      ]
+    },
+    {
+      "name": "scratch work retained",
+      "passed": true,
+      "actual": "workspace files remain after metadata changes\n",
+      "expected": "workspace files remain after metadata changes\n"
+    },
+    {
+      "name": "default tracked files retained",
+      "passed": true,
+      "actual": "Workspace lifecycle demo files\n",
+      "expected": "Workspace lifecycle demo files\n"
+    },
+    {
+      "name": "update-stale synchronizes scratch commit",
+      "passed": true,
+      "actual": "Refresh scratch description",
+      "expected": "Refresh scratch description"
+    },
+    {
+      "name": "update-stale applies the rewritten tree",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "updated scratch status succeeds",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    }
+  ]
+}

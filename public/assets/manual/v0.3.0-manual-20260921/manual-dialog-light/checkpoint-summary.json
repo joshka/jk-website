@@ -1,0 +1,211 @@
+[
+  {
+    "checkpoint": "manual-dialog-light-actions",
+    "viewport_text": "jk jj\n\u203a  @  lvrrkult demo@example.invalid 2026-01-01 12:00:00 1e82dd47\n\u00b7  \u2502  Experiment with forecast caching\n   \u25cb  votkpypp demo@example.invalid 2026-01-01 12:00:00 94d947b3\n   \u2502  Configure request timeouts\n   \u25cb  yonuywys demo@example.invalid 2026-01-01 12:00:00 618b7d66\n   \u2502  Add the forecast endpoint\n   \u25cb  tpxnnzvz alex@example.com 2026-01-01 12:00:00 30c8b116\n   \u2502  Document the forecast service\n   \u25c6  zzzzzzzz root() 00000000\n\n      Actions\n\n      Change actions:\n      > m  Describe revision  local rewrite \u00b7 enter saves\n        n  New change         local rewrite \u00b7 runs now\n        e  Edit change        local rewrite \u00b7 runs now\n        s  Squash revisions   local rewrite \u00b7 preview\n        a  Abandon revision   destructive \u00b7 checks first\n        r  Restore all paths  destructive \u00b7 preview\n\n      History and recovery:\n        u  Undo               local rewrite \u00b7 runs now\n        U  Redo               local rewrite \u00b7 runs now\n\n      Safety cues show whether actions preview, save, or run now; inspection views stay read-only.\n      j/k or arrows move   enter open   action key select   esc close\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#00bb00",
+        "bold": true
+      },
+      {
+        "fg": "#ff55ff",
+        "bold": true
+      },
+      {
+        "fg": "#555555",
+        "bold": true
+      },
+      {
+        "fg": "#bbbb00",
+        "bold": true
+      },
+      {
+        "fg": "#22cccc",
+        "bold": true
+      },
+      {
+        "fg": "#5555ff",
+        "bold": true
+      },
+      {
+        "fg": "#0000bb",
+        "bold": true
+      },
+      {
+        "fg": "#555555"
+      },
+      {
+        "fg": "#bbbb00"
+      },
+      {
+        "fg": "#00bbbb"
+      },
+      {
+        "fg": "#bb00bb",
+        "bold": true
+      },
+      {
+        "fg": "#00bb00"
+      },
+      {
+        "fg": "#1c232d",
+        "bg": "#e1e6ed"
+      },
+      {
+        "fg": "#006767",
+        "bg": "#e1e6ed",
+        "bold": true
+      },
+      {
+        "fg": "#1c232d",
+        "bg": "#e1e6ed",
+        "bold": true
+      }
+    ],
+    "size": [
+      104,
+      39
+    ]
+  },
+  {
+    "checkpoint": "manual-dialog-light-description",
+    "viewport_text": "jk jj\n\u203a  @  lvrrkult demo@example.invalid 2026-01-01 12:00:00 1e82dd47\n\u00b7  \u2502  Experiment with forecast caching\n   \u25cb  votkpypp demo@example.invalid 2026-01-01 12:00:00 94d947b3\n   \u2502  Configure request timeouts\n   \u25cb  yonuywys demo@example.invalid 2026-01-01 12:00:00 618b7d66\n   \u2502  Add the forecast endpoint\n   \u25cb  tpxnnzvz alex@example.com 2026-01-01 12:00:00 30c8b116\n   \u2502  Document the forecast service\n   \u25c6  zzzzzzzz root() 00000000\n\n\n\n\n\n             Describe revision\n             Revision: lvrrkult\n\n             Experiment with forecast caching\n\n\n             Enter save \u00b7 Esc cancel \u00b7 Ctrl-j newline \u00b7 Ctrl-u clear \u00b7 arrows move\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#00bb00",
+        "bold": true
+      },
+      {
+        "fg": "#ff55ff",
+        "bold": true
+      },
+      {
+        "fg": "#555555",
+        "bold": true
+      },
+      {
+        "fg": "#bbbb00",
+        "bold": true
+      },
+      {
+        "fg": "#22cccc",
+        "bold": true
+      },
+      {
+        "fg": "#5555ff",
+        "bold": true
+      },
+      {
+        "fg": "#0000bb",
+        "bold": true
+      },
+      {
+        "fg": "#555555"
+      },
+      {
+        "fg": "#bbbb00"
+      },
+      {
+        "fg": "#00bbbb"
+      },
+      {
+        "fg": "#bb00bb",
+        "bold": true
+      },
+      {
+        "fg": "#00bb00"
+      },
+      {
+        "fg": "#1c232d",
+        "bg": "#e1e6ed"
+      },
+      {
+        "fg": "#006767",
+        "bg": "#e1e6ed",
+        "bold": true
+      },
+      {
+        "fg": "#526172",
+        "bg": "#e1e6ed"
+      }
+    ],
+    "size": [
+      104,
+      39
+    ]
+  },
+  {
+    "checkpoint": "manual-dialog-light-help",
+    "viewport_text": "jk jj\n\u203a  @  lvrrkult demo@example.invalid 2026-01-01 12:00:00 1e82dd47\n\u00b7  \u2502  Experiment with forecast caching\n   \u25cb  votkpypp demo@example.invalid 2026-01-01 12:00:00 94d947b3\n   \u2502  Configure request timeouts\n   \u25cb  yonuywys demo@example.invalid 2026-01-01 12:00:00 618b7d66\n   \u2502  Add the forecast endpoint\n   \u25cb  tpxnn  Help\n   \u2502  Docum\n   \u25c6  zzzzz  Open and inspect:\n               enter         jj show                     d             jj diff\n               v             jj evolog                   s             jj status\n               V             View options                H / L         jj log\n             Move and find:\n               \u2191/\u2193, j/k      Move selection              Ctrl-j/k      Scroll line\n               PgDn, Ctrl-f  Page down                   PgUp, Ctrl-b  Page up\n               Home, g       Jump to top                 End, G        Jump to bottom\n               \u2192, l          Expand change               \u2190, h          Collapse change\n             Change actions:\n               a             Open action menu            a m           jj describe\n               a n           jj new                      a e           jj edit\n               R             jj rebase                   a s           jj squash\n               a a           jj abandon                  a r           jj restore\n               space         Mark revision               c             Clear marks\n             History and recovery:\n               o             jj op log                   a u           jj undo\n               a U           jj redo                     C             Open command history\n             Session:\n               :             jj command                  !             Run external command\n               r             Refresh                     ?, Esc        Close help\n               q             Quit / exit\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#00bb00",
+        "bold": true
+      },
+      {
+        "fg": "#ff55ff",
+        "bold": true
+      },
+      {
+        "fg": "#555555",
+        "bold": true
+      },
+      {
+        "fg": "#bbbb00",
+        "bold": true
+      },
+      {
+        "fg": "#22cccc",
+        "bold": true
+      },
+      {
+        "fg": "#5555ff",
+        "bold": true
+      },
+      {
+        "fg": "#0000bb",
+        "bold": true
+      },
+      {
+        "fg": "#555555"
+      },
+      {
+        "fg": "#bbbb00"
+      },
+      {
+        "fg": "#00bbbb"
+      },
+      {
+        "fg": "#bb00bb",
+        "bold": true
+      },
+      {
+        "fg": "#1c232d",
+        "bg": "#e1e6ed"
+      },
+      {
+        "fg": "#006767",
+        "bg": "#e1e6ed",
+        "bold": true
+      },
+      {
+        "fg": "#1c232d",
+        "bg": "#e1e6ed",
+        "bold": true
+      }
+    ],
+    "size": [
+      104,
+      39
+    ]
+  }
+]

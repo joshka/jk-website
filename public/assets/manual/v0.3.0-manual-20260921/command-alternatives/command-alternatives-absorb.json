@@ -1,0 +1,231 @@
+{
+  "size": [
+    104,
+    39
+  ],
+  "total_rows": 39,
+  "scrollback_rows": 0,
+  "cursor": {
+    "x": 58,
+    "y": 38,
+    "visible": false
+  },
+  "default_style": {
+    "fg": "#b4bcca",
+    "bg": "#0f141f"
+  },
+  "styles": [
+    {
+      "bold": true
+    },
+    {
+      "fg": "#dfe5ee",
+      "bg": "#3a485a"
+    },
+    {
+      "fg": "#dfe5ee",
+      "bg": "#215b53"
+    },
+    {
+      "fg": "#dfe5ee",
+      "bg": "#282d37"
+    },
+    {
+      "fg": "#dfe5ee",
+      "bg": "#1e232f"
+    },
+    {
+      "fg": "#487fd4",
+      "bg": "#1e232f",
+      "bold": true
+    },
+    {
+      "fg": "#3a4152"
+    },
+    {
+      "fg": "#af5bd1",
+      "bold": true
+    },
+    {
+      "fg": "#d58bf0",
+      "bold": true
+    },
+    {
+      "fg": "#3a4152",
+      "bold": true
+    },
+    {
+      "fg": "#76a8f2",
+      "bold": true
+    },
+    {
+      "fg": "#487fd4",
+      "bold": true
+    },
+    {
+      "fg": "#52aa60"
+    }
+  ],
+  "viewport_text": "jk jj --no-pager --color always --repository /home/runner/work/jk/jk/target/forecast-demo.bVeJwf absorb\nCommand: jj --no-pager --color always --repository /home/runner/work/jk/jk/target/forecast-demo.bVeJwf a\nStatus: success\n\nStdout:\n<empty>\n\nStderr:\nAbsorbed changes into 1 revisions:\n  mtzqzntl 9f95ffb1 Configure request timeouts\nRebased 1 descendant commits.\nWorking copy  (@) now at: suxmowpm 2070a45c Experiment with forecast caching\nParent commit (@-)      : mtzqzntl 9f95ffb1 Configure request timeouts\nRemaining changes:\nA src/cache.js\n\nActions: e edit/retry command   : run another jj command\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n? help  V options  r refresh  j/k line  space page  q quit\n",
+  "scrollback_text": "",
+  "viewport": [
+    [
+      "jk ",
+      [
+        "jj --no-pager --color always --repository /home/runner/work/jk/jk/target/forecast-demo.bVeJwf absorb",
+        0
+      ]
+    ],
+    [
+      [
+        "Command: jj --no-pager --color always --repository /home/runner/work/jk/jk/target/forecast-demo.bVeJwf a",
+        1
+      ]
+    ],
+    [
+      [
+        "Status: success",
+        2
+      ]
+    ],
+    [],
+    [
+      [
+        "Stdout:",
+        3
+      ]
+    ],
+    [
+      [
+        "<empty>",
+        4
+      ]
+    ],
+    [],
+    [
+      [
+        "Stderr:",
+        3
+      ]
+    ],
+    [
+      [
+        "Absorbed changes into 1 revisions:",
+        4
+      ]
+    ],
+    [
+      [
+        "  ",
+        4
+      ],
+      [
+        "m",
+        5
+      ],
+      [
+        "tzqzntl",
+        6
+      ],
+      " ",
+      [
+        "9",
+        7
+      ],
+      [
+        "f95ffb1",
+        6
+      ],
+      " Configure request timeouts"
+    ],
+    [
+      "Rebased 1 descendant commits."
+    ],
+    [
+      "Working copy  (@) now at: ",
+      [
+        "s",
+        8
+      ],
+      [
+        "uxmowpm",
+        9
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "2",
+        10
+      ],
+      [
+        "070a45c",
+        9
+      ],
+      [
+        " Experiment with forecast caching",
+        0
+      ]
+    ],
+    [
+      "Parent commit (@-)      : ",
+      [
+        "m",
+        11
+      ],
+      [
+        "tzqzntl",
+        6
+      ],
+      " ",
+      [
+        "9",
+        7
+      ],
+      [
+        "f95ffb1",
+        6
+      ],
+      " Configure request timeouts"
+    ],
+    [
+      "Remaining changes:"
+    ],
+    [
+      [
+        "A src/cache.js",
+        12
+      ]
+    ],
+    [],
+    [
+      "Actions: e edit/retry command   : run another jj command"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "? help  V options  r refresh  j/k line  space page  q quit"
+    ]
+  ],
+  "scrollback": []
+}

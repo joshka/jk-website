@@ -1,0 +1,234 @@
+{
+  "schema_version": 1,
+  "source_index": "manual/v0.3.0-manual-20260921/review-index.json",
+  "source_index_sha256": "17efd1f5f9a9c80791c6764f7972f466b4b29257831f2719b0c66b74b784fc16",
+  "review": {
+    "id": "workspaces-inspect",
+    "title": "Inspect another workspace without switching scope",
+    "status": "ready",
+    "source_tape": "tapes/manual/workspaces/workspaces-inspect.tape",
+    "source_tape_sha256": "26872ff4bbb95aee997048315c23d2b8ac0a7e306e4994017cc149f0e8379a53",
+    "website": {
+      "path": "assets/manual/v0.3.0-manual-20260921/workspaces-inspect"
+    },
+    "problems": [],
+    "checkpoints": [
+      {
+        "id": "workspaces-inspect-status",
+        "png": "workspaces-inspect-status.png",
+        "state": "workspaces-inspect-status.json",
+        "png_sha256": "f69d4a13c7f65e2b0c6791b0e4fcda0ed3433e907dcf989e99815baff219bbab",
+        "state_sha256": "809870fea57ae44d271f138ce1e6c241f48003c31133314720405f622c727545",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/scenarios/refs_workspaces; inline full PNGs, paired terminal JSON and sampled MP4 contact sheet",
+          "reviewed_at": "2026-09-21T03:42:59.041474+00:00",
+          "summary": "Scratch status shows green added KEEP-ME and separate working-copy/parent identities. The long scoped header clips before the workspace name and subcommand; dim ID suffixes have weak contrast.",
+          "findings": [
+            "UX-15"
+          ]
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/scenarios/refs_workspaces; inline full PNGs, paired terminal JSON and sampled MP4 contact sheet",
+          "reviewed_at": "2026-09-21T03:42:59.041474+00:00",
+          "summary": "State explicitly retains A ../scratch/KEEP-ME.txt and working copy psukwknu c0b49187, matching the scoped fixture. Green #52aa60 additions and purple/blue short IDs are preserved, with suffix #3a4152. Header clips after workspa.",
+          "findings": [
+            "UX-15"
+          ]
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/refs-workspaces-ci35557653700.json",
+        "text_style_review_source": "target/manual-recordings/reviews/refs-workspaces-ci35557653700.json"
+      },
+      {
+        "id": "workspaces-inspect-diff",
+        "png": "workspaces-inspect-diff.png",
+        "state": "workspaces-inspect-diff.json",
+        "png_sha256": "43dfecc59ff029a11366c4dc7fdf404ceaa403baf25bc4b5b8f56ae32654f9fe",
+        "state_sha256": "790fdbe07182560429a15318bd3022412ded53e74a95da217af73adbe0f82fd8",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/scenarios/refs_workspaces; inline full PNGs, paired terminal JSON and sampled MP4 contact sheet",
+          "reviewed_at": "2026-09-21T03:42:59.041474+00:00",
+          "summary": "The one-line added file is readable, with yellow filename and green underlined content. Scoped path in body identifies scratch, but the header loses the command and final path component.",
+          "findings": [
+            "UX-15"
+          ]
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/scenarios/refs_workspaces; inline full PNGs, paired terminal JSON and sampled MP4 contact sheet",
+          "reviewed_at": "2026-09-21T03:42:59.041474+00:00",
+          "summary": "State shows Added regular file ../scratch/KEEP-ME.txt and workspace files remain after metadata changes. Yellow #ad9b49 header, green #52aa60 additions and underline survive in JSON.",
+          "findings": [
+            "UX-15"
+          ]
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/refs-workspaces-ci35557653700.json",
+        "text_style_review_source": "target/manual-recordings/reviews/refs-workspaces-ci35557653700.json"
+      },
+      {
+        "id": "workspaces-inspect-show",
+        "png": "workspaces-inspect-show.png",
+        "state": "workspaces-inspect-show.json",
+        "png_sha256": "c5fee22f4c6a63e2d0d419fa2c35dc22aa1cffbd1b1ed91013931023ae7a054e",
+        "state_sha256": "c02d4776644c8e4673805e78d80c797c180ad5d5d19fd85659819bf1242b8c68",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/scenarios/refs_workspaces; inline full PNGs, paired terminal JSON and sampled MP4 contact sheet",
+          "reviewed_at": "2026-09-21T03:42:59.041474+00:00",
+          "summary": "Successful explicit scratch@ show displays complete change/commit IDs and the expected added file. Captured-output bands separate status and streams. Long command metadata hides the trailing scope, and the bright action band has low text contrast.",
+          "findings": [
+            "UX-12",
+            "UX-15"
+          ]
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/scenarios/refs_workspaces; inline full PNGs, paired terminal JSON and sampled MP4 contact sheet",
+          "reviewed_at": "2026-09-21T03:42:59.041474+00:00",
+          "summary": "State gives Status: success, matching c0b49187 commit and psukwknu change, KEEP-ME addition and retained jj colors. Metadata and status use #3a485a/#215b53 backgrounds; output uses #1e232f and action strip #52c4c0. Command scope is outside the viewport.",
+          "findings": [
+            "UX-12",
+            "UX-15"
+          ]
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/refs-workspaces-ci35557653700.json",
+        "text_style_review_source": "target/manual-recordings/reviews/refs-workspaces-ci35557653700.json"
+      },
+      {
+        "id": "workspaces-inspect-evolog",
+        "png": "workspaces-inspect-evolog.png",
+        "state": "workspaces-inspect-evolog.json",
+        "png_sha256": "839984567f66205946cdafcef480b846a9c80ebdd4026815eff3d5dd422a9496",
+        "state_sha256": "11a4fddf7c21466be3f3412b3d36c39aa185de83ac473be95bbbe4ec9de8d1f9",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/scenarios/refs_workspaces; inline full PNGs, paired terminal JSON and sampled MP4 contact sheet",
+          "reviewed_at": "2026-09-21T03:42:59.041474+00:00",
+          "summary": "Explicit scratch evolution visibly contains current and hidden earlier versions with operation labels. The output is readable except very dim ID suffixes; terminal background styling leaves an uneven teal tail on the Actions line. Command metadata remains clipped.",
+          "findings": [
+            "UX-12",
+            "UX-15"
+          ]
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/scenarios/refs_workspaces; inline full PNGs, paired terminal JSON and sampled MP4 contact sheet",
+          "reviewed_at": "2026-09-21T03:42:59.041474+00:00",
+          "summary": "State preserves current scratch@ c0b49187 and previous hidden 986385ef, snapshot and initial workspace creation. jj foreground colors and output bands survive, while the title does not expose the trailing evolog -r scratch@ arguments.",
+          "findings": [
+            "UX-12",
+            "UX-15"
+          ]
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/refs-workspaces-ci35557653700.json",
+        "text_style_review_source": "target/manual-recordings/reviews/refs-workspaces-ci35557653700.json"
+      }
+    ],
+    "metadata_path": "target/manual-recordings/ci-35557653700/manual-evidence-workspaces-inspect/capture-metadata.json",
+    "metadata_sha256": "4a9de29111f88802ed1be5532ba7928aae8708facfffddc6b03a90857eb65d4e",
+    "evidence_directory": "target/manual-recordings/ci-35557653700/manual-evidence-workspaces-inspect",
+    "evidence_status": "passed",
+    "source_commit": "7fcb4fa9af1bb624fcdc7ac14a64184a43c4e829",
+    "pr_head_commit": "d5200f713edc476fd446616ad46fec573f861baf",
+    "source_manifest_sha256": "42c0d25b424a807906eb4e0ba7ca72b4c0488685e9f57b3bcf62d3f01c6c6915",
+    "source_matches_checkout": true,
+    "binary": {
+      "invoked_path": "/home/runner/work/jk/jk/target/manual-build/jk",
+      "path": "/home/runner/work/jk/jk/target/manual-build/jk",
+      "sha256": "cb41f94b63ec85100829bd2b1e9ced84f37cae912996a48e93b56b8776c9c5ed",
+      "version": "jk 0.3.0",
+      "version_exit_code": 0
+    },
+    "jj": {
+      "invoked_path": "/home/runner/.cargo/bin/jj",
+      "path": "/home/runner/.cargo/bin/jj",
+      "sha256": "cd5efc3eb281d606bf9b5523167f79661da0f8c76a5aa32d61c07c7a351b6b44",
+      "version": "jj 0.45.1-7c41cdeb16b6b321c64e789a966b6adf723816a5",
+      "version_exit_code": 0
+    },
+    "betamax": {
+      "invoked_path": "/home/runner/work/_temp/betamax-CtNrjW/bin/betamax",
+      "path": "/home/runner/work/_temp/betamax-CtNrjW/bin/betamax",
+      "sha256": "db55fa6e7ff98e1df3c91921b5b3fb504b3cc8fdaf6b07e3da952f8757053490",
+      "version": "betamax 0.1.21",
+      "version_exit_code": 0
+    },
+    "ci_run": {
+      "id": "35557653700",
+      "attempt": "1",
+      "url": "https://github.com/joshka/jk/actions/runs/35557653700"
+    },
+    "assertions": [
+      {
+        "path": "workspaces-inspect-assertions.json",
+        "sha256": "daaa8a32a3e21a4e3b386fc3f35d0c2af954b019b14bb8af8248325a0324fdf7",
+        "bytes": 856
+      }
+    ],
+    "video": {
+      "path": "workspaces-inspect.mp4",
+      "sha256": "89d947059d6386e1b9fa7691c50a107a91b62ae98b0d64cfd101594d1f3ba8b9",
+      "bytes": 496567
+    },
+    "video_review": {
+      "status": "reviewed",
+      "reviewer": "Codex /root/scenarios/refs_workspaces; inline full PNGs, paired terminal JSON and sampled MP4 contact sheet",
+      "reviewed_at": "2026-09-21T03:42:59.041474+00:00",
+      "summary": "Sampled review, not a real-time watch: 16 frames across 28.73 seconds show workspace selection, sustained native scoped status/diff/log, return by Backspace, paced explicit show -r scratch@ and evolog -r scratch@ command entry and held results. Captions explain that the workspace log is read-only and command scope needs an explicit revision. No fixture setup appears. Three paired assertions preserve workspace registrations and both workspaces' expected file contents. Native views and captured output differ noticeably in background styling; headers clip long repository paths.",
+      "findings": [
+        "UX-12",
+        "UX-15",
+        "UX-16"
+      ],
+      "duration_seconds": 28.733333,
+      "width": 1280,
+      "height": 900,
+      "fps": 15.0,
+      "sample_frame_numbers": [
+        0,
+        29,
+        57,
+        86,
+        115,
+        143,
+        172,
+        201,
+        229,
+        258,
+        287,
+        315,
+        344,
+        373,
+        401,
+        430
+      ],
+      "sample_seconds": [
+        0.0,
+        1.933,
+        3.8,
+        5.733,
+        7.667,
+        9.533,
+        11.467,
+        13.4,
+        15.267,
+        17.2,
+        19.133,
+        21.0,
+        22.933,
+        24.867,
+        26.733,
+        28.667
+      ],
+      "contact_sheet": "target/manual-recordings/reviews/refs-workspaces-video-ci35557653700/workspaces-inspect-samples.png",
+      "sha256": "89d947059d6386e1b9fa7691c50a107a91b62ae98b0d64cfd101594d1f3ba8b9"
+    },
+    "source_snapshot_status": "preserved",
+    "video_review_source": "target/manual-recordings/reviews/refs-workspaces-ci35557653700.json",
+    "pixel_review_complete": true,
+    "text_style_review_complete": true,
+    "video_review_complete": true
+  }
+}

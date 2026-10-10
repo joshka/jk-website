@@ -1,0 +1,20 @@
+{
+  "scenario": "change-lifecycle",
+  "stage": "change-lifecycle-cancelled",
+  "status": "passed",
+  "repository": "/home/runner/work/jk/jk/target/forecast-demo.Ykd932",
+  "assertions": [
+    {
+      "name": "working-copy commit unchanged",
+      "passed": true,
+      "actual": "16640ceb19dab31205c9b20d00b447d42dc0afd5",
+      "expected": "16640ceb19dab31205c9b20d00b447d42dc0afd5"
+    },
+    {
+      "name": "visible repository graph unchanged",
+      "passed": true,
+      "actual": "0000000000000000000000000000000000000000\n16640ceb19dab31205c9b20d00b447d42dc0afd5\n4072393a6540082fada3a2be0d3cbe5bcaf3d8cf\n67f04040953d035b4e4eeccbadc025ce7d548416\nf3feb0fecc4cb668ee4640f9d566dcc696237c7b",
+      "expected": "0000000000000000000000000000000000000000\n16640ceb19dab31205c9b20d00b447d42dc0afd5\n4072393a6540082fada3a2be0d3cbe5bcaf3d8cf\n67f04040953d035b4e4eeccbadc025ce7d548416\nf3feb0fecc4cb668ee4640f9d566dcc696237c7b"
+    }
+  ]
+}

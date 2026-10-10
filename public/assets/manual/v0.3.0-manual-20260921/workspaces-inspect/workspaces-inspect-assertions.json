@@ -1,0 +1,32 @@
+{
+  "scenario": "workspaces-inspect",
+  "stage": "workspaces-inspect",
+  "status": "passed",
+  "repository": "/home/runner/work/jk/jk/target/manual-fixtures/workspaces.CSSzGn/workflows.RLxDb7/workspaces/repo",
+  "assertions": [
+    {
+      "name": "only original workspace registrations remain",
+      "passed": true,
+      "actual": [
+        "default",
+        "scratch"
+      ],
+      "expected": [
+        "default",
+        "scratch"
+      ]
+    },
+    {
+      "name": "scratch work retained",
+      "passed": true,
+      "actual": "workspace files remain after metadata changes\n",
+      "expected": "workspace files remain after metadata changes\n"
+    },
+    {
+      "name": "default tracked files retained",
+      "passed": true,
+      "actual": "Workspace lifecycle demo files\n",
+      "expected": "Workspace lifecycle demo files\n"
+    }
+  ]
+}

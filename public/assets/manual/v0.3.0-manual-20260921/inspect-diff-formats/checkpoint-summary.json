@@ -1,0 +1,66 @@
+[
+  {
+    "checkpoint": "inspect-diff-formats-summary",
+    "viewport_text": "jk jj diff -r @ --summary\n   M README.md\n   M config.json\n   M src/cache.js\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n? help  V options  r refresh  j/k line  f files  space page  q quit\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#269d9a"
+      }
+    ],
+    "size": [
+      104,
+      36
+    ]
+  },
+  {
+    "checkpoint": "inspect-diff-formats-stat",
+    "viewport_text": "jk jj diff -r @ --stat\n   README.md    | 2 ++\n   config.json  | 2 +-\n   src/cache.js | 4 ++--\n   3 files changed, 5 insertions(+), 3 deletions(-)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n? help  V options  r refresh  j/k line  f files  space page  q quit\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#52aa60"
+      },
+      {
+        "fg": "#c26265"
+      }
+    ],
+    "size": [
+      104,
+      36
+    ]
+  },
+  {
+    "checkpoint": "inspect-diff-formats-types",
+    "viewport_text": "jk jj diff -r @ --types\n   FF README.md\n   FF config.json\n   FF src/cache.js\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n? help  V options  r refresh  j/k line  f files  space page  q quit\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#269d9a"
+      }
+    ],
+    "size": [
+      104,
+      36
+    ]
+  },
+  {
+    "checkpoint": "inspect-diff-formats-names",
+    "viewport_text": "jk jj diff -r @ --name-only\n   README.md\n   config.json\n   src/cache.js\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n? help  V options  r refresh  j/k line  f files  space page  q quit\n",
+    "styles": [
+      {
+        "bold": true
+      }
+    ],
+    "size": [
+      104,
+      36
+    ]
+  }
+]

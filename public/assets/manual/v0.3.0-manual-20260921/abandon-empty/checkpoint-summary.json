@@ -1,0 +1,196 @@
+[
+  {
+    "checkpoint": "abandon-empty-action",
+    "viewport_text": "jk jj\n\u203a  @  tyskztmk alex@example.invalid 2026-01-01 12:00:00 9b2e071b\n\u00b7  \u2502  (empty) Empty checkpoint\n   \u25cb  ruvyrrtt demo@example.invalid 2026-01-01 12:00:00 407e4d00\n   \u2502  Experiment with forecast caching\n   \u25cb  kpxnkrzm demo@example.invalid 2026-01-01 12:00:00 844cab80\n   \u2502  Configure request timeouts\n   \u25cb  wsuulvqr demo@example.invalid 2026-01-01 12:00:00 f09a0843\n   \u2502  Add the forecast endpoint\n   \u25cb  spxmzzxu alex@example.com 2026-01-01 12:00:00 9c125dc3\n   \u2502  Document the forecast service\n   \u25c6  Actions\n\n      Change actions:\n      > m  Describe revision  local rewrite \u00b7 enter saves\n        n  New change         local rewrite \u00b7 runs now\n        e  Edit change        local rewrite \u00b7 runs now\n        s  Squash revisions   local rewrite \u00b7 preview\n        a  Abandon revision   destructive \u00b7 checks first\n        r  Restore all paths  destructive \u00b7 preview\n\n      History and recovery:\n        u  Undo               local rewrite \u00b7 runs now\n        U  Redo               local rewrite \u00b7 runs now\n\n      Safety cues show whether actions preview, save, or run now; inspection views stay read-only.\n      j/k or arrows move   enter open   action key select   esc close\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#52aa60",
+        "bold": true
+      },
+      {
+        "fg": "#d58bf0",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152",
+        "bold": true
+      },
+      {
+        "fg": "#ad9b49",
+        "bold": true
+      },
+      {
+        "fg": "#52c4c0",
+        "bold": true
+      },
+      {
+        "fg": "#76a8f2",
+        "bold": true
+      },
+      {
+        "fg": "#75cf84",
+        "bold": true
+      },
+      {
+        "fg": "#487fd4",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152"
+      },
+      {
+        "fg": "#ad9b49"
+      },
+      {
+        "fg": "#269d9a"
+      },
+      {
+        "fg": "#af5bd1",
+        "bold": true
+      },
+      {
+        "fg": "#e0e6ee",
+        "bg": "#242c3a"
+      },
+      {
+        "fg": "#65d4cf",
+        "bg": "#242c3a",
+        "bold": true
+      },
+      {
+        "fg": "#e0e6ee",
+        "bg": "#242c3a",
+        "bold": true
+      }
+    ],
+    "size": [
+      104,
+      39
+    ]
+  },
+  {
+    "checkpoint": "abandon-empty-replacement",
+    "viewport_text": "jk jj\n\u203a  @  rmrllutm alex@example.invalid 2026-01-01 12:00:00 568b6b6f\n\u00b7  \u2502  (empty) (no description set)\n   \u25cb  ruvyrrtt demo@example.invalid 2026-01-01 12:00:00 407e4d00\n   \u2502  Experiment with forecast caching\n   \u25cb  kpxnkrzm demo@example.invalid 2026-01-01 12:00:00 844cab80\n   \u2502  Configure request timeouts\n   \u25cb  wsuulvqr demo@example.invalid 2026-01-01 12:00:00 f09a0843\n   \u2502  Add the forecast endpoint\n   \u25cb  spxmzzxu alex@example.com 2026-01-01 12:00:00 9c125dc3\n   \u2502  Document the forecast service\n   \u25c6  zzzzzzzz root() 00000000\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n? help  H home  L log  r refresh  enter open  d diff  v evolog  s status  space mark  o ops  ...  q quit\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#52aa60",
+        "bold": true
+      },
+      {
+        "fg": "#d58bf0",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152",
+        "bold": true
+      },
+      {
+        "fg": "#ad9b49",
+        "bold": true
+      },
+      {
+        "fg": "#52c4c0",
+        "bold": true
+      },
+      {
+        "fg": "#76a8f2",
+        "bold": true
+      },
+      {
+        "fg": "#75cf84",
+        "bold": true
+      },
+      {
+        "fg": "#487fd4",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152"
+      },
+      {
+        "fg": "#ad9b49"
+      },
+      {
+        "fg": "#269d9a"
+      },
+      {
+        "fg": "#af5bd1",
+        "bold": true
+      },
+      {
+        "fg": "#52aa60"
+      }
+    ],
+    "size": [
+      104,
+      39
+    ]
+  },
+  {
+    "checkpoint": "abandon-empty-undone",
+    "viewport_text": "jk jj\n\u203a  @  tyskztmk alex@example.invalid 2026-01-01 12:00:00 9b2e071b\n\u00b7  \u2502  (empty) Empty checkpoint\n   \u25cb  ruvyrrtt demo@example.invalid 2026-01-01 12:00:00 407e4d00\n   \u2502  Experiment with forecast caching\n   \u25cb  kpxnkrzm demo@example.invalid 2026-01-01 12:00:00 844cab80\n   \u2502  Configure request timeouts\n   \u25cb  wsuulvqr demo@example.invalid 2026-01-01 12:00:00 f09a0843\n   \u2502  Add the forecast endpoint\n   \u25cb  spxmzzxu alex@example.com 2026-01-01 12:00:00 9c125dc3\n   \u2502  Document the forecast service\n   \u25c6  zzzzzzzz root() 00000000\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n? help  H home  L log  r refresh  enter open  d diff  v evolog  s status  space mark  o ops  ...  q quit\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#52aa60",
+        "bold": true
+      },
+      {
+        "fg": "#d58bf0",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152",
+        "bold": true
+      },
+      {
+        "fg": "#ad9b49",
+        "bold": true
+      },
+      {
+        "fg": "#52c4c0",
+        "bold": true
+      },
+      {
+        "fg": "#76a8f2",
+        "bold": true
+      },
+      {
+        "fg": "#75cf84",
+        "bold": true
+      },
+      {
+        "fg": "#487fd4",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152"
+      },
+      {
+        "fg": "#ad9b49"
+      },
+      {
+        "fg": "#269d9a"
+      },
+      {
+        "fg": "#af5bd1",
+        "bold": true
+      },
+      {
+        "fg": "#52aa60"
+      }
+    ],
+    "size": [
+      104,
+      39
+    ]
+  }
+]

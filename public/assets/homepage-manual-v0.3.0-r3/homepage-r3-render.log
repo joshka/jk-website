@@ -1,0 +1,95 @@
+[34mrunning tapes/homepage.tape[0m
+[2m[1msetup[0m[2m 1/90: Output public/assets/jk-homepage-manual-v0.3.0-r3.gif[0m
+[2m[1msetup[0m[2m 2/90: Output target/betamax/homepage-manual-v0.3.0-r3-final-state.json[0m
+[2m[1msetup[0m[2m 3/90: Require cargo[0m
+[2m[1msetup[0m[2m 4/90: Require jj[0m
+[2m[1msetup[0m[2m 5/90: Set Shell "bash"[0m
+[2m[1msetup[0m[2m 6/90: Set Theme "Aardvark Ink"[0m
+[2m[1msetup[0m[2m 7/90: Set Width 1200[0m
+[2m[1msetup[0m[2m 8/90: Set Height 720[0m
+[2m[1msetup[0m[2m 9/90: Set Padding 0[0m
+[2m[1msetup[0m[2m 10/90: Set Margin 20[0m
+[2m[1msetup[0m[2m 11/90: Set WindowBar "Colorful"[0m
+[2m[1msetup[0m[2m 12/90: Set BorderRadius 8[0m
+[2m[1msetup[0m[2m 13/90: Set CursorBlink false[0m
+[2m[1msetup[0m[2m 14/90: Set TypingSpeed 24ms[0m
+[2m[1msetup[0m[2m 15/90: Set WaitTimeout 30s[0m
+[2m[1msetup[0m[2m 16/90: Env JJ_CONFIG <value>[0m
+[2m[1msetup[0m[2m 17/90: Env GIT_CONFIG_NOSYSTEM <value>[0m
+[2m[1msetup[0m[2m 18/90: Env GIT_CONFIG_GLOBAL <value>[0m
+[2m[1mdisplay[0m[2m 19/90: Hide[0m
+[36m[1mrun[0m[36m 20/90: Type "site=${JK_WEBSITE_REPO:-/Users/joshka/local/jk-website}"[0m
+[36m[1mrun[0m[36m 21/90: Enter[0m
+[33m[1mwait[0m[33m 22/90: Wait+Line default prompt[0m
+[36m[1mrun[0m[36m 23/90: Type "jk_source=${JK_SOURCE_REPO:-/Users/joshka/local/jk/default}"[0m
+[36m[1mrun[0m[36m 24/90: Enter[0m
+[33m[1mwait[0m[33m 25/90: Wait+Line default prompt[0m
+[36m[1mrun[0m[36m 26/90: Type "demo=$(mktemp -d /tmp/jk-homepage-manual.XXXXXX)"[0m
+[36m[1mrun[0m[36m 27/90: Enter[0m
+[33m[1mwait[0m[33m 28/90: Wait+Line default prompt[0m
+[36m[1mrun[0m[36m 29/90: Type "cd \"$site\" && mkdir -p public/assets target/betamax"[0m
+[36m[1mrun[0m[36m 30/90: Enter[0m
+[33m[1mwait[0m[33m 31/90: Wait+Line default prompt[0m
+[36m[1mrun[0m[36m 32/90: Type "cargo build --manifest-path \"$jk_source/Cargo.toml\" -p jk >/tmp/jk-homep…"[0m
+[36m[1mrun[0m[36m 33/90: Enter[0m
+[33m[1mwait[0m[33m 34/90: Wait+Screen "JK_BUILD_READY"[0m
+[36m[1mrun[0m[36m 35/90: Type "scripts/create-homepage-demo.sh \"$demo\" >/tmp/jk-homepage-demo.log 2>&1 …"[0m
+[36m[1mrun[0m[36m 36/90: Enter[0m
+[33m[1mwait[0m[33m 37/90: Wait+Screen "JK_DEMO_READY"[0m
+[36m[1mrun[0m[36m 38/90: Ctrl+L[0m
+[33m[1mwait[0m[33m 39/90: Sleep 200ms[0m
+[36m[1mrun[0m[36m 40/90: Type "cd \"$demo\" && \"$jk_source/target/debug/jk\""[0m
+[36m[1mrun[0m[36m 41/90: Enter[0m
+[33m[1mwait[0m[33m 42/90: Wait+Screen "Document refresh workflow"[0m
+[33m[1mwait[0m[33m 43/90: Sleep 900ms[0m
+[2m[1mdisplay[0m[2m 44/90: Show[0m
+[33m[1mwait[0m[33m 45/90: Sleep 2s[0m
+[36m[1mrun[0m[36m 46/90: Type "a"[0m
+[33m[1mwait[0m[33m 47/90: Sleep 3s[0m
+[33m[1mcapture[0m[33m 48/90: Screenshot public/assets/jk-homepage-manual-v0.3.0-r3-actions.png[0m
+[33m[1mcapture[0m[33m 49/90: State target/betamax/homepage-manual-v0.3.0-r3-actions.json[0m
+[36m[1mrun[0m[36m 50/90: Escape[0m
+[33m[1mwait[0m[33m 51/90: Sleep 800ms[0m
+[36m[1mrun[0m[36m 52/90: Enter[0m
+[33m[1mwait[0m[33m 53/90: Wait+Screen "jk jj show"[0m
+[33m[1mwait[0m[33m 54/90: Sleep 3s[0m
+[36m[1mrun[0m[36m 55/90: Type "H"[0m
+[33m[1mwait[0m[33m 56/90: Wait+Screen "Document refresh workflow"[0m
+[33m[1mwait[0m[33m 57/90: Sleep 700ms[0m
+[36m[1mrun[0m[36m 58/90: Type "d"[0m
+[33m[1mwait[0m[33m 59/90: Wait+Screen "jk jj diff"[0m
+[33m[1mwait[0m[33m 60/90: Sleep 2500ms[0m
+[36m[1mrun[0m[36m 61/90: Ctrl+Left[0m
+[33m[1mwait[0m[33m 62/90: Sleep 1s[0m
+[36m[1mrun[0m[36m 63/90: Ctrl+Right[0m
+[33m[1mwait[0m[33m 64/90: Sleep 900ms[0m
+[36m[1mrun[0m[36m 65/90: Type "h"[0m
+[33m[1mwait[0m[33m 66/90: Sleep 900ms[0m
+[36m[1mrun[0m[36m 67/90: Type "l"[0m
+[33m[1mwait[0m[33m 68/90: Sleep 700ms[0m
+[36m[1mrun[0m[36m 69/90: Type "?"[0m
+[33m[1mwait[0m[33m 70/90: Sleep 4s[0m
+[36m[1mrun[0m[36m 71/90: Type "?"[0m
+[33m[1mwait[0m[33m 72/90: Sleep 300ms[0m
+[36m[1mrun[0m[36m 73/90: Type "]"[0m
+[33m[1mwait[0m[33m 74/90: Sleep 700ms[0m
+[36m[1mrun[0m[36m 75/90: Type "]"[0m
+[33m[1mwait[0m[33m 76/90: Sleep 700ms[0m
+[36m[1mrun[0m[36m 77/90: Type "h"[0m
+[33m[1mwait[0m[33m 78/90: Sleep 900ms[0m
+[36m[1mrun[0m[36m 79/90: Type "l"[0m
+[33m[1mwait[0m[33m 80/90: Sleep 550ms[0m
+[36m[1mrun[0m[36m 81/90: Type "/"[0m
+[33m[1mwait[0m[33m 82/90: Sleep 250ms[0m
+[36m[1mrun[0m[36m 83/90: Type "refresh"[0m
+[36m[1mrun[0m[36m 84/90: Enter[0m
+[33m[1mwait[0m[33m 85/90: Sleep 800ms[0m
+[33m[1mcapture[0m[33m 86/90: Screenshot public/assets/jk-homepage-manual-v0.3.0-r3.png[0m
+[33m[1mcapture[0m[33m 87/90: State target/betamax/homepage-manual-v0.3.0-r3.json[0m
+[2m[1mdisplay[0m[2m 88/90: Hide[0m
+[36m[1mrun[0m[36m 89/90: Type "q"[0m
+[33m[1mwait[0m[33m 90/90: Sleep 300ms[0m
+[33mwriting state target/betamax/homepage-manual-v0.3.0-r3-final-state.json[0m
+[32mwrote target/betamax/homepage-manual-v0.3.0-r3-final-state.json[0m
+[33mcombining frames into gif public/assets/jk-homepage-manual-v0.3.0-r3.gif[0m
+[32mwrote public/assets/jk-homepage-manual-v0.3.0-r3.gif[0m

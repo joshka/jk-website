@@ -1,0 +1,251 @@
+[
+  {
+    "checkpoint": "inspect-log-options-selector",
+    "viewport_text": "jk jj log\n\u203a  @  vwyvytzl alex@example.invalid 2026-01-01 12:00:00 candidate 4872f015\n\u00b7  \u2502  Experiment with forecast caching\n   \u25cb  xylrswsk alex@example.invalid 2026-01-01 12:00:00 9876d39d\n   \u2502  Configure request timeouts\n   \u25cb  mtulkpvs alex@example.invalid 2026-01-01 12:00:00 ca8162b8\n   \u2502  Add the forecast endpoint\n   \u25cb  mvpwrorx alex@example.invalid 2026-01-01 12:00:00 main 5d3a68d8\n   \u2502  Document the forecast service\n   \u25c6  zzzzzzzz root() 00000000\n\n\n                       Log template\n\n                       > configured         jj configured template\n                         comfortable        builtin_log_comfortable\n                         compact            builtin_log_compact\n                         full description   builtin_log_compact_full_description\n                         detailed           builtin_log_detailed\n                         oneline            builtin_log_oneline\n                         redacted           builtin_log_redacted\n\n                       j/k or arrows move   enter apply   esc cancel\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#52aa60",
+        "bold": true
+      },
+      {
+        "fg": "#d58bf0",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152",
+        "bold": true
+      },
+      {
+        "fg": "#ad9b49",
+        "bold": true
+      },
+      {
+        "fg": "#52c4c0",
+        "bold": true
+      },
+      {
+        "fg": "#76a8f2",
+        "bold": true
+      },
+      {
+        "fg": "#487fd4",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152"
+      },
+      {
+        "fg": "#ad9b49"
+      },
+      {
+        "fg": "#269d9a"
+      },
+      {
+        "fg": "#af5bd1",
+        "bold": true
+      },
+      {
+        "fg": "#af5bd1"
+      },
+      {
+        "fg": "#52aa60"
+      },
+      {
+        "fg": "#e0e6ee",
+        "bg": "#242c3a"
+      },
+      {
+        "fg": "#65d4cf",
+        "bg": "#242c3a",
+        "bold": true
+      }
+    ],
+    "size": [
+      104,
+      36
+    ]
+  },
+  {
+    "checkpoint": "inspect-log-options-full-description",
+    "viewport_text": "jk jj log -T builtin_log_compact_full_description\n\u203a  @  vwyvytzl alex@example.invalid 2026-01-01 12:00:00 candidate 4872f015\n\u00b7  \u2502  Experiment with forecast caching\n\u00b7  \u2502\n   \u25cb  xylrswsk alex@example.invalid 2026-01-01 12:00:00 9876d39d\n   \u2502  Configure request timeouts\n   \u2502\n   \u25cb  mtulkpvs alex@example.invalid 2026-01-01 12:00:00 ca8162b8\n   \u2502  Add the forecast endpoint\n   \u2502\n   \u25cb  mvpwrorx alex@example.invalid 2026-01-01 12:00:00 main 5d3a68d8\n   \u2502  Document the forecast service\n   \u2502\n   \u25c6  zzzzzzzz root() 00000000\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n? help  H home  L log  r refresh  enter open  d diff  v evolog  s status  space mark  o ops  ...  q quit\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#52aa60",
+        "bold": true
+      },
+      {
+        "fg": "#d58bf0",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152",
+        "bold": true
+      },
+      {
+        "fg": "#ad9b49",
+        "bold": true
+      },
+      {
+        "fg": "#52c4c0",
+        "bold": true
+      },
+      {
+        "fg": "#76a8f2",
+        "bold": true
+      },
+      {
+        "fg": "#487fd4",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152"
+      },
+      {
+        "fg": "#ad9b49"
+      },
+      {
+        "fg": "#269d9a"
+      },
+      {
+        "fg": "#af5bd1",
+        "bold": true
+      },
+      {
+        "fg": "#af5bd1"
+      },
+      {
+        "fg": "#52aa60"
+      }
+    ],
+    "size": [
+      104,
+      36
+    ]
+  },
+  {
+    "checkpoint": "inspect-log-options-oneline",
+    "viewport_text": "jk jj log -T builtin_log_oneline\n\u203a  @  vwyvytzl alex 2026-01-01 12:00:00 candidate 4872f015 Experiment with forecast caching\n   \u25cb  xylrswsk alex 2026-01-01 12:00:00 9876d39d Configure request timeouts\n   \u25cb  mtulkpvs alex 2026-01-01 12:00:00 ca8162b8 Add the forecast endpoint\n   \u25cb  mvpwrorx alex 2026-01-01 12:00:00 main 5d3a68d8 Document the forecast service\n   \u25c6  zzzzzzzz root() 00000000\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n? help  H home  L log  r refresh  enter open  d diff  v evolog  s status  space mark  o ops  ...  q quit\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#52aa60",
+        "bold": true
+      },
+      {
+        "fg": "#d58bf0",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152",
+        "bold": true
+      },
+      {
+        "fg": "#ad9b49",
+        "bold": true
+      },
+      {
+        "fg": "#52c4c0",
+        "bold": true
+      },
+      {
+        "fg": "#76a8f2",
+        "bold": true
+      },
+      {
+        "fg": "#487fd4",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152"
+      },
+      {
+        "fg": "#ad9b49"
+      },
+      {
+        "fg": "#269d9a"
+      },
+      {
+        "fg": "#af5bd1",
+        "bold": true
+      },
+      {
+        "fg": "#af5bd1"
+      },
+      {
+        "fg": "#52aa60"
+      }
+    ],
+    "size": [
+      104,
+      36
+    ]
+  },
+  {
+    "checkpoint": "inspect-log-options-configured",
+    "viewport_text": "jk jj log\n\u203a  @  vwyvytzl alex@example.invalid 2026-01-01 12:00:00 candidate 4872f015\n\u00b7  \u2502  Experiment with forecast caching\n   \u25cb  xylrswsk alex@example.invalid 2026-01-01 12:00:00 9876d39d\n   \u2502  Configure request timeouts\n   \u25cb  mtulkpvs alex@example.invalid 2026-01-01 12:00:00 ca8162b8\n   \u2502  Add the forecast endpoint\n   \u25cb  mvpwrorx alex@example.invalid 2026-01-01 12:00:00 main 5d3a68d8\n   \u2502  Document the forecast service\n   \u25c6  zzzzzzzz root() 00000000\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n? help  H home  L log  r refresh  enter open  d diff  v evolog  s status  space mark  o ops  ...  q quit\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#52aa60",
+        "bold": true
+      },
+      {
+        "fg": "#d58bf0",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152",
+        "bold": true
+      },
+      {
+        "fg": "#ad9b49",
+        "bold": true
+      },
+      {
+        "fg": "#52c4c0",
+        "bold": true
+      },
+      {
+        "fg": "#76a8f2",
+        "bold": true
+      },
+      {
+        "fg": "#487fd4",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152"
+      },
+      {
+        "fg": "#ad9b49"
+      },
+      {
+        "fg": "#269d9a"
+      },
+      {
+        "fg": "#af5bd1",
+        "bold": true
+      },
+      {
+        "fg": "#af5bd1"
+      },
+      {
+        "fg": "#52aa60"
+      }
+    ],
+    "size": [
+      104,
+      36
+    ]
+  }
+]

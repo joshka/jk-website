@@ -21,7 +21,7 @@ const workflowItems = [
   },
   {
     title: 'Preview before writing',
-    body: 'Describe, abandon, new, edit, undo, and redo show the exact `jj` command before confirmation.',
+    body: 'Inspect operands and the exact `jj` command before confirming rebase, squash, restore, bookmarks, and remote operations.',
   },
   {
     title: 'Recover from operations',
@@ -34,7 +34,7 @@ const commandRows = [
   ['jk log', 'Open the explicit log path.'],
   ['jk log -T <template>', 'Render with a selected `jj log` template while keeping semantic navigation stable.'],
   ['jk diff -r <revision>', 'Inspect one revision using the canonical `jj diff` shape.'],
-  ['jk diff --from A --to B', 'Compare two revisions from marks, cursor context, or explicit CLI arguments.'],
+  ['jk diff --from A --to B', 'Compare two revision trees using explicit --from and --to operands.'],
   ['jk show <revision>', 'Inspect selected-change details with `jj show` output.'],
   ['jk status', 'Inspect repository status without leaving the focused TUI flow.'],
   ['jk workspaces', 'List sibling jj workspaces and open workspace-scoped log, status, and diff views.'],
@@ -48,7 +48,7 @@ const principleItems = [
   },
   {
     title: 'Presentation fidelity',
-    body: '`jk` honors `jj` configuration for default commands, revsets, templates, graph style, colors, diff formats, and operation semantics.',
+    body: 'Normal log and diff views preserve `jj` configuration for default commands, revsets, templates, graph style, colors, and diff formats.',
   },
   {
     title: 'Focused screens',
@@ -63,11 +63,11 @@ const principleItems = [
 const usageItems = [
   {
     title: 'Inspection',
-    body: '`Enter`, `d`, `s`, and `v` open show, diff, status, and evolog views for the selected change.',
+    body: '`Enter`, `d`, and `v` inspect the selected change; `s` shows working-copy status.',
   },
   {
     title: 'Diff review',
-    body: 'Move by line, page, file, and hunk; search; fold hunks and files; jump with the file list; switch diff formats with `V`.',
+    body: 'Move by line and page, search rendered output, and navigate or fold files in color-words diffs. Switch formats with `V`; hunk navigation is a known gap.',
   },
   {
     title: 'Command mode',
@@ -75,7 +75,7 @@ const usageItems = [
   },
   {
     title: 'Safe previews',
-    body: '`m`, `a`, `n`, `e`, `u`, and `U` open command previews for describe, abandon, new, edit, undo, and redo.',
+    body: '`a` opens the action menu. Rebase, squash, restore, bookmarks, and remote operations preview the command before execution; new, edit, undo, redo, and empty abandon run immediately.',
   },
   {
     title: 'Recovery',
@@ -89,12 +89,12 @@ const usageItems = [
 
 const recentItems = [
   {
-    title: 'Container startup',
-    body: 'Starting `jk` from a no-working-copy jj container now resolves to the `default` child workspace when one is available.',
+    title: 'Explicit workspace startup',
+    body: 'Use `jk -R default` from an outer jj container. Automatic child-workspace detection has a known compatibility issue with jj 0.45.1.',
   },
   {
-    title: 'Stale workspace reads',
-    body: 'Read-only log startup uses jj\'s stale-working-copy escape hatch so inspection can still open before mutation paths touch working-copy state.',
+    title: 'Working-copy snapshots',
+    body: 'Normal log loads and refreshes snapshot file edits like jj log. Run Options can skip the working-copy snapshot for one pending command.',
   },
   {
     title: 'Graph drill-in',
@@ -108,13 +108,13 @@ const recentItems = [
 
 const limitationItems = [
   'Command History is in-memory for the active `jk` session.',
-  'Rebase, squash, split, restore, bookmarks, fetch, and push remain planned workflows.',
-  'Direct `a`, `n`, and `e` mutation keys are dogfood shortcuts until the broader action menu lands.',
+  'Rebase, squash, restore, bookmarks, fetch, and workspace management have native workflows. Push is dry-run only.',
+  'Partial-change editing, native split, conflict resolution, and foreground tool handoff remain gaps.',
   'Public media is generated from Betamax tapes so release images can be refreshed independently of source code.',
 ];
 
 const media = [
-  { file: 'jk-homepage.gif', label: 'Homepage workflow animation', preview: 'jk-homepage.gif' },
+  { file: 'jk-homepage-manual-v0.3.0-r3.gif', label: 'Homepage workflow animation', preview: 'jk-homepage-manual-v0.3.0-r3.gif' },
   { file: 'jk-log.gif', label: 'Log workflow animation', preview: 'jk-log.png' },
   { file: 'jk-log.png', label: 'Log view' },
   { file: 'jk-log-selection.png', label: 'Selected change' },
@@ -124,7 +124,6 @@ const media = [
   { file: 'jk-diff.png', label: 'Diff view' },
   { file: 'jk-diff-help.png', label: 'Diff help overlay' },
   { file: 'jk-diff-search.png', label: 'Diff search' },
-  { file: 'jk-diff-folded-hunk.png', label: 'Folded hunk' },
   { file: 'jk-diff-folded-file.png', label: 'Folded file' },
   { file: 'jk-recent-features.gif', label: 'Recent graph and workspace polish', preview: 'jk-recent-features.gif' },
 ];
@@ -154,12 +153,12 @@ const media = [
       <div class="relative mx-auto mt-8 w-full max-w-full sm:max-w-5xl">
         <div class="glass relative overflow-hidden rounded-xl shadow-2xl shadow-black/50">
           <a
-            href={asset('jk-homepage.gif')}
+            href={asset('jk-homepage-manual-v0.3.0-r3.gif')}
             class="block focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-brand"
           >
             <img
-              src={asset('jk-homepage.gif')}
-              alt="jk workflow animation showing log navigation, expanded details, diff review, help, search, folding, and refresh"
+              src={asset('jk-homepage-manual-v0.3.0-r3.gif')}
+              alt="jk workflow animation showing a populated change graph, action menu, change details, diff review, help, file folding, and search"
               width="1200"
               height="720"
               class="block w-full max-w-full"
@@ -181,9 +180,8 @@ const media = [
           release archives on macOS and Linux.
         </p>
         <p class="mt-4 text-sm leading-6 text-fg-3">
-          This release snapshot focuses on inspection, diff review, command previews, command
-          history, operation recovery, and workspaces. Rebase, refs, remotes, and persistent
-          history remain planned follow-up work.
+          The manual covers the 0.3.0 source, including rebase, bookmarks, remotes, and workspace
+          management. Installed releases may expose fewer commands; check <code>jk --version</code>.
         </p>
       </div>
       <div class="mt-10 grid gap-4 lg:grid-cols-3">
@@ -321,9 +319,9 @@ brew install joshka/tap/jk</code></pre>
           from.
         </p>
         <p class="mt-4 text-lg leading-8 text-fg-2">
-          Current mutating workflows follow the same shape: resolve the object from the selected
-          row, show the exact command, confirm before mutating, refresh after completion, and leave
-          a recovery route through Command History and Operation Log.
+          The action menu names the affected object and distinguishes immediate actions from
+          previews. Command History retains the executed command and diagnostics, while Operation
+          Log provides the repository's recovery history.
         </p>
       </div>
 
@@ -355,9 +353,10 @@ brew install joshka/tap/jk</code></pre>
         </h2>
         <p class="mt-4 text-lg leading-8 text-fg-2">
           <code>jk diff</code> opens rendered <code>jj diff</code> output for the current change,
-          one revision, or an explicit from/to range. The release snapshot adds hunk and file
-          movement, folding, search, current-file status, a file-list overlay, and diff View
-          Options for summary, stat, name-only, git, and color-words output.
+          one revision, or an explicit from/to range. Search works across rendered output;
+          color-words diffs support file navigation, folding, and a file-list overlay. View Options
+          select summary, stat, types, name-only, Git, or color-words output. Hunk navigation and
+          the Git-format file list are known gaps documented in the manual.
         </p>
       </div>
       <img
@@ -379,9 +378,9 @@ brew install joshka/tap/jk</code></pre>
           Smoother log navigation in real jj workspaces.
         </h2>
         <p class="mt-4 text-lg leading-8 text-fg-2">
-          Recent updates tighten the rough edges that show up in daily dogfooding: nested
-          no-working-copy containers, stale workspace metadata, elided graph lanes, inline
-          expansion placement, and long revision IDs in follow-up commands.
+          Inspect sibling workspaces, refresh stale workspace metadata, and drill into elided
+          graph lanes. The manual records the tested behavior and recovery paths, including the
+          current automatic container-startup limitation.
         </p>
       </div>
       <div class="glass overflow-hidden rounded-xl shadow-2xl shadow-black/40">
@@ -424,12 +423,12 @@ brew install joshka/tap/jk</code></pre>
       <div>
         <p class="font-mono text-[13px] uppercase tracking-widest text-fg-3">Usage</p>
         <h2 class="mt-3 text-3xl font-semibold tracking-tight text-fg sm:text-4xl">
-          Current release surface.
+          Current source workflows.
         </h2>
         <p class="mt-4 text-lg leading-8 text-fg-2">
-          This release is a useful snapshot before rebase-specific workflows. It concentrates on
-          the loop that makes day-to-day jj work safer: inspect, preview, run, record, refresh, and
-          recover.
+          The 0.3.0 source includes rebase, whole-change squash and restore, bookmarks, remotes,
+          and workspace management. The manual explains each action and its recovery path; your
+          installed release may have a smaller command surface.
         </p>
         <div class="mt-6 flex flex-wrap gap-3">
           <a
@@ -481,8 +480,8 @@ brew install joshka/tap/jk</code></pre>
         </p>
         <p class="mt-4 text-sm leading-6 text-fg-3">
           In the TUI, <code>:</code> runs direct <code>jj</code> commands and keeps output in
-          Command History. Mutating shortcuts remain behind command previews so the release keeps a
-          visible confirmation and recovery path.
+          Command History. The action menu distinguishes immediate actions from confirmations.
+          New, Edit, Undo, Redo, and empty Abandon run immediately; command mode runs on Enter.
         </p>
       </div>
       <div class="overflow-hidden rounded-lg border border-line bg-panel">
@@ -512,9 +511,9 @@ brew install joshka/tap/jk</code></pre>
           Learn the current jk TUI.
         </h2>
         <p class="mt-4 text-lg leading-8 text-fg-2">
-          The repository docs describe the shipped behavior directly. The README stays short; the
-          usage guide carries task flows for inspection, diff review, command previews, command
-          mode, command history, operation recovery, and workspaces.
+          Follow a task from its starting repository through the command, visible result, and
+          recovery. The manual pairs source-checked instructions with recorded workflows and a
+          searchable command reference for the 0.3.0 source surface.
         </p>
         <div class="mt-6 flex flex-wrap gap-3">
           <a
@@ -524,10 +523,10 @@ brew install joshka/tap/jk</code></pre>
             README
           </a>
           <a
-            href="https://github.com/joshka/jk/blob/main/docs/usage.md"
+            href={`${base}manual/`}
             class="rounded border border-line px-3 py-2 text-sm font-semibold text-fg-2 transition-colors hover:border-brand hover:text-fg focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand"
           >
-            Usage guide
+            Read the manual
           </a>
           <a
             href="https://github.com/joshka/jk/blob/main/CHANGELOG.md"

@@ -1,0 +1,26 @@
+{
+  "scenario": "change-lifecycle",
+  "stage": "change-lifecycle-new",
+  "status": "passed",
+  "repository": "/home/runner/work/jk/jk/target/forecast-demo.Ykd932",
+  "assertions": [
+    {
+      "name": "new working copy is empty",
+      "passed": true,
+      "actual": "true",
+      "expected": "true"
+    },
+    {
+      "name": "new parent has multiline description",
+      "passed": true,
+      "actual": "Tune forecast cache lifetime\n\nKeep cached forecasts fresh.",
+      "expected": "Tune forecast cache lifetime\n\nKeep cached forecasts fresh."
+    },
+    {
+      "name": "new child retains parent files",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    }
+  ]
+}

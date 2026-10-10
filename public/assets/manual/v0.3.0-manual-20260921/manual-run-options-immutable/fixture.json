@@ -1,0 +1,8 @@
+{
+  "repository": "/home/runner/work/jk/jk/target/manual-fixtures/run-options-immutable.KPN6EG/workflows.0ENLtJ/rebase",
+  "kind": "run-options-immutable",
+  "initial_commit": "1ea1c096ef2e40d47137fbdbf4659f75345d2487",
+  "initial_operation": "d7ab18aa19ad638d19685358792300dbe0e2e1ba7844b96e276aa6922ba4746fb333560fc3d435d83bdae07a72ebef5d39deff2b86d31bb738417c162ad6a1ad",
+  "binary": "/home/runner/work/jk/jk/target/manual-build/jk",
+  "isolated_jj_config": "/dev/null"
+}

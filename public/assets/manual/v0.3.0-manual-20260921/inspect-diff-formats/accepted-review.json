@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "source_index": "manual/v0.3.0-manual-20260921/review-index.json",
+  "source_index_sha256": "17efd1f5f9a9c80791c6764f7972f466b4b29257831f2719b0c66b74b784fc16",
+  "review": {
+    "id": "inspect-diff-formats",
+    "title": "Choose the right amount of diff detail",
+    "status": "ready",
+    "source_tape": "tapes/manual/inspect/inspect-diff-formats.tape",
+    "source_tape_sha256": "cee204b85c5c1e4c0631d8d06b7cbd8bc179ddbb38ac11ef1bf1ce1c3cef8430",
+    "website": {
+      "path": "assets/manual/v0.3.0-manual-20260921/inspect-diff-formats"
+    },
+    "problems": [],
+    "checkpoints": [
+      {
+        "id": "inspect-diff-formats-summary",
+        "png": "inspect-diff-formats-summary.png",
+        "state": "inspect-diff-formats-summary.json",
+        "png_sha256": "1ff5377174b2074c45cca424c5e47c5baf5702a9acf38851da544c425561766c",
+        "state_sha256": "1d7b350e6894050d35ddf9e9e92db0e7196e4c4789ccbb563196f1d4e433a653",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "inspection agent",
+          "reviewed_at": "2026-09-21T03:24:03.545759+00:00",
+          "summary": "Summary view clearly lists the three modified files and keeps the revision/format title visible.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "inspection agent",
+          "reviewed_at": "2026-09-21T03:24:03.545759+00:00",
+          "summary": "Title names diff -r @ --summary; three M markers and paths share the expected teal style.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/inspection.json",
+        "text_style_review_source": "target/manual-recordings/reviews/inspection.json"
+      },
+      {
+        "id": "inspect-diff-formats-stat",
+        "png": "inspect-diff-formats-stat.png",
+        "state": "inspect-diff-formats-stat.json",
+        "png_sha256": "10c1c85428e3a35e9afc033cd8df9b211134f272b6513748236ad78cf1d8574a",
+        "state_sha256": "10fb2cbbc19be749d41b5d618c8bf7d3629c4ade7e9a7cb296ef6cef63fdc267",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "inspection agent",
+          "reviewed_at": "2026-09-21T03:24:03.545759+00:00",
+          "summary": "Stat view shows three file rows and a readable total of five insertions and three deletions, with green/red bar segments.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "inspection agent",
+          "reviewed_at": "2026-09-21T03:24:03.545759+00:00",
+          "summary": "State agrees with the three-file stat and totals; added and removed segments retain separate green and red styles.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/inspection.json",
+        "text_style_review_source": "target/manual-recordings/reviews/inspection.json"
+      },
+      {
+        "id": "inspect-diff-formats-types",
+        "png": "inspect-diff-formats-types.png",
+        "state": "inspect-diff-formats-types.json",
+        "png_sha256": "27a02851067bb7d32f3e9ab00eb49bd09a382aa4dde4447f8dd402d6defccd04",
+        "state_sha256": "c442e353da8deb80394a13cb16f6004ec2d90364f482f45418b66c9ac5002dd6",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "inspection agent",
+          "reviewed_at": "2026-09-21T03:24:03.545759+00:00",
+          "summary": "Types view displays FF for all three regular-file modifications; paths and title are readable.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "inspection agent",
+          "reviewed_at": "2026-09-21T03:24:03.545759+00:00",
+          "summary": "Title names --types and each expected path has FF, with consistent teal file/type styles.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/inspection.json",
+        "text_style_review_source": "target/manual-recordings/reviews/inspection.json"
+      },
+      {
+        "id": "inspect-diff-formats-names",
+        "png": "inspect-diff-formats-names.png",
+        "state": "inspect-diff-formats-names.json",
+        "png_sha256": "2d5c388cca7dc47c16092d5d3e57649ea43607723abdebcd22a1dc919076f922",
+        "state_sha256": "38dd2a2c5908ba7053e4f199b7f4a8e232d447aa3a87942f36a7472c9dc9ef21",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "inspection agent",
+          "reviewed_at": "2026-09-21T03:24:03.545759+00:00",
+          "summary": "Name-only view lists all three paths. The capture after cancelling the selector retains the same format and uncluttered output.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "inspection agent",
+          "reviewed_at": "2026-09-21T03:24:03.545759+00:00",
+          "summary": "Title remains --name-only and the state contains only the three expected paths in normal text style, confirming selector cancellation preserves the view.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/inspection.json",
+        "text_style_review_source": "target/manual-recordings/reviews/inspection.json"
+      }
+    ],
+    "metadata_path": "target/manual-recordings/ci-35556462468/manual-evidence-inspect-diff-formats/capture-metadata.json",
+    "metadata_sha256": "b9c7b5d30a65b71698cb1167c95ca74da112ee40a0fcde7e9471093f63f471c7",
+    "evidence_directory": "target/manual-recordings/ci-35556462468/manual-evidence-inspect-diff-formats",
+    "evidence_status": "passed",
+    "source_commit": "770b8802a4fe3ef42e3b80160985bcbddc76b049",
+    "pr_head_commit": "088d04dbc19b5a2b81b674e8986f59e190128de1",
+    "source_manifest_sha256": "42c0d25b424a807906eb4e0ba7ca72b4c0488685e9f57b3bcf62d3f01c6c6915",
+    "source_matches_checkout": true,
+    "binary": {
+      "invoked_path": "/home/runner/work/jk/jk/target/manual-build/jk",
+      "path": "/home/runner/work/jk/jk/target/manual-build/jk",
+      "sha256": "cb41f94b63ec85100829bd2b1e9ced84f37cae912996a48e93b56b8776c9c5ed",
+      "version": "jk 0.3.0",
+      "version_exit_code": 0
+    },
+    "jj": {
+      "invoked_path": "/home/runner/.cargo/bin/jj",
+      "path": "/home/runner/.cargo/bin/jj",
+      "sha256": "cd5efc3eb281d606bf9b5523167f79661da0f8c76a5aa32d61c07c7a351b6b44",
+      "version": "jj 0.45.1-7c41cdeb16b6b321c64e789a966b6adf723816a5",
+      "version_exit_code": 0
+    },
+    "betamax": {
+      "invoked_path": "/home/runner/work/_temp/betamax-7d9x4n/bin/betamax",
+      "path": "/home/runner/work/_temp/betamax-7d9x4n/bin/betamax",
+      "sha256": "db55fa6e7ff98e1df3c91921b5b3fb504b3cc8fdaf6b07e3da952f8757053490",
+      "version": "betamax 0.1.21",
+      "version_exit_code": 0
+    },
+    "ci_run": {
+      "id": "35556462468",
+      "attempt": "1",
+      "url": "https://github.com/joshka/jk/actions/runs/35556462468"
+    },
+    "assertions": [
+      {
+        "path": "inspection-assertions.json",
+        "sha256": "f1229a57a77dcea20c8694cee5187bd4019c63171c1e1054dee5d70f70f835c7",
+        "bytes": 946
+      }
+    ],
+    "video": {
+      "path": "inspect-diff-formats.mp4",
+      "sha256": "3f1fe3aced2a8ee8189903e35ade362830343e9d220f67a9179a2995841d7bbc",
+      "bytes": 132946
+    },
+    "video_review": {
+      "status": "reviewed",
+      "reviewer": "inspection agent",
+      "reviewed_at": "2026-09-21T03:24:03.545759+00:00",
+      "summary": "Review method: checked the captured source tape, ffprobe duration (17.466667s, 1400x840 at 15fps), all four checkpoint PNG/state pairs and actual MP4 frame samples at 4s, 10s, 16s. Source uses 2.5-second checkpoint holds, 2-second intermediate holds and 70ms typing. Samples confirm a readable opaque format selector, types output and selector cancellation preserving name-only output. No setup appears in reviewed content.",
+      "findings": [],
+      "sha256": "3f1fe3aced2a8ee8189903e35ade362830343e9d220f67a9179a2995841d7bbc"
+    },
+    "source_snapshot_status": "preserved",
+    "video_review_source": "target/manual-recordings/reviews/inspection.json",
+    "pixel_review_complete": true,
+    "text_style_review_complete": true,
+    "video_review_complete": true
+  }
+}

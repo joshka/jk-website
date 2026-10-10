@@ -1,15 +1,24 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-repo="${1:-${JK_HOMEPAGE_DEMO_REPO:-/tmp/jk-homepage-demo}}"
+repo="${1:?usage: create-homepage-demo.sh EMPTY-DISPOSABLE-DIRECTORY}"
 
-rm -rf "$repo"
 mkdir -p "$repo"
+if [[ -n $(ls -A "$repo") ]]; then
+    printf 'Refusing to replace a nonempty demo directory: %s\n' "$repo" >&2
+    exit 1
+fi
+export JJ_CONFIG=/dev/null
+export GIT_CONFIG_NOSYSTEM=1
+export GIT_CONFIG_GLOBAL=/dev/null
 jj git init "$repo" >/dev/null
 cd "$repo"
 
+jj config set --repo user.name 'Manual Demo'
+jj config set --repo user.email 'manual@example.invalid'
 jj config set --repo signing.behavior drop
-jj config set --repo ui.default-command 'log -r "all()" -n 12'
+jj config set --repo ui.color always
+jj config set --repo ui.default-command '["log", "-r", "all()", "-n", "12"]'
 
 mkdir -p src docs .github/workflows
 cat > README.md <<'EOF'
@@ -51,9 +60,9 @@ cat > docs/keys.md <<'EOF'
 # Keys
 
 - `j` and `k` move between changes
-- `Enter` expands the selected change
+- `Enter` opens the selected change details
 - `d` opens the selected diff
-- `-` folds the current hunk
+- `h` folds the current file
 - `r` refreshes the repository view
 EOF
 jj file track docs/keys.md >/dev/null
@@ -91,7 +100,7 @@ The log view keeps common navigation close to the home row.
 - `g` jumps to the top of the rendered log
 - `G` jumps to the bottom of the rendered log
 - `Space` and `b` move by page
-- `Enter` expands the selected change
+- `Enter` opens the selected change details
 - `d` opens the selected diff
 - `r` refreshes the repository view
 
@@ -99,9 +108,8 @@ The log view keeps common navigation close to the home row.
 
 - `j` and `k` move between rendered lines
 - `[` and `]` move between files
-- `{` and `}` move between hunks
-- `-` folds the current hunk
 - `h` folds the current file
+- `l` unfolds the current file
 
 ## Overlays
 

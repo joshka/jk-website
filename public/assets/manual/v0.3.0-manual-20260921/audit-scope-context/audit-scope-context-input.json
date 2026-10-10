@@ -1,0 +1,199 @@
+{
+  "size": [
+    98,
+    43
+  ],
+  "total_rows": 43,
+  "scrollback_rows": 0,
+  "cursor": {
+    "x": 20,
+    "y": 24,
+    "visible": false
+  },
+  "default_style": {
+    "fg": "#b4bcca",
+    "bg": "#0f141f"
+  },
+  "styles": [
+    {
+      "bold": true
+    },
+    {
+      "fg": "#52aa60"
+    },
+    {
+      "fg": "#d58bf0",
+      "bold": true
+    },
+    {
+      "fg": "#3a4152",
+      "bold": true
+    },
+    {
+      "fg": "#76a8f2",
+      "bold": true
+    },
+    {
+      "fg": "#ad9b49",
+      "bold": true
+    },
+    {
+      "fg": "#487fd4",
+      "bold": true
+    },
+    {
+      "fg": "#3a4152"
+    },
+    {
+      "fg": "#af5bd1",
+      "bold": true
+    },
+    {
+      "fg": "#e0e6ee",
+      "bg": "#242c3a"
+    },
+    {
+      "fg": "#65d4cf",
+      "bg": "#242c3a",
+      "bold": true
+    }
+  ],
+  "viewport_text": "jk jj -R /home/runner/work/jk/jk/target/manual-fixtures/workspaces.MvkFJr/workflows.8HgG9l/workspa\nWorking copy changes:\nA ../scratch/KEEP-ME.txt\nWorking copy  (@) : tlznmvqv 6ada6fb2 (no description set)\nParent commit (@-): qnyvzuou b2e6655a Add workspace demo files\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                     jj command\n\n                     : describe -m 'Scope audit changed startup workspace' @\n\n                     enter run   Ctrl-u clear   backspace edit   esc cancel\n",
+  "scrollback_text": "",
+  "viewport": [
+    [
+      "jk ",
+      [
+        "jj -R /home/runner/work/jk/jk/target/manual-fixtures/workspaces.MvkFJr/workflows.8HgG9l/workspa",
+        0
+      ]
+    ],
+    [
+      "Working copy changes:"
+    ],
+    [
+      [
+        "A ../scratch/KEEP-ME.txt",
+        1
+      ]
+    ],
+    [
+      "Working copy  (@) : ",
+      [
+        "t",
+        2
+      ],
+      [
+        "lznmvqv",
+        3
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "6",
+        4
+      ],
+      [
+        "ada6fb2",
+        3
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "(no description set)",
+        5
+      ]
+    ],
+    [
+      "Parent commit (@-): ",
+      [
+        "qn",
+        6
+      ],
+      [
+        "yvzuou",
+        7
+      ],
+      " ",
+      [
+        "b",
+        8
+      ],
+      [
+        "2e6655a",
+        7
+      ],
+      " Add workspace demo files"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "                   ",
+      [
+        "  ",
+        9
+      ],
+      [
+        "jj command",
+        10
+      ]
+    ],
+    [],
+    [
+      "                   ",
+      [
+        "  ",
+        9
+      ],
+      [
+        ":",
+        10
+      ],
+      [
+        " describe -m 'Scope audit changed startup workspace' @",
+        9
+      ]
+    ],
+    [],
+    [
+      "                   ",
+      [
+        "  ",
+        9
+      ],
+      [
+        "enter run",
+        10
+      ],
+      [
+        "   Ctrl-u clear   ",
+        9
+      ],
+      [
+        "backspace edit",
+        10
+      ],
+      [
+        "   esc cancel",
+        9
+      ]
+    ]
+  ],
+  "scrollback": []
+}

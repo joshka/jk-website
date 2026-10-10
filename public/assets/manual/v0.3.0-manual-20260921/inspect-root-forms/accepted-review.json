@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "source_index": "manual/v0.3.0-manual-20260921/review-index.json",
+  "source_index_sha256": "17efd1f5f9a9c80791c6764f7972f466b4b29257831f2719b0c66b74b784fc16",
+  "review": {
+    "id": "inspect-root-forms",
+    "title": "Open a specific view from your shell",
+    "status": "ready",
+    "source_tape": "tapes/manual/inspect/inspect-root-forms.tape",
+    "source_tape_sha256": "5b4d7f6c6266dd2b2acc04193b703b1521f14bb4807bbb9b180a446b326ee393",
+    "website": {
+      "path": "assets/manual/v0.3.0-manual-20260921/inspect-root-forms"
+    },
+    "problems": [],
+    "checkpoints": [
+      {
+        "id": "inspect-root-forms-custom-log",
+        "png": "inspect-root-forms-custom-log.png",
+        "state": "inspect-root-forms-custom-log.json",
+        "png_sha256": "e17b395cd5fa1b6535108092bd3161382d82e7e2c155e0d3b80e3da851854bdc",
+        "state_sha256": "53c03d8bdd4afdd1bd9a5f6864944e6e6945ea216bf674f6f83bfef8f40b0b16",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "inspection agent",
+          "reviewed_at": "2026-09-21T03:24:03.545759+00:00",
+          "summary": "The startup log limit and oneline template produce three compact, readable revision rows with their descriptions and IDs.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "inspection agent",
+          "reviewed_at": "2026-09-21T03:24:03.545759+00:00",
+          "summary": "Title identifies builtin_log_oneline, and the state contains the expected three described revisions with jj graph colors. The startup tape supplies -n 3, which is honored by the three-row output but omitted from the displayed title.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/inspection.json",
+        "text_style_review_source": "target/manual-recordings/reviews/inspection.json"
+      },
+      {
+        "id": "inspect-root-forms-multi-show",
+        "png": "inspect-root-forms-multi-show.png",
+        "state": "inspect-root-forms-multi-show.json",
+        "png_sha256": "a1f5db21e74a9f23c32cbf50508ad51dc1c3bfc425a3bdf57ef0b2a1662b1cde",
+        "state_sha256": "4bc9be72a1227a8eea2e9ba0fa6fa10065d42455ede0442d74187859ffb64e3d",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "inspection agent",
+          "reviewed_at": "2026-09-21T03:24:03.545759+00:00",
+          "summary": "The startup title names @ and @-, and the first revision metadata and patch are readable. Video sampling separately confirms the second revision below the first.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "inspection agent",
+          "reviewed_at": "2026-09-21T03:24:03.545759+00:00",
+          "summary": "State matches the first of two requested revisions, with blue/magenta metadata and red/green underlined patch changes. The title preserves both positional operands.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/inspection.json",
+        "text_style_review_source": "target/manual-recordings/reviews/inspection.json"
+      },
+      {
+        "id": "inspect-root-forms-fileset-status",
+        "png": "inspect-root-forms-fileset-status.png",
+        "state": "inspect-root-forms-fileset-status.json",
+        "png_sha256": "2d3d516e114abb4f09c42ed0c2d1200d433df895fbb05e0736d682840be642c8",
+        "state_sha256": "734326471daaa761097ee2130a3b42208c8a8a2d14c2b6083b3bf5e4e78f3eca",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "inspection agent",
+          "reviewed_at": "2026-09-21T03:24:03.545759+00:00",
+          "summary": "Filtered status displays README.md and config.json only, plus current and parent revision summaries. The full startup command remains legible.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "inspection agent",
+          "reviewed_at": "2026-09-21T03:24:03.545759+00:00",
+          "summary": "Title contains both fileset operands. Exactly the two requested modified paths appear; src/cache.js is absent as intended.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/inspection.json",
+        "text_style_review_source": "target/manual-recordings/reviews/inspection.json"
+      },
+      {
+        "id": "inspect-root-forms-full-status",
+        "png": "inspect-root-forms-full-status.png",
+        "state": "inspect-root-forms-full-status.json",
+        "png_sha256": "67fe5e27347620e51ecef5d61f56fbc28087ad9af85df320195c807f9c316509",
+        "state_sha256": "a5257ae04b6edadf1828b82aa58b66ff218f17c4b8503a64451f5a66cce93ad7",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "inspection agent",
+          "reviewed_at": "2026-09-21T03:24:03.545759+00:00",
+          "summary": "Unfiltered status adds src/cache.js while retaining the same working-copy and parent summaries. No setup shell noise or overlay obscures content.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "inspection agent",
+          "reviewed_at": "2026-09-21T03:24:03.545759+00:00",
+          "summary": "State confirms all three modified paths with the expected current and parent revisions; modified markers use the same teal style as the PNG.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/inspection.json",
+        "text_style_review_source": "target/manual-recordings/reviews/inspection.json"
+      }
+    ],
+    "metadata_path": "target/manual-recordings/ci-35556462468/manual-evidence-inspect-root-forms/capture-metadata.json",
+    "metadata_sha256": "56e82b1bb9ee7dcb7fee943707c2c11f997fa0620d95c623ae40ffc12b6a31d6",
+    "evidence_directory": "target/manual-recordings/ci-35556462468/manual-evidence-inspect-root-forms",
+    "evidence_status": "passed",
+    "source_commit": "770b8802a4fe3ef42e3b80160985bcbddc76b049",
+    "pr_head_commit": "088d04dbc19b5a2b81b674e8986f59e190128de1",
+    "source_manifest_sha256": "42c0d25b424a807906eb4e0ba7ca72b4c0488685e9f57b3bcf62d3f01c6c6915",
+    "source_matches_checkout": true,
+    "binary": {
+      "invoked_path": "/home/runner/work/jk/jk/target/manual-build/jk",
+      "path": "/home/runner/work/jk/jk/target/manual-build/jk",
+      "sha256": "cb41f94b63ec85100829bd2b1e9ced84f37cae912996a48e93b56b8776c9c5ed",
+      "version": "jk 0.3.0",
+      "version_exit_code": 0
+    },
+    "jj": {
+      "invoked_path": "/home/runner/.cargo/bin/jj",
+      "path": "/home/runner/.cargo/bin/jj",
+      "sha256": "cd5efc3eb281d606bf9b5523167f79661da0f8c76a5aa32d61c07c7a351b6b44",
+      "version": "jj 0.45.1-7c41cdeb16b6b321c64e789a966b6adf723816a5",
+      "version_exit_code": 0
+    },
+    "betamax": {
+      "invoked_path": "/home/runner/work/_temp/betamax-HEEwVk/bin/betamax",
+      "path": "/home/runner/work/_temp/betamax-HEEwVk/bin/betamax",
+      "sha256": "db55fa6e7ff98e1df3c91921b5b3fb504b3cc8fdaf6b07e3da952f8757053490",
+      "version": "betamax 0.1.21",
+      "version_exit_code": 0
+    },
+    "ci_run": {
+      "id": "35556462468",
+      "attempt": "1",
+      "url": "https://github.com/joshka/jk/actions/runs/35556462468"
+    },
+    "assertions": [
+      {
+        "path": "inspection-assertions.json",
+        "sha256": "f790008de768756632b9dd7611f4616e8c9b20a92b2641f8ddb84ddbb41a42db",
+        "bytes": 944
+      }
+    ],
+    "video": {
+      "path": "inspect-root-forms.mp4",
+      "sha256": "66445ce92109d074c0000338bcd26ec2cf03a5acbfffe8f2bc0ba90e18f99f85",
+      "bytes": 346023
+    },
+    "video_review": {
+      "status": "reviewed",
+      "reviewer": "inspection agent",
+      "reviewed_at": "2026-09-21T03:24:03.545759+00:00",
+      "summary": "Review method: checked the captured source tape, ffprobe duration (17.600000s, 1400x840 at 15fps), all four checkpoint PNG/state pairs and actual MP4 frame samples at 6s, 8s, 15s. Source uses 2.5-second checkpoint holds, 2-second intermediate holds and 70ms typing. Samples confirm both positional show revisions, including the parent Configure request timeouts at 8s, followed by unfiltered status. Transitions and startup commands are readable.",
+      "findings": [],
+      "sha256": "66445ce92109d074c0000338bcd26ec2cf03a5acbfffe8f2bc0ba90e18f99f85"
+    },
+    "source_snapshot_status": "preserved",
+    "video_review_source": "target/manual-recordings/reviews/inspection.json",
+    "pixel_review_complete": true,
+    "text_style_review_complete": true,
+    "video_review_complete": true
+  }
+}

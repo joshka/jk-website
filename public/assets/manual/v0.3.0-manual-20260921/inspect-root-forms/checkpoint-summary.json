@@ -1,0 +1,181 @@
+[
+  {
+    "checkpoint": "inspect-root-forms-custom-log",
+    "viewport_text": "jk jj log -T builtin_log_oneline\n\u203a  @  wvplrrrn alex 2026-01-01 12:00:00 candidate bdca6a22 Experiment with forecast caching\n   \u25cb  wlqzxwll alex 2026-01-01 12:00:00 552d4ed7 Configure request timeouts\n   \u25cb  zqnukxpo alex 2026-01-01 12:00:00 2dcd2df5 Add the forecast endpoint\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n? help  H home  L log  r refresh  enter open  d diff  v evolog  s status  space mark  o ops  ...  q quit\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#52aa60",
+        "bold": true
+      },
+      {
+        "fg": "#d58bf0",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152",
+        "bold": true
+      },
+      {
+        "fg": "#ad9b49",
+        "bold": true
+      },
+      {
+        "fg": "#52c4c0",
+        "bold": true
+      },
+      {
+        "fg": "#76a8f2",
+        "bold": true
+      },
+      {
+        "fg": "#487fd4",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152"
+      },
+      {
+        "fg": "#ad9b49"
+      },
+      {
+        "fg": "#269d9a"
+      },
+      {
+        "fg": "#af5bd1",
+        "bold": true
+      }
+    ],
+    "size": [
+      104,
+      36
+    ]
+  },
+  {
+    "checkpoint": "inspect-root-forms-multi-show",
+    "viewport_text": "jk jj show @ @-\nCommit ID: bdca6a22123e432816f52792315428136370f619\nChange ID: wvplrrrnvqpvtxpvpxxpplovqzmvtqsu\nBookmarks: candidate candidate@git\nAuthor   : Alex Developer <alex@example.invalid> (2026-01-01 12:00:00)\nCommitter: Alex Developer <alex@example.invalid> (2026-01-01 12:00:00)\n\n    Experiment with forecast caching\n\nModified regular file README.md:\n    ...\n   3    3: Reliable forecasts for every city.\n   4    4:\n   5    5: Requests time out after three seconds.\n        6:\n        7: Cache forecasts for two minutes.\nModified regular file config.json:\n   1    1: {\n   2    2:   \"requestTimeoutMs\": 3000,\n   3    3:   \"cacheTtlSeconds\": 60120\n   4    4: }\nModified regular file src/cache.js:\n   1    1: export const cacheWindow1 = 1;\n   2    2: export const cacheWindow2 = 2;\n   3    3: export const cacheWindow3 = 3;\n   4     : export const cacheWindow4 = 4;\n        4: export const cacheTtlSeconds = 120; // Keep forecasts fresh.\n   5    5: export const cacheWindow5 = 5;\n   6    6: export const cacheWindow6 = 6;\n   7    7: export const cacheWindow7 = 7;\n    ...\n  27   27: export const cacheWindow27 = 27;\n  28   28: export const cacheWindow28 = 28;\n  29   29: export const cacheWindow29 = 29;\n  30     : export const cacheWindow30 = 30;\n? help  V options  r refresh  j/k line  space page  q quit\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#af5bd1"
+      },
+      {
+        "fg": "#487fd4"
+      },
+      {
+        "fg": "#ad9b49"
+      },
+      {
+        "fg": "#269d9a"
+      },
+      {
+        "fg": "#c26265",
+        "faint": true
+      },
+      {
+        "fg": "#52aa60",
+        "faint": true
+      },
+      {
+        "fg": "#52aa60"
+      },
+      {
+        "fg": "#52aa60",
+        "underline": "single"
+      },
+      {
+        "fg": "#c26265"
+      },
+      {
+        "fg": "#c26265",
+        "underline": "single"
+      }
+    ],
+    "size": [
+      104,
+      36
+    ]
+  },
+  {
+    "checkpoint": "inspect-root-forms-fileset-status",
+    "viewport_text": "jk jj status README.md config.json\nWorking copy changes:\nM README.md\nM config.json\nWorking copy  (@) : wvplrrrn bdca6a22 candidate | Experiment with forecast caching\nParent commit (@-): wlqzxwll 552d4ed7 Configure request timeouts\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n? help  V options  r refresh  j/k line  space page  q quit\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#269d9a"
+      },
+      {
+        "fg": "#d58bf0",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152",
+        "bold": true
+      },
+      {
+        "fg": "#76a8f2",
+        "bold": true
+      },
+      {
+        "fg": "#487fd4",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152"
+      },
+      {
+        "fg": "#af5bd1",
+        "bold": true
+      }
+    ],
+    "size": [
+      104,
+      36
+    ]
+  },
+  {
+    "checkpoint": "inspect-root-forms-full-status",
+    "viewport_text": "jk jj status\nWorking copy changes:\nM README.md\nM config.json\nM src/cache.js\nWorking copy  (@) : wvplrrrn bdca6a22 candidate | Experiment with forecast caching\nParent commit (@-): wlqzxwll 552d4ed7 Configure request timeouts\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n? help  V options  r refresh  j/k line  space page  q quit\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#269d9a"
+      },
+      {
+        "fg": "#d58bf0",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152",
+        "bold": true
+      },
+      {
+        "fg": "#76a8f2",
+        "bold": true
+      },
+      {
+        "fg": "#487fd4",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152"
+      },
+      {
+        "fg": "#af5bd1",
+        "bold": true
+      }
+    ],
+    "size": [
+      104,
+      36
+    ]
+  }
+]

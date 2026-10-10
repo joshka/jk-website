@@ -1,0 +1,37 @@
+{
+  "schema": 1,
+  "results": [
+    {
+      "tape": "workspaces-lifecycle.tape",
+      "status": "passed"
+    }
+  ],
+  "problems": [],
+  "media": [
+    {
+      "name": "betamax-betamax-workspaces-lifecycle-r1-m1.workspaces-lifecycle.mp4",
+      "label": "workspaces-lifecycle.tape (mp4)",
+      "type": "video/mp4"
+    },
+    {
+      "name": "betamax-betamax-workspaces-lifecycle-r1-m2.workspaces-lifecycle-add.png",
+      "label": "workspaces-lifecycle-add.png",
+      "type": "image/png"
+    },
+    {
+      "name": "betamax-betamax-workspaces-lifecycle-r1-m3.workspaces-lifecycle-cancel.png",
+      "label": "workspaces-lifecycle-cancel.png",
+      "type": "image/png"
+    },
+    {
+      "name": "betamax-betamax-workspaces-lifecycle-r1-m4.workspaces-lifecycle-collision.png",
+      "label": "workspaces-lifecycle-collision.png",
+      "type": "image/png"
+    },
+    {
+      "name": "betamax-betamax-workspaces-lifecycle-r1-m5.workspaces-lifecycle-finished.png",
+      "label": "workspaces-lifecycle-finished.png",
+      "type": "image/png"
+    }
+  ]
+}

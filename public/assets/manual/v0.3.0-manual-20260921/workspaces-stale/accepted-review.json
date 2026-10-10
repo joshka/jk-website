@@ -1,0 +1,231 @@
+{
+  "schema_version": 1,
+  "source_index": "manual/v0.3.0-manual-20260921/review-index.json",
+  "source_index_sha256": "17efd1f5f9a9c80791c6764f7972f466b4b29257831f2719b0c66b74b784fc16",
+  "review": {
+    "id": "workspaces-stale",
+    "title": "Bring a stale workspace up to date",
+    "status": "ready",
+    "source_tape": "tapes/manual/workspaces/workspaces-stale.tape",
+    "source_tape_sha256": "b2e62fb25517cb9776782acefc6f5e80f0481a77cec043c81d14612fdb478559",
+    "website": {
+      "path": "assets/manual/v0.3.0-manual-20260921/workspaces-stale"
+    },
+    "problems": [],
+    "checkpoints": [
+      {
+        "id": "workspaces-stale-preview",
+        "png": "workspaces-stale-preview.png",
+        "state": "workspaces-stale-preview.json",
+        "png_sha256": "9fd4bdacd4cb287704bdf5afb09357f143adf4fabee526f58e3f7d61c00aed96",
+        "state_sha256": "013e1c070b3851f15827b1ea161f50c8aaf3a7ce940865baec5b500905417a8a",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/scenarios/refs_workspaces; inline full PNGs, paired terminal JSON and sampled MP4 contact sheet",
+          "reviewed_at": "2026-09-21T03:58:03.186120+00:00",
+          "summary": "Centered slate confirmation clearly names scratch, wraps its full path and complete update-stale command, and shows confirm/cancel controls. Initial caption accurately describes the stale README change. Workspace list paths clip at the right edge and underlying scratch cursor remains visible.",
+          "findings": [
+            "UX-06",
+            "UX-15"
+          ]
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/scenarios/refs_workspaces; inline full PNGs, paired terminal JSON and sampled MP4 contact sheet",
+          "reviewed_at": "2026-09-21T03:58:03.186120+00:00",
+          "summary": "State preserves workspace scratch, full path ending workspaces/scratch and workspace update-stale. Teal bold #65d4cf title/controls, gray #a1aebe labels and #e0e6ee body over #242c3a match the image; current-workspace star is #269d9a.",
+          "findings": [
+            "UX-06",
+            "UX-15"
+          ]
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/refs-workspaces-ci35559132953.json",
+        "text_style_review_source": "target/manual-recordings/reviews/refs-workspaces-ci35559132953.json"
+      },
+      {
+        "id": "workspaces-stale-updated",
+        "png": "workspaces-stale-updated.png",
+        "state": "workspaces-stale-updated.json",
+        "png_sha256": "d000aef69863aa99ff2231ded8d7bf02c884f07622d87fc2f778d5007fddb914",
+        "state_sha256": "9538eb1a6f286aefe2fa1fa6faea3661b3cfd1d8980cc3c7a2d3529794bfaf14",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/scenarios/refs_workspaces; inline full PNGs, paired terminal JSON and sampled MP4 contact sheet",
+          "reviewed_at": "2026-09-21T03:58:03.186120+00:00",
+          "summary": "Scratch remains selected and success footer shows update to 4b6fda98. Corrected caption now reads Scratch is synchronized; inspect the changed files next, accurately matching the completed operation. Long result footer clips the final description.",
+          "findings": [
+            "UX-15"
+          ]
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/scenarios/refs_workspaces; inline full PNGs, paired terminal JSON and sampled MP4 contact sheet",
+          "reviewed_at": "2026-09-21T03:58:03.186120+00:00",
+          "summary": "State reports updated scratch via workspace update-stale and Working copy (@) now at lkpsvqkm 4b6fda98, then truncates Refresh sc at the edge. Default result styling and teal current star match pixels; complete description appears in the next status view.",
+          "findings": [
+            "UX-15"
+          ]
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/refs-workspaces-ci35559132953.json",
+        "text_style_review_source": "target/manual-recordings/reviews/refs-workspaces-ci35559132953.json"
+      },
+      {
+        "id": "workspaces-stale-status",
+        "png": "workspaces-stale-status.png",
+        "state": "workspaces-stale-status.json",
+        "png_sha256": "5e5fd6fba49c8691cfac06f33ddae915e78acac3c925bed670a1ddb75bc6aa5f",
+        "state_sha256": "440f3114bb4e40c01414a153bfe4fa8604ee14de028904c6c3d9ad67a782e37d",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/scenarios/refs_workspaces; inline full PNGs, paired terminal JSON and sampled MP4 contact sheet",
+          "reviewed_at": "2026-09-21T03:58:03.186120+00:00",
+          "summary": "Scoped status clearly shows green A ../scratch/KEEP-ME.txt and red D ../scratch/README.md, followed by the updated description. Caption accurately explains preserved local file and removed README. Long title clips the scope and ID suffixes are dim.",
+          "findings": [
+            "UX-15"
+          ]
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/scenarios/refs_workspaces; inline full PNGs, paired terminal JSON and sampled MP4 contact sheet",
+          "reviewed_at": "2026-09-21T03:58:03.186120+00:00",
+          "summary": "State preserves both A/D paths, lkpsvqkm 4b6fda98 Refresh scratch description and unchanged parent description. Addition #52aa60 and removal #c26265 are distinct; revision prefixes retain purple/blue styling with dim #3a4152 suffixes.",
+          "findings": [
+            "UX-15"
+          ]
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/refs-workspaces-ci35559132953.json",
+        "text_style_review_source": "target/manual-recordings/reviews/refs-workspaces-ci35559132953.json"
+      },
+      {
+        "id": "workspaces-stale-current",
+        "png": "workspaces-stale-current.png",
+        "state": "workspaces-stale-current.json",
+        "png_sha256": "317d808637d41491f908e3c9c5c19e034f9d426d0b497e6341ca6afd00603f63",
+        "state_sha256": "d2228752797fbe5b7d39095b562a6c5d843f1284293904ebebc4e32cca2ff972",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/scenarios/refs_workspaces; inline full PNGs, paired terminal JSON and sampled MP4 contact sheet",
+          "reviewed_at": "2026-09-21T03:58:03.186120+00:00",
+          "summary": "Second update returns the full not-stale message along the bottom while scratch stays selected and default stays current. Caption correctly describes the already-current result; list paths remain clipped.",
+          "findings": [
+            "UX-15"
+          ]
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/scenarios/refs_workspaces; inline full PNGs, paired terminal JSON and sampled MP4 contact sheet",
+          "reviewed_at": "2026-09-21T03:58:03.186120+00:00",
+          "summary": "State reports Attempted recovery, but the working copy is not stale in full, prefixed updated scratch via workspace update-stale. Original two names remain, with default teal current star and scratch cursor.",
+          "findings": [
+            "UX-15"
+          ]
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/refs-workspaces-ci35559132953.json",
+        "text_style_review_source": "target/manual-recordings/reviews/refs-workspaces-ci35559132953.json"
+      }
+    ],
+    "metadata_path": "target/manual-recordings/ci-35559132953/manual-evidence-workspaces-stale/capture-metadata.json",
+    "metadata_sha256": "83ae9ed755963ed7268bab41641e01caf2bbb4fe95b019ff88b6ff196bddf4ec",
+    "evidence_directory": "target/manual-recordings/ci-35559132953/manual-evidence-workspaces-stale",
+    "evidence_status": "passed",
+    "source_commit": "5bb033c17ca3c684a995a39e8248a94454302e2d",
+    "pr_head_commit": "19ade18c71a7b9d1fe8d4684444d402c15673282",
+    "source_manifest_sha256": "42c0d25b424a807906eb4e0ba7ca72b4c0488685e9f57b3bcf62d3f01c6c6915",
+    "source_matches_checkout": true,
+    "binary": {
+      "invoked_path": "/home/runner/work/jk/jk/target/manual-build/jk",
+      "path": "/home/runner/work/jk/jk/target/manual-build/jk",
+      "sha256": "cb41f94b63ec85100829bd2b1e9ced84f37cae912996a48e93b56b8776c9c5ed",
+      "version": "jk 0.3.0",
+      "version_exit_code": 0
+    },
+    "jj": {
+      "invoked_path": "/home/runner/.cargo/bin/jj",
+      "path": "/home/runner/.cargo/bin/jj",
+      "sha256": "cd5efc3eb281d606bf9b5523167f79661da0f8c76a5aa32d61c07c7a351b6b44",
+      "version": "jj 0.45.1-7c41cdeb16b6b321c64e789a966b6adf723816a5",
+      "version_exit_code": 0
+    },
+    "betamax": {
+      "invoked_path": "/home/runner/work/_temp/betamax-y0loQb/bin/betamax",
+      "path": "/home/runner/work/_temp/betamax-y0loQb/bin/betamax",
+      "sha256": "db55fa6e7ff98e1df3c91921b5b3fb504b3cc8fdaf6b07e3da952f8757053490",
+      "version": "betamax 0.1.21",
+      "version_exit_code": 0
+    },
+    "ci_run": {
+      "id": "35559132953",
+      "attempt": "1",
+      "url": "https://github.com/joshka/jk/actions/runs/35559132953"
+    },
+    "assertions": [
+      {
+        "path": "workspaces-stale-assertions.json",
+        "sha256": "c28c1bf403c688e0004e44ee69ebfe08a3631f2ec4354f7093473703ce4e5c8f",
+        "bytes": 1312
+      }
+    ],
+    "video": {
+      "path": "workspaces-stale.mp4",
+      "sha256": "ed54bc62e0601207042b5511e5f41ca254c1eb5960cc4ad367b549fe6259de8c",
+      "bytes": 300056
+    },
+    "video_review": {
+      "status": "reviewed",
+      "reviewer": "Codex /root/scenarios/refs_workspaces; inline full PNGs, paired terminal JSON and sampled MP4 contact sheet",
+      "reviewed_at": "2026-09-21T03:58:03.186120+00:00",
+      "summary": "Sampled review, not a real-time watch: 16 evenly spaced frames across 22.73 seconds show held scratch preview, cancel, reopen/confirm, actual successful update, scoped green KEEP-ME addition/red README deletion and a second already-current update. Corrected captions now transition from Cancel first to Confirm the update to synchronize scratch while retaining its local work, then Scratch is synchronized; inspect the changed files next. The stale cancellation caption no longer persists after confirmation. Semantic waits and 2-3 second teaching holds make the sequence readable; no fixture setup appears. Six passing assertions prove retained registrations and local/default files, applied rewritten tree, updated description and successful scratch status. Reviewed exact fourth-CI bytes supersede the third-CI editorial hold.",
+      "findings": [
+        "UX-06",
+        "UX-15"
+      ],
+      "duration_seconds": 22.733333,
+      "width": 1280,
+      "height": 900,
+      "fps": 15.0,
+      "sample_frame_numbers": [
+        0,
+        23,
+        45,
+        68,
+        91,
+        113,
+        136,
+        159,
+        181,
+        204,
+        227,
+        249,
+        272,
+        295,
+        317,
+        340
+      ],
+      "sample_seconds": [
+        0.0,
+        1.533,
+        3.0,
+        4.533,
+        6.067,
+        7.533,
+        9.067,
+        10.6,
+        12.067,
+        13.6,
+        15.133,
+        16.6,
+        18.133,
+        19.667,
+        21.133,
+        22.667
+      ],
+      "contact_sheet": "target/manual-recordings/reviews/refs-workspaces-video-ci35559132953/workspaces-stale-samples.png",
+      "sha256": "ed54bc62e0601207042b5511e5f41ca254c1eb5960cc4ad367b549fe6259de8c"
+    },
+    "source_snapshot_status": "preserved",
+    "video_review_source": "target/manual-recordings/reviews/refs-workspaces-ci35559132953.json",
+    "pixel_review_complete": true,
+    "text_style_review_complete": true,
+    "video_review_complete": true
+  }
+}

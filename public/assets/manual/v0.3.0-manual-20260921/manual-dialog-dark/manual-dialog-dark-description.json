@@ -1,0 +1,339 @@
+{
+  "size": [
+    67,
+    39
+  ],
+  "total_rows": 39,
+  "scrollback_rows": 0,
+  "cursor": {
+    "x": 33,
+    "y": 18,
+    "visible": true
+  },
+  "default_style": {
+    "fg": "#b4bcca",
+    "bg": "#0f141f"
+  },
+  "styles": [
+    {
+      "bold": true
+    },
+    {
+      "fg": "#52aa60",
+      "bold": true
+    },
+    {
+      "fg": "#d58bf0",
+      "bold": true
+    },
+    {
+      "fg": "#3a4152",
+      "bold": true
+    },
+    {
+      "fg": "#ad9b49",
+      "bold": true
+    },
+    {
+      "fg": "#52c4c0",
+      "bold": true
+    },
+    {
+      "fg": "#76a8f2",
+      "bold": true
+    },
+    {
+      "fg": "#487fd4",
+      "bold": true
+    },
+    {
+      "fg": "#3a4152"
+    },
+    {
+      "fg": "#ad9b49"
+    },
+    {
+      "fg": "#269d9a"
+    },
+    {
+      "fg": "#af5bd1",
+      "bold": true
+    },
+    {
+      "fg": "#52aa60"
+    },
+    {
+      "fg": "#e0e6ee",
+      "bg": "#242c3a"
+    },
+    {
+      "fg": "#65d4cf",
+      "bg": "#242c3a",
+      "bold": true
+    },
+    {
+      "fg": "#a1aebe",
+      "bg": "#242c3a"
+    }
+  ],
+  "viewport_text": "jk jj\n›  @  nzrrquty demo@example.invalid 2026-01-01 12:00:00 22340ee9\n·  │  Experiment with forecast caching\n   ○  mmqyqqtq demo@example.invalid 2026-01-01 12:00:00 f67b5b78\n   │  Configure request timeouts\n   ○  oxmzsxts demo@example.invalid 2026-01-01 12:00:00 92b946db\n   │  Add the forecast endpoint\n   ○  xswpoqkn alex@example.com 2026-01-01 12:00:00 3de7c15b\n   │  Document the forecast service\n   ◆  zzzzzzzz root() 00000000\n\n\n\n\n\n Describe revision\n Revision: nzrrquty\n\n Experiment with forecast caching\n\n\n Enter save · Esc cancel · Ctrl-j newline\n",
+  "scrollback_text": "",
+  "viewport": [
+    [
+      "jk ",
+      [
+        "jj",
+        0
+      ]
+    ],
+    [
+      [
+        "›",
+        0
+      ],
+      "  ",
+      [
+        "@",
+        1
+      ],
+      "  ",
+      [
+        "n",
+        2
+      ],
+      [
+        "zrrquty",
+        3
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "demo@example.invalid",
+        4
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "2026-01-01 12:00:00",
+        5
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "2",
+        6
+      ],
+      [
+        "2340ee9",
+        3
+      ]
+    ],
+    [
+      [
+        "·",
+        0
+      ],
+      "  │  ",
+      [
+        "Experiment with forecast caching",
+        0
+      ]
+    ],
+    [
+      "   ○  ",
+      [
+        "m",
+        7
+      ],
+      [
+        "mqyqqtq",
+        8
+      ],
+      " ",
+      [
+        "demo@example.invalid",
+        9
+      ],
+      " ",
+      [
+        "2026-01-01 12:00:00",
+        10
+      ],
+      " ",
+      [
+        "f",
+        11
+      ],
+      [
+        "67b5b78",
+        8
+      ]
+    ],
+    [
+      "   │  Configure request timeouts"
+    ],
+    [
+      "   ○  ",
+      [
+        "o",
+        7
+      ],
+      [
+        "xmzsxts",
+        8
+      ],
+      " ",
+      [
+        "demo@example.invalid",
+        9
+      ],
+      " ",
+      [
+        "2026-01-01 12:00:00",
+        10
+      ],
+      " ",
+      [
+        "9",
+        11
+      ],
+      [
+        "2b946db",
+        8
+      ]
+    ],
+    [
+      "   │  Add the forecast endpoint"
+    ],
+    [
+      "   ○  ",
+      [
+        "x",
+        7
+      ],
+      [
+        "swpoqkn",
+        8
+      ],
+      " ",
+      [
+        "alex@example.com",
+        9
+      ],
+      " ",
+      [
+        "2026-01-01 12:00:00",
+        10
+      ],
+      " ",
+      [
+        "3",
+        11
+      ],
+      [
+        "de7c15b",
+        8
+      ]
+    ],
+    [
+      "   │  Document the forecast service"
+    ],
+    [
+      "   ",
+      [
+        "◆",
+        5
+      ],
+      "  ",
+      [
+        "z",
+        7
+      ],
+      [
+        "zzzzzzz",
+        8
+      ],
+      " ",
+      [
+        "root()",
+        12
+      ],
+      " ",
+      [
+        "0",
+        11
+      ],
+      [
+        "0000000",
+        8
+      ]
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      [
+        " ",
+        13
+      ],
+      [
+        "Describe revision",
+        14
+      ]
+    ],
+    [
+      [
+        " Revision: nzrrquty",
+        13
+      ]
+    ],
+    [],
+    [
+      [
+        " Experiment with forecast caching",
+        13
+      ]
+    ],
+    [],
+    [],
+    [
+      [
+        " ",
+        13
+      ],
+      [
+        "Enter",
+        14
+      ],
+      [
+        " save · ",
+        15
+      ],
+      [
+        "Esc",
+        14
+      ],
+      [
+        " cancel · ",
+        15
+      ],
+      [
+        "Ctrl-j",
+        14
+      ],
+      [
+        " newline",
+        15
+      ]
+    ]
+  ],
+  "scrollback": []
+}

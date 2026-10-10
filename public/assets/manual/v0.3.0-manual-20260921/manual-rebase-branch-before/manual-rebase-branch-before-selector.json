@@ -1,0 +1,317 @@
+{
+  "size": [
+    67,
+    39
+  ],
+  "total_rows": 39,
+  "scrollback_rows": 0,
+  "cursor": {
+    "x": 32,
+    "y": 19,
+    "visible": false
+  },
+  "default_style": {
+    "fg": "#b4bcca",
+    "bg": "#0f141f"
+  },
+  "styles": [
+    {
+      "bold": true
+    },
+    {
+      "fg": "#52aa60",
+      "bold": true
+    },
+    {
+      "fg": "#d58bf0",
+      "bold": true
+    },
+    {
+      "fg": "#3a4152",
+      "bold": true
+    },
+    {
+      "fg": "#ad9b49",
+      "bold": true
+    },
+    {
+      "fg": "#52c4c0",
+      "bold": true
+    },
+    {
+      "fg": "#76a8f2",
+      "bold": true
+    },
+    {
+      "fg": "#487fd4",
+      "bold": true
+    },
+    {
+      "fg": "#3a4152"
+    },
+    {
+      "fg": "#ad9b49"
+    },
+    {
+      "fg": "#269d9a"
+    },
+    {
+      "fg": "#af5bd1",
+      "bold": true
+    },
+    {
+      "fg": "#65d4cf",
+      "bg": "#242c3a",
+      "bold": true
+    },
+    {
+      "fg": "#e0e6ee",
+      "bg": "#242c3a"
+    },
+    {
+      "fg": "#a1aebe",
+      "bg": "#242c3a"
+    }
+  ],
+  "viewport_text": "jk jj\n›  @  tllqsnml demo@example.invalid 2026-01-01 12:00:00 377ef32b\n·  │  Rebase source\n   │ ○  ystqokqt demo@example.invalid 2026-01-01 12:00:00 7563b86d\n   ├─╯  Rebase destination\n   ○  toyvzomw demo@example.invalid 2026-01-01 12:00:00 053afd47\n   │  Rebase base\n   ~\n\n\n\n\n\n\n    Choose rebase destination\n\n    Source: 377ef32b46a1\n    Scope: branch [r/b/s]\n    Place: insert before [o/A/B]\n    / Search: Rebase destination\n    › 7563b86dd93b  Rebase destination\n\n    / search   ↑/↓ choose   Enter preview   Esc cancel\n",
+  "scrollback_text": "",
+  "viewport": [
+    [
+      "jk ",
+      [
+        "jj",
+        0
+      ]
+    ],
+    [
+      [
+        "›",
+        0
+      ],
+      "  ",
+      [
+        "@",
+        1
+      ],
+      "  ",
+      [
+        "tl",
+        2
+      ],
+      [
+        "lqsnml",
+        3
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "demo@example.invalid",
+        4
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "2026-01-01 12:00:00",
+        5
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "3",
+        6
+      ],
+      [
+        "77ef32b",
+        3
+      ]
+    ],
+    [
+      [
+        "·",
+        0
+      ],
+      "  │  ",
+      [
+        "Rebase source",
+        0
+      ]
+    ],
+    [
+      "   │ ○  ",
+      [
+        "y",
+        7
+      ],
+      [
+        "stqokqt",
+        8
+      ],
+      " ",
+      [
+        "demo@example.invalid",
+        9
+      ],
+      " ",
+      [
+        "2026-01-01 12:00:00",
+        10
+      ],
+      " ",
+      [
+        "7",
+        11
+      ],
+      [
+        "563b86d",
+        8
+      ]
+    ],
+    [
+      "   ├─╯  Rebase destination"
+    ],
+    [
+      "   ○  ",
+      [
+        "to",
+        7
+      ],
+      [
+        "yvzomw",
+        8
+      ],
+      " ",
+      [
+        "demo@example.invalid",
+        9
+      ],
+      " ",
+      [
+        "2026-01-01 12:00:00",
+        10
+      ],
+      " ",
+      [
+        "0",
+        11
+      ],
+      [
+        "53afd47",
+        8
+      ]
+    ],
+    [
+      "   │  Rebase base"
+    ],
+    [
+      "   ~"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "  ",
+      [
+        "  Choose rebase destination",
+        12
+      ]
+    ],
+    [],
+    [
+      "  ",
+      [
+        "  Source: 377ef32b46a1",
+        13
+      ]
+    ],
+    [
+      "  ",
+      [
+        "  Scope: branch [r/b/s]",
+        13
+      ]
+    ],
+    [
+      "  ",
+      [
+        "  Place: insert before [o/A/B]",
+        13
+      ]
+    ],
+    [
+      "  ",
+      [
+        "  ",
+        13
+      ],
+      [
+        "/ Search: Rebase destination",
+        12
+      ]
+    ],
+    [
+      "  ",
+      [
+        "  ",
+        13
+      ],
+      [
+        "› ",
+        14
+      ],
+      [
+        "7563b86dd93b  Rebase destination",
+        13
+      ]
+    ],
+    [],
+    [
+      "  ",
+      [
+        "  ",
+        13
+      ],
+      [
+        "/",
+        12
+      ],
+      [
+        " search   ",
+        14
+      ],
+      [
+        "↑/↓",
+        12
+      ],
+      [
+        " choose   ",
+        14
+      ],
+      [
+        "Enter",
+        12
+      ],
+      [
+        " preview   ",
+        14
+      ],
+      [
+        "Esc",
+        12
+      ],
+      [
+        " cancel",
+        14
+      ]
+    ]
+  ],
+  "scrollback": []
+}

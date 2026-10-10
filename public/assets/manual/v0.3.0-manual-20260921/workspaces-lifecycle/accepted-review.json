@@ -1,0 +1,239 @@
+{
+  "schema_version": 1,
+  "source_index": "manual/v0.3.0-manual-20260921/review-index.json",
+  "source_index_sha256": "17efd1f5f9a9c80791c6764f7972f466b4b29257831f2719b0c66b74b784fc16",
+  "review": {
+    "id": "workspaces-lifecycle",
+    "title": "Add, rename and forget a workspace",
+    "status": "ready",
+    "source_tape": "tapes/manual/workspaces/workspaces-lifecycle.tape",
+    "source_tape_sha256": "32a742847bf45fa041273b634cd4a6adcbc46536e1eaa9285cb3bf3805f73a44",
+    "website": {
+      "path": "assets/manual/v0.3.0-manual-20260921/workspaces-lifecycle"
+    },
+    "problems": [],
+    "checkpoints": [
+      {
+        "id": "workspaces-lifecycle-cancel",
+        "png": "workspaces-lifecycle-cancel.png",
+        "state": "workspaces-lifecycle-cancel.json",
+        "png_sha256": "d4e8a17e203963246efc64feb91385f989ccc281072c9db5e9084ac7803e84a1",
+        "state_sha256": "78b715431250dd30e59768b2f467cc4d4e1f95afe1293771c82ddfbd020488a8",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/scenarios/refs_workspaces; inline full PNGs, paired terminal JSON and sampled MP4 contact sheet",
+          "reviewed_at": "2026-09-21T03:54:37.096718+00:00",
+          "summary": "Forget preview clearly names scratch and wraps full path/exact command. Amber warning states that files remain; confirm and cancel keys fit. Underlying selection cursor remains visible and list paths are clipped.",
+          "findings": [
+            "UX-06",
+            "UX-15"
+          ]
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/scenarios/refs_workspaces; inline full PNGs, paired terminal JSON and sampled MP4 contact sheet",
+          "reviewed_at": "2026-09-21T03:54:37.096718+00:00",
+          "summary": "State preserves Files are not deleted. Only jj workspace metadata is forgotten and the exact scratch operand. Warning is bold #eab855, title/control accents #65d4cf, body #e0e6ee on #242c3a; current star #269d9a remains behind the modal.",
+          "findings": [
+            "UX-06",
+            "UX-15"
+          ]
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/refs-workspaces-ci35558741399.json",
+        "text_style_review_source": "target/manual-recordings/reviews/refs-workspaces-ci35558741399.json"
+      },
+      {
+        "id": "workspaces-lifecycle-add",
+        "png": "workspaces-lifecycle-add.png",
+        "state": "workspaces-lifecycle-add.json",
+        "png_sha256": "5650611118fffcffd0db5eb33e9184ca1c91dc4bee38c4ac5baa0c0188a52638",
+        "state_sha256": "9f89461394fe32b3c75b264537b857b2e5db34cd0c8a4d765ebd0cb12f13f1aa",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/scenarios/refs_workspaces; inline full PNGs, paired terminal JSON and sampled MP4 contact sheet",
+          "reviewed_at": "2026-09-21T03:54:37.096718+00:00",
+          "summary": "Add preview shows selected scratch context, full destination ending manual-added, derived name and complete wrapped command. The command reaches near controls but nothing overlaps or disappears.",
+          "findings": [
+            "UX-06",
+            "UX-15"
+          ]
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/scenarios/refs_workspaces; inline full PNGs, paired terminal JSON and sampled MP4 contact sheet",
+          "reviewed_at": "2026-09-21T03:54:37.096718+00:00",
+          "summary": "State retains destination workspaces/manual-added and --name manual-added, gray #a1aebe labels, bold command #e0e6ee and teal controls over slate. Underlying list paths clip but preview provides the full path.",
+          "findings": [
+            "UX-06",
+            "UX-15"
+          ]
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/refs-workspaces-ci35558741399.json",
+        "text_style_review_source": "target/manual-recordings/reviews/refs-workspaces-ci35558741399.json"
+      },
+      {
+        "id": "workspaces-lifecycle-collision",
+        "png": "workspaces-lifecycle-collision.png",
+        "state": "workspaces-lifecycle-collision.json",
+        "png_sha256": "a6ae26fd7b828370445ad16cbf00645578d4d34e6556a23c85c0a75fa342f6f0",
+        "state_sha256": "86dac35cbd9210c4046338e691074a64653fac2460de9066c2a2cb6c39129ff2",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/scenarios/refs_workspaces; inline full PNGs, paired terminal JSON and sampled MP4 contact sheet",
+          "reviewed_at": "2026-09-21T03:54:37.096718+00:00",
+          "summary": "List retains default, selected manual-renamed and scratch after collision. Footer displays the generic rename failure in plain text, without the specific already-exists cause; caption names the collision and later video opens full details.",
+          "findings": [
+            "UX-08",
+            "UX-10",
+            "UX-15"
+          ]
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/scenarios/refs_workspaces; inline full PNGs, paired terminal JSON and sampled MP4 contact sheet",
+          "reviewed_at": "2026-09-21T03:54:37.096718+00:00",
+          "summary": "State contains Rename workspace failed: Error: Failed to rename a workspace, with the same styling as ordinary status. Both default and manual-renamed remain visible. Specific stderr cause is absent from this checkpoint and appears through Command History in the video.",
+          "findings": [
+            "UX-08",
+            "UX-10",
+            "UX-15"
+          ]
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/refs-workspaces-ci35558741399.json",
+        "text_style_review_source": "target/manual-recordings/reviews/refs-workspaces-ci35558741399.json"
+      },
+      {
+        "id": "workspaces-lifecycle-finished",
+        "png": "workspaces-lifecycle-finished.png",
+        "state": "workspaces-lifecycle-finished.json",
+        "png_sha256": "31ced27fb78defcbbd7be1b217f11fe25690ccd7c6b43741b42e81f37f93f869",
+        "state_sha256": "7221745ed522909c12214210e6393daee0f0b0fedf744df55bfb6af64e2a1d8d",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/scenarios/refs_workspaces; inline full PNGs, paired terminal JSON and sampled MP4 contact sheet",
+          "reviewed_at": "2026-09-21T03:54:37.096718+00:00",
+          "summary": "Final list contains only default and scratch, with selection/current markers on default. Success footer and caption explain forgotten metadata and retained on-disk content. Long directory paths remain clipped.",
+          "findings": [
+            "UX-15"
+          ]
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/scenarios/refs_workspaces; inline full PNGs, paired terminal JSON and sampled MP4 contact sheet",
+          "reviewed_at": "2026-09-21T03:54:37.096718+00:00",
+          "summary": "State shows Forget workspace metadata succeeded with C history and o operations routes, original two workspace names and teal current marker. No added/renamed registration remains; on-disk retention is verified separately by outcome assertions.",
+          "findings": [
+            "UX-15"
+          ]
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/refs-workspaces-ci35558741399.json",
+        "text_style_review_source": "target/manual-recordings/reviews/refs-workspaces-ci35558741399.json"
+      }
+    ],
+    "metadata_path": "target/manual-recordings/ci-35558741399/manual-evidence-workspaces-lifecycle/capture-metadata.json",
+    "metadata_sha256": "4a4a97f246c3a5cb4ca1390624a8770b0821bad7393c8a6ef77f529cd3581fc7",
+    "evidence_directory": "target/manual-recordings/ci-35558741399/manual-evidence-workspaces-lifecycle",
+    "evidence_status": "passed",
+    "source_commit": "47b3b0985cd561831d70afa5b192bc95e4c0fec8",
+    "pr_head_commit": "ec94b2b269e8a1fe8da28cdc3409e57adb6bc6aa",
+    "source_manifest_sha256": "42c0d25b424a807906eb4e0ba7ca72b4c0488685e9f57b3bcf62d3f01c6c6915",
+    "source_matches_checkout": true,
+    "binary": {
+      "invoked_path": "/home/runner/work/jk/jk/target/manual-build/jk",
+      "path": "/home/runner/work/jk/jk/target/manual-build/jk",
+      "sha256": "cb41f94b63ec85100829bd2b1e9ced84f37cae912996a48e93b56b8776c9c5ed",
+      "version": "jk 0.3.0",
+      "version_exit_code": 0
+    },
+    "jj": {
+      "invoked_path": "/home/runner/.cargo/bin/jj",
+      "path": "/home/runner/.cargo/bin/jj",
+      "sha256": "cd5efc3eb281d606bf9b5523167f79661da0f8c76a5aa32d61c07c7a351b6b44",
+      "version": "jj 0.45.1-7c41cdeb16b6b321c64e789a966b6adf723816a5",
+      "version_exit_code": 0
+    },
+    "betamax": {
+      "invoked_path": "/home/runner/work/_temp/betamax-nm98Gu/bin/betamax",
+      "path": "/home/runner/work/_temp/betamax-nm98Gu/bin/betamax",
+      "sha256": "db55fa6e7ff98e1df3c91921b5b3fb504b3cc8fdaf6b07e3da952f8757053490",
+      "version": "betamax 0.1.21",
+      "version_exit_code": 0
+    },
+    "ci_run": {
+      "id": "35558741399",
+      "attempt": "1",
+      "url": "https://github.com/joshka/jk/actions/runs/35558741399"
+    },
+    "assertions": [
+      {
+        "path": "workspaces-lifecycle-assertions.json",
+        "sha256": "13054f00471707e0c6da8b92f405480af63bd57e218e8ed90106e417c7c2505d",
+        "bytes": 1211
+      }
+    ],
+    "video": {
+      "path": "workspaces-lifecycle.mp4",
+      "sha256": "8afc8b74fcef3df9cc6ba41a38f3c324025787299beb215a10daa8c6d8ad43cf",
+      "bytes": 965397
+    },
+    "video_review": {
+      "status": "reviewed",
+      "reviewer": "Codex /root/scenarios/refs_workspaces; inline full PNGs, paired terminal JSON and sampled MP4 contact sheet",
+      "reviewed_at": "2026-09-21T03:54:37.096718+00:00",
+      "summary": "Sampled review, not a real-time watch: 16 frames across 50.53 seconds plus full-resolution history/detail samples at 33.667 and 37 seconds show cancellation, actual add, metadata rename, failed default collision, C/Home selection of newest failed command, Status: exit 1 and Caused by: Workspace default already exists, successful manual-ready recovery, and metadata forget. Captions explain each transition; 2-3 second holds and 80ms typing allow reading. No fixture setup appears. Five outcome assertions prove original registrations/files survive, forgotten directory/files remain and rename does not change directories. The generic failure footer requires the demonstrated extra history navigation to expose its cause.",
+      "findings": [
+        "UX-06",
+        "UX-08",
+        "UX-10",
+        "UX-15"
+      ],
+      "duration_seconds": 50.533333,
+      "width": 1280,
+      "height": 900,
+      "fps": 15.0,
+      "sample_frame_numbers": [
+        0,
+        50,
+        101,
+        151,
+        202,
+        252,
+        303,
+        353,
+        404,
+        454,
+        505,
+        555,
+        606,
+        656,
+        707,
+        757
+      ],
+      "sample_seconds": [
+        0.0,
+        3.333,
+        6.733,
+        10.067,
+        13.467,
+        16.8,
+        20.2,
+        23.533,
+        26.933,
+        30.267,
+        33.667,
+        37.0,
+        40.4,
+        43.733,
+        47.133,
+        50.467
+      ],
+      "contact_sheet": "target/manual-recordings/reviews/refs-workspaces-video-ci35558741399/workspaces-lifecycle-samples.png",
+      "sha256": "8afc8b74fcef3df9cc6ba41a38f3c324025787299beb215a10daa8c6d8ad43cf"
+    },
+    "source_snapshot_status": "preserved",
+    "video_review_source": "target/manual-recordings/reviews/refs-workspaces-ci35558741399.json",
+    "pixel_review_complete": true,
+    "text_style_review_complete": true,
+    "video_review_complete": true
+  }
+}

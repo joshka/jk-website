@@ -1,0 +1,129 @@
+{
+  "size": [
+    104,
+    39
+  ],
+  "total_rows": 39,
+  "scrollback_rows": 0,
+  "cursor": {
+    "x": 58,
+    "y": 38,
+    "visible": false
+  },
+  "default_style": {
+    "fg": "#b4bcca",
+    "bg": "#0f141f"
+  },
+  "styles": [
+    {
+      "bold": true
+    },
+    {
+      "fg": "#dfe5ee",
+      "bg": "#3a485a"
+    },
+    {
+      "fg": "#dfe5ee",
+      "bg": "#782d32"
+    },
+    {
+      "fg": "#dfe5ee",
+      "bg": "#282d37"
+    },
+    {
+      "fg": "#dfe5ee",
+      "bg": "#1e232f"
+    },
+    {
+      "fg": "#222734",
+      "bg": "#52c4c0"
+    }
+  ],
+  "viewport_text": "jk sh -c 'printf \"cache check failed\\n\" >&2; exit 7'\nCommand: sh -c 'printf \"cache check failed\\n\" >&2; exit 7'\nStatus: exit 7\n\nStdout:\n<empty>\n\nStderr:\ncache check failed\n\nActions: e edit/retry command   ! run another external command\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n? help  V options  r refresh  j/k line  space page  q quit\n",
+  "scrollback_text": "",
+  "viewport": [
+    [
+      "jk ",
+      [
+        "sh -c 'printf \"cache check failed\\n\" >&2; exit 7'",
+        0
+      ]
+    ],
+    [
+      [
+        "Command: sh -c 'printf \"cache check failed\\n\" >&2; exit 7'",
+        1
+      ]
+    ],
+    [
+      [
+        "Status: exit 7",
+        2
+      ]
+    ],
+    [],
+    [
+      [
+        "Stdout:",
+        3
+      ]
+    ],
+    [
+      [
+        "<empty>",
+        4
+      ]
+    ],
+    [],
+    [
+      [
+        "Stderr:",
+        3
+      ]
+    ],
+    [
+      [
+        "cache check failed",
+        4
+      ]
+    ],
+    [],
+    [
+      [
+        "Actions: e edit/retry command   ! run another external command",
+        5
+      ]
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "? help  V options  r refresh  j/k line  space page  q quit"
+    ]
+  ],
+  "scrollback": []
+}

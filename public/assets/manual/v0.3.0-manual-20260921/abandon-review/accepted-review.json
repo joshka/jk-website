@@ -1,0 +1,189 @@
+{
+  "schema_version": 1,
+  "source_index": "manual/v0.3.0-manual-20260921/review-index.json",
+  "source_index_sha256": "17efd1f5f9a9c80791c6764f7972f466b4b29257831f2719b0c66b74b784fc16",
+  "review": {
+    "id": "abandon-review",
+    "title": "Review a patch before abandoning it",
+    "status": "ready",
+    "source_tape": "tapes/manual/changes/abandon-review.tape",
+    "source_tape_sha256": "2e7f1db85e32b736dfadc3004a736953e15a2986aaa3cb86604c17e9ef53b504",
+    "website": {
+      "path": "assets/manual/v0.3.0-manual-20260921/abandon-review"
+    },
+    "problems": [],
+    "checkpoints": [
+      {
+        "id": "abandon-review-decision",
+        "png": "abandon-review-decision.png",
+        "state": "abandon-review-decision.json",
+        "png_sha256": "bfd4ecd583c56e23fb620252f09866b0ae39724723437c59b0853e79e3497a4b",
+        "state_sha256": "3d0d37a8bb370f2e00c591df0a06d487d88356c3cfc06e0325bfe51087c032e7",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "ux_audit",
+          "reviewed_at": "2026-09-21T03:18:48.159157+00:00",
+          "summary": "Opaque decision shows selected description, all three files, two descendant consequences, default Cancel and complete controls over actual graph.",
+          "findings": [
+            "UX-06"
+          ]
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "ux_audit",
+          "reviewed_at": "2026-09-21T03:18:48.159157+00:00",
+          "summary": "23 styles; #242c3a surface, #52c4c0 focused Cancel, #782d32 danger, red/green file counts; source identity readable.",
+          "findings": [
+            "UX-06"
+          ]
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/ux-audit-ci35556462468.json",
+        "text_style_review_source": "target/manual-recordings/reviews/ux-audit-ci35556462468.json"
+      },
+      {
+        "id": "abandon-review-diff",
+        "png": "abandon-review-diff.png",
+        "state": "abandon-review-diff.json",
+        "png_sha256": "e3cef3adf94f173a422f1bd648a799667aa61cce036e201d1ed4a38ae0dbd412",
+        "state_sha256": "5b02de71eec5e397129434cf2c31bf3a4c26ad741e6fbdc6b8ba596fe4373c0e",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "ux_audit",
+          "reviewed_at": "2026-09-21T03:18:48.159157+00:00",
+          "summary": "Opaque scrollable patch shows README removal and config change, Back control and visible surrounding graph; conventional Git patch replaces configured display.",
+          "findings": [
+            "UX-05",
+            "UX-06"
+          ]
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "ux_audit",
+          "reviewed_at": "2026-09-21T03:18:48.159157+00:00",
+          "summary": "17 styles; patch prefix repaint uses #c26265/#52aa60 on #242c3a, exact \u221260/+120 line values retained; confirms UX05 fidelity limitation.",
+          "findings": [
+            "UX-05",
+            "UX-06"
+          ]
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/ux-audit-ci35556462468.json",
+        "text_style_review_source": "target/manual-recordings/reviews/ux-audit-ci35556462468.json"
+      },
+      {
+        "id": "abandon-review-abandoned",
+        "png": "abandon-review-abandoned.png",
+        "state": "abandon-review-abandoned.json",
+        "png_sha256": "af0d994ab5601cbb0a1abe5f0d6dc3be39eeb42dd849d1c8d3c518e696313d1b",
+        "state_sha256": "af0a5378cc934bc240bed52225f7b8ce1c907626b4f8f79807eb1b479d4a05cf",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "ux_audit",
+          "reviewed_at": "2026-09-21T03:18:48.159157+00:00",
+          "summary": "Selected change absent while both descendants remain with new commits; caption accurately identifies descendant rebasing.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "ux_audit",
+          "reviewed_at": "2026-09-21T03:18:48.159157+00:00",
+          "summary": "13 jj styles retained; descendant change IDs unchanged, commit IDs changed; assertions confirm removed patch content.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/ux-audit-ci35556462468.json",
+        "text_style_review_source": "target/manual-recordings/reviews/ux-audit-ci35556462468.json"
+      },
+      {
+        "id": "abandon-review-restored",
+        "png": "abandon-review-restored.png",
+        "state": "abandon-review-restored.json",
+        "png_sha256": "f9d6a22e3904a07eb01733f2b1095d49a7907e731b9fab1e5e90f53c2451ccda",
+        "state_sha256": "1c123ceaaf7dc2e63faaffa2c734300113369b4baec42968c956e0ef0e3a9487",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "ux_audit",
+          "reviewed_at": "2026-09-21T03:18:48.159157+00:00",
+          "summary": "Undo brings back selected change, original descendants and graph; readable final caption.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "ux_audit",
+          "reviewed_at": "2026-09-21T03:18:48.159157+00:00",
+          "summary": "13 styles; exact original commit identities restored, baseline assertions passed.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/ux-audit-ci35556462468.json",
+        "text_style_review_source": "target/manual-recordings/reviews/ux-audit-ci35556462468.json"
+      }
+    ],
+    "metadata_path": "target/manual-recordings/ci-35556462468/manual-evidence-abandon-review/capture-metadata.json",
+    "metadata_sha256": "163bc6789153c88a93940d7e9315c8b65b15dbbc18c7d481afd0f7f18f2dd875",
+    "evidence_directory": "target/manual-recordings/ci-35556462468/manual-evidence-abandon-review",
+    "evidence_status": "passed",
+    "source_commit": "770b8802a4fe3ef42e3b80160985bcbddc76b049",
+    "pr_head_commit": "088d04dbc19b5a2b81b674e8986f59e190128de1",
+    "source_manifest_sha256": "42c0d25b424a807906eb4e0ba7ca72b4c0488685e9f57b3bcf62d3f01c6c6915",
+    "source_matches_checkout": true,
+    "binary": {
+      "invoked_path": "/home/runner/work/jk/jk/target/manual-build/jk",
+      "path": "/home/runner/work/jk/jk/target/manual-build/jk",
+      "sha256": "cb41f94b63ec85100829bd2b1e9ced84f37cae912996a48e93b56b8776c9c5ed",
+      "version": "jk 0.3.0",
+      "version_exit_code": 0
+    },
+    "jj": {
+      "invoked_path": "/home/runner/.cargo/bin/jj",
+      "path": "/home/runner/.cargo/bin/jj",
+      "sha256": "cd5efc3eb281d606bf9b5523167f79661da0f8c76a5aa32d61c07c7a351b6b44",
+      "version": "jj 0.45.1-7c41cdeb16b6b321c64e789a966b6adf723816a5",
+      "version_exit_code": 0
+    },
+    "betamax": {
+      "invoked_path": "/home/runner/work/_temp/betamax-NsyIox/bin/betamax",
+      "path": "/home/runner/work/_temp/betamax-NsyIox/bin/betamax",
+      "sha256": "db55fa6e7ff98e1df3c91921b5b3fb504b3cc8fdaf6b07e3da952f8757053490",
+      "version": "betamax 0.1.21",
+      "version_exit_code": 0
+    },
+    "ci_run": {
+      "id": "35556462468",
+      "attempt": "1",
+      "url": "https://github.com/joshka/jk/actions/runs/35556462468"
+    },
+    "assertions": [
+      {
+        "path": "abandon-review-abandoned-assertions.json",
+        "sha256": "2ea87ce486e845dfc14ee1832119831f5e5a34f28042e9b5b60a0c0f19dd0c45",
+        "bytes": 832
+      },
+      {
+        "path": "abandon-review-cancelled-assertions.json",
+        "sha256": "d0e9dc70e8c29dd64381af550a73c96080b54dcbe03f70223eb5fb86d10dfdcc",
+        "bytes": 1104
+      },
+      {
+        "path": "abandon-review-undone-assertions.json",
+        "sha256": "87c8dac250b7ca5d32aff5c5f8e2b27605c90e4b7aefdd799f44720ddcb63403",
+        "bytes": 1101
+      }
+    ],
+    "video": {
+      "path": "abandon-review.mp4",
+      "sha256": "2ed3b4e5154a464f06889d36bb1e6d7086b00ae31ecec0e4ffe8d6d0d67d2383",
+      "bytes": 554280
+    },
+    "video_review": {
+      "status": "reviewed",
+      "reviewer": "ux_audit",
+      "reviewed_at": "2026-09-21T03:18:48.159157+00:00",
+      "sha256": "2ed3b4e5154a464f06889d36bb1e6d7086b00ae31ecec0e4ffe8d6d0d67d2383",
+      "summary": "Inspected a 12-frame evenly spaced filmstrip spanning beginning and final hold, full-resolution checkpoint PNGs, ffprobe duration 38.600s, and source-tape 80ms typing with 2\u20133s teaching holds. Sampled frames show the actual decision, cancellation/success, and final recovery in sequence without exposed setup. This was sampled pacing review, not a continuous realtime watch.",
+      "findings": []
+    },
+    "source_snapshot_status": "preserved",
+    "video_review_source": "target/manual-recordings/reviews/ux-audit-ci35556462468.json",
+    "pixel_review_complete": true,
+    "text_style_review_complete": true,
+    "video_review_complete": true
+  }
+}

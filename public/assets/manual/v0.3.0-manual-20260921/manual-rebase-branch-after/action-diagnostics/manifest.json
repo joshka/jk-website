@@ -1,0 +1,37 @@
+{
+  "schema": 1,
+  "results": [
+    {
+      "tape": "manual-rebase-branch-after.tape",
+      "status": "passed"
+    }
+  ],
+  "problems": [],
+  "media": [
+    {
+      "name": "betamax-betamax-rewrite-manual-rebase-branch-after-r1-m1.manual-rebase-branch-after.mp4",
+      "label": "manual-rebase-branch-after.tape (mp4)",
+      "type": "video/mp4"
+    },
+    {
+      "name": "betamax-betamax-rewrite-manual-rebase-branch-after-r1-m2.manual-rebase-branch-after-history.png",
+      "label": "manual-rebase-branch-after-history.png",
+      "type": "image/png"
+    },
+    {
+      "name": "betamax-betamax-rewrite-manual-rebase-branch-after-r1-m3.manual-rebase-branch-after-preview.png",
+      "label": "manual-rebase-branch-after-preview.png",
+      "type": "image/png"
+    },
+    {
+      "name": "betamax-betamax-rewrite-manual-rebase-branch-after-r1-m4.manual-rebase-branch-after-selector.png",
+      "label": "manual-rebase-branch-after-selector.png",
+      "type": "image/png"
+    },
+    {
+      "name": "betamax-betamax-rewrite-manual-rebase-branch-after-r1-m5.manual-rebase-branch-after-success.png",
+      "label": "manual-rebase-branch-after-success.png",
+      "type": "image/png"
+    }
+  ]
+}

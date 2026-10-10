@@ -1,0 +1,8 @@
+{
+  "repository": "/home/runner/work/jk/jk/target/manual-fixtures/restore.RifzV3/workflows.KjyLLA/restore",
+  "kind": "restore",
+  "initial_commit": "1e36af2a5364ba1e7a730768691a540a9a3856fd",
+  "initial_operation": "742b49005f086c3e07964e5d97fc4ade0d5eedf27f22ec2d849e039901f06372b2ed8be4b935af3fbdb0dbac335c50500c6b0c19a208cdf8ac3ce2049d847297",
+  "binary": "/home/runner/work/jk/jk/target/manual-build/jk",
+  "isolated_jj_config": "/dev/null"
+}

@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "source_index": "manual/v0.3.0-manual-20260921/review-index.json",
+  "source_index_sha256": "17efd1f5f9a9c80791c6764f7972f466b4b29257831f2719b0c66b74b784fc16",
+  "review": {
+    "id": "manual-invalid-operands",
+    "title": "Correct ambiguous source selections",
+    "status": "ready",
+    "source_tape": "tapes/manual/execution/manual-invalid-operands.tape",
+    "source_tape_sha256": "73f33c4295a14410a8fcac722669679902d57ba338689d4f351e47071377eddb",
+    "website": {
+      "path": "assets/manual/v0.3.0-manual-20260921/manual-invalid-operands"
+    },
+    "problems": [],
+    "checkpoints": [
+      {
+        "id": "manual-invalid-operands-rebase",
+        "png": "manual-invalid-operands-rebase.png",
+        "state": "manual-invalid-operands-rebase.json",
+        "png_sha256": "33829159de6b4c5638727ef68f0aa2fa0526cca12655b537be1771dd053c7dd7",
+        "state_sha256": "a01be760de8fa5520b9b3e31ee367016180c3b6589a7862d7eda20ab421046a2",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/coverage; direct PNG inspection and terminal state/style review",
+          "reviewed_at": "2026-09-21T03:42:17.419870+00:00",
+          "summary": "Both source and destination are visibly marked and the destination has the cursor. The footer says Rebase source is ambiguous with an ellipsis; the caption explains the one-source requirement. The populated graph remains unchanged.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/coverage; direct PNG inspection and terminal state/style review",
+          "reviewed_at": "2026-09-21T03:42:17.419870+00:00",
+          "summary": "104x39 state retains both star marks, mark 2/2 and the truncated ambiguity message. Fourteen styles show green marks, distinct graph IDs and the amber #ad9b49 footer; the error shares and crowds the key-help line.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/coverage-ci35557653700.json",
+        "text_style_review_source": "target/manual-recordings/reviews/coverage-ci35557653700.json"
+      },
+      {
+        "id": "manual-invalid-operands-restore",
+        "png": "manual-invalid-operands-restore.png",
+        "state": "manual-invalid-operands-restore.json",
+        "png_sha256": "e43ad569922bfea94924fdea4a46efe0945953e445d6d3b3e712ecd58382b603",
+        "state_sha256": "74e5a9a3b341590ff16e2e63f8b7b79534aae54eae9bcc006eea8413e5ddf79a",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/coverage; direct PNG inspection and terminal state/style review",
+          "reviewed_at": "2026-09-21T03:42:17.419870+00:00",
+          "summary": "The same two marked revisions remain visible. Restore rejects the active marks in the footer; its message truncates after one source re. The caption gives the full cursor-only rule.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/coverage; direct PNG inspection and terminal state/style review",
+          "reviewed_at": "2026-09-21T03:42:17.419870+00:00",
+          "summary": "The paired state keeps mark 2/2 and Restore needs one source re\u2026 on the same amber footer style. Source and destination commit IDs are unchanged from the rebase rejection; no preview or mutation result is shown.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/coverage-ci35557653700.json",
+        "text_style_review_source": "target/manual-recordings/reviews/coverage-ci35557653700.json"
+      },
+      {
+        "id": "manual-invalid-operands-squash",
+        "png": "manual-invalid-operands-squash.png",
+        "state": "manual-invalid-operands-squash.json",
+        "png_sha256": "b20bf3beafa1a49d4b452d9495bb4c1f99f0e6058dd88682a7252aa6c1807265",
+        "state_sha256": "155dc2c803cee7614b67ff780e3ef1ad1f56fb4f0244433e48828ccf9c5483c6",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/coverage; direct PNG inspection and terminal state/style review",
+          "reviewed_at": "2026-09-21T03:42:17.419870+00:00",
+          "summary": "Clearing marks removes both stars. Squash then reports Mark at least one source re with an ellipsis; its caption explains marked sources and a separate destination. The graph is unchanged and the footer remains visible.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "Codex /root/coverage; direct PNG inspection and terminal state/style review",
+          "reviewed_at": "2026-09-21T03:42:17.419870+00:00",
+          "summary": "The paired state has no star marks and records the shortened missing-source error in #ad9b49. The same four revisions remain; the passed assertion report confirms identical working-copy commit and visible graph after all three guards.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/coverage-ci35557653700.json",
+        "text_style_review_source": "target/manual-recordings/reviews/coverage-ci35557653700.json"
+      }
+    ],
+    "metadata_path": "target/manual-recordings/ci-35557653700/manual-evidence-manual-invalid-operands/capture-metadata.json",
+    "metadata_sha256": "946c069cdb245880ef95e1f4b42370f606c8917bf69592b4bfd02a83c64e82d1",
+    "evidence_directory": "target/manual-recordings/ci-35557653700/manual-evidence-manual-invalid-operands",
+    "evidence_status": "passed",
+    "source_commit": "7fcb4fa9af1bb624fcdc7ac14a64184a43c4e829",
+    "pr_head_commit": "d5200f713edc476fd446616ad46fec573f861baf",
+    "source_manifest_sha256": "42c0d25b424a807906eb4e0ba7ca72b4c0488685e9f57b3bcf62d3f01c6c6915",
+    "source_matches_checkout": true,
+    "binary": {
+      "invoked_path": "/home/runner/work/jk/jk/target/manual-build/jk",
+      "path": "/home/runner/work/jk/jk/target/manual-build/jk",
+      "sha256": "cb41f94b63ec85100829bd2b1e9ced84f37cae912996a48e93b56b8776c9c5ed",
+      "version": "jk 0.3.0",
+      "version_exit_code": 0
+    },
+    "jj": {
+      "invoked_path": "/home/runner/.cargo/bin/jj",
+      "path": "/home/runner/.cargo/bin/jj",
+      "sha256": "cd5efc3eb281d606bf9b5523167f79661da0f8c76a5aa32d61c07c7a351b6b44",
+      "version": "jj 0.45.1-7c41cdeb16b6b321c64e789a966b6adf723816a5",
+      "version_exit_code": 0
+    },
+    "betamax": {
+      "invoked_path": "/home/runner/work/_temp/betamax-HrGm92/bin/betamax",
+      "path": "/home/runner/work/_temp/betamax-HrGm92/bin/betamax",
+      "sha256": "db55fa6e7ff98e1df3c91921b5b3fb504b3cc8fdaf6b07e3da952f8757053490",
+      "version": "betamax 0.1.21",
+      "version_exit_code": 0
+    },
+    "ci_run": {
+      "id": "35557653700",
+      "attempt": "1",
+      "url": "https://github.com/joshka/jk/actions/runs/35557653700"
+    },
+    "assertions": [
+      {
+        "path": "manual-invalid-operands-assertions.json",
+        "sha256": "20598da20b67ead8488564167c07a7de30f6c156536b764b2b823945c2438bab",
+        "bytes": 898
+      }
+    ],
+    "video": {
+      "path": "manual-invalid-operands.mp4",
+      "sha256": "68fe98fde5d524e9044398566c3fdc49c11cfab8609b1501288085b1d74988df",
+      "bytes": 130447
+    },
+    "video_review": {
+      "status": "reviewed",
+      "reviewer": "Codex /root/coverage; direct PNG inspection and terminal state/style review",
+      "reviewed_at": "2026-09-21T03:42:17.419870+00:00",
+      "summary": "ffprobe reports 11.933333 seconds, 179 frames, 1400x900 at 15 fps. Inspected 12 decoded samples at one-second intervals plus the final frame and compared them with the source tape. A two-second opening is followed by each guarded action with one second before its checkpoint and two seconds after. The movie visibly marks two revisions, rejects rebase and restore, clears marks, then rejects squash. Captions explain the rules despite faithfully captured footer truncation; final frame retains the unmodified graph and missing-source message. This was sampled inspection, not full real-time playback.",
+      "findings": [],
+      "sha256": "68fe98fde5d524e9044398566c3fdc49c11cfab8609b1501288085b1d74988df"
+    },
+    "source_snapshot_status": "preserved",
+    "video_review_source": "target/manual-recordings/reviews/coverage-ci35557653700.json",
+    "pixel_review_complete": true,
+    "text_style_review_complete": true,
+    "video_review_complete": true
+  }
+}

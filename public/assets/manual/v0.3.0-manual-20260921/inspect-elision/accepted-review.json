@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "source_index": "manual/v0.3.0-manual-20260921/review-index.json",
+  "source_index_sha256": "17efd1f5f9a9c80791c6764f7972f466b4b29257831f2719b0c66b74b784fc16",
+  "review": {
+    "id": "inspect-elision",
+    "title": "Open history hidden by the graph",
+    "status": "ready",
+    "source_tape": "tapes/manual/inspect/inspect-elision.tape",
+    "source_tape_sha256": "23211c7fa10821f2ec83fc2aa37b3430aba2b7c742f2cde8df63af32c97ab50d",
+    "website": {
+      "path": "assets/manual/v0.3.0-manual-20260921/inspect-elision"
+    },
+    "problems": [],
+    "checkpoints": [
+      {
+        "id": "inspect-elision-hidden",
+        "png": "inspect-elision-hidden.png",
+        "state": "inspect-elision-hidden.json",
+        "png_sha256": "87b6dcd861155913f47f1215eee00a8446e4713aba595e5139306d23e3274a4a",
+        "state_sha256": "64986f29b8a853d7fdafbe656e651b5bf9a88a6367d52307083597dfd79d5f25",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "inspection agent",
+          "reviewed_at": "2026-09-21T03:51:36.728511+00:00",
+          "summary": "The current revision and ~ elision row are clearly visible, with differentiated revision identity and an unobscured navigation footer. Caption accurately identifies omitted history.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "inspection agent",
+          "reviewed_at": "2026-09-21T03:51:36.728511+00:00",
+          "summary": "State contains only current forecast-caching change and ~, preserving selected-row marker, green @, magenta change/bookmark, blue commit and teal timestamp.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/inspection-ci35558741399.json",
+        "text_style_review_source": "target/manual-recordings/reviews/inspection-ci35558741399.json"
+      },
+      {
+        "id": "inspect-elision-expanded",
+        "png": "inspect-elision-expanded.png",
+        "state": "inspect-elision-expanded.json",
+        "png_sha256": "e3c49a136f1a337d2bd60913dc63476f7e22e14ffaa9aee5c884a83aa9c46a4f",
+        "state_sha256": "098c715e37ec707bc0fb26e3d2883698196e71fb446ca6b2e65173afb61cd0af",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "inspection agent",
+          "reviewed_at": "2026-09-21T03:51:36.728511+00:00",
+          "summary": "The drilled ancestor log exposes request timeouts, forecast endpoint and documentation revisions with the first ancestor selected. Expanded title, graph and caption are readable.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "inspection agent",
+          "reviewed_at": "2026-09-21T03:51:36.728511+00:00",
+          "summary": "State identifies the generated ancestor revset, all expected described ancestors and root. The selected row is Configure request timeouts; revision colors remain distinct.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/inspection-ci35558741399.json",
+        "text_style_review_source": "target/manual-recordings/reviews/inspection-ci35558741399.json"
+      },
+      {
+        "id": "inspect-elision-command-revset",
+        "png": "inspect-elision-command-revset.png",
+        "state": "inspect-elision-command-revset.json",
+        "png_sha256": "a4f75eebe19614947bd1f9be8a4c4196e886f5d061bfbd30b57ef1fce351c64b",
+        "state_sha256": "a64916d2bafdebbf496b86e62f2fc6b89572835e2d237ef6666b3658a628ff30",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "inspection agent",
+          "reviewed_at": "2026-09-21T03:51:36.728511+00:00",
+          "summary": "Successful retained command output lists the full graph-free history with readable descriptions and green success status. Long repository prefixes clip the command and operands (UX-15), faithfully captured.",
+          "findings": [
+            "UX-15"
+          ]
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "inspection agent",
+          "reviewed_at": "2026-09-21T03:51:36.728511+00:00",
+          "summary": "State has Status: success, all four described revisions and root, empty stderr, and correct graph-free output. Style runs preserve success band and jj identity colors. Long metadata prefixes conceal log operands (UX-15).",
+          "findings": [
+            "UX-15"
+          ]
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/inspection-ci35558741399.json",
+        "text_style_review_source": "target/manual-recordings/reviews/inspection-ci35558741399.json"
+      }
+    ],
+    "metadata_path": "target/manual-recordings/ci-35558741399/manual-evidence-inspect-elision/capture-metadata.json",
+    "metadata_sha256": "92b17ec73aff717c4f136a243be6a9d3d6bccee8357fd4b6934da9f9d00d2795",
+    "evidence_directory": "target/manual-recordings/ci-35558741399/manual-evidence-inspect-elision",
+    "evidence_status": "passed",
+    "source_commit": "47b3b0985cd561831d70afa5b192bc95e4c0fec8",
+    "pr_head_commit": "ec94b2b269e8a1fe8da28cdc3409e57adb6bc6aa",
+    "source_manifest_sha256": "42c0d25b424a807906eb4e0ba7ca72b4c0488685e9f57b3bcf62d3f01c6c6915",
+    "source_matches_checkout": true,
+    "binary": {
+      "invoked_path": "/home/runner/work/jk/jk/target/manual-build/jk",
+      "path": "/home/runner/work/jk/jk/target/manual-build/jk",
+      "sha256": "cb41f94b63ec85100829bd2b1e9ced84f37cae912996a48e93b56b8776c9c5ed",
+      "version": "jk 0.3.0",
+      "version_exit_code": 0
+    },
+    "jj": {
+      "invoked_path": "/home/runner/.cargo/bin/jj",
+      "path": "/home/runner/.cargo/bin/jj",
+      "sha256": "cd5efc3eb281d606bf9b5523167f79661da0f8c76a5aa32d61c07c7a351b6b44",
+      "version": "jj 0.45.1-7c41cdeb16b6b321c64e789a966b6adf723816a5",
+      "version_exit_code": 0
+    },
+    "betamax": {
+      "invoked_path": "/home/runner/work/_temp/betamax-jDyaSt/bin/betamax",
+      "path": "/home/runner/work/_temp/betamax-jDyaSt/bin/betamax",
+      "sha256": "db55fa6e7ff98e1df3c91921b5b3fb504b3cc8fdaf6b07e3da952f8757053490",
+      "version": "betamax 0.1.21",
+      "version_exit_code": 0
+    },
+    "ci_run": {
+      "id": "35558741399",
+      "attempt": "1",
+      "url": "https://github.com/joshka/jk/actions/runs/35558741399"
+    },
+    "assertions": [
+      {
+        "path": "inspection-assertions.json",
+        "sha256": "f1c619cba4fd2e509a33d3f894012c7c7e4921f061e2aaed49737773f5180c7c",
+        "bytes": 941
+      }
+    ],
+    "video": {
+      "path": "inspect-elision.mp4",
+      "sha256": "6f4d26a8f9cc63762dc1a58e0c72388fa93347ef07e0f9b1726d4f2ebf8e6e1e",
+      "bytes": 230531
+    },
+    "video_review": {
+      "status": "reviewed",
+      "reviewer": "inspection agent",
+      "reviewed_at": "2026-09-21T03:51:36.728511+00:00",
+      "summary": "Sampled review of the actual third-CI artifact, not a real-time watch: inspected all three full-resolution PNGs and styled states, captured source tape, passed unchanged-working-copy/graph assertions, ffprobe metadata (18.533333s, 278 frames at 15fps, 1400x840), and actual video frames at 0, 3, 5, 8, 10, 13, 16 and 18.466667 seconds. Source holds of 2\u20132.5 seconds and 70ms typing give readable pacing. Samples verify selection of ~, Enter expansion, Left return, Right re-expansion, opaque command input over the actual native graph, successful graph-free output, and Backspace returning to the selected native elision row through the clean final frame. No fixture setup or cleanup appears. The long CI repository prefix clips command metadata (UX-15), faithfully captured; the previous erroneous Escape return is absent. This review binds the final CI bytes and exact build provenance, independently of the local repair recording.",
+      "findings": [
+        "UX-15"
+      ],
+      "sha256": "6f4d26a8f9cc63762dc1a58e0c72388fa93347ef07e0f9b1726d4f2ebf8e6e1e",
+      "duration_seconds": 18.533333,
+      "sample_seconds": [
+        0,
+        3,
+        5,
+        8,
+        10,
+        13,
+        16,
+        18.466667
+      ]
+    },
+    "source_snapshot_status": "preserved",
+    "video_review_source": "target/manual-recordings/reviews/inspection-ci35558741399.json",
+    "pixel_review_complete": true,
+    "text_style_review_complete": true,
+    "video_review_complete": true
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "size": [
+    98,
+    43
+  ],
+  "total_rows": 43,
+  "scrollback_rows": 0,
+  "cursor": {
+    "x": 58,
+    "y": 42,
+    "visible": false
+  },
+  "default_style": {
+    "fg": "#b4bcca",
+    "bg": "#0f141f"
+  },
+  "styles": [
+    {
+      "bold": true
+    }
+  ],
+  "viewport_text": "jk jj --no-pager --color never --repository /home/runner/work/jk/jk/target/dogfood-artifacts/fixtu\nCommand: jj --no-pager --color never --repository /home/runner/work/jk/jk/target/dogfood-artifacts\nStatus: success\n\nStdout:\n<empty>\n\nStderr:\nChanges to push to fixture:\n  bookmark: demo [add to 02f7c7e40588]\nDry-run requested, not pushing.\n\nActions: e edit/retry command   : run another jj command\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n? help  V options  r refresh  j/k line  space page  q quit\n",
+  "scrollback_text": "",
+  "viewport": [
+    [
+      "jk ",
+      [
+        "jj --no-pager --color never --repository /home/runner/work/jk/jk/target/dogfood-artifacts/fixtu",
+        0
+      ]
+    ],
+    [
+      "Command: jj --no-pager --color never --repository /home/runner/work/jk/jk/target/dogfood-artifacts"
+    ],
+    [
+      "Status: success"
+    ],
+    [],
+    [
+      "Stdout:"
+    ],
+    [
+      "<empty>"
+    ],
+    [],
+    [
+      "Stderr:"
+    ],
+    [
+      "Changes to push to fixture:"
+    ],
+    [
+      "  bookmark: demo [add to 02f7c7e40588]"
+    ],
+    [
+      "Dry-run requested, not pushing."
+    ],
+    [],
+    [
+      "Actions: e edit/retry command   : run another jj command"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "? help  V options  r refresh  j/k line  space page  q quit"
+    ]
+  ],
+  "scrollback": []
+}

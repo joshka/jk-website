@@ -1,0 +1,383 @@
+{
+  "size": [
+    104,
+    39
+  ],
+  "total_rows": 39,
+  "scrollback_rows": 0,
+  "cursor": {
+    "x": 91,
+    "y": 30,
+    "visible": false
+  },
+  "default_style": {
+    "fg": "#b4bcca",
+    "bg": "#0f141f"
+  },
+  "styles": [
+    {
+      "bold": true
+    },
+    {
+      "fg": "#52aa60",
+      "bold": true
+    },
+    {
+      "fg": "#d58bf0",
+      "bold": true
+    },
+    {
+      "fg": "#3a4152",
+      "bold": true
+    },
+    {
+      "fg": "#ad9b49",
+      "bold": true
+    },
+    {
+      "fg": "#52c4c0",
+      "bold": true
+    },
+    {
+      "fg": "#76a8f2",
+      "bold": true
+    },
+    {
+      "fg": "#487fd4",
+      "bold": true
+    },
+    {
+      "fg": "#3a4152"
+    },
+    {
+      "fg": "#ad9b49"
+    },
+    {
+      "fg": "#269d9a"
+    },
+    {
+      "fg": "#af5bd1",
+      "bold": true
+    },
+    {
+      "fg": "#e0e6ee",
+      "bg": "#242c3a"
+    },
+    {
+      "fg": "#65d4cf",
+      "bg": "#242c3a",
+      "bold": true
+    },
+    {
+      "fg": "#eab855",
+      "bg": "#242c3a"
+    },
+    {
+      "fg": "#e0e6ee",
+      "bg": "#242c3a",
+      "bold": true
+    }
+  ],
+  "viewport_text": "jk jj\n›  @  xtrzlnmw demo@example.invalid 2026-01-01 12:00:00 6f1a227c\n·  │  Rebase source\n   │ ○  nmqqplsm demo@example.invalid 2026-01-01 12:00:00 167c0ffe\n   ├─╯  Rebase destination\n   ○  wntmysku demo@example.invalid 2026-01-01 12:00:00 54ff44e5\n   │  Rebase base\n   ~\n\n              Rebase revisions\n\n              Source: 6f1a227c9551f07c8f0ce24b8e9937eec324b563\n              Source role: branch\n              Moves the destination-relative branch (-b), including applicable ancestors\n              and descendants.\n              Destination: 167c0ffe8be3b445db318b9a3b61d628ba7d743f\n              Placement: insert after\n              Inserts after (-A), rewriting existing descendants, including other\n              workspaces.\n\n              ! Rewrites local history.\n\n              Command\n              jj --no-pager --color always --repository\n              /home/runner/work/jk/jk/target/manual-fixtures/rebase.ECgw1d/workflows.E6dLX\n              7/rebase rebase -b 6f1a227c9551f07c8f0ce24b8e9937eec324b563 -A\n              167c0ffe8be3b445db318b9a3b61d628ba7d743f\n\n\n              enter run  y copy  esc cancel  o options\n",
+  "scrollback_text": "",
+  "viewport": [
+    [
+      "jk ",
+      [
+        "jj",
+        0
+      ]
+    ],
+    [
+      [
+        "›",
+        0
+      ],
+      "  ",
+      [
+        "@",
+        1
+      ],
+      "  ",
+      [
+        "x",
+        2
+      ],
+      [
+        "trzlnmw",
+        3
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "demo@example.invalid",
+        4
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "2026-01-01 12:00:00",
+        5
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "6",
+        6
+      ],
+      [
+        "f1a227c",
+        3
+      ]
+    ],
+    [
+      [
+        "·",
+        0
+      ],
+      "  │  ",
+      [
+        "Rebase source",
+        0
+      ]
+    ],
+    [
+      "   │ ○  ",
+      [
+        "n",
+        7
+      ],
+      [
+        "mqqplsm",
+        8
+      ],
+      " ",
+      [
+        "demo@example.invalid",
+        9
+      ],
+      " ",
+      [
+        "2026-01-01 12:00:00",
+        10
+      ],
+      " ",
+      [
+        "1",
+        11
+      ],
+      [
+        "67c0ffe",
+        8
+      ]
+    ],
+    [
+      "   ├─╯  Rebase destination"
+    ],
+    [
+      "   ○  ",
+      [
+        "w",
+        7
+      ],
+      [
+        "ntmysku",
+        8
+      ],
+      " ",
+      [
+        "demo@example.invalid",
+        9
+      ],
+      " ",
+      [
+        "2026-01-01 12:00:00",
+        10
+      ],
+      " ",
+      [
+        "5",
+        11
+      ],
+      [
+        "4ff44e5",
+        8
+      ]
+    ],
+    [
+      "   │  Rebase base"
+    ],
+    [
+      "   ~"
+    ],
+    [],
+    [
+      "             ",
+      [
+        " ",
+        12
+      ],
+      [
+        "Rebase revisions",
+        13
+      ]
+    ],
+    [],
+    [
+      "             ",
+      [
+        " Source: 6f1a227c9551f07c8f0ce24b8e9937eec324b563",
+        12
+      ]
+    ],
+    [
+      "             ",
+      [
+        " Source role: branch",
+        12
+      ]
+    ],
+    [
+      "             ",
+      [
+        " Moves the destination-relative branch (-b), including applicable ancestors",
+        12
+      ]
+    ],
+    [
+      "             ",
+      [
+        " and descendants.",
+        12
+      ]
+    ],
+    [
+      "             ",
+      [
+        " Destination: 167c0ffe8be3b445db318b9a3b61d628ba7d743f",
+        12
+      ]
+    ],
+    [
+      "             ",
+      [
+        " Placement: insert after",
+        12
+      ]
+    ],
+    [
+      "             ",
+      [
+        " Inserts after (-A), rewriting existing descendants, including other",
+        12
+      ]
+    ],
+    [
+      "             ",
+      [
+        " workspaces.",
+        12
+      ]
+    ],
+    [],
+    [
+      "             ",
+      [
+        " ",
+        12
+      ],
+      [
+        "! Rewrites local history.",
+        14
+      ]
+    ],
+    [],
+    [
+      "             ",
+      [
+        " ",
+        12
+      ],
+      [
+        "Command",
+        15
+      ]
+    ],
+    [
+      "             ",
+      [
+        " jj --no-pager --color always --repository",
+        12
+      ]
+    ],
+    [
+      "             ",
+      [
+        " /home/runner/work/jk/jk/target/manual-fixtures/rebase.ECgw1d/workflows.E6dLX",
+        12
+      ]
+    ],
+    [
+      "             ",
+      [
+        " 7/rebase rebase -b 6f1a227c9551f07c8f0ce24b8e9937eec324b563 -A",
+        12
+      ]
+    ],
+    [
+      "             ",
+      [
+        " 167c0ffe8be3b445db318b9a3b61d628ba7d743f",
+        12
+      ]
+    ],
+    [],
+    [],
+    [
+      "             ",
+      [
+        " ",
+        12
+      ],
+      [
+        "enter",
+        13
+      ],
+      [
+        " run  ",
+        12
+      ],
+      [
+        "y",
+        13
+      ],
+      [
+        " copy  ",
+        12
+      ],
+      [
+        "esc",
+        13
+      ],
+      [
+        " cancel  ",
+        12
+      ],
+      [
+        "o",
+        13
+      ],
+      [
+        " options",
+        12
+      ]
+    ]
+  ],
+  "scrollback": []
+}

@@ -1,0 +1,32 @@
+{
+  "scenario": "manual-run-options-historical",
+  "stage": "manual-run-options-historical",
+  "status": "passed",
+  "repository": "/home/runner/work/jk/jk/target/manual-fixtures/run-options.rewGGK/workflows.2YHjgO/rebase",
+  "assertions": [
+    {
+      "name": "historical rebase leaves source file unchanged",
+      "passed": true,
+      "actual": "source contents\n",
+      "expected": "source contents\n"
+    },
+    {
+      "name": "historical rebase does not update working-copy destination file",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "later bookmark survives normal operation integration",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "rebase operation is a child of selected historical operation",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    }
+  ]
+}

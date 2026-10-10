@@ -1,0 +1,193 @@
+[
+  {
+    "checkpoint": "manual-command-mode-parse-error",
+    "viewport_text": "jk jj\n\u203a  @  smqluxkn demo@example.invalid 2026-01-01 12:00:00 45990678\n\u00b7  \u2502  Experiment with forecast caching\n   \u25cb  kvosxvnu demo@example.invalid 2026-01-01 12:00:00 3835991c\n   \u2502  Configure request timeouts\n   \u25cb  nytvmxtw demo@example.invalid 2026-01-01 12:00:00 1ebd9136\n   \u2502  Add the forecast endpoint\n   \u25cb  lkurnryx alex@example.com 2026-01-01 12:00:00 27c2afb2\n   \u2502  Document the forecast service\n   \u25c6  zzzzzzzz root() 00000000\n\n\n\n\n\n\n                         jj command\n\n                         : status '\n                         error: unterminated single quote\n\n                         enter run   Ctrl-u clear   backspace edit   esc cancel\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#52aa60",
+        "bold": true
+      },
+      {
+        "fg": "#d58bf0",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152",
+        "bold": true
+      },
+      {
+        "fg": "#ad9b49",
+        "bold": true
+      },
+      {
+        "fg": "#52c4c0",
+        "bold": true
+      },
+      {
+        "fg": "#76a8f2",
+        "bold": true
+      },
+      {
+        "fg": "#487fd4",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152"
+      },
+      {
+        "fg": "#ad9b49"
+      },
+      {
+        "fg": "#269d9a"
+      },
+      {
+        "fg": "#af5bd1",
+        "bold": true
+      },
+      {
+        "fg": "#52aa60"
+      },
+      {
+        "fg": "#e0e6ee",
+        "bg": "#242c3a"
+      },
+      {
+        "fg": "#65d4cf",
+        "bg": "#242c3a",
+        "bold": true
+      },
+      {
+        "fg": "#ff8782",
+        "bg": "#242c3a"
+      }
+    ],
+    "size": [
+      104,
+      39
+    ]
+  },
+  {
+    "checkpoint": "manual-command-mode-jj-success",
+    "viewport_text": "jk jj --no-pager --color always --repository /home/runner/work/jk/jk/target/forecast-demo.CDlVkR status\nCommand: jj --no-pager --color always --repository /home/runner/work/jk/jk/target/forecast-demo.CDlVkR s\nStatus: success\n\nStdout:\nWorking copy changes:\nA src/cache.js\nWorking copy  (@) : smqluxkn 45990678 Experiment with forecast caching\nParent commit (@-): kvosxvnu 3835991c Configure request timeouts\n\nStderr:\n<empty>\n\nActions: e edit/retry command   : run another jj command\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n? help  V options  r refresh  j/k line  space page  q quit\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#dfe5ee",
+        "bg": "#3a485a"
+      },
+      {
+        "fg": "#dfe5ee",
+        "bg": "#215b53"
+      },
+      {
+        "fg": "#dfe5ee",
+        "bg": "#282d37"
+      },
+      {
+        "fg": "#dfe5ee",
+        "bg": "#1e232f"
+      },
+      {
+        "fg": "#52aa60",
+        "bg": "#1e232f"
+      },
+      {
+        "bg": "#1e232f"
+      },
+      {
+        "fg": "#d58bf0",
+        "bg": "#1e232f",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152",
+        "bg": "#1e232f",
+        "bold": true
+      },
+      {
+        "bg": "#1e232f",
+        "bold": true
+      },
+      {
+        "fg": "#76a8f2",
+        "bg": "#1e232f",
+        "bold": true
+      },
+      {
+        "fg": "#487fd4",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152"
+      },
+      {
+        "fg": "#af5bd1",
+        "bold": true
+      }
+    ],
+    "size": [
+      104,
+      39
+    ]
+  },
+  {
+    "checkpoint": "manual-command-mode-failure",
+    "viewport_text": "jk sh -c 'printf \"cache check failed\\n\" >&2; exit 7'\nCommand: sh -c 'printf \"cache check failed\\n\" >&2; exit 7'\nStatus: exit 7\n\nStdout:\n<empty>\n\nStderr:\ncache check failed\n\nActions: e edit/retry command   ! run another external command\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n? help  V options  r refresh  j/k line  space page  q quit\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#dfe5ee",
+        "bg": "#3a485a"
+      },
+      {
+        "fg": "#dfe5ee",
+        "bg": "#782d32"
+      },
+      {
+        "fg": "#dfe5ee",
+        "bg": "#282d37"
+      },
+      {
+        "fg": "#dfe5ee",
+        "bg": "#1e232f"
+      },
+      {
+        "fg": "#222734",
+        "bg": "#52c4c0"
+      }
+    ],
+    "size": [
+      104,
+      39
+    ]
+  },
+  {
+    "checkpoint": "manual-command-mode-history",
+    "viewport_text": "jk Command History\n\u203a  fail external command mode external command sh -c 'printf \"cache check failed\\n\" >&2; exit 7'  exit 7\n   ok   external command mode external command printf '%s\\n' 'Cache verification complete'  Cache verifi\n   ok   command mode command   : jj status  Working copy changes:\n   ok   log load               jj  stderr: Hint: Use `jj -h` for a list of available commands.\n   ok   log load               jj  stderr: Hint: Use `jj -h` for a list of available commands.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n? help  enter details  j/k move  space page  r refresh  o operation  y copy  Esc back  q quit\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#c26265"
+      },
+      {
+        "fg": "#269d9a"
+      },
+      {
+        "fg": "#52aa60"
+      }
+    ],
+    "size": [
+      104,
+      39
+    ]
+  }
+]

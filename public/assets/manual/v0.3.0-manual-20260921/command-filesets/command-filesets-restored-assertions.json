@@ -1,0 +1,26 @@
+{
+  "scenario": "command-filesets",
+  "stage": "command-filesets-restored",
+  "status": "passed",
+  "repository": "/home/runner/work/jk/jk/target/forecast-demo.BM4h8p",
+  "assertions": [
+    {
+      "name": "fileset restore keeps unselected cache addition",
+      "passed": true,
+      "actual": "A src/cache.js",
+      "expected": "A src/cache.js"
+    },
+    {
+      "name": "fileset restore recovers old config only",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "undo removes split revision",
+      "passed": true,
+      "actual": [],
+      "expected": []
+    }
+  ]
+}

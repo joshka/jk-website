@@ -1,0 +1,37 @@
+{
+  "schema": 1,
+  "results": [
+    {
+      "tape": "refs-remotes.tape",
+      "status": "passed"
+    }
+  ],
+  "problems": [],
+  "media": [
+    {
+      "name": "betamax-betamax-refs-remotes-r1-m1.refs-remotes.mp4",
+      "label": "refs-remotes.tape (mp4)",
+      "type": "video/mp4"
+    },
+    {
+      "name": "betamax-betamax-refs-remotes-r1-m2.refs-remotes-choose.png",
+      "label": "refs-remotes-choose.png",
+      "type": "image/png"
+    },
+    {
+      "name": "betamax-betamax-refs-remotes-r1-m3.refs-remotes-fetch-preview.png",
+      "label": "refs-remotes-fetch-preview.png",
+      "type": "image/png"
+    },
+    {
+      "name": "betamax-betamax-refs-remotes-r1-m4.refs-remotes-fetched.png",
+      "label": "refs-remotes-fetched.png",
+      "type": "image/png"
+    },
+    {
+      "name": "betamax-betamax-refs-remotes-r1-m5.refs-remotes-push-result.png",
+      "label": "refs-remotes-push-result.png",
+      "type": "image/png"
+    }
+  ]
+}

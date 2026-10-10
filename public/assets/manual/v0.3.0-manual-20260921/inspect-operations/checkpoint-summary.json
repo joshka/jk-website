@@ -1,0 +1,190 @@
+[
+  {
+    "checkpoint": "inspect-operations-log",
+    "viewport_text": "jk jj op log\n\u203a  @  9c2455ad07e9 runner@runnervmlun5p default@ 8 months ago, lasted less than a microsecond\n   \u2502  create bookmark candidate pointing to commit 9c809e2d630cc3a4c67ab8beefd04674f164132d\n   \u2502  args: jj -R /home/runner/work/jk/jk/target/manual-fixtures/inspection.wbQAkX/repo bookmark create\n   \u25cb  fbf8d8e74b18 runner@runnervmlun5p default@ 8 months ago, lasted less than a microsecond\n   \u2502  describe commit 9d3afcda1ec673e24631ff6183feb27641c663f7\n   \u2502  args: jj -R /home/runner/work/jk/jk/target/manual-fixtures/inspection.wbQAkX/repo describe -m 'Exp\n   \u25cb  fc2b27c8f27e runner@runnervmlun5p default@ 8 months ago, lasted less than a microsecond\n   \u2502  snapshot working copy\n   \u2502  args: jj -R /home/runner/work/jk/jk/target/manual-fixtures/inspection.wbQAkX/repo describe -m 'Exp\n   \u25cb  8d0eb6e4d796 runner@runnervmlun5p default@ 8 months ago, lasted less than a microsecond\n   \u2502  new empty commit\n   \u2502  args: jj -R /home/runner/work/jk/jk/target/manual-fixtures/inspection.wbQAkX/repo new -m 'Try a lo\n   \u25cb  15f891cca277 runner@runnervmlun5p default@ 8 months ago, lasted less than a microsecond\n   \u2502  snapshot working copy\n   \u2502  args: jj -R /home/runner/work/jk/jk/target/manual-fixtures/inspection.wbQAkX/repo new -m 'Try a lo\n   \u25cb  0b3cd8bc5624 runner@runnervmlun5p default@ 8 months ago, lasted less than a microsecond\n   \u2502  new empty commit\n   \u2502  args: jj -R /home/runner/work/jk/jk/target/manual-fixtures/inspection.wbQAkX/repo new -m 'Configur\n   \u25cb  adeb6f23b898 runner@runnervmlun5p default@ 8 months ago, lasted less than a microsecond\n   \u2502  snapshot working copy\n   \u2502  args: jj -R /home/runner/work/jk/jk/target/manual-fixtures/inspection.wbQAkX/repo new -m 'Configur\n   \u25cb  35f4c4d8140c runner@runnervmlun5p default@ 8 months ago, lasted less than a microsecond\n   \u2502  new empty commit\n   \u2502  args: jj -R /home/runner/work/jk/jk/target/manual-fixtures/inspection.wbQAkX/repo new -m 'Add the\n   \u25cb  4607e4ca36c9 runner@runnervmlun5p default@ 8 months ago, lasted less than a microsecond\n   \u2502  create bookmark main pointing to commit 83049e535082fe66ac4ca670b6ee82241e421c59\n   \u2502  args: jj -R /home/runner/work/jk/jk/target/manual-fixtures/inspection.wbQAkX/repo bookmark create\n   \u25cb  0434b34b2894 runner@runnervmlun5p default@ 8 months ago, lasted less than a microsecond\n   \u2502  describe commit 35baab96c5ac05526fe0ef3f8826503c58306c3a\n   \u2502  args: jj -R /home/runner/work/jk/jk/target/manual-fixtures/inspection.wbQAkX/repo describe -m 'Doc\n   \u25cb  0d37e1a946b2 runner@runnervmlun5p default@ 8 months ago, lasted less than a microsecond\n   \u2502  snapshot working copy\n   \u2502  args: jj -R /home/runner/work/jk/jk/target/manual-fixtures/inspection.wbQAkX/repo describe -m 'Doc\n   \u25cb  45f50c732e5b runner@runnervmlun5p 8 months ago, lasted less than a microsecond\n? help  enter show  d diff  j/k move  space page  r refresh  Esc back  q quit\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#52aa60",
+        "bold": true
+      },
+      {
+        "fg": "#76a8f2",
+        "bold": true
+      },
+      {
+        "fg": "#ad9b49",
+        "bold": true
+      },
+      {
+        "fg": "#52c4c0",
+        "bold": true
+      },
+      {
+        "fg": "#d58bf0",
+        "bold": true
+      },
+      {
+        "fg": "#487fd4"
+      },
+      {
+        "fg": "#ad9b49"
+      },
+      {
+        "fg": "#52aa60"
+      },
+      {
+        "fg": "#269d9a"
+      },
+      {
+        "fg": "#af5bd1"
+      }
+    ],
+    "size": [
+      104,
+      36
+    ]
+  },
+  {
+    "checkpoint": "inspect-operations-show",
+    "viewport_text": "jk jj op show 9c2455ad07e9\n9c2455ad07e9 runner@runnervmlun5p default@ 8 months ago, lasted less than a microsecond\ncreate bookmark candidate pointing to commit 9c809e2d630cc3a4c67ab8beefd04674f164132d\nargs: jj -R /home/runner/work/jk/jk/target/manual-fixtures/inspection.wbQAkX/repo bookmark create candid\n\nChanged local bookmarks:\ncandidate:\n+ voqnmprv 9c809e2d candidate | Experiment with forecast caching\n- (absent)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n? help  V options  r refresh  j/k line  space page  q quit\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#76a8f2",
+        "bold": true
+      },
+      {
+        "fg": "#ad9b49",
+        "bold": true
+      },
+      {
+        "fg": "#52aa60",
+        "bold": true
+      },
+      {
+        "fg": "#52c4c0",
+        "bold": true
+      },
+      {
+        "fg": "#d58bf0",
+        "bold": true
+      },
+      {
+        "fg": "#52aa60"
+      },
+      {
+        "fg": "#3a4152",
+        "bold": true
+      },
+      {
+        "fg": "#c26265"
+      }
+    ],
+    "size": [
+      104,
+      36
+    ]
+  },
+  {
+    "checkpoint": "inspect-operations-diff",
+    "viewport_text": "jk jj op diff --operation 9c2455ad07e9\nFrom operation: fbf8d8e74b18 (2026-01-01 12:00:00) describe commit 9d3afcda1ec673e24631ff6183feb27641c66\n  To operation: 9c2455ad07e9 (2026-01-01 12:00:00) create bookmark candidate pointing to commit 9c809e2d\n\nChanged local bookmarks:\ncandidate:\n+ voqnmprv 9c809e2d candidate | Experiment with forecast caching\n- (absent)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n? help  V options  r refresh  j/k line  space page  q quit\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#487fd4"
+      },
+      {
+        "fg": "#269d9a"
+      },
+      {
+        "fg": "#52aa60"
+      },
+      {
+        "fg": "#d58bf0",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152",
+        "bold": true
+      },
+      {
+        "fg": "#76a8f2",
+        "bold": true
+      },
+      {
+        "fg": "#c26265"
+      }
+    ],
+    "size": [
+      104,
+      36
+    ]
+  },
+  {
+    "checkpoint": "inspect-operations-returned",
+    "viewport_text": "jk jj\n\u203a  @  voqnmprv alex@example.invalid 2026-01-01 12:00:00 candidate 9c809e2d\n\u00b7  \u2502  Experiment with forecast caching\n   \u25cb  zoprlnmt alex@example.invalid 2026-01-01 12:00:00 6bf973b4\n   \u2502  Configure request timeouts\n   \u25cb  szyxlpms alex@example.invalid 2026-01-01 12:00:00 821cf6d2\n   \u2502  Add the forecast endpoint\n   \u25cb  nnruqqkl alex@example.invalid 2026-01-01 12:00:00 main 83049e53\n   \u2502  Document the forecast service\n   \u25c6  zzzzzzzz root() 00000000\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n? help  H home  L log  r refresh  enter open  d diff  v evolog  s status  space mark  o ops  ...  q quit\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#52aa60",
+        "bold": true
+      },
+      {
+        "fg": "#d58bf0",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152",
+        "bold": true
+      },
+      {
+        "fg": "#ad9b49",
+        "bold": true
+      },
+      {
+        "fg": "#52c4c0",
+        "bold": true
+      },
+      {
+        "fg": "#76a8f2",
+        "bold": true
+      },
+      {
+        "fg": "#487fd4",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152"
+      },
+      {
+        "fg": "#ad9b49"
+      },
+      {
+        "fg": "#269d9a"
+      },
+      {
+        "fg": "#af5bd1",
+        "bold": true
+      },
+      {
+        "fg": "#af5bd1"
+      },
+      {
+        "fg": "#52aa60"
+      }
+    ],
+    "size": [
+      104,
+      36
+    ]
+  }
+]

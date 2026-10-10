@@ -1,0 +1,8 @@
+{
+  "repository": "/home/runner/work/jk/jk/target/manual-fixtures/workspaces-stale.SYq8aL/workflows.vbUrW6/workspaces/repo",
+  "kind": "workspaces-stale",
+  "initial_commit": "9dd4d90999a049ee39d4a8c9581949934f63e422",
+  "initial_operation": "f0c195aa4905a55ea635ff0b2df83d6ba08a72f0708578caa7a1dd2bac11ca336b2b95e6d31196d00c9a4f03d1327ac4cf54c2867184371591a2482f250f75ce",
+  "binary": "/home/runner/work/jk/jk/target/manual-build/jk",
+  "isolated_jj_config": "/dev/null"
+}

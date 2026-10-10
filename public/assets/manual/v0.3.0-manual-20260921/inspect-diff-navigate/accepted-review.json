@@ -1,0 +1,188 @@
+{
+  "schema_version": 1,
+  "source_index": "manual/v0.3.0-manual-20260921/review-index.json",
+  "source_index_sha256": "17efd1f5f9a9c80791c6764f7972f466b4b29257831f2719b0c66b74b784fc16",
+  "review": {
+    "id": "inspect-diff-navigate",
+    "title": "Find files and hunks in a long diff",
+    "status": "ready",
+    "source_tape": "tapes/manual/inspect/inspect-diff-navigate.tape",
+    "source_tape_sha256": "9ba686fea6bb7e41dbd312288b14657ee7222f9209c64add1e533bf08919d4fd",
+    "website": {
+      "path": "assets/manual/v0.3.0-manual-20260921/inspect-diff-navigate"
+    },
+    "problems": [],
+    "checkpoints": [
+      {
+        "id": "inspect-diff-navigate-patch",
+        "png": "inspect-diff-navigate-patch.png",
+        "state": "inspect-diff-navigate-patch.json",
+        "png_sha256": "a74bb610f32415bf6608d698ffc47682d8f3b427e3f0d091f7736583eda1abfa",
+        "state_sha256": "e7ab42bf202a6caf8444b75e720085a12ca3d2ee3f6061a713eb629e348bb741",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "inspection agent",
+          "reviewed_at": "2026-09-21T03:39:18.876745+00:00",
+          "summary": "Readable color-words patch displays all three changed paths and distinct red/green additions and removals. README is selected, with file count and stat shown. Product footer still advertises hunk navigation despite UX-17; this recording claims only working file navigation.",
+          "findings": [
+            "UX-17"
+          ]
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "inspection agent",
+          "reviewed_at": "2026-09-21T03:39:18.876745+00:00",
+          "summary": "State contains recognized Modified regular file headers for README, config and cache, a file 1/3 suffix and normal line-number styles. Underlined red 60 and green 120 disambiguate the flattened 60120 text. Hunk footer remains visible (UX-17).",
+          "findings": [
+            "UX-17"
+          ]
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/inspection-ci35557653700.json",
+        "text_style_review_source": "target/manual-recordings/reviews/inspection-ci35557653700.json"
+      },
+      {
+        "id": "inspect-diff-navigate-files",
+        "png": "inspect-diff-navigate-files.png",
+        "state": "inspect-diff-navigate-files.json",
+        "png_sha256": "0a4640110ac5c7d04b52c064e83578865eec3d72e35c4f13eb644ed88ee27630",
+        "state_sha256": "76d3a87d9b1360e38ecbc7a01a61e942557e7851320cf8c5052ee921a1497b64",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "inspection agent",
+          "reviewed_at": "2026-09-21T03:39:18.876745+00:00",
+          "summary": "Opaque Diff files dialog lists all three paths over the real patch, with selection marker, numbered items and readable movement/jump/close hints. The earlier empty Git-format list is avoided with explicit color-words.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "inspection agent",
+          "reviewed_at": "2026-09-21T03:39:18.876745+00:00",
+          "summary": "State lists 1/3 README.md, 2/3 config.json and 3/3 src/cache.js. The dialog uses background #242c3a, foreground #e0e6ee and teal bold title/hints; no patch text bleeds through the filled panel.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/inspection-ci35557653700.json",
+        "text_style_review_source": "target/manual-recordings/reviews/inspection-ci35557653700.json"
+      },
+      {
+        "id": "inspect-diff-navigate-folded-file",
+        "png": "inspect-diff-navigate-folded-file.png",
+        "state": "inspect-diff-navigate-folded-file.json",
+        "png_sha256": "1bb5122bb06f6f68fa372c92c3955800492a67b89c9341d5e737d9e26b542ee7",
+        "state_sha256": "cd1765e3768afbceb8e48affffb90e94c7e21e2212abf35fc78389714d03876c",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "inspection agent",
+          "reviewed_at": "2026-09-21T03:39:18.876745+00:00",
+          "summary": "Selected src/cache.js is visibly collapsed to its header with four changed lines, green ++ and red -- stats and file 3/3 index. Its body is absent while README and config remain visible; caption matches a file fold.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "inspection agent",
+          "reviewed_at": "2026-09-21T03:39:18.876745+00:00",
+          "summary": "State retains the cache header and stat suffix but no cache body lines after it, followed only by blank rows and /cache search footer. This satisfies the semantic fold wait, unlike the original hunk recording. Red/green stat signs stay distinct.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/inspection-ci35557653700.json",
+        "text_style_review_source": "target/manual-recordings/reviews/inspection-ci35557653700.json"
+      },
+      {
+        "id": "inspect-diff-navigate-refreshed",
+        "png": "inspect-diff-navigate-refreshed.png",
+        "state": "inspect-diff-navigate-refreshed.json",
+        "png_sha256": "33a4661f8d764cf557bae42c84eb79815d235702fd56d21363cd15934a2cfae8",
+        "state_sha256": "12e7675818817db5aa9f7b639cb0599d934ea86f73072749823995ce132e713d",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "inspection agent",
+          "reviewed_at": "2026-09-21T03:39:18.876745+00:00",
+          "summary": "Cache contents are restored and visible after refresh, with selected file 3/3 and search footer retained. Caption correctly describes unchanged repository data.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "inspection agent",
+          "reviewed_at": "2026-09-21T03:39:18.876745+00:00",
+          "summary": "State includes both cache replacements again, current selected cache header and /cache 1/19 footer. Line numbers and red/green underlined changes match the PNG; no folded-body omission remains.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/inspection-ci35557653700.json",
+        "text_style_review_source": "target/manual-recordings/reviews/inspection-ci35557653700.json"
+      }
+    ],
+    "metadata_path": "target/manual-recordings/ci-35557653700/manual-evidence-inspect-diff-navigate/capture-metadata.json",
+    "metadata_sha256": "c87b7ca1b653c26955de89ebc2daff234ca282ed9e64981d750649347c0114bb",
+    "evidence_directory": "target/manual-recordings/ci-35557653700/manual-evidence-inspect-diff-navigate",
+    "evidence_status": "passed",
+    "source_commit": "7fcb4fa9af1bb624fcdc7ac14a64184a43c4e829",
+    "pr_head_commit": "d5200f713edc476fd446616ad46fec573f861baf",
+    "source_manifest_sha256": "42c0d25b424a807906eb4e0ba7ca72b4c0488685e9f57b3bcf62d3f01c6c6915",
+    "source_matches_checkout": true,
+    "binary": {
+      "invoked_path": "/home/runner/work/jk/jk/target/manual-build/jk",
+      "path": "/home/runner/work/jk/jk/target/manual-build/jk",
+      "sha256": "cb41f94b63ec85100829bd2b1e9ced84f37cae912996a48e93b56b8776c9c5ed",
+      "version": "jk 0.3.0",
+      "version_exit_code": 0
+    },
+    "jj": {
+      "invoked_path": "/home/runner/.cargo/bin/jj",
+      "path": "/home/runner/.cargo/bin/jj",
+      "sha256": "cd5efc3eb281d606bf9b5523167f79661da0f8c76a5aa32d61c07c7a351b6b44",
+      "version": "jj 0.45.1-7c41cdeb16b6b321c64e789a966b6adf723816a5",
+      "version_exit_code": 0
+    },
+    "betamax": {
+      "invoked_path": "/home/runner/work/_temp/betamax-CEY0tj/bin/betamax",
+      "path": "/home/runner/work/_temp/betamax-CEY0tj/bin/betamax",
+      "sha256": "db55fa6e7ff98e1df3c91921b5b3fb504b3cc8fdaf6b07e3da952f8757053490",
+      "version": "betamax 0.1.21",
+      "version_exit_code": 0
+    },
+    "ci_run": {
+      "id": "35557653700",
+      "attempt": "1",
+      "url": "https://github.com/joshka/jk/actions/runs/35557653700"
+    },
+    "assertions": [
+      {
+        "path": "inspection-assertions.json",
+        "sha256": "1bbf2b4ce4cba1701fa07a82ee3b90457ec824628c31ee35e16cb46562f165bc",
+        "bytes": 947
+      }
+    ],
+    "video": {
+      "path": "inspect-diff-navigate.mp4",
+      "sha256": "7e71bc56141cabe4c8497d290804037c70ef0ac64458f2b522d1175b227bc0af",
+      "bytes": 290836
+    },
+    "video_review": {
+      "status": "reviewed",
+      "reviewer": "inspection agent",
+      "reviewed_at": "2026-09-21T03:39:18.876745+00:00",
+      "summary": "Sampled review, not a real-time watch: inspected the four full-resolution PNG/state pairs, captured source tape, ffprobe metadata (26.4s, 396 frames at 15fps, 1400x840) and actual video frames at 0, 4, 7, 10, 12, 14, 17, 20, 24 and 26.333333 seconds. Holds of 2\u20132.5 seconds and 70ms typing yield readable pacing. Samples verify filled picker, third-file selection, search counter advancing from 1/19 to 2/19, return to third file, visible collapse, restored body and clean final refresh. No setup/cleanup appears. The tape makes no successful Git-format or hunk-navigation claim; UX-17 remains a product defect. Horizontal keys are exercised but content already fits, so this recording does not establish visible horizontal scrolling.",
+      "findings": [
+        "UX-17"
+      ],
+      "sha256": "7e71bc56141cabe4c8497d290804037c70ef0ac64458f2b522d1175b227bc0af",
+      "duration_seconds": 26.4,
+      "sample_seconds": [
+        0,
+        4,
+        7,
+        10,
+        12,
+        14,
+        17,
+        20,
+        24,
+        26.333333
+      ]
+    },
+    "source_snapshot_status": "preserved",
+    "video_review_source": "target/manual-recordings/reviews/inspection-ci35557653700.json",
+    "pixel_review_complete": true,
+    "text_style_review_complete": true,
+    "video_review_complete": true
+  }
+}

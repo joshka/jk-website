@@ -1,0 +1,253 @@
+{
+  "size": [
+    98,
+    43
+  ],
+  "total_rows": 43,
+  "scrollback_rows": 0,
+  "cursor": {
+    "x": 58,
+    "y": 42,
+    "visible": false
+  },
+  "default_style": {
+    "fg": "#b4bcca",
+    "bg": "#0f141f"
+  },
+  "styles": [
+    {
+      "bold": true
+    },
+    {
+      "fg": "#dfe5ee",
+      "bg": "#3a485a"
+    },
+    {
+      "fg": "#dfe5ee",
+      "bg": "#215b53"
+    },
+    {
+      "fg": "#dfe5ee",
+      "bg": "#282d37"
+    },
+    {
+      "fg": "#dfe5ee",
+      "bg": "#1e232f"
+    },
+    {
+      "fg": "#af5bd1",
+      "bg": "#1e232f"
+    },
+    {
+      "bg": "#1e232f"
+    },
+    {
+      "fg": "#487fd4",
+      "bg": "#1e232f"
+    },
+    {
+      "fg": "#ad9b49",
+      "bg": "#1e232f"
+    },
+    {
+      "fg": "#269d9a",
+      "bg": "#1e232f"
+    },
+    {
+      "fg": "#52aa60",
+      "bg": "#1e232f"
+    },
+    {
+      "fg": "#52aa60",
+      "bg": "#1e232f",
+      "underline": "single"
+    },
+    {
+      "bg": "#282d37"
+    },
+    {
+      "bg": "#52c4c0"
+    }
+  ],
+  "viewport_text": "jk jj --no-pager --color always --repository /home/runner/work/jk/jk/target/manual-fixtures/worksp\nCommand: jj --no-pager --color always --repository /home/runner/work/jk/jk/target/manual-fixtures/\nStatus: success\n\nStdout:\nCommit ID: c0b49187b780fcb257a9de838ca57114b9e59454\nChange ID: psukwknupoqyrlkywwkwxqmqqpxlsokx\nAuthor   :<redacted> Author <demo@example.invalid> (2026-01-01 12:00:00)\nCommitter: Alex Developer <alex@example.invalid> (2026-01-01 12:00:00)\n\n    (no description set)\n\nAdded regular file KEEP-ME.txt:\n        1: workspace files remain after metadata changes\n\nStderr:\n<empty>\n\nActions: e edit/retry command   : run another jj command\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n? help  V options  r refresh  j/k line  space page  q quit\n",
+  "scrollback_text": "",
+  "viewport": [
+    [
+      "jk ",
+      [
+        "jj --no-pager --color always --repository /home/runner/work/jk/jk/target/manual-fixtures/worksp",
+        0
+      ]
+    ],
+    [
+      [
+        "Command: jj --no-pager --color always --repository /home/runner/work/jk/jk/target/manual-fixtures/",
+        1
+      ]
+    ],
+    [
+      [
+        "Status: success",
+        2
+      ]
+    ],
+    [],
+    [
+      [
+        "Stdout:",
+        3
+      ]
+    ],
+    [
+      [
+        "Commit ID: ",
+        4
+      ],
+      [
+        "c0b49187b780fcb257a9de838ca57114b9e59454",
+        5
+      ]
+    ],
+    [
+      [
+        "Change ID: ",
+        6
+      ],
+      [
+        "psukwknupoqyrlkywwkwxqmqqpxlsokx",
+        7
+      ]
+    ],
+    [
+      [
+        "Author   :<redacted> Author <",
+        6
+      ],
+      [
+        "demo@example.invalid",
+        8
+      ],
+      [
+        "> (",
+        6
+      ],
+      [
+        "2026-01-01 12:00:00",
+        9
+      ],
+      [
+        ")",
+        6
+      ]
+    ],
+    [
+      [
+        "Committer: ",
+        6
+      ],
+      [
+        "Alex Developer",
+        8
+      ],
+      [
+        " <",
+        6
+      ],
+      [
+        "alex@example.invalid",
+        8
+      ],
+      [
+        "> (",
+        6
+      ],
+      [
+        "2026-01-01 12:00:00",
+        9
+      ],
+      [
+        ")",
+        6
+      ]
+    ],
+    [],
+    [
+      [
+        "    (no description set)",
+        8
+      ]
+    ],
+    [],
+    [
+      [
+        "Added regular file KEEP-ME.txt:",
+        8
+      ]
+    ],
+    [
+      [
+        "     ",
+        6
+      ],
+      [
+        "   1",
+        10
+      ],
+      [
+        ": ",
+        6
+      ],
+      [
+        "workspace files remain after metadata changes",
+        11
+      ]
+    ],
+    [],
+    [
+      [
+        "Stderr:",
+        12
+      ]
+    ],
+    [
+      [
+        "<empty>",
+        6
+      ]
+    ],
+    [],
+    [
+      [
+        "Actions: e edit/retry command   : run another jj command",
+        13
+      ]
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "? help  V options  r refresh  j/k line  space page  q quit"
+    ]
+  ],
+  "scrollback": []
+}

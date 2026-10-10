@@ -1,0 +1,218 @@
+[
+  {
+    "checkpoint": "manual-rebase-branch-onto-selector",
+    "viewport_text": "jk jj\n\u203a  @  wvrosxzm demo@example.invalid 2026-01-01 12:00:00 4303f3ff\n\u00b7  \u2502  Rebase source\n   \u2502 \u25cb  yvpumwwv demo@example.invalid 2026-01-01 12:00:00 a3778996\n   \u251c\u2500\u256f  Rebase destination\n   \u25cb  lyvmuyvl demo@example.invalid 2026-01-01 12:00:00 f89c3a35\n   \u2502  Rebase base\n   ~\n\n\n\n\n\n\n           Choose rebase destination\n\n           Source: 4303f3ff9069\n           Scope: branch (-b)   r revision  b branch  s descendants\n           Place: onto (-o)   o onto  A after  B before\n           Search: /Rebase destination\n           \u203a a37789965877  Rebase destination\n\n           / search   \u2191/\u2193 choose   Enter preview   Esc cancel\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#52aa60",
+        "bold": true
+      },
+      {
+        "fg": "#d58bf0",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152",
+        "bold": true
+      },
+      {
+        "fg": "#ad9b49",
+        "bold": true
+      },
+      {
+        "fg": "#52c4c0",
+        "bold": true
+      },
+      {
+        "fg": "#76a8f2",
+        "bold": true
+      },
+      {
+        "fg": "#487fd4",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152"
+      },
+      {
+        "fg": "#ad9b49"
+      },
+      {
+        "fg": "#269d9a"
+      },
+      {
+        "fg": "#af5bd1",
+        "bold": true
+      },
+      {
+        "fg": "#65d4cf",
+        "bg": "#242c3a",
+        "bold": true
+      },
+      {
+        "fg": "#e0e6ee",
+        "bg": "#242c3a"
+      },
+      {
+        "fg": "#a1aebe",
+        "bg": "#242c3a"
+      }
+    ],
+    "size": [
+      104,
+      39
+    ]
+  },
+  {
+    "checkpoint": "manual-rebase-branch-onto-preview",
+    "viewport_text": "jk jj\n\u203a  @  wvrosxzm demo@example.invalid 2026-01-01 12:00:00 4303f3ff\n\u00b7  \u2502  Rebase source\n   \u2502 \u25cb  yvpumwwv demo@example.invalid 2026-01-01 12:00:00 a3778996\n   \u251c\u2500\u256f  Rebase destination\n   \u25cb  lyvmuyvl demo@example.invalid 2026-01-01 12:00:00 f89c3a35\n   \u2502  Rebase base\n   ~\n\n              Rebase revisions\n\n              Source: 4303f3ff9069c8e6beee0092c34bfa5015adfdd1\n              Source role: branch\n              Moves the destination-relative branch (-b), including applicable ancestors\n              and descendants.\n              Destination: a37789965877919506347341390cdf76853b2b15\n              Placement: onto\n              Makes this revision the new parent (-o).\n\n              ! Rewrites local history.\n\n              Command\n              jj --no-pager --color always --repository\n              /home/runner/work/jk/jk/target/manual-fixtures/rebase.uKx2MD/workflows.5d5E2\n              C/rebase rebase -b 4303f3ff9069c8e6beee0092c34bfa5015adfdd1 -o\n              a37789965877919506347341390cdf76853b2b15\n\n\n              enter run  y copy  esc cancel  o options\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#52aa60",
+        "bold": true
+      },
+      {
+        "fg": "#d58bf0",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152",
+        "bold": true
+      },
+      {
+        "fg": "#ad9b49",
+        "bold": true
+      },
+      {
+        "fg": "#52c4c0",
+        "bold": true
+      },
+      {
+        "fg": "#76a8f2",
+        "bold": true
+      },
+      {
+        "fg": "#487fd4",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152"
+      },
+      {
+        "fg": "#ad9b49"
+      },
+      {
+        "fg": "#269d9a"
+      },
+      {
+        "fg": "#af5bd1",
+        "bold": true
+      },
+      {
+        "fg": "#e0e6ee",
+        "bg": "#242c3a"
+      },
+      {
+        "fg": "#65d4cf",
+        "bg": "#242c3a",
+        "bold": true
+      },
+      {
+        "fg": "#eab855",
+        "bg": "#242c3a"
+      },
+      {
+        "fg": "#e0e6ee",
+        "bg": "#242c3a",
+        "bold": true
+      }
+    ],
+    "size": [
+      104,
+      39
+    ]
+  },
+  {
+    "checkpoint": "manual-rebase-branch-onto-success",
+    "viewport_text": "jk jj\n\u203a  @  wvrosxzm demo@example.invalid 2026-01-01 12:00:00 c064e43f\n\u00b7  \u2502  Rebase source\n   \u25cb  yvpumwwv demo@example.invalid 2026-01-01 12:00:00 a3778996\n   \u2502  Rebase destination\n   \u25cb  lyvmuyvl demo@example.invalid 2026-01-01 12:00:00 f89c3a35\n   \u2502  Rebase base\n   ~\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                                             \u2713 Rebased revisions \u00b7 a u undo \u00b7 C history \u00b7 o operations\n? help  H home  L log  r refresh  enter open  d diff  v evolog  s status  space mark  o ops  ...  q quit\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#52aa60",
+        "bold": true
+      },
+      {
+        "fg": "#d58bf0",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152",
+        "bold": true
+      },
+      {
+        "fg": "#ad9b49",
+        "bold": true
+      },
+      {
+        "fg": "#52c4c0",
+        "bold": true
+      },
+      {
+        "fg": "#76a8f2",
+        "bold": true
+      },
+      {
+        "fg": "#487fd4",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152"
+      },
+      {
+        "fg": "#ad9b49"
+      },
+      {
+        "fg": "#269d9a"
+      },
+      {
+        "fg": "#af5bd1",
+        "bold": true
+      },
+      {
+        "fg": "#e0e6ee",
+        "bg": "#242c3a"
+      }
+    ],
+    "size": [
+      104,
+      39
+    ]
+  },
+  {
+    "checkpoint": "manual-rebase-branch-onto-history",
+    "viewport_text": "jk Command History\n\u203a  ok   log rebase             Rebase revisions  stderr: Rebased 2 commits to destination.\n   ok   log load               jj  stderr: Hint: Use `jj -h` for a list of available commands.\n   ok   log load               jj  stderr: Hint: Use `jj -h` for a list of available commands.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n? help  enter details  j/k move  space page  r refresh  o operation  y copy  Esc back  q quit\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#52aa60"
+      },
+      {
+        "fg": "#269d9a"
+      }
+    ],
+    "size": [
+      104,
+      39
+    ]
+  }
+]

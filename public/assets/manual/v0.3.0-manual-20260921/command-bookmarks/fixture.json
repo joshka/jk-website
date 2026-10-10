@@ -1,0 +1,8 @@
+{
+  "repository": "/home/runner/work/jk/jk/target/dogfood-artifacts/fixtures/refs.IiQHHo/client",
+  "kind": "refs-tracking",
+  "initial_commit": "edc29bc14d20ab2c7c22ebcf60f1968ff605c9f0",
+  "initial_operation": "3993f68b50618af442767f0e0f2cd37b2dd21cbc24a7e8bc32317fe8c5636184d47ed8443df0b8a0527c8c1f3c83859eb22d74ef6dfefcad381bba8e8bb03db4",
+  "binary": "/home/runner/work/jk/jk/target/manual-build/jk",
+  "isolated_jj_config": "/dev/null"
+}

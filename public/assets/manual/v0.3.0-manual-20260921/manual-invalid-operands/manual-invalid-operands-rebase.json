@@ -1,0 +1,265 @@
+{
+  "size": [
+    104,
+    39
+  ],
+  "total_rows": 39,
+  "scrollback_rows": 0,
+  "cursor": {
+    "x": 103,
+    "y": 38,
+    "visible": false
+  },
+  "default_style": {
+    "fg": "#b4bcca",
+    "bg": "#0f141f"
+  },
+  "styles": [
+    {
+      "bold": true
+    },
+    {
+      "fg": "#52aa60",
+      "bold": true
+    },
+    {
+      "fg": "#d58bf0",
+      "bold": true
+    },
+    {
+      "fg": "#3a4152",
+      "bold": true
+    },
+    {
+      "fg": "#ad9b49",
+      "bold": true
+    },
+    {
+      "fg": "#52c4c0",
+      "bold": true
+    },
+    {
+      "fg": "#76a8f2",
+      "bold": true
+    },
+    {
+      "fg": "#487fd4",
+      "bold": true
+    },
+    {
+      "fg": "#3a4152"
+    },
+    {
+      "fg": "#ad9b49"
+    },
+    {
+      "fg": "#269d9a"
+    },
+    {
+      "fg": "#af5bd1",
+      "bold": true
+    },
+    {
+      "fg": "#52aa60"
+    }
+  ],
+  "viewport_text": "jk jj\n * @  vumxryqq demo@example.invalid 2026-01-01 12:00:00 5531bbe8\n   │  Rebase source\n›* │ ○  ttwltuyw demo@example.invalid 2026-01-01 12:00:00 59bb7820\n   ├─╯  Rebase destination\n   ○  qqwoxool demo@example.invalid 2026-01-01 12:00:00 3f7e45c7\n   │  Rebase base\n   ◆  zzzzzzzz root() 00000000\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmark 2/2  Rebase source is ambiguous:…  ? help  H home  L log  r refresh  enter open  d diff  ...  q qu…\n",
+  "scrollback_text": "",
+  "viewport": [
+    [
+      "jk ",
+      [
+        "jj",
+        0
+      ]
+    ],
+    [
+      " * ",
+      [
+        "@",
+        1
+      ],
+      "  ",
+      [
+        "v",
+        2
+      ],
+      [
+        "umxryqq",
+        3
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "demo@example.invalid",
+        4
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "2026-01-01 12:00:00",
+        5
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "55",
+        6
+      ],
+      [
+        "31bbe8",
+        3
+      ]
+    ],
+    [
+      "   │  ",
+      [
+        "Rebase source",
+        0
+      ]
+    ],
+    [
+      [
+        "›",
+        0
+      ],
+      "* │ ○  ",
+      [
+        "t",
+        7
+      ],
+      [
+        "twltuyw",
+        8
+      ],
+      " ",
+      [
+        "demo@example.invalid",
+        9
+      ],
+      " ",
+      [
+        "2026-01-01 12:00:00",
+        10
+      ],
+      " ",
+      [
+        "59",
+        11
+      ],
+      [
+        "bb7820",
+        8
+      ]
+    ],
+    [
+      "   ├─╯  Rebase destination"
+    ],
+    [
+      "   ○  ",
+      [
+        "q",
+        7
+      ],
+      [
+        "qwoxool",
+        8
+      ],
+      " ",
+      [
+        "demo@example.invalid",
+        9
+      ],
+      " ",
+      [
+        "2026-01-01 12:00:00",
+        10
+      ],
+      " ",
+      [
+        "3",
+        11
+      ],
+      [
+        "f7e45c7",
+        8
+      ]
+    ],
+    [
+      "   │  Rebase base"
+    ],
+    [
+      "   ",
+      [
+        "◆",
+        5
+      ],
+      "  ",
+      [
+        "z",
+        7
+      ],
+      [
+        "zzzzzzz",
+        8
+      ],
+      " ",
+      [
+        "root()",
+        12
+      ],
+      " ",
+      [
+        "0",
+        11
+      ],
+      [
+        "0000000",
+        8
+      ]
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      [
+        "mark 2/2  Rebase source is ambiguous:…  ? help  H home  L log  r refresh  enter open  d diff  ...  q qu…",
+        9
+      ]
+    ]
+  ],
+  "scrollback": []
+}

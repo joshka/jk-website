@@ -1,0 +1,43 @@
+{
+  "scenario": "audit-scope-context",
+  "stage": "recovered",
+  "status": "passed",
+  "assertions": [
+    {
+      "name": "sibling working-copy identity and description stay unchanged",
+      "passed": true,
+      "actual": {
+        "description": "",
+        "commit": "6ada6fb246788c56c597b6e70031e14ba45d1fcc"
+      },
+      "expected": {
+        "description": "",
+        "commit": "6ada6fb246788c56c597b6e70031e14ba45d1fcc"
+      }
+    },
+    {
+      "name": "both original workspace registrations remain",
+      "passed": true,
+      "actual": [
+        "default",
+        "scratch"
+      ],
+      "expected": [
+        "default",
+        "scratch"
+      ]
+    },
+    {
+      "name": "Undo restores startup working-copy identity and description",
+      "passed": true,
+      "actual": {
+        "description": "Workspace lifecycle demo",
+        "commit": "5416e289bcca973928cd130207ad37c255d67518"
+      },
+      "expected": {
+        "description": "Workspace lifecycle demo",
+        "commit": "5416e289bcca973928cd130207ad37c255d67518"
+      }
+    }
+  ]
+}

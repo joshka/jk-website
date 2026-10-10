@@ -1,0 +1,176 @@
+[
+  {
+    "checkpoint": "inspect-elision-hidden",
+    "viewport_text": "jk jj\n\u203a  @  ooknonrr alex@example.invalid 2026-01-01 12:00:00 candidate 9fe71062\n\u00b7  \u2502  Experiment with forecast caching\n   ~\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n? help  H home  L log  r refresh  enter open  d diff  v evolog  s status  space mark  o ops  ...  q quit\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#52aa60",
+        "bold": true
+      },
+      {
+        "fg": "#d58bf0",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152",
+        "bold": true
+      },
+      {
+        "fg": "#ad9b49",
+        "bold": true
+      },
+      {
+        "fg": "#52c4c0",
+        "bold": true
+      },
+      {
+        "fg": "#76a8f2",
+        "bold": true
+      }
+    ],
+    "size": [
+      104,
+      36
+    ]
+  },
+  {
+    "checkpoint": "inspect-elision-expanded",
+    "viewport_text": "jk jj log -r (::9fe71062) | 9fe71062\n   @  ooknonrr alex@example.invalid 2026-01-01 12:00:00 candidate 9fe71062\n   \u2502  Experiment with forecast caching\n\u203a  \u25cb  ynpyvuzw alex@example.invalid 2026-01-01 12:00:00 33b70592\n\u00b7  \u2502  Configure request timeouts\n   \u25cb  lmmoyqqv alex@example.invalid 2026-01-01 12:00:00 fdd411e7\n   \u2502  Add the forecast endpoint\n   \u25cb  vkyykrls alex@example.invalid 2026-01-01 12:00:00 main 1c7678be\n   \u2502  Document the forecast service\n   \u25c6  zzzzzzzz root() 00000000\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n? help  H home  L log  r refresh  enter open  d diff  v evolog  s status  space mark  o ops  ...  q quit\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#52aa60",
+        "bold": true
+      },
+      {
+        "fg": "#d58bf0",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152",
+        "bold": true
+      },
+      {
+        "fg": "#ad9b49",
+        "bold": true
+      },
+      {
+        "fg": "#52c4c0",
+        "bold": true
+      },
+      {
+        "fg": "#76a8f2",
+        "bold": true
+      },
+      {
+        "fg": "#487fd4",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152"
+      },
+      {
+        "fg": "#ad9b49"
+      },
+      {
+        "fg": "#269d9a"
+      },
+      {
+        "fg": "#af5bd1",
+        "bold": true
+      },
+      {
+        "fg": "#af5bd1"
+      },
+      {
+        "fg": "#52aa60"
+      }
+    ],
+    "size": [
+      104,
+      36
+    ]
+  },
+  {
+    "checkpoint": "inspect-elision-command-revset",
+    "viewport_text": "jk jj --no-pager --color always --repository /home/runner/work/jk/jk/target/manual-fixtures/inspection.y\nCommand: jj --no-pager --color always --repository /home/runner/work/jk/jk/target/manual-fixtures/inspec\nStatus: success\n\nStdout:\nooknonrr alex@example.invalid 2026-01-01 12:00:00 candidate 9fe71062\nExperiment with forecast caching\nynpyvuzw alex@example.invalid 2026-01-01 12:00:00 33b70592\nConfigure request timeouts\nlmmoyqqv alex@example.invalid 2026-01-01 12:00:00 fdd411e7\nAdd the forecast endpoint\nvkyykrls alex@example.invalid 2026-01-01 12:00:00 main 1c7678be\nDocument the forecast service\nzzzzzzzz root() 00000000\n\nStderr:\n<empty>\n\nActions: e edit/retry command   : run another jj command\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n? help  V options  r refresh  j/k line  space page  q quit\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#dfe5ee",
+        "bg": "#3a485a"
+      },
+      {
+        "fg": "#dfe5ee",
+        "bg": "#215b53"
+      },
+      {
+        "fg": "#dfe5ee",
+        "bg": "#282d37"
+      },
+      {
+        "fg": "#d58bf0",
+        "bg": "#1e232f",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152",
+        "bg": "#1e232f",
+        "bold": true
+      },
+      {
+        "bg": "#1e232f",
+        "bold": true
+      },
+      {
+        "fg": "#ad9b49",
+        "bg": "#1e232f",
+        "bold": true
+      },
+      {
+        "fg": "#52c4c0",
+        "bg": "#1e232f",
+        "bold": true
+      },
+      {
+        "fg": "#76a8f2",
+        "bg": "#1e232f",
+        "bold": true
+      },
+      {
+        "fg": "#487fd4",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152"
+      },
+      {
+        "fg": "#ad9b49"
+      },
+      {
+        "fg": "#269d9a"
+      },
+      {
+        "fg": "#af5bd1",
+        "bold": true
+      },
+      {
+        "fg": "#af5bd1"
+      },
+      {
+        "fg": "#52aa60"
+      }
+    ],
+    "size": [
+      104,
+      36
+    ]
+  }
+]

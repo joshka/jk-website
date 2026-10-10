@@ -1,0 +1,44 @@
+{
+  "scenario": "manual-rebase-revision-before",
+  "stage": "manual-rebase-revision-before",
+  "status": "passed",
+  "repository": "/home/runner/work/jk/jk/target/manual-fixtures/rebase.NWgZQI/workflows.gLirsE/rebase",
+  "assertions": [
+    {
+      "name": "source content retained",
+      "passed": true,
+      "actual": "source contents\n",
+      "expected": "source contents\n"
+    },
+    {
+      "name": "source descendants remain",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "name": "destination descendants remain",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "name": "insert-before destination parent is source",
+      "passed": true,
+      "actual": "Rebase source",
+      "expected": "Rebase source"
+    },
+    {
+      "name": "insert-before source parent is base",
+      "passed": true,
+      "actual": "Rebase base",
+      "expected": "Rebase base"
+    },
+    {
+      "name": "revision-only reconnects source descendant to old parent",
+      "passed": true,
+      "actual": "Rebase base",
+      "expected": "Rebase base"
+    }
+  ]
+}

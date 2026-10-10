@@ -1,0 +1,257 @@
+{
+  "size": [
+    104,
+    39
+  ],
+  "total_rows": 39,
+  "scrollback_rows": 0,
+  "cursor": {
+    "x": 103,
+    "y": 38,
+    "visible": false
+  },
+  "default_style": {
+    "fg": "#b4bcca",
+    "bg": "#0f141f"
+  },
+  "styles": [
+    {
+      "bold": true
+    },
+    {
+      "fg": "#487fd4",
+      "bold": true
+    },
+    {
+      "fg": "#3a4152"
+    },
+    {
+      "fg": "#ad9b49"
+    },
+    {
+      "fg": "#269d9a"
+    },
+    {
+      "fg": "#af5bd1",
+      "bold": true
+    },
+    {
+      "fg": "#52aa60",
+      "bold": true
+    },
+    {
+      "fg": "#d58bf0",
+      "bold": true
+    },
+    {
+      "fg": "#3a4152",
+      "bold": true
+    },
+    {
+      "fg": "#ad9b49",
+      "bold": true
+    },
+    {
+      "fg": "#52c4c0",
+      "bold": true
+    },
+    {
+      "fg": "#76a8f2",
+      "bold": true
+    },
+    {
+      "fg": "#e0e6ee",
+      "bg": "#242c3a"
+    }
+  ],
+  "viewport_text": "jk jj\n   ○  kqmmqwwp demo@example.invalid 2026-01-01 12:00:00 96b97347\n   │  Rebase destination\n   ~  (elided revisions)\n›  @  qzkkpvxw demo@example.invalid 2026-01-01 12:00:00 ed46965c\n·  │  Rebase source\n   ○  zmpkvzss demo@example.invalid 2026-01-01 12:00:00 a1a029e3\n   │  Rebase base\n   ~\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                                             ✓ Rebased revisions · a u undo · C history · o operations\n? help  H home  L log  r refresh  enter open  d diff  v evolog  s status  space mark  o ops  ...  q quit\n",
+  "scrollback_text": "",
+  "viewport": [
+    [
+      "jk ",
+      [
+        "jj",
+        0
+      ]
+    ],
+    [
+      "   ○  ",
+      [
+        "k",
+        1
+      ],
+      [
+        "qmmqwwp",
+        2
+      ],
+      " ",
+      [
+        "demo@example.invalid",
+        3
+      ],
+      " ",
+      [
+        "2026-01-01 12:00:00",
+        4
+      ],
+      " ",
+      [
+        "9",
+        5
+      ],
+      [
+        "6b97347",
+        2
+      ]
+    ],
+    [
+      "   │  Rebase destination"
+    ],
+    [
+      "   ",
+      [
+        "~",
+        2
+      ],
+      "  ",
+      [
+        "(elided revisions)",
+        2
+      ]
+    ],
+    [
+      [
+        "›",
+        0
+      ],
+      "  ",
+      [
+        "@",
+        6
+      ],
+      "  ",
+      [
+        "q",
+        7
+      ],
+      [
+        "zkkpvxw",
+        8
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "demo@example.invalid",
+        9
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "2026-01-01 12:00:00",
+        10
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "e",
+        11
+      ],
+      [
+        "d46965c",
+        8
+      ]
+    ],
+    [
+      [
+        "·",
+        0
+      ],
+      "  │  ",
+      [
+        "Rebase source",
+        0
+      ]
+    ],
+    [
+      "   ○  ",
+      [
+        "z",
+        1
+      ],
+      [
+        "mpkvzss",
+        2
+      ],
+      " ",
+      [
+        "demo@example.invalid",
+        3
+      ],
+      " ",
+      [
+        "2026-01-01 12:00:00",
+        4
+      ],
+      " ",
+      [
+        "a",
+        5
+      ],
+      [
+        "1a029e3",
+        2
+      ]
+    ],
+    [
+      "   │  Rebase base"
+    ],
+    [
+      "   ~"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "                                             ",
+      [
+        "✓ Rebased revisions · a u undo · C history · o operations",
+        12
+      ]
+    ],
+    [
+      "? help  H home  L log  r refresh  enter open  d diff  v evolog  s status  space mark  o ops  ...  q quit"
+    ]
+  ],
+  "scrollback": []
+}

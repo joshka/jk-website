@@ -1,0 +1,417 @@
+{
+  "size": [
+    104,
+    39
+  ],
+  "total_rows": 39,
+  "scrollback_rows": 0,
+  "cursor": {
+    "x": 93,
+    "y": 31,
+    "visible": false
+  },
+  "default_style": {
+    "fg": "#b4bcca",
+    "bg": "#0f141f"
+  },
+  "styles": [
+    {
+      "bold": true
+    },
+    {
+      "fg": "#52aa60",
+      "bold": true
+    },
+    {
+      "fg": "#d58bf0",
+      "bold": true
+    },
+    {
+      "fg": "#3a4152",
+      "bold": true
+    },
+    {
+      "fg": "#ad9b49",
+      "bold": true
+    },
+    {
+      "fg": "#52c4c0",
+      "bold": true
+    },
+    {
+      "fg": "#76a8f2",
+      "bold": true
+    },
+    {
+      "fg": "#487fd4",
+      "bold": true
+    },
+    {
+      "fg": "#3a4152"
+    },
+    {
+      "fg": "#ad9b49"
+    },
+    {
+      "fg": "#269d9a"
+    },
+    {
+      "fg": "#af5bd1",
+      "bold": true
+    },
+    {
+      "fg": "#e0e6ee",
+      "bg": "#242c3a"
+    },
+    {
+      "fg": "#65d4cf",
+      "bg": "#242c3a",
+      "bold": true
+    },
+    {
+      "fg": "#eab855",
+      "bg": "#242c3a"
+    },
+    {
+      "fg": "#e0e6ee",
+      "bg": "#242c3a",
+      "bold": true
+    }
+  ],
+  "viewport_text": "jk jj\n * @  ntlmwnry demo@example.invalid 2026-01-01 12:00:00 9d92e920\n   │  Rebase source\n›  │ ○  wltpzlrz demo@example.invalid 2026-01-01 12:00:00 f62c75b7\n   ├─╯  Rebase destination\n   ○  zlqwtkol demo@example.invalid 2026-01-01 12:00:00 22e435b3\n   │  Rebase base\n   ◆  zzzzzzz\n              Rebase revisions\n\n              Source: 9d92e920fe8fce97760af20ef82e0ebf4857d0da\n              Source role: revision only\n              Moves the selected revision (-r); reconnects descendants to its old parents.\n              Destination: f62c75b7b89fea4d0a319ea1d8751bca79f78539\n              Placement: onto\n              Makes this revision the new parent (-o).\n\n              ! Rewrites local history.\n              ! Ignores the current working-copy snapshot.\n              ! Runs at operation 012345abcdef.\n              ! May rewrite immutable commits.\n\n              Command\n              jj --no-pager --color always --repository\n              /home/runner/work/jk/jk/target/manual-fixtures/run-options.meOf38/workflows.\n              TbAz6t/rebase --at-operation 012345abcdef --ignore-immutable rebase -r\n              9d92e920fe8fce97760af20ef82e0ebf4857d0da -o\n              f62c75b7b89fea4d0a319ea1d8751bca79f78539\n\n\n              enter run  y copy  esc cancel  o options\n",
+  "scrollback_text": "",
+  "viewport": [
+    [
+      "jk ",
+      [
+        "jj",
+        0
+      ]
+    ],
+    [
+      " * ",
+      [
+        "@",
+        1
+      ],
+      "  ",
+      [
+        "n",
+        2
+      ],
+      [
+        "tlmwnry",
+        3
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "demo@example.invalid",
+        4
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "2026-01-01 12:00:00",
+        5
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "9",
+        6
+      ],
+      [
+        "d92e920",
+        3
+      ]
+    ],
+    [
+      "   │  ",
+      [
+        "Rebase source",
+        0
+      ]
+    ],
+    [
+      [
+        "›",
+        0
+      ],
+      "  │ ○  ",
+      [
+        "w",
+        7
+      ],
+      [
+        "ltpzlrz",
+        8
+      ],
+      " ",
+      [
+        "demo@example.invalid",
+        9
+      ],
+      " ",
+      [
+        "2026-01-01 12:00:00",
+        10
+      ],
+      " ",
+      [
+        "f",
+        11
+      ],
+      [
+        "62c75b7",
+        8
+      ]
+    ],
+    [
+      "   ├─╯  Rebase destination"
+    ],
+    [
+      "   ○  ",
+      [
+        "zl",
+        7
+      ],
+      [
+        "qwtkol",
+        8
+      ],
+      " ",
+      [
+        "demo@example.invalid",
+        9
+      ],
+      " ",
+      [
+        "2026-01-01 12:00:00",
+        10
+      ],
+      " ",
+      [
+        "2",
+        11
+      ],
+      [
+        "2e435b3",
+        8
+      ]
+    ],
+    [
+      "   │  Rebase base"
+    ],
+    [
+      "   ",
+      [
+        "◆",
+        5
+      ],
+      "  ",
+      [
+        "zz",
+        7
+      ],
+      [
+        "zzzzz",
+        8
+      ]
+    ],
+    [
+      "             ",
+      [
+        " ",
+        12
+      ],
+      [
+        "Rebase revisions",
+        13
+      ]
+    ],
+    [],
+    [
+      "             ",
+      [
+        " Source: 9d92e920fe8fce97760af20ef82e0ebf4857d0da",
+        12
+      ]
+    ],
+    [
+      "             ",
+      [
+        " Source role: revision only",
+        12
+      ]
+    ],
+    [
+      "             ",
+      [
+        " Moves the selected revision (-r); reconnects descendants to its old parents.",
+        12
+      ]
+    ],
+    [
+      "             ",
+      [
+        " Destination: f62c75b7b89fea4d0a319ea1d8751bca79f78539",
+        12
+      ]
+    ],
+    [
+      "             ",
+      [
+        " Placement: onto",
+        12
+      ]
+    ],
+    [
+      "             ",
+      [
+        " Makes this revision the new parent (-o).",
+        12
+      ]
+    ],
+    [],
+    [
+      "             ",
+      [
+        " ",
+        12
+      ],
+      [
+        "! Rewrites local history.",
+        14
+      ]
+    ],
+    [
+      "             ",
+      [
+        " ",
+        12
+      ],
+      [
+        "! Ignores the current working-copy snapshot.",
+        14
+      ]
+    ],
+    [
+      "             ",
+      [
+        " ",
+        12
+      ],
+      [
+        "! Runs at operation 012345abcdef.",
+        14
+      ]
+    ],
+    [
+      "             ",
+      [
+        " ",
+        12
+      ],
+      [
+        "! May rewrite immutable commits.",
+        14
+      ]
+    ],
+    [],
+    [
+      "             ",
+      [
+        " ",
+        12
+      ],
+      [
+        "Command",
+        15
+      ]
+    ],
+    [
+      "             ",
+      [
+        " jj --no-pager --color always --repository",
+        12
+      ]
+    ],
+    [
+      "             ",
+      [
+        " /home/runner/work/jk/jk/target/manual-fixtures/run-options.meOf38/workflows.",
+        12
+      ]
+    ],
+    [
+      "             ",
+      [
+        " TbAz6t/rebase --at-operation 012345abcdef --ignore-immutable rebase -r",
+        12
+      ]
+    ],
+    [
+      "             ",
+      [
+        " 9d92e920fe8fce97760af20ef82e0ebf4857d0da -o",
+        12
+      ]
+    ],
+    [
+      "             ",
+      [
+        " f62c75b7b89fea4d0a319ea1d8751bca79f78539",
+        12
+      ]
+    ],
+    [],
+    [],
+    [
+      "             ",
+      [
+        " ",
+        12
+      ],
+      [
+        "enter",
+        13
+      ],
+      [
+        " run  ",
+        12
+      ],
+      [
+        "y",
+        13
+      ],
+      [
+        " copy  ",
+        12
+      ],
+      [
+        "esc",
+        13
+      ],
+      [
+        " cancel  ",
+        12
+      ],
+      [
+        "o",
+        13
+      ],
+      [
+        " options",
+        12
+      ]
+    ]
+  ],
+  "scrollback": []
+}

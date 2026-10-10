@@ -1,0 +1,165 @@
+{
+  "size": [
+    98,
+    43
+  ],
+  "total_rows": 43,
+  "scrollback_rows": 0,
+  "cursor": {
+    "x": 97,
+    "y": 42,
+    "visible": false
+  },
+  "default_style": {
+    "fg": "#b4bcca",
+    "bg": "#0f141f"
+  },
+  "styles": [
+    {
+      "bold": true
+    },
+    {
+      "fg": "#d58bf0",
+      "bold": true
+    },
+    {
+      "fg": "#3a4152",
+      "bold": true
+    },
+    {
+      "fg": "#76a8f2",
+      "bold": true
+    },
+    {
+      "fg": "#75cf84",
+      "bold": true
+    },
+    {
+      "fg": "#487fd4",
+      "bold": true
+    },
+    {
+      "fg": "#3a4152"
+    },
+    {
+      "fg": "#af5bd1",
+      "bold": true
+    }
+  ],
+  "viewport_text": "jk jj status\nThe working copy has no changes.\nWorking copy  (@) : kpqulpyk 4368eb95 (empty) (no description set)\nParent commit (@-): torsvxyv 38b8941b Container workspace review\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n? help  V options  r refresh  j/k line  space page  q quit\n",
+  "scrollback_text": "",
+  "viewport": [
+    [
+      "jk ",
+      [
+        "jj status",
+        0
+      ]
+    ],
+    [
+      "The working copy has no changes."
+    ],
+    [
+      "Working copy  (@) : ",
+      [
+        "k",
+        1
+      ],
+      [
+        "pqulpyk",
+        2
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "4",
+        3
+      ],
+      [
+        "368eb95",
+        2
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "(empty)",
+        4
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "(no description set)",
+        4
+      ]
+    ],
+    [
+      "Parent commit (@-): ",
+      [
+        "t",
+        5
+      ],
+      [
+        "orsvxyv",
+        6
+      ],
+      " ",
+      [
+        "3",
+        7
+      ],
+      [
+        "8b8941b",
+        6
+      ],
+      " Container workspace review"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "? help  V options  r refresh  j/k line  space page  q quit"
+    ]
+  ],
+  "scrollback": []
+}

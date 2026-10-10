@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "source_index": "manual/v0.3.0-manual-20260921/review-index.json",
+  "source_index_sha256": "17efd1f5f9a9c80791c6764f7972f466b4b29257831f2719b0c66b74b784fc16",
+  "review": {
+    "id": "inspect-orient",
+    "title": "Find a change and inspect working-copy status",
+    "status": "ready",
+    "source_tape": "tapes/manual/inspect/inspect-orient.tape",
+    "source_tape_sha256": "7341758090cb19782fa625406e1e553a5cfc840f25feb94cdb48f9b65e626dbe",
+    "website": {
+      "path": "assets/manual/v0.3.0-manual-20260921/inspect-orient"
+    },
+    "problems": [],
+    "checkpoints": [
+      {
+        "id": "inspect-orient-log",
+        "png": "inspect-orient-log.png",
+        "state": "inspect-orient-log.json",
+        "png_sha256": "3d6f446d103943423f6e81b623ac42417ae474bcd51dbf6d7568ee943d706e7e",
+        "state_sha256": "25008733a7a8ca16b82a8a0a840252d287294278587e7e650773f942cfb01900",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "inspection agent",
+          "reviewed_at": "2026-09-21T03:24:03.545759+00:00",
+          "summary": "Populated forecast graph is legible, with selected working-copy row, candidate and main bookmarks, distinct change/commit IDs, and unobscured help footer.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "inspection agent",
+          "reviewed_at": "2026-09-21T03:24:03.545759+00:00",
+          "summary": "The 104x36 state matches the graph: magenta change IDs/bookmarks, blue commit IDs, yellow identity, teal timestamps and green working-copy marker remain distinct.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/inspection.json",
+        "text_style_review_source": "target/manual-recordings/reviews/inspection.json"
+      },
+      {
+        "id": "inspect-orient-show",
+        "png": "inspect-orient-show.png",
+        "state": "inspect-orient-show.json",
+        "png_sha256": "cd0e9b2c5de3a2be9ca961890a6e25b56d96cd1cc1e6f735628e96455e4b5751",
+        "state_sha256": "1322f484e33b05e5e6c24e59ca54e451c5f2466b22b352b53a96dc30c269960d",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "inspection agent",
+          "reviewed_at": "2026-09-21T03:24:03.545759+00:00",
+          "summary": "Revision metadata, description and three-file patch are readable. Adjacent red 60 and green 120 identify the inline TTL replacement; the lower patch continues beyond the viewport as expected.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "inspection agent",
+          "reviewed_at": "2026-09-21T03:24:03.545759+00:00",
+          "summary": "Show title and revision metadata match the selected change. Styled runs distinguish removed 60 from added 120 using red/green and underline, although flattened text concatenates them.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/inspection.json",
+        "text_style_review_source": "target/manual-recordings/reviews/inspection.json"
+      },
+      {
+        "id": "inspect-orient-status",
+        "png": "inspect-orient-status.png",
+        "state": "inspect-orient-status.json",
+        "png_sha256": "6e7d839100cdb051c24591949d957b455a01fdc3186623ee81087b5c6b211b6c",
+        "state_sha256": "5e9786ddd33f343c58ca4df1bf1b6f8a8b5e7a8473209df3aa9e931144cf8f56",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "inspection agent",
+          "reviewed_at": "2026-09-21T03:24:03.545759+00:00",
+          "summary": "Working-copy summary lists README.md, config.json and src/cache.js with clear modified markers and visible parent/current revision summaries.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "inspection agent",
+          "reviewed_at": "2026-09-21T03:24:03.545759+00:00",
+          "summary": "State lists exactly three modified paths and the expected working-copy and parent descriptions; file markers and jj revision styles match the PNG.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/inspection.json",
+        "text_style_review_source": "target/manual-recordings/reviews/inspection.json"
+      },
+      {
+        "id": "inspect-orient-returned",
+        "png": "inspect-orient-returned.png",
+        "state": "inspect-orient-returned.json",
+        "png_sha256": "b7a9b1da89c2d415b3ccf51f7bacbdbcc386a7de5552fe298ad8179a4a65d3bf",
+        "state_sha256": "cfeadd2582a22f356059016d2b5c8752b1557df7193d04c1aef6533e9fcdb96d",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "inspection agent",
+          "reviewed_at": "2026-09-21T03:24:03.545759+00:00",
+          "summary": "The log is restored with the request-timeout revision selected and the forecast stack intact. Footer and caption remain readable.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "inspection agent",
+          "reviewed_at": "2026-09-21T03:24:03.545759+00:00",
+          "summary": "The selection marker moved to the second change while all four described changes, root and both bookmarks remain present with their original styles.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/inspection.json",
+        "text_style_review_source": "target/manual-recordings/reviews/inspection.json"
+      }
+    ],
+    "metadata_path": "target/manual-recordings/ci-35556462468/manual-evidence-inspect-orient/capture-metadata.json",
+    "metadata_sha256": "1cf5603651b33f82bfad3a5b1cf1fbb9d353d88614c3c144df2dcf087788e55d",
+    "evidence_directory": "target/manual-recordings/ci-35556462468/manual-evidence-inspect-orient",
+    "evidence_status": "passed",
+    "source_commit": "770b8802a4fe3ef42e3b80160985bcbddc76b049",
+    "pr_head_commit": "088d04dbc19b5a2b81b674e8986f59e190128de1",
+    "source_manifest_sha256": "42c0d25b424a807906eb4e0ba7ca72b4c0488685e9f57b3bcf62d3f01c6c6915",
+    "source_matches_checkout": true,
+    "binary": {
+      "invoked_path": "/home/runner/work/jk/jk/target/manual-build/jk",
+      "path": "/home/runner/work/jk/jk/target/manual-build/jk",
+      "sha256": "cb41f94b63ec85100829bd2b1e9ced84f37cae912996a48e93b56b8776c9c5ed",
+      "version": "jk 0.3.0",
+      "version_exit_code": 0
+    },
+    "jj": {
+      "invoked_path": "/home/runner/.cargo/bin/jj",
+      "path": "/home/runner/.cargo/bin/jj",
+      "sha256": "cd5efc3eb281d606bf9b5523167f79661da0f8c76a5aa32d61c07c7a351b6b44",
+      "version": "jj 0.45.1-7c41cdeb16b6b321c64e789a966b6adf723816a5",
+      "version_exit_code": 0
+    },
+    "betamax": {
+      "invoked_path": "/home/runner/work/_temp/betamax-QqizsV/bin/betamax",
+      "path": "/home/runner/work/_temp/betamax-QqizsV/bin/betamax",
+      "sha256": "db55fa6e7ff98e1df3c91921b5b3fb504b3cc8fdaf6b07e3da952f8757053490",
+      "version": "betamax 0.1.21",
+      "version_exit_code": 0
+    },
+    "ci_run": {
+      "id": "35556462468",
+      "attempt": "1",
+      "url": "https://github.com/joshka/jk/actions/runs/35556462468"
+    },
+    "assertions": [
+      {
+        "path": "inspection-assertions.json",
+        "sha256": "aef05702a60a510dc3ee8434eed1a56886ece5108d9cf4e4270fa78ad966d5b9",
+        "bytes": 940
+      }
+    ],
+    "video": {
+      "path": "inspect-orient.mp4",
+      "sha256": "22143cddd2d8eb8215b2c5838a6da9056fd71a7e85d6b6c9bbe83f882f3d583c",
+      "bytes": 408538
+    },
+    "video_review": {
+      "status": "reviewed",
+      "reviewer": "inspection agent",
+      "reviewed_at": "2026-09-21T03:24:03.545759+00:00",
+      "summary": "Review method: checked the captured source tape, ffprobe duration (24.266667s, 1400x840 at 15fps), all four checkpoint PNG/state pairs and actual MP4 frame samples at 4s, 12s, 21s. Source uses 2.5-second checkpoint holds, 2-second intermediate holds and 70ms typing. Samples confirm row navigation, searched/scrolled patch content and return to the log, with readable pacing and hidden setup.",
+      "findings": [],
+      "sha256": "22143cddd2d8eb8215b2c5838a6da9056fd71a7e85d6b6c9bbe83f882f3d583c"
+    },
+    "source_snapshot_status": "preserved",
+    "video_review_source": "target/manual-recordings/reviews/inspection.json",
+    "pixel_review_complete": true,
+    "text_style_review_complete": true,
+    "video_review_complete": true
+  }
+}

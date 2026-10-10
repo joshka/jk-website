@@ -1,0 +1,100 @@
+---
+import ManualLayout from '../../layouts/ManualLayout.astro';
+import { commands, coverage, supportLabel } from '../../lib/manual-data';
+import { manualLink } from '../../lib/manual';
+const families = [...new Set(commands.map((command) => command.family))];
+---
+
+<ManualLayout title="Command reference" slug="reference"
+  description="Find an implemented command, its operands and options, and the workflow that demonstrates it.">
+  <p>This reference describes jk {coverage.source_version} with jj {coverage.jj_version}.
+    <strong>Native</strong> means jk provides the interaction. <strong>Command mode</strong> means
+    an explicit command can run through <code>:</code>. <strong>Outside jk</strong> identifies forms
+    that need a normal terminal or are not available as a jk interaction.</p>
+  <div class="manual-filter" data-reference-filters>
+    <label>Find a command or task
+      <input type="search" placeholder="rebase, fileset, undo…" data-command-search autocomplete="off" />
+    </label>
+    <label>Support
+      <select data-command-support aria-label="Support">
+        <option value="">All forms</option>
+        {Object.entries(supportLabel).map(([value, label]) => <option value={value}>{label}</option>)}
+      </select>
+    </label>
+    <label>Command family
+      <select data-command-family aria-label="Command family"><option value="">All families</option>
+        {families.map((family) => <option value={family}>{family}</option>)}
+      </select>
+    </label>
+  </div>
+  <p class="manual-result-count" aria-live="polite" data-command-count>{commands.length} forms</p>
+  {commands.map((command) => (
+    <section class="manual-command" id={command.id} data-command
+      data-family={command.family} data-support={command.support}
+      data-search={`${command.title} ${command.jj_form} ${command.intent} ${command.entry_points.join(' ')} ${command.options.join(' ')}`.toLowerCase()}>
+      <header><h2>{command.title}</h2><span class="manual-badge" data-support={command.support}>{supportLabel[command.support]}</span></header>
+      <p><code>{command.jj_form}</code></p>
+      <p>{command.intent}</p>
+      <dl>
+        <dt>In jk</dt><dd>{command.entry_points.map((entry) => <p><code>{entry}</code></p>)}</dd>
+        {command.options.length > 0 && <><dt>Options</dt><dd>{command.options.map((option) => <><code>{option}</code>{' '}</>)}</dd></>}
+        <dt>Result</dt><dd>{command.result}</dd>
+        {command.affected_objects.length > 0 && <><dt>Affects</dt><dd>{command.affected_objects.join(', ')}</dd></>}
+      </dl>
+      {command.limitations.length > 0 && <ul>{command.limitations.map((limitation) => <li>{limitation}</li>)}</ul>}
+      <details class="manual-reference-details">
+        <summary>Starting state, verification, and recovery</summary>
+        <dl>
+          <dt>Before</dt><dd>{command.starting_state}</dd>
+          <dt>Verify</dt><dd>{command.verification}</dd>
+          <dt>Cancel</dt><dd>{command.cancel}</dd>
+          <dt>Failure</dt><dd>{command.failure}</dd>
+          <dt>Recover</dt><dd>{command.recovery}</dd>
+        </dl>
+      </details>
+      <p class="manual-reference-links">
+        <a href={manualLink(command.manual_slug)}>Read the workflow →</a>
+        {command.scenario_ids.length > 0 && <span> · <a href={`${manualLink('recordings')}#${command.scenario_ids[0]}`}>Recording</a></span>}
+        {command.finding_ids.map((id) => <span> · <a href={`${manualLink('audit')}#${id.toLowerCase()}`}>{id}</a></span>)}
+      </p>
+    </section>
+  ))}
+</ManualLayout>
+
+<script>
+  const search = document.querySelector<HTMLInputElement>('[data-command-search]')!;
+  const support = document.querySelector<HTMLSelectElement>('[data-command-support]')!;
+  const family = document.querySelector<HTMLSelectElement>('[data-command-family]')!;
+  const count = document.querySelector<HTMLElement>('[data-command-count]')!;
+  const rows = [...document.querySelectorAll<HTMLElement>('[data-command]')];
+  function filter() {
+    const terms = search.value.toLocaleLowerCase().trim().split(/\s+/).filter(Boolean);
+    let visible = 0;
+    for (const row of rows) {
+      row.hidden = !terms.every((term) => row.dataset.search!.includes(term))
+        || Boolean(support.value && row.dataset.support !== support.value)
+        || Boolean(family.value && row.dataset.family !== family.value);
+      if (!row.hidden) visible++;
+    }
+    count.textContent = `${visible} of ${rows.length} forms${visible === 0 ? ' · Try a shorter search or another filter.' : ''}`;
+  }
+  function revealTarget() {
+    const target = document.querySelector<HTMLElement>(':target');
+    const row = target?.closest<HTMLElement>('[data-command]');
+    if (!target || !row) return;
+    if (row.hidden) {
+      search.value = '';
+      support.value = '';
+      family.value = '';
+      filter();
+    }
+    requestAnimationFrame(() => target.scrollIntoView({ block: 'start' }));
+  }
+  search.addEventListener('input', filter);
+  support.addEventListener('change', filter);
+  family.addEventListener('change', filter);
+  window.addEventListener('pageshow', () => { filter(); revealTarget(); });
+  window.addEventListener('hashchange', revealTarget);
+  filter();
+  revealTarget();
+</script>

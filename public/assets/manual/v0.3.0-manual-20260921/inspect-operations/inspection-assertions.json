@@ -1,0 +1,20 @@
+{
+  "scenario": "inspect-operations",
+  "stage": "inspection",
+  "status": "passed",
+  "repository": "/home/runner/work/jk/jk/target/manual-fixtures/inspection.wbQAkX/repo",
+  "assertions": [
+    {
+      "name": "working-copy commit unchanged",
+      "passed": true,
+      "actual": "9c809e2d630cc3a4c67ab8beefd04674f164132d",
+      "expected": "9c809e2d630cc3a4c67ab8beefd04674f164132d"
+    },
+    {
+      "name": "visible repository graph unchanged",
+      "passed": true,
+      "actual": "0000000000000000000000000000000000000000\n6bf973b465ae6ad6765d1b1b951a01bcc3b7dbdd\n821cf6d2dda0a1d1949914cfdb2d94cda31773b4\n83049e535082fe66ac4ca670b6ee82241e421c59\n9c809e2d630cc3a4c67ab8beefd04674f164132d",
+      "expected": "0000000000000000000000000000000000000000\n6bf973b465ae6ad6765d1b1b951a01bcc3b7dbdd\n821cf6d2dda0a1d1949914cfdb2d94cda31773b4\n83049e535082fe66ac4ca670b6ee82241e421c59\n9c809e2d630cc3a4c67ab8beefd04674f164132d"
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "source_index": "manual/v0.3.0-manual-20260921/review-index.json",
+  "source_index_sha256": "17efd1f5f9a9c80791c6764f7972f466b4b29257831f2719b0c66b74b784fc16",
+  "review": {
+    "id": "manual-restore",
+    "title": "Restore the working copy and recover its content",
+    "status": "ready",
+    "source_tape": "tapes/manual/rewrite/manual-restore.tape",
+    "source_tape_sha256": "fafc44b03094338aabc38c9e19468509a5b12eed1b49252701c7b80ad26b63fd",
+    "website": {
+      "path": "assets/manual/v0.3.0-manual-20260921/manual-restore"
+    },
+    "problems": [],
+    "checkpoints": [
+      {
+        "id": "manual-restore-preview",
+        "png": "manual-restore-preview.png",
+        "state": "manual-restore-preview.json",
+        "png_sha256": "d310792813dcc15e23deb92c754b0747081e849f625376318503f1ed4818db6e",
+        "state_sha256": "ea57cfb8bfd0c88120b74dd9b27bb5360763956d36b5ba15899e77921bbd449f",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "ux_audit",
+          "reviewed_at": "2026-09-21T03:18:48.159157+00:00",
+          "summary": "Opaque preview shows all-path replacement into @, exact wrapped argv and controls. Full source hash requires matching graph row.",
+          "findings": [
+            "UX-03",
+            "UX-04",
+            "UX-06"
+          ]
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "ux_audit",
+          "reviewed_at": "2026-09-21T03:18:48.159157+00:00",
+          "summary": "17 styles; role text complete with @ (working copy), #65d4cf keys and #eab855 risk. Graph cursor still active behind modal.",
+          "findings": [
+            "UX-03",
+            "UX-04",
+            "UX-06"
+          ]
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/ux-audit-ci35556462468.json",
+        "text_style_review_source": "target/manual-recordings/reviews/ux-audit-ci35556462468.json"
+      },
+      {
+        "id": "manual-restore-success",
+        "png": "manual-restore-success.png",
+        "state": "manual-restore-success.json",
+        "png_sha256": "3ae1cde85a21ae62b0659d0b739740e3eaae4d429609ed4c66b3bca9fe1820c6",
+        "state_sha256": "44df7c296af56254ee477a2deb60dad4071498e3780a79e495cb820bb0910bfe",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "ux_audit",
+          "reviewed_at": "2026-09-21T03:18:48.159157+00:00",
+          "summary": "Working copy becomes empty and explicit restore-success toast remains readable.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "ux_audit",
+          "reviewed_at": "2026-09-21T03:18:48.159157+00:00",
+          "summary": "15 styles; working-copy ID stable, commit changes, green empty label and all-path success text; file assertions pass.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/ux-audit-ci35556462468.json",
+        "text_style_review_source": "target/manual-recordings/reviews/ux-audit-ci35556462468.json"
+      },
+      {
+        "id": "manual-restore-recovered",
+        "png": "manual-restore-recovered.png",
+        "state": "manual-restore-recovered.json",
+        "png_sha256": "b5addf616a7cd1523c269e6ece8ce665dbff1200e1d3788327100c0280c47107",
+        "state_sha256": "98df3287e5504d28c32fbefea2c3896297f74c55be76e580d77c5e8f538920e0",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "ux_audit",
+          "reviewed_at": "2026-09-21T03:18:48.159157+00:00",
+          "summary": "Undo restores original working commit and nonempty content with result toast.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "ux_audit",
+          "reviewed_at": "2026-09-21T03:18:48.159157+00:00",
+          "summary": "14 styles; original graph identities restored, baseline and file assertions passed.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/ux-audit-ci35556462468.json",
+        "text_style_review_source": "target/manual-recordings/reviews/ux-audit-ci35556462468.json"
+      }
+    ],
+    "metadata_path": "target/manual-recordings/ci-35556462468/manual-evidence-manual-restore/capture-metadata.json",
+    "metadata_sha256": "ebaad34ec0b8c9de539c473529fb321f6141b2dd13adf6d1c19f9985ae2defcc",
+    "evidence_directory": "target/manual-recordings/ci-35556462468/manual-evidence-manual-restore",
+    "evidence_status": "passed",
+    "source_commit": "770b8802a4fe3ef42e3b80160985bcbddc76b049",
+    "pr_head_commit": "088d04dbc19b5a2b81b674e8986f59e190128de1",
+    "source_manifest_sha256": "42c0d25b424a807906eb4e0ba7ca72b4c0488685e9f57b3bcf62d3f01c6c6915",
+    "source_matches_checkout": true,
+    "binary": {
+      "invoked_path": "/home/runner/work/jk/jk/target/manual-build/jk",
+      "path": "/home/runner/work/jk/jk/target/manual-build/jk",
+      "sha256": "cb41f94b63ec85100829bd2b1e9ced84f37cae912996a48e93b56b8776c9c5ed",
+      "version": "jk 0.3.0",
+      "version_exit_code": 0
+    },
+    "jj": {
+      "invoked_path": "/home/runner/.cargo/bin/jj",
+      "path": "/home/runner/.cargo/bin/jj",
+      "sha256": "cd5efc3eb281d606bf9b5523167f79661da0f8c76a5aa32d61c07c7a351b6b44",
+      "version": "jj 0.45.1-7c41cdeb16b6b321c64e789a966b6adf723816a5",
+      "version_exit_code": 0
+    },
+    "betamax": {
+      "invoked_path": "/home/runner/work/_temp/betamax-OHHFBw/bin/betamax",
+      "path": "/home/runner/work/_temp/betamax-OHHFBw/bin/betamax",
+      "sha256": "db55fa6e7ff98e1df3c91921b5b3fb504b3cc8fdaf6b07e3da952f8757053490",
+      "version": "betamax 0.1.21",
+      "version_exit_code": 0
+    },
+    "ci_run": {
+      "id": "35556462468",
+      "attempt": "1",
+      "url": "https://github.com/joshka/jk/actions/runs/35556462468"
+    },
+    "assertions": [
+      {
+        "path": "manual-restore-cancelled-assertions.json",
+        "sha256": "cdd78228b55602e2fa05224c5f2cbc00e3bf9827bf50ee6dc665b83c18759246",
+        "bytes": 803
+      },
+      {
+        "path": "manual-restore-success-assertions.json",
+        "sha256": "8fe6e9d72d252ebab2aab564a7de5510d4b04c85e27c49c3cbeab49c36d9f01a",
+        "bytes": 515
+      },
+      {
+        "path": "manual-restore-undone-assertions.json",
+        "sha256": "31f36bd1e41b18f8aabffa3aeb1c9ec94ca2d17466e00b010cca2402edf10ffc",
+        "bytes": 800
+      }
+    ],
+    "video": {
+      "path": "manual-restore.mp4",
+      "sha256": "e0c5dc6c6fc815e1847e80329e3e55dadf9c2b913ea9772faf7702b2ae610fe9",
+      "bytes": 275216
+    },
+    "video_review": {
+      "status": "reviewed",
+      "reviewer": "ux_audit",
+      "reviewed_at": "2026-09-21T03:18:48.159157+00:00",
+      "sha256": "e0c5dc6c6fc815e1847e80329e3e55dadf9c2b913ea9772faf7702b2ae610fe9",
+      "summary": "Inspected a 12-frame evenly spaced filmstrip spanning beginning and final hold, full-resolution checkpoint PNGs, ffprobe duration 20.200s, and source-tape 80ms typing with 2\u20133s teaching holds. Sampled frames show the actual decision, cancellation/success, and final recovery in sequence without exposed setup. This was sampled pacing review, not a continuous realtime watch.",
+      "findings": []
+    },
+    "source_snapshot_status": "preserved",
+    "video_review_source": "target/manual-recordings/reviews/ux-audit-ci35556462468.json",
+    "pixel_review_complete": true,
+    "text_style_review_complete": true,
+    "video_review_complete": true
+  }
+}

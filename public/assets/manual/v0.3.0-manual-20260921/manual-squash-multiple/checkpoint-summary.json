@@ -1,0 +1,203 @@
+[
+  {
+    "checkpoint": "manual-squash-multiple-preview",
+    "viewport_text": "jk jj\n * @  wrxwmpnk alex@example.invalid 2026-01-01 12:00:00 009f2ef4\n   \u2502  Squash second source\n * \u25cb  qspvuztq demo@example.invalid 2026-01-01 12:00:00 98549241\n   \u2502  Squash source\n\u203a  \u25cb  qzokrkon demo@example.invalid 2026-01-01 12:00:00 ee6cccab\n\u00b7  \u2502  Squash destination\n   \u25c6  zzzzzzzz root() 00000000\n\n\n              jj squash into ee6cccab815b86ef822a0e58accb16fadcec07d1\n\n              Source 1: 009f2ef4df11a52d27e4bfe389a215e964b9988e\n              Source 2: 9854924186b049144f7b767ee5d0ad6ac018eed9\n              Destination: ee6cccab815b86ef822a0e58accb16fadcec07d1\n              Scope: whole changes\n              Message: keep destination description\n\n              ! Rewrites local history.\n\n              Command\n              jj --no-pager --color always --repository\n              /home/runner/work/jk/jk/target/manual-fixtures/squash-multiple.7PW1Z9/workfl\n              ows.pl823U/squash squash --from 009f2ef4df11a52d27e4bfe389a215e964b9988e\n              --from 9854924186b049144f7b767ee5d0ad6ac018eed9 --into\n              ee6cccab815b86ef822a0e58accb16fadcec07d1 --use-destination-message\n\n\n              enter run  y copy  esc cancel  o options\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#52aa60",
+        "bold": true
+      },
+      {
+        "fg": "#d58bf0",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152",
+        "bold": true
+      },
+      {
+        "fg": "#ad9b49",
+        "bold": true
+      },
+      {
+        "fg": "#52c4c0",
+        "bold": true
+      },
+      {
+        "fg": "#76a8f2",
+        "bold": true
+      },
+      {
+        "fg": "#487fd4",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152"
+      },
+      {
+        "fg": "#ad9b49"
+      },
+      {
+        "fg": "#269d9a"
+      },
+      {
+        "fg": "#af5bd1",
+        "bold": true
+      },
+      {
+        "fg": "#52aa60"
+      },
+      {
+        "fg": "#e0e6ee",
+        "bg": "#242c3a"
+      },
+      {
+        "fg": "#65d4cf",
+        "bg": "#242c3a",
+        "bold": true
+      },
+      {
+        "fg": "#eab855",
+        "bg": "#242c3a"
+      },
+      {
+        "fg": "#e0e6ee",
+        "bg": "#242c3a",
+        "bold": true
+      }
+    ],
+    "size": [
+      104,
+      39
+    ]
+  },
+  {
+    "checkpoint": "manual-squash-multiple-success",
+    "viewport_text": "jk jj\n   @  tpnyooxs alex@example.invalid 2026-01-01 12:00:00 fd3de8b5\n   \u2502  (empty) (no description set)\n\u203a  \u25cb  qzokrkon demo@example.invalid 2026-01-01 12:00:00 18f8b8db\n\u00b7  \u2502  Squash destination\n   \u25c6  zzzzzzzz root() 00000000\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                                                      \u2713 Squashed source changes \u00b7 a u undo \u00b7 C history\n? help  H home  L log  r refresh  enter open  d diff  v evolog  s status  space mark  o ops  ...  q quit\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#52aa60",
+        "bold": true
+      },
+      {
+        "fg": "#d58bf0",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152",
+        "bold": true
+      },
+      {
+        "fg": "#ad9b49",
+        "bold": true
+      },
+      {
+        "fg": "#52c4c0",
+        "bold": true
+      },
+      {
+        "fg": "#76a8f2",
+        "bold": true
+      },
+      {
+        "fg": "#75cf84",
+        "bold": true
+      },
+      {
+        "fg": "#487fd4",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152"
+      },
+      {
+        "fg": "#ad9b49"
+      },
+      {
+        "fg": "#269d9a"
+      },
+      {
+        "fg": "#af5bd1",
+        "bold": true
+      },
+      {
+        "fg": "#52aa60"
+      },
+      {
+        "fg": "#e0e6ee",
+        "bg": "#242c3a"
+      }
+    ],
+    "size": [
+      104,
+      39
+    ]
+  },
+  {
+    "checkpoint": "manual-squash-multiple-recovered",
+    "viewport_text": "jk jj\n\u203a  @  wrxwmpnk alex@example.invalid 2026-01-01 12:00:00 009f2ef4\n\u00b7  \u2502  Squash second source\n   \u25cb  qspvuztq demo@example.invalid 2026-01-01 12:00:00 98549241\n   \u2502  Squash source\n   \u25cb  qzokrkon demo@example.invalid 2026-01-01 12:00:00 ee6cccab\n   \u2502  Squash destination\n   \u25c6  zzzzzzzz root() 00000000\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                                                                                     \u2713 Undid operation\n? help  H home  L log  r refresh  enter open  d diff  v evolog  s status  space mark  o ops  ...  q quit\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#52aa60",
+        "bold": true
+      },
+      {
+        "fg": "#d58bf0",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152",
+        "bold": true
+      },
+      {
+        "fg": "#ad9b49",
+        "bold": true
+      },
+      {
+        "fg": "#52c4c0",
+        "bold": true
+      },
+      {
+        "fg": "#76a8f2",
+        "bold": true
+      },
+      {
+        "fg": "#487fd4",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152"
+      },
+      {
+        "fg": "#ad9b49"
+      },
+      {
+        "fg": "#269d9a"
+      },
+      {
+        "fg": "#af5bd1",
+        "bold": true
+      },
+      {
+        "fg": "#52aa60"
+      },
+      {
+        "fg": "#e0e6ee",
+        "bg": "#242c3a"
+      }
+    ],
+    "size": [
+      104,
+      39
+    ]
+  }
+]

@@ -1,0 +1,167 @@
+{
+  "size": [
+    104,
+    36
+  ],
+  "total_rows": 36,
+  "scrollback_rows": 0,
+  "cursor": {
+    "x": 58,
+    "y": 35,
+    "visible": false
+  },
+  "default_style": {
+    "fg": "#b4bcca",
+    "bg": "#0f141f"
+  },
+  "styles": [
+    {
+      "bold": true
+    },
+    {
+      "fg": "#269d9a"
+    },
+    {
+      "fg": "#d58bf0",
+      "bold": true
+    },
+    {
+      "fg": "#3a4152",
+      "bold": true
+    },
+    {
+      "fg": "#76a8f2",
+      "bold": true
+    },
+    {
+      "fg": "#487fd4",
+      "bold": true
+    },
+    {
+      "fg": "#3a4152"
+    },
+    {
+      "fg": "#af5bd1",
+      "bold": true
+    }
+  ],
+  "viewport_text": "jk jj status README.md config.json\nWorking copy changes:\nM README.md\nM config.json\nWorking copy  (@) : wvplrrrn bdca6a22 candidate | Experiment with forecast caching\nParent commit (@-): wlqzxwll 552d4ed7 Configure request timeouts\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n? help  V options  r refresh  j/k line  space page  q quit\n",
+  "scrollback_text": "",
+  "viewport": [
+    [
+      "jk ",
+      [
+        "jj status README.md config.json",
+        0
+      ]
+    ],
+    [
+      "Working copy changes:"
+    ],
+    [
+      [
+        "M README.md",
+        1
+      ]
+    ],
+    [
+      [
+        "M config.json",
+        1
+      ]
+    ],
+    [
+      "Working copy  (@) : ",
+      [
+        "wv",
+        2
+      ],
+      [
+        "plrrrn",
+        3
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "b",
+        4
+      ],
+      [
+        "dca6a22",
+        3
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "candidate",
+        2
+      ],
+      [
+        " | ",
+        3
+      ],
+      [
+        "Experiment with forecast caching",
+        0
+      ]
+    ],
+    [
+      "Parent commit (@-): ",
+      [
+        "wl",
+        5
+      ],
+      [
+        "qzxwll",
+        6
+      ],
+      " ",
+      [
+        "5",
+        7
+      ],
+      [
+        "52d4ed7",
+        6
+      ],
+      " Configure request timeouts"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "? help  V options  r refresh  j/k line  space page  q quit"
+    ]
+  ],
+  "scrollback": []
+}

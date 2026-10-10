@@ -1,0 +1,8 @@
+{
+  "repository": "/home/runner/work/jk/jk/target/manual-fixtures/rebase.ygx93s/workflows.Uqko1H/rebase",
+  "kind": "rebase",
+  "initial_commit": "66a75fe0361ad1d84c5e675a51915a467cd2c74b",
+  "initial_operation": "62abe14997ae42156a8af21ea35ef3c7d588956738faf62477109e0cb91fcf9a0570fd4eac9420844e0a71b584e71933029ec4ed396138263690071ae5e6c246",
+  "binary": "/home/runner/work/jk/jk/target/manual-build/jk",
+  "isolated_jj_config": "/dev/null"
+}

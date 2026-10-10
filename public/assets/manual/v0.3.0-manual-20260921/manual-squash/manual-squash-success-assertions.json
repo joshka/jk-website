@@ -1,0 +1,20 @@
+{
+  "scenario": "manual-squash",
+  "stage": "manual-squash-success",
+  "status": "passed",
+  "repository": "/home/runner/work/jk/jk/target/manual-fixtures/squash.wp39hi/workflows.kibeyN/squash",
+  "assertions": [
+    {
+      "name": "source patch moved into destination",
+      "passed": true,
+      "actual": "source contents",
+      "expected": "source contents"
+    },
+    {
+      "name": "source revision removed",
+      "passed": true,
+      "actual": [],
+      "expected": []
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "scenario": "manual-restore",
+  "stage": "manual-restore-success",
+  "status": "passed",
+  "repository": "/home/runner/work/jk/jk/target/manual-fixtures/restore.RifzV3/workflows.KjyLLA/restore",
+  "assertions": [
+    {
+      "name": "working file restored from selected revision",
+      "passed": true,
+      "actual": "base content\n",
+      "expected": "base content\n"
+    },
+    {
+      "name": "restored working copy has no diff",
+      "passed": true,
+      "actual": "",
+      "expected": ""
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "scenario": "manual-run-options-immutable",
+  "stage": "manual-run-options-immutable-success",
+  "status": "passed",
+  "repository": "/home/runner/work/jk/jk/target/manual-fixtures/run-options-immutable.KPN6EG/workflows.0ENLtJ/rebase",
+  "assertions": [
+    {
+      "name": "explicit immutable override rebases source",
+      "passed": true,
+      "actual": "Rebase destination",
+      "expected": "Rebase destination"
+    },
+    {
+      "name": "immutable override retains source content",
+      "passed": true,
+      "actual": "source contents\n",
+      "expected": "source contents\n"
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+[
+  {
+    "checkpoint": "inspect-history-evolog",
+    "viewport_text": "jk jj evolog -r nlswzynm\n@  nlswzynm alex@example.invalid 2026-01-01 12:00:00 candidate 068eab96\n\u2502  Experiment with forecast caching\n\u2502  -- operation 5216441925dc describe commit a813809c0659d1c90d76cd7b9826228c21e467c3\n\u25cb  nlswzynm/1 alex@example.invalid 2026-01-01 12:00:00 a813809c (hidden)\n\u2502  Try a longer cache window\n\u2502  -- operation cfd7f6a7c3a4 snapshot working copy\n\u25cb  nlswzynm/2 alex@example.invalid 2026-01-01 12:00:00 85246d38 (hidden)\n   (empty) Try a longer cache window\n   -- operation 166a01bbf3f9 new empty commit\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n? help  V options  r refresh  j/k line  space page  q quit\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#52aa60",
+        "bold": true
+      },
+      {
+        "fg": "#d58bf0",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152",
+        "bold": true
+      },
+      {
+        "fg": "#ad9b49",
+        "bold": true
+      },
+      {
+        "fg": "#52c4c0",
+        "bold": true
+      },
+      {
+        "fg": "#76a8f2",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152"
+      },
+      {
+        "fg": "#487fd4"
+      },
+      {
+        "fg": "#ad9b49"
+      },
+      {
+        "fg": "#269d9a"
+      },
+      {
+        "fg": "#af5bd1",
+        "bold": true
+      },
+      {
+        "fg": "#52aa60"
+      }
+    ],
+    "size": [
+      104,
+      36
+    ]
+  },
+  {
+    "checkpoint": "inspect-history-failure",
+    "viewport_text": "jk jj --no-pager --color always --repository /home/runner/work/jk/jk/target/manual-fixtures/inspection.b\nCommand: jj --no-pager --color always --repository /home/runner/work/jk/jk/target/manual-fixtures/inspec\nStatus: exit 1\n\nStdout:\n<empty>\n\nStderr:\nError: Revision `missing-review` doesn't exist\n\nActions: e edit/retry command   : run another jj command\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n? help  V options  r refresh  j/k line  space page  q quit\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#dfe5ee",
+        "bg": "#3a485a"
+      },
+      {
+        "fg": "#dfe5ee",
+        "bg": "#782d32"
+      },
+      {
+        "fg": "#dfe5ee",
+        "bg": "#282d37"
+      },
+      {
+        "fg": "#dfe5ee",
+        "bg": "#1e232f"
+      },
+      {
+        "fg": "#c26265",
+        "bg": "#1e232f",
+        "bold": true
+      },
+      {
+        "bg": "#1e232f",
+        "bold": true
+      }
+    ],
+    "size": [
+      104,
+      36
+    ]
+  },
+  {
+    "checkpoint": "inspect-history-interdiff",
+    "viewport_text": "jk jj --no-pager --color always --repository /home/runner/work/jk/jk/target/manual-fixtures/inspection.b\nCommand: jj --no-pager --color always --repository /home/runner/work/jk/jk/target/manual-fixtures/inspec\nStatus: success\n\nStdout:\nModified commit description:\n   1     : Configure request timeouts\n        1: Experiment with forecast caching\nModified regular file README.md:\n    ...\n   3    3: Reliable forecasts for every city.\n   4    4:\n   5    5: Requests time out after three seconds.\n        6:\n        7: Cache forecasts for two minutes.\nModified regular file config.json:\n   1    1: {\n   2    2:   \"requestTimeoutMs\": 3000,\n   3    3:   \"cacheTtlSeconds\": 60120\n   4    4: }\nModified regular file src/cache.js:\n   1    1: export const cacheWindow1 = 1;\n   2    2: export const cacheWindow2 = 2;\n   3    3: export const cacheWindow3 = 3;\n   4     : export const cacheWindow4 = 4;\n        4: export const cacheTtlSeconds = 120; // Keep forecasts fresh.\n   5    5: export const cacheWindow5 = 5;\n   6    6: export const cacheWindow6 = 6;\n   7    7: export const cacheWindow7 = 7;\n    ...\n  27   27: export const cacheWindow27 = 27;\n  28   28: export const cacheWindow28 = 28;\n  29   29: export const cacheWindow29 = 29;\n  30     : export const cacheWindow30 = 30;\n       30: export const cacheLimit = 256; // Bound memory usage.\n? help  V options  r refresh  j/k line  space page  q quit\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#dfe5ee",
+        "bg": "#3a485a"
+      },
+      {
+        "fg": "#dfe5ee",
+        "bg": "#215b53"
+      },
+      {
+        "fg": "#dfe5ee",
+        "bg": "#282d37"
+      },
+      {
+        "fg": "#ad9b49",
+        "bg": "#1e232f"
+      },
+      {
+        "fg": "#c26265",
+        "bg": "#1e232f"
+      },
+      {
+        "bg": "#1e232f"
+      },
+      {
+        "fg": "#c26265",
+        "bg": "#1e232f",
+        "underline": "single"
+      },
+      {
+        "fg": "#52aa60",
+        "bg": "#1e232f"
+      },
+      {
+        "fg": "#52aa60",
+        "bg": "#1e232f",
+        "underline": "single"
+      },
+      {
+        "fg": "#c26265",
+        "bg": "#1e232f",
+        "faint": true
+      },
+      {
+        "fg": "#52aa60",
+        "faint": true
+      },
+      {
+        "fg": "#c26265",
+        "faint": true
+      },
+      {
+        "fg": "#52aa60"
+      },
+      {
+        "fg": "#52aa60",
+        "underline": "single"
+      },
+      {
+        "fg": "#ad9b49"
+      },
+      {
+        "fg": "#c26265"
+      },
+      {
+        "fg": "#c26265",
+        "underline": "single"
+      }
+    ],
+    "size": [
+      104,
+      36
+    ]
+  },
+  {
+    "checkpoint": "inspect-history-history",
+    "viewport_text": "jk Command History\n\u203a  ok   command mode command   : jj interdiff --from @- --to @  Modified commit description:\n   fail command mode command   : jj interdiff --from missing-review --to @  exit 1: Error: Revision `mis\n   ok   command mode command   : jj evolog -r @ --no-graph -n 3  nlswzynm alex@example.invalid 2026-01-0\n   ok   log evolog             jj evolog -r nlswzynm  @  nlswzynm alex@example.invalid 2026-01-01 12:00:\n   ok   log load               jj  stderr: Hint: Use `jj -h` for a list of available commands.\n   ok   log load               jj  stderr: Hint: Use `jj -h` for a list of available commands.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n? help  enter details  j/k move  space page  r refresh  o operation  y copy  Esc back  q quit\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#52aa60"
+      },
+      {
+        "fg": "#269d9a"
+      },
+      {
+        "fg": "#c26265"
+      }
+    ],
+    "size": [
+      104,
+      36
+    ]
+  }
+]

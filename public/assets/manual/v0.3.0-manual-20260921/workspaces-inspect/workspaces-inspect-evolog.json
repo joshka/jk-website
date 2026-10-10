@@ -1,0 +1,251 @@
+{
+  "size": [
+    98,
+    43
+  ],
+  "total_rows": 43,
+  "scrollback_rows": 0,
+  "cursor": {
+    "x": 58,
+    "y": 42,
+    "visible": false
+  },
+  "default_style": {
+    "fg": "#b4bcca",
+    "bg": "#0f141f"
+  },
+  "styles": [
+    {
+      "bold": true
+    },
+    {
+      "fg": "#dfe5ee",
+      "bg": "#3a485a"
+    },
+    {
+      "fg": "#dfe5ee",
+      "bg": "#215b53"
+    },
+    {
+      "fg": "#dfe5ee",
+      "bg": "#282d37"
+    },
+    {
+      "fg": "#dfe5ee",
+      "bg": "#1e232f"
+    },
+    {
+      "fg": "#487fd4",
+      "bg": "#1e232f",
+      "bold": true
+    },
+    {
+      "fg": "#3a4152"
+    },
+    {
+      "fg": "#ad9b49"
+    },
+    {
+      "fg": "#269d9a"
+    },
+    {
+      "fg": "#52aa60"
+    },
+    {
+      "fg": "#af5bd1",
+      "bold": true
+    },
+    {
+      "fg": "#487fd4"
+    }
+  ],
+  "viewport_text": "jk jj --no-pager --color always --repository /home/runner/work/jk/jk/target/manual-fixtures/worksp\nCommand: jj --no-pager --color always --repository /home/runner/work/jk/jk/target/manual-fixtures/\nStatus: success\n\nStdout:\n○  psukwknu demo@example.invalid 2026-01-01 12:00:00 scratch@ c0b49187\n│  (no description set)\n│  -- operation c7dc37b64b56 snapshot working copy\n○  psukwknu/1 demo@example.invalid 2026-01-01 12:00:00 986385ef (hidden)\n   (empty) (no description set)\n   -- operation 88af11740632 create initial working-copy commit in workspace scratch\n\nStderr:\n<empty>\n\nActions: e edit/retry command   : run another jj command\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n? help  V options  r refresh  j/k line  space page  q quit\n",
+  "scrollback_text": "",
+  "viewport": [
+    [
+      "jk ",
+      [
+        "jj --no-pager --color always --repository /home/runner/work/jk/jk/target/manual-fixtures/worksp",
+        0
+      ]
+    ],
+    [
+      [
+        "Command: jj --no-pager --color always --repository /home/runner/work/jk/jk/target/manual-fixtures/",
+        1
+      ]
+    ],
+    [
+      [
+        "Status: success",
+        2
+      ]
+    ],
+    [],
+    [
+      [
+        "Stdout:",
+        3
+      ]
+    ],
+    [
+      [
+        "○  ",
+        4
+      ],
+      [
+        "p",
+        5
+      ],
+      [
+        "sukwknu",
+        6
+      ],
+      " ",
+      [
+        "demo@example.invalid",
+        7
+      ],
+      " ",
+      [
+        "2026-01-01 12:00:00",
+        8
+      ],
+      " ",
+      [
+        "scratch@",
+        9
+      ],
+      " ",
+      [
+        "c",
+        10
+      ],
+      [
+        "0b49187",
+        6
+      ]
+    ],
+    [
+      "│  ",
+      [
+        "(no description set)",
+        7
+      ]
+    ],
+    [
+      "│  ",
+      [
+        "--",
+        6
+      ],
+      " operation ",
+      [
+        "c7dc37b64b56",
+        11
+      ],
+      " snapshot working copy"
+    ],
+    [
+      "○  ",
+      [
+        "p",
+        0
+      ],
+      [
+        "sukwknu",
+        6
+      ],
+      [
+        "/1",
+        0
+      ],
+      " ",
+      [
+        "demo@example.invalid",
+        7
+      ],
+      " ",
+      [
+        "2026-01-01 12:00:00",
+        8
+      ],
+      " ",
+      [
+        "98",
+        10
+      ],
+      [
+        "6385ef",
+        6
+      ],
+      " (hidden)"
+    ],
+    [
+      "   ",
+      [
+        "(empty)",
+        9
+      ],
+      " ",
+      [
+        "(no description set)",
+        9
+      ]
+    ],
+    [
+      "   ",
+      [
+        "--",
+        6
+      ],
+      " operation ",
+      [
+        "88af11740632",
+        11
+      ],
+      " create initial working-copy commit in workspace scratch"
+    ],
+    [],
+    [
+      "Stderr:"
+    ],
+    [
+      "<empty>"
+    ],
+    [],
+    [
+      "Actions: e edit/retry command   : run another jj command"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "? help  V options  r refresh  j/k line  space page  q quit"
+    ]
+  ],
+  "scrollback": []
+}

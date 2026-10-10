@@ -1,0 +1,185 @@
+{
+  "schema_version": 1,
+  "source_index": "manual/v0.3.0-manual-20260921/review-index.json",
+  "source_index_sha256": "17efd1f5f9a9c80791c6764f7972f466b4b29257831f2719b0c66b74b784fc16",
+  "review": {
+    "id": "manual-rebase-branch-before",
+    "title": "Insert a branch before a destination",
+    "status": "ready",
+    "source_tape": "tapes/manual/rewrite/manual-rebase-branch-before.tape",
+    "source_tape_sha256": "7498ef204e1fb0f8a6928eac0268d2df419760f7197b510e1bfe4ea166134b0f",
+    "website": {
+      "path": "assets/manual/v0.3.0-manual-20260921/manual-rebase-branch-before"
+    },
+    "problems": [],
+    "checkpoints": [
+      {
+        "id": "manual-rebase-branch-before-selector",
+        "png": "manual-rebase-branch-before-selector.png",
+        "state": "manual-rebase-branch-before-selector.json",
+        "png_sha256": "71475417e2ea00cd5045d957c329e135e52fdcd32d2a157474604b443ab5b776",
+        "state_sha256": "f4e71c60d2582cef0f0280e88ee57d4dc8120e56808814a118b244630172892d",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "mutation evidence reviewer",
+          "reviewed_at": "2026-09-21T03:53:08.380199+00:00",
+          "summary": "The original 920px PNG shows the narrow opaque selector with branch scope, insert-before placement, named search result and complete controls. The compact [r/b/s] and [o/A/B] hints fit. A populated graph remains visible with active background cursor.",
+          "findings": [
+            "UX-06"
+          ]
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "mutation evidence reviewer",
+          "reviewed_at": "2026-09-21T03:53:08.380199+00:00",
+          "summary": "The 67x39 viewport and fifteen styles match the PNG. Branch, insert before and Rebase destination are complete; #65d4cf title/search/keys, #e0e6ee values and #a1aebe supporting controls remain distinct on #242c3a.",
+          "findings": [
+            "UX-06"
+          ]
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/branch-rebase-ci35558741399.json",
+        "text_style_review_source": "target/manual-recordings/reviews/branch-rebase-ci35558741399.json"
+      },
+      {
+        "id": "manual-rebase-branch-before-preview",
+        "png": "manual-rebase-branch-before-preview.png",
+        "state": "manual-rebase-branch-before-preview.json",
+        "png_sha256": "96d6a1e7cca52937a5d4fa327ac858cc42420ec2aba8917347448220bf1d27b3",
+        "state_sha256": "6e08eb0cfb94e8e6690c57efac4a4560db21bc5cd6a0e37943447fe8c4c40589",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "mutation evidence reviewer",
+          "reviewed_at": "2026-09-21T03:53:08.380199+00:00",
+          "summary": "The filled narrow preview shows the full source/destination hashes, branch explanation, insert-before warning, wrapped command and all controls. Full IDs require graph matching and the background cursor remains active. The external teaching caption is ellipsized after before changing; the dialog body itself is complete.",
+          "findings": [
+            "UX-04",
+            "UX-06"
+          ]
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "mutation evidence reviewer",
+          "reviewed_at": "2026-09-21T03:53:08.380199+00:00",
+          "summary": "Sixteen styles preserve the graph palette and distinguish title/keys, body and warning. The exact command uses -b and -B; the explanatory text states that destination and descendants, including other workspaces, are rewritten.",
+          "findings": [
+            "UX-04",
+            "UX-06"
+          ]
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/branch-rebase-ci35558741399.json",
+        "text_style_review_source": "target/manual-recordings/reviews/branch-rebase-ci35558741399.json"
+      },
+      {
+        "id": "manual-rebase-branch-before-success",
+        "png": "manual-rebase-branch-before-success.png",
+        "state": "manual-rebase-branch-before-success.json",
+        "png_sha256": "b3bcb5599f68607a3ab43d99a7743bc77e983587415864b5a776a7ea22c50a68",
+        "state_sha256": "5854f3ee96699d503070b1d36629ddc7545b81475a5d0b59a680d1a6b9203c9a",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "mutation evidence reviewer",
+          "reviewed_at": "2026-09-21T03:53:08.380199+00:00",
+          "summary": "The destination now appears above an elided revision, the source and base. The complete Rebased revisions toast and recovery controls fit at 67 columns. The intermediate descendant is explicitly elided, so repository assertions establish its identity.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "mutation evidence reviewer",
+          "reviewed_at": "2026-09-21T03:53:08.380199+00:00",
+          "summary": "Thirteen styles agree with the populated graph and readable success cue. Passing assertions confirm source bytes and both descendants remain, destination follows Verify source, source still follows base, and Verify source retains Rebase source as its parent.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/branch-rebase-ci35558741399.json",
+        "text_style_review_source": "target/manual-recordings/reviews/branch-rebase-ci35558741399.json"
+      },
+      {
+        "id": "manual-rebase-branch-before-history",
+        "png": "manual-rebase-branch-before-history.png",
+        "state": "manual-rebase-branch-before-history.json",
+        "png_sha256": "d878a7f0aadde4cb4f3842e97f1587f2efce34311d3954514f6445e0404cd091",
+        "state_sha256": "1032ae2f8366af04f4c80225ca1b389b93cfac3f4328df936965c39f0429ed21",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "mutation evidence reviewer",
+          "reviewed_at": "2026-09-21T03:53:08.380199+00:00",
+          "summary": "The selected rebase row has a visible green ok result and Rebase revisions label. The narrow history summary clips the diagnostic at stderr: Skipped re; users cannot read the full diagnostic from this row. The caption and navigation footer remain readable.",
+          "findings": [
+            "UX-15"
+          ]
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "mutation evidence reviewer",
+          "reviewed_at": "2026-09-21T03:53:08.380199+00:00",
+          "summary": "Three styles distinguish green ok results, teal categories and bold selection. Viewport text confirms the same clipped diagnostic as the pixels; no complete stderr claim is made.",
+          "findings": [
+            "UX-15"
+          ]
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/branch-rebase-ci35558741399.json",
+        "text_style_review_source": "target/manual-recordings/reviews/branch-rebase-ci35558741399.json"
+      }
+    ],
+    "metadata_path": "target/manual-recordings/ci-35558741399/manual-evidence-manual-rebase-branch-before/capture-metadata.json",
+    "metadata_sha256": "0bc7ec30dcd9e98ee81052e4f6638ebac1b846f840d12f4af433ef90d6236948",
+    "evidence_directory": "target/manual-recordings/ci-35558741399/manual-evidence-manual-rebase-branch-before",
+    "evidence_status": "passed",
+    "source_commit": "47b3b0985cd561831d70afa5b192bc95e4c0fec8",
+    "pr_head_commit": "ec94b2b269e8a1fe8da28cdc3409e57adb6bc6aa",
+    "source_manifest_sha256": "42c0d25b424a807906eb4e0ba7ca72b4c0488685e9f57b3bcf62d3f01c6c6915",
+    "source_matches_checkout": true,
+    "binary": {
+      "invoked_path": "/home/runner/work/jk/jk/target/manual-build/jk",
+      "path": "/home/runner/work/jk/jk/target/manual-build/jk",
+      "sha256": "cb41f94b63ec85100829bd2b1e9ced84f37cae912996a48e93b56b8776c9c5ed",
+      "version": "jk 0.3.0",
+      "version_exit_code": 0
+    },
+    "jj": {
+      "invoked_path": "/home/runner/.cargo/bin/jj",
+      "path": "/home/runner/.cargo/bin/jj",
+      "sha256": "cd5efc3eb281d606bf9b5523167f79661da0f8c76a5aa32d61c07c7a351b6b44",
+      "version": "jj 0.45.1-7c41cdeb16b6b321c64e789a966b6adf723816a5",
+      "version_exit_code": 0
+    },
+    "betamax": {
+      "invoked_path": "/home/runner/work/_temp/betamax-RCVJ50/bin/betamax",
+      "path": "/home/runner/work/_temp/betamax-RCVJ50/bin/betamax",
+      "sha256": "db55fa6e7ff98e1df3c91921b5b3fb504b3cc8fdaf6b07e3da952f8757053490",
+      "version": "betamax 0.1.21",
+      "version_exit_code": 0
+    },
+    "ci_run": {
+      "id": "35558741399",
+      "attempt": "1",
+      "url": "https://github.com/joshka/jk/actions/runs/35558741399"
+    },
+    "assertions": [
+      {
+        "path": "manual-rebase-branch-before-assertions.json",
+        "sha256": "b72917903ed0c9f26dd7768c53e47d09be259f66661ac17dd86854129d9b5227",
+        "bytes": 1115
+      }
+    ],
+    "video": {
+      "path": "manual-rebase-branch-before.mp4",
+      "sha256": "fb584765725ae5c91037e908798a7fc838f62cbce518ef0c6e521e91d4021ad7",
+      "bytes": 185626
+    },
+    "video_review": {
+      "status": "reviewed",
+      "reviewer": "mutation evidence reviewer",
+      "reviewed_at": "2026-09-21T03:53:08.380199+00:00",
+      "summary": "Reviewed the exact final CI artifact: all four original checkpoint PNGs inline, viewport text and styled spans, the captured source tape, ffprobe metadata (16.333333 seconds, 920x900, 15fps), and actual MP4 frames at 4, 7, 10, 13 and 16 seconds. Samples show the narrow selector, complete preview, completed insert-before graph and successful Command History result. The tape uses 80ms typing, a two-second initial hold and three-second checkpoint holds with hidden setup. The preview teaching caption is ellipsized and narrow history clips stderr, as recorded in the checkpoint reviews. This is sampled pacing review, not continuous realtime playback. All six repository assertions pass and verify the elided descendant edges.",
+      "findings": [
+        "UX-15"
+      ],
+      "sha256": "fb584765725ae5c91037e908798a7fc838f62cbce518ef0c6e521e91d4021ad7"
+    },
+    "source_snapshot_status": "preserved",
+    "video_review_source": "target/manual-recordings/reviews/branch-rebase-ci35558741399.json",
+    "pixel_review_complete": true,
+    "text_style_review_complete": true,
+    "video_review_complete": true
+  }
+}

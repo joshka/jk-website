@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "results": [
+    {
+      "tape": "abandon-probe-failure.tape",
+      "status": "passed"
+    }
+  ],
+  "problems": [],
+  "media": [
+    {
+      "name": "betamax-betamax-changes-abandon-probe-failure-r1-m1.abandon-probe-failure.mp4",
+      "label": "abandon-probe-failure.tape (mp4)",
+      "type": "video/mp4"
+    },
+    {
+      "name": "betamax-betamax-changes-abandon-probe-failure-r1-m2.abandon-probe-failure-cancelled.png",
+      "label": "abandon-probe-failure-cancelled.png",
+      "type": "image/png"
+    },
+    {
+      "name": "betamax-betamax-changes-abandon-probe-failure-r1-m3.abandon-probe-failure-warning.png",
+      "label": "abandon-probe-failure-warning.png",
+      "type": "image/png"
+    }
+  ]
+}

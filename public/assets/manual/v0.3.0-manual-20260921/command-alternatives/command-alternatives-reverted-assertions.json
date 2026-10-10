@@ -1,0 +1,26 @@
+{
+  "scenario": "command-alternatives",
+  "stage": "command-alternatives-reverted",
+  "status": "passed",
+  "repository": "/home/runner/work/jk/jk/target/forecast-demo.bVeJwf",
+  "assertions": [
+    {
+      "name": "revert preserves current working copy",
+      "passed": true,
+      "actual": "suxmowpmpxlukoplxvknmpunzpkmwwyz",
+      "expected": "suxmowpmpxlukoplxvknmpunzpkmwwyz"
+    },
+    {
+      "name": "revert creates a reverse change",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "revert removes cache in new revision",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    }
+  ]
+}

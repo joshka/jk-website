@@ -1,0 +1,225 @@
+{
+  "schema_version": 1,
+  "source_index": "manual/v0.3.0-manual-20260921/review-index.json",
+  "source_index_sha256": "17efd1f5f9a9c80791c6764f7972f466b4b29257831f2719b0c66b74b784fc16",
+  "review": {
+    "id": "audit-scope-context",
+    "title": "Check which workspace a command will change",
+    "status": "ready",
+    "source_tape": "tapes/manual/audit/audit-scope-context.tape",
+    "source_tape_sha256": "e58233d782e84699786ccf766153d16c60adfb354f06e33a6138168a3fe3ad80",
+    "website": {
+      "path": "assets/manual/v0.3.0-manual-20260921/audit-scope-context"
+    },
+    "problems": [],
+    "checkpoints": [
+      {
+        "id": "audit-scope-context-bookmarks",
+        "png": "audit-scope-context-bookmarks.png",
+        "state": "audit-scope-context-bookmarks.json",
+        "png_sha256": "8ddfabf275c1a980e78a6f40273481ef25b0e136ebd06f52ed1f5f465669818f",
+        "state_sha256": "0c441b0d27df4b850d838a0bc8751c71bbe918c2974b79bbb177f93edef8f537",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "ux_audit",
+          "reviewed_at": "2026-09-21T03:55:24.877541+00:00",
+          "summary": "Bookmark list contains local/tracked audit-context targets with readable footer and selection.",
+          "findings": [
+            "UX-11"
+          ]
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "ux_audit",
+          "reviewed_at": "2026-09-21T03:55:24.877541+00:00",
+          "summary": "98\u00d743, one bold style; target IDs intact.",
+          "findings": [
+            "UX-11"
+          ]
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/audit-scope-ci35558741399.json",
+        "text_style_review_source": "target/manual-recordings/reviews/audit-scope-ci35558741399.json"
+      },
+      {
+        "id": "audit-scope-context-hidden-help",
+        "png": "audit-scope-context-hidden-help.png",
+        "state": "audit-scope-context-hidden-help.json",
+        "png_sha256": "8ddfabf275c1a980e78a6f40273481ef25b0e136ebd06f52ed1f5f465669818f",
+        "state_sha256": "0c441b0d27df4b850d838a0bc8751c71bbe918c2974b79bbb177f93edef8f537",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "ux_audit",
+          "reviewed_at": "2026-09-21T03:55:24.877541+00:00",
+          "summary": "After a the PNG remains identical to the list: no action menu appears. Legacy checkpoint name is hidden-help; the executed key is a, while native ? help is visibly rendered later in the video.",
+          "findings": [
+            "UX-11"
+          ]
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "ux_audit",
+          "reviewed_at": "2026-09-21T03:55:24.877541+00:00",
+          "summary": "Exact before/after viewport text matches; full action-mode assertion passes.",
+          "findings": [
+            "UX-11"
+          ]
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/audit-scope-ci35558741399.json",
+        "text_style_review_source": "target/manual-recordings/reviews/audit-scope-ci35558741399.json"
+      },
+      {
+        "id": "audit-scope-context-input",
+        "png": "audit-scope-context-input.png",
+        "state": "audit-scope-context-input.json",
+        "png_sha256": "e1e33f69515564e051660161929783685de96feef021c8997d2cd4f8811bf707",
+        "state_sha256": "3f84257b686814fcfa0af4dd666d3711e018c73061616050d8cf35645a30bfda",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "ux_audit",
+          "reviewed_at": "2026-09-21T03:55:24.877541+00:00",
+          "summary": "Opaque prompt shows describe input above real scratch status/KEEP-ME.txt; prompt omits execution workspace. Background inspection header is clipped by its long path.",
+          "findings": [
+            "UX-12",
+            "UX-15"
+          ]
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "ux_audit",
+          "reviewed_at": "2026-09-21T03:55:24.877541+00:00",
+          "summary": "11 styles; #242c3a surface/#65d4cf keys, scratch identity and file visible behind prompt.",
+          "findings": [
+            "UX-12",
+            "UX-15"
+          ]
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/audit-scope-ci35558741399.json",
+        "text_style_review_source": "target/manual-recordings/reviews/audit-scope-ci35558741399.json"
+      },
+      {
+        "id": "audit-scope-context-result",
+        "png": "audit-scope-context-result.png",
+        "state": "audit-scope-context-result.json",
+        "png_sha256": "88122f986a469a222ca5a06a68dfbdf9e039a4f0bba3d18b2668a5ffb037312a",
+        "state_sha256": "775b5fb7ad62acb29e9004420e60a4ac3c4849eff173c0345fd1524a149ca53c",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "ux_audit",
+          "reviewed_at": "2026-09-21T03:55:24.877541+00:00",
+          "summary": "Success output names the startup working-copy change, but description and full command are clipped right. Caption accurately states target proven by repository assertions.",
+          "findings": [
+            "UX-12",
+            "UX-15"
+          ]
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "ux_audit",
+          "reviewed_at": "2026-09-21T03:55:24.877541+00:00",
+          "summary": "13 styles; Status success green band, both streams retained, full output model has description while viewport ends startup wo. Exact scope assertion confirms default changed and scratch unchanged.",
+          "findings": [
+            "UX-12",
+            "UX-15"
+          ]
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/audit-scope-ci35558741399.json",
+        "text_style_review_source": "target/manual-recordings/reviews/audit-scope-ci35558741399.json"
+      },
+      {
+        "id": "audit-scope-context-recovered",
+        "png": "audit-scope-context-recovered.png",
+        "state": "audit-scope-context-recovered.json",
+        "png_sha256": "ea04fe39e1cdb0f3b1899af91a7f80586b33586a88443ba4c88781e454dca2c5",
+        "state_sha256": "333a8a539373629be8a736fd8d487990d9a50ae8b4da9434adb35cfd1df1d8a9",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "ux_audit",
+          "reviewed_at": "2026-09-21T03:55:24.877541+00:00",
+          "summary": "Native Undo restores original default@ description and commit; scratch@ still visible with its unchanged identity.",
+          "findings": [
+            "UX-12"
+          ]
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "ux_audit",
+          "reviewed_at": "2026-09-21T03:55:24.877541+00:00",
+          "summary": "14 styles preserve jj graph identities, empty/default and scratch labels. Exact commit+description recovery assertions pass for default; scratch and registrations unchanged.",
+          "findings": [
+            "UX-12"
+          ]
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/audit-scope-ci35558741399.json",
+        "text_style_review_source": "target/manual-recordings/reviews/audit-scope-ci35558741399.json"
+      }
+    ],
+    "metadata_path": "target/manual-recordings/ci-35558741399/manual-evidence-audit-scope-context/capture-metadata.json",
+    "metadata_sha256": "7fa3c56701595bcba46133be42840e376853300451d72bd8eb67ce47935d83a4",
+    "evidence_directory": "target/manual-recordings/ci-35558741399/manual-evidence-audit-scope-context",
+    "evidence_status": "passed",
+    "source_commit": "47b3b0985cd561831d70afa5b192bc95e4c0fec8",
+    "pr_head_commit": "ec94b2b269e8a1fe8da28cdc3409e57adb6bc6aa",
+    "source_manifest_sha256": "42c0d25b424a807906eb4e0ba7ca72b4c0488685e9f57b3bcf62d3f01c6c6915",
+    "source_matches_checkout": true,
+    "binary": {
+      "invoked_path": "/home/runner/work/jk/jk/target/manual-build/jk",
+      "path": "/home/runner/work/jk/jk/target/manual-build/jk",
+      "sha256": "cb41f94b63ec85100829bd2b1e9ced84f37cae912996a48e93b56b8776c9c5ed",
+      "version": "jk 0.3.0",
+      "version_exit_code": 0
+    },
+    "jj": {
+      "invoked_path": "/home/runner/.cargo/bin/jj",
+      "path": "/home/runner/.cargo/bin/jj",
+      "sha256": "cd5efc3eb281d606bf9b5523167f79661da0f8c76a5aa32d61c07c7a351b6b44",
+      "version": "jj 0.45.1-7c41cdeb16b6b321c64e789a966b6adf723816a5",
+      "version_exit_code": 0
+    },
+    "betamax": {
+      "invoked_path": "/home/runner/work/_temp/betamax-H5Gb15/bin/betamax",
+      "path": "/home/runner/work/_temp/betamax-H5Gb15/bin/betamax",
+      "sha256": "db55fa6e7ff98e1df3c91921b5b3fb504b3cc8fdaf6b07e3da952f8757053490",
+      "version": "betamax 0.1.21",
+      "version_exit_code": 0
+    },
+    "ci_run": {
+      "id": "35558741399",
+      "attempt": "1",
+      "url": "https://github.com/joshka/jk/actions/runs/35558741399"
+    },
+    "assertions": [
+      {
+        "path": "audit-recovered-assertions.json",
+        "sha256": "b4412ba1548ff5c525fe0971ad57e48a45abd39dd295e9676c5fa02d241938b6",
+        "bytes": 1069
+      },
+      {
+        "path": "audit-scope-assertions.json",
+        "sha256": "dc6d89aaf4f5085ea4c056694c554dc9c502e1273e607199df263ac02600dd2f",
+        "bytes": 1605
+      }
+    ],
+    "video": {
+      "path": "audit-scope-context.mp4",
+      "sha256": "9de3fd007d587de306c71be293d5bd916cc2ee1ce1c0ce48f050e73a90f2cae6",
+      "bytes": 367751
+    },
+    "video_review": {
+      "status": "reviewed",
+      "reviewer": "ux_audit",
+      "reviewed_at": "2026-09-21T03:55:24.877541+00:00",
+      "sha256": "9de3fd007d587de306c71be293d5bd916cc2ee1ce1c0ce48f050e73a90f2cae6",
+      "summary": "Inspected 16 evenly spaced MP4 frames spanning initial bookmark list, invisible action attempt, working native help, scratch inspection/input, result and final Undo. Compared 31.000-second ffprobe duration with 25 seconds of visible holds plus 80-millisecond input timing from executed source.tape. All five full-size PNG/State pairs and seven exact assertions across both repository-outcome files reviewed. Sampled review, not continuous real-time playback.",
+      "findings": [
+        "UX-11",
+        "UX-12",
+        "UX-15"
+      ]
+    },
+    "source_snapshot_status": "preserved",
+    "video_review_source": "target/manual-recordings/reviews/audit-scope-ci35558741399.json",
+    "pixel_review_complete": true,
+    "text_style_review_complete": true,
+    "video_review_complete": true
+  }
+}

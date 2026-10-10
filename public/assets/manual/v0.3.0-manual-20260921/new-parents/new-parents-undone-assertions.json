@@ -1,0 +1,20 @@
+{
+  "scenario": "new-parents",
+  "stage": "new-parents-undone",
+  "status": "passed",
+  "repository": "/home/runner/work/jk/jk/target/forecast-demo.fprKjT",
+  "assertions": [
+    {
+      "name": "working-copy commit unchanged",
+      "passed": true,
+      "actual": "ef07ed519532598bfcfdd3cfe7b544fcafa8764f",
+      "expected": "ef07ed519532598bfcfdd3cfe7b544fcafa8764f"
+    },
+    {
+      "name": "visible repository graph unchanged",
+      "passed": true,
+      "actual": "0000000000000000000000000000000000000000\n1ce5202d0fdf9bcdd82c4d0c66fd9b7a6917f757\n32f7a6496c5eb5f58e8b628d0c6503fd35b243b2\n8effc773dce5462e54c2af21bd840ff6e0d3ec73\ndee57915abf254985f675b4f217fa28a9bbef046\nef07ed519532598bfcfdd3cfe7b544fcafa8764f",
+      "expected": "0000000000000000000000000000000000000000\n1ce5202d0fdf9bcdd82c4d0c66fd9b7a6917f757\n32f7a6496c5eb5f58e8b628d0c6503fd35b243b2\n8effc773dce5462e54c2af21bd840ff6e0d3ec73\ndee57915abf254985f675b4f217fa28a9bbef046\nef07ed519532598bfcfdd3cfe7b544fcafa8764f"
+    }
+  ]
+}

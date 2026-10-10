@@ -1,0 +1,8 @@
+{
+  "repository": "/home/runner/work/jk/jk/target/manual-fixtures/run-options.uIxGSF/workflows.NyXSQU/rebase",
+  "kind": "run-options",
+  "initial_commit": "336e83fb10cce0754080ebe999197656e67932a3",
+  "initial_operation": "004a3e5fe3aee1a4968797928a7d9673e4a054c7f40f562dc43a783ce0a30ecdbb4650b870b0b32143883be039a5f424b6914054a0250477eddb435b55e05344",
+  "binary": "/home/runner/work/jk/jk/target/manual-build/jk",
+  "isolated_jj_config": "/dev/null"
+}

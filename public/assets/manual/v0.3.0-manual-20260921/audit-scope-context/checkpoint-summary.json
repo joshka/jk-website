@@ -1,0 +1,205 @@
+[
+  {
+    "checkpoint": "audit-scope-context-bookmarks",
+    "viewport_text": "jk jj bookmark list\n\u203a  audit-context: 5416e289bcca (local)\n   audit-context@git: 5416e289bcca (tracked, synced)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEnter inspect  c create  m move  x delete  F fetch  P dry-run  ? help  Esc back\n",
+    "styles": [
+      {
+        "bold": true
+      }
+    ],
+    "size": [
+      98,
+      43
+    ]
+  },
+  {
+    "checkpoint": "audit-scope-context-hidden-help",
+    "viewport_text": "jk jj bookmark list\n\u203a  audit-context: 5416e289bcca (local)\n   audit-context@git: 5416e289bcca (tracked, synced)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEnter inspect  c create  m move  x delete  F fetch  P dry-run  ? help  Esc back\n",
+    "styles": [
+      {
+        "bold": true
+      }
+    ],
+    "size": [
+      98,
+      43
+    ]
+  },
+  {
+    "checkpoint": "audit-scope-context-input",
+    "viewport_text": "jk jj -R /home/runner/work/jk/jk/target/manual-fixtures/workspaces.MvkFJr/workflows.8HgG9l/workspa\nWorking copy changes:\nA ../scratch/KEEP-ME.txt\nWorking copy  (@) : tlznmvqv 6ada6fb2 (no description set)\nParent commit (@-): qnyvzuou b2e6655a Add workspace demo files\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                     jj command\n\n                     : describe -m 'Scope audit changed startup workspace' @\n\n                     enter run   Ctrl-u clear   backspace edit   esc cancel\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#52aa60"
+      },
+      {
+        "fg": "#d58bf0",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152",
+        "bold": true
+      },
+      {
+        "fg": "#76a8f2",
+        "bold": true
+      },
+      {
+        "fg": "#ad9b49",
+        "bold": true
+      },
+      {
+        "fg": "#487fd4",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152"
+      },
+      {
+        "fg": "#af5bd1",
+        "bold": true
+      },
+      {
+        "fg": "#e0e6ee",
+        "bg": "#242c3a"
+      },
+      {
+        "fg": "#65d4cf",
+        "bg": "#242c3a",
+        "bold": true
+      }
+    ],
+    "size": [
+      98,
+      43
+    ]
+  },
+  {
+    "checkpoint": "audit-scope-context-result",
+    "viewport_text": "jk jj --no-pager --color always --repository /home/runner/work/jk/jk/target/manual-fixtures/worksp\nCommand: jj --no-pager --color always --repository /home/runner/work/jk/jk/target/manual-fixtures/\nStatus: success\n\nStdout:\n<empty>\n\nStderr:\nWorking copy  (@) now at: qmquxmry 38b1b40c audit-context | (empty) Scope audit changed startup wo\nParent commit (@-)      : qnyvzuou b2e6655a Add workspace demo files\n\nActions: e edit/retry command   : run another jj command\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n? help  V options  r refresh  j/k line  space page  q quit\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#dfe5ee",
+        "bg": "#3a485a"
+      },
+      {
+        "fg": "#dfe5ee",
+        "bg": "#215b53"
+      },
+      {
+        "fg": "#dfe5ee",
+        "bg": "#282d37"
+      },
+      {
+        "fg": "#dfe5ee",
+        "bg": "#1e232f"
+      },
+      {
+        "fg": "#d58bf0",
+        "bg": "#1e232f",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152",
+        "bg": "#1e232f",
+        "bold": true
+      },
+      {
+        "bg": "#1e232f",
+        "bold": true
+      },
+      {
+        "fg": "#76a8f2",
+        "bg": "#1e232f",
+        "bold": true
+      },
+      {
+        "fg": "#75cf84",
+        "bg": "#1e232f",
+        "bold": true
+      },
+      {
+        "fg": "#487fd4",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152"
+      },
+      {
+        "fg": "#af5bd1",
+        "bold": true
+      }
+    ],
+    "size": [
+      98,
+      43
+    ]
+  },
+  {
+    "checkpoint": "audit-scope-context-recovered",
+    "viewport_text": "jk jj\n\u203a  @  qmquxmry demo@example.invalid 2026-01-01 12:00:00 audit-context default@ 5416e289\n\u00b7  \u2502  (empty) Workspace lifecycle demo\n   \u2502 \u25cb  tlznmvqv demo@example.invalid 2026-01-01 12:00:00 scratch@ 6ada6fb2\n   \u251c\u2500\u256f  (no description set)\n   \u25cb  qnyvzuou demo@example.invalid 2026-01-01 12:00:00 b2e6655a\n   \u2502  Add workspace demo files\n   \u25c6  zzzzzzzz root() 00000000\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n? help  H home  L log  r refresh  enter open  d diff  v evolog  s status  space mark  ...  q quit\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#52aa60",
+        "bold": true
+      },
+      {
+        "fg": "#d58bf0",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152",
+        "bold": true
+      },
+      {
+        "fg": "#ad9b49",
+        "bold": true
+      },
+      {
+        "fg": "#52c4c0",
+        "bold": true
+      },
+      {
+        "fg": "#75cf84",
+        "bold": true
+      },
+      {
+        "fg": "#76a8f2",
+        "bold": true
+      },
+      {
+        "fg": "#487fd4",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152"
+      },
+      {
+        "fg": "#ad9b49"
+      },
+      {
+        "fg": "#269d9a"
+      },
+      {
+        "fg": "#52aa60"
+      },
+      {
+        "fg": "#af5bd1",
+        "bold": true
+      }
+    ],
+    "size": [
+      98,
+      43
+    ]
+  }
+]

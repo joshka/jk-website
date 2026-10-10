@@ -1,0 +1,19 @@
+{
+  "source_revision": "4065b86301512f2d133ed21b1102969a92d5ec82",
+  "binary_version": "jk 0.3.0",
+  "binary_sha256": "dbf30e367affa812fe44ed412cbbc6c6affad2352367d8cc4d400608bd3f6369",
+  "files": {
+    "homepage-manual-v0.3.0-r3/homepage-r3-render.log": "e26f3aa9b5126650272d87af686bd5fdc91842ce5bd92d66744a0f4533bc033c",
+    "homepage-manual-v0.3.0-r3/create-homepage-demo.sh": "9ce8f89723954b8482010913a0c88c737c9f05f24e8e6cc03be2b94e8a5e21dc",
+    "homepage-manual-v0.3.0-r3/homepage-manual-v0.3.0-r3-actions.json": "32900b2ad2044091e2eec759f757bedde24be544f4959a2aed727dc349cfd758",
+    "homepage-manual-v0.3.0-r3/homepage-manual-v0.3.0-r3.json": "83ac9c20614f3823b978cb3f3f886f2acb4ffb55a56552cd8f765a314cad0ef2",
+    "homepage-manual-v0.3.0-r3/homepage.tape": "1a65d971b960057fb1c939d1ab2488a7933934f4a0552a942da068a2a65459b0",
+    "jk-homepage-manual-v0.3.0-r3.png": "bfcbc5a844d82d7d15b602beb102d307e3da707093ee6f93a776e3a508250bc6",
+    "jk-homepage-manual-v0.3.0-r3-actions.png": "aeee168a6b4409f3ecd4ed430be73f7d61ba7ada94a2677222e1eabbe9becf14",
+    "jk-homepage-manual-v0.3.0-r3.gif": "1c1f71bf83eebe07872f541be3649cb365272c588d3eac977457c3239781f155"
+  },
+  "review": {
+    "pixels": "Inspected both PNGs: opaque menu with repository graph around it; color-words diff retains readable relative paths, file folding and search result.",
+    "state": "Read paired viewport text and style table: #242c3a menu surface and teal focused controls, red/green/underlined diff spans retained."
+  }
+}

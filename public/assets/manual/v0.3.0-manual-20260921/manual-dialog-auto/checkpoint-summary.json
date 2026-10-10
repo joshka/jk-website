@@ -1,0 +1,211 @@
+[
+  {
+    "checkpoint": "manual-dialog-auto-actions",
+    "viewport_text": "jk jj\n\u203a  @  vlqyxpyt demo@example.invalid 2026-01-01 12:00:00 c2ac394f\n\u00b7  \u2502  Experiment with forecast caching\n   \u25cb  nmkrkywu demo@example.invalid 2026-01-01 12:00:00 81561008\n   \u2502  Configure request timeouts\n   \u25cb  pqxqoyrn demo@example.invalid 2026-01-01 12:00:00 92b85053\n   \u2502  Add the forecast endpoint\n   \u25cb  srwxsxuk alex@example.com 2026-01-01 12:00:00 aabc569e\n   \u2502  Document the forecast service\n   \u25c6  zzzzzzzz root() 00000000\n\n      Actions\n\n      Change actions:\n      > m  Describe revision  local rewrite \u00b7 enter saves\n        n  New change         local rewrite \u00b7 runs now\n        e  Edit change        local rewrite \u00b7 runs now\n        s  Squash revisions   local rewrite \u00b7 preview\n        a  Abandon revision   destructive \u00b7 checks first\n        r  Restore all paths  destructive \u00b7 preview\n\n      History and recovery:\n        u  Undo               local rewrite \u00b7 runs now\n        U  Redo               local rewrite \u00b7 runs now\n\n      Safety cues show whether actions preview, save, or run now; inspection views stay read-only.\n      j/k or arrows move   enter open   action key select   esc close\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#52aa60",
+        "bold": true
+      },
+      {
+        "fg": "#d58bf0",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152",
+        "bold": true
+      },
+      {
+        "fg": "#ad9b49",
+        "bold": true
+      },
+      {
+        "fg": "#52c4c0",
+        "bold": true
+      },
+      {
+        "fg": "#76a8f2",
+        "bold": true
+      },
+      {
+        "fg": "#487fd4",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152"
+      },
+      {
+        "fg": "#ad9b49"
+      },
+      {
+        "fg": "#269d9a"
+      },
+      {
+        "fg": "#af5bd1",
+        "bold": true
+      },
+      {
+        "fg": "#52aa60"
+      },
+      {
+        "fg": "#e0e6ee",
+        "bg": "#242c3a"
+      },
+      {
+        "fg": "#65d4cf",
+        "bg": "#242c3a",
+        "bold": true
+      },
+      {
+        "fg": "#e0e6ee",
+        "bg": "#242c3a",
+        "bold": true
+      }
+    ],
+    "size": [
+      104,
+      39
+    ]
+  },
+  {
+    "checkpoint": "manual-dialog-auto-description",
+    "viewport_text": "jk jj\n\u203a  @  vlqyxpyt demo@example.invalid 2026-01-01 12:00:00 c2ac394f\n\u00b7  \u2502  Experiment with forecast caching\n   \u25cb  nmkrkywu demo@example.invalid 2026-01-01 12:00:00 81561008\n   \u2502  Configure request timeouts\n   \u25cb  pqxqoyrn demo@example.invalid 2026-01-01 12:00:00 92b85053\n   \u2502  Add the forecast endpoint\n   \u25cb  srwxsxuk alex@example.com 2026-01-01 12:00:00 aabc569e\n   \u2502  Document the forecast service\n   \u25c6  zzzzzzzz root() 00000000\n\n\n\n\n\n             Describe revision\n             Revision: vlqyxpyt\n\n             Experiment with forecast caching\n\n\n             Enter save \u00b7 Esc cancel \u00b7 Ctrl-j newline \u00b7 Ctrl-u clear \u00b7 arrows move\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#52aa60",
+        "bold": true
+      },
+      {
+        "fg": "#d58bf0",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152",
+        "bold": true
+      },
+      {
+        "fg": "#ad9b49",
+        "bold": true
+      },
+      {
+        "fg": "#52c4c0",
+        "bold": true
+      },
+      {
+        "fg": "#76a8f2",
+        "bold": true
+      },
+      {
+        "fg": "#487fd4",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152"
+      },
+      {
+        "fg": "#ad9b49"
+      },
+      {
+        "fg": "#269d9a"
+      },
+      {
+        "fg": "#af5bd1",
+        "bold": true
+      },
+      {
+        "fg": "#52aa60"
+      },
+      {
+        "fg": "#e0e6ee",
+        "bg": "#242c3a"
+      },
+      {
+        "fg": "#65d4cf",
+        "bg": "#242c3a",
+        "bold": true
+      },
+      {
+        "fg": "#a1aebe",
+        "bg": "#242c3a"
+      }
+    ],
+    "size": [
+      104,
+      39
+    ]
+  },
+  {
+    "checkpoint": "manual-dialog-auto-help",
+    "viewport_text": "jk jj\n\u203a  @  vlqyxpyt demo@example.invalid 2026-01-01 12:00:00 c2ac394f\n\u00b7  \u2502  Experiment with forecast caching\n   \u25cb  nmkrkywu demo@example.invalid 2026-01-01 12:00:00 81561008\n   \u2502  Configure request timeouts\n   \u25cb  pqxqoyrn demo@example.invalid 2026-01-01 12:00:00 92b85053\n   \u2502  Add the forecast endpoint\n   \u25cb  srwxs  Help\n   \u2502  Docum\n   \u25c6  zzzzz  Open and inspect:\n               enter         jj show                     d             jj diff\n               v             jj evolog                   s             jj status\n               V             View options                H / L         jj log\n             Move and find:\n               \u2191/\u2193, j/k      Move selection              Ctrl-j/k      Scroll line\n               PgDn, Ctrl-f  Page down                   PgUp, Ctrl-b  Page up\n               Home, g       Jump to top                 End, G        Jump to bottom\n               \u2192, l          Expand change               \u2190, h          Collapse change\n             Change actions:\n               a             Open action menu            a m           jj describe\n               a n           jj new                      a e           jj edit\n               R             jj rebase                   a s           jj squash\n               a a           jj abandon                  a r           jj restore\n               space         Mark revision               c             Clear marks\n             History and recovery:\n               o             jj op log                   a u           jj undo\n               a U           jj redo                     C             Open command history\n             Session:\n               :             jj command                  !             Run external command\n               r             Refresh                     ?, Esc        Close help\n               q             Quit / exit\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#52aa60",
+        "bold": true
+      },
+      {
+        "fg": "#d58bf0",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152",
+        "bold": true
+      },
+      {
+        "fg": "#ad9b49",
+        "bold": true
+      },
+      {
+        "fg": "#52c4c0",
+        "bold": true
+      },
+      {
+        "fg": "#76a8f2",
+        "bold": true
+      },
+      {
+        "fg": "#487fd4",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152"
+      },
+      {
+        "fg": "#ad9b49"
+      },
+      {
+        "fg": "#269d9a"
+      },
+      {
+        "fg": "#af5bd1",
+        "bold": true
+      },
+      {
+        "fg": "#e0e6ee",
+        "bg": "#242c3a"
+      },
+      {
+        "fg": "#65d4cf",
+        "bg": "#242c3a",
+        "bold": true
+      },
+      {
+        "fg": "#e0e6ee",
+        "bg": "#242c3a",
+        "bold": true
+      }
+    ],
+    "size": [
+      104,
+      39
+    ]
+  }
+]

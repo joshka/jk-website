@@ -1,0 +1,121 @@
+{
+  "size": [
+    104,
+    39
+  ],
+  "total_rows": 39,
+  "scrollback_rows": 0,
+  "cursor": {
+    "x": 93,
+    "y": 38,
+    "visible": false
+  },
+  "default_style": {
+    "fg": "#b4bcca",
+    "bg": "#0f141f"
+  },
+  "styles": [
+    {
+      "bold": true
+    },
+    {
+      "fg": "#c26265",
+      "bold": true
+    }
+  ],
+  "viewport_text": "jk Command 3\nCommand: jj --no-pager --color always --repository /home/runner/work/jk/jk/target/forecast-demo.K8Ua30 e\nSource: log unknown\nStatus: exit 1\nDuration: 20 ms\nOperation: none\nSummary: exit 1: Error: The root commit 000000000000 is immutable\n\nStdout:\n  bytes: 0\n  lines: 0\n  truncated: no\n  redacted: no\n  <empty>\n\nStderr:\n  bytes: 71\n  lines: 1\n  truncated: no\n  redacted: no\n\nError: The root commit 000000000000 is immutable\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n? help  V options  r refresh  j/k line  space page  q quit\n",
+  "scrollback_text": "",
+  "viewport": [
+    [
+      "jk ",
+      [
+        "Command 3",
+        0
+      ]
+    ],
+    [
+      "Command: jj --no-pager --color always --repository /home/runner/work/jk/jk/target/forecast-demo.K8Ua30 e"
+    ],
+    [
+      "Source: log unknown"
+    ],
+    [
+      "Status: exit 1"
+    ],
+    [
+      "Duration: 20 ms"
+    ],
+    [
+      "Operation: none"
+    ],
+    [
+      "Summary: exit 1: Error: The root commit 000000000000 is immutable"
+    ],
+    [],
+    [
+      "Stdout:"
+    ],
+    [
+      "  bytes: 0"
+    ],
+    [
+      "  lines: 0"
+    ],
+    [
+      "  truncated: no"
+    ],
+    [
+      "  redacted: no"
+    ],
+    [
+      "  <empty>"
+    ],
+    [],
+    [
+      "Stderr:"
+    ],
+    [
+      "  bytes: 71"
+    ],
+    [
+      "  lines: 1"
+    ],
+    [
+      "  truncated: no"
+    ],
+    [
+      "  redacted: no"
+    ],
+    [],
+    [
+      [
+        "Error: ",
+        1
+      ],
+      [
+        "The root commit 000000000000 is immutable",
+        0
+      ]
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "? help  V options  r refresh  j/k line  space page  q quit"
+    ]
+  ],
+  "scrollback": []
+}

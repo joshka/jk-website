@@ -1,0 +1,221 @@
+[
+  {
+    "checkpoint": "manual-run-options-ignore-operation",
+    "viewport_text": "jk jj\n\u203a  @  qzpyupqo demo@example.invalid 2026-01-01 12:00:00 336e83fb\n\u00b7  \u2502  Rebase source\n   \u2502 \u25cb  qtnrvvqu demo@example.invalid 2026-01-01 12:00:00 08d882d5\n   \u251c\u2500\u256f  Rebase destination\n   \u25cb  ttptlksv demo@example.invalid 2026-01-01 12:00:00 6ffc5ec8\n   \u2502  Rebase base\n   \u25c6  zzzzzzzz root() 00000000\n            Run options \u00b7 this command only\n\n            \u203a Working copy      ignore\n              Operation         latest\n              Immutable commits protected\n\n            Ignore skips both snapshotting and updating working-copy files.\n\n            Repository:\n            /home/runner/work/jk/jk/target/manual-fixtures/run-options.uIxGSF/workflows.NyXS\n            QU/rebase\n            Fixed to the repository that supplied these operands.\n            Options affect this command only. Normal operation integration stays enabled.\n\n            jj --no-pager --color always --repository\n            /home/runner/work/jk/jk/target/manual-fixtures/run-options.uIxGSF/workflows.NyXS\n            QU/rebase --ignore-working-copy rebase -r\n            336e83fb10cce0754080ebe999197656e67932a3 -o\n            08d882d56fb49d80f85844d1717b90f469771443\n\n\n            \u2191\u2193 select  Enter edit\n            a apply to preview  Esc cancel\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#52aa60",
+        "bold": true
+      },
+      {
+        "fg": "#d58bf0",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152",
+        "bold": true
+      },
+      {
+        "fg": "#ad9b49",
+        "bold": true
+      },
+      {
+        "fg": "#52c4c0",
+        "bold": true
+      },
+      {
+        "fg": "#76a8f2",
+        "bold": true
+      },
+      {
+        "fg": "#487fd4",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152"
+      },
+      {
+        "fg": "#ad9b49"
+      },
+      {
+        "fg": "#269d9a"
+      },
+      {
+        "fg": "#af5bd1",
+        "bold": true
+      },
+      {
+        "fg": "#52aa60"
+      },
+      {
+        "fg": "#e0e6ee",
+        "bg": "#242c3a"
+      },
+      {
+        "fg": "#65d4cf",
+        "bg": "#242c3a",
+        "bold": true
+      },
+      {
+        "fg": "#a1aebe",
+        "bg": "#242c3a"
+      }
+    ],
+    "size": [
+      104,
+      39
+    ]
+  },
+  {
+    "checkpoint": "manual-run-options-ignore-preview",
+    "viewport_text": "jk jj\n\u203a  @  qzpyupqo demo@example.invalid 2026-01-01 12:00:00 336e83fb\n\u00b7  \u2502  Rebase source\n   \u2502 \u25cb  qtnrvvqu demo@example.invalid 2026-01-01 12:00:00 08d882d5\n   \u251c\u2500\u256f  Rebase destination\n   \u25cb  ttptlksv demo@example.invalid 2026-01-01 12:00:00 6ffc5ec8\n   \u2502  Rebase base\n   \u25c6  zzzzzzzz root() 00000000\n\n              Rebase revisions\n\n              Source: 336e83fb10cce0754080ebe999197656e67932a3\n              Source role: revision only\n              Moves the selected revision (-r); reconnects descendants to its old parents.\n              Destination: 08d882d56fb49d80f85844d1717b90f469771443\n              Placement: onto\n              Makes this revision the new parent (-o).\n\n              ! Rewrites local history.\n              ! Ignores the current working-copy snapshot.\n\n              Command\n              jj --no-pager --color always --repository\n              /home/runner/work/jk/jk/target/manual-fixtures/run-options.uIxGSF/workflows.\n              NyXSQU/rebase --ignore-working-copy rebase -r\n              336e83fb10cce0754080ebe999197656e67932a3 -o\n              08d882d56fb49d80f85844d1717b90f469771443\n\n\n              enter run  y copy  esc cancel  o options\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#52aa60",
+        "bold": true
+      },
+      {
+        "fg": "#d58bf0",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152",
+        "bold": true
+      },
+      {
+        "fg": "#ad9b49",
+        "bold": true
+      },
+      {
+        "fg": "#52c4c0",
+        "bold": true
+      },
+      {
+        "fg": "#76a8f2",
+        "bold": true
+      },
+      {
+        "fg": "#487fd4",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152"
+      },
+      {
+        "fg": "#ad9b49"
+      },
+      {
+        "fg": "#269d9a"
+      },
+      {
+        "fg": "#af5bd1",
+        "bold": true
+      },
+      {
+        "fg": "#52aa60"
+      },
+      {
+        "fg": "#e0e6ee",
+        "bg": "#242c3a"
+      },
+      {
+        "fg": "#65d4cf",
+        "bg": "#242c3a",
+        "bold": true
+      },
+      {
+        "fg": "#eab855",
+        "bg": "#242c3a"
+      },
+      {
+        "fg": "#e0e6ee",
+        "bg": "#242c3a",
+        "bold": true
+      }
+    ],
+    "size": [
+      104,
+      39
+    ]
+  },
+  {
+    "checkpoint": "manual-run-options-ignore-completed",
+    "viewport_text": "jk jj\n\u203a  @  qzpyupqo demo@example.invalid 2026-01-01 12:00:00 b1cf51ba\n\u00b7  \u2502  Rebase source\n   \u25cb  qtnrvvqu demo@example.invalid 2026-01-01 12:00:00 08d882d5\n   \u2502  Rebase destination\n   \u25cb  ttptlksv demo@example.invalid 2026-01-01 12:00:00 6ffc5ec8\n   \u2502  Rebase base\n   \u25c6  zzzzzzzz root() 00000000\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                                           \u2713 Completed without updating working-copy files \u00b7 C history\n? help  H home  L log  r refresh  enter open  d diff  v evolog  s status  space mark  o ops  ...  q quit\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#52aa60",
+        "bold": true
+      },
+      {
+        "fg": "#d58bf0",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152",
+        "bold": true
+      },
+      {
+        "fg": "#ad9b49",
+        "bold": true
+      },
+      {
+        "fg": "#52c4c0",
+        "bold": true
+      },
+      {
+        "fg": "#76a8f2",
+        "bold": true
+      },
+      {
+        "fg": "#487fd4",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152"
+      },
+      {
+        "fg": "#ad9b49"
+      },
+      {
+        "fg": "#269d9a"
+      },
+      {
+        "fg": "#af5bd1",
+        "bold": true
+      },
+      {
+        "fg": "#52aa60"
+      },
+      {
+        "fg": "#e0e6ee",
+        "bg": "#242c3a"
+      }
+    ],
+    "size": [
+      104,
+      39
+    ]
+  },
+  {
+    "checkpoint": "manual-run-options-ignore-operation-result",
+    "viewport_text": "jk Command 3\nCommand: jj --no-pager --color always --repository /home/runner/work/jk/jk/target/manual-fixtures/run-op\nSource: log rebase\nStatus: success\nDuration: 22 ms\nOperation: none\nSummary: stderr: Rebased 1 commits to destination.\n\nStdout:\n  bytes: 0\n  lines: 0\n  truncated: no\n  redacted: no\n  <empty>\n\nStderr:\n  bytes: 34\n  lines: 1\n  truncated: no\n  redacted: no\n\nRebased 1 commits to destination.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n? help  V options  r refresh  j/k line  space page  q quit\n",
+    "styles": [
+      {
+        "bold": true
+      }
+    ],
+    "size": [
+      104,
+      39
+    ]
+  }
+]

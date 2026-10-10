@@ -1,0 +1,134 @@
+{
+  "schema_version": 1,
+  "source_index": "manual/v0.3.0-manual-20260921/review-index.json",
+  "source_index_sha256": "17efd1f5f9a9c80791c6764f7972f466b4b29257831f2719b0c66b74b784fc16",
+  "review": {
+    "id": "change-edit-failure",
+    "title": "Inspect an immutable edit failure",
+    "status": "ready",
+    "source_tape": "tapes/manual/changes/change-edit-failure.tape",
+    "source_tape_sha256": "765ea7777c0189f4070a703e3b5d7d8045fe13026c991fe7c7a1636779a0fb8d",
+    "website": {
+      "path": "assets/manual/v0.3.0-manual-20260921/change-edit-failure"
+    },
+    "problems": [],
+    "checkpoints": [
+      {
+        "id": "change-edit-failure-error",
+        "png": "change-edit-failure-error.png",
+        "state": "change-edit-failure-error.json",
+        "png_sha256": "6681ee6c1324aa729d99a0c910c35516a20461fcccaada6c3362992514ec048c",
+        "state_sha256": "d000c10f5481725913dddf628b9926f076a2aaccd48a91b94f9d0bc81a7f2034",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "changes scenario agent",
+          "reviewed_at": "2026-09-21T03:37:41.312555+00:00",
+          "summary": "The root row is selected and the populated forecast history stays intact. The yellow failure footer truncates the useful diagnostic after \u201cThe \u2026\u201d.",
+          "findings": [
+            "UX-15"
+          ]
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "changes scenario agent",
+          "reviewed_at": "2026-09-21T03:37:41.312555+00:00",
+          "summary": "State preserves root selection and jj edit failure, but the immutable explanation is absent from the footer text; normal jj identifier and timestamp colors remain.",
+          "findings": [
+            "UX-15"
+          ]
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/changes-ci35557653700.json",
+        "text_style_review_source": "target/manual-recordings/reviews/changes-ci35557653700.json"
+      },
+      {
+        "id": "change-edit-failure-history",
+        "png": "change-edit-failure-history.png",
+        "state": "change-edit-failure-history.json",
+        "png_sha256": "ce8809446bbefbffe276eca12de92664e504aa7db5258cebd165de22c54a5e61",
+        "state_sha256": "1a6a8a23bc29fdbed77f6e415e46b6977765e9a393e1d02d2f04d96036b0ac79",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "changes scenario agent",
+          "reviewed_at": "2026-09-21T03:37:41.312555+00:00",
+          "summary": "The complete immutable-root error is readable in red, with exit 1 and operation none. The command row clips before the meaningful edit operand, and Source says log unknown.",
+          "findings": [
+            "UX-15"
+          ]
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "changes scenario agent",
+          "reviewed_at": "2026-09-21T03:37:41.312555+00:00",
+          "summary": "State confirms exit 1, 71 stderr bytes and the complete immutable-root diagnostic. Red bold Error has #c26265; the source action identity is unknown and the command text is clipped.",
+          "findings": [
+            "UX-15"
+          ]
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/changes-ci35557653700.json",
+        "text_style_review_source": "target/manual-recordings/reviews/changes-ci35557653700.json"
+      }
+    ],
+    "metadata_path": "target/manual-recordings/ci-35557653700/manual-evidence-change-edit-failure/capture-metadata.json",
+    "metadata_sha256": "f0a71ef9bcd3f879113dfb46cf355a78f47476e66255e9024d13ebff2bf474e4",
+    "evidence_directory": "target/manual-recordings/ci-35557653700/manual-evidence-change-edit-failure",
+    "evidence_status": "passed",
+    "source_commit": "7fcb4fa9af1bb624fcdc7ac14a64184a43c4e829",
+    "pr_head_commit": "d5200f713edc476fd446616ad46fec573f861baf",
+    "source_manifest_sha256": "42c0d25b424a807906eb4e0ba7ca72b4c0488685e9f57b3bcf62d3f01c6c6915",
+    "source_matches_checkout": true,
+    "binary": {
+      "invoked_path": "/home/runner/work/jk/jk/target/manual-build/jk",
+      "path": "/home/runner/work/jk/jk/target/manual-build/jk",
+      "sha256": "cb41f94b63ec85100829bd2b1e9ced84f37cae912996a48e93b56b8776c9c5ed",
+      "version": "jk 0.3.0",
+      "version_exit_code": 0
+    },
+    "jj": {
+      "invoked_path": "/home/runner/.cargo/bin/jj",
+      "path": "/home/runner/.cargo/bin/jj",
+      "sha256": "cd5efc3eb281d606bf9b5523167f79661da0f8c76a5aa32d61c07c7a351b6b44",
+      "version": "jj 0.45.1-7c41cdeb16b6b321c64e789a966b6adf723816a5",
+      "version_exit_code": 0
+    },
+    "betamax": {
+      "invoked_path": "/home/runner/work/_temp/betamax-GglQoI/bin/betamax",
+      "path": "/home/runner/work/_temp/betamax-GglQoI/bin/betamax",
+      "sha256": "db55fa6e7ff98e1df3c91921b5b3fb504b3cc8fdaf6b07e3da952f8757053490",
+      "version": "betamax 0.1.21",
+      "version_exit_code": 0
+    },
+    "ci_run": {
+      "id": "35557653700",
+      "attempt": "1",
+      "url": "https://github.com/joshka/jk/actions/runs/35557653700"
+    },
+    "assertions": [
+      {
+        "path": "change-edit-failure-assertions.json",
+        "sha256": "82816f8addb85aa75ce1f6af7aa6af4124daf48e290134b3b4c56b367788f306",
+        "bytes": 936
+      }
+    ],
+    "video": {
+      "path": "change-edit-failure.mp4",
+      "sha256": "a101cfa431f7dd7da77a8ac8cbde95e8245c4f7e5ef623108b72b8290e1e131d",
+      "bytes": 254806
+    },
+    "video_review": {
+      "status": "reviewed",
+      "reviewer": "changes scenario agent",
+      "reviewed_at": "2026-09-21T03:37:41.312555+00:00",
+      "summary": "Review method: inspected all checkpoint PNGs inline and matching viewport text/styled spans, source tape, ffprobe duration 20.133333s at 1400x900/15fps, and actual MP4 frames sampled at 3.02, 10.07, 17.11s. Tape uses 80ms typing and 2\u20133s semantic holds. Samples show root selection, the persistent failure footer, and return to the log with Backspace/Backspace/Home. Complete failure details were checked at the dedicated checkpoint.",
+      "findings": [
+        "UX-15",
+        "UX-16"
+      ],
+      "sha256": "a101cfa431f7dd7da77a8ac8cbde95e8245c4f7e5ef623108b72b8290e1e131d"
+    },
+    "source_snapshot_status": "preserved",
+    "video_review_source": "target/manual-recordings/reviews/changes-ci35557653700.json",
+    "pixel_review_complete": true,
+    "text_style_review_complete": true,
+    "video_review_complete": true
+  }
+}

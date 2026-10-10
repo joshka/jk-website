@@ -1,0 +1,20 @@
+{
+  "scenario": "inspect-orient",
+  "stage": "inspection",
+  "status": "passed",
+  "repository": "/home/runner/work/jk/jk/target/manual-fixtures/inspection.MiCNnY/repo",
+  "assertions": [
+    {
+      "name": "working-copy commit unchanged",
+      "passed": true,
+      "actual": "4939c3743fd2711a1bcd13b5f38e6f5fd1d505a1",
+      "expected": "4939c3743fd2711a1bcd13b5f38e6f5fd1d505a1"
+    },
+    {
+      "name": "visible repository graph unchanged",
+      "passed": true,
+      "actual": "0000000000000000000000000000000000000000\n4939c3743fd2711a1bcd13b5f38e6f5fd1d505a1\n859cd47fa18c025996fdfbd366fa4d4885c01b2a\nc10ab42fac09223989748f552a16c1bfa9e88156\nc28732e703fc8c0a48f2880f78092b47cd90b432",
+      "expected": "0000000000000000000000000000000000000000\n4939c3743fd2711a1bcd13b5f38e6f5fd1d505a1\n859cd47fa18c025996fdfbd366fa4d4885c01b2a\nc10ab42fac09223989748f552a16c1bfa9e88156\nc28732e703fc8c0a48f2880f78092b47cd90b432"
+    }
+  ]
+}

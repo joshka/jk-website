@@ -1,0 +1,20 @@
+{
+  "scenario": "abandon-probe-failure",
+  "stage": "abandon-probe-failure",
+  "status": "passed",
+  "repository": "/home/runner/work/jk/jk/target/forecast-demo.h5dOh9",
+  "assertions": [
+    {
+      "name": "working-copy commit unchanged",
+      "passed": true,
+      "actual": "ecf9b78d4d100b813c7f6279e1c3fc6b01c1cf04",
+      "expected": "ecf9b78d4d100b813c7f6279e1c3fc6b01c1cf04"
+    },
+    {
+      "name": "visible repository graph unchanged",
+      "passed": true,
+      "actual": "0000000000000000000000000000000000000000\n2e81daa5c18c7f5a10fecff011aeca28170d1c7d\n4466d9eff05fd081e2ec9b16f165ebc49d0a9618\n8250b3cdd678aae2c77416da24ee4ebcabc8a428\ncc423d1c1cd846cde090865cb92100cb92329618\necf9b78d4d100b813c7f6279e1c3fc6b01c1cf04",
+      "expected": "0000000000000000000000000000000000000000\n2e81daa5c18c7f5a10fecff011aeca28170d1c7d\n4466d9eff05fd081e2ec9b16f165ebc49d0a9618\n8250b3cdd678aae2c77416da24ee4ebcabc8a428\ncc423d1c1cd846cde090865cb92100cb92329618\necf9b78d4d100b813c7f6279e1c3fc6b01c1cf04"
+    }
+  ]
+}

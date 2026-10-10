@@ -1,0 +1,218 @@
+[
+  {
+    "checkpoint": "manual-rebase-branch-before-selector",
+    "viewport_text": "jk jj\n\u203a  @  tllqsnml demo@example.invalid 2026-01-01 12:00:00 377ef32b\n\u00b7  \u2502  Rebase source\n   \u2502 \u25cb  ystqokqt demo@example.invalid 2026-01-01 12:00:00 7563b86d\n   \u251c\u2500\u256f  Rebase destination\n   \u25cb  toyvzomw demo@example.invalid 2026-01-01 12:00:00 053afd47\n   \u2502  Rebase base\n   ~\n\n\n\n\n\n\n    Choose rebase destination\n\n    Source: 377ef32b46a1\n    Scope: branch [r/b/s]\n    Place: insert before [o/A/B]\n    / Search: Rebase destination\n    \u203a 7563b86dd93b  Rebase destination\n\n    / search   \u2191/\u2193 choose   Enter preview   Esc cancel\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#52aa60",
+        "bold": true
+      },
+      {
+        "fg": "#d58bf0",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152",
+        "bold": true
+      },
+      {
+        "fg": "#ad9b49",
+        "bold": true
+      },
+      {
+        "fg": "#52c4c0",
+        "bold": true
+      },
+      {
+        "fg": "#76a8f2",
+        "bold": true
+      },
+      {
+        "fg": "#487fd4",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152"
+      },
+      {
+        "fg": "#ad9b49"
+      },
+      {
+        "fg": "#269d9a"
+      },
+      {
+        "fg": "#af5bd1",
+        "bold": true
+      },
+      {
+        "fg": "#65d4cf",
+        "bg": "#242c3a",
+        "bold": true
+      },
+      {
+        "fg": "#e0e6ee",
+        "bg": "#242c3a"
+      },
+      {
+        "fg": "#a1aebe",
+        "bg": "#242c3a"
+      }
+    ],
+    "size": [
+      67,
+      39
+    ]
+  },
+  {
+    "checkpoint": "manual-rebase-branch-before-preview",
+    "viewport_text": "jk jj\n\u203a  @  tllqsnml demo@example.invalid 2026-01-01 12:00:00 377ef32b\n\u00b7  \u2502  Rebase source\n   \u2502 \u25cb  ystqokqt demo@example.invalid 2026-01-01 12:00:00 7563b86d\n   \u251c\u2500\u256f  Rebase destination\n   \u25cb  toyvzomw demo@example.invalid 2026-01-01 12:00:00 053afd47\n   \u2502  Rebase base\n\n   Rebase revisions\n\n   Source: 377ef32b46a16591bb4fac524b1971477f9f0a6a\n   Source role: branch\n   Moves the destination-relative branch (-b), including\n   applicable ancestors and descendants.\n   Destination: 7563b86dd93bdae69cc1f48109a5a36ad26ab530\n   Placement: insert before\n   Inserts before (-B), rewriting the destination and\n   descendants, including other workspaces.\n\n   ! Rewrites local history.\n\n   Command\n   jj --no-pager --color always --repository\n   /home/runner/work/jk/jk/target/manual-fixtures/rebase.wTKGIv/\n   workflows.0GMV8r/rebase rebase -b\n   377ef32b46a16591bb4fac524b1971477f9f0a6a -B\n   7563b86dd93bdae69cc1f48109a5a36ad26ab530\n\n\n   enter run  y copy  esc cancel  o options\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#52aa60",
+        "bold": true
+      },
+      {
+        "fg": "#d58bf0",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152",
+        "bold": true
+      },
+      {
+        "fg": "#ad9b49",
+        "bold": true
+      },
+      {
+        "fg": "#52c4c0",
+        "bold": true
+      },
+      {
+        "fg": "#76a8f2",
+        "bold": true
+      },
+      {
+        "fg": "#487fd4",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152"
+      },
+      {
+        "fg": "#ad9b49"
+      },
+      {
+        "fg": "#269d9a"
+      },
+      {
+        "fg": "#af5bd1",
+        "bold": true
+      },
+      {
+        "fg": "#e0e6ee",
+        "bg": "#242c3a"
+      },
+      {
+        "fg": "#65d4cf",
+        "bg": "#242c3a",
+        "bold": true
+      },
+      {
+        "fg": "#eab855",
+        "bg": "#242c3a"
+      },
+      {
+        "fg": "#e0e6ee",
+        "bg": "#242c3a",
+        "bold": true
+      }
+    ],
+    "size": [
+      67,
+      39
+    ]
+  },
+  {
+    "checkpoint": "manual-rebase-branch-before-success",
+    "viewport_text": "jk jj\n   \u25cb  ystqokqt demo@example.invalid 2026-01-01 12:00:00 1e7411c2\n   \u2502  Rebase destination\n   ~  (elided revisions)\n\u203a  @  tllqsnml demo@example.invalid 2026-01-01 12:00:00 377ef32b\n\u00b7  \u2502  Rebase source\n   \u25cb  toyvzomw demo@example.invalid 2026-01-01 12:00:00 053afd47\n   \u2502  Rebase base\n   ~\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n        \u2713 Rebased revisions \u00b7 a u undo \u00b7 C history \u00b7 o operations\n? help  H home  L log  r refresh  enter open  d diff  ...  q quit\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#487fd4",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152"
+      },
+      {
+        "fg": "#ad9b49"
+      },
+      {
+        "fg": "#269d9a"
+      },
+      {
+        "fg": "#af5bd1",
+        "bold": true
+      },
+      {
+        "fg": "#52aa60",
+        "bold": true
+      },
+      {
+        "fg": "#d58bf0",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152",
+        "bold": true
+      },
+      {
+        "fg": "#ad9b49",
+        "bold": true
+      },
+      {
+        "fg": "#52c4c0",
+        "bold": true
+      },
+      {
+        "fg": "#76a8f2",
+        "bold": true
+      },
+      {
+        "fg": "#e0e6ee",
+        "bg": "#242c3a"
+      }
+    ],
+    "size": [
+      67,
+      39
+    ]
+  },
+  {
+    "checkpoint": "manual-rebase-branch-before-history",
+    "viewport_text": "jk Command History\n\u203a  ok   log rebase             Rebase revisions  stderr: Skipped re\n   ok   log load               jj  stderr: Hint: Use `jj -h` for a\n   ok   log load               jj  stderr: Hint: Use `jj -h` for a\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n? help  enter details  j/k move  space page  r refresh  ...  q quit\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#52aa60"
+      },
+      {
+        "fg": "#269d9a"
+      }
+    ],
+    "size": [
+      67,
+      39
+    ]
+  }
+]

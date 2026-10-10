@@ -1,0 +1,324 @@
+{
+  "size": [
+    104,
+    39
+  ],
+  "total_rows": 39,
+  "scrollback_rows": 0,
+  "cursor": {
+    "x": 8,
+    "y": 38,
+    "visible": false
+  },
+  "default_style": {
+    "fg": "#b4bcca",
+    "bg": "#0f141f"
+  },
+  "styles": [
+    {
+      "bold": true
+    },
+    {
+      "fg": "#52aa60",
+      "bold": true
+    },
+    {
+      "fg": "#d58bf0",
+      "bold": true
+    },
+    {
+      "fg": "#3a4152",
+      "bold": true
+    },
+    {
+      "fg": "#ad9b49",
+      "bold": true
+    },
+    {
+      "fg": "#52c4c0",
+      "bold": true
+    },
+    {
+      "fg": "#76a8f2",
+      "bold": true
+    },
+    {
+      "fg": "#487fd4",
+      "bold": true
+    },
+    {
+      "fg": "#3a4152"
+    },
+    {
+      "fg": "#ad9b49"
+    },
+    {
+      "fg": "#269d9a"
+    },
+    {
+      "fg": "#af5bd1",
+      "bold": true
+    },
+    {
+      "fg": "#52aa60"
+    }
+  ],
+  "viewport_text": "jk jj\n * @  umvnknwz demo@example.invalid 2026-01-01 12:00:00 ef07ed51\n   │  Experiment with forecast caching\n›* │ ○  lmznruqt alex@example.invalid 2026-01-01 12:00:00 32f7a649\n   ├─╯  Document cache policy\n   ○  pwnyxvux demo@example.invalid 2026-01-01 12:00:00 8effc773\n   │  Configure request timeouts\n   ○  stowqwrl demo@example.invalid 2026-01-01 12:00:00 1ce5202d\n   │  Add the forecast endpoint\n   ○  urlssylt alex@example.com 2026-01-01 12:00:00 dee57915\n   │  Document the forecast service\n   ◆  zzzzzzzz root() 00000000\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmark 2/2  ? help  H home  L log  r refresh  enter open  d diff  v evolog  s status  space mark  o ops  …\n",
+  "scrollback_text": "",
+  "viewport": [
+    [
+      "jk ",
+      [
+        "jj",
+        0
+      ]
+    ],
+    [
+      " * ",
+      [
+        "@",
+        1
+      ],
+      "  ",
+      [
+        "um",
+        2
+      ],
+      [
+        "vnknwz",
+        3
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "demo@example.invalid",
+        4
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "2026-01-01 12:00:00",
+        5
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "e",
+        6
+      ],
+      [
+        "f07ed51",
+        3
+      ]
+    ],
+    [
+      "   │  ",
+      [
+        "Experiment with forecast caching",
+        0
+      ]
+    ],
+    [
+      [
+        "›",
+        0
+      ],
+      "* │ ○  ",
+      [
+        "l",
+        7
+      ],
+      [
+        "mznruqt",
+        8
+      ],
+      " ",
+      [
+        "alex@example.invalid",
+        9
+      ],
+      " ",
+      [
+        "2026-01-01 12:00:00",
+        10
+      ],
+      " ",
+      [
+        "3",
+        11
+      ],
+      [
+        "2f7a649",
+        8
+      ]
+    ],
+    [
+      "   ├─╯  Document cache policy"
+    ],
+    [
+      "   ○  ",
+      [
+        "p",
+        7
+      ],
+      [
+        "wnyxvux",
+        8
+      ],
+      " ",
+      [
+        "demo@example.invalid",
+        9
+      ],
+      " ",
+      [
+        "2026-01-01 12:00:00",
+        10
+      ],
+      " ",
+      [
+        "8",
+        11
+      ],
+      [
+        "effc773",
+        8
+      ]
+    ],
+    [
+      "   │  Configure request timeouts"
+    ],
+    [
+      "   ○  ",
+      [
+        "s",
+        7
+      ],
+      [
+        "towqwrl",
+        8
+      ],
+      " ",
+      [
+        "demo@example.invalid",
+        9
+      ],
+      " ",
+      [
+        "2026-01-01 12:00:00",
+        10
+      ],
+      " ",
+      [
+        "1",
+        11
+      ],
+      [
+        "ce5202d",
+        8
+      ]
+    ],
+    [
+      "   │  Add the forecast endpoint"
+    ],
+    [
+      "   ○  ",
+      [
+        "ur",
+        7
+      ],
+      [
+        "lssylt",
+        8
+      ],
+      " ",
+      [
+        "alex@example.com",
+        9
+      ],
+      " ",
+      [
+        "2026-01-01 12:00:00",
+        10
+      ],
+      " ",
+      [
+        "d",
+        11
+      ],
+      [
+        "ee57915",
+        8
+      ]
+    ],
+    [
+      "   │  Document the forecast service"
+    ],
+    [
+      "   ",
+      [
+        "◆",
+        5
+      ],
+      "  ",
+      [
+        "z",
+        7
+      ],
+      [
+        "zzzzzzz",
+        8
+      ],
+      " ",
+      [
+        "root()",
+        12
+      ],
+      " ",
+      [
+        "0",
+        11
+      ],
+      [
+        "0000000",
+        8
+      ]
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "mark 2/2  ? help  H home  L log  r refresh  enter open  d diff  v evolog  s status  space mark  o ops  …"
+    ]
+  ],
+  "scrollback": []
+}

@@ -1,0 +1,20 @@
+{
+  "scenario": "change-lifecycle",
+  "stage": "change-lifecycle-edited",
+  "status": "passed",
+  "repository": "/home/runner/work/jk/jk/target/forecast-demo.Ykd932",
+  "assertions": [
+    {
+      "name": "edit and redo select described revision",
+      "passed": true,
+      "actual": "Tune forecast cache lifetime\n\nKeep cached forecasts fresh.",
+      "expected": "Tune forecast cache lifetime\n\nKeep cached forecasts fresh."
+    },
+    {
+      "name": "edit retains cache addition",
+      "passed": true,
+      "actual": "A src/cache.js",
+      "expected": "A src/cache.js"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "scenario": "inspect-elision",
+  "stage": "inspection",
+  "status": "passed",
+  "repository": "/home/runner/work/jk/jk/target/manual-fixtures/inspection.y5kx3x/repo",
+  "assertions": [
+    {
+      "name": "working-copy commit unchanged",
+      "passed": true,
+      "actual": "9fe71062767ec9541b14393d78f8691d829bc68d",
+      "expected": "9fe71062767ec9541b14393d78f8691d829bc68d"
+    },
+    {
+      "name": "visible repository graph unchanged",
+      "passed": true,
+      "actual": "0000000000000000000000000000000000000000\n1c7678beb346cd9a1f673b88fe05201f5fcc6daa\n33b705928a73009970ee6ad02b56dca0f519d594\n9fe71062767ec9541b14393d78f8691d829bc68d\nfdd411e78403471c5a6f4165a5f47ec8904bc887",
+      "expected": "0000000000000000000000000000000000000000\n1c7678beb346cd9a1f673b88fe05201f5fcc6daa\n33b705928a73009970ee6ad02b56dca0f519d594\n9fe71062767ec9541b14393d78f8691d829bc68d\nfdd411e78403471c5a6f4165a5f47ec8904bc887"
+    }
+  ]
+}

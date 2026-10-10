@@ -1,0 +1,70 @@
+---
+import ManualLayout from '../../layouts/ManualLayout.astro';
+import ManualRecording from '../../components/ManualRecording.astro';
+import { media } from '../../lib/manual-media';
+import { commands } from '../../lib/manual-data';
+import { manualLink } from '../../lib/manual';
+const groups = [...new Set(media.scenarios.map((scenario) => scenario.group))];
+const headings = groups.map((group) => ({ depth: 2, slug: group, text: group.replaceAll('-', ' ') }));
+---
+
+<ManualLayout title="Recorded workflows" slug="recordings" headings={headings}
+  description="Watch realistic repository tasks at a readable pace, then inspect the screenshots, terminal state, and outcome checks.">
+  <p>Every recording starts in a fresh disposable repository with isolated jj configuration and
+    signing disabled. Videos use the source-built jk binary. Checkpoints retain both PNG pixels
+    and terminal JSON, including styled spans. Assertions inspect the resulting repository.</p>
+  <p>The full collection runs on every jk pull request. Those galleries belong to the PR and may
+    expire; the reviewed recordings below are permanent website assets. Their provenance identifies
+    the exact binary, source files, and tool versions.</p>
+  <div class="manual-filter">
+    <label>Find a recorded task<input type="search" placeholder="squash, bookmark, recovery…" data-recording-search /></label>
+  </div>
+  <p aria-live="polite" data-recording-count>{media.scenarios.length} recordings</p>
+  {groups.map((group) => (
+    <section data-recording-group>
+      <h2 id={group}>{group.replaceAll('-', ' ')}</h2>
+      {media.scenarios.filter((recording) => recording.group === group).map((recording) => (
+        <section data-recording data-search={`${recording.title} ${recording.id} ${group}`.toLowerCase()}>
+          <h3><a href={`#${recording.id}`}>{recording.title}</a></h3>
+          <p>{recording.manual_slugs.map((slug, index) => <>{index ? ' · ' : ''}<a href={manualLink(slug)}>Read {slug.replaceAll('-', ' ')}</a></>)}</p>
+          <ManualRecording recording={recording} />
+          <details class="manual-media-details"><summary>Command and form coverage</summary>
+            <ul>{commands.filter((command) => command.scenario_ids.includes(recording.id)).map((command) => (
+              <li><a href={`${manualLink('reference')}#${command.id}`}>{command.title}</a> · <code>{command.jj_form}</code></li>
+            ))}</ul>
+          </details>
+        </section>
+      ))}
+    </section>
+  ))}
+</ManualLayout>
+
+<script>
+  const search = document.querySelector<HTMLInputElement>('[data-recording-search]')!;
+  const count = document.querySelector<HTMLElement>('[data-recording-count]')!;
+  const items = [...document.querySelectorAll<HTMLElement>('[data-recording]')];
+  function filter() {
+    const words = search.value.toLowerCase().trim().split(/\s+/);
+    for (const item of items) item.hidden = !words.every((word) => item.dataset.search!.includes(word));
+    for (const group of document.querySelectorAll<HTMLElement>('[data-recording-group]')) {
+      group.hidden = !group.querySelector('[data-recording]:not([hidden])');
+    }
+    const visible = items.filter((item) => !item.hidden).length;
+    count.textContent = `${visible} of ${items.length} recordings${visible === 0 ? ' · Try a shorter search.' : ''}`;
+  }
+  function revealTarget() {
+    const target = document.querySelector<HTMLElement>(':target');
+    const item = target?.closest<HTMLElement>('[data-recording]');
+    if (!target || !item) return;
+    if (item.hidden) {
+      search.value = '';
+      filter();
+    }
+    requestAnimationFrame(() => target.scrollIntoView({ block: 'start' }));
+  }
+  search.addEventListener('input', filter);
+  window.addEventListener('pageshow', () => { filter(); revealTarget(); });
+  window.addEventListener('hashchange', revealTarget);
+  filter();
+  revealTarget();
+</script>

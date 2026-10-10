@@ -1,0 +1,198 @@
+[
+  {
+    "checkpoint": "command-filesets-split-output",
+    "viewport_text": "jk jj --no-pager --color always --repository /home/runner/work/jk/jk/target/forecast-demo.BM4h8p split -\nCommand: jj --no-pager --color always --repository /home/runner/work/jk/jk/target/forecast-demo.BM4h8p s\nStatus: success\n\nStdout:\n<empty>\n\nStderr:\nSelected changes : yokznrqw 01b61ce0 Separate cache policy\nRemaining changes: pqxyrvmx 73f351d1 Experiment with forecast caching\nWorking copy  (@) now at: pqxyrvmx 73f351d1 Experiment with forecast caching\nParent commit (@-)      : yokznrqw 01b61ce0 Separate cache policy\n\nActions: e edit/retry command   : run another jj command\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n? help  V options  r refresh  j/k line  space page  q quit\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#dfe5ee",
+        "bg": "#3a485a"
+      },
+      {
+        "fg": "#dfe5ee",
+        "bg": "#215b53"
+      },
+      {
+        "fg": "#dfe5ee",
+        "bg": "#282d37"
+      },
+      {
+        "fg": "#dfe5ee",
+        "bg": "#1e232f"
+      },
+      {
+        "fg": "#487fd4",
+        "bg": "#1e232f",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152"
+      },
+      {
+        "fg": "#af5bd1",
+        "bold": true
+      },
+      {
+        "fg": "#d58bf0",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152",
+        "bold": true
+      },
+      {
+        "fg": "#76a8f2",
+        "bold": true
+      },
+      {
+        "fg": "#487fd4",
+        "bold": true
+      }
+    ],
+    "size": [
+      104,
+      39
+    ]
+  },
+  {
+    "checkpoint": "command-filesets-split-graph",
+    "viewport_text": "jk jj\n   @  pqxyrvmx demo@example.invalid 2026-01-01 12:00:00 73f351d1\n   \u2502  Experiment with forecast caching\n\u203a  \u25cb  yokznrqw demo@example.invalid 2026-01-01 12:00:00 01b61ce0\n\u00b7  \u2502  Separate cache policy\n   \u25cb  oqysmzlr demo@example.invalid 2026-01-01 12:00:00 b34d7568\n   \u2502  Configure request timeouts\n   \u25cb  vzvnkxkw demo@example.invalid 2026-01-01 12:00:00 bd5c3187\n   \u2502  Add the forecast endpoint\n   \u25cb  lsstlszs alex@example.com 2026-01-01 12:00:00 f2740001\n   \u2502  Document the forecast service\n   \u25c6  zzzzzzzz root() 00000000\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n? help  H home  L log  r refresh  enter open  d diff  v evolog  s status  space mark  o ops  ...  q quit\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#52aa60",
+        "bold": true
+      },
+      {
+        "fg": "#d58bf0",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152",
+        "bold": true
+      },
+      {
+        "fg": "#ad9b49",
+        "bold": true
+      },
+      {
+        "fg": "#52c4c0",
+        "bold": true
+      },
+      {
+        "fg": "#76a8f2",
+        "bold": true
+      },
+      {
+        "fg": "#487fd4",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152"
+      },
+      {
+        "fg": "#ad9b49"
+      },
+      {
+        "fg": "#269d9a"
+      },
+      {
+        "fg": "#af5bd1",
+        "bold": true
+      },
+      {
+        "fg": "#52aa60"
+      }
+    ],
+    "size": [
+      104,
+      39
+    ]
+  },
+  {
+    "checkpoint": "command-filesets-restore-output",
+    "viewport_text": "jk jj --no-pager --color always --repository /home/runner/work/jk/jk/target/forecast-demo.BM4h8p restore\nCommand: jj --no-pager --color always --repository /home/runner/work/jk/jk/target/forecast-demo.BM4h8p r\nStatus: success\n\nStdout:\n<empty>\n\nStderr:\nWorking copy  (@) now at: yokznrqw ad06aa30 Experiment with forecast caching\nParent commit (@-)      : oqysmzlr b34d7568 Configure request timeouts\nAdded 0 files, modified 1 files, removed 0 files\n\nActions: e edit/retry command   : run another jj command\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n? help  V options  r refresh  j/k line  space page  q quit\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#dfe5ee",
+        "bg": "#3a485a"
+      },
+      {
+        "fg": "#dfe5ee",
+        "bg": "#215b53"
+      },
+      {
+        "fg": "#dfe5ee",
+        "bg": "#282d37"
+      },
+      {
+        "fg": "#dfe5ee",
+        "bg": "#1e232f"
+      },
+      {
+        "fg": "#d58bf0",
+        "bg": "#1e232f",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152",
+        "bg": "#1e232f",
+        "bold": true
+      },
+      {
+        "bg": "#1e232f",
+        "bold": true
+      },
+      {
+        "fg": "#76a8f2",
+        "bg": "#1e232f",
+        "bold": true
+      },
+      {
+        "fg": "#487fd4",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152"
+      },
+      {
+        "fg": "#af5bd1",
+        "bold": true
+      }
+    ],
+    "size": [
+      104,
+      39
+    ]
+  },
+  {
+    "checkpoint": "command-filesets-retained",
+    "viewport_text": "jk jj diff -r yokznrqw\n\u203a  Added regular file src/cache.js: | 5 +++++  [file 1/1]\n           1: const forecasts = new Map();\n           2:\n           3: export function remember(city, forecast) {\n           4:   forecasts.set(city, forecast);\n           5: }\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nfile 1/1 src/cache.js  f files  [/] file  { } hunk  ? help\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#ad9b49"
+      },
+      {
+        "fg": "#52aa60"
+      },
+      {
+        "fg": "#52aa60",
+        "underline": "single"
+      }
+    ],
+    "size": [
+      104,
+      39
+    ]
+  }
+]

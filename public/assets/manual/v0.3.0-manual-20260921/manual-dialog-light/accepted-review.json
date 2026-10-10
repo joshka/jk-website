@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "source_index": "manual/v0.3.0-manual-20260921/review-index.json",
+  "source_index_sha256": "17efd1f5f9a9c80791c6764f7972f466b4b29257831f2719b0c66b74b784fc16",
+  "review": {
+    "id": "manual-dialog-light",
+    "title": "Review a preview with light dialogs",
+    "status": "ready",
+    "source_tape": "tapes/manual/execution/manual-dialog-light.tape",
+    "source_tape_sha256": "44c88b46a116181a8affe686049940a3918b6dcd66231be7eef79a0412f72c27",
+    "website": {
+      "path": "assets/manual/v0.3.0-manual-20260921/manual-dialog-light"
+    },
+    "problems": [],
+    "checkpoints": [
+      {
+        "id": "manual-dialog-light-actions",
+        "png": "manual-dialog-light-actions.png",
+        "state": "manual-dialog-light-actions.json",
+        "png_sha256": "fe4ce56f289df7087294c853ffed285d256aee25a8a475732dbea99a06cc02ed",
+        "state_sha256": "f6ec77205db7bf4323a71b782e0fa033fd7bd4ab5b25d2fe1de9919fd500cfd4",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "root",
+          "reviewed_at": "2026-09-21T03:32:19.219139+00:00",
+          "summary": "All three full-size PNGs inspected: opaque light dialogs on populated graph, all controls readable. Caption now black on light margin, fixing prior contrast defect.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "root",
+          "reviewed_at": "2026-09-21T03:32:19.219333+00:00",
+          "summary": "Read every viewport and style table: #e1e6ed surface, #1c232d content, #006767 headings/focus and muted #526172 hints. Described revision matches selected graph; full help text readable.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/root-ci35557653700.json",
+        "text_style_review_source": "target/manual-recordings/reviews/root-ci35557653700.json"
+      },
+      {
+        "id": "manual-dialog-light-description",
+        "png": "manual-dialog-light-description.png",
+        "state": "manual-dialog-light-description.json",
+        "png_sha256": "06a96f085a72dc14751a13a99003f2cb93267601546b5fd83afe72edcf70d0fe",
+        "state_sha256": "e763048ac587f1e56d2e6e1c31deec46cbd5952404dd3b7128aec998f31ee22c",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "root",
+          "reviewed_at": "2026-09-21T03:32:19.219711+00:00",
+          "summary": "All three full-size PNGs inspected: opaque light dialogs on populated graph, all controls readable. Caption now black on light margin, fixing prior contrast defect.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "root",
+          "reviewed_at": "2026-09-21T03:32:19.219717+00:00",
+          "summary": "Read every viewport and style table: #e1e6ed surface, #1c232d content, #006767 headings/focus and muted #526172 hints. Described revision matches selected graph; full help text readable.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/root-ci35557653700.json",
+        "text_style_review_source": "target/manual-recordings/reviews/root-ci35557653700.json"
+      },
+      {
+        "id": "manual-dialog-light-help",
+        "png": "manual-dialog-light-help.png",
+        "state": "manual-dialog-light-help.json",
+        "png_sha256": "21c58780b77ee5bb9908c5be9245d1ca3cb2269311a909425bf6d7f7bfb59a98",
+        "state_sha256": "c25dbdecb94225ea30b785709e49e1ac869b43082731fb5238df5fe1c2bb491d",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "root",
+          "reviewed_at": "2026-09-21T03:32:19.220134+00:00",
+          "summary": "All three full-size PNGs inspected: opaque light dialogs on populated graph, all controls readable. Caption now black on light margin, fixing prior contrast defect.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "root",
+          "reviewed_at": "2026-09-21T03:32:19.220139+00:00",
+          "summary": "Read every viewport and style table: #e1e6ed surface, #1c232d content, #006767 headings/focus and muted #526172 hints. Described revision matches selected graph; full help text readable.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/root-ci35557653700.json",
+        "text_style_review_source": "target/manual-recordings/reviews/root-ci35557653700.json"
+      }
+    ],
+    "metadata_path": "target/manual-recordings/ci-35557653700/manual-evidence-manual-dialog-light/capture-metadata.json",
+    "metadata_sha256": "ecf7ba2706b75a56196ccee2c1a698d8f13ddd8cdfaf8f5f92dd08ec6b7c4307",
+    "evidence_directory": "target/manual-recordings/ci-35557653700/manual-evidence-manual-dialog-light",
+    "evidence_status": "passed",
+    "source_commit": "7fcb4fa9af1bb624fcdc7ac14a64184a43c4e829",
+    "pr_head_commit": "d5200f713edc476fd446616ad46fec573f861baf",
+    "source_manifest_sha256": "42c0d25b424a807906eb4e0ba7ca72b4c0488685e9f57b3bcf62d3f01c6c6915",
+    "source_matches_checkout": true,
+    "binary": {
+      "invoked_path": "/home/runner/work/jk/jk/target/manual-build/jk",
+      "path": "/home/runner/work/jk/jk/target/manual-build/jk",
+      "sha256": "cb41f94b63ec85100829bd2b1e9ced84f37cae912996a48e93b56b8776c9c5ed",
+      "version": "jk 0.3.0",
+      "version_exit_code": 0
+    },
+    "jj": {
+      "invoked_path": "/home/runner/.cargo/bin/jj",
+      "path": "/home/runner/.cargo/bin/jj",
+      "sha256": "cd5efc3eb281d606bf9b5523167f79661da0f8c76a5aa32d61c07c7a351b6b44",
+      "version": "jj 0.45.1-7c41cdeb16b6b321c64e789a966b6adf723816a5",
+      "version_exit_code": 0
+    },
+    "betamax": {
+      "invoked_path": "/home/runner/work/_temp/betamax-N3sY2O/bin/betamax",
+      "path": "/home/runner/work/_temp/betamax-N3sY2O/bin/betamax",
+      "sha256": "db55fa6e7ff98e1df3c91921b5b3fb504b3cc8fdaf6b07e3da952f8757053490",
+      "version": "betamax 0.1.21",
+      "version_exit_code": 0
+    },
+    "ci_run": {
+      "id": "35557653700",
+      "attempt": "1",
+      "url": "https://github.com/joshka/jk/actions/runs/35557653700"
+    },
+    "assertions": [
+      {
+        "path": "manual-dialog-light-assertions.json",
+        "sha256": "e039c5e97848c2bdf459403aabde5529a26e46c2a7ae056dd922e6deb0639c55",
+        "bytes": 936
+      }
+    ],
+    "video": {
+      "path": "manual-dialog-light.mp4",
+      "sha256": "d19141969045368c92a7ea026bac3fa7ec62d50909611e5e8ff5acd1ccc46478",
+      "bytes": 175875
+    },
+    "video_review": {
+      "status": "reviewed",
+      "reviewer": "root",
+      "reviewed_at": "2026-09-21T03:32:19.220141+00:00",
+      "summary": "Inspected decoded frames at3s intervals, source tape holds and ffprobe11.8s: graph\u2192actions\u2192description\u2192help; each modal held3s, caption and key overlay legible.",
+      "findings": [],
+      "sha256": "d19141969045368c92a7ea026bac3fa7ec62d50909611e5e8ff5acd1ccc46478"
+    },
+    "source_snapshot_status": "preserved",
+    "video_review_source": "target/manual-recordings/reviews/root-ci35557653700.json",
+    "pixel_review_complete": true,
+    "text_style_review_complete": true,
+    "video_review_complete": true
+  }
+}

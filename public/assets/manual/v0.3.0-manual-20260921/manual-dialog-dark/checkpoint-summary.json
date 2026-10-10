@@ -1,0 +1,214 @@
+[
+  {
+    "checkpoint": "manual-dialog-dark-actions",
+    "viewport_text": "jk jj\n\u203a  @  nzrrquty demo@example.invalid 2026-01-01 12:00:00 22340ee9\n\u00b7  \u2502  Experiment with forecast caching\n   \u25cb  mmqyqqtq demo@example.invalid 2026-01-01 12:00:00 f67b5b78\n   \u2502  Configure request timeouts\n   \u25cb  oxmzsxts demo@example.invalid 2026-01-01 12:00:00 92b946db\n   \u2502  Add the forecast endpoint\n   \u25cb  xswpoqkn alex@example.com 2026-01-01 12:00:00 3de7c15b\n   \u2502  Document the forecast service\n   \u25c6  zzzzzzzz root() 00000000\n\n                Actions\n\n                Change actions:\n                > m  Describe revision  enter saves\n                  n  New change  runs now\n                  e  Edit change  runs now\n                  s  Squash revisions  preview\n                  a  Abandon revision  checks first\n                  r  Restore all paths  destructive\n\n                History and recovery:\n                  u  Undo  runs now\n                  U  Redo  runs now\n\n                enter open   key select   esc close\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#52aa60",
+        "bold": true
+      },
+      {
+        "fg": "#d58bf0",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152",
+        "bold": true
+      },
+      {
+        "fg": "#ad9b49",
+        "bold": true
+      },
+      {
+        "fg": "#52c4c0",
+        "bold": true
+      },
+      {
+        "fg": "#76a8f2",
+        "bold": true
+      },
+      {
+        "fg": "#487fd4",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152"
+      },
+      {
+        "fg": "#ad9b49"
+      },
+      {
+        "fg": "#269d9a"
+      },
+      {
+        "fg": "#af5bd1",
+        "bold": true
+      },
+      {
+        "fg": "#52aa60"
+      },
+      {
+        "fg": "#e0e6ee",
+        "bg": "#242c3a"
+      },
+      {
+        "fg": "#65d4cf",
+        "bg": "#242c3a",
+        "bold": true
+      },
+      {
+        "fg": "#e0e6ee",
+        "bg": "#242c3a",
+        "bold": true
+      }
+    ],
+    "size": [
+      67,
+      39
+    ]
+  },
+  {
+    "checkpoint": "manual-dialog-dark-description",
+    "viewport_text": "jk jj\n\u203a  @  nzrrquty demo@example.invalid 2026-01-01 12:00:00 22340ee9\n\u00b7  \u2502  Experiment with forecast caching\n   \u25cb  mmqyqqtq demo@example.invalid 2026-01-01 12:00:00 f67b5b78\n   \u2502  Configure request timeouts\n   \u25cb  oxmzsxts demo@example.invalid 2026-01-01 12:00:00 92b946db\n   \u2502  Add the forecast endpoint\n   \u25cb  xswpoqkn alex@example.com 2026-01-01 12:00:00 3de7c15b\n   \u2502  Document the forecast service\n   \u25c6  zzzzzzzz root() 00000000\n\n\n\n\n\n Describe revision\n Revision: nzrrquty\n\n Experiment with forecast caching\n\n\n Enter save \u00b7 Esc cancel \u00b7 Ctrl-j newline\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#52aa60",
+        "bold": true
+      },
+      {
+        "fg": "#d58bf0",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152",
+        "bold": true
+      },
+      {
+        "fg": "#ad9b49",
+        "bold": true
+      },
+      {
+        "fg": "#52c4c0",
+        "bold": true
+      },
+      {
+        "fg": "#76a8f2",
+        "bold": true
+      },
+      {
+        "fg": "#487fd4",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152"
+      },
+      {
+        "fg": "#ad9b49"
+      },
+      {
+        "fg": "#269d9a"
+      },
+      {
+        "fg": "#af5bd1",
+        "bold": true
+      },
+      {
+        "fg": "#52aa60"
+      },
+      {
+        "fg": "#e0e6ee",
+        "bg": "#242c3a"
+      },
+      {
+        "fg": "#65d4cf",
+        "bg": "#242c3a",
+        "bold": true
+      },
+      {
+        "fg": "#a1aebe",
+        "bg": "#242c3a"
+      }
+    ],
+    "size": [
+      67,
+      39
+    ]
+  },
+  {
+    "checkpoint": "manual-dialog-dark-help",
+    "viewport_text": "jk jj\n\u203a  @  nzrrquty demo@example.invalid 2026-01-01 12:00:00 22340ee9\n\u00b7  \u2502  Experiment with forecast caching\n   \u25cb  mmqyqqtq demo@example.invalid 2026-01-01 12:00:00 f67b5b78\n   \u2502  Configure request timeouts\n   \u25cb  oxmzsxts demo@example.invalid 2026-01-01 12:00:00 92b946db\n   \u2502  Add the forecast endpoint\n   \u25cb  xswpoqkn alex@example.com 2026-01-01 12:00:00 3de7c15b\n   \u2502  Document the forecast service\n   \u25c6  zzzzzzzz root() 00000000\n\n               Help\n\n               Open and inspect:\n                 enter         jj show\n                 d             jj diff\n                 v             jj evolog\n                 s             jj status\n                 V             View options\n                 H / L         jj log\n               Move and find:\n                 \u2191/\u2193, j/k      Move selection\n                 Ctrl-j/k      Scroll line\n                 PgDn, Ctrl-f  Page down\n                 PgUp, Ctrl-b  Page up\n               showing lines 1-12 of 38  more below\n                 j/k scroll\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#52aa60",
+        "bold": true
+      },
+      {
+        "fg": "#d58bf0",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152",
+        "bold": true
+      },
+      {
+        "fg": "#ad9b49",
+        "bold": true
+      },
+      {
+        "fg": "#52c4c0",
+        "bold": true
+      },
+      {
+        "fg": "#76a8f2",
+        "bold": true
+      },
+      {
+        "fg": "#487fd4",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152"
+      },
+      {
+        "fg": "#ad9b49"
+      },
+      {
+        "fg": "#269d9a"
+      },
+      {
+        "fg": "#af5bd1",
+        "bold": true
+      },
+      {
+        "fg": "#52aa60"
+      },
+      {
+        "fg": "#e0e6ee",
+        "bg": "#242c3a"
+      },
+      {
+        "fg": "#65d4cf",
+        "bg": "#242c3a",
+        "bold": true
+      },
+      {
+        "fg": "#e0e6ee",
+        "bg": "#242c3a",
+        "bold": true
+      }
+    ],
+    "size": [
+      67,
+      39
+    ]
+  }
+]

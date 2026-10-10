@@ -1,0 +1,32 @@
+---
+import ManualLayout from '../../layouts/ManualLayout.astro';
+import { chapters } from '../../lib/manual';
+import { media } from '../../lib/manual-media';
+import ManualRecording from '../../components/ManualRecording.astro';
+
+export function getStaticPaths() {
+  return chapters.map((chapter) => ({ params: { slug: chapter.slug }, props: { chapter } }));
+}
+const { chapter } = Astro.props;
+const { Content, getHeadings } = chapter.document;
+const headings = getHeadings();
+const recordings = media.scenarios.filter((scenario) => scenario.manual_slugs.includes(chapter.slug));
+const firstRecording = recordings.find((recording) => recording.id === `manual-${chapter.slug}`) ?? recordings[0];
+const otherRecordings = recordings.filter((recording) => recording !== firstRecording);
+---
+
+<ManualLayout title={chapter.title} description={chapter.description} slug={chapter.slug} headings={headings}>
+  <Content />
+  {recordings.length > 0 && <section>
+    <h2 id="watch-the-workflow">Watch the workflow</h2>
+    <h3>{firstRecording.title}</h3>
+    <ManualRecording recording={firstRecording} compact />
+    {otherRecordings.length > 0 && <details class="manual-alternate-recordings">
+      <summary>Other recorded forms and recovery paths ({otherRecordings.length})</summary>
+      {otherRecordings.map((recording) => <>
+        <h3>{recording.title}</h3>
+        <ManualRecording recording={recording} compact />
+      </>)}
+    </details>}
+  </section>}
+</ManualLayout>

@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "source_index": "manual/v0.3.0-manual-20260921/review-index.json",
+  "source_index_sha256": "17efd1f5f9a9c80791c6764f7972f466b4b29257831f2719b0c66b74b784fc16",
+  "review": {
+    "id": "manual-run-options-historical",
+    "title": "Rebase from an earlier operation while preserving working-copy files",
+    "status": "ready",
+    "source_tape": "tapes/manual/rewrite/manual-run-options-historical.tape",
+    "source_tape_sha256": "6ec7ea723878349985e3ef55f2e6ce6e70c7445cd6cc88c8a3d76de872c79f96",
+    "website": {
+      "path": "assets/manual/v0.3.0-manual-20260921/manual-run-options-historical"
+    },
+    "problems": [],
+    "checkpoints": [
+      {
+        "id": "manual-run-options-historical-operation",
+        "png": "manual-run-options-historical-operation.png",
+        "state": "manual-run-options-historical-operation.json",
+        "png_sha256": "74233c075423223a80da4845554fba3991cccf50745b42d59b764b97df51c177",
+        "state_sha256": "912fce1e00dea431b7fe7f95d05950bd52d6ed57c266d68c9a77c0f64f1d0c4d",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "root",
+          "reviewed_at": "2026-09-21T03:54:58.867973+00:00",
+          "summary": "Reviewed all four full-size PNGs. Real historical operation ID and fixed repository wrap completely inside opaque options/preview; yellow warnings distinguish historical execution. Completion shows moved source, preserved after-baseline bookmark and historical completion message. Command History shows successful rebase stderr; its long header clips and operation metadata is absent, consistent with UX08/UX15.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "root",
+          "reviewed_at": "2026-09-21T03:54:58.868167+00:00",
+          "summary": "Read all four State JSON texts/styles. Teal controls and yellow warning spans use opaque dark backgrounds, colored graph identities remain distinguishable, and history transcript is neutral captured text. Four assertions prove unchanged on-disk files, later bookmark preservation and actual rebase operation parentage at the selected historical operation.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/root-ci35558741399.json",
+        "text_style_review_source": "target/manual-recordings/reviews/root-ci35558741399.json"
+      },
+      {
+        "id": "manual-run-options-historical-preview",
+        "png": "manual-run-options-historical-preview.png",
+        "state": "manual-run-options-historical-preview.json",
+        "png_sha256": "90b3e0939fc342b92362f24789a831739b2a0d9b390007d7478d11228dd03b9a",
+        "state_sha256": "70dc47efa1463849e432f269868230b8e9cfbd74373f2befa129cb236dfce79b",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "root",
+          "reviewed_at": "2026-09-21T03:54:58.868385+00:00",
+          "summary": "Reviewed all four full-size PNGs. Real historical operation ID and fixed repository wrap completely inside opaque options/preview; yellow warnings distinguish historical execution. Completion shows moved source, preserved after-baseline bookmark and historical completion message. Command History shows successful rebase stderr; its long header clips and operation metadata is absent, consistent with UX08/UX15.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "root",
+          "reviewed_at": "2026-09-21T03:54:58.868391+00:00",
+          "summary": "Read all four State JSON texts/styles. Teal controls and yellow warning spans use opaque dark backgrounds, colored graph identities remain distinguishable, and history transcript is neutral captured text. Four assertions prove unchanged on-disk files, later bookmark preservation and actual rebase operation parentage at the selected historical operation.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/root-ci35558741399.json",
+        "text_style_review_source": "target/manual-recordings/reviews/root-ci35558741399.json"
+      },
+      {
+        "id": "manual-run-options-historical-completed",
+        "png": "manual-run-options-historical-completed.png",
+        "state": "manual-run-options-historical-completed.json",
+        "png_sha256": "221add5ea79a6b0284486f05c3d323f253cd08cbe7b7411b620085431bf5b411",
+        "state_sha256": "916313e09a334fb7b64f196f9f0dfca22d5300146e44579093f18e92dae04768",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "root",
+          "reviewed_at": "2026-09-21T03:54:58.868497+00:00",
+          "summary": "Reviewed all four full-size PNGs. Real historical operation ID and fixed repository wrap completely inside opaque options/preview; yellow warnings distinguish historical execution. Completion shows moved source, preserved after-baseline bookmark and historical completion message. Command History shows successful rebase stderr; its long header clips and operation metadata is absent, consistent with UX08/UX15.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "root",
+          "reviewed_at": "2026-09-21T03:54:58.868500+00:00",
+          "summary": "Read all four State JSON texts/styles. Teal controls and yellow warning spans use opaque dark backgrounds, colored graph identities remain distinguishable, and history transcript is neutral captured text. Four assertions prove unchanged on-disk files, later bookmark preservation and actual rebase operation parentage at the selected historical operation.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/root-ci35558741399.json",
+        "text_style_review_source": "target/manual-recordings/reviews/root-ci35558741399.json"
+      },
+      {
+        "id": "manual-run-options-historical-operation-result",
+        "png": "manual-run-options-historical-operation-result.png",
+        "state": "manual-run-options-historical-operation-result.json",
+        "png_sha256": "08b563a58345f78f0bd727612f02481e950a657bf2c6ffe38fc9b343a533c6c2",
+        "state_sha256": "e235758b95b289c8946321f117b80296e6598876ed4f7097276b3fd931cbc1ff",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "root",
+          "reviewed_at": "2026-09-21T03:54:58.868597+00:00",
+          "summary": "Reviewed all four full-size PNGs. Real historical operation ID and fixed repository wrap completely inside opaque options/preview; yellow warnings distinguish historical execution. Completion shows moved source, preserved after-baseline bookmark and historical completion message. Command History shows successful rebase stderr; its long header clips and operation metadata is absent, consistent with UX08/UX15.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "root",
+          "reviewed_at": "2026-09-21T03:54:58.868599+00:00",
+          "summary": "Read all four State JSON texts/styles. Teal controls and yellow warning spans use opaque dark backgrounds, colored graph identities remain distinguishable, and history transcript is neutral captured text. Four assertions prove unchanged on-disk files, later bookmark preservation and actual rebase operation parentage at the selected historical operation.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/root-ci35558741399.json",
+        "text_style_review_source": "target/manual-recordings/reviews/root-ci35558741399.json"
+      }
+    ],
+    "metadata_path": "target/manual-recordings/ci-35558741399/manual-evidence-manual-run-options-historical/capture-metadata.json",
+    "metadata_sha256": "32526fd25f0987e7c21b26df024b69da1ee44ab479ca8d1a58bfa49680f744a3",
+    "evidence_directory": "target/manual-recordings/ci-35558741399/manual-evidence-manual-run-options-historical",
+    "evidence_status": "passed",
+    "source_commit": "47b3b0985cd561831d70afa5b192bc95e4c0fec8",
+    "pr_head_commit": "ec94b2b269e8a1fe8da28cdc3409e57adb6bc6aa",
+    "source_manifest_sha256": "42c0d25b424a807906eb4e0ba7ca72b4c0488685e9f57b3bcf62d3f01c6c6915",
+    "source_matches_checkout": true,
+    "binary": {
+      "invoked_path": "/home/runner/work/jk/jk/target/manual-build/jk",
+      "path": "/home/runner/work/jk/jk/target/manual-build/jk",
+      "sha256": "cb41f94b63ec85100829bd2b1e9ced84f37cae912996a48e93b56b8776c9c5ed",
+      "version": "jk 0.3.0",
+      "version_exit_code": 0
+    },
+    "jj": {
+      "invoked_path": "/home/runner/.cargo/bin/jj",
+      "path": "/home/runner/.cargo/bin/jj",
+      "sha256": "cd5efc3eb281d606bf9b5523167f79661da0f8c76a5aa32d61c07c7a351b6b44",
+      "version": "jj 0.45.1-7c41cdeb16b6b321c64e789a966b6adf723816a5",
+      "version_exit_code": 0
+    },
+    "betamax": {
+      "invoked_path": "/home/runner/work/_temp/betamax-8V4Z4K/bin/betamax",
+      "path": "/home/runner/work/_temp/betamax-8V4Z4K/bin/betamax",
+      "sha256": "db55fa6e7ff98e1df3c91921b5b3fb504b3cc8fdaf6b07e3da952f8757053490",
+      "version": "betamax 0.1.21",
+      "version_exit_code": 0
+    },
+    "ci_run": {
+      "id": "35558741399",
+      "attempt": "1",
+      "url": "https://github.com/joshka/jk/actions/runs/35558741399"
+    },
+    "assertions": [
+      {
+        "path": "manual-run-options-historical-assertions.json",
+        "sha256": "a9e1164c25ce4fdc0fe6d46922325c1533c0067faa9e6ce303ff383bfa0c47b8",
+        "bytes": 890
+      }
+    ],
+    "video": {
+      "path": "manual-run-options-historical.mp4",
+      "sha256": "957e70318b3ca11220efe74a91dea387f926216dcc5d78078263307be4c1948f",
+      "bytes": 687776
+    },
+    "video_review": {
+      "status": "reviewed",
+      "reviewer": "root",
+      "reviewed_at": "2026-09-21T03:54:58.868601+00:00",
+      "summary": "Reviewed 25.93-second MP4 via decoded four-second samples plus final frame and tape timing. Visible human typing enters the real prepared operation ID; each completed drawer/preview/result has a three-second hold. Final C then two-row move selects the rebase transcript. Caption says the command is retained; its clipped header remains a documented UI limitation.",
+      "findings": [],
+      "sha256": "957e70318b3ca11220efe74a91dea387f926216dcc5d78078263307be4c1948f"
+    },
+    "source_snapshot_status": "preserved",
+    "video_review_source": "target/manual-recordings/reviews/root-ci35558741399.json",
+    "pixel_review_complete": true,
+    "text_style_review_complete": true,
+    "video_review_complete": true
+  }
+}

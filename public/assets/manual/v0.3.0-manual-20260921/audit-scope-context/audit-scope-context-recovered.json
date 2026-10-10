@@ -1,0 +1,303 @@
+{
+  "size": [
+    98,
+    43
+  ],
+  "total_rows": 43,
+  "scrollback_rows": 0,
+  "cursor": {
+    "x": 97,
+    "y": 41,
+    "visible": false
+  },
+  "default_style": {
+    "fg": "#b4bcca",
+    "bg": "#0f141f"
+  },
+  "styles": [
+    {
+      "bold": true
+    },
+    {
+      "fg": "#52aa60",
+      "bold": true
+    },
+    {
+      "fg": "#d58bf0",
+      "bold": true
+    },
+    {
+      "fg": "#3a4152",
+      "bold": true
+    },
+    {
+      "fg": "#ad9b49",
+      "bold": true
+    },
+    {
+      "fg": "#52c4c0",
+      "bold": true
+    },
+    {
+      "fg": "#75cf84",
+      "bold": true
+    },
+    {
+      "fg": "#76a8f2",
+      "bold": true
+    },
+    {
+      "fg": "#487fd4",
+      "bold": true
+    },
+    {
+      "fg": "#3a4152"
+    },
+    {
+      "fg": "#ad9b49"
+    },
+    {
+      "fg": "#269d9a"
+    },
+    {
+      "fg": "#52aa60"
+    },
+    {
+      "fg": "#af5bd1",
+      "bold": true
+    }
+  ],
+  "viewport_text": "jk jj\n›  @  qmquxmry demo@example.invalid 2026-01-01 12:00:00 audit-context default@ 5416e289\n·  │  (empty) Workspace lifecycle demo\n   │ ○  tlznmvqv demo@example.invalid 2026-01-01 12:00:00 scratch@ 6ada6fb2\n   ├─╯  (no description set)\n   ○  qnyvzuou demo@example.invalid 2026-01-01 12:00:00 b2e6655a\n   │  Add workspace demo files\n   ◆  zzzzzzzz root() 00000000\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n? help  H home  L log  r refresh  enter open  d diff  v evolog  s status  space mark  ...  q quit\n",
+  "scrollback_text": "",
+  "viewport": [
+    [
+      "jk ",
+      [
+        "jj",
+        0
+      ]
+    ],
+    [
+      [
+        "›",
+        0
+      ],
+      "  ",
+      [
+        "@",
+        1
+      ],
+      "  ",
+      [
+        "qm",
+        2
+      ],
+      [
+        "quxmry",
+        3
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "demo@example.invalid",
+        4
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "2026-01-01 12:00:00",
+        5
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "audit-context",
+        2
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "default@",
+        6
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "5",
+        7
+      ],
+      [
+        "416e289",
+        3
+      ]
+    ],
+    [
+      [
+        "·",
+        0
+      ],
+      "  │  ",
+      [
+        "(empty)",
+        6
+      ],
+      [
+        " Workspace lifecycle demo",
+        0
+      ]
+    ],
+    [
+      "   │ ○  ",
+      [
+        "t",
+        8
+      ],
+      [
+        "lznmvqv",
+        9
+      ],
+      " ",
+      [
+        "demo@example.invalid",
+        10
+      ],
+      " ",
+      [
+        "2026-01-01 12:00:00",
+        11
+      ],
+      " ",
+      [
+        "scratch@",
+        12
+      ],
+      " ",
+      [
+        "6",
+        13
+      ],
+      [
+        "ada6fb2",
+        9
+      ]
+    ],
+    [
+      "   ├─╯  ",
+      [
+        "(no description set)",
+        10
+      ]
+    ],
+    [
+      "   ○  ",
+      [
+        "qn",
+        8
+      ],
+      [
+        "yvzuou",
+        9
+      ],
+      " ",
+      [
+        "demo@example.invalid",
+        10
+      ],
+      " ",
+      [
+        "2026-01-01 12:00:00",
+        11
+      ],
+      " ",
+      [
+        "b",
+        13
+      ],
+      [
+        "2e6655a",
+        9
+      ]
+    ],
+    [
+      "   │  Add workspace demo files"
+    ],
+    [
+      "   ",
+      [
+        "◆",
+        5
+      ],
+      "  ",
+      [
+        "z",
+        8
+      ],
+      [
+        "zzzzzzz",
+        9
+      ],
+      " ",
+      [
+        "root()",
+        12
+      ],
+      " ",
+      [
+        "0",
+        13
+      ],
+      [
+        "0000000",
+        9
+      ]
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "? help  H home  L log  r refresh  enter open  d diff  v evolog  s status  space mark  ...  q quit"
+    ]
+  ],
+  "scrollback": []
+}

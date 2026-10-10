@@ -1,0 +1,159 @@
+[
+  {
+    "checkpoint": "abandon-probe-failure-warning",
+    "viewport_text": "jk jj\n\u203a  @  mkvkmoop alex@example.invalid 2026-01-01 12:00:00 ecf9b78d\n\u00b7  \u2502  (empty) Empty checkpoint\n   \u25cb  xvnznxup demo@example.invalid 2026-01-01 12:00:00 8250b3cd\n   \u2502  Experiment with forecast caching\n   \u25cb  rxvmruwk demo@example.invalid 2026-01-01 12:00:00 4466d9ef\n   \u2502  Configure request timeouts\n   \u25cb  opkkuzyv demo@example.invalid 2026-01-01 12:00:00 cc423d1c\n   \u2502  Add the forecast endpoint\n   \u25cb  npummrwv ale   Abandon this change?\n   \u2502  Document the\n   \u25c6  zzzzzzzz roo   @ mkvkmoop  Empty checkpoint\n\n                     Couldn't check whether this change is empty. Review its\n                     contents before abandoning.\n\n\n                     Abandon removes this change and its edits from history.\n                     No descendant changes will be rebased.\n                     Recover with Undo in the action menu.\n\n\n                         View diff        > Cancel <        Abandon change\n\n\n                     Tab/\u2190/\u2192 choose \u00b7 Enter/Space select\n                     y abandon \u00b7 n/Esc cancel\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#52aa60",
+        "bold": true
+      },
+      {
+        "fg": "#d58bf0",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152",
+        "bold": true
+      },
+      {
+        "fg": "#ad9b49",
+        "bold": true
+      },
+      {
+        "fg": "#52c4c0",
+        "bold": true
+      },
+      {
+        "fg": "#76a8f2",
+        "bold": true
+      },
+      {
+        "fg": "#75cf84",
+        "bold": true
+      },
+      {
+        "fg": "#487fd4",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152"
+      },
+      {
+        "fg": "#ad9b49"
+      },
+      {
+        "fg": "#269d9a"
+      },
+      {
+        "fg": "#af5bd1",
+        "bold": true
+      },
+      {
+        "fg": "#e0e6ee",
+        "bg": "#242c3a"
+      },
+      {
+        "fg": "#65d4cf",
+        "bg": "#242c3a",
+        "bold": true
+      },
+      {
+        "fg": "#52aa60"
+      },
+      {
+        "fg": "#e0e6ee",
+        "bg": "#242c3a",
+        "bold": true
+      },
+      {
+        "fg": "#eab855",
+        "bg": "#242c3a"
+      },
+      {
+        "fg": "#a1aebe",
+        "bg": "#242c3a"
+      },
+      {
+        "fg": "#e0e6ee",
+        "bg": "#3a485a"
+      },
+      {
+        "fg": "#0f1d23",
+        "bg": "#52c4c0",
+        "bold": true
+      },
+      {
+        "fg": "#ffebeb",
+        "bg": "#782d32"
+      }
+    ],
+    "size": [
+      104,
+      39
+    ]
+  },
+  {
+    "checkpoint": "abandon-probe-failure-cancelled",
+    "viewport_text": "jk jj\n\u203a  @  mkvkmoop alex@example.invalid 2026-01-01 12:00:00 ecf9b78d\n\u00b7  \u2502  (empty) Empty checkpoint\n   \u25cb  xvnznxup demo@example.invalid 2026-01-01 12:00:00 8250b3cd\n   \u2502  Experiment with forecast caching\n   \u25cb  rxvmruwk demo@example.invalid 2026-01-01 12:00:00 4466d9ef\n   \u2502  Configure request timeouts\n   \u25cb  opkkuzyv demo@example.invalid 2026-01-01 12:00:00 cc423d1c\n   \u2502  Add the forecast endpoint\n   \u25cb  npummrwv alex@example.com 2026-01-01 12:00:00 2e81daa5\n   \u2502  Document the forecast service\n   \u25c6  zzzzzzzz root() 00000000\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n? help  H home  L log  r refresh  enter open  d diff  v evolog  s status  space mark  o ops  ...  q quit\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#52aa60",
+        "bold": true
+      },
+      {
+        "fg": "#d58bf0",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152",
+        "bold": true
+      },
+      {
+        "fg": "#ad9b49",
+        "bold": true
+      },
+      {
+        "fg": "#52c4c0",
+        "bold": true
+      },
+      {
+        "fg": "#76a8f2",
+        "bold": true
+      },
+      {
+        "fg": "#75cf84",
+        "bold": true
+      },
+      {
+        "fg": "#487fd4",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152"
+      },
+      {
+        "fg": "#ad9b49"
+      },
+      {
+        "fg": "#269d9a"
+      },
+      {
+        "fg": "#af5bd1",
+        "bold": true
+      },
+      {
+        "fg": "#52aa60"
+      }
+    ],
+    "size": [
+      104,
+      39
+    ]
+  }
+]

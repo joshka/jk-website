@@ -1,0 +1,207 @@
+{
+  "size": [
+    104,
+    39
+  ],
+  "total_rows": 39,
+  "scrollback_rows": 0,
+  "cursor": {
+    "x": 58,
+    "y": 38,
+    "visible": false
+  },
+  "default_style": {
+    "fg": "#b4bcca",
+    "bg": "#0f141f"
+  },
+  "styles": [
+    {
+      "bold": true
+    },
+    {
+      "fg": "#dfe5ee",
+      "bg": "#3a485a"
+    },
+    {
+      "fg": "#dfe5ee",
+      "bg": "#215b53"
+    },
+    {
+      "fg": "#dfe5ee",
+      "bg": "#282d37"
+    },
+    {
+      "fg": "#dfe5ee",
+      "bg": "#1e232f"
+    },
+    {
+      "fg": "#52aa60",
+      "bg": "#1e232f"
+    },
+    {
+      "bg": "#1e232f"
+    },
+    {
+      "fg": "#d58bf0",
+      "bg": "#1e232f",
+      "bold": true
+    },
+    {
+      "fg": "#3a4152",
+      "bg": "#1e232f",
+      "bold": true
+    },
+    {
+      "bg": "#1e232f",
+      "bold": true
+    },
+    {
+      "fg": "#76a8f2",
+      "bg": "#1e232f",
+      "bold": true
+    },
+    {
+      "fg": "#487fd4",
+      "bold": true
+    },
+    {
+      "fg": "#3a4152"
+    },
+    {
+      "fg": "#af5bd1",
+      "bold": true
+    }
+  ],
+  "viewport_text": "jk jj --no-pager --color always --repository /home/runner/work/jk/jk/target/forecast-demo.CDlVkR status\nCommand: jj --no-pager --color always --repository /home/runner/work/jk/jk/target/forecast-demo.CDlVkR s\nStatus: success\n\nStdout:\nWorking copy changes:\nA src/cache.js\nWorking copy  (@) : smqluxkn 45990678 Experiment with forecast caching\nParent commit (@-): kvosxvnu 3835991c Configure request timeouts\n\nStderr:\n<empty>\n\nActions: e edit/retry command   : run another jj command\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n? help  V options  r refresh  j/k line  space page  q quit\n",
+  "scrollback_text": "",
+  "viewport": [
+    [
+      "jk ",
+      [
+        "jj --no-pager --color always --repository /home/runner/work/jk/jk/target/forecast-demo.CDlVkR status",
+        0
+      ]
+    ],
+    [
+      [
+        "Command: jj --no-pager --color always --repository /home/runner/work/jk/jk/target/forecast-demo.CDlVkR s",
+        1
+      ]
+    ],
+    [
+      [
+        "Status: success",
+        2
+      ]
+    ],
+    [],
+    [
+      [
+        "Stdout:",
+        3
+      ]
+    ],
+    [
+      [
+        "Working copy changes:",
+        4
+      ]
+    ],
+    [
+      [
+        "A src/cache.js",
+        5
+      ]
+    ],
+    [
+      [
+        "Working copy  (@) : ",
+        6
+      ],
+      [
+        "s",
+        7
+      ],
+      [
+        "mqluxkn",
+        8
+      ],
+      [
+        " ",
+        9
+      ],
+      [
+        "4",
+        10
+      ],
+      [
+        "5990678",
+        8
+      ],
+      [
+        " Experiment with forecast caching",
+        9
+      ]
+    ],
+    [
+      "Parent commit (@-): ",
+      [
+        "k",
+        11
+      ],
+      [
+        "vosxvnu",
+        12
+      ],
+      " ",
+      [
+        "3",
+        13
+      ],
+      [
+        "835991c",
+        12
+      ],
+      " Configure request timeouts"
+    ],
+    [],
+    [
+      "Stderr:"
+    ],
+    [
+      "<empty>"
+    ],
+    [],
+    [
+      "Actions: e edit/retry command   : run another jj command"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "? help  V options  r refresh  j/k line  space page  q quit"
+    ]
+  ],
+  "scrollback": []
+}

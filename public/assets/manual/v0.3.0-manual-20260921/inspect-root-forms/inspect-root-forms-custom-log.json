@@ -1,0 +1,231 @@
+{
+  "size": [
+    104,
+    36
+  ],
+  "total_rows": 36,
+  "scrollback_rows": 0,
+  "cursor": {
+    "x": 103,
+    "y": 35,
+    "visible": false
+  },
+  "default_style": {
+    "fg": "#b4bcca",
+    "bg": "#0f141f"
+  },
+  "styles": [
+    {
+      "bold": true
+    },
+    {
+      "fg": "#52aa60",
+      "bold": true
+    },
+    {
+      "fg": "#d58bf0",
+      "bold": true
+    },
+    {
+      "fg": "#3a4152",
+      "bold": true
+    },
+    {
+      "fg": "#ad9b49",
+      "bold": true
+    },
+    {
+      "fg": "#52c4c0",
+      "bold": true
+    },
+    {
+      "fg": "#76a8f2",
+      "bold": true
+    },
+    {
+      "fg": "#487fd4",
+      "bold": true
+    },
+    {
+      "fg": "#3a4152"
+    },
+    {
+      "fg": "#ad9b49"
+    },
+    {
+      "fg": "#269d9a"
+    },
+    {
+      "fg": "#af5bd1",
+      "bold": true
+    }
+  ],
+  "viewport_text": "jk jj log -T builtin_log_oneline\n›  @  wvplrrrn alex 2026-01-01 12:00:00 candidate bdca6a22 Experiment with forecast caching\n   ○  wlqzxwll alex 2026-01-01 12:00:00 552d4ed7 Configure request timeouts\n   ○  zqnukxpo alex 2026-01-01 12:00:00 2dcd2df5 Add the forecast endpoint\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n? help  H home  L log  r refresh  enter open  d diff  v evolog  s status  space mark  o ops  ...  q quit\n",
+  "scrollback_text": "",
+  "viewport": [
+    [
+      "jk ",
+      [
+        "jj log -T builtin_log_oneline",
+        0
+      ]
+    ],
+    [
+      [
+        "›",
+        0
+      ],
+      "  ",
+      [
+        "@",
+        1
+      ],
+      "  ",
+      [
+        "wv",
+        2
+      ],
+      [
+        "plrrrn",
+        3
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "alex",
+        4
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "2026-01-01 12:00:00",
+        5
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "candidate",
+        2
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "b",
+        6
+      ],
+      [
+        "dca6a22",
+        3
+      ],
+      [
+        " Experiment with forecast caching",
+        0
+      ]
+    ],
+    [
+      "   ○  ",
+      [
+        "wl",
+        7
+      ],
+      [
+        "qzxwll",
+        8
+      ],
+      " ",
+      [
+        "alex",
+        9
+      ],
+      " ",
+      [
+        "2026-01-01 12:00:00",
+        10
+      ],
+      " ",
+      [
+        "5",
+        11
+      ],
+      [
+        "52d4ed7",
+        8
+      ],
+      " Configure request timeouts"
+    ],
+    [
+      "   ○  ",
+      [
+        "zq",
+        7
+      ],
+      [
+        "nukxpo",
+        8
+      ],
+      " ",
+      [
+        "alex",
+        9
+      ],
+      " ",
+      [
+        "2026-01-01 12:00:00",
+        10
+      ],
+      " ",
+      [
+        "2",
+        11
+      ],
+      [
+        "dcd2df5",
+        8
+      ],
+      " Add the forecast endpoint"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "? help  H home  L log  r refresh  enter open  d diff  v evolog  s status  space mark  o ops  ...  q quit"
+    ]
+  ],
+  "scrollback": []
+}

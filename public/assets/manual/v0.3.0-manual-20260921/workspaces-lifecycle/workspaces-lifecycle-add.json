@@ -1,0 +1,272 @@
+{
+  "size": [
+    98,
+    43
+  ],
+  "total_rows": 43,
+  "scrollback_rows": 0,
+  "cursor": {
+    "x": 88,
+    "y": 31,
+    "visible": false
+  },
+  "default_style": {
+    "fg": "#b4bcca",
+    "bg": "#0f141f"
+  },
+  "styles": [
+    {
+      "bold": true
+    },
+    {
+      "fg": "#269d9a",
+      "bold": true
+    },
+    {
+      "fg": "#65d4cf",
+      "bg": "#242c3a",
+      "bold": true
+    },
+    {
+      "fg": "#e0e6ee",
+      "bg": "#242c3a"
+    },
+    {
+      "fg": "#a1aebe",
+      "bg": "#242c3a"
+    },
+    {
+      "fg": "#e0e6ee",
+      "bg": "#242c3a",
+      "bold": true
+    }
+  ],
+  "viewport_text": "jk jj workspace list\n   * default  /home/runner/work/jk/jk/target/manual-fixtures/workspaces.zmNul7/workflows.4NDboK/wo\n›    scratch  /home/runner/work/jk/jk/target/manual-fixtures/workspaces.zmNul7/workflows.4NDboK/wo\n\n\n\n\n\n\n\n\n            Add workspace\n\n\n            Workspace  scratch\n            Path\n            /home/runner/work/jk/jk/target/manual-fixtures/workspaces.zmNul7/workflows\n            .4NDboK/workspaces/scratch\n\n            Destination\n            /home/runner/work/jk/jk/target/manual-fixtures/workspaces.zmNul7/workflows\n            .4NDboK/workspaces/manual-added\n            Name        manual-added\n\n            Exact command\n            jj --no-pager --color always --repository /home/runner/work/jk/jk/target/m\n            anual-fixtures/workspaces.zmNul7/workflows.4NDboK/workspaces/repo workspac\n            e add /home/runner/work/jk/jk/target/manual-fixtures/workspaces.zmNul7/wor\n            kflows.4NDboK/workspaces/manual-added --name manual-added\n\n              ↑/↓ Review    Enter / y Confirm    Esc / n Cancel\n",
+  "scrollback_text": "",
+  "viewport": [
+    [
+      "jk ",
+      [
+        "jj workspace list",
+        0
+      ]
+    ],
+    [
+      "   ",
+      [
+        "*",
+        1
+      ],
+      " ",
+      [
+        "default",
+        0
+      ],
+      "  /home/runner/work/jk/jk/target/manual-fixtures/workspaces.zmNul7/workflows.4NDboK/wo"
+    ],
+    [
+      [
+        "›",
+        0
+      ],
+      "  ",
+      [
+        " ",
+        1
+      ],
+      " ",
+      [
+        "scratch",
+        0
+      ],
+      "  /home/runner/work/jk/jk/target/manual-fixtures/workspaces.zmNul7/workflows.4NDboK/wo"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "          ",
+      [
+        "  Add workspace",
+        2
+      ]
+    ],
+    [],
+    [],
+    [
+      "          ",
+      [
+        "  ",
+        3
+      ],
+      [
+        "Workspace  ",
+        4
+      ],
+      [
+        "scratch",
+        3
+      ]
+    ],
+    [
+      "          ",
+      [
+        "  ",
+        3
+      ],
+      [
+        "Path",
+        4
+      ]
+    ],
+    [
+      "          ",
+      [
+        "  /home/runner/work/jk/jk/target/manual-fixtures/workspaces.zmNul7/workflows",
+        3
+      ]
+    ],
+    [
+      "          ",
+      [
+        "  .4NDboK/workspaces/scratch",
+        3
+      ]
+    ],
+    [],
+    [
+      "          ",
+      [
+        "  ",
+        3
+      ],
+      [
+        "Destination",
+        4
+      ]
+    ],
+    [
+      "          ",
+      [
+        "  /home/runner/work/jk/jk/target/manual-fixtures/workspaces.zmNul7/workflows",
+        3
+      ]
+    ],
+    [
+      "          ",
+      [
+        "  .4NDboK/workspaces/manual-added",
+        3
+      ]
+    ],
+    [
+      "          ",
+      [
+        "  ",
+        3
+      ],
+      [
+        "Name        ",
+        4
+      ],
+      [
+        "manual-added",
+        3
+      ]
+    ],
+    [],
+    [
+      "          ",
+      [
+        "  ",
+        3
+      ],
+      [
+        "Exact command",
+        4
+      ]
+    ],
+    [
+      "          ",
+      [
+        "  ",
+        3
+      ],
+      [
+        "jj --no-pager --color always --repository /home/runner/work/jk/jk/target/m",
+        5
+      ]
+    ],
+    [
+      "          ",
+      [
+        "  ",
+        3
+      ],
+      [
+        "anual-fixtures/workspaces.zmNul7/workflows.4NDboK/workspaces/repo workspac",
+        5
+      ]
+    ],
+    [
+      "          ",
+      [
+        "  ",
+        3
+      ],
+      [
+        "e add /home/runner/work/jk/jk/target/manual-fixtures/workspaces.zmNul7/wor",
+        5
+      ]
+    ],
+    [
+      "          ",
+      [
+        "  ",
+        3
+      ],
+      [
+        "kflows.4NDboK/workspaces/manual-added --name manual-added",
+        5
+      ]
+    ],
+    [],
+    [
+      "          ",
+      [
+        "    ",
+        3
+      ],
+      [
+        "↑/↓",
+        2
+      ],
+      [
+        " Review    ",
+        3
+      ],
+      [
+        "Enter / y",
+        2
+      ],
+      [
+        " Confirm    ",
+        3
+      ],
+      [
+        "Esc / n",
+        2
+      ],
+      [
+        " Cancel",
+        3
+      ]
+    ]
+  ],
+  "scrollback": []
+}

@@ -1,0 +1,38 @@
+{
+  "scenario": "manual-rebase-revision-onto",
+  "stage": "manual-rebase-revision-onto",
+  "status": "passed",
+  "repository": "/home/runner/work/jk/jk/target/manual-fixtures/rebase.rTd6aZ/workflows.8iwzQO/rebase",
+  "assertions": [
+    {
+      "name": "source content retained",
+      "passed": true,
+      "actual": "source contents\n",
+      "expected": "source contents\n"
+    },
+    {
+      "name": "source descendants remain",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "name": "destination descendants remain",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "name": "source parent is selected destination",
+      "passed": true,
+      "actual": "Rebase destination",
+      "expected": "Rebase destination"
+    },
+    {
+      "name": "revision-only reconnects source descendant to old parent",
+      "passed": true,
+      "actual": "Rebase base",
+      "expected": "Rebase base"
+    }
+  ]
+}

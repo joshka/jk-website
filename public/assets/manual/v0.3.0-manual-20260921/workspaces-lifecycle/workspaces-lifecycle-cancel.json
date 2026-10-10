@@ -1,0 +1,241 @@
+{
+  "size": [
+    98,
+    43
+  ],
+  "total_rows": 43,
+  "scrollback_rows": 0,
+  "cursor": {
+    "x": 88,
+    "y": 31,
+    "visible": false
+  },
+  "default_style": {
+    "fg": "#b4bcca",
+    "bg": "#0f141f"
+  },
+  "styles": [
+    {
+      "bold": true
+    },
+    {
+      "fg": "#269d9a",
+      "bold": true
+    },
+    {
+      "fg": "#65d4cf",
+      "bg": "#242c3a",
+      "bold": true
+    },
+    {
+      "fg": "#e0e6ee",
+      "bg": "#242c3a"
+    },
+    {
+      "fg": "#a1aebe",
+      "bg": "#242c3a"
+    },
+    {
+      "fg": "#eab855",
+      "bg": "#242c3a",
+      "bold": true
+    },
+    {
+      "fg": "#e0e6ee",
+      "bg": "#242c3a",
+      "bold": true
+    }
+  ],
+  "viewport_text": "jk jj workspace list\n   * default  /home/runner/work/jk/jk/target/manual-fixtures/workspaces.zmNul7/workflows.4NDboK/wo\n›    scratch  /home/runner/work/jk/jk/target/manual-fixtures/workspaces.zmNul7/workflows.4NDboK/wo\n\n\n\n\n\n\n\n\n            Forget workspace metadata?\n\n\n            Workspace  scratch\n            Path\n            /home/runner/work/jk/jk/target/manual-fixtures/workspaces.zmNul7/workflows\n            .4NDboK/workspaces/scratch\n\n            Files are not deleted. Only jj workspace metadata is forgotten.\n\n            Exact command\n            jj --no-pager --color always --repository /home/runner/work/jk/jk/target/m\n            anual-fixtures/workspaces.zmNul7/workflows.4NDboK/workspaces/repo workspac\n            e forget scratch\n\n\n\n\n\n              ↑/↓ Review    Enter / y Confirm    Esc / n Cancel\n",
+  "scrollback_text": "",
+  "viewport": [
+    [
+      "jk ",
+      [
+        "jj workspace list",
+        0
+      ]
+    ],
+    [
+      "   ",
+      [
+        "*",
+        1
+      ],
+      " ",
+      [
+        "default",
+        0
+      ],
+      "  /home/runner/work/jk/jk/target/manual-fixtures/workspaces.zmNul7/workflows.4NDboK/wo"
+    ],
+    [
+      [
+        "›",
+        0
+      ],
+      "  ",
+      [
+        " ",
+        1
+      ],
+      " ",
+      [
+        "scratch",
+        0
+      ],
+      "  /home/runner/work/jk/jk/target/manual-fixtures/workspaces.zmNul7/workflows.4NDboK/wo"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "          ",
+      [
+        "  Forget workspace metadata?",
+        2
+      ]
+    ],
+    [],
+    [],
+    [
+      "          ",
+      [
+        "  ",
+        3
+      ],
+      [
+        "Workspace  ",
+        4
+      ],
+      [
+        "scratch",
+        3
+      ]
+    ],
+    [
+      "          ",
+      [
+        "  ",
+        3
+      ],
+      [
+        "Path",
+        4
+      ]
+    ],
+    [
+      "          ",
+      [
+        "  /home/runner/work/jk/jk/target/manual-fixtures/workspaces.zmNul7/workflows",
+        3
+      ]
+    ],
+    [
+      "          ",
+      [
+        "  .4NDboK/workspaces/scratch",
+        3
+      ]
+    ],
+    [],
+    [
+      "          ",
+      [
+        "  ",
+        3
+      ],
+      [
+        "Files are not deleted. Only jj workspace metadata is forgotten.",
+        5
+      ]
+    ],
+    [],
+    [
+      "          ",
+      [
+        "  ",
+        3
+      ],
+      [
+        "Exact command",
+        4
+      ]
+    ],
+    [
+      "          ",
+      [
+        "  ",
+        3
+      ],
+      [
+        "jj --no-pager --color always --repository /home/runner/work/jk/jk/target/m",
+        6
+      ]
+    ],
+    [
+      "          ",
+      [
+        "  ",
+        3
+      ],
+      [
+        "anual-fixtures/workspaces.zmNul7/workflows.4NDboK/workspaces/repo workspac",
+        6
+      ]
+    ],
+    [
+      "          ",
+      [
+        "  ",
+        3
+      ],
+      [
+        "e forget scratch",
+        6
+      ]
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "          ",
+      [
+        "    ",
+        3
+      ],
+      [
+        "↑/↓",
+        2
+      ],
+      [
+        " Review    ",
+        3
+      ],
+      [
+        "Enter / y",
+        2
+      ],
+      [
+        " Confirm    ",
+        3
+      ],
+      [
+        "Esc / n",
+        2
+      ],
+      [
+        " Cancel",
+        3
+      ]
+    ]
+  ],
+  "scrollback": []
+}

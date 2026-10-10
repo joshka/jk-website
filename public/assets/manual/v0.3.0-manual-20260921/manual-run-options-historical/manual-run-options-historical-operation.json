@@ -1,0 +1,440 @@
+{
+  "size": [
+    104,
+    39
+  ],
+  "total_rows": 39,
+  "scrollback_rows": 0,
+  "cursor": {
+    "x": 49,
+    "y": 33,
+    "visible": false
+  },
+  "default_style": {
+    "fg": "#b4bcca",
+    "bg": "#0f141f"
+  },
+  "styles": [
+    {
+      "bold": true
+    },
+    {
+      "fg": "#52aa60",
+      "bold": true
+    },
+    {
+      "fg": "#d58bf0",
+      "bold": true
+    },
+    {
+      "fg": "#3a4152",
+      "bold": true
+    },
+    {
+      "fg": "#ad9b49",
+      "bold": true
+    },
+    {
+      "fg": "#52c4c0",
+      "bold": true
+    },
+    {
+      "fg": "#76a8f2",
+      "bold": true
+    },
+    {
+      "fg": "#487fd4",
+      "bold": true
+    },
+    {
+      "fg": "#3a4152"
+    },
+    {
+      "fg": "#ad9b49"
+    },
+    {
+      "fg": "#269d9a"
+    },
+    {
+      "fg": "#af5bd1",
+      "bold": true
+    },
+    {
+      "fg": "#e0e6ee",
+      "bg": "#242c3a"
+    },
+    {
+      "fg": "#65d4cf",
+      "bg": "#242c3a",
+      "bold": true
+    },
+    {
+      "fg": "#a1aebe",
+      "bg": "#242c3a"
+    }
+  ],
+  "viewport_text": "jk jj\n›  @  qxpsvvnm demo@example.invalid 2026-01-01 12:00:00 82854cfa\n·  │  Rebase source\n   │ ○  vnuusuor demo@example.invalid 2026-01-01 12:00:00 1bf73cde\n   ├─╯  Rebase destination\n   ○  ssnzz Run options · this command only\n   │  Rebas\n   ◆  zzzzz   Working copy      ignored (history)\n            › Operation         specific ID below\n              Immutable commits protected\n\n            Enter an operation ID (12+ hex digits), or clear it for latest. Historical edits\n            create concurrent history and leave working-copy files unchanged.\n\n            Repository:\n            /home/runner/work/jk/jk/target/manual-fixtures/run-options.rewGGK/workflows.2YHj\n            gO/rebase\n            Fixed to the repository that supplied these operands.\n            Options affect this command only. Normal operation integration stays enabled.\n            Operation:\n            844cd0328e09a3fa729680e7091c0b7ddd6b489ced36211c13c062452b0890e027cf64171d8df80e\n            89cfb17f312895f09810b139bacdc18267a6589ae0877898\n            Working-copy files are ignored. Refresh returns to latest history.\n\n            jj --no-pager --color always --repository\n            /home/runner/work/jk/jk/target/manual-fixtures/run-options.rewGGK/workflows.2YHj\n            gO/rebase --at-operation\n            844cd0328e09a3fa729680e7091c0b7ddd6b489ced36211c13c062452b0890e027cf64171d8df80e\n            89cfb17f312895f09810b139bacdc18267a6589ae0877898 rebase -r\n            82854cfadccf82d86df63a035362d6057bbddca8 -o\n            1bf73cde340edbc5f18853750166f033f82328b2\n\n            ↑↓ select  Enter edit\n            a apply to preview  Esc cancel\n",
+  "scrollback_text": "",
+  "viewport": [
+    [
+      "jk ",
+      [
+        "jj",
+        0
+      ]
+    ],
+    [
+      [
+        "›",
+        0
+      ],
+      "  ",
+      [
+        "@",
+        1
+      ],
+      "  ",
+      [
+        "q",
+        2
+      ],
+      [
+        "xpsvvnm",
+        3
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "demo@example.invalid",
+        4
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "2026-01-01 12:00:00",
+        5
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "8",
+        6
+      ],
+      [
+        "2854cfa",
+        3
+      ]
+    ],
+    [
+      [
+        "·",
+        0
+      ],
+      "  │  ",
+      [
+        "Rebase source",
+        0
+      ]
+    ],
+    [
+      "   │ ○  ",
+      [
+        "v",
+        7
+      ],
+      [
+        "nuusuor",
+        8
+      ],
+      " ",
+      [
+        "demo@example.invalid",
+        9
+      ],
+      " ",
+      [
+        "2026-01-01 12:00:00",
+        10
+      ],
+      " ",
+      [
+        "1",
+        11
+      ],
+      [
+        "bf73cde",
+        8
+      ]
+    ],
+    [
+      "   ├─╯  Rebase destination"
+    ],
+    [
+      "   ○  ",
+      [
+        "s",
+        7
+      ],
+      [
+        "snzz",
+        8
+      ],
+      [
+        " ",
+        12
+      ],
+      [
+        "Run options",
+        13
+      ],
+      [
+        " · this command only",
+        14
+      ]
+    ],
+    [
+      "   │  Rebas"
+    ],
+    [
+      "   ",
+      [
+        "◆",
+        5
+      ],
+      "  ",
+      [
+        "z",
+        7
+      ],
+      [
+        "zzzz",
+        8
+      ],
+      [
+        " ",
+        12
+      ],
+      [
+        "  ",
+        14
+      ],
+      [
+        "Working copy      ignored (history)",
+        12
+      ]
+    ],
+    [
+      "           ",
+      [
+        " ",
+        12
+      ],
+      [
+        "› ",
+        13
+      ],
+      [
+        "Operation         specific ID below",
+        12
+      ]
+    ],
+    [
+      "           ",
+      [
+        " ",
+        12
+      ],
+      [
+        "  ",
+        14
+      ],
+      [
+        "Immutable commits protected",
+        12
+      ]
+    ],
+    [],
+    [
+      "           ",
+      [
+        " Enter an operation ID (12+ hex digits), or clear it for latest. Historical edits",
+        12
+      ]
+    ],
+    [
+      "           ",
+      [
+        " create concurrent history and leave working-copy files unchanged.",
+        12
+      ]
+    ],
+    [],
+    [
+      "           ",
+      [
+        " Repository:",
+        12
+      ]
+    ],
+    [
+      "           ",
+      [
+        " /home/runner/work/jk/jk/target/manual-fixtures/run-options.rewGGK/workflows.2YHj",
+        12
+      ]
+    ],
+    [
+      "           ",
+      [
+        " gO/rebase",
+        12
+      ]
+    ],
+    [
+      "           ",
+      [
+        " Fixed to the repository that supplied these operands.",
+        12
+      ]
+    ],
+    [
+      "           ",
+      [
+        " Options affect this command only. Normal operation integration stays enabled.",
+        12
+      ]
+    ],
+    [
+      "           ",
+      [
+        " Operation:",
+        12
+      ]
+    ],
+    [
+      "           ",
+      [
+        " 844cd0328e09a3fa729680e7091c0b7ddd6b489ced36211c13c062452b0890e027cf64171d8df80e",
+        12
+      ]
+    ],
+    [
+      "           ",
+      [
+        " 89cfb17f312895f09810b139bacdc18267a6589ae0877898",
+        12
+      ]
+    ],
+    [
+      "           ",
+      [
+        " Working-copy files are ignored. Refresh returns to latest history.",
+        12
+      ]
+    ],
+    [],
+    [
+      "           ",
+      [
+        " jj --no-pager --color always --repository",
+        12
+      ]
+    ],
+    [
+      "           ",
+      [
+        " /home/runner/work/jk/jk/target/manual-fixtures/run-options.rewGGK/workflows.2YHj",
+        12
+      ]
+    ],
+    [
+      "           ",
+      [
+        " gO/rebase --at-operation",
+        12
+      ]
+    ],
+    [
+      "           ",
+      [
+        " 844cd0328e09a3fa729680e7091c0b7ddd6b489ced36211c13c062452b0890e027cf64171d8df80e",
+        12
+      ]
+    ],
+    [
+      "           ",
+      [
+        " 89cfb17f312895f09810b139bacdc18267a6589ae0877898 rebase -r",
+        12
+      ]
+    ],
+    [
+      "           ",
+      [
+        " 82854cfadccf82d86df63a035362d6057bbddca8 -o",
+        12
+      ]
+    ],
+    [
+      "           ",
+      [
+        " 1bf73cde340edbc5f18853750166f033f82328b2",
+        12
+      ]
+    ],
+    [],
+    [
+      "           ",
+      [
+        " ",
+        12
+      ],
+      [
+        "↑↓",
+        13
+      ],
+      [
+        " select  ",
+        14
+      ],
+      [
+        "Enter",
+        13
+      ],
+      [
+        " edit",
+        14
+      ]
+    ],
+    [
+      "           ",
+      [
+        " ",
+        12
+      ],
+      [
+        "a",
+        13
+      ],
+      [
+        " apply to preview  ",
+        14
+      ],
+      [
+        "Esc",
+        13
+      ],
+      [
+        " cancel",
+        14
+      ]
+    ]
+  ],
+  "scrollback": []
+}

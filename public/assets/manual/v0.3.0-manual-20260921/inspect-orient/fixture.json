@@ -1,0 +1,8 @@
+{
+  "repository": "/home/runner/work/jk/jk/target/manual-fixtures/inspection.MiCNnY/repo",
+  "kind": "inspection",
+  "initial_commit": "4939c3743fd2711a1bcd13b5f38e6f5fd1d505a1",
+  "initial_operation": "f05dbc002c25fef9d55d7e42793b004085970b483c156db03f2bcf35ab515922d1f1103ada393fc8fd12e27aba23e22f3cbb3b27d3c71e479ef4f0a197fcd79d",
+  "binary": "/home/runner/work/jk/jk/target/manual-build/jk",
+  "isolated_jj_config": "/dev/null"
+}

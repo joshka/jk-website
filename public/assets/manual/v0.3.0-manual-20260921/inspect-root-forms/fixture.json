@@ -1,0 +1,8 @@
+{
+  "repository": "/home/runner/work/jk/jk/target/manual-fixtures/inspection.g1uiUb/repo",
+  "kind": "inspection",
+  "initial_commit": "bdca6a22123e432816f52792315428136370f619",
+  "initial_operation": "e6de21a9418e9e207eeca258e9af937ff3ea8b970b259651a83351725743e36867a9b57336563a6d707d4f1ba2ebd3ce0b734c87fa9b95616dca1e10dd8cc28f",
+  "binary": "/home/runner/work/jk/jk/target/manual-build/jk",
+  "isolated_jj_config": "/dev/null"
+}

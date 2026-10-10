@@ -1,0 +1,257 @@
+{
+  "size": [
+    104,
+    39
+  ],
+  "total_rows": 39,
+  "scrollback_rows": 0,
+  "cursor": {
+    "x": 103,
+    "y": 38,
+    "visible": false
+  },
+  "default_style": {
+    "fg": "#b4bcca",
+    "bg": "#0f141f"
+  },
+  "styles": [
+    {
+      "bold": true
+    },
+    {
+      "fg": "#52aa60",
+      "bold": true
+    },
+    {
+      "fg": "#d58bf0",
+      "bold": true
+    },
+    {
+      "fg": "#3a4152",
+      "bold": true
+    },
+    {
+      "fg": "#ad9b49",
+      "bold": true
+    },
+    {
+      "fg": "#52c4c0",
+      "bold": true
+    },
+    {
+      "fg": "#76a8f2",
+      "bold": true
+    },
+    {
+      "fg": "#75cf84",
+      "bold": true
+    },
+    {
+      "fg": "#487fd4",
+      "bold": true
+    },
+    {
+      "fg": "#3a4152"
+    },
+    {
+      "fg": "#ad9b49"
+    },
+    {
+      "fg": "#269d9a"
+    },
+    {
+      "fg": "#af5bd1",
+      "bold": true
+    },
+    {
+      "fg": "#52aa60"
+    },
+    {
+      "fg": "#e0e6ee",
+      "bg": "#242c3a"
+    }
+  ],
+  "viewport_text": "jk jj\n   @  zxnzyktr alex@example.invalid 2026-01-01 12:00:00 5d4f2965\n   │  (empty) (no description set)\n›  ○  tzwuonrv demo@example.invalid 2026-01-01 12:00:00 74e3e883\n·  │  Squash destination\n   ◆  zzzzzzzz root() 00000000\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                                                      ✓ Squashed source changes · a u undo · C history\n? help  H home  L log  r refresh  enter open  d diff  v evolog  s status  space mark  o ops  ...  q quit\n",
+  "scrollback_text": "",
+  "viewport": [
+    [
+      "jk ",
+      [
+        "jj",
+        0
+      ]
+    ],
+    [
+      "   ",
+      [
+        "@",
+        1
+      ],
+      "  ",
+      [
+        "zx",
+        2
+      ],
+      [
+        "nzyktr",
+        3
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "alex@example.invalid",
+        4
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "2026-01-01 12:00:00",
+        5
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "5",
+        6
+      ],
+      [
+        "d4f2965",
+        3
+      ]
+    ],
+    [
+      "   │  ",
+      [
+        "(empty)",
+        7
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "(no description set)",
+        7
+      ]
+    ],
+    [
+      [
+        "›",
+        0
+      ],
+      "  ○  ",
+      [
+        "t",
+        8
+      ],
+      [
+        "zwuonrv",
+        9
+      ],
+      " ",
+      [
+        "demo@example.invalid",
+        10
+      ],
+      " ",
+      [
+        "2026-01-01 12:00:00",
+        11
+      ],
+      " ",
+      [
+        "7",
+        12
+      ],
+      [
+        "4e3e883",
+        9
+      ]
+    ],
+    [
+      [
+        "·",
+        0
+      ],
+      "  │  Squash destination"
+    ],
+    [
+      "   ",
+      [
+        "◆",
+        5
+      ],
+      "  ",
+      [
+        "zz",
+        8
+      ],
+      [
+        "zzzzzz",
+        9
+      ],
+      " ",
+      [
+        "root()",
+        13
+      ],
+      " ",
+      [
+        "0",
+        12
+      ],
+      [
+        "0000000",
+        9
+      ]
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "                                                      ",
+      [
+        "✓ Squashed source changes · a u undo · C history",
+        14
+      ]
+    ],
+    [
+      "? help  H home  L log  r refresh  enter open  d diff  v evolog  s status  space mark  o ops  ...  q quit"
+    ]
+  ],
+  "scrollback": []
+}

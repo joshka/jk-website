@@ -1,0 +1,54 @@
+[
+  {
+    "checkpoint": "command-bookmarks-tracked",
+    "viewport_text": "jk jj bookmark list\n\u203a  demo: edc29bc14d20 (local)\n   incoming: 8389e947292a (local)\n   incoming@fixture: 8389e947292a (tracked, synced)\n   review-keep: 7e2e0051975f (local)\n   stable-a: 7e2e0051975f (local)\n   stable-b: 7e2e0051975f (local)\n   stable-c: 7e2e0051975f (local)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEnter inspect  c create  m move  x delete  F fetch  P dry-run  ? help  Esc back\n",
+    "styles": [
+      {
+        "bold": true
+      }
+    ],
+    "size": [
+      98,
+      43
+    ]
+  },
+  {
+    "checkpoint": "command-bookmarks-untracked",
+    "viewport_text": "jk jj bookmark list\n\u203a  demo: edc29bc14d20 (local)\n   incoming: 8389e947292a (local)\n   incoming@fixture: 8389e947292a (untracked)\n   review-keep: 7e2e0051975f (local)\n   stable-a: 7e2e0051975f (local)\n   stable-b: 7e2e0051975f (local)\n   stable-c: 7e2e0051975f (local)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEnter inspect  c create  m move  x delete  F fetch  P dry-run  ? help  Esc back\n",
+    "styles": [
+      {
+        "bold": true
+      }
+    ],
+    "size": [
+      98,
+      43
+    ]
+  },
+  {
+    "checkpoint": "command-bookmarks-renamed",
+    "viewport_text": "jk jj bookmark list\n\u203a  demo: edc29bc14d20 (local)\n   incoming@fixture: 8389e947292a (untracked)\n   local-review: 8389e947292a (local)\n   review-keep: 7e2e0051975f (local)\n   stable-a: 7e2e0051975f (local)\n   stable-b: 7e2e0051975f (local)\n   stable-c: 7e2e0051975f (local)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEnter inspect  c create  m move  x delete  F fetch  P dry-run  ? help  Esc back\n",
+    "styles": [
+      {
+        "bold": true
+      }
+    ],
+    "size": [
+      98,
+      43
+    ]
+  },
+  {
+    "checkpoint": "command-bookmarks-forgotten",
+    "viewport_text": "jk jj bookmark list\n\u203a  demo: edc29bc14d20 (local)\n   incoming@fixture: 8389e947292a (untracked)\n   review-keep: 7e2e0051975f (local)\n   stable-a: 7e2e0051975f (local)\n   stable-b: 7e2e0051975f (local)\n   stable-c: 7e2e0051975f (local)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEnter inspect  c create  m move  x delete  F fetch  P dry-run  ? help  Esc back\n",
+    "styles": [
+      {
+        "bold": true
+      }
+    ],
+    "size": [
+      98,
+      43
+    ]
+  }
+]

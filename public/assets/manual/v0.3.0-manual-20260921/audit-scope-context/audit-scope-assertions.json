@@ -1,0 +1,43 @@
+{
+  "scenario": "audit-scope-context",
+  "stage": "scope",
+  "status": "passed",
+  "assertions": [
+    {
+      "name": "sibling working-copy identity and description stay unchanged",
+      "passed": true,
+      "actual": {
+        "description": "",
+        "commit": "6ada6fb246788c56c597b6e70031e14ba45d1fcc"
+      },
+      "expected": {
+        "description": "",
+        "commit": "6ada6fb246788c56c597b6e70031e14ba45d1fcc"
+      }
+    },
+    {
+      "name": "both original workspace registrations remain",
+      "passed": true,
+      "actual": [
+        "default",
+        "scratch"
+      ],
+      "expected": [
+        "default",
+        "scratch"
+      ]
+    },
+    {
+      "name": "command from sibling inspection changes startup working copy",
+      "passed": true,
+      "actual": "Scope audit changed startup workspace",
+      "expected": "Scope audit changed startup workspace"
+    },
+    {
+      "name": "action mode leaves bookmark viewport text unchanged",
+      "passed": true,
+      "actual": "jk jj bookmark list\n\u203a  audit-context: 5416e289bcca (local)\n   audit-context@git: 5416e289bcca (tracked, synced)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEnter inspect  c create  m move  x delete  F fetch  P dry-run  ? help  Esc back\n",
+      "expected": "jk jj bookmark list\n\u203a  audit-context: 5416e289bcca (local)\n   audit-context@git: 5416e289bcca (tracked, synced)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEnter inspect  c create  m move  x delete  F fetch  P dry-run  ? help  Esc back\n"
+    }
+  ]
+}

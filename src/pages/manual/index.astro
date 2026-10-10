@@ -1,0 +1,38 @@
+---
+import ManualLayout from '../../layouts/ManualLayout.astro';
+import { chapters, manualLink } from '../../lib/manual';
+---
+
+<ManualLayout title="jk manual"
+  description="Inspect and edit Jujutsu repositories from a terminal interface."
+  eyebrow="Using jk">
+  <div class="manual-intro">
+    <p>Use the log to select changes and inspect their contents. Rebase, squash, and restore show
+      the affected revisions before you confirm; New and Edit run immediately.</p>
+    <a class="manual-start" href={manualLink('start')}>Open your first repository <span aria-hidden="true">→</span></a>
+  </div>
+  <h2 id="workflows">Follow a workflow</h2>
+  <ol class="manual-chapter-list">
+    {chapters.map((chapter, index) => (
+      <li><a href={manualLink(chapter.slug)}>
+        <span class="manual-chapter-number">{String(index + 1).padStart(2, '0')}</span>
+        <span><strong>{chapter.title}</strong><span>{chapter.description}</span></span>
+        <span class="manual-arrow" aria-hidden="true">↗</span>
+      </a></li>
+    ))}
+  </ol>
+  <h2 id="look-up-a-command">Look up a command</h2>
+  <p>Find a command's keys, options, and effects in the
+    <a href={manualLink('reference')}>command reference</a>. Entries distinguish native actions,
+    commands run with <code>:</code>, and commands that require a separate terminal.</p>
+  <div class="manual-callout">
+    <strong><a href={manualLink('recordings')}>Recorded workflows</a></strong>
+    <p>Watch rebase, bookmark, and recovery examples in disposable repositories. Each recording
+      includes screenshots, terminal text, and checks of the resulting repository.</p>
+  </div>
+  <h2 id="current-boundaries">Current boundaries</h2>
+  <p>jk 0.3.0 includes whole-change rebase, squash, and restore previews, bookmarks and remotes,
+    workspace management, command history, and operation recovery. Native partial-change editing,
+    conflict resolution, and real push remain gaps. The <a href={manualLink('audit')}>UX findings</a>
+    describe the evidence and proposed improvements.</p>
+</ManualLayout>

@@ -1,0 +1,58 @@
+---
+import { checkpointAnchor, mediaLink, type Recording } from '../lib/manual-media';
+interface Props { recording: Recording; compact?: boolean; }
+const { recording, compact = false } = Astro.props;
+const poster = recording.checkpoints[0];
+const durationSeconds = Math.round(recording.duration);
+---
+
+<figure class="manual-media" id={recording.id}>
+  <video controls playsinline preload="none" poster={poster ? mediaLink(recording, poster.png) : undefined}
+    aria-label={recording.title}>
+    <source src={mediaLink(recording, recording.video)} type="video/mp4" />
+    <p><a href={mediaLink(recording, recording.video)}>Download {recording.title}</a></p>
+  </video>
+  <figcaption>
+    {recording.title} · {Math.floor(durationSeconds / 60)}:{String(durationSeconds % 60).padStart(2, '0')}
+    {' · '}<a href={mediaLink(recording, recording.video)}>MP4</a>
+  </figcaption>
+</figure>
+<details class="manual-media-details">
+  <summary>{compact ? 'Screenshots and terminal evidence' : 'Inspect checkpoints and repository outcomes'}</summary>
+  {recording.checkpoints.map((checkpoint) => (
+    <figure class="manual-media" id={checkpointAnchor(recording, checkpoint.id)}>
+      <a href={mediaLink(recording, checkpoint.png)}>
+        <img src={mediaLink(recording, checkpoint.png)} alt={`${recording.title}: ${checkpoint.id.replaceAll('-', ' ')}`} loading="lazy" />
+      </a>
+      <figcaption>{checkpoint.id.replaceAll('-', ' ')} · <a href={mediaLink(recording, checkpoint.state)}>Terminal state and styles (JSON)</a></figcaption>
+      <details><summary>Read the terminal text</summary><pre>{checkpoint.text}</pre></details>
+    </figure>
+  ))}
+  <p><a href={mediaLink(recording, recording.metadata)}>Binary, tool versions, and file hashes</a>
+    {' · '}<a href={mediaLink(recording, recording.review)}>Accepted pixel, text/style, and video review</a>
+    {recording.logs.map((file) => <>{' · '}<a href={mediaLink(recording, file)}>{file}</a></>)}
+    {recording.assertions.map((file, index) => <>{' · '}<a href={mediaLink(recording, file)}>Outcome assertions {index + 1}</a></>)}
+  </p>
+  <details>
+    <summary>All retained evidence ({recording.artifacts.length} files)</summary>
+    <p>Includes source tapes, original helper scripts, fixture details, terminal states, and logs.</p>
+    <ul>{recording.artifacts.map((artifact) => (
+      <li><a href={mediaLink(recording, artifact.path)}>{artifact.path}</a></li>
+    ))}</ul>
+  </details>
+</details>
+
+<script>
+  function revealCheckpoint() {
+    const target = document.querySelector<HTMLElement>(':target');
+    if (!target?.closest('.manual-media')) return;
+    let ancestor = target.parentElement;
+    while (ancestor) {
+      if (ancestor instanceof HTMLDetailsElement) ancestor.open = true;
+      ancestor = ancestor.parentElement;
+    }
+    requestAnimationFrame(() => target.scrollIntoView({ block: 'start' }));
+  }
+  revealCheckpoint();
+  window.addEventListener('hashchange', revealCheckpoint);
+</script>

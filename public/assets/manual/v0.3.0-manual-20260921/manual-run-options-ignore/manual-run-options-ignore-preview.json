@@ -1,0 +1,417 @@
+{
+  "size": [
+    104,
+    39
+  ],
+  "total_rows": 39,
+  "scrollback_rows": 0,
+  "cursor": {
+    "x": 93,
+    "y": 30,
+    "visible": false
+  },
+  "default_style": {
+    "fg": "#b4bcca",
+    "bg": "#0f141f"
+  },
+  "styles": [
+    {
+      "bold": true
+    },
+    {
+      "fg": "#52aa60",
+      "bold": true
+    },
+    {
+      "fg": "#d58bf0",
+      "bold": true
+    },
+    {
+      "fg": "#3a4152",
+      "bold": true
+    },
+    {
+      "fg": "#ad9b49",
+      "bold": true
+    },
+    {
+      "fg": "#52c4c0",
+      "bold": true
+    },
+    {
+      "fg": "#76a8f2",
+      "bold": true
+    },
+    {
+      "fg": "#487fd4",
+      "bold": true
+    },
+    {
+      "fg": "#3a4152"
+    },
+    {
+      "fg": "#ad9b49"
+    },
+    {
+      "fg": "#269d9a"
+    },
+    {
+      "fg": "#af5bd1",
+      "bold": true
+    },
+    {
+      "fg": "#52aa60"
+    },
+    {
+      "fg": "#e0e6ee",
+      "bg": "#242c3a"
+    },
+    {
+      "fg": "#65d4cf",
+      "bg": "#242c3a",
+      "bold": true
+    },
+    {
+      "fg": "#eab855",
+      "bg": "#242c3a"
+    },
+    {
+      "fg": "#e0e6ee",
+      "bg": "#242c3a",
+      "bold": true
+    }
+  ],
+  "viewport_text": "jk jj\n›  @  qzpyupqo demo@example.invalid 2026-01-01 12:00:00 336e83fb\n·  │  Rebase source\n   │ ○  qtnrvvqu demo@example.invalid 2026-01-01 12:00:00 08d882d5\n   ├─╯  Rebase destination\n   ○  ttptlksv demo@example.invalid 2026-01-01 12:00:00 6ffc5ec8\n   │  Rebase base\n   ◆  zzzzzzzz root() 00000000\n\n              Rebase revisions\n\n              Source: 336e83fb10cce0754080ebe999197656e67932a3\n              Source role: revision only\n              Moves the selected revision (-r); reconnects descendants to its old parents.\n              Destination: 08d882d56fb49d80f85844d1717b90f469771443\n              Placement: onto\n              Makes this revision the new parent (-o).\n\n              ! Rewrites local history.\n              ! Ignores the current working-copy snapshot.\n\n              Command\n              jj --no-pager --color always --repository\n              /home/runner/work/jk/jk/target/manual-fixtures/run-options.uIxGSF/workflows.\n              NyXSQU/rebase --ignore-working-copy rebase -r\n              336e83fb10cce0754080ebe999197656e67932a3 -o\n              08d882d56fb49d80f85844d1717b90f469771443\n\n\n              enter run  y copy  esc cancel  o options\n",
+  "scrollback_text": "",
+  "viewport": [
+    [
+      "jk ",
+      [
+        "jj",
+        0
+      ]
+    ],
+    [
+      [
+        "›",
+        0
+      ],
+      "  ",
+      [
+        "@",
+        1
+      ],
+      "  ",
+      [
+        "qz",
+        2
+      ],
+      [
+        "pyupqo",
+        3
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "demo@example.invalid",
+        4
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "2026-01-01 12:00:00",
+        5
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "3",
+        6
+      ],
+      [
+        "36e83fb",
+        3
+      ]
+    ],
+    [
+      [
+        "·",
+        0
+      ],
+      "  │  ",
+      [
+        "Rebase source",
+        0
+      ]
+    ],
+    [
+      "   │ ○  ",
+      [
+        "qt",
+        7
+      ],
+      [
+        "nrvvqu",
+        8
+      ],
+      " ",
+      [
+        "demo@example.invalid",
+        9
+      ],
+      " ",
+      [
+        "2026-01-01 12:00:00",
+        10
+      ],
+      " ",
+      [
+        "08",
+        11
+      ],
+      [
+        "d882d5",
+        8
+      ]
+    ],
+    [
+      "   ├─╯  Rebase destination"
+    ],
+    [
+      "   ○  ",
+      [
+        "t",
+        7
+      ],
+      [
+        "tptlksv",
+        8
+      ],
+      " ",
+      [
+        "demo@example.invalid",
+        9
+      ],
+      " ",
+      [
+        "2026-01-01 12:00:00",
+        10
+      ],
+      " ",
+      [
+        "6",
+        11
+      ],
+      [
+        "ffc5ec8",
+        8
+      ]
+    ],
+    [
+      "   │  Rebase base"
+    ],
+    [
+      "   ",
+      [
+        "◆",
+        5
+      ],
+      "  ",
+      [
+        "z",
+        7
+      ],
+      [
+        "zzzzzzz",
+        8
+      ],
+      " ",
+      [
+        "root()",
+        12
+      ],
+      " ",
+      [
+        "00",
+        11
+      ],
+      [
+        "000000",
+        8
+      ]
+    ],
+    [],
+    [
+      "             ",
+      [
+        " ",
+        13
+      ],
+      [
+        "Rebase revisions",
+        14
+      ]
+    ],
+    [],
+    [
+      "             ",
+      [
+        " Source: 336e83fb10cce0754080ebe999197656e67932a3",
+        13
+      ]
+    ],
+    [
+      "             ",
+      [
+        " Source role: revision only",
+        13
+      ]
+    ],
+    [
+      "             ",
+      [
+        " Moves the selected revision (-r); reconnects descendants to its old parents.",
+        13
+      ]
+    ],
+    [
+      "             ",
+      [
+        " Destination: 08d882d56fb49d80f85844d1717b90f469771443",
+        13
+      ]
+    ],
+    [
+      "             ",
+      [
+        " Placement: onto",
+        13
+      ]
+    ],
+    [
+      "             ",
+      [
+        " Makes this revision the new parent (-o).",
+        13
+      ]
+    ],
+    [],
+    [
+      "             ",
+      [
+        " ",
+        13
+      ],
+      [
+        "! Rewrites local history.",
+        15
+      ]
+    ],
+    [
+      "             ",
+      [
+        " ",
+        13
+      ],
+      [
+        "! Ignores the current working-copy snapshot.",
+        15
+      ]
+    ],
+    [],
+    [
+      "             ",
+      [
+        " ",
+        13
+      ],
+      [
+        "Command",
+        16
+      ]
+    ],
+    [
+      "             ",
+      [
+        " jj --no-pager --color always --repository",
+        13
+      ]
+    ],
+    [
+      "             ",
+      [
+        " /home/runner/work/jk/jk/target/manual-fixtures/run-options.uIxGSF/workflows.",
+        13
+      ]
+    ],
+    [
+      "             ",
+      [
+        " NyXSQU/rebase --ignore-working-copy rebase -r",
+        13
+      ]
+    ],
+    [
+      "             ",
+      [
+        " 336e83fb10cce0754080ebe999197656e67932a3 -o",
+        13
+      ]
+    ],
+    [
+      "             ",
+      [
+        " 08d882d56fb49d80f85844d1717b90f469771443",
+        13
+      ]
+    ],
+    [],
+    [],
+    [
+      "             ",
+      [
+        " ",
+        13
+      ],
+      [
+        "enter",
+        14
+      ],
+      [
+        " run  ",
+        13
+      ],
+      [
+        "y",
+        14
+      ],
+      [
+        " copy  ",
+        13
+      ],
+      [
+        "esc",
+        14
+      ],
+      [
+        " cancel  ",
+        13
+      ],
+      [
+        "o",
+        14
+      ],
+      [
+        " options",
+        13
+      ]
+    ]
+  ],
+  "scrollback": []
+}

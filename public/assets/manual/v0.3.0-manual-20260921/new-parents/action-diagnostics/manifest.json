@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "results": [
+    {
+      "tape": "new-parents.tape",
+      "status": "passed"
+    }
+  ],
+  "problems": [],
+  "media": [
+    {
+      "name": "betamax-betamax-changes-new-parents-r1-m1.new-parents.mp4",
+      "label": "new-parents.tape (mp4)",
+      "type": "video/mp4"
+    },
+    {
+      "name": "betamax-betamax-changes-new-parents-r1-m2.new-parents-merged.png",
+      "label": "new-parents-merged.png",
+      "type": "image/png"
+    },
+    {
+      "name": "betamax-betamax-changes-new-parents-r1-m3.new-parents-ordered.png",
+      "label": "new-parents-ordered.png",
+      "type": "image/png"
+    },
+    {
+      "name": "betamax-betamax-changes-new-parents-r1-m4.new-parents-undone.png",
+      "label": "new-parents-undone.png",
+      "type": "image/png"
+    }
+  ]
+}

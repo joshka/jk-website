@@ -1,0 +1,389 @@
+{
+  "schema": 1,
+  "scenario": {
+    "id": "manual-squash",
+    "tape": "tapes/manual/rewrite/manual-squash.tape",
+    "group": "rewrite",
+    "variant": "rewrite-manual-squash",
+    "video": "manual-squash.mp4",
+    "checkpoints": [
+      "manual-squash-preview",
+      "manual-squash-success",
+      "manual-squash-recovered"
+    ],
+    "media_count": 4
+  },
+  "status": "passed",
+  "started_at": "2026-09-21T03:29:27.250734+00:00",
+  "source_tape_sha256": "20b4034a5ee729b630ccbd1c6b80c702d7796771f0228e211e71b18c3d40dcfe",
+  "provenance": {
+    "recorded_at": "2026-09-21T03:29:27.250749+00:00",
+    "source_repo": "/home/runner/work/jk/jk",
+    "github": {
+      "GITHUB_SHA": "7fcb4fa9af1bb624fcdc7ac14a64184a43c4e829",
+      "JK_PR_HEAD_SHA": "d5200f713edc476fd446616ad46fec573f861baf",
+      "GITHUB_REPOSITORY": "joshka/jk",
+      "GITHUB_RUN_ID": "35557653700",
+      "GITHUB_RUN_ATTEMPT": "1",
+      "GITHUB_WORKFLOW": "Betamax",
+      "GITHUB_EVENT_NAME": "pull_request"
+    },
+    "jk": {
+      "invoked_path": "/home/runner/work/jk/jk/target/manual-build/jk",
+      "path": "/home/runner/work/jk/jk/target/manual-build/jk",
+      "sha256": "cb41f94b63ec85100829bd2b1e9ced84f37cae912996a48e93b56b8776c9c5ed",
+      "version": "jk 0.3.0",
+      "version_exit_code": 0
+    },
+    "jj": {
+      "invoked_path": "/home/runner/.cargo/bin/jj",
+      "path": "/home/runner/.cargo/bin/jj",
+      "sha256": "cd5efc3eb281d606bf9b5523167f79661da0f8c76a5aa32d61c07c7a351b6b44",
+      "version": "jj 0.45.1-7c41cdeb16b6b321c64e789a966b6adf723816a5",
+      "version_exit_code": 0
+    },
+    "rustc": {
+      "invoked_path": "/home/runner/.cargo/bin/rustc",
+      "path": "/home/runner/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc",
+      "sha256": "859254978c0a0402c32f949f6de0d99aee73be8d15f45aac00ae1448aac51e74",
+      "version": "rustc 1.98.1 (48a229cea 2026-09-01)",
+      "version_exit_code": 0
+    },
+    "sources": {
+      "Cargo.toml": "bc1bb6ee390cb57c8f39bfc4705610630fdbabad067a9db2f69eaf457b65a25d",
+      "Cargo.lock": "7f7911db226b60a690828f4a70e3c0a833fedc77b3a619eec530e35d1e78142a",
+      "crates/jk/src/abandon_confirmation.rs": "186e6f7557120bf8fc5f96748dc866ab072f05d1e2711f92a73a0bd4faa958f3",
+      "crates/jk/src/actions.rs": "061aad3586f63941d7ccb8d327b1ae398cdcc487e765230f704a73b2b7649c4a",
+      "crates/jk/src/bookmark_routes.rs": "4861ede4c1d3a4e10d45557e0b882cb9bf9b695e6add51e5dd18a3150fbe0a3a",
+      "crates/jk/src/cli.rs": "d8b051ba50eb53af198dc0ccbfbf7406319a78417bd0a90e3eb3c11d14a71cd0",
+      "crates/jk/src/clipboard.rs": "5e5c62156dfc9e4cdda268f2cc523eb5cb98cb24dfcfe2b8df700cd60fdccbd9",
+      "crates/jk/src/command_history.rs": "2b96c35dda2f77712399673841dc97d996813ad0e22cd6eb0520a144eb0c1bcf",
+      "crates/jk/src/command_mode.rs": "0200924a6d5811ace965839fd997d25d98c637725e0f96b49e13c39c43297e18",
+      "crates/jk/src/description_editor.rs": "827eed5a172b9c434a5fb60598e18e67c011365f4690c7e3db86f735bb2d3129",
+      "crates/jk/src/key.rs": "650eed585e2419a9d7c8c76b1615515e4161652bed886a0c8cbc048ad8b69581",
+      "crates/jk/src/main.rs": "31e789e113461fa890aa5176e3db181a61792bc0739b8eb45f3bb380f5fd4b52",
+      "crates/jk/src/menus.rs": "09ff87cb293f7ac99dadced52f66e36d035c8d393db64630a6396bc1275771c3",
+      "crates/jk/src/mutation_preview.rs": "e0c380e9a91cc494dd72b4d5f9727d829fc59c1560704c340893258d1e31467d",
+      "crates/jk/src/mutations.rs": "0d4ac1d0680e8765b264412ca582a173ac506f79f9273cc2c00734b82d07ccc5",
+      "crates/jk/src/operation_log.rs": "7663522e4cc5d0ece8296b856b3f426741afa62a59683ffd7f6b6b626c340e96",
+      "crates/jk/src/rebase.rs": "d71cce08e448c32d58537c494ae22372d60f0e74f92719e4b22d09a35a6d2c90",
+      "crates/jk/src/refresh.rs": "f99fe839b2a2e319d39087fe9513f8fce720e5eebab30e86d9f0e9785f355a24",
+      "crates/jk/src/refresh_runner.rs": "67bc950d4ded933f99aa9824cf4119aef6584abe9df0472209d1e6d35bd2dbd4",
+      "crates/jk/src/rendering.rs": "f5eafbb6a04cd23c191b2696f01f1d9f686e2d412a16e7edf8d945a771bf31c1",
+      "crates/jk/src/root_views.rs": "e831948a71e1198b249c4f8531c80befbe0658d2dd56d5d91d3f235f4d3f713f",
+      "crates/jk/src/run_options.rs": "2ca91337ac53ca2796e59f2506543f324a0ce694ea3c908674444c9c1e24c71d",
+      "crates/jk/src/runner.rs": "b4b917003394dae5deda43f00cd1b82b66b5a04c391f16bfc070b15464182d24",
+      "crates/jk/src/squash.rs": "d5cb11fc33004e7859f4b871905fa64344f7d48da44b9f43e85f35312270e749",
+      "crates/jk/src/state.rs": "7b4cf559bb9b7a34f24590b186bb0d50847e8bf930f59de95f31ecd1fa384cb8",
+      "crates/jk/src/test_support.rs": "0bbba34b56ce683032f375970ee3671d3643694896c53532100cc760df75975f",
+      "crates/jk/src/workspace_lifecycle.rs": "1c3723577edccd4fb6915cdc9dc7984dc10b04b73911964d1c3092bca2bc800b",
+      "crates/jk/src/workspace_routes.rs": "d684e47a59a3a3ba9fa4ab7bff6309740df3605552516aba846039e5ea467a1b",
+      "crates/jk/src/workspaces.rs": "8f57038533130a15199306ec96dad0f6d9320c47d6da65ab4318e689e3eaa065",
+      "crates/jk-cli/src/abandon.rs": "99fa8a55b984c254d73269e942e37b11172a373e380e4549abab0bc52b97bfe0",
+      "crates/jk-cli/src/bookmarks.rs": "ca757bf05b1232370de2d266db09d68bb126c2b0e6046f034a4f4d73860dce16",
+      "crates/jk-cli/src/command.rs": "98c093351df7ed0e00255f1ba62bff51f0f38af26e90f2f37955b1442f997be8",
+      "crates/jk-cli/src/describe.rs": "dc83544e6d2bcbc648c0590025c59c7a424ca184e55c659e76f32bde31c84df9",
+      "crates/jk-cli/src/diff.rs": "def61d6ce68c2683a4ede71764c49a9ad8dd47e8253c7477af0bdd452c2c284a",
+      "crates/jk-cli/src/edit.rs": "7c842a343b7e6d846c515aead6c0388cb4a87e336f6eb9c8c2e1d2200b467d79",
+      "crates/jk-cli/src/evolog.rs": "ff24e316ebef1ccbbbe6b46cdbaf0dd3de4adc538e8b515392bafc1521326bae",
+      "crates/jk-cli/src/git_remote.rs": "589f28af10f9c95988e7bb545384eaa97ab69167e8e97f2b49915662069e985e",
+      "crates/jk-cli/src/lib.rs": "20b8bcf5271b99e8c00322392ad1bbf5a03ba3d035ac876c3c638fcf1582afeb",
+      "crates/jk-cli/src/log/rendered.rs": "2dc8903803e4d3a7d7af1576c4e3380f8d0e89200749f1876b779a803348240e",
+      "crates/jk-cli/src/log/semantic.rs": "5626a4b8b1075fd796bebc36fa097c3f9cb6aa18cd452e0e0a4c2ec989251ae3",
+      "crates/jk-cli/src/log.rs": "baf6ca84e4765a9e9131bb21a0b5ecf397c0c105cc39daf852cdb69fec5d0980",
+      "crates/jk-cli/src/new.rs": "e8517ddaf7c40505bd3f5fea7604d47b6bd89f09d16d911eaf89da63ebe66937",
+      "crates/jk-cli/src/operation.rs": "7d449065b45ddfdf6d282d90ebc9d122fa0ce63417f797d89a978706a802496d",
+      "crates/jk-cli/src/rebase.rs": "5f5a744ad140f4a4887b502c1d8e21aa2dad671c35587a3da3ce77a5f96afd68",
+      "crates/jk-cli/src/recovery.rs": "7254f8ba8b6723455336856997a86431c303de10a750d23cfcf47e79fd7cf364",
+      "crates/jk-cli/src/restore.rs": "ebb5020a7eae147f3e7445f530909d4b8d3b204a4499d664d61fd518bbc010ad",
+      "crates/jk-cli/src/show.rs": "98afa8a617ecfc7118be10b47a797398fdcfa802b1816554d13dd0b1f260d865",
+      "crates/jk-cli/src/squash.rs": "79838d9f5498085904295c9a012be6071adb9d3c0b22102d0bf28623aa7489ee",
+      "crates/jk-cli/src/status.rs": "c4263e54769be5e0c8411060b00db0a00c29e0f43c40d63d5169d53fb8c610fa",
+      "crates/jk-cli/src/workspaces.rs": "f414039232c4d7096aee93cd3ee9b8ec8e977b364bd4e2ccd89f62b97e07200e",
+      "crates/jk-core/src/command.rs": "83a26d1c5e1670d76f0c4b5cb6c71fbff9ab66d5ebbb3f9360fac148d1b26239",
+      "crates/jk-core/src/command_history/history.rs": "01f6dd58852cab4a9bbeb39ecd08453f5edd57bf4814d003059924d9e7f9c1a7",
+      "crates/jk-core/src/command_history/identity.rs": "7e6ee2422ebc938a6b83067c83219da5e9004eec249580f799cd7cbede402099",
+      "crates/jk-core/src/command_history/mod.rs": "15510d81dae69eb54191e7cb8d5202126d49013e6937fbf0d97630bf5c16e407",
+      "crates/jk-core/src/command_history/record.rs": "5a4456a3ee3e254ffd892545b44e0ea4b8b0213d6530f84451f02a4164662858",
+      "crates/jk-core/src/command_history/redaction.rs": "444c60c6cd3228b4e4cfe1e0c80b176d6a6c9469e10607e10d2af7622c07adc9",
+      "crates/jk-core/src/command_history/result.rs": "ef3411569ffe8a7ac11d6d2038732ba8813d0292523f0d42faae1969f1cfef64",
+      "crates/jk-core/src/command_history/tests.rs": "ec8506120997fca6f1bcb3982e8a25edcd4a5b87369393b34dde2b03bae3447c",
+      "crates/jk-core/src/lib.rs": "bff98be03702de20c52620f0e2c00f163450712268beab71b477c64b2e89865c",
+      "crates/jk-core/src/selector.rs": "c56a8fccb4281029411d244b3c0128ce8bed20d73cbb342a8cdf945a3d50de10",
+      "crates/jk-tui/src/ansi_text.rs": "e9d61fc33b6677d33c882f1e658d251ad0f1f29cf3a4a4b1c0adafac588390e9",
+      "crates/jk-tui/src/bookmark_view.rs": "96961b1b193a2dc94499db381ac979e1b2b815a14e29038c5de330225542cc63",
+      "crates/jk-tui/src/chrome.rs": "862a171d7b2bd06fc6243e0e14e971b73a8aca2b74c59dd7f4db3f47fc2ffa82",
+      "crates/jk-tui/src/command_history_view.rs": "712f5523b981c7012b192141ab6a9d70347de919cf50174adc19f717d28260fc",
+      "crates/jk-tui/src/command_preview_view.rs": "edb9cb238de1d4a344952275d46f7cf4a6823b8b33c06fbdc9aaa9af2e0ec144",
+      "crates/jk-tui/src/diff_state.rs": "ee8b3f3a50a53369d24d406e1643622fb5faa6497bc897e922ec50cc02b034c4",
+      "crates/jk-tui/src/diff_view.rs": "3bc93ee834b1c477fb8b9e9815e4f803c21e83e2cea9397b2593d30daf13a30b",
+      "crates/jk-tui/src/keymap.rs": "ef02363d3f81235737a259a9632d742293ae3d5a5e4b1ddb3fbd14c2d5cac2ce",
+      "crates/jk-tui/src/lib.rs": "416a5226f15d4786b1d147064ce0988b498d72fcbf1d3629cf12ced670fbc28b",
+      "crates/jk-tui/src/log_state.rs": "3908541b08c84f816ce480e26a0199222ef4182987596163fe5f13174c97fda5",
+      "crates/jk-tui/src/log_view.rs": "9b549e1b32584e172196ab9c97f3e3f451b9051a5240e474037364ab0b53e8d1",
+      "crates/jk-tui/src/operation_log_view.rs": "7a2bb801a4035ac0df3d827d9aae6dda32fe61fc2318dec11beb52da90d86036",
+      "crates/jk-tui/src/rendered_log.rs": "27e7d154401144a098f186ea8fa631826da5358c982151c6817c8c6c4fac753d",
+      "crates/jk-tui/src/rendered_state.rs": "708d5c6dde7d8d2ca3589dc0022cb1704a9ee8c2eec7951368ebc70118cacade",
+      "crates/jk-tui/src/rendered_view.rs": "04654ff65ba560330d5197822983b9fcf0547e700f496cdaf4524616bf6b92f2",
+      "crates/jk-tui/src/selected_row.rs": "7ffcc19790d1e39da6fa5bd3de1f38f63720efe947fe1b20ccebed0a826e9abb",
+      "crates/jk-tui/src/styles.rs": "ab351390ad3368a75152385a1686fb81d53fac125e26741806c165ae22fff010",
+      "crates/jk-tui/src/workspaces_view.rs": "eae13e2425afc16f69014fc0e082bf3ebbd0d7a9e7846d511b9cc49e00cffca3",
+      "crates/jk/Cargo.toml": "67349cf9967ae181e58040f534004a1925d1275665583af2b335211ca935e4ea",
+      "crates/jk-cli/Cargo.toml": "a0b1a15db790943c612d27dc29d035f72d1c8185dc39ac1009140d6406676e7e",
+      "crates/jk-core/Cargo.toml": "e02d98a99f70561863d26e8e0b97040d6431aa8e9d1028dc1cb692e026e9be65",
+      "crates/jk-tui/Cargo.toml": "3739dc7ab68066ca492596273cf1538e8951c7505166b98636f9d843124f512a",
+      "scripts/abandon-dialog-fixture.sh": "9654059ec725d36ecbb5e8800ec52e9dc38e83edaad0ed9fb893f0fa6322a7d3",
+      "scripts/action-menu-demo-fixture.sh": "af09d98c0b320d2aff7fa24a5aff7e44311bbd751ac5fa6d321864c137c05985",
+      "scripts/betamax-cancellable-jj.sh": "b7b6d63ecc49ae194e3211fc00fe5ff0708350f96b37effb3afd77f88ac67d0d",
+      "scripts/betamax-fixture-env.sh": "f4f53386bfde91906b8fa70c85932bcef3bb5dba023bb35f57d1bf2de49b6b90",
+      "scripts/betamax-fixture.sh": "32a77e1c47882b1054dcbe4c552df0ba8e7c919ffac0292ac47ad378e32b65ec",
+      "scripts/betamax-setup.sh": "240536fc4b2adec2939cbfe8819f33b25d547832b965fcfde17b99f1610820ef",
+      "scripts/manual-assert.sh": "b14d54b59495eee2ae15af7c66c27f569091e7bc75c8e2acd95567f7422bfed5",
+      "scripts/manual-fixture-jj.sh": "aa506df1cc055e8cc6a77709907c0df174f96326fb42c786363f139ce16f2f87",
+      "scripts/manual-fixture.sh": "aa99f0db4167a4163d4ca6892a33d5a5edd55db60c8404ec1d34f1828d33c329",
+      "scripts/package-release-archive.sh": "5577242fd8dfdb6556fb69185be363951b9c07096e7cea03c5c6a3c72fe75b19",
+      "scripts/prepare-preview.sh": "468ba0bff23b86fc37fa919fc061ce8be1b11cc12313a9b5af40eb59c5e627b7",
+      "scripts/refs-remotes-demo-fixture.sh": "aec1cf0b25038ec4d292e07bc8cb1666b1673dd25157fe698208d4a8a405e7f3",
+      "scripts/run-betamax.sh": "a6933854e63ef3750049d16297650e34c7cc48af0e4d04266d853e55607cb3b8",
+      "scripts/shared-selector-demo-fixture.sh": "fc8eaae5502b71a0b0f651b3c07e36c722f69623da5c7590e85d4878d3e5c62e",
+      "scripts/workflows-demo-fixture.sh": "d18cf07088a69e297285a4e97e4ff98d888155ee55fe6ee8649db62fe244b463",
+      "scripts/workspace-lifecycle-demo-fixture.sh": "e3367c2f1e5465ca04ddc6b38de498f43bbc7e8b3714c870c46a7b2c8b02f99f",
+      "scripts/check-manual-coverage.py": "ef757062279634f0f230c50842f6a7a3b1678fd0e8f4339a9ed8c6116d4421d8",
+      "scripts/check-refresh-proof.py": "c2f109aa5cc9f4d88a98d4fa4dffec5153addb90a132ae53917e1604b1b68964",
+      "scripts/check-run-options-proof.py": "a1d178327f1dc6f646f9d71cc1ef3554785fa9a26a6c4a0ab1e82972db65641d",
+      "scripts/manual-audit-assert.py": "a91423b27bc59ca794de0590a4eacd48780e4f87d688768cf6af4fc203b27676",
+      "scripts/manual-recordings.py": "e31437cf9d6e00dba543d523b1674d7722164d7b47b041857d6f4ed5dc8fdc6e",
+      "scripts/prepare-manual-evidence.py": "6a577932d10756816c6e6c79d18db11260ce92290eeac3cd74462b920c0248be",
+      "scripts/reflow-rust-comments.py": "89fa7df315fc5caa4b1b4fed5c78d64986b10f08850e50eabdc8ecb7ab3113f1",
+      "scripts/test_manual_evidence.py": "c7017f5bd7aeb4be3f4b3c0b6f0bdbdf73bd7d5cc79e012aaa3691caf6d93b08",
+      "scripts/test_manual_recordings.py": "415b704a0a2ce38a7452ee68ef6406afc6f01d27b469a4265e716d6d12a361cc"
+    },
+    "betamax": {
+      "invoked_path": "/home/runner/work/_temp/betamax-TKSJrS/bin/betamax",
+      "path": "/home/runner/work/_temp/betamax-TKSJrS/bin/betamax",
+      "sha256": "db55fa6e7ff98e1df3c91921b5b3fb504b3cc8fdaf6b07e3da952f8757053490",
+      "version": "betamax 0.1.21",
+      "version_exit_code": 0
+    }
+  },
+  "source_snapshots": {
+    "scripts/abandon-dialog-fixture.sh": "source-scripts/abandon-dialog-fixture.sh",
+    "scripts/action-menu-demo-fixture.sh": "source-scripts/action-menu-demo-fixture.sh",
+    "scripts/betamax-cancellable-jj.sh": "source-scripts/betamax-cancellable-jj.sh",
+    "scripts/betamax-fixture-env.sh": "source-scripts/betamax-fixture-env.sh",
+    "scripts/betamax-fixture.sh": "source-scripts/betamax-fixture.sh",
+    "scripts/betamax-setup.sh": "source-scripts/betamax-setup.sh",
+    "scripts/manual-assert.sh": "source-scripts/manual-assert.sh",
+    "scripts/manual-fixture-jj.sh": "source-scripts/manual-fixture-jj.sh",
+    "scripts/manual-fixture.sh": "source-scripts/manual-fixture.sh",
+    "scripts/package-release-archive.sh": "source-scripts/package-release-archive.sh",
+    "scripts/prepare-preview.sh": "source-scripts/prepare-preview.sh",
+    "scripts/refs-remotes-demo-fixture.sh": "source-scripts/refs-remotes-demo-fixture.sh",
+    "scripts/run-betamax.sh": "source-scripts/run-betamax.sh",
+    "scripts/shared-selector-demo-fixture.sh": "source-scripts/shared-selector-demo-fixture.sh",
+    "scripts/workflows-demo-fixture.sh": "source-scripts/workflows-demo-fixture.sh",
+    "scripts/workspace-lifecycle-demo-fixture.sh": "source-scripts/workspace-lifecycle-demo-fixture.sh",
+    "scripts/check-manual-coverage.py": "source-scripts/check-manual-coverage.py",
+    "scripts/check-refresh-proof.py": "source-scripts/check-refresh-proof.py",
+    "scripts/check-run-options-proof.py": "source-scripts/check-run-options-proof.py",
+    "scripts/manual-audit-assert.py": "source-scripts/manual-audit-assert.py",
+    "scripts/manual-recordings.py": "source-scripts/manual-recordings.py",
+    "scripts/prepare-manual-evidence.py": "source-scripts/prepare-manual-evidence.py",
+    "scripts/reflow-rust-comments.py": "source-scripts/reflow-rust-comments.py",
+    "scripts/test_manual_evidence.py": "source-scripts/test_manual_evidence.py",
+    "scripts/test_manual_recordings.py": "source-scripts/test_manual_recordings.py"
+  },
+  "source_snapshots_recorded_at": "2026-09-21T03:29:27.434142+00:00",
+  "source_snapshot_status": "preserved",
+  "renderer_passed": true,
+  "source_consistency": {
+    "checked_at": "2026-09-21T03:30:49.982968+00:00",
+    "passed": true,
+    "changed_scripts": []
+  },
+  "finished_at": "2026-09-21T03:30:49.984889+00:00",
+  "problems": [],
+  "visual_review": "pending: inspect PNG pixels, terminal text and styled spans",
+  "files": {
+    "action-diagnostics/bin/dependencies.log": {
+      "sha256": "22b901e719c16ee1bfb4fd30ae72cbc4e304b0c86818c119dfb0d5f8e128ecf4",
+      "bytes": 26095
+    },
+    "action-diagnostics/manifest.json": {
+      "sha256": "cc0a78633ba663ba0a7c7d1a32c07e94261215f51efe19710c10b2ae4407dbbe",
+      "bytes": 820
+    },
+    "action-diagnostics/tape-1.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "build-provenance.json": {
+      "sha256": "331fba9018cfa873b13619de873ffd493e73dd69e49a2276228a5549c1fc245d",
+      "bytes": 12427
+    },
+    "capture.tape": {
+      "sha256": "8e7ce20f74eb11c2aa2cce99d4bc1f901e53636aa44df37c5594af2b7ecb4145",
+      "bytes": 2479
+    },
+    "checkpoint-summary.json": {
+      "sha256": "5d36b5020c0ee7869b6b39f81622c3cac0d0fd4a2dbc49fb78c0859ad132b64c",
+      "bytes": 5118
+    },
+    "fixture-env.sh": {
+      "sha256": "fddbd4ab87d66cd023998e7a7ad063d52532723963270fad0bac4ff67500da69",
+      "bytes": 2531
+    },
+    "fixture.json": {
+      "sha256": "43d377bc64a2655da1d2f801e678ddc3d042243a2a0a04a2c318502eaf52b5cd",
+      "bytes": 445
+    },
+    "manual-squash-cancelled-assertions.json": {
+      "sha256": "46fa3eb56dce180e8d409b0c1b2d543ee3c237361f9f4d96b163cc2d73109584",
+      "bytes": 799
+    },
+    "manual-squash-preview.json": {
+      "sha256": "35a12fa7edc798ae5cfa4355399cfb3d1977b30d88e883885cbf08fd78ab9ae3",
+      "bytes": 5592
+    },
+    "manual-squash-preview.png": {
+      "sha256": "41e932291e990263c0960978e92f023c32fb984593fa9da66a38ce2f36c3e707",
+      "bytes": 100794
+    },
+    "manual-squash-recovered.json": {
+      "sha256": "516236e96f90ae5cba099eaf929f647b8a360b1bf82edbbaa194a14195661e5e",
+      "bytes": 3469
+    },
+    "manual-squash-recovered.png": {
+      "sha256": "d070659d6d81398306d448bdf203e0a39bd181b265a5600395904caeb3a2babc",
+      "bytes": 50115
+    },
+    "manual-squash-success-assertions.json": {
+      "sha256": "c2b6aebe38a837f49c8b5cf3ae45bdb4d8fafd6b16f3e8ac5dc6d28ac70ee582",
+      "bytes": 494
+    },
+    "manual-squash-success.json": {
+      "sha256": "b5257622dbc0e8acd215b94aa84915b5b437df2eb5c27902445286f879f419d4",
+      "bytes": 3637
+    },
+    "manual-squash-success.png": {
+      "sha256": "98704228146e0dba4754d1369cb6f98fbff65e74f10cbbbc765e91d1333d5e70",
+      "bytes": 46409
+    },
+    "manual-squash-undone-assertions.json": {
+      "sha256": "762653cc06275c37ccc7b83a1de28caa779ecaf94c867b946183394272764afe",
+      "bytes": 796
+    },
+    "manual-squash.mp4": {
+      "sha256": "3e0c01b2de4a020413459599a137258390827cad01f94be06a83aeff5c03299f",
+      "bytes": 321820
+    },
+    "manual-squash.tape": {
+      "sha256": "8e7ce20f74eb11c2aa2cce99d4bc1f901e53636aa44df37c5594af2b7ecb4145",
+      "bytes": 2479
+    },
+    "source-scripts/abandon-dialog-fixture.sh": {
+      "sha256": "9654059ec725d36ecbb5e8800ec52e9dc38e83edaad0ed9fb893f0fa6322a7d3",
+      "bytes": 853
+    },
+    "source-scripts/action-menu-demo-fixture.sh": {
+      "sha256": "af09d98c0b320d2aff7fa24a5aff7e44311bbd751ac5fa6d321864c137c05985",
+      "bytes": 1381
+    },
+    "source-scripts/betamax-cancellable-jj.sh": {
+      "sha256": "b7b6d63ecc49ae194e3211fc00fe5ff0708350f96b37effb3afd77f88ac67d0d",
+      "bytes": 664
+    },
+    "source-scripts/betamax-fixture-env.sh": {
+      "sha256": "f4f53386bfde91906b8fa70c85932bcef3bb5dba023bb35f57d1bf2de49b6b90",
+      "bytes": 288
+    },
+    "source-scripts/betamax-fixture.sh": {
+      "sha256": "32a77e1c47882b1054dcbe4c552df0ba8e7c919ffac0292ac47ad378e32b65ec",
+      "bytes": 2742
+    },
+    "source-scripts/betamax-setup.sh": {
+      "sha256": "240536fc4b2adec2939cbfe8819f33b25d547832b965fcfde17b99f1610820ef",
+      "bytes": 1652
+    },
+    "source-scripts/check-manual-coverage.py": {
+      "sha256": "ef757062279634f0f230c50842f6a7a3b1678fd0e8f4339a9ed8c6116d4421d8",
+      "bytes": 10733
+    },
+    "source-scripts/check-refresh-proof.py": {
+      "sha256": "c2f109aa5cc9f4d88a98d4fa4dffec5153addb90a132ae53917e1604b1b68964",
+      "bytes": 1206
+    },
+    "source-scripts/check-run-options-proof.py": {
+      "sha256": "a1d178327f1dc6f646f9d71cc1ef3554785fa9a26a6c4a0ab1e82972db65641d",
+      "bytes": 2114
+    },
+    "source-scripts/manual-assert.sh": {
+      "sha256": "b14d54b59495eee2ae15af7c66c27f569091e7bc75c8e2acd95567f7422bfed5",
+      "bytes": 15043
+    },
+    "source-scripts/manual-audit-assert.py": {
+      "sha256": "a91423b27bc59ca794de0590a4eacd48780e4f87d688768cf6af4fc203b27676",
+      "bytes": 2649
+    },
+    "source-scripts/manual-fixture-jj.sh": {
+      "sha256": "aa506df1cc055e8cc6a77709907c0df174f96326fb42c786363f139ce16f2f87",
+      "bytes": 442
+    },
+    "source-scripts/manual-fixture.sh": {
+      "sha256": "aa99f0db4167a4163d4ca6892a33d5a5edd55db60c8404ec1d34f1828d33c329",
+      "bytes": 10462
+    },
+    "source-scripts/manual-recordings.py": {
+      "sha256": "e31437cf9d6e00dba543d523b1674d7722164d7b47b041857d6f4ed5dc8fdc6e",
+      "bytes": 31202
+    },
+    "source-scripts/package-release-archive.sh": {
+      "sha256": "5577242fd8dfdb6556fb69185be363951b9c07096e7cea03c5c6a3c72fe75b19",
+      "bytes": 1677
+    },
+    "source-scripts/prepare-manual-evidence.py": {
+      "sha256": "6a577932d10756816c6e6c79d18db11260ce92290eeac3cd74462b920c0248be",
+      "bytes": 16460
+    },
+    "source-scripts/prepare-preview.sh": {
+      "sha256": "468ba0bff23b86fc37fa919fc061ce8be1b11cc12313a9b5af40eb59c5e627b7",
+      "bytes": 930
+    },
+    "source-scripts/reflow-rust-comments.py": {
+      "sha256": "89fa7df315fc5caa4b1b4fed5c78d64986b10f08850e50eabdc8ecb7ab3113f1",
+      "bytes": 4671
+    },
+    "source-scripts/refs-remotes-demo-fixture.sh": {
+      "sha256": "aec1cf0b25038ec4d292e07bc8cb1666b1673dd25157fe698208d4a8a405e7f3",
+      "bytes": 815
+    },
+    "source-scripts/run-betamax.sh": {
+      "sha256": "a6933854e63ef3750049d16297650e34c7cc48af0e4d04266d853e55607cb3b8",
+      "bytes": 3484
+    },
+    "source-scripts/shared-selector-demo-fixture.sh": {
+      "sha256": "fc8eaae5502b71a0b0f651b3c07e36c722f69623da5c7590e85d4878d3e5c62e",
+      "bytes": 1621
+    },
+    "source-scripts/test_manual_evidence.py": {
+      "sha256": "c7017f5bd7aeb4be3f4b3c0b6f0bdbdf73bd7d5cc79e012aaa3691caf6d93b08",
+      "bytes": 14135
+    },
+    "source-scripts/test_manual_recordings.py": {
+      "sha256": "415b704a0a2ce38a7452ee68ef6406afc6f01d27b469a4265e716d6d12a361cc",
+      "bytes": 13648
+    },
+    "source-scripts/workflows-demo-fixture.sh": {
+      "sha256": "d18cf07088a69e297285a4e97e4ff98d888155ee55fe6ee8649db62fe244b463",
+      "bytes": 2869
+    },
+    "source-scripts/workspace-lifecycle-demo-fixture.sh": {
+      "sha256": "e3367c2f1e5465ca04ddc6b38de498f43bbc7e8b3714c870c46a7b2c8b02f99f",
+      "bytes": 482
+    },
+    "source.tape": {
+      "sha256": "20b4034a5ee729b630ccbd1c6b80c702d7796771f0228e211e71b18c3d40dcfe",
+      "bytes": 2032
+    }
+  }
+}

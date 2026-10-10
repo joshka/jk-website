@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "results": [
+    {
+      "tape": "manual-run-options.tape",
+      "status": "passed"
+    }
+  ],
+  "problems": [],
+  "media": [
+    {
+      "name": "betamax-betamax-rewrite-manual-run-options-r1-m1.manual-run-options.mp4",
+      "label": "manual-run-options.tape (mp4)",
+      "type": "video/mp4"
+    },
+    {
+      "name": "betamax-betamax-rewrite-manual-run-options-r1-m2.manual-run-options-applied-preview.png",
+      "label": "manual-run-options-applied-preview.png",
+      "type": "image/png"
+    },
+    {
+      "name": "betamax-betamax-rewrite-manual-run-options-r1-m3.manual-run-options-cancelled-preview.png",
+      "label": "manual-run-options-cancelled-preview.png",
+      "type": "image/png"
+    },
+    {
+      "name": "betamax-betamax-rewrite-manual-run-options-r1-m4.manual-run-options-drawer.png",
+      "label": "manual-run-options-drawer.png",
+      "type": "image/png"
+    },
+    {
+      "name": "betamax-betamax-rewrite-manual-run-options-r1-m5.manual-run-options-historical-preview.png",
+      "label": "manual-run-options-historical-preview.png",
+      "type": "image/png"
+    },
+    {
+      "name": "betamax-betamax-rewrite-manual-run-options-r1-m6.manual-run-options-initial-preview.png",
+      "label": "manual-run-options-initial-preview.png",
+      "type": "image/png"
+    },
+    {
+      "name": "betamax-betamax-rewrite-manual-run-options-r1-m7.manual-run-options-invalid-operation.png",
+      "label": "manual-run-options-invalid-operation.png",
+      "type": "image/png"
+    }
+  ]
+}

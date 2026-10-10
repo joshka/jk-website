@@ -9,6 +9,7 @@ on:
       - "pnpm-lock.yaml"
       - "public/**"
       - "src/**"
+      - "scripts/**"
   push:
     branches:
       - main
@@ -19,6 +20,7 @@ on:
       - "pnpm-lock.yaml"
       - "public/**"
       - "src/**"
+      - "scripts/**"
   workflow_dispatch:
 
 concurrency:
@@ -54,6 +56,9 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
+      - name: Check evidence import contracts
+        run: python3 -m unittest discover -s scripts -p 'test_*.py'
+
       - name: Build site
         env:
           ASTRO_BASE_PATH: /jk-website
@@ -67,6 +72,11 @@ jobs:
           file dist/assets/jk-log.png | grep -F "PNG image data"
           file dist/assets/jk-diff.png | grep -F "PNG image data"
           ! grep -R "version https://git-lfs.github.com/spec" dist/assets
+
+      - name: Check manual coverage and internal links
+        env:
+          ASTRO_BASE_PATH: /jk-website
+        run: pnpm check:site
 
       - name: Upload Pages artifact
         if: ${{ github.event_name != 'pull_request' }}

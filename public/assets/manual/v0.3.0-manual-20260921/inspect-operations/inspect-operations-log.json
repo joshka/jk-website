@@ -1,0 +1,463 @@
+{
+  "size": [
+    104,
+    36
+  ],
+  "total_rows": 36,
+  "scrollback_rows": 0,
+  "cursor": {
+    "x": 103,
+    "y": 35,
+    "visible": false
+  },
+  "default_style": {
+    "fg": "#b4bcca",
+    "bg": "#0f141f"
+  },
+  "styles": [
+    {
+      "bold": true
+    },
+    {
+      "fg": "#52aa60",
+      "bold": true
+    },
+    {
+      "fg": "#76a8f2",
+      "bold": true
+    },
+    {
+      "fg": "#ad9b49",
+      "bold": true
+    },
+    {
+      "fg": "#52c4c0",
+      "bold": true
+    },
+    {
+      "fg": "#d58bf0",
+      "bold": true
+    },
+    {
+      "fg": "#487fd4"
+    },
+    {
+      "fg": "#ad9b49"
+    },
+    {
+      "fg": "#52aa60"
+    },
+    {
+      "fg": "#269d9a"
+    },
+    {
+      "fg": "#af5bd1"
+    }
+  ],
+  "viewport_text": "jk jj op log\n›  @  9c2455ad07e9 runner@runnervmlun5p default@ 8 months ago, lasted less than a microsecond\n   │  create bookmark candidate pointing to commit 9c809e2d630cc3a4c67ab8beefd04674f164132d\n   │  args: jj -R /home/runner/work/jk/jk/target/manual-fixtures/inspection.wbQAkX/repo bookmark create\n   ○  fbf8d8e74b18 runner@runnervmlun5p default@ 8 months ago, lasted less than a microsecond\n   │  describe commit 9d3afcda1ec673e24631ff6183feb27641c663f7\n   │  args: jj -R /home/runner/work/jk/jk/target/manual-fixtures/inspection.wbQAkX/repo describe -m 'Exp\n   ○  fc2b27c8f27e runner@runnervmlun5p default@ 8 months ago, lasted less than a microsecond\n   │  snapshot working copy\n   │  args: jj -R /home/runner/work/jk/jk/target/manual-fixtures/inspection.wbQAkX/repo describe -m 'Exp\n   ○  8d0eb6e4d796 runner@runnervmlun5p default@ 8 months ago, lasted less than a microsecond\n   │  new empty commit\n   │  args: jj -R /home/runner/work/jk/jk/target/manual-fixtures/inspection.wbQAkX/repo new -m 'Try a lo\n   ○  15f891cca277 runner@runnervmlun5p default@ 8 months ago, lasted less than a microsecond\n   │  snapshot working copy\n   │  args: jj -R /home/runner/work/jk/jk/target/manual-fixtures/inspection.wbQAkX/repo new -m 'Try a lo\n   ○  0b3cd8bc5624 runner@runnervmlun5p default@ 8 months ago, lasted less than a microsecond\n   │  new empty commit\n   │  args: jj -R /home/runner/work/jk/jk/target/manual-fixtures/inspection.wbQAkX/repo new -m 'Configur\n   ○  adeb6f23b898 runner@runnervmlun5p default@ 8 months ago, lasted less than a microsecond\n   │  snapshot working copy\n   │  args: jj -R /home/runner/work/jk/jk/target/manual-fixtures/inspection.wbQAkX/repo new -m 'Configur\n   ○  35f4c4d8140c runner@runnervmlun5p default@ 8 months ago, lasted less than a microsecond\n   │  new empty commit\n   │  args: jj -R /home/runner/work/jk/jk/target/manual-fixtures/inspection.wbQAkX/repo new -m 'Add the\n   ○  4607e4ca36c9 runner@runnervmlun5p default@ 8 months ago, lasted less than a microsecond\n   │  create bookmark main pointing to commit 83049e535082fe66ac4ca670b6ee82241e421c59\n   │  args: jj -R /home/runner/work/jk/jk/target/manual-fixtures/inspection.wbQAkX/repo bookmark create\n   ○  0434b34b2894 runner@runnervmlun5p default@ 8 months ago, lasted less than a microsecond\n   │  describe commit 35baab96c5ac05526fe0ef3f8826503c58306c3a\n   │  args: jj -R /home/runner/work/jk/jk/target/manual-fixtures/inspection.wbQAkX/repo describe -m 'Doc\n   ○  0d37e1a946b2 runner@runnervmlun5p default@ 8 months ago, lasted less than a microsecond\n   │  snapshot working copy\n   │  args: jj -R /home/runner/work/jk/jk/target/manual-fixtures/inspection.wbQAkX/repo describe -m 'Doc\n   ○  45f50c732e5b runner@runnervmlun5p 8 months ago, lasted less than a microsecond\n? help  enter show  d diff  j/k move  space page  r refresh  Esc back  q quit\n",
+  "scrollback_text": "",
+  "viewport": [
+    [
+      "jk ",
+      [
+        "jj op log",
+        0
+      ]
+    ],
+    [
+      [
+        "›",
+        0
+      ],
+      "  ",
+      [
+        "@",
+        1
+      ],
+      "  ",
+      [
+        "9c2455ad07e9",
+        2
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "runner@runnervmlun5p",
+        3
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "default@",
+        1
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "8 months ago, lasted less than a microsecond",
+        4
+      ]
+    ],
+    [
+      "   │  ",
+      [
+        "create bookmark candidate pointing to commit 9c809e2d630cc3a4c67ab8beefd04674f164132d",
+        0
+      ]
+    ],
+    [
+      "   │  ",
+      [
+        "args: jj -R /home/runner/work/jk/jk/target/manual-fixtures/inspection.wbQAkX/repo bookmark create",
+        5
+      ]
+    ],
+    [
+      "   ○  ",
+      [
+        "fbf8d8e74b18",
+        6
+      ],
+      " ",
+      [
+        "runner@runnervmlun5p",
+        7
+      ],
+      " ",
+      [
+        "default@",
+        8
+      ],
+      " ",
+      [
+        "8 months ago, lasted less than a microsecond",
+        9
+      ]
+    ],
+    [
+      "   │  describe commit 9d3afcda1ec673e24631ff6183feb27641c663f7"
+    ],
+    [
+      "   │  ",
+      [
+        "args: jj -R /home/runner/work/jk/jk/target/manual-fixtures/inspection.wbQAkX/repo describe -m 'Exp",
+        10
+      ]
+    ],
+    [
+      "   ○  ",
+      [
+        "fc2b27c8f27e",
+        6
+      ],
+      " ",
+      [
+        "runner@runnervmlun5p",
+        7
+      ],
+      " ",
+      [
+        "default@",
+        8
+      ],
+      " ",
+      [
+        "8 months ago, lasted less than a microsecond",
+        9
+      ]
+    ],
+    [
+      "   │  snapshot working copy"
+    ],
+    [
+      "   │  ",
+      [
+        "args: jj -R /home/runner/work/jk/jk/target/manual-fixtures/inspection.wbQAkX/repo describe -m 'Exp",
+        10
+      ]
+    ],
+    [
+      "   ○  ",
+      [
+        "8d0eb6e4d796",
+        6
+      ],
+      " ",
+      [
+        "runner@runnervmlun5p",
+        7
+      ],
+      " ",
+      [
+        "default@",
+        8
+      ],
+      " ",
+      [
+        "8 months ago, lasted less than a microsecond",
+        9
+      ]
+    ],
+    [
+      "   │  new empty commit"
+    ],
+    [
+      "   │  ",
+      [
+        "args: jj -R /home/runner/work/jk/jk/target/manual-fixtures/inspection.wbQAkX/repo new -m 'Try a lo",
+        10
+      ]
+    ],
+    [
+      "   ○  ",
+      [
+        "15f891cca277",
+        6
+      ],
+      " ",
+      [
+        "runner@runnervmlun5p",
+        7
+      ],
+      " ",
+      [
+        "default@",
+        8
+      ],
+      " ",
+      [
+        "8 months ago, lasted less than a microsecond",
+        9
+      ]
+    ],
+    [
+      "   │  snapshot working copy"
+    ],
+    [
+      "   │  ",
+      [
+        "args: jj -R /home/runner/work/jk/jk/target/manual-fixtures/inspection.wbQAkX/repo new -m 'Try a lo",
+        10
+      ]
+    ],
+    [
+      "   ○  ",
+      [
+        "0b3cd8bc5624",
+        6
+      ],
+      " ",
+      [
+        "runner@runnervmlun5p",
+        7
+      ],
+      " ",
+      [
+        "default@",
+        8
+      ],
+      " ",
+      [
+        "8 months ago, lasted less than a microsecond",
+        9
+      ]
+    ],
+    [
+      "   │  new empty commit"
+    ],
+    [
+      "   │  ",
+      [
+        "args: jj -R /home/runner/work/jk/jk/target/manual-fixtures/inspection.wbQAkX/repo new -m 'Configur",
+        10
+      ]
+    ],
+    [
+      "   ○  ",
+      [
+        "adeb6f23b898",
+        6
+      ],
+      " ",
+      [
+        "runner@runnervmlun5p",
+        7
+      ],
+      " ",
+      [
+        "default@",
+        8
+      ],
+      " ",
+      [
+        "8 months ago, lasted less than a microsecond",
+        9
+      ]
+    ],
+    [
+      "   │  snapshot working copy"
+    ],
+    [
+      "   │  ",
+      [
+        "args: jj -R /home/runner/work/jk/jk/target/manual-fixtures/inspection.wbQAkX/repo new -m 'Configur",
+        10
+      ]
+    ],
+    [
+      "   ○  ",
+      [
+        "35f4c4d8140c",
+        6
+      ],
+      " ",
+      [
+        "runner@runnervmlun5p",
+        7
+      ],
+      " ",
+      [
+        "default@",
+        8
+      ],
+      " ",
+      [
+        "8 months ago, lasted less than a microsecond",
+        9
+      ]
+    ],
+    [
+      "   │  new empty commit"
+    ],
+    [
+      "   │  ",
+      [
+        "args: jj -R /home/runner/work/jk/jk/target/manual-fixtures/inspection.wbQAkX/repo new -m 'Add the",
+        10
+      ]
+    ],
+    [
+      "   ○  ",
+      [
+        "4607e4ca36c9",
+        6
+      ],
+      " ",
+      [
+        "runner@runnervmlun5p",
+        7
+      ],
+      " ",
+      [
+        "default@",
+        8
+      ],
+      " ",
+      [
+        "8 months ago, lasted less than a microsecond",
+        9
+      ]
+    ],
+    [
+      "   │  create bookmark main pointing to commit 83049e535082fe66ac4ca670b6ee82241e421c59"
+    ],
+    [
+      "   │  ",
+      [
+        "args: jj -R /home/runner/work/jk/jk/target/manual-fixtures/inspection.wbQAkX/repo bookmark create",
+        10
+      ]
+    ],
+    [
+      "   ○  ",
+      [
+        "0434b34b2894",
+        6
+      ],
+      " ",
+      [
+        "runner@runnervmlun5p",
+        7
+      ],
+      " ",
+      [
+        "default@",
+        8
+      ],
+      " ",
+      [
+        "8 months ago, lasted less than a microsecond",
+        9
+      ]
+    ],
+    [
+      "   │  describe commit 35baab96c5ac05526fe0ef3f8826503c58306c3a"
+    ],
+    [
+      "   │  ",
+      [
+        "args: jj -R /home/runner/work/jk/jk/target/manual-fixtures/inspection.wbQAkX/repo describe -m 'Doc",
+        10
+      ]
+    ],
+    [
+      "   ○  ",
+      [
+        "0d37e1a946b2",
+        6
+      ],
+      " ",
+      [
+        "runner@runnervmlun5p",
+        7
+      ],
+      " ",
+      [
+        "default@",
+        8
+      ],
+      " ",
+      [
+        "8 months ago, lasted less than a microsecond",
+        9
+      ]
+    ],
+    [
+      "   │  snapshot working copy"
+    ],
+    [
+      "   │  ",
+      [
+        "args: jj -R /home/runner/work/jk/jk/target/manual-fixtures/inspection.wbQAkX/repo describe -m 'Doc",
+        10
+      ]
+    ],
+    [
+      "   ○  ",
+      [
+        "45f50c732e5b",
+        6
+      ],
+      " ",
+      [
+        "runner@runnervmlun5p",
+        7
+      ],
+      " ",
+      [
+        "8 months ago, lasted less than a microsecond",
+        9
+      ]
+    ],
+    [
+      "? help  enter show  d diff  j/k move  space page  r refresh  Esc back  q quit"
+    ]
+  ],
+  "scrollback": []
+}

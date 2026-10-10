@@ -1,0 +1,20 @@
+{
+  "scenario": "abandon-empty",
+  "stage": "abandon-empty-undone",
+  "status": "passed",
+  "repository": "/home/runner/work/jk/jk/target/forecast-demo.jJUr4y",
+  "assertions": [
+    {
+      "name": "working-copy commit unchanged",
+      "passed": true,
+      "actual": "9b2e071ba769d78d12646ead704bb97fe503ac12",
+      "expected": "9b2e071ba769d78d12646ead704bb97fe503ac12"
+    },
+    {
+      "name": "visible repository graph unchanged",
+      "passed": true,
+      "actual": "0000000000000000000000000000000000000000\n407e4d002cd28fc67272d2548dffb1c94d000e77\n844cab80770b0cbaf179edd16b27ef3fc112a711\n9b2e071ba769d78d12646ead704bb97fe503ac12\n9c125dc352d65f25131c4d8be6db2cbee6fb26a1\nf09a084305e6ede89eb774eeea6a7d61fbe37d99",
+      "expected": "0000000000000000000000000000000000000000\n407e4d002cd28fc67272d2548dffb1c94d000e77\n844cab80770b0cbaf179edd16b27ef3fc112a711\n9b2e071ba769d78d12646ead704bb97fe503ac12\n9c125dc352d65f25131c4d8be6db2cbee6fb26a1\nf09a084305e6ede89eb774eeea6a7d61fbe37d99"
+    }
+  ]
+}

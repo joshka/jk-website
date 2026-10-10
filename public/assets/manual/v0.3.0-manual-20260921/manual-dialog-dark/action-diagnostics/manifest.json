@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "results": [
+    {
+      "tape": "manual-dialog-dark.tape",
+      "status": "passed"
+    }
+  ],
+  "problems": [],
+  "media": [
+    {
+      "name": "betamax-betamax-execution-manual-dialog-dark-r1-m1.manual-dialog-dark.mp4",
+      "label": "manual-dialog-dark.tape (mp4)",
+      "type": "video/mp4"
+    },
+    {
+      "name": "betamax-betamax-execution-manual-dialog-dark-r1-m2.manual-dialog-dark-actions.png",
+      "label": "manual-dialog-dark-actions.png",
+      "type": "image/png"
+    },
+    {
+      "name": "betamax-betamax-execution-manual-dialog-dark-r1-m3.manual-dialog-dark-description.png",
+      "label": "manual-dialog-dark-description.png",
+      "type": "image/png"
+    },
+    {
+      "name": "betamax-betamax-execution-manual-dialog-dark-r1-m4.manual-dialog-dark-help.png",
+      "label": "manual-dialog-dark-help.png",
+      "type": "image/png"
+    }
+  ]
+}

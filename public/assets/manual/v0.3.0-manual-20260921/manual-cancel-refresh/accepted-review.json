@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "source_index": "manual/v0.3.0-manual-20260921/review-index.json",
+  "source_index_sha256": "17efd1f5f9a9c80791c6764f7972f466b4b29257831f2719b0c66b74b784fc16",
+  "review": {
+    "id": "manual-cancel-refresh",
+    "title": "Replace a slow refresh and inspect a failure",
+    "status": "ready",
+    "source_tape": "tapes/manual/execution/manual-cancel-refresh.tape",
+    "source_tape_sha256": "d4f981ef715d73cf259cac7df327d352fc3e69138cd05b22c546c6b9a978f61c",
+    "website": {
+      "path": "assets/manual/v0.3.0-manual-20260921/manual-cancel-refresh"
+    },
+    "problems": [],
+    "checkpoints": [
+      {
+        "id": "manual-cancel-refresh-loading",
+        "png": "manual-cancel-refresh-loading.png",
+        "state": "manual-cancel-refresh-loading.json",
+        "png_sha256": "061c3fa86941c8ba5b19e85cc35c0d3a7dd5585238be21f838ae78b9ba62d6df",
+        "state_sha256": "05489cf009223783e7ae0c21993a3acbc000869ae41fbb7efacf6533fab20e10",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "root",
+          "reviewed_at": "2026-09-21T03:21:15.094715+00:00",
+          "summary": "Populated graph retained; loading status, moved selection, successful replacement, and yellow failure state readable. Detailed failure output retains exit status and stderr; command line clips at right edge, confirming UX-15.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "root",
+          "reviewed_at": "2026-09-21T03:21:15.095041+00:00",
+          "summary": "Viewport text and all style rows read: graph identifiers retain jj colors, selected row stays emphasized, failure footer uses warning color; details show exit1, source log refresh, stderr fixture refresh failed.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/root-ci35556462468.json",
+        "text_style_review_source": "target/manual-recordings/reviews/root-ci35556462468.json"
+      },
+      {
+        "id": "manual-cancel-refresh-replaced",
+        "png": "manual-cancel-refresh-replaced.png",
+        "state": "manual-cancel-refresh-replaced.json",
+        "png_sha256": "f94e6062c75a4541e5b9f00442ba18753b82a16d988ff84ada2ef98fda5176e6",
+        "state_sha256": "d9c08f63e52bdafc1cdf3956d6ad6b10fa77ccc78931c3a9557764a9484ba018",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "root",
+          "reviewed_at": "2026-09-21T03:21:15.095158+00:00",
+          "summary": "Populated graph retained; loading status, moved selection, successful replacement, and yellow failure state readable. Detailed failure output retains exit status and stderr; command line clips at right edge, confirming UX-15.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "root",
+          "reviewed_at": "2026-09-21T03:21:15.095161+00:00",
+          "summary": "Viewport text and all style rows read: graph identifiers retain jj colors, selected row stays emphasized, failure footer uses warning color; details show exit1, source log refresh, stderr fixture refresh failed.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/root-ci35556462468.json",
+        "text_style_review_source": "target/manual-recordings/reviews/root-ci35556462468.json"
+      },
+      {
+        "id": "manual-cancel-refresh-failure",
+        "png": "manual-cancel-refresh-failure.png",
+        "state": "manual-cancel-refresh-failure.json",
+        "png_sha256": "f90c06932de5d24db1f0f30786bea5454d31a31f34ed4602dc3b559fddebed9f",
+        "state_sha256": "efbcec675fccfdb390728b300b983b4f69b568b0439965eb4b15a10e334e2450",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "root",
+          "reviewed_at": "2026-09-21T03:21:15.095247+00:00",
+          "summary": "Populated graph retained; loading status, moved selection, successful replacement, and yellow failure state readable. Detailed failure output retains exit status and stderr; command line clips at right edge, confirming UX-15.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "root",
+          "reviewed_at": "2026-09-21T03:21:15.095249+00:00",
+          "summary": "Viewport text and all style rows read: graph identifiers retain jj colors, selected row stays emphasized, failure footer uses warning color; details show exit1, source log refresh, stderr fixture refresh failed.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/root-ci35556462468.json",
+        "text_style_review_source": "target/manual-recordings/reviews/root-ci35556462468.json"
+      },
+      {
+        "id": "manual-cancel-refresh-details",
+        "png": "manual-cancel-refresh-details.png",
+        "state": "manual-cancel-refresh-details.json",
+        "png_sha256": "64fb433480e65477f43cb998a4f653ba9341fccc70c3b3774147ab4a135e28c1",
+        "state_sha256": "abf76323139e2ccead7d511b10c10b1919239963a183e697a0b711e4fb94e9c9",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "root",
+          "reviewed_at": "2026-09-21T03:21:15.095337+00:00",
+          "summary": "Populated graph retained; loading status, moved selection, successful replacement, and yellow failure state readable. Detailed failure output retains exit status and stderr; command line clips at right edge, confirming UX-15.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "root",
+          "reviewed_at": "2026-09-21T03:21:15.095338+00:00",
+          "summary": "Viewport text and all style rows read: graph identifiers retain jj colors, selected row stays emphasized, failure footer uses warning color; details show exit1, source log refresh, stderr fixture refresh failed.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/root-ci35556462468.json",
+        "text_style_review_source": "target/manual-recordings/reviews/root-ci35556462468.json"
+      }
+    ],
+    "metadata_path": "target/manual-recordings/ci-35556462468/manual-evidence-manual-cancel-refresh/capture-metadata.json",
+    "metadata_sha256": "1900d6454e4c28e64ab033c643376d31cf1af7ff9412e18a0a9c15520d19c115",
+    "evidence_directory": "target/manual-recordings/ci-35556462468/manual-evidence-manual-cancel-refresh",
+    "evidence_status": "passed",
+    "source_commit": "770b8802a4fe3ef42e3b80160985bcbddc76b049",
+    "pr_head_commit": "088d04dbc19b5a2b81b674e8986f59e190128de1",
+    "source_manifest_sha256": "42c0d25b424a807906eb4e0ba7ca72b4c0488685e9f57b3bcf62d3f01c6c6915",
+    "source_matches_checkout": true,
+    "binary": {
+      "invoked_path": "/home/runner/work/jk/jk/target/manual-build/jk",
+      "path": "/home/runner/work/jk/jk/target/manual-build/jk",
+      "sha256": "cb41f94b63ec85100829bd2b1e9ced84f37cae912996a48e93b56b8776c9c5ed",
+      "version": "jk 0.3.0",
+      "version_exit_code": 0
+    },
+    "jj": {
+      "invoked_path": "/home/runner/.cargo/bin/jj",
+      "path": "/home/runner/.cargo/bin/jj",
+      "sha256": "cd5efc3eb281d606bf9b5523167f79661da0f8c76a5aa32d61c07c7a351b6b44",
+      "version": "jj 0.45.1-7c41cdeb16b6b321c64e789a966b6adf723816a5",
+      "version_exit_code": 0
+    },
+    "betamax": {
+      "invoked_path": "/home/runner/work/_temp/betamax-QcZaWl/bin/betamax",
+      "path": "/home/runner/work/_temp/betamax-QcZaWl/bin/betamax",
+      "sha256": "db55fa6e7ff98e1df3c91921b5b3fb504b3cc8fdaf6b07e3da952f8757053490",
+      "version": "betamax 0.1.21",
+      "version_exit_code": 0
+    },
+    "ci_run": {
+      "id": "35556462468",
+      "attempt": "1",
+      "url": "https://github.com/joshka/jk/actions/runs/35556462468"
+    },
+    "assertions": [
+      {
+        "path": "manual-cancel-refresh-assertions.json",
+        "sha256": "2947eee23e5c03ada64c9ab1b145871b994cc224e88b58b5104cc06d544658a1",
+        "bytes": 940
+      }
+    ],
+    "video": {
+      "path": "manual-cancel-refresh.mp4",
+      "sha256": "254f1e07c273d05bc5da1033d21d977238d93463babe00845e633a68257c6dec",
+      "bytes": 161682
+    },
+    "video_review": {
+      "status": "reviewed",
+      "reviewer": "root",
+      "reviewed_at": "2026-09-21T03:21:15.095340+00:00",
+      "summary": "Decoded 3-second filmstrip and inspected tape timing plus ffprobe17.93s: loading \u2192 navigation \u2192 replacement \u2192 failure \u2192 retained stderr, readable captions and at least3s checkpoint holds. No shell/setup leaks.",
+      "findings": [],
+      "sha256": "254f1e07c273d05bc5da1033d21d977238d93463babe00845e633a68257c6dec"
+    },
+    "source_snapshot_status": "preserved",
+    "video_review_source": "target/manual-recordings/reviews/root-ci35556462468.json",
+    "pixel_review_complete": true,
+    "text_style_review_complete": true,
+    "video_review_complete": true
+  }
+}

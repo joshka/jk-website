@@ -1,0 +1,246 @@
+{
+  "size": [
+    104,
+    39
+  ],
+  "total_rows": 39,
+  "scrollback_rows": 0,
+  "cursor": {
+    "x": 103,
+    "y": 38,
+    "visible": false
+  },
+  "default_style": {
+    "fg": "#b4bcca",
+    "bg": "#0f141f"
+  },
+  "styles": [
+    {
+      "bold": true
+    },
+    {
+      "fg": "#487fd4",
+      "bold": true
+    },
+    {
+      "fg": "#3a4152"
+    },
+    {
+      "fg": "#ad9b49"
+    },
+    {
+      "fg": "#269d9a"
+    },
+    {
+      "fg": "#af5bd1",
+      "bold": true
+    },
+    {
+      "fg": "#52aa60",
+      "bold": true
+    },
+    {
+      "fg": "#d58bf0",
+      "bold": true
+    },
+    {
+      "fg": "#3a4152",
+      "bold": true
+    },
+    {
+      "fg": "#ad9b49",
+      "bold": true
+    },
+    {
+      "fg": "#52c4c0",
+      "bold": true
+    },
+    {
+      "fg": "#76a8f2",
+      "bold": true
+    },
+    {
+      "fg": "#e0e6ee",
+      "bg": "#242c3a"
+    }
+  ],
+  "viewport_text": "jk jj\n   ○  lnzpzoup demo@example.invalid 2026-01-01 12:00:00 79cb69b3\n   │  Rebase destination\n›  @  lwwkulrr demo@example.invalid 2026-01-01 12:00:00 742e6633\n·  │  Rebase source\n   ○  uukzvpzo demo@example.invalid 2026-01-01 12:00:00 43206a08\n   │  Rebase base\n   ~\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                                             ✓ Rebased revisions · a u undo · C history · o operations\n? help  H home  L log  r refresh  enter open  d diff  v evolog  s status  space mark  o ops  ...  q quit\n",
+  "scrollback_text": "",
+  "viewport": [
+    [
+      "jk ",
+      [
+        "jj",
+        0
+      ]
+    ],
+    [
+      "   ○  ",
+      [
+        "ln",
+        1
+      ],
+      [
+        "zpzoup",
+        2
+      ],
+      " ",
+      [
+        "demo@example.invalid",
+        3
+      ],
+      " ",
+      [
+        "2026-01-01 12:00:00",
+        4
+      ],
+      " ",
+      [
+        "79",
+        5
+      ],
+      [
+        "cb69b3",
+        2
+      ]
+    ],
+    [
+      "   │  Rebase destination"
+    ],
+    [
+      [
+        "›",
+        0
+      ],
+      "  ",
+      [
+        "@",
+        6
+      ],
+      "  ",
+      [
+        "lw",
+        7
+      ],
+      [
+        "wkulrr",
+        8
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "demo@example.invalid",
+        9
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "2026-01-01 12:00:00",
+        10
+      ],
+      [
+        " ",
+        0
+      ],
+      [
+        "74",
+        11
+      ],
+      [
+        "2e6633",
+        8
+      ]
+    ],
+    [
+      [
+        "·",
+        0
+      ],
+      "  │  ",
+      [
+        "Rebase source",
+        0
+      ]
+    ],
+    [
+      "   ○  ",
+      [
+        "u",
+        1
+      ],
+      [
+        "ukzvpzo",
+        2
+      ],
+      " ",
+      [
+        "demo@example.invalid",
+        3
+      ],
+      " ",
+      [
+        "2026-01-01 12:00:00",
+        4
+      ],
+      " ",
+      [
+        "4",
+        5
+      ],
+      [
+        "3206a08",
+        2
+      ]
+    ],
+    [
+      "   │  Rebase base"
+    ],
+    [
+      "   ~"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "                                             ",
+      [
+        "✓ Rebased revisions · a u undo · C history · o operations",
+        12
+      ]
+    ],
+    [
+      "? help  H home  L log  r refresh  enter open  d diff  v evolog  s status  space mark  o ops  ...  q quit"
+    ]
+  ],
+  "scrollback": []
+}

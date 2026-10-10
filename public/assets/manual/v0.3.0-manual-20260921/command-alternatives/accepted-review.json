@@ -1,0 +1,204 @@
+{
+  "schema_version": 1,
+  "source_index": "manual/v0.3.0-manual-20260921/review-index.json",
+  "source_index_sha256": "17efd1f5f9a9c80791c6764f7972f466b4b29257831f2719b0c66b74b784fc16",
+  "review": {
+    "id": "command-alternatives",
+    "title": "Finish changes with noninteractive jj commands",
+    "status": "ready",
+    "source_tape": "tapes/manual/changes/command-alternatives.tape",
+    "source_tape_sha256": "cc08504436fd2e6eecab88d62bb41db4405748f20050f56d4f56f7f65b8604e1",
+    "website": {
+      "path": "assets/manual/v0.3.0-manual-20260921/command-alternatives"
+    },
+    "problems": [],
+    "checkpoints": [
+      {
+        "id": "command-alternatives-commit",
+        "png": "command-alternatives-commit.png",
+        "state": "command-alternatives-commit.json",
+        "png_sha256": "089b06efbf21cb36959ffc0ab69d4349c39aabbd21fd899f4529a777b6b6da8b",
+        "state_sha256": "79811bdf9ff70145601a689408bf951edac76c09d1a005ae10482ff67871e353",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "changes scenario agent",
+          "reviewed_at": "2026-09-21T03:37:41.312555+00:00",
+          "summary": "Green success status and new empty working-copy/Finalize forecast caching parent output are readable. Long repository prefixes clip message operands from the command rows.",
+          "findings": [
+            "UX-15"
+          ]
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "changes scenario agent",
+          "reviewed_at": "2026-09-21T03:37:41.312555+00:00",
+          "summary": "Status success uses #215b53 behind #dfe5ee; jj empty/ID colors remain in stderr. The output proves an empty child and finalized parent while the command row clips.",
+          "findings": [
+            "UX-15"
+          ]
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/changes-ci35557653700.json",
+        "text_style_review_source": "target/manual-recordings/reviews/changes-ci35557653700.json"
+      },
+      {
+        "id": "command-alternatives-duplicate",
+        "png": "command-alternatives-duplicate.png",
+        "state": "command-alternatives-duplicate.json",
+        "png_sha256": "ef98b2d7eca0024dfddffc1c5f011db1a54fa9b24dd2c1bf515a6f110a423946",
+        "state_sha256": "17cc62921702853f98ec73004d63bebf32cecc064aff7527de807c2ee0130bec",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "changes scenario agent",
+          "reviewed_at": "2026-09-21T03:37:41.312555+00:00",
+          "summary": "Successful duplicate output names the new change and original commit. Full argv is clipped; the bright trailing Actions band contains no obscured text.",
+          "findings": [
+            "UX-15"
+          ]
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "changes scenario agent",
+          "reviewed_at": "2026-09-21T03:37:41.312555+00:00",
+          "summary": "State reports the duplicated commit and new change identity with success styling. Command heading truncates duplicate and loses its operand; stdout is explicitly empty.",
+          "findings": [
+            "UX-15"
+          ]
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/changes-ci35557653700.json",
+        "text_style_review_source": "target/manual-recordings/reviews/changes-ci35557653700.json"
+      },
+      {
+        "id": "command-alternatives-revert",
+        "png": "command-alternatives-revert.png",
+        "state": "command-alternatives-revert.json",
+        "png_sha256": "cb0f933480ecde5d62b07786ead6737886f65eaff74febab05b3c4a0a62d1619",
+        "state_sha256": "e897180ecee864dd6102aca208d25866492dc92f5f0bad321870a26ed58914ea",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "changes scenario agent",
+          "reviewed_at": "2026-09-21T03:37:41.312555+00:00",
+          "summary": "Successful output lists one newly created reverse change while keeping the original named in its description. The command destination flags do not fit the top row.",
+          "findings": [
+            "UX-15"
+          ]
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "changes scenario agent",
+          "reviewed_at": "2026-09-21T03:37:41.312555+00:00",
+          "summary": "State contains Reverted 1 commits and the reverse description; success styling is distinct, but the repository prefix hides the source/destination argv.",
+          "findings": [
+            "UX-15"
+          ]
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/changes-ci35557653700.json",
+        "text_style_review_source": "target/manual-recordings/reviews/changes-ci35557653700.json"
+      },
+      {
+        "id": "command-alternatives-absorb",
+        "png": "command-alternatives-absorb.png",
+        "state": "command-alternatives-absorb.json",
+        "png_sha256": "49ca309518500557180093e706a00ccdcd49d3346de603175b65830cc339ccb2",
+        "state_sha256": "ef0cb7e703483c0f5d65f8660aae65d060826f5f85e866323cbaf8fd12c86f55",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "changes scenario agent",
+          "reviewed_at": "2026-09-21T03:37:41.312555+00:00",
+          "summary": "The output names the timeout ancestor receiving edits and clearly shows Remaining changes: A src/cache.js. The command itself is clipped by the repository prefix.",
+          "findings": [
+            "UX-15"
+          ]
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "changes scenario agent",
+          "reviewed_at": "2026-09-21T03:37:41.312555+00:00",
+          "summary": "State preserves absorbed-into count, descendant rebase count, working-copy and parent identities, and green remaining cache addition. The semantic outcome is readable.",
+          "findings": [
+            "UX-15"
+          ]
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/changes-ci35557653700.json",
+        "text_style_review_source": "target/manual-recordings/reviews/changes-ci35557653700.json"
+      }
+    ],
+    "metadata_path": "target/manual-recordings/ci-35557653700/manual-evidence-command-alternatives/capture-metadata.json",
+    "metadata_sha256": "599da81577050811215a6455406c6b99ecddd79edf18f55bc31708efe861bfd5",
+    "evidence_directory": "target/manual-recordings/ci-35557653700/manual-evidence-command-alternatives",
+    "evidence_status": "passed",
+    "source_commit": "7fcb4fa9af1bb624fcdc7ac14a64184a43c4e829",
+    "pr_head_commit": "d5200f713edc476fd446616ad46fec573f861baf",
+    "source_manifest_sha256": "42c0d25b424a807906eb4e0ba7ca72b4c0488685e9f57b3bcf62d3f01c6c6915",
+    "source_matches_checkout": true,
+    "binary": {
+      "invoked_path": "/home/runner/work/jk/jk/target/manual-build/jk",
+      "path": "/home/runner/work/jk/jk/target/manual-build/jk",
+      "sha256": "cb41f94b63ec85100829bd2b1e9ced84f37cae912996a48e93b56b8776c9c5ed",
+      "version": "jk 0.3.0",
+      "version_exit_code": 0
+    },
+    "jj": {
+      "invoked_path": "/home/runner/.cargo/bin/jj",
+      "path": "/home/runner/.cargo/bin/jj",
+      "sha256": "cd5efc3eb281d606bf9b5523167f79661da0f8c76a5aa32d61c07c7a351b6b44",
+      "version": "jj 0.45.1-7c41cdeb16b6b321c64e789a966b6adf723816a5",
+      "version_exit_code": 0
+    },
+    "betamax": {
+      "invoked_path": "/home/runner/work/_temp/betamax-pAPyto/bin/betamax",
+      "path": "/home/runner/work/_temp/betamax-pAPyto/bin/betamax",
+      "sha256": "db55fa6e7ff98e1df3c91921b5b3fb504b3cc8fdaf6b07e3da952f8757053490",
+      "version": "betamax 0.1.21",
+      "version_exit_code": 0
+    },
+    "ci_run": {
+      "id": "35557653700",
+      "attempt": "1",
+      "url": "https://github.com/joshka/jk/actions/runs/35557653700"
+    },
+    "assertions": [
+      {
+        "path": "command-alternatives-absorbed-assertions.json",
+        "sha256": "8858b28f2fbf4c5802ef1d4f3f4c63d3556b2d548e763e06d63bdb1a93819fc9",
+        "bytes": 496
+      },
+      {
+        "path": "command-alternatives-committed-assertions.json",
+        "sha256": "07e7b092f83b72334f2c7dd1fc49a6f617e89fe5df15114ff0e3bb5fc73b96b9",
+        "bytes": 644
+      },
+      {
+        "path": "command-alternatives-duplicated-assertions.json",
+        "sha256": "00c774721d47a092c979b922395726200dbc5ad4c78e9ebbca0f8fc9c128e2e6",
+        "bytes": 459
+      },
+      {
+        "path": "command-alternatives-reverted-assertions.json",
+        "sha256": "90a70b4d9774e560bfa494d26f60a4e88e32e451742d70f45ffee47c1d9244c3",
+        "bytes": 658
+      }
+    ],
+    "video": {
+      "path": "command-alternatives.mp4",
+      "sha256": "b53cb1cba408c962288e290226b4ca0c3e578169824d88efc97167bfa5178606",
+      "bytes": 869093
+    },
+    "video_review": {
+      "status": "reviewed",
+      "reviewer": "changes scenario agent",
+      "reviewed_at": "2026-09-21T03:37:41.312555+00:00",
+      "summary": "Review method: inspected all checkpoint PNGs inline and matching viewport text/styled spans, source tape, ffprobe duration 69.466667s at 1400x900/15fps, and actual MP4 frames sampled at 10.42, 34.73, 59.05s. Tape uses 80ms typing and 2\u20133s semantic holds. Samples show successful commit output, a refreshed duplicate graph, and the absorb input before submission. All four command outputs were checked individually; manual Backspace then refresh remains visible.",
+      "findings": [
+        "UX-09",
+        "UX-15",
+        "UX-16"
+      ],
+      "sha256": "b53cb1cba408c962288e290226b4ca0c3e578169824d88efc97167bfa5178606"
+    },
+    "source_snapshot_status": "preserved",
+    "video_review_source": "target/manual-recordings/reviews/changes-ci35557653700.json",
+    "pixel_review_complete": true,
+    "text_style_review_complete": true,
+    "video_review_complete": true
+  }
+}

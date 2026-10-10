@@ -1,0 +1,180 @@
+{
+  "schema_version": 1,
+  "source_index": "manual/v0.3.0-manual-20260921/review-index.json",
+  "source_index_sha256": "17efd1f5f9a9c80791c6764f7972f466b4b29257831f2719b0c66b74b784fc16",
+  "review": {
+    "id": "manual-rebase-source-before",
+    "title": "Insert a change and its descendants before a destination",
+    "status": "ready",
+    "source_tape": "tapes/manual/rewrite/manual-rebase-source-before.tape",
+    "source_tape_sha256": "461fe6ca247f7992175ca6962151d75950680bb1deff9151be78f4afb17096b6",
+    "website": {
+      "path": "assets/manual/v0.3.0-manual-20260921/manual-rebase-source-before"
+    },
+    "problems": [],
+    "checkpoints": [
+      {
+        "id": "manual-rebase-source-before-selector",
+        "png": "manual-rebase-source-before-selector.png",
+        "state": "manual-rebase-source-before-selector.json",
+        "png_sha256": "bfa3bc59c0a1a4da122015c9ff8da1e340e5c10b4106e0ad0ab438c0f3b02036",
+        "state_sha256": "b4fd1f3d06f8224b788d66203d18c562ef3a1d1a1412e307f436f6c7e1337497",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "scenario author",
+          "reviewed_at": "2026-09-21T03:55:01.204386+00:00",
+          "summary": "Opaque selector over the populated graph shows source + descendants (-s), insert before (-B), all role shortcuts and the searched destination description. The caption and full control row fit.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "scenario author",
+          "reviewed_at": "2026-09-21T03:55:01.204386+00:00",
+          "summary": "State confirms -s/-B roles and the correct selected destination. Cyan title/keys and dimmer hints remain distinct on #242c3a; underlying jj revision and graph styles retain their roles.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/source-before-ci35558741399.json",
+        "text_style_review_source": "target/manual-recordings/reviews/source-before-ci35558741399.json"
+      },
+      {
+        "id": "manual-rebase-source-before-preview",
+        "png": "manual-rebase-source-before-preview.png",
+        "state": "manual-rebase-source-before-preview.json",
+        "png_sha256": "9319fcec3834737cb881c477a2c8f575161062af3b2c852ebf8bd53e5ebddd53",
+        "state_sha256": "e3eac900e2069fa8a410b13c787d16e488fd74a0d356389503ff0b52a7d80578",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "scenario author",
+          "reviewed_at": "2026-09-21T03:55:01.204386+00:00",
+          "summary": "The preview explains moving descendants and inserting before the destination, includes exact operands, a warning and all four controls. Full IDs require graph matching (UX-04); the long fixture path wraps without missing command text.",
+          "findings": [
+            "UX-04"
+          ]
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "scenario author",
+          "reviewed_at": "2026-09-21T03:55:01.204386+00:00",
+          "summary": "Styled state confirms source + descendants, insert before, exact -s/-B argv and the destination-descendant warning. Gold caution and cyan actions remain readable on the opaque panel.",
+          "findings": [
+            "UX-04"
+          ]
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/source-before-ci35558741399.json",
+        "text_style_review_source": "target/manual-recordings/reviews/source-before-ci35558741399.json"
+      },
+      {
+        "id": "manual-rebase-source-before-success",
+        "png": "manual-rebase-source-before-success.png",
+        "state": "manual-rebase-source-before-success.json",
+        "png_sha256": "6a60bafc270693590e28ff79592dc2f5e5724fa87def500a80bc461c7bbc4590",
+        "state_sha256": "fbdb3258fad7e20cf323caf638cfd9bbcdfc8b7eedf6d6b8e760f0a773f46ca0",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "scenario author",
+          "reviewed_at": "2026-09-21T03:55:01.204386+00:00",
+          "summary": "The refreshed graph shows destination above source with an elided intermediate revision, and the captured success toast provides Undo/History/Operations. Exact descendant relationships are proven by repository assertions, not by the filtered three-revision graph.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "scenario author",
+          "reviewed_at": "2026-09-21T03:55:01.204386+00:00",
+          "summary": "Destination commit changed while source commit stayed unchanged because the source stack was already on the requested parent. State shows the elision row, working-copy marker, updated toast and navigation footer.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/source-before-ci35558741399.json",
+        "text_style_review_source": "target/manual-recordings/reviews/source-before-ci35558741399.json"
+      },
+      {
+        "id": "manual-rebase-source-before-history",
+        "png": "manual-rebase-source-before-history.png",
+        "state": "manual-rebase-source-before-history.json",
+        "png_sha256": "08642c04cc6782158722c69a6a44bfc578d82e2e14a796b10a83f16df6bafd66",
+        "state_sha256": "054e38b632d6c34c65be79ddd9ea48914e8bff25368e375bb162e36a871cdc25",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "scenario author",
+          "reviewed_at": "2026-09-21T03:55:01.204386+00:00",
+          "summary": "Command History marks the selected rebase ok. Its first stderr line is clipped after already i; this existing width limitation is documented as UX-15, and the repository assertions establish the full outcome. Footer controls remain readable.",
+          "findings": [
+            "UX-15"
+          ]
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "scenario author",
+          "reviewed_at": "2026-09-21T03:55:01.204386+00:00",
+          "summary": "State retains the selected ok log rebase row and clipped Skipped rebase of 2 commits diagnostic. Green status and cyan kind distinguish the mutation from the load rows.",
+          "findings": [
+            "UX-15"
+          ]
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/source-before-ci35558741399.json",
+        "text_style_review_source": "target/manual-recordings/reviews/source-before-ci35558741399.json"
+      }
+    ],
+    "metadata_path": "target/manual-recordings/ci-35558741399/manual-evidence-manual-rebase-source-before/capture-metadata.json",
+    "metadata_sha256": "4f86c65f798223f10326e3a83a545c2a10aaed6efc019c02530e39a13037cbdb",
+    "evidence_directory": "target/manual-recordings/ci-35558741399/manual-evidence-manual-rebase-source-before",
+    "evidence_status": "passed",
+    "source_commit": "47b3b0985cd561831d70afa5b192bc95e4c0fec8",
+    "pr_head_commit": "ec94b2b269e8a1fe8da28cdc3409e57adb6bc6aa",
+    "source_manifest_sha256": "42c0d25b424a807906eb4e0ba7ca72b4c0488685e9f57b3bcf62d3f01c6c6915",
+    "source_matches_checkout": true,
+    "binary": {
+      "invoked_path": "/home/runner/work/jk/jk/target/manual-build/jk",
+      "path": "/home/runner/work/jk/jk/target/manual-build/jk",
+      "sha256": "cb41f94b63ec85100829bd2b1e9ced84f37cae912996a48e93b56b8776c9c5ed",
+      "version": "jk 0.3.0",
+      "version_exit_code": 0
+    },
+    "jj": {
+      "invoked_path": "/home/runner/.cargo/bin/jj",
+      "path": "/home/runner/.cargo/bin/jj",
+      "sha256": "cd5efc3eb281d606bf9b5523167f79661da0f8c76a5aa32d61c07c7a351b6b44",
+      "version": "jj 0.45.1-7c41cdeb16b6b321c64e789a966b6adf723816a5",
+      "version_exit_code": 0
+    },
+    "betamax": {
+      "invoked_path": "/home/runner/work/_temp/betamax-XT7hzr/bin/betamax",
+      "path": "/home/runner/work/_temp/betamax-XT7hzr/bin/betamax",
+      "sha256": "db55fa6e7ff98e1df3c91921b5b3fb504b3cc8fdaf6b07e3da952f8757053490",
+      "version": "betamax 0.1.21",
+      "version_exit_code": 0
+    },
+    "ci_run": {
+      "id": "35558741399",
+      "attempt": "1",
+      "url": "https://github.com/joshka/jk/actions/runs/35558741399"
+    },
+    "assertions": [
+      {
+        "path": "manual-rebase-source-before-assertions.json",
+        "sha256": "36b69bb0a9a205a0f861c5d7b4456b2cc90b3b3583967d601bd07eb615e5bb6a",
+        "bytes": 1115
+      }
+    ],
+    "video": {
+      "path": "manual-rebase-source-before.mp4",
+      "sha256": "60a54d502fc9f3af859c36fbdfacdec9975c8f1629babd7bed3735568555b96e",
+      "bytes": 203970
+    },
+    "video_review": {
+      "status": "reviewed",
+      "reviewer": "scenario author",
+      "reviewed_at": "2026-09-21T03:55:01.204386+00:00",
+      "summary": "Reviewed all four original PNGs inline, paired text/styles, source timing, all six passing repository assertions, and actual MP4 frames at 4s, 8s and 14s. The 16.066667s 1400x900 15fps recording uses semantic waits, 80ms typing and three-second checkpoint holds; setup/assertions remain hidden. Samples show the -s/-B selector, complete warning/command before confirmation and successful history. Filtered graph and clipped history do not independently show descendant relationships; exact assertions establish source\u2192Verify source\u2192destination and preservation of both branches.",
+      "findings": [
+        "UX-04",
+        "UX-15"
+      ],
+      "sha256": "60a54d502fc9f3af859c36fbdfacdec9975c8f1629babd7bed3735568555b96e"
+    },
+    "source_snapshot_status": "preserved",
+    "video_review_source": "target/manual-recordings/reviews/source-before-ci35558741399.json",
+    "pixel_review_complete": true,
+    "text_style_review_complete": true,
+    "video_review_complete": true
+  }
+}

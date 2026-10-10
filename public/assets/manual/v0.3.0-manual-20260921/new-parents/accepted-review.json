@@ -1,0 +1,151 @@
+{
+  "schema_version": 1,
+  "source_index": "manual/v0.3.0-manual-20260921/review-index.json",
+  "source_index_sha256": "17efd1f5f9a9c80791c6764f7972f466b4b29257831f2719b0c66b74b784fc16",
+  "review": {
+    "id": "new-parents",
+    "title": "Create a merge from ordered parents",
+    "status": "ready",
+    "source_tape": "tapes/manual/changes/new-parents.tape",
+    "source_tape_sha256": "95848a829857a512303795c9189435711e875812751ef566eaf85a4deaf1ee7d",
+    "website": {
+      "path": "assets/manual/v0.3.0-manual-20260921/new-parents"
+    },
+    "problems": [],
+    "checkpoints": [
+      {
+        "id": "new-parents-ordered",
+        "png": "new-parents-ordered.png",
+        "state": "new-parents-ordered.json",
+        "png_sha256": "77a185209ac7b65bcce0886044a2b803a668b0724d890ed9c9552e94d369f4d3",
+        "state_sha256": "527077bd0d3666ea32629cf5c6d0b3a5b3a258e8c5022c274e82cba98e37bc43",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "changes scenario agent",
+          "reviewed_at": "2026-09-21T03:37:41.312555+00:00",
+          "summary": "Both sibling revisions carry marks; the cursor sits on the second chosen parent and footer mark 2/2 makes the current ordinal visible.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "changes scenario agent",
+          "reviewed_at": "2026-09-21T03:37:41.312555+00:00",
+          "summary": "State identifies Experiment as the first marked @ and Document cache policy as the second marked cursor row; graph and selection styles remain distinct.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/changes-ci35557653700.json",
+        "text_style_review_source": "target/manual-recordings/reviews/changes-ci35557653700.json"
+      },
+      {
+        "id": "new-parents-merged",
+        "png": "new-parents-merged.png",
+        "state": "new-parents-merged.json",
+        "png_sha256": "032d5426bc30f610a93a5d938dc39bc7d15a2adad5d1548c4ef6a4f949de63e6",
+        "state_sha256": "f3cba4a0db4fb89eaa6aa8a1034da0e305c194b9ba13a878dbaa173bdb8cf5a9",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "changes scenario agent",
+          "reviewed_at": "2026-09-21T03:37:41.312555+00:00",
+          "summary": "A new empty merge joins the two selected siblings and becomes @. Both original marks remain after success, so the next action still has marked operands.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "changes scenario agent",
+          "reviewed_at": "2026-09-21T03:37:41.312555+00:00",
+          "summary": "State confirms empty merge, both branches and footer 2 marked. Exact parent order is verified separately by repository assertions; the PNG alone does not expose the stored parent ordering.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/changes-ci35557653700.json",
+        "text_style_review_source": "target/manual-recordings/reviews/changes-ci35557653700.json"
+      },
+      {
+        "id": "new-parents-undone",
+        "png": "new-parents-undone.png",
+        "state": "new-parents-undone.json",
+        "png_sha256": "9729373545cbddf10c699a13d424c2d92e9fb23396309c7bd03647553da98f52",
+        "state_sha256": "268b2944bcfb6bd153056ce2867729331bb5023fb13f4eeba604d3d28c22777b",
+        "pixel_review": {
+          "status": "reviewed",
+          "reviewer": "changes scenario agent",
+          "reviewed_at": "2026-09-21T03:37:41.312555+00:00",
+          "summary": "Undo removes the merge and returns @ to the original cache change, with the policy sibling intact. The restored graph and caption remain legible.",
+          "findings": []
+        },
+        "text_style_review": {
+          "status": "reviewed",
+          "reviewer": "changes scenario agent",
+          "reviewed_at": "2026-09-21T03:37:41.312555+00:00",
+          "summary": "State returns to the two-sibling starting graph and original @ identity. No marks remain because the tape reopened the app between outcome verification and recovery.",
+          "findings": []
+        },
+        "pixel_review_source": "target/manual-recordings/reviews/changes-ci35557653700.json",
+        "text_style_review_source": "target/manual-recordings/reviews/changes-ci35557653700.json"
+      }
+    ],
+    "metadata_path": "target/manual-recordings/ci-35557653700/manual-evidence-new-parents/capture-metadata.json",
+    "metadata_sha256": "103c148641b03adf286a5c782c350134014f5fb28c351f61afbd080134d97e52",
+    "evidence_directory": "target/manual-recordings/ci-35557653700/manual-evidence-new-parents",
+    "evidence_status": "passed",
+    "source_commit": "7fcb4fa9af1bb624fcdc7ac14a64184a43c4e829",
+    "pr_head_commit": "d5200f713edc476fd446616ad46fec573f861baf",
+    "source_manifest_sha256": "42c0d25b424a807906eb4e0ba7ca72b4c0488685e9f57b3bcf62d3f01c6c6915",
+    "source_matches_checkout": true,
+    "binary": {
+      "invoked_path": "/home/runner/work/jk/jk/target/manual-build/jk",
+      "path": "/home/runner/work/jk/jk/target/manual-build/jk",
+      "sha256": "cb41f94b63ec85100829bd2b1e9ced84f37cae912996a48e93b56b8776c9c5ed",
+      "version": "jk 0.3.0",
+      "version_exit_code": 0
+    },
+    "jj": {
+      "invoked_path": "/home/runner/.cargo/bin/jj",
+      "path": "/home/runner/.cargo/bin/jj",
+      "sha256": "cd5efc3eb281d606bf9b5523167f79661da0f8c76a5aa32d61c07c7a351b6b44",
+      "version": "jj 0.45.1-7c41cdeb16b6b321c64e789a966b6adf723816a5",
+      "version_exit_code": 0
+    },
+    "betamax": {
+      "invoked_path": "/home/runner/work/_temp/betamax-1z7Nzf/bin/betamax",
+      "path": "/home/runner/work/_temp/betamax-1z7Nzf/bin/betamax",
+      "sha256": "db55fa6e7ff98e1df3c91921b5b3fb504b3cc8fdaf6b07e3da952f8757053490",
+      "version": "betamax 0.1.21",
+      "version_exit_code": 0
+    },
+    "ci_run": {
+      "id": "35557653700",
+      "attempt": "1",
+      "url": "https://github.com/joshka/jk/actions/runs/35557653700"
+    },
+    "assertions": [
+      {
+        "path": "new-parents-merged-assertions.json",
+        "sha256": "20f9a017e06d5cf6810f13b0dd1a813442d6610967ef5a7074a42170299e44da",
+        "bytes": 660
+      },
+      {
+        "path": "new-parents-undone-assertions.json",
+        "sha256": "f73d9e08cd5d1ac14accc988378454e8d66a2c176e030ccb8a51a79d24a0b394",
+        "bytes": 1011
+      }
+    ],
+    "video": {
+      "path": "new-parents.mp4",
+      "sha256": "df1c5ff3c3c670c278101067db5b7344bce762d26ef0a0bf7185de5f205d4944",
+      "bytes": 293056
+    },
+    "video_review": {
+      "status": "reviewed",
+      "reviewer": "changes scenario agent",
+      "reviewed_at": "2026-09-21T03:37:41.312555+00:00",
+      "summary": "Review method: inspected all checkpoint PNGs inline and matching viewport text/styled spans, source tape, ffprobe duration 20.933333s at 1400x900/15fps, and actual MP4 frames sampled at 3.14, 10.47, 17.79s. Tape uses 80ms typing and 2\u20133s semantic holds. Samples show the first mark, created merge with success feedback, and the Undo action menu. This confirms parent selection and recovery transitions beyond the static checkpoints.",
+      "findings": [],
+      "sha256": "df1c5ff3c3c670c278101067db5b7344bce762d26ef0a0bf7185de5f205d4944"
+    },
+    "source_snapshot_status": "preserved",
+    "video_review_source": "target/manual-recordings/reviews/changes-ci35557653700.json",
+    "pixel_review_complete": true,
+    "text_style_review_complete": true,
+    "video_review_complete": true
+  }
+}

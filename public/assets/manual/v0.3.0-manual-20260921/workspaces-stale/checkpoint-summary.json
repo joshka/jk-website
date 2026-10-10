@@ -1,0 +1,113 @@
+[
+  {
+    "checkpoint": "workspaces-stale-preview",
+    "viewport_text": "jk jj workspace list\n   * default  /home/runner/work/jk/jk/target/manual-fixtures/workspaces-stale.SYq8aL/workflows.vbU\n\u203a    scratch  /home/runner/work/jk/jk/target/manual-fixtures/workspaces-stale.SYq8aL/workflows.vbU\n\n\n\n\n\n\n\n\n            Update stale workspace?\n\n\n            Workspace  scratch\n            Path\n            /home/runner/work/jk/jk/target/manual-fixtures/workspaces-stale.SYq8aL/wor\n            kflows.vbUrW6/workspaces/scratch\n\n            Exact command\n            jj --no-pager --color never --repository /home/runner/work/jk/jk/target/ma\n            nual-fixtures/workspaces-stale.SYq8aL/workflows.vbUrW6/workspaces/scratch\n            workspace update-stale\n\n\n\n\n\n\n\n              \u2191/\u2193 Review    Enter / y Confirm    Esc / n Cancel\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#269d9a",
+        "bold": true
+      },
+      {
+        "fg": "#65d4cf",
+        "bg": "#242c3a",
+        "bold": true
+      },
+      {
+        "fg": "#e0e6ee",
+        "bg": "#242c3a"
+      },
+      {
+        "fg": "#a1aebe",
+        "bg": "#242c3a"
+      },
+      {
+        "fg": "#e0e6ee",
+        "bg": "#242c3a",
+        "bold": true
+      }
+    ],
+    "size": [
+      98,
+      43
+    ]
+  },
+  {
+    "checkpoint": "workspaces-stale-updated",
+    "viewport_text": "jk jj workspace list\n   * default  /home/runner/work/jk/jk/target/manual-fixtures/workspaces-stale.SYq8aL/workflows.vbU\n\u203a    scratch  /home/runner/work/jk/jk/target/manual-fixtures/workspaces-stale.SYq8aL/workflows.vbU\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nupdated scratch via workspace update-stale: Working copy  (@) now at: lkpsvqkm 4b6fda98 Refresh sc\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#269d9a",
+        "bold": true
+      }
+    ],
+    "size": [
+      98,
+      43
+    ]
+  },
+  {
+    "checkpoint": "workspaces-stale-status",
+    "viewport_text": "jk jj -R /home/runner/work/jk/jk/target/manual-fixtures/workspaces-stale.SYq8aL/workflows.vbUrW6/w\nWorking copy changes:\nA ../scratch/KEEP-ME.txt\nD ../scratch/README.md\nWorking copy  (@) : lkpsvqkm 4b6fda98 Refresh scratch description\nParent commit (@-): lypuszsr 575ac4b4 Add workspace demo files\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n? help  V options  r refresh  j/k line  space page  q quit\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#52aa60"
+      },
+      {
+        "fg": "#c26265"
+      },
+      {
+        "fg": "#d58bf0",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152",
+        "bold": true
+      },
+      {
+        "fg": "#76a8f2",
+        "bold": true
+      },
+      {
+        "fg": "#487fd4",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152"
+      },
+      {
+        "fg": "#af5bd1",
+        "bold": true
+      }
+    ],
+    "size": [
+      98,
+      43
+    ]
+  },
+  {
+    "checkpoint": "workspaces-stale-current",
+    "viewport_text": "jk jj workspace list\n   * default  /home/runner/work/jk/jk/target/manual-fixtures/workspaces-stale.SYq8aL/workflows.vbU\n\u203a    scratch  /home/runner/work/jk/jk/target/manual-fixtures/workspaces-stale.SYq8aL/workflows.vbU\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nupdated scratch via workspace update-stale: Attempted recovery, but the working copy is not stale.\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#269d9a",
+        "bold": true
+      }
+    ],
+    "size": [
+      98,
+      43
+    ]
+  }
+]

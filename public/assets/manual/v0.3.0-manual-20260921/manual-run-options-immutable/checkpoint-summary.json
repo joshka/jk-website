@@ -1,0 +1,294 @@
+[
+  {
+    "checkpoint": "manual-run-options-immutable-selector",
+    "viewport_text": "jk jj\n\u203a  @  zmuwpmrz demo@example.invalid 2026-01-01 12:00:00 1ea1c096\n\u00b7  \u2502  Rebase source\n   \u2502 \u25cb  tknqoqsk demo@example.invalid 2026-01-01 12:00:00 eea84fa9\n   \u251c\u2500\u256f  Rebase destination\n   \u25c6  pkkxyxpy demo@example.invalid 2026-01-01 12:00:00 f6e9ae2a\n   \u2502  Rebase base\n   \u25c6  zzzzzzzz root() 00000000\n\n\n\n\n\n\n           Choose rebase destination\n\n           Source: 1ea1c096ef2e\n           Scope: revision only (-r)   r revision  b branch  s descendants\n           Place: onto (-o)   o onto  A after  B before\n           Search: /Rebase destination\n           \u203a eea84fa905db  Rebase destination\n\n           / search   \u2191/\u2193 choose   Enter preview   Esc cancel\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#52c4c0",
+        "bold": true
+      },
+      {
+        "fg": "#d58bf0",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152",
+        "bold": true
+      },
+      {
+        "fg": "#ad9b49",
+        "bold": true
+      },
+      {
+        "fg": "#76a8f2",
+        "bold": true
+      },
+      {
+        "fg": "#487fd4",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152"
+      },
+      {
+        "fg": "#ad9b49"
+      },
+      {
+        "fg": "#269d9a"
+      },
+      {
+        "fg": "#af5bd1",
+        "bold": true
+      },
+      {
+        "fg": "#52aa60"
+      },
+      {
+        "fg": "#65d4cf",
+        "bg": "#242c3a",
+        "bold": true
+      },
+      {
+        "fg": "#e0e6ee",
+        "bg": "#242c3a"
+      },
+      {
+        "fg": "#a1aebe",
+        "bg": "#242c3a"
+      }
+    ],
+    "size": [
+      104,
+      39
+    ]
+  },
+  {
+    "checkpoint": "manual-run-options-immutable-preview",
+    "viewport_text": "jk jj\n\u203a  @  zmuwpmrz demo@example.invalid 2026-01-01 12:00:00 1ea1c096\n\u00b7  \u2502  Rebase source\n   \u2502 \u25cb  tknqoqsk demo@example.invalid 2026-01-01 12:00:00 eea84fa9\n   \u251c\u2500\u256f  Rebase destination\n   \u25c6  pkkxyxpy demo@example.invalid 2026-01-01 12:00:00 f6e9ae2a\n   \u2502  Rebase base\n   \u25c6  zzzzzzzz root() 00000000\n\n\n              Rebase revisions\n\n              Source: 1ea1c096ef2e40d47137fbdbf4659f75345d2487\n              Source role: revision only\n              Moves the selected revision (-r); reconnects descendants to its old parents.\n              Destination: eea84fa905dbb889a872ada7075e4840b495d34f\n              Placement: onto\n              Makes this revision the new parent (-o).\n\n              ! Rewrites local history.\n\n              Command\n              jj --no-pager --color always --repository\n              /home/runner/work/jk/jk/target/manual-fixtures/run-options-immutable.KPN6EG/\n              workflows.0ENLtJ/rebase rebase -r 1ea1c096ef2e40d47137fbdbf4659f75345d2487\n              -o eea84fa905dbb889a872ada7075e4840b495d34f\n\n\n              enter run  y copy  esc cancel  o options\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#52c4c0",
+        "bold": true
+      },
+      {
+        "fg": "#d58bf0",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152",
+        "bold": true
+      },
+      {
+        "fg": "#ad9b49",
+        "bold": true
+      },
+      {
+        "fg": "#76a8f2",
+        "bold": true
+      },
+      {
+        "fg": "#487fd4",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152"
+      },
+      {
+        "fg": "#ad9b49"
+      },
+      {
+        "fg": "#269d9a"
+      },
+      {
+        "fg": "#af5bd1",
+        "bold": true
+      },
+      {
+        "fg": "#52aa60"
+      },
+      {
+        "fg": "#e0e6ee",
+        "bg": "#242c3a"
+      },
+      {
+        "fg": "#65d4cf",
+        "bg": "#242c3a",
+        "bold": true
+      },
+      {
+        "fg": "#eab855",
+        "bg": "#242c3a"
+      },
+      {
+        "fg": "#e0e6ee",
+        "bg": "#242c3a",
+        "bold": true
+      }
+    ],
+    "size": [
+      104,
+      39
+    ]
+  },
+  {
+    "checkpoint": "manual-run-options-immutable-rejected",
+    "viewport_text": "jk Command 3\nCommand: jj --no-pager --color always --repository /home/runner/work/jk/jk/target/manual-fixtures/run-op\nSource: log rebase\nStatus: exit 1\nDuration: 10 ms\nOperation: none\nSummary: exit 1: Error: Commit 1ea1c096ef2e is immutable\n\nStdout:\n  bytes: 0\n  lines: 0\n  truncated: no\n  redacted: no\n  <empty>\n\nStderr:\n  bytes: 591\n  lines: 7\n  truncated: no\n  redacted: no\n\nError: Commit 1ea1c096ef2e is immutable\nHint: Could not modify commit: zmuwpmrz 1ea1c096 Rebase source\nHint: Immutable commits are used to protect shared history.\nHint: For more information, see:\n      - https://docs.jj-vcs.dev/latest/config/#set-of-immutable-commits\n      - `jj help -k config`, \"Set of immutable commits\"\nHint: This operation would rewrite 1 immutable commits.\n\n\n\n\n\n\n\n\n\n\n? help  V options  r refresh  j/k line  space page  q quit\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#c26265",
+        "bold": true
+      },
+      {
+        "fg": "#269d9a",
+        "bold": true
+      },
+      {
+        "fg": "#d58bf0",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152",
+        "bold": true
+      },
+      {
+        "fg": "#76a8f2",
+        "bold": true
+      }
+    ],
+    "size": [
+      104,
+      39
+    ]
+  },
+  {
+    "checkpoint": "manual-run-options-immutable-override",
+    "viewport_text": "jk jj\n\u203a  @  zmuwpmrz demo@example.invalid 2026-01-01 12:00:00 1ea1c096\n\u00b7  \u2502  Rebase source\n   \u2502 \u25cb  tknqoqsk demo@example.invalid 2026-01-01 12:00:00 eea84fa9\n   \u251c\u2500\u256f  Rebase destination\n   \u25c6  pkkxyxpy demo@example.invalid 2026-01-01 12:00:00 f6e9ae2a\n   \u2502  Rebase base\n   \u25c6  zzzzzzzz root() 00000000\n\n              Rebase revisions\n\n              Source: 1ea1c096ef2e40d47137fbdbf4659f75345d2487\n              Source role: revision only\n              Moves the selected revision (-r); reconnects descendants to its old parents.\n              Destination: eea84fa905dbb889a872ada7075e4840b495d34f\n              Placement: onto\n              Makes this revision the new parent (-o).\n\n              ! Rewrites local history.\n              ! May rewrite immutable commits.\n\n              Command\n              jj --no-pager --color always --repository\n              /home/runner/work/jk/jk/target/manual-fixtures/run-options-immutable.KPN6EG/\n              workflows.0ENLtJ/rebase --ignore-immutable rebase -r\n              1ea1c096ef2e40d47137fbdbf4659f75345d2487 -o\n              eea84fa905dbb889a872ada7075e4840b495d34f\n\n\n              enter run  y copy  esc cancel  o options\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#52c4c0",
+        "bold": true
+      },
+      {
+        "fg": "#d58bf0",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152",
+        "bold": true
+      },
+      {
+        "fg": "#ad9b49",
+        "bold": true
+      },
+      {
+        "fg": "#76a8f2",
+        "bold": true
+      },
+      {
+        "fg": "#487fd4",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152"
+      },
+      {
+        "fg": "#ad9b49"
+      },
+      {
+        "fg": "#269d9a"
+      },
+      {
+        "fg": "#af5bd1",
+        "bold": true
+      },
+      {
+        "fg": "#52aa60"
+      },
+      {
+        "fg": "#e0e6ee",
+        "bg": "#242c3a"
+      },
+      {
+        "fg": "#65d4cf",
+        "bg": "#242c3a",
+        "bold": true
+      },
+      {
+        "fg": "#eab855",
+        "bg": "#242c3a"
+      },
+      {
+        "fg": "#e0e6ee",
+        "bg": "#242c3a",
+        "bold": true
+      }
+    ],
+    "size": [
+      104,
+      39
+    ]
+  },
+  {
+    "checkpoint": "manual-run-options-immutable-success",
+    "viewport_text": "jk jj\n\u203a  @  zmuwpmrz demo@example.invalid 2026-01-01 12:00:00 e5e4584f\n\u00b7  \u2502  Rebase source\n   ~  (elided revisions)\n   \u25c6  zzzzzzzz root() 00000000\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                                             \u2713 Rebased revisions \u00b7 a u undo \u00b7 C history \u00b7 o operations\n? help  H home  L log  r refresh  enter open  d diff  v evolog  s status  space mark  o ops  ...  q quit\n",
+    "styles": [
+      {
+        "bold": true
+      },
+      {
+        "fg": "#52c4c0",
+        "bold": true
+      },
+      {
+        "fg": "#d58bf0",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152",
+        "bold": true
+      },
+      {
+        "fg": "#ad9b49",
+        "bold": true
+      },
+      {
+        "fg": "#76a8f2",
+        "bold": true
+      },
+      {
+        "fg": "#3a4152"
+      },
+      {
+        "fg": "#487fd4",
+        "bold": true
+      },
+      {
+        "fg": "#52aa60"
+      },
+      {
+        "fg": "#af5bd1",
+        "bold": true
+      },
+      {
+        "fg": "#e0e6ee",
+        "bg": "#242c3a"
+      }
+    ],
+    "size": [
+      104,
+      39
+    ]
+  }
+]

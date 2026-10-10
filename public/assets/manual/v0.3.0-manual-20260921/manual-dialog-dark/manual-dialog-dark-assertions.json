@@ -1,0 +1,20 @@
+{
+  "scenario": "manual-dialog-dark",
+  "stage": "manual-dialog-dark",
+  "status": "passed",
+  "repository": "/home/runner/work/jk/jk/target/forecast-demo.ORuVHH",
+  "assertions": [
+    {
+      "name": "working-copy commit unchanged",
+      "passed": true,
+      "actual": "22340ee9dcc8128d31200699f031a7a0be5f867a",
+      "expected": "22340ee9dcc8128d31200699f031a7a0be5f867a"
+    },
+    {
+      "name": "visible repository graph unchanged",
+      "passed": true,
+      "actual": "0000000000000000000000000000000000000000\n22340ee9dcc8128d31200699f031a7a0be5f867a\n3de7c15be0a9e87eece6d610802114162d9c2910\n92b946db8e5fa6a09e7c923326dd09f9a4431252\nf67b5b78946c1d79e60f74174d4ff6a347e948ae",
+      "expected": "0000000000000000000000000000000000000000\n22340ee9dcc8128d31200699f031a7a0be5f867a\n3de7c15be0a9e87eece6d610802114162d9c2910\n92b946db8e5fa6a09e7c923326dd09f9a4431252\nf67b5b78946c1d79e60f74174d4ff6a347e948ae"
+    }
+  ]
+}
